@@ -334,6 +334,39 @@ header {
     gap: 10px;
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding: 12px;
+        gap: 8px;
+        scrollbar-width: thin;
+        scrollbar-color: #31343C #f0f0f0;
+    }
+    
+    .container::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .container::-webkit-scrollbar-track {
+        background: #f0f0f0;
+        border-radius: 3px;
+    }
+    
+    .container::-webkit-scrollbar-thumb {
+        background: #31343C;
+        border-radius: 3px;
+    }
+    
+    .day {
+        min-width: 280px;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+}
 .day {
     background-color: white;
     border-radius: 8px;
@@ -415,11 +448,6 @@ footer {
     .header-date {
         font-size: 0.9em;
     }
-    .container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-        padding: 12px;
-    }
     .day {
         min-height: 120px;
         padding: 8px;
@@ -435,15 +463,29 @@ footer {
         width: 40px;
         height: 40px;
     }
+    .symbol {
+        font-size: 12px;
+    }
     .mode-btn {
         padding: 8px 16px;
+        font-size: 14px;
+    }
+    .week-label {
+        min-width: 180px;
         font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
-    .container {
+    .day {
+        min-width: 260px;
+    }
+    .logos {
         grid-template-columns: 1fr;
+    }
+    .week-label {
+        min-width: 160px;
+        font-size: 13px;
     }
 }
 </style>
