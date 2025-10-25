@@ -152,7 +152,7 @@ with open("earnings_data.json", "w", encoding="utf-8") as f:
     json.dump(weekly_data, f, ensure_ascii=False, indent=2)
 print(f"✅ earnings_data.json generated ({len(weekly_data)} records)")
 
-# 月〜金のみの日付リストを生成
+# 月～金のみの日付リストを生成
 start_date = datetime.strptime(FROM_DATE, "%Y-%m-%d")
 end_date = datetime.strptime(TO_DATE, "%Y-%m-%d")
 weekday_dates = []
@@ -271,7 +271,7 @@ header {
     height: 40px;
     border: none;
     background-color: #f0f0f0;
-    border-radius: 50%;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
     display: flex;
@@ -293,6 +293,8 @@ header {
     font-weight: 600;
     font-size: 15px;
     color: #333;
+    min-width: 200px;
+    text-align: center;
 }
 .week-indicators {
     display: flex;
