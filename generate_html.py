@@ -135,6 +135,8 @@ url = f"https://finnhub.io/api/v1/calendar/earnings?from={FROM_DATE}&to={TO_DATE
 resp = requests.get(url)
 data = resp.json().get("earningsCalendar", [])
 df = pd.DataFrame(data)
+# NaNを0に置き換え
+df = df.fillna(0)
 
 # JSONファイルの生成（Weekly用の全データ）
 weekly_data = df[df["symbol"].isin(TARGET_WEEKLY)].to_dict(orient="records")
