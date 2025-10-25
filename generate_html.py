@@ -5,27 +5,6 @@ import requests
 from datetime import datetime, timedelta
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
-
-# 現在の日付から期間を自動設定
-today = datetime.now()
-
-# 開始日：今月の1日
-FROM_DATE = today.replace(day=1).strftime("%Y-%m-%d")
-
-# 終了日：翌月末
-# 今月が12月の場合は翌年1月を考慮
-if today.month == 12:
-    next_month_first = today.replace(year=today.year + 1, month=1, day=1)
-else:
-    next_month_first = today.replace(month=today.month + 1, day=1)
-
-# 翌月の1日から1日引いて翌月末を取得
-# （翌月1日 + 31日後）の月の1日 - 1日 = 翌月末
-next_month_end = (next_month_first.replace(day=28) + timedelta(days=4)).replace(day=1) - timedelta(days=1)
-TO_DATE = next_month_end.strftime("%Y-%m-%d")
-
-print(f"📅 Period: {FROM_DATE} to {TO_DATE}")
-
 ASSETS_DIR = "assets/logos"
 
 # Monthly表示用（主要銘柄のみ）
@@ -149,19 +128,34 @@ TARGET_WEEKLY = list(dict.fromkeys(TARGET_WEEKLY))
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 print(f"📊 TARGET_WEEKLY: {len(TARGET_WEEKLY)} symbols")
 
-# APIからデータ取得
-url = f"https://finnhub.io/api/v1/calendar/earnings?from={FROM_DATE}&to={TO_DATE}&token={API_KEY}"
-resp = requests.get(url)
-data = resp.json().get("earningsCalendar", [])
-df = pd.DataFrame(data)
-# NaNを0に置き換え
-df = df.fillna(0)
+# 月の開始日と終了日を計算
+def month_range(date):
+    start = date.replace(day=1)
+    next_month = start.replace(day=28) + timedelta(days=4)  # 確実に翌月に進む
+    end = next_month.replace(day=1) - timedelta(days=1)
+    return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
-# JSONファイルの生成（Weekly用の全データ）
-weekly_data = df[df["symbol"].isin(TARGET_WEEKLY)].to_dict(orient="records")
+# 欠損値を0に置き換える
+def clean_record(record):
+    return {k: (0 if v is None else v) for k, v in record.items()}
+
+today = datetime.now()
+months = [today, today.replace(month=today.month % 12 + 1)]  # 今月と翌月
+
+all_data = []
+
+for m in months:
+    from_date, to_date = month_range(m)
+    url = f"https://finnhub.io/api/v1/calendar/earnings?from={from_date}&to={to_date}&token={API_KEY}"
+    month_data = requests.get(url).json().get("earningsCalendar", [])
+    # 対象銘柄のみ抽出＆欠損値処理
+    all_data.extend([clean_record(d) for d in month_data if d["symbol"] in TARGET_WEEKLY])
+
+# JSONファイルに出力
 with open("earnings_data.json", "w", encoding="utf-8") as f:
-    json.dump(weekly_data, f, ensure_ascii=False, indent=2)
-print(f"✅ earnings_data.json generated ({len(weekly_data)} records)")
+    json.dump(all_data, f, ensure_ascii=False, indent=2)
+
+print(f"✅ earnings_data.json generated ({len(all_data)} records)")
 
 # 月～金のみの日付リストを生成
 start_date = datetime.strptime(FROM_DATE, "%Y-%m-%d")
@@ -209,20 +203,32 @@ header {
     padding: 16px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 12px;
+    justify-content: space-between;
+    position: relative;
 }
-.header-content {
+.header-left {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+    gap: 12px;
 }
 .header-icon {
     width: 40px;
     height: 40px;
     object-fit: contain;
-    margin-bottom: 8px;
+}
+.header-logo-text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+}
+.header-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .header-title {
     font-size: 1.8em;
@@ -448,10 +454,24 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .header-left {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-content {
+        position: static;
+        transform: none;
+    }
     .header-icon {
         width: 32px;
         height: 32px;
-        margin-bottom: 6px;
+    }
+    .header-logo-text {
+        font-size: 1.0em;
     }
     .header-title {
         font-size: 1.2em;
@@ -503,8 +523,11 @@ footer {
 </head>
 <body>
 <header>
-    <div class="header-content">
+    <div class="header-left">
         <img src="assets/icon.png" alt="Market Time Zen" class="header-icon">
+        <span class="header-logo-text">Market Time Zen</span>
+    </div>
+    <div class="header-content">
         <div class="header-title">Earnings Calendar</div>
         <div class="header-date">""" + datetime.now().strftime('%B %d, %Y') + """</div>
     </div>
