@@ -5,8 +5,16 @@ import requests
 from datetime import datetime, timedelta
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
-FROM_DATE = "2025-10-01"
-TO_DATE = "2025-10-31"
+
+# 現在の日付から期間を自動設定
+today = datetime.now()
+# 開始日：今月の1日
+FROM_DATE = today.replace(day=1).strftime("%Y-%m-%d")
+# 終了日：翌月末（今月末 + 翌月分も含める）
+next_month = today.replace(day=28) + timedelta(days=4)
+end_of_next_month = next_month.replace(day=1) + timedelta(days=32)
+TO_DATE = (end_of_next_month.replace(day=1) - timedelta(days=1)).strftime("%Y-%m-%d")
+
 ASSETS_DIR = "assets/logos"
 
 # Monthly表示用（主要銘柄のみ）
