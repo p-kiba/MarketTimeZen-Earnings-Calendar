@@ -191,9 +191,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+.header-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 8px;
 }
 .header-title {
     font-size: 1.8em;
@@ -384,6 +394,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .header-icon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 6px;
+    }
     .header-title {
         font-size: 1.2em;
     }
@@ -426,6 +441,7 @@ footer {
 <body>
 <header>
     <div class="header-content">
+        <img src="assets/icon.png" alt="Market Time Zen" class="header-icon">
         <div class="header-title">Earnings Calendar</div>
         <div class="header-date">""" + datetime.now().strftime('%B %d, %Y') + """</div>
     </div>
