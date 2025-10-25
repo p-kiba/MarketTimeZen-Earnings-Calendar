@@ -154,7 +154,7 @@ while current <= end_date:
         weekday_dates.append(current)
     current += timedelta(days=1)
 
-# 週ごとに分割
+# 週ごとに分割（月曜から金曜までの5日間）
 weeks = []
 current_week = []
 for date in weekday_dates:
@@ -190,22 +190,21 @@ header {
     padding: 16px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
 }
 .header-content {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-.header-icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    text-align: center;
 }
 .header-title {
     font-size: 1.8em;
     font-weight: 600;
     color: white;
+    margin: 0;
+}
+.header-date {
+    font-size: 1.0em;
+    color: #ddd;
+    margin-top: 4px;
 }
 .controls {
     background-color: white;
@@ -250,12 +249,23 @@ header {
     gap: 10px;
 }
 .nav-btn {
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    background-color: white;
-    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    color: #333;
+}
+.nav-btn:hover:not(:disabled) {
+    background-color: #31343C;
+    color: white;
+    transform: scale(1.1);
 }
 .nav-btn:disabled {
     opacity: 0.3;
@@ -316,6 +326,7 @@ header {
 .day.today {
     border: 3px solid #4CAF50;
     box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    background-color: #f0fff0;
 }
 .date {
     font-weight: 600;
@@ -325,38 +336,37 @@ header {
 }
 .day.today .date {
     color: #4CAF50;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .logos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 8px;
 }
 .logo-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    height: 45px;
+    justify-content: center;
+    height: 90px;
     border: 1px solid #e0e0e0;
     border-radius: 6px;
     background-color: #fff;
-    padding: 4px 6px;
+    padding: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     transition: all 0.3s;
 }
-.logo-card.highlight {
-    border: 2px solid #FFD700;
-    background-color: #FFFACD;
-    box-shadow: 0 2px 6px rgba(255, 215, 0, 0.4);
+.logo-card.hidden {
+    display: none;
 }
 .logo-card img {
-    width: 28px;
-    height: 28px;
+    width: 56px;
+    height: 56px;
     object-fit: contain;
-    margin-right: 6px;
+    margin-bottom: 6px;
 }
 .symbol {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: #333;
 }
@@ -374,15 +384,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .header-content {
-        gap: 8px;
-    }
-    .header-icon {
-        width: 32px;
-        height: 32px;
-    }
     .header-title {
         font-size: 1.2em;
+    }
+    .header-date {
+        font-size: 0.9em;
     }
     .container {
         grid-template-columns: repeat(2, 1fr);
@@ -394,10 +400,14 @@ footer {
         padding: 8px;
     }
     .logos {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 6px;
     }
     .logo-card {
+        height: 70px;
+    }
+    .logo-card img {
+        width: 40px;
         height: 40px;
     }
     .mode-btn {
@@ -416,8 +426,8 @@ footer {
 <body>
 <header>
     <div class="header-content">
-        <img src="assets/icon.png" alt="Market Time Zen" class="header-icon">
-        <span class="header-title">Market Time Zen</span>
+        <div class="header-title">Earnings Calendar</div>
+        <div class="header-date">""" + datetime.now().strftime('%B %d, %Y') + """</div>
     </div>
 </header>
 
@@ -429,9 +439,9 @@ footer {
     
     <div class="week-nav" id="weekNav">
         <div class="week-controls">
-            <button class="nav-btn" id="prevWeek" onclick="changeWeek(-1)">← Prev</button>
+            <button class="nav-btn" id="prevWeek" onclick="changeWeek(-1)">‹</button>
             <span class="week-label" id="weekLabel">Week 1</span>
-            <button class="nav-btn" id="nextWeek" onclick="changeWeek(1)">Next →</button>
+            <button class="nav-btn" id="nextWeek" onclick="changeWeek(1)">›</button>
         </div>
         <div class="week-indicators" id="weekDots"></div>
     </div>
@@ -500,11 +510,42 @@ function renderCalendar() {
     const calendar = document.getElementById('calendar');
     calendar.innerHTML = '';
     
-    let dates = currentMode === 'monthly' ? allWeekdayDates : weeks[currentWeek];
     let targetSymbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
     
-    // Update week navigation
-    if (currentMode === 'weekly') {
+    // Monthlyモードの場合、週ごとに処理
+    if (currentMode === 'monthly') {
+        weeks.forEach(weekDates => {
+            // この週に決算データがあるかチェック
+            const hasEarnings = weekDates.some(dateStr => {
+                const earnings = earningsData.filter(e => 
+                    e.date === dateStr && targetSymbols.includes(e.symbol)
+                );
+                return earnings.length > 0;
+            });
+            
+            // 決算データがない週はスキップ
+            if (!hasEarnings) {
+                return;
+            }
+            
+            // この週の日付を表示
+            weekDates.forEach(dateStr => {
+                renderDay(dateStr, targetSymbols, calendar);
+            });
+        });
+    } else {
+        // Weeklyモードの場合も週ごとにチェック
+        const weekDates = weeks[currentWeek];
+        
+        // この週に決算データがあるかチェック
+        const hasEarnings = weekDates.some(dateStr => {
+            const earnings = earningsData.filter(e => 
+                e.date === dateStr && targetSymbols.includes(e.symbol)
+            );
+            return earnings.length > 0;
+        });
+        
+        // 週ナビゲーションの更新
         document.getElementById('weekLabel').textContent = 
             `Week ${currentWeek + 1}: ${formatDateRange(weeks[currentWeek])}`;
         document.getElementById('prevWeek').disabled = currentWeek === 0;
@@ -513,64 +554,84 @@ function renderCalendar() {
         document.querySelectorAll('.week-dot').forEach((dot, idx) => {
             dot.classList.toggle('active', idx === currentWeek);
         });
+        
+        // 決算データがある場合のみ日付を表示
+        if (hasEarnings) {
+            weekDates.forEach(dateStr => {
+                renderDay(dateStr, targetSymbols, calendar);
+            });
+        } else {
+            // 決算データがない場合のメッセージ
+            const noDataDiv = document.createElement('div');
+            noDataDiv.style.gridColumn = '1 / -1';
+            noDataDiv.style.textAlign = 'center';
+            noDataDiv.style.padding = '40px';
+            noDataDiv.style.color = '#888';
+            noDataDiv.style.fontSize = '16px';
+            noDataDiv.textContent = 'No earnings data for this week';
+            calendar.appendChild(noDataDiv);
+        }
     }
-    
+}
+
+function renderDay(dateStr, targetSymbols, calendar) {
     const today = new Date().toISOString().split('T')[0];
     
-    dates.forEach(dateStr => {
-        const dayDiv = document.createElement('div');
-        dayDiv.className = 'day';
-        if (dateStr === today) {
-            dayDiv.classList.add('today');
-        }
-        
-        const date = new Date(dateStr + 'T00:00:00');
-        const dateDiv = document.createElement('div');
-        dateDiv.className = 'date';
-        dateDiv.textContent = date.toLocaleDateString('en-US', { 
-            month: 'short', day: 'numeric', weekday: 'short' 
-        });
-        dayDiv.appendChild(dateDiv);
-        
-        const earnings = earningsData.filter(e => 
-            e.date === dateStr && targetSymbols.includes(e.symbol)
-        );
-        
-        if (earnings.length > 0) {
-            const logosDiv = document.createElement('div');
-            logosDiv.className = 'logos';
-            
-            earnings.forEach(e => {
-                const card = document.createElement('div');
-                card.className = 'logo-card';
-                card.dataset.symbol = e.symbol;
-                
-                const logoPath = `${""" + json.dumps(ASSETS_DIR) + """}/${e.symbol}.png`;
-                const img = document.createElement('img');
-                img.src = logoPath;
-                img.alt = e.symbol;
-                img.title = e.symbol;
-                img.onerror = () => img.style.display = 'none';
-                
-                const symbolDiv = document.createElement('div');
-                symbolDiv.className = 'symbol';
-                symbolDiv.textContent = e.symbol;
-                
-                card.appendChild(img);
-                card.appendChild(symbolDiv);
-                logosDiv.appendChild(card);
-            });
-            
-            dayDiv.appendChild(logosDiv);
-        } else {
-            const noEarnings = document.createElement('div');
-            noEarnings.className = 'no-earnings';
-            noEarnings.textContent = 'No Earnings';
-            dayDiv.appendChild(noEarnings);
-        }
-        
-        calendar.appendChild(dayDiv);
+    const earnings = earningsData.filter(e => 
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+    );
+    
+    const dayDiv = document.createElement('div');
+    dayDiv.className = 'day';
+    if (dateStr === today) {
+        dayDiv.classList.add('today');
+    }
+    
+    const date = new Date(dateStr + 'T00:00:00');
+    const dateDiv = document.createElement('div');
+    dateDiv.className = 'date';
+    dateDiv.textContent = date.toLocaleDateString('en-US', { 
+        month: 'short', day: 'numeric', weekday: 'short' 
     });
+    dayDiv.appendChild(dateDiv);
+    
+    if (earnings.length > 0) {
+        const logosDiv = document.createElement('div');
+        logosDiv.className = 'logos';
+        
+        // Monthlyモードでは最大9件まで表示
+        const displayEarnings = currentMode === 'monthly' ? earnings.slice(0, 9) : earnings;
+        
+        displayEarnings.forEach(e => {
+            const card = document.createElement('div');
+            card.className = 'logo-card';
+            card.dataset.symbol = e.symbol;
+            
+            const logoPath = `${""" + json.dumps(ASSETS_DIR) + """}/${e.symbol}.png`;
+            const img = document.createElement('img');
+            img.src = logoPath;
+            img.alt = e.symbol;
+            img.title = e.symbol;
+            img.onerror = () => img.style.display = 'none';
+            
+            const symbolDiv = document.createElement('div');
+            symbolDiv.className = 'symbol';
+            symbolDiv.textContent = e.symbol;
+            
+            card.appendChild(img);
+            card.appendChild(symbolDiv);
+            logosDiv.appendChild(card);
+        });
+        
+        dayDiv.appendChild(logosDiv);
+    } else {
+        const noEarnings = document.createElement('div');
+        noEarnings.className = 'no-earnings';
+        noEarnings.textContent = 'No Earnings';
+        dayDiv.appendChild(noEarnings);
+    }
+    
+    calendar.appendChild(dayDiv);
 }
 
 function formatDateRange(dates) {
@@ -584,14 +645,20 @@ function searchSymbols() {
     const query = document.getElementById('searchInput').value.toUpperCase().trim();
     const cards = document.querySelectorAll('.logo-card');
     
-    cards.forEach(card => {
-        const symbol = card.dataset.symbol;
-        if (!query || symbol.includes(query)) {
-            card.classList.toggle('highlight', query && symbol.includes(query));
-        } else {
-            card.classList.remove('highlight');
-        }
-    });
+    if (!query) {
+        // 検索クエリが空の場合はすべて表示
+        cards.forEach(card => card.classList.remove('hidden'));
+    } else {
+        // 検索クエリがある場合は、マッチしないものを非表示
+        cards.forEach(card => {
+            const symbol = card.dataset.symbol;
+            if (symbol.includes(query)) {
+                card.classList.remove('hidden');
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+    }
 }
 </script>
 </body>
