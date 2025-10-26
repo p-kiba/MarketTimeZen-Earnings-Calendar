@@ -304,7 +304,7 @@ header {
 }
 .nav-btn {
     width: 40px;
-    height: 40px;
+    height: 30px;
     border: none;
     background-color: #f0f0f0;
     border-radius: 8px;
@@ -371,14 +371,17 @@ header {
     padding: 20px;
 }
 
+.week-row {
+    display: contents;
+}
+
 @media (max-width: 768px) {
     .container {
-        display: flex;
+        display: block;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         padding: 12px;
-        gap: 8px;
         scrollbar-width: thin;
         scrollbar-color: #31343C #f0f0f0;
     }
@@ -396,6 +399,12 @@ header {
         background: #31343C;
         border-radius: 3px;
     }
+
+    .week-row {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
     
     .day {
         min-width: 280px;
@@ -403,6 +412,7 @@ header {
         scroll-snap-align: start;
     }
 }
+
 .day {
     background-color: white;
     border-radius: 8px;
@@ -479,7 +489,7 @@ footer {
     }
     .header-left {
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .header-content {
         position: static;
@@ -495,6 +505,12 @@ footer {
     .header-title {
         font-size: 1.2em;
     }
+    .header-title.hidden {
+        display: none;
+    }
+    .header-left {
+        display: none;
+    }
     .header-date {
         font-size: 0.9em;
     }
@@ -503,7 +519,7 @@ footer {
         padding: 8px;
     }
     .logos {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 6px;
     }
     .logo-card {
@@ -529,9 +545,6 @@ footer {
 @media (max-width: 480px) {
     .day {
         min-width: 260px;
-    }
-    .logos {
-        grid-template-columns: 1fr;
     }
     .week-label {
         min-width: 160px;
@@ -590,8 +603,32 @@ fetch('earnings_data.json')
     .then(res => res.json())
     .then(data => {
         earningsData = data;
+        currentWeek = findCurrentWeek();
         renderCalendar();
     });
+
+function findCurrentWeek() {
+    const today = new Date().toISOString().split('T')[0];
+    const todayDay = new Date().getDay(); // 0=日, 6=土
+    
+    for (let i = 0; i < weeks.length; i++) {
+        const weekDates = weeks[i];
+        
+        // 今日が月〜金の場合、その週を探す
+        if (todayDay >= 1 && todayDay <= 5) {
+            if (weekDates.includes(today)) {
+                return i;
+            }
+        }
+        // 土日の場合、次の週（今日より後の最初の週）を探す
+        else {
+            if (weekDates[0] > today) {
+                return i;
+            }
+        }
+    }
+    return 0; // 見つからない場合は最初の週
+}
 
 function switchMode(mode) {
     currentMode = mode;
@@ -649,13 +686,20 @@ function renderCalendar() {
                 return;
             }
             
+            // 週の行を作成
+            const weekRow = document.createElement('div');
+            weekRow.className = 'week-row';
+            
             // この週の日付を表示
             weekDates.forEach(dateStr => {
-                renderDay(dateStr, targetSymbols, calendar);
+                const dayDiv = renderDay(dateStr, targetSymbols);
+                weekRow.appendChild(dayDiv);
             });
+            
+            calendar.appendChild(weekRow);
         });
     } else {
-        // Weeklyモードの場合も週ごとにチェック
+        // Weeklyモードの場合
         const weekDates = weeks[currentWeek];
         
         // この週に決算データがあるかチェック
@@ -678,13 +722,19 @@ function renderCalendar() {
         
         // 決算データがある場合のみ日付を表示
         if (hasEarnings) {
+            const weekRow = document.createElement('div');
+            weekRow.className = 'week-row';
+            
             weekDates.forEach(dateStr => {
-                renderDay(dateStr, targetSymbols, calendar);
+                const dayDiv = renderDay(dateStr, targetSymbols);
+                weekRow.appendChild(dayDiv);
             });
+            
+            calendar.appendChild(weekRow);
         } else {
             // 決算データがない場合のメッセージ
             const noDataDiv = document.createElement('div');
-            noDataDiv.style.gridColumn = '1 / -1';
+            noDataDiv.style.width = '100%';
             noDataDiv.style.textAlign = 'center';
             noDataDiv.style.padding = '40px';
             noDataDiv.style.color = '#888';
@@ -695,12 +745,12 @@ function renderCalendar() {
     }
 }
 
-function renderDay(dateStr, targetSymbols, calendar) {
+function renderDay(dateStr, targetSymbols) {
     const today = new Date().toISOString().split('T')[0];
     
-    const earnings = earningsData.filter(e => 
+   const earnings = earningsData.filter(e => 
         e.date === dateStr && targetSymbols.includes(e.symbol)
-    );
+    ).sort((a, b) => a.symbol.localeCompare(b.symbol));
     
     const dayDiv = document.createElement('div');
     dayDiv.className = 'day';
@@ -752,7 +802,7 @@ function renderDay(dateStr, targetSymbols, calendar) {
         dayDiv.appendChild(noEarnings);
     }
     
-    calendar.appendChild(dayDiv);
+    return dayDiv;
 }
 
 function formatDateRange(dates) {
