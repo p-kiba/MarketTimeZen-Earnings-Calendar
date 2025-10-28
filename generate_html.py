@@ -421,7 +421,7 @@ header {
 }
 
 .day {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.897);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding: 10px;
@@ -438,7 +438,7 @@ header {
     font-weight: 600;
     margin-bottom: 8px;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 .day.today .date {
     color: #4CAF50;
@@ -470,6 +470,7 @@ header {
     height: 56px;
     object-fit: contain;
     margin-bottom: 6px;
+    border-radius: 10%;
 }
 .symbol {
     font-size: 14px;
@@ -558,6 +559,25 @@ footer {
         font-size: 13px;
     }
 }
+
+.weekday-header {
+    display: contents;
+}
+.weekday-cell {
+    background-color: #31343C;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .weekday-header {
+        display: none;
+    }
+}
+
 </style>
 </head>
 <body>
@@ -673,6 +693,17 @@ function changeWeek(delta) {
 function renderCalendar() {
     const calendar = document.getElementById('calendar');
     calendar.innerHTML = '';
+
+    const headerRow = document.createElement('div');
+    headerRow.className = 'weekday-header';
+    ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
+        const cell = document.createElement('div');
+        cell.className = 'weekday-cell';
+        cell.textContent = day;
+        cell.align = 'legt';
+        headerRow.appendChild(cell);
+    });
+    calendar.appendChild(headerRow);
     
     let targetSymbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
     
@@ -764,12 +795,11 @@ function renderDay(dateStr, targetSymbols) {
         dayDiv.classList.add('today');
     }
     
-    const date = new Date(dateStr + 'T00:00:00');
+    const [year, month, day] = dateStr.split('-');
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const dateDiv = document.createElement('div');
     dateDiv.className = 'date';
-    dateDiv.textContent = date.toLocaleDateString('en-US', { 
-        month: 'short', day: 'numeric', weekday: 'short' 
-    });
+    dateDiv.textContent = `${monthNames[parseInt(month) - 1]}, ${parseInt(day)}`;
     dayDiv.appendChild(dateDiv);
     
     if (earnings.length > 0) {
