@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earnings Calendar - October 2025</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f6f7f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #31343C;
+    color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.header-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.header-logo-text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+}
+.header-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+.header-date {
+    font-size: 1.0em;
+    color: #ddd;
+    margin-top: 4px;
+}
+.controls {
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+.mode-toggle {
+    display: flex;
+    gap: 10px;
+}
+.mode-btn {
+    padding: 10px 20px;
+    border: 2px solid #31343C;
+    background-color: white;
+    color: #31343C;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.mode-btn.active {
+    background-color: #31343C;
+    color: white;
+}
+.week-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.week-nav.active {
+    display: flex;
+}
+.week-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-btn {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    color: #333;
+}
+.nav-btn:hover:not(:disabled) {
+    background-color: #31343C;
+    color: white;
+    transform: scale(1.1);
+}
+.nav-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+.week-label {
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+    min-width: 200px;
+    text-align: center;
+}
+.week-indicators {
+    display: flex;
+    gap: 8px;
+}
+.week-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.week-dot.active {
+    background-color: #31343C;
+    transform: scale(1.3);
+}
+.search-box {
+    display: flex;
+    width: 100%;
+}
+.search-box input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.search-box input:focus {
+    outline: none;
+    border-color: #31343C;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.week-row {
+    display: contents;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding: 12px;
+        scrollbar-width: thin;
+        scrollbar-color: #31343C #f0f0f0;
+    }
+    
+    .container::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .container::-webkit-scrollbar-track {
+        background: #f0f0f0;
+        border-radius: 3px;
+    }
+    
+    .container::-webkit-scrollbar-thumb {
+        background: #31343C;
+        border-radius: 3px;
+    }
+
+    .week-row {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .day {
+        min-width: 280px;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+}
+
+.day {
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.day.today {
+    border: 3px solid #4CAF50;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    background-color: #f0fff0;
+}
+.date {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: left;
+}
+.day.today .date {
+    color: #4CAF50;
+    font-size: 1.2em;
+}
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+}
+.logo-card.hidden {
+    display: none;
+}
+.logo-card img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin-bottom: 6px;
+    border-radius: 10%;
+}
+.symbol {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.no-earnings {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .header-left {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .header-content {
+        position: static;
+        transform: none;
+    }
+    .header-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .header-logo-text {
+        font-size: 1.0em;
+    }
+    .header-title {
+        font-size: 1.2em;
+    }
+    .header-title.hidden {
+        display: none;
+    }
+    .header-left {
+        display: none;
+    }
+    .header-date {
+        font-size: 0.9em;
+    }
+    .day {
+        min-height: 120px;
+        padding: 8px;
+    }
+    .logos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    .logo-card {
+        height: 70px;
+    }
+    .logo-card img {
+        width: 40px;
+        height: 40px;
+    }
+    .symbol {
+        font-size: 12px;
+    }
+    .mode-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .week-label {
+        min-width: 180px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .day {
+        min-width: 260px;
+    }
+    .week-label {
+        min-width: 160px;
+        font-size: 13px;
+    }
+}
+
+.weekday-header {
+    display: contents;
+}
+.weekday-cell {
+    background-color: #31343C;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .weekday-header {
+        display: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<header>
+    <div class="header-left">
+        <img src="assets/icon.png" alt="Market Time Zen" class="header-icon">
+        <span class="header-logo-text">Market Time Zen</span>
+    </div>
+    <div class="header-content">
+        <div class="header-title">Earnings Calendar</div>
+        <div class="header-date">October 28, 2025</div>
+    </div>
+</header>
+
+<div class="controls">
+    <div class="mode-toggle">
+        <button class="mode-btn active" onclick="switchMode('monthly')">Monthly</button>
+        <button class="mode-btn" onclick="switchMode('weekly')">Weekly</button>
+    </div>
+    
+    <div class="week-nav" id="weekNav">
+        <div class="week-controls">
+            <button class="nav-btn" id="prevWeek" onclick="changeWeek(-1)">‹</button>
+            <span class="week-label" id="weekLabel">Week 1</span>
+            <button class="nav-btn" id="nextWeek" onclick="changeWeek(1)">›</button>
+        </div>
+        <div class="week-indicators" id="weekDots"></div>
+    </div>
+    
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by symbol (e.g., AAPL, TSLA)..." oninput="searchSymbols()">
+    </div>
+</div>
+
+<div class="container" id="calendar"></div>
+
+<footer>Last updated: 2025-10-28 14:34</footer>
+
+<script>
+let earningsData = [];
+let currentMode = 'monthly';
+let currentWeek = 0;
+let weeks = [["2025-09-29", "2025-09-30", "2025-10-01", "2025-10-02", "2025-10-03"], ["2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10"], ["2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17"], ["2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24"], ["2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31"], ["2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07"], ["2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14"], ["2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21"], ["2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28"]];
+let targetMonthly = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "FAST", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO"];
+let targetWeekly = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO", "CRWD", "ZS", "DDOG", "NET", "MDB", "WDAY", "NOW", "TEAM", "ZM", "DOCU", "OKTA", "TWLO", "SHOP", "RBLX", "U", "MCHP", "SWKS", "QRVO", "WOLF", "AIG", "MET", "PRU", "ALL", "CB", "FITB", "CFG", "DFS", "APO", "CI", "VRTX", "ILMN", "DXCM", "EW", "SYK", "BSX", "MDT", "HOLX", "MRNA", "BNTX", "NVAX", "TDOC", "VEEV", "HLT", "EXPE", "LVS", "MGM", "WYNN", "CCL", "RCL", "NCLH", "RIVN", "LCID", "NIO", "LI", "XPEV", "EBAY", "W", "CHWY", "RVLV", "DECK", "CROX", "TPR", "KR", "GIS", "K", "HSY", "EL", "CLX", "CHD", "MO", "PM", "BTI", "VLO", "PSX", "HES", "DVN", "FANG", "SHEL", "TTE", "E", "NOC", "EMR", "MMM", "RSG", "PCAR", "ODFL", "JBHT", "CHRW", "LUV", "O", "WELL", "DLR", "SPG", "VICI", "AVB", "DD", "DOW", "ALB", "MP", "LAC", "PKG", "LUMN", "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "WEC", "ES", "AFRM", "BNPL", "BMBL", "MTCH", "PINS", "SNAP", "TWTR", "SEDG", "RUN", "FSLR", "PLUG", "BE", "CLNE", "NLY", "STWD", "ARR"];
+
+// データ読み込み
+fetch('earnings_data.json')
+    .then(res => res.json())
+    .then(data => {
+        earningsData = data;
+        currentWeek = findCurrentWeek();
+        renderCalendar();
+    });
+
+function findCurrentWeek() {
+    const today = new Date().toISOString().split('T')[0];
+    const todayDay = new Date().getDay(); // 0=日, 6=土
+    
+    for (let i = 0; i < weeks.length; i++) {
+        const weekDates = weeks[i];
+        
+        // 今日が月〜金の場合、その週を探す
+        if (todayDay >= 1 && todayDay <= 5) {
+            if (weekDates.includes(today)) {
+                return i;
+            }
+        }
+        // 土日の場合、次の週（今日より後の最初の週）を探す
+        else {
+            if (weekDates[0] > today) {
+                return i;
+            }
+        }
+    }
+    return 0; // 見つからない場合は最初の週
+}
+
+function switchMode(mode) {
+    currentMode = mode;
+    document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    if (mode === 'weekly') {
+        document.getElementById('weekNav').classList.add('active');
+        renderWeekDots();
+    } else {
+        document.getElementById('weekNav').classList.remove('active');
+    }
+    
+    renderCalendar();
+}
+
+function renderWeekDots() {
+    const dotsContainer = document.getElementById('weekDots');
+    dotsContainer.innerHTML = '';
+    weeks.forEach((week, idx) => {
+        const dot = document.createElement('div');
+        dot.className = 'week-dot' + (idx === currentWeek ? ' active' : '');
+        dot.onclick = () => {
+            currentWeek = idx;
+            renderCalendar();
+        };
+        dotsContainer.appendChild(dot);
+    });
+}
+
+function changeWeek(delta) {
+    currentWeek = Math.max(0, Math.min(weeks.length - 1, currentWeek + delta));
+    renderCalendar();
+}
+
+function renderCalendar() {
+    const calendar = document.getElementById('calendar');
+    calendar.innerHTML = '';
+
+    const headerRow = document.createElement('div');
+    headerRow.className = 'weekday-header';
+    ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
+        const cell = document.createElement('div');
+        cell.className = 'weekday-cell';
+        cell.textContent = day;
+        cell.align = 'legt';
+        headerRow.appendChild(cell);
+    });
+    calendar.appendChild(headerRow);
+    
+    let targetSymbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
+    
+    // Monthlyモードの場合、週ごとに処理
+    if (currentMode === 'monthly') {
+        weeks.forEach(weekDates => {
+            // この週に決算データがあるかチェック
+            const hasEarnings = weekDates.some(dateStr => {
+                const earnings = earningsData.filter(e => 
+                    e.date === dateStr && targetSymbols.includes(e.symbol)
+                );
+                return earnings.length > 0;
+            });
+            
+            // 決算データがない週はスキップ
+            if (!hasEarnings) {
+                return;
+            }
+            
+            // 週の行を作成
+            const weekRow = document.createElement('div');
+            weekRow.className = 'week-row';
+            
+            // この週の日付を表示（月〜金の5列）
+            weekDates.forEach(dateStr => {
+                const dayDiv = renderDay(dateStr, targetSymbols);
+                weekRow.appendChild(dayDiv);
+            });
+            
+            calendar.appendChild(weekRow);
+        });
+    } else {
+        // Weeklyモードの場合
+        const weekDates = weeks[currentWeek];
+        
+        // この週に決算データがあるかチェック
+        const hasEarnings = weekDates.some(dateStr => {
+            const earnings = earningsData.filter(e => 
+                e.date === dateStr && targetSymbols.includes(e.symbol)
+            );
+            return earnings.length > 0;
+        });
+        
+        // 週ナビゲーションの更新
+        document.getElementById('weekLabel').textContent = 
+            `Week ${currentWeek + 1}: ${formatDateRange(weeks[currentWeek])}`;
+        document.getElementById('prevWeek').disabled = currentWeek === 0;
+        document.getElementById('nextWeek').disabled = currentWeek === weeks.length - 1;
+        
+        document.querySelectorAll('.week-dot').forEach((dot, idx) => {
+            dot.classList.toggle('active', idx === currentWeek);
+        });
+        
+        // 決算データがある場合のみ日付を表示
+        if (hasEarnings) {
+            const weekRow = document.createElement('div');
+            weekRow.className = 'week-row';
+            
+            weekDates.forEach(dateStr => {
+                const dayDiv = renderDay(dateStr, targetSymbols);
+                weekRow.appendChild(dayDiv);
+            });
+            
+            calendar.appendChild(weekRow);
+        } else {
+            // 決算データがない場合のメッセージ
+            const noDataDiv = document.createElement('div');
+            noDataDiv.style.width = '100%';
+            noDataDiv.style.textAlign = 'center';
+            noDataDiv.style.padding = '40px';
+            noDataDiv.style.color = '#888';
+            noDataDiv.style.fontSize = '16px';
+            noDataDiv.textContent = 'No earnings data for this week';
+            calendar.appendChild(noDataDiv);
+        }
+    }
+}
+
+function renderDay(dateStr, targetSymbols) {
+    const today = new Date().toISOString().split('T')[0];
+    
+   const earnings = earningsData.filter(e => 
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+    ).sort((a, b) => a.symbol.localeCompare(b.symbol));
+    
+    const dayDiv = document.createElement('div');
+    dayDiv.className = 'day';
+    if (dateStr === today) {
+        dayDiv.classList.add('today');
+    }
+    
+    const [year, month, day] = dateStr.split('-');
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const dateDiv = document.createElement('div');
+    dateDiv.className = 'date';
+    dateDiv.textContent = `${monthNames[parseInt(month) - 1]}, ${parseInt(day)}`;
+    dayDiv.appendChild(dateDiv);
+    
+    if (earnings.length > 0) {
+        const logosDiv = document.createElement('div');
+        logosDiv.className = 'logos';
+        
+        // Monthlyモードでは最大9件まで表示
+        const displayEarnings = currentMode === 'monthly' ? earnings.slice(0, 9) : earnings;
+        
+        displayEarnings.forEach(e => {
+            const card = document.createElement('div');
+            card.className = 'logo-card';
+            card.dataset.symbol = e.symbol;
+            
+            const logoPath = `${"assets/logos"}/${e.symbol}.png`;
+            const img = document.createElement('img');
+            img.src = logoPath;
+            img.alt = e.symbol;
+            img.title = e.symbol;
+            img.onerror = () => img.style.display = 'none';
+            
+            const symbolDiv = document.createElement('div');
+            symbolDiv.className = 'symbol';
+            symbolDiv.textContent = e.symbol;
+            
+            card.appendChild(img);
+            card.appendChild(symbolDiv);
+            logosDiv.appendChild(card);
+        });
+        
+        dayDiv.appendChild(logosDiv);
+    } else {
+        const noEarnings = document.createElement('div');
+        noEarnings.className = 'no-earnings';
+        noEarnings.textContent = 'No Earnings';
+        dayDiv.appendChild(noEarnings);
+    }
+    
+    return dayDiv;
+}
+
+function formatDateRange(dates) {
+    if (!dates || dates.length === 0) return '';
+    const start = new Date(dates[0] + 'T00:00:00');
+    const end = new Date(dates[dates.length - 1] + 'T00:00:00');
+    return `${start.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} - ${end.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
+}
+
+function searchSymbols() {
+    const query = document.getElementById('searchInput').value.toUpperCase().trim();
+    const cards = document.querySelectorAll('.logo-card');
+    
+    if (!query) {
+        // 検索クエリが空の場合はすべて表示
+        cards.forEach(card => card.classList.remove('hidden'));
+    } else {
+        // 検索クエリがある場合は、マッチしないものを非表示
+        cards.forEach(card => {
+            const symbol = card.dataset.symbol;
+            if (symbol.includes(query)) {
+                card.classList.remove('hidden');
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+    }
+}
+</script>
+</body>
+</html>
