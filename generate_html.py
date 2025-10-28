@@ -5,28 +5,8 @@ import requests
 from datetime import datetime, timedelta
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
-# 現在の日付から期間を自動設定
-today = datetime.now()
 
-# 開始日：今月の1日
-FROM_DATE = today.replace(day=1).strftime("%Y-%m-%d")
-
-# 終了日：翌月末
-# 今月が12月の場合は翌年1月を考慮
-if today.month == 12:
-    next_month_first = today.replace(year=today.year + 1, month=1, day=1)
-else:
-    next_month_first = today.replace(month=today.month + 1, day=1)
-
-# 翌月の1日から1日引いて翌月末を取得
-# （翌月1日 + 31日後）の月の1日 - 1日 = 翌月末
-next_month_end = (next_month_first.replace(day=28) + timedelta(days=4)).replace(day=1) - timedelta(days=1)
-TO_DATE = next_month_end.strftime("%Y-%m-%d")
-
-print(f"📅 Period: {FROM_DATE} to {TO_DATE}")
-ASSETS_DIR = "assets/logos"
-
-# Monthly表示用（主要銘柄のみ）
+# TARGET_MONTHLY と TARGET_WEEKLY の定義
 TARGET_MONTHLY = [
     # Tech Giants & Major Tech
     "AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO",
@@ -144,60 +124,87 @@ TARGET_WEEKLY = [
 # 重複を削除
 TARGET_WEEKLY = list(dict.fromkeys(TARGET_WEEKLY))
 
+ASSETS_DIR = "assets/logos"
+
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 print(f"📊 TARGET_WEEKLY: {len(TARGET_WEEKLY)} symbols")
-
-# 月の開始日と終了日を計算
-def month_range(date):
-    start = date.replace(day=1)
-    next_month = start.replace(day=28) + timedelta(days=4)  # 確実に翌月に進む
-    end = next_month.replace(day=1) - timedelta(days=1)
-    return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
 # 欠損値を0に置き換える
 def clean_record(record):
     return {k: (0 if v is None else v) for k, v in record.items()}
 
 today = datetime.now()
-months = [today, today.replace(month=today.month % 12 + 1)]  # 今月と翌月
 
+# 今月の1日
+month_start = today.replace(day=1)
+
+# 月初の週の月曜日まで遡る
+while month_start.weekday() != 0:  # 0 = Monday
+    month_start -= timedelta(days=1)
+
+# 翌月を計算
+if today.month == 12:
+    next_month = today.replace(year=today.year + 1, month=1, day=1)
+else:
+    next_month = today.replace(month=today.month + 1, day=1)
+
+# 翌月の末日を計算
+if next_month.month == 12:
+    next_month_end = next_month.replace(year=next_month.year + 1, month=1, day=1) - timedelta(days=1)
+else:
+    next_month_end = next_month.replace(month=next_month.month + 1, day=1) - timedelta(days=1)
+
+print(f"📅 Period: {month_start.strftime('%Y-%m-%d')} to {next_month_end.strftime('%Y-%m-%d')}")
+
+# 月～金のみの日付リストを生成
+weekday_dates = []
+current = month_start
+while current <= next_month_end:
+    if current.weekday() < 5:  # 0-4 = Mon-Fri
+        weekday_dates.append(current)
+    current += timedelta(days=1)
+
+# 週ごとに分割(月曜から金曜までの5日間)
+weeks = []
+current_week = []
+for date in weekday_dates:
+    # 月曜日から新しい週を開始
+    if date.weekday() == 0:
+        if current_week:  # 前の週があれば保存
+            weeks.append(current_week)
+        current_week = [date]
+    else:
+        current_week.append(date)
+if current_week:
+    weeks.append(current_week)
+
+print(f"📅 Total weeks: {len(weeks)}")
+
+# APIからデータ取得（週単位）
 all_data = []
-
-for m in months:
-    from_date, to_date = month_range(m)
+for week in weeks:
+    if not week:
+        continue
+    
+    from_date = week[0].strftime("%Y-%m-%d")
+    to_date = week[-1].strftime("%Y-%m-%d")
+    
     url = f"https://finnhub.io/api/v1/calendar/earnings?from={from_date}&to={to_date}&token={API_KEY}"
-    month_data = requests.get(url).json().get("earningsCalendar", [])
-    # 対象銘柄のみ抽出＆欠損値処理
-    all_data.extend([clean_record(d) for d in month_data if d["symbol"] in TARGET_WEEKLY])
+    
+    try:
+        response = requests.get(url)
+        week_data = response.json().get("earningsCalendar", [])
+        # 対象銘柄のみ抽出＆欠損値処理
+        all_data.extend([clean_record(d) for d in week_data if d["symbol"] in TARGET_WEEKLY])
+        print(f"取得完了: {from_date} - {to_date} ({len(week_data)}件)")
+    except Exception as e:
+        print(f"エラー: {from_date} - {to_date} - {e}")
 
 # JSONファイルに出力
 with open("earnings_data.json", "w", encoding="utf-8") as f:
     json.dump(all_data, f, ensure_ascii=False, indent=2)
 
-print(f"✅ earnings_data.json generated ({len(all_data)} records)")
-
-# 月～金のみの日付リストを生成
-start_date = datetime.strptime(FROM_DATE, "%Y-%m-%d")
-end_date = datetime.strptime(TO_DATE, "%Y-%m-%d")
-weekday_dates = []
-current = start_date
-while current <= end_date:
-    if current.weekday() < 5:  # 0-4 = Mon-Fri
-        weekday_dates.append(current)
-    current += timedelta(days=1)
-
-# 週ごとに分割（月曜から金曜までの5日間）
-weeks = []
-current_week = []
-for date in weekday_dates:
-    if date.weekday() == 0 and current_week:  # 月曜日で新しい週
-        weeks.append(current_week)
-        current_week = []
-    current_week.append(date)
-if current_week:
-    weeks.append(current_week)
-
-print(f"📅 Total weeks: {len(weeks)}")
+print(f"合計 {len(all_data)} 件のデータを保存しました")
 
 # HTMLの生成
 html = """<!DOCTYPE html>
@@ -596,7 +603,6 @@ let currentWeek = 0;
 let weeks = """ + json.dumps([[d.strftime("%Y-%m-%d") for d in week] for week in weeks]) + """;
 let targetMonthly = """ + json.dumps(TARGET_MONTHLY) + """;
 let targetWeekly = """ + json.dumps(TARGET_WEEKLY) + """;
-let allWeekdayDates = """ + json.dumps([d.strftime("%Y-%m-%d") for d in weekday_dates]) + """;
 
 // データ読み込み
 fetch('earnings_data.json')
@@ -690,7 +696,7 @@ function renderCalendar() {
             const weekRow = document.createElement('div');
             weekRow.className = 'week-row';
             
-            // この週の日付を表示
+            // この週の日付を表示（月〜金の5列）
             weekDates.forEach(dateStr => {
                 const dayDiv = renderDay(dateStr, targetSymbols);
                 weekRow.appendChild(dayDiv);
