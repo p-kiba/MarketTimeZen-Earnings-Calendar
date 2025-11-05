@@ -574,7 +574,23 @@ footer {
 
 @media (max-width: 768px) {
     .weekday-header {
-        display: none;
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .weekday-cell {
+        min-width: 280px;
+        flex-shrink: 0;
+        font-size: 14px;
+        padding: 8px 4px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .weekday-cell {
+        min-width: 260px;
     }
 }
 
