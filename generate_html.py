@@ -659,7 +659,12 @@ function findCurrentWeek() {
 function switchMode(mode) {
     currentMode = mode;
     document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+        if ((mode === 'monthly' && btn.textContent === 'Monthly') ||
+            (mode === 'weekly' && btn.textContent === 'Weekly')) {
+            btn.classList.add('active');
+        }
+    });
     
     if (mode === 'weekly') {
         document.getElementById('weekNav').classList.add('active');
@@ -793,6 +798,18 @@ function renderDay(dateStr, targetSymbols) {
     dayDiv.className = 'day';
     if (dateStr === today) {
         dayDiv.classList.add('today');
+    }
+
+    // Monthlyモードでカードをクリックして、該当のWeeklyに切り替え
+    if (currentMode === 'monthly') {
+    dayDiv.style.cursor = 'pointer';
+        dayDiv.onclick = () => {
+            const weekIndex = weeks.findIndex(week => week.includes(dateStr));
+            if (weekIndex !== -1) {
+                currentWeek = weekIndex;
+                switchMode('weekly');
+            }
+        };
     }
     
     const [year, month, day] = dateStr.split('-');
