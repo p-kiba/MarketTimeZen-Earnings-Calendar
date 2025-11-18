@@ -1794,17 +1794,6 @@
   },
   {
     "date": "2025-11-12",
-    "epsActual": 0,
-    "epsEstimate": 1.5265,
-    "hour": "amc",
-    "quarter": 4,
-    "revenueActual": 0,
-    "revenueEstimate": 639161663,
-    "symbol": "GFF",
-    "year": 2025
-  },
-  {
-    "date": "2025-11-12",
     "epsActual": 1,
     "epsEstimate": 1.0013,
     "hour": "amc",
@@ -1925,6 +1914,17 @@
     "year": 2026
   },
   {
+    "date": "2025-11-19",
+    "epsActual": 0,
+    "epsEstimate": 1.5265,
+    "hour": "bmo",
+    "quarter": 4,
+    "revenueActual": 0,
+    "revenueEstimate": 639161663,
+    "symbol": "GFF",
+    "year": 2025
+  },
+  {
     "date": "2025-11-18",
     "epsActual": 0,
     "epsEstimate": 1.3277,
@@ -1948,11 +1948,11 @@
   },
   {
     "date": "2025-11-17",
-    "epsActual": 0,
+    "epsActual": -0.426444,
     "epsEstimate": -0.4114,
     "hour": "bmo",
     "quarter": 3,
-    "revenueActual": 0,
+    "revenueActual": 20347775460,
     "revenueEstimate": 20639864046,
     "symbol": "XPEV",
     "year": 2025
@@ -2090,17 +2090,6 @@
     "year": 2026
   },
   {
-    "date": "2025-12-03",
-    "epsActual": 0,
-    "epsEstimate": 0.752,
-    "hour": "amc",
-    "quarter": 3,
-    "revenueActual": 0,
-    "revenueEstimate": 2115811571,
-    "symbol": "MRVL",
-    "year": 2026
-  },
-  {
     "date": "2025-12-02",
     "epsActual": 0,
     "epsEstimate": 0.7687,
@@ -2120,6 +2109,17 @@
     "revenueActual": 0,
     "revenueEstimate": 3151662422,
     "symbol": "CHWY",
+    "year": 2026
+  },
+  {
+    "date": "2025-12-02",
+    "epsActual": 0,
+    "epsEstimate": 0.752,
+    "hour": "amc",
+    "quarter": 3,
+    "revenueActual": 0,
+    "revenueEstimate": 2115811571,
+    "symbol": "MRVL",
     "year": 2026
   },
   {
@@ -2147,6 +2147,17 @@
   {
     "date": "2025-12-11",
     "epsActual": 0,
+    "epsEstimate": 5.5024,
+    "hour": "amc",
+    "quarter": 4,
+    "revenueActual": 0,
+    "revenueEstimate": 6230127043,
+    "symbol": "ADBE",
+    "year": 2025
+  },
+  {
+    "date": "2025-12-11",
+    "epsActual": 0,
     "epsEstimate": 1.8974,
     "hour": "amc",
     "quarter": 4,
@@ -2164,28 +2175,6 @@
     "revenueActual": 0,
     "revenueEstimate": 68414913808,
     "symbol": "COST",
-    "year": 2026
-  },
-  {
-    "date": "2025-12-10",
-    "epsActual": 0,
-    "epsEstimate": 5.5024,
-    "hour": "amc",
-    "quarter": 4,
-    "revenueActual": 0,
-    "revenueEstimate": 6230127043,
-    "symbol": "ADBE",
-    "year": 2025
-  },
-  {
-    "date": "2025-12-08",
-    "epsActual": 0,
-    "epsEstimate": 1.6701,
-    "hour": "amc",
-    "quarter": 2,
-    "revenueActual": 0,
-    "revenueEstimate": 16547749241,
-    "symbol": "ORCL",
     "year": 2026
   },
   {
@@ -2213,6 +2202,17 @@
   {
     "date": "2025-12-17",
     "epsActual": 0,
+    "epsEstimate": 3.8919,
+    "hour": "amc",
+    "quarter": 1,
+    "revenueActual": 0,
+    "revenueEstimate": 12974683636,
+    "symbol": "MU",
+    "year": 2026
+  },
+  {
+    "date": "2025-12-17",
+    "epsActual": 0,
     "epsEstimate": 0.3706,
     "hour": "amc",
     "quarter": 2,
@@ -2233,14 +2233,14 @@
     "year": 2026
   },
   {
-    "date": "2025-12-16",
+    "date": "2025-12-15",
     "epsActual": 0,
-    "epsEstimate": 3.8919,
+    "epsEstimate": 1.6701,
     "hour": "amc",
-    "quarter": 1,
+    "quarter": 2,
     "revenueActual": 0,
-    "revenueEstimate": 12974683636,
-    "symbol": "MU",
+    "revenueEstimate": 16547749241,
+    "symbol": "ORCL",
     "year": 2026
   }
 ]
