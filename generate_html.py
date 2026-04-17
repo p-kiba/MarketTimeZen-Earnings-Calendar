@@ -230,7 +230,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .header-left {
     display: flex;
@@ -275,6 +277,9 @@ header {
     flex-direction: column;
     gap: 12px;
     align-items: flex-start;
+    position: sticky;
+    top: var(--header-height, 72px);
+    z-index: 999;
 }
 .mode-toggle {
     display: flex;
@@ -594,6 +599,16 @@ footer {
     }
 }
 
+.logo-card.favorite {
+    border: 2px solid #f0a500;
+    background-color: #fffbf0;
+    box-shadow: 0 2px 8px rgba(240, 165, 0, 0.35);
+}
+.logo-card.favorite .symbol {
+    color: #b87800;
+    font-weight: 700;
+}
+
 </style>
 </head>
 <body>
@@ -640,6 +655,21 @@ let weeks = """ + json.dumps([[d.strftime("%Y-%m-%d") for d in week] for week in
 let targetMonthly = """ + json.dumps(TARGET_MONTHLY) + """;
 let targetWeekly = """ + json.dumps(TARGET_WEEKLY) + """;
 
+// ---- お気に入り：URLパラメータから読み込む ----
+// 例: ?favorites=AAPL,MSFT,GOOGL
+function getFavorites() {
+    const params = new URLSearchParams(window.location.search);
+    const fav = params.get('favorites');
+    return fav ? fav.split(',').map(s => s.trim().toUpperCase()).filter(Boolean) : [];
+}
+const favorites = getFavorites();
+
+// ---- ヘッダー高さを CSS 変数に反映（controlsのsticky位置計算用）----
+function updateHeaderHeight() {
+    const h = document.querySelector('header').offsetHeight;
+    document.documentElement.style.setProperty('--header-height', h + 'px');
+}
+
 // データ読み込み
 fetch('earnings_data.json')
     .then(res => res.json())
@@ -647,7 +677,28 @@ fetch('earnings_data.json')
         earningsData = data;
         currentWeek = findCurrentWeek();
         renderCalendar();
+        // 現在の週の先頭へスクロール（ヘッダー+controls分オフセット）
+        scrollToCurrentWeek();
     });
+
+// 現在週の先頭行へスクロール（ヘッダー+controls分オフセット）
+function scrollToCurrentWeek() {
+    // Monthlyモードでのみ実行（初期表示）
+    if (currentMode !== 'monthly') return;
+    const today = new Date().toISOString().split('T')[0];
+    const allWeekRows = document.querySelectorAll('.week-row-wrapper');
+    if (allWeekRows.length === 0) return;
+
+    // currentWeekに対応する行を探す
+    const targetRow = allWeekRows[currentWeek] || allWeekRows[0];
+    if (!targetRow) return;
+
+    const headerEl = document.querySelector('header');
+    const controlsEl = document.querySelector('.controls');
+    const offset = (headerEl ? headerEl.offsetHeight : 0) + (controlsEl ? controlsEl.offsetHeight : 0);
+    const top = targetRow.getBoundingClientRect().top + window.scrollY - offset - 8;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
+}
 
 function findCurrentWeek() {
     const today = new Date().toISOString().split('T')[0];
@@ -746,7 +797,7 @@ function renderCalendar() {
             
             // 週の行を作成
             const weekRow = document.createElement('div');
-            weekRow.className = 'week-row';
+            weekRow.className = 'week-row week-row-wrapper';
             
             // この週の日付を表示（月〜金の5列）
             weekDates.forEach(dateStr => {
@@ -845,6 +896,9 @@ function renderDay(dateStr, targetSymbols) {
         displayEarnings.forEach(e => {
             const card = document.createElement('div');
             card.className = 'logo-card';
+            if (favorites.includes(e.symbol)) {
+                card.classList.add('favorite');
+            }
             card.dataset.symbol = e.symbol;
             
             const logoPath = `${""" + json.dumps(ASSETS_DIR) + """}/${e.symbol}.png`;
@@ -873,6 +927,10 @@ function renderDay(dateStr, targetSymbols) {
     
     return dayDiv;
 }
+
+// ヘッダー高さをCSS変数に反映
+document.addEventListener('DOMContentLoaded', updateHeaderHeight);
+window.addEventListener('resize', updateHeaderHeight);
 
 function formatDateRange(dates) {
     if (!dates || dates.length === 0) return '';
