@@ -219,7 +219,7 @@ html = """<!DOCTYPE html>
 }
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #f6f7f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -230,9 +230,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 .header-left {
     display: flex;
@@ -278,7 +275,7 @@ header {
     gap: 12px;
     align-items: flex-start;
     position: sticky;
-    top: var(--header-height, 72px);
+    top: 0;
     z-index: 999;
 }
 .mode-toggle {
