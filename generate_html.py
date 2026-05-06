@@ -269,6 +269,11 @@ header {
     color: #ddd;
     margin-top: 4px;
 }
+@media (max-width: 768px) {
+    .header-content {
+        display: none;
+    }
+}
 .controls {
     background-color: white;
     padding: 16px;
