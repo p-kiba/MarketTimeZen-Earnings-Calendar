@@ -905,6 +905,11 @@ function renderDay(dateStr, targetSymbols) {
                 card.classList.add('favorite');
             }
             card.dataset.symbol = e.symbol;
+
+            card.addEventListener('click', (ev) => {
+                ev.stopPropagation();
+                window.webkit.messageHandlers.favoriteHandler.postMessage({ symbol: e.symbol });
+            });
             
             const logoPath = `${""" + json.dumps(ASSETS_DIR) + """}/${e.symbol}.png`;
             const img = document.createElement('img');
