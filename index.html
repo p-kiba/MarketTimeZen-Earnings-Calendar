@@ -441,7 +441,7 @@ footer {
 
 <div class="container" id="calendar"></div>
 
-<footer>Last updated: 2026-05-17 02:53</footer>
+<footer>Last updated: 2026-05-17 11:22</footer>
 
 <script>
 let earningsData = [];
@@ -696,6 +696,11 @@ function renderDay(dateStr, targetSymbols) {
                 card.classList.add('favorite');
             }
             card.dataset.symbol = e.symbol;
+
+            card.addEventListener('click', (ev) => {
+                ev.stopPropagation();
+                window.webkit.messageHandlers.favoriteHandler.postMessage({ symbol: e.symbol });
+            });
             
             const logoPath = `${"assets/logos"}/${e.symbol}.png`;
             const img = document.createElement('img');
