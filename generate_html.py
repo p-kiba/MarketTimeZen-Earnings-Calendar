@@ -864,7 +864,15 @@ function renderDay(dateStr, targetSymbols) {
     
    const earnings = earningsData.filter(e => 
         e.date === dateStr && targetSymbols.includes(e.symbol)
-    ).sort((a, b) => a.symbol.localeCompare(b.symbol));
+    ).sort((a, b) => {
+    const symbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
+    const aIdx = symbols.indexOf(a.symbol);
+    const bIdx = symbols.indexOf(b.symbol);
+    if (aIdx === -1 && bIdx === -1) return a.symbol.localeCompare(b.symbol);
+    if (aIdx === -1) return 1;
+    if (bIdx === -1) return -1;
+    return aIdx - bIdx;
+    });
     
     const dayDiv = document.createElement('div');
     dayDiv.className = 'day';
