@@ -415,7 +415,7 @@ footer {
     </div>
     <div class="header-content">
         <div class="header-title">Earnings Calendar</div>
-        <div class="header-date">May 19, 2026</div>
+        <div class="header-date">May 20, 2026</div>
     </div>
 </header>
 
@@ -441,7 +441,7 @@ footer {
 
 <div class="container" id="calendar"></div>
 
-<footer>Last updated: 2026-05-19 03:24</footer>
+<footer>Last updated: 2026-05-20 01:25</footer>
 
 <script>
 let earningsData = [];
@@ -655,7 +655,15 @@ function renderDay(dateStr, targetSymbols) {
     
    const earnings = earningsData.filter(e => 
         e.date === dateStr && targetSymbols.includes(e.symbol)
-    ).sort((a, b) => a.symbol.localeCompare(b.symbol));
+    ).sort((a, b) => {
+    const symbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
+    const aIdx = symbols.indexOf(a.symbol);
+    const bIdx = symbols.indexOf(b.symbol);
+    if (aIdx === -1 && bIdx === -1) return a.symbol.localeCompare(b.symbol);
+    if (aIdx === -1) return 1;
+    if (bIdx === -1) return -1;
+    return aIdx - bIdx;
+    });
     
     const dayDiv = document.createElement('div');
     dayDiv.className = 'day';
