@@ -361,12 +361,12 @@ for _, row in filtered.iterrows():
             item = {
                 "date": date_obj.strftime("%Y-%m-%d"),
                 "symbol": f'{row["code"]}.T',
-                "name_ja": row["name_ja"],
-                "name_en": row["name_en"],
-                "market": row["market_ja"],
-                "industry": row["industry_ja"],
-                "fiscal_year_end": str(row["fiscal_year_end"]),
-                "fiscal_period": row["fiscal_period"]
+                "name_ja": row["name_ja"] if pd.notna(row["name_ja"]) else "",
+                "name_en": row["name_en"] if pd.notna(row["name_en"]) else "",
+                "market": row["market_ja"] if pd.notna(row["market_ja"]) else "",
+                "industry": row["industry_ja"] if pd.notna(row["industry_ja"]) else "",
+                "fiscal_year_end": str(row["fiscal_year_end"]) if pd.notna(row["fiscal_year_end"]) else "",
+                "fiscal_period": row["fiscal_period"] if pd.notna(row["fiscal_period"]) else ""
             }
 
             all_data.append(item)
