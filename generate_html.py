@@ -610,6 +610,44 @@ footer {
     color: #b87800;
     font-weight: 700;
 }
+.top-controls-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.country-tabs {
+    display: flex;
+    gap: 8px;
+}
+.country-tabs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.country-link {
+    color: #666;
+    cursor: pointer;
+    transition: color 0.2s;
+    letter-spacing: 0.5px;
+}
+.country-link:hover {
+    color: #31343C;
+}
+.country-link.active {
+    color: #31343C;
+}
+.country-divider {
+    color: #bbb;
+}
+.country-link.active {
+    color: #31343C;
+    border-bottom: 2px solid #31343C;
+    padding-bottom: 2px;
+}
 
 </style>
 </head>
@@ -626,9 +664,29 @@ footer {
 </header>
 
 <div class="controls">
-    <div class="mode-toggle">
-        <button class="mode-btn active" onclick="switchMode('monthly')">Monthly</button>
-        <button class="mode-btn" onclick="switchMode('weekly')">Weekly</button>
+    <div class="top-controls-row">
+        <div class="mode-toggle">
+            <button class="mode-btn active"
+                onclick="switchMode('monthly')">
+                Monthly
+            </button>
+
+            <button class="mode-btn"
+                onclick="switchMode('weekly')">
+                Weekly
+            </button>
+        </div>
+    <div class="country-tabs">
+        <span class="country-link active"
+            onclick="window.location.href='index.html'">
+            New York
+        </span>
+        <span class="country-divider">|</span>
+        <span class="country-link"
+            onclick="window.location.href='japan.html'">
+            Tokyo
+        </span>
+    </div>
     </div>
     
     <div class="week-nav" id="weekNav">
