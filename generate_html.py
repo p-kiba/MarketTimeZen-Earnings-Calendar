@@ -124,7 +124,7 @@ TARGET_WEEKLY = [
 # 重複を削除
 TARGET_WEEKLY = list(dict.fromkeys(TARGET_WEEKLY))
 
-ASSETS_DIR = "assets/logos"
+ASSETS_DIR = "assets/logos/us"
 
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 print(f"📊 TARGET_WEEKLY: {len(TARGET_WEEKLY)} symbols")

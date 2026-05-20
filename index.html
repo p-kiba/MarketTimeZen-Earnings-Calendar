@@ -710,7 +710,7 @@ function renderDay(dateStr, targetSymbols) {
                 window.webkit.messageHandlers.favoriteHandler.postMessage({ symbol: e.symbol });
             });
             
-            const logoPath = `${"assets/logos"}/${e.symbol}.png`;
+            const logoPath = `${"assets/logos/us"}/${e.symbol}.png`;
             const img = document.createElement('img');
             img.src = logoPath;
             img.alt = e.symbol;
