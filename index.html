@@ -284,6 +284,13 @@ header {
     margin-top: 20px;
     text-align: center;
 }
+.more-count {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+}
 footer {
     text-align: center;
     font-size: 12px;
@@ -415,7 +422,7 @@ footer {
     </div>
     <div class="header-content">
         <div class="header-title">Earnings Calendar</div>
-        <div class="header-date">May 20, 2026</div>
+        <div class="header-date">May 21, 2026</div>
     </div>
 </header>
 
@@ -441,15 +448,14 @@ footer {
 
 <div class="container" id="calendar"></div>
 
-<footer>Last updated: 2026-05-20 03:24</footer>
+<footer>Last updated: 2026-05-21 01:29</footer>
 
 <script>
 let earningsData = [];
 let currentMode = 'monthly';
 let currentWeek = 0;
 let weeks = [["2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01"], ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08"], ["2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15"], ["2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22"], ["2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29"], ["2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05"], ["2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12"], ["2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19"], ["2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26"], ["2026-06-29", "2026-06-30"]];
-let targetMonthly = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "FAST", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO"];
-let targetWeekly = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO", "CRWD", "ZS", "DDOG", "NET", "MDB", "WDAY", "NOW", "TEAM", "ZM", "DOCU", "OKTA", "TWLO", "SHOP", "RBLX", "U", "MCHP", "SWKS", "QRVO", "WOLF", "AIG", "MET", "PRU", "ALL", "CB", "FITB", "CFG", "DFS", "APO", "CI", "VRTX", "ILMN", "DXCM", "EW", "SYK", "BSX", "MDT", "HOLX", "MRNA", "BNTX", "NVAX", "TDOC", "VEEV", "HLT", "EXPE", "LVS", "MGM", "WYNN", "CCL", "RCL", "NCLH", "RIVN", "LCID", "NIO", "LI", "XPEV", "EBAY", "W", "CHWY", "RVLV", "DECK", "CROX", "TPR", "KR", "GIS", "K", "HSY", "EL", "CLX", "CHD", "MO", "PM", "BTI", "VLO", "PSX", "HES", "DVN", "FANG", "SHEL", "TTE", "E", "NOC", "EMR", "MMM", "RSG", "PCAR", "ODFL", "JBHT", "CHRW", "LUV", "O", "WELL", "DLR", "SPG", "VICI", "AVB", "DD", "DOW", "ALB", "MP", "LAC", "PKG", "LUMN", "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "WEC", "ES", "AFRM", "BNPL", "BMBL", "MTCH", "PINS", "SNAP", "TWTR", "SEDG", "RUN", "FSLR", "PLUG", "BE", "CLNE", "NLY", "STWD", "ARR"];
+let targetSymbols = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "FAST", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO", "ADBE", "CRM", "ORCL", "CSCO", "IBM", "SNOW", "PLTR", "PANW", "CRWD", "ZS", "DDOG", "NET", "MDB", "WDAY", "NOW", "TEAM", "ZM", "DOCU", "OKTA", "TWLO", "ARM", "SHOP", "SQ", "PYPL", "COIN", "RBLX", "U", "SPOT", "ABNB", "UBER", "LYFT", "MU", "MCHP", "NXPI", "ADI", "MRVL", "ON", "MPWR", "SWKS", "QRVO", "WOLF", "BNY", "TFC", "USB", "PNC", "TRV", "AIG", "MET", "PRU", "ALL", "CB", "RF", "KEY", "HBAN", "MTB", "FITB", "CFG", "ZION", "ALLY", "SOFI", "IBKR", "SYF", "COF", "DFS", "KKR", "BX", "APO", "CVS", "CI", "HUM", "ELV", "ISRG", "REGN", "VRTX", "GILD", "BIIB", "AMGN", "ZTS", "ILMN", "DXCM", "EW", "SYK", "BSX", "MDT", "HOLX", "MRNA", "BNTX", "NVAX", "EXAS", "TDOC", "VEEV", "BKNG", "MAR", "HLT", "EXPE", "LVS", "MGM", "WYNN", "CCL", "RCL", "NCLH", "GM", "F", "RIVN", "LCID", "NIO", "LI", "XPEV", "ETSY", "EBAY", "W", "CHWY", "RVLV", "LULU", "DECK", "CROX", "TPR", "PG", "KO", "PEP", "COST", "WMT", "KR", "MDLZ", "CL", "GIS", "K", "HSY", "EL", "CLX", "CHD", "MO", "PM", "BTI", "OXY", "MPC", "VLO", "PSX", "HES", "DVN", "FANG", "BP", "SHEL", "TTE", "E", "UNP", "CSX", "NSC", "GD", "LMT", "NOC", "DE", "EMR", "ITW", "MMM", "WM", "RSG", "URI", "FAST", "PCAR", "ODFL", "JBHT", "CHRW", "AAL", "UAL", "DAL", "LUV", "ALK", "AMT", "PLD", "EQIX", "PSA", "O", "WELL", "DLR", "SPG", "VICI", "AVB", "LIN", "APD", "ECL", "DD", "DOW", "NEM", "FCX", "NUE", "STLD", "CLF", "ALB", "MP", "LAC", "BALL", "CCK", "PKG", "CMCSA", "CHTR", "LUMN", "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "WEC", "ES", "RDFN", "OPEN", "COIN", "HOOD", "UPST", "AFRM", "BNPL", "DUOL", "BMBL", "MTCH", "PINS", "SNAP", "TWTR", "ENPH", "SEDG", "RUN", "FSLR", "PLUG", "BE", "CLNE", "AGNC", "NLY", "STWD", "ARR"];
 
 // ---- お気に入り：URLパラメータから読み込む ----
 // 例: ?favorites=AAPL,MSFT,GOOGL
@@ -564,43 +570,34 @@ function renderCalendar() {
 
     const headerRow = document.createElement('div');
     headerRow.className = 'weekday-header';
+
     ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
         const cell = document.createElement('div');
         cell.className = 'weekday-cell';
         cell.textContent = day;
-        cell.align = 'legt';
         headerRow.appendChild(cell);
     });
+
     calendar.appendChild(headerRow);
-    
-    let targetSymbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
-    
-    // Monthlyモードの場合、週ごとに処理
+
     if (currentMode === 'monthly') {
+
         weeks.forEach(weekDates => {
-            // この週に決算データがあるかチェック
+
             const hasEarnings = weekDates.some(dateStr => {
-                const earnings = earningsData.filter(e => 
-                    e.date === dateStr && targetSymbols.includes(e.symbol)
-                );
-                return earnings.length > 0;
+                return earningsData.some(e => e.date === dateStr);
             });
-            
-            // 決算データがない週はスキップ
-            if (!hasEarnings) {
-                return;
-            }
-            
-            // 週の行を作成
+
+            if (!hasEarnings) return;
+
             const weekRow = document.createElement('div');
             weekRow.className = 'week-row week-row-wrapper';
-            
-            // この週の日付を表示（月〜金の5列）
+
             weekDates.forEach(dateStr => {
-                const dayDiv = renderDay(dateStr, targetSymbols);
+                const dayDiv = renderDay(dateStr);
                 weekRow.appendChild(dayDiv);
             });
-            
+
             calendar.appendChild(weekRow);
         });
     } else {
@@ -609,10 +606,7 @@ function renderCalendar() {
         
         // この週に決算データがあるかチェック
         const hasEarnings = weekDates.some(dateStr => {
-            const earnings = earningsData.filter(e => 
-                e.date === dateStr && targetSymbols.includes(e.symbol)
-            );
-            return earnings.length > 0;
+            return earningsData.some(e => e.date === dateStr);
         });
         
         // 週ナビゲーションの更新
@@ -631,7 +625,7 @@ function renderCalendar() {
             weekRow.className = 'week-row';
             
             weekDates.forEach(dateStr => {
-                const dayDiv = renderDay(dateStr, targetSymbols);
+                const dayDiv = renderDay(dateStr);
                 weekRow.appendChild(dayDiv);
             });
             
@@ -650,15 +644,14 @@ function renderCalendar() {
     }
 }
 
-function renderDay(dateStr, targetSymbols) {
+function renderDay(dateStr) {
     const today = new Date().toISOString().split('T')[0];
     
-   const earnings = earningsData.filter(e => 
+    const earnings = earningsData.filter(e =>
         e.date === dateStr && targetSymbols.includes(e.symbol)
     ).sort((a, b) => {
-    const symbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
-    const aIdx = symbols.indexOf(a.symbol);
-    const bIdx = symbols.indexOf(b.symbol);
+    const aIdx = targetSymbols.indexOf(a.symbol);
+    const bIdx = targetSymbols.indexOf(b.symbol);
     if (aIdx === -1 && bIdx === -1) return a.symbol.localeCompare(b.symbol);
     if (aIdx === -1) return 1;
     if (bIdx === -1) return -1;
@@ -693,40 +686,52 @@ function renderDay(dateStr, targetSymbols) {
     if (earnings.length > 0) {
         const logosDiv = document.createElement('div');
         logosDiv.className = 'logos';
-        
-        // Monthlyモードでは最大9件まで表示
+
         const displayEarnings = currentMode === 'monthly' ? earnings.slice(0, 9) : earnings;
-        
+
         displayEarnings.forEach(e => {
             const card = document.createElement('div');
             card.className = 'logo-card';
+
             if (favorites.includes(e.symbol)) {
                 card.classList.add('favorite');
             }
+
             card.dataset.symbol = e.symbol;
 
             card.addEventListener('click', (ev) => {
                 ev.stopPropagation();
-                window.webkit.messageHandlers.favoriteHandler.postMessage({ symbol: e.symbol });
+                window.webkit.messageHandlers.favoriteHandler.postMessage({
+                    symbol: e.symbol
+                });
             });
-            
-            const logoPath = `${"assets/logos/us"}/${e.symbol}.png`;
+
+            const logoPath = 'assets/logos/us/' + e.symbol + '.png';
+
             const img = document.createElement('img');
             img.src = logoPath;
             img.alt = e.symbol;
             img.title = e.symbol;
             img.onerror = () => img.style.display = 'none';
-            
+
             const symbolDiv = document.createElement('div');
             symbolDiv.className = 'symbol';
             symbolDiv.textContent = e.symbol;
-            
+
             card.appendChild(img);
             card.appendChild(symbolDiv);
+
             logosDiv.appendChild(card);
         });
-        
+
         dayDiv.appendChild(logosDiv);
+
+        if (currentMode === 'monthly' && earnings.length > 9) {
+            const moreDiv = document.createElement('div');
+            moreDiv.className = 'more-count';
+            moreDiv.textContent = `+${earnings.length - 9} more`;
+            dayDiv.appendChild(moreDiv);
+        }
     } else {
         const noEarnings = document.createElement('div');
         noEarnings.className = 'no-earnings';

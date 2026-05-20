@@ -57,14 +57,8 @@ TARGET_MONTHLY = [
     "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA",
     "VIA", "FAST", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI",
     "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO",
-]
 
-# Weekly表示用（より多くの銘柄）
-TARGET_WEEKLY = [
-    # Monthly銘柄を全て含む
-    *TARGET_MONTHLY,
-    
-    # Additional Tech
+       # Additional Tech
     "ADBE", "CRM", "ORCL", "CSCO", "IBM", "SNOW", "PLTR", "PANW", "CRWD", "ZS",
     "DDOG", "NET", "MDB", "WDAY", "NOW", "TEAM", "ZM", "DOCU", "OKTA", "TWLO",
     "ARM", "SHOP", "SQ", "PYPL", "COIN", "RBLX", "U", "SPOT", "ABNB", "UBER", "LYFT",
@@ -121,13 +115,9 @@ TARGET_WEEKLY = [
     "AGNC", "NLY", "STWD", "ARR",
 ]
 
-# 重複を削除
-TARGET_WEEKLY = list(dict.fromkeys(TARGET_WEEKLY))
-
 ASSETS_DIR = "assets/logos/us"
 
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
-print(f"📊 TARGET_WEEKLY: {len(TARGET_WEEKLY)} symbols")
 
 # 欠損値を0に置き換える
 def clean_record(record):
@@ -195,7 +185,7 @@ for week in weeks:
         response = requests.get(url)
         week_data = response.json().get("earningsCalendar", [])
         # 対象銘柄のみ抽出＆欠損値処理
-        all_data.extend([clean_record(d) for d in week_data if d["symbol"] in TARGET_WEEKLY])
+        all_data.extend([clean_record(d) for d in week_data if d["symbol"] in TARGET_MONTHLY])
         print(f"取得完了: {from_date} - {to_date} ({len(week_data)}件)")
     except Exception as e:
         print(f"エラー: {from_date} - {to_date} - {e}")
@@ -493,6 +483,13 @@ header {
     margin-top: 20px;
     text-align: center;
 }
+.more-count {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+}
 footer {
     text-align: center;
     font-size: 12px;
@@ -657,8 +654,7 @@ let earningsData = [];
 let currentMode = 'monthly';
 let currentWeek = 0;
 let weeks = """ + json.dumps([[d.strftime("%Y-%m-%d") for d in week] for week in weeks]) + """;
-let targetMonthly = """ + json.dumps(TARGET_MONTHLY) + """;
-let targetWeekly = """ + json.dumps(TARGET_WEEKLY) + """;
+let targetSymbols = """ + json.dumps(TARGET_MONTHLY) + """;
 
 // ---- お気に入り：URLパラメータから読み込む ----
 // 例: ?favorites=AAPL,MSFT,GOOGL
@@ -773,43 +769,34 @@ function renderCalendar() {
 
     const headerRow = document.createElement('div');
     headerRow.className = 'weekday-header';
+
     ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
         const cell = document.createElement('div');
         cell.className = 'weekday-cell';
         cell.textContent = day;
-        cell.align = 'legt';
         headerRow.appendChild(cell);
     });
+
     calendar.appendChild(headerRow);
-    
-    let targetSymbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
-    
-    // Monthlyモードの場合、週ごとに処理
+
     if (currentMode === 'monthly') {
+
         weeks.forEach(weekDates => {
-            // この週に決算データがあるかチェック
+
             const hasEarnings = weekDates.some(dateStr => {
-                const earnings = earningsData.filter(e => 
-                    e.date === dateStr && targetSymbols.includes(e.symbol)
-                );
-                return earnings.length > 0;
+                return earningsData.some(e => e.date === dateStr);
             });
-            
-            // 決算データがない週はスキップ
-            if (!hasEarnings) {
-                return;
-            }
-            
-            // 週の行を作成
+
+            if (!hasEarnings) return;
+
             const weekRow = document.createElement('div');
             weekRow.className = 'week-row week-row-wrapper';
-            
-            // この週の日付を表示（月〜金の5列）
+
             weekDates.forEach(dateStr => {
-                const dayDiv = renderDay(dateStr, targetSymbols);
+                const dayDiv = renderDay(dateStr);
                 weekRow.appendChild(dayDiv);
             });
-            
+
             calendar.appendChild(weekRow);
         });
     } else {
@@ -818,10 +805,7 @@ function renderCalendar() {
         
         // この週に決算データがあるかチェック
         const hasEarnings = weekDates.some(dateStr => {
-            const earnings = earningsData.filter(e => 
-                e.date === dateStr && targetSymbols.includes(e.symbol)
-            );
-            return earnings.length > 0;
+            return earningsData.some(e => e.date === dateStr);
         });
         
         // 週ナビゲーションの更新
@@ -840,7 +824,7 @@ function renderCalendar() {
             weekRow.className = 'week-row';
             
             weekDates.forEach(dateStr => {
-                const dayDiv = renderDay(dateStr, targetSymbols);
+                const dayDiv = renderDay(dateStr);
                 weekRow.appendChild(dayDiv);
             });
             
@@ -859,15 +843,14 @@ function renderCalendar() {
     }
 }
 
-function renderDay(dateStr, targetSymbols) {
+function renderDay(dateStr) {
     const today = new Date().toISOString().split('T')[0];
     
-   const earnings = earningsData.filter(e => 
+    const earnings = earningsData.filter(e =>
         e.date === dateStr && targetSymbols.includes(e.symbol)
     ).sort((a, b) => {
-    const symbols = currentMode === 'monthly' ? targetMonthly : targetWeekly;
-    const aIdx = symbols.indexOf(a.symbol);
-    const bIdx = symbols.indexOf(b.symbol);
+    const aIdx = targetSymbols.indexOf(a.symbol);
+    const bIdx = targetSymbols.indexOf(b.symbol);
     if (aIdx === -1 && bIdx === -1) return a.symbol.localeCompare(b.symbol);
     if (aIdx === -1) return 1;
     if (bIdx === -1) return -1;
@@ -902,40 +885,52 @@ function renderDay(dateStr, targetSymbols) {
     if (earnings.length > 0) {
         const logosDiv = document.createElement('div');
         logosDiv.className = 'logos';
-        
-        // Monthlyモードでは最大9件まで表示
+
         const displayEarnings = currentMode === 'monthly' ? earnings.slice(0, 9) : earnings;
-        
+
         displayEarnings.forEach(e => {
             const card = document.createElement('div');
             card.className = 'logo-card';
+
             if (favorites.includes(e.symbol)) {
                 card.classList.add('favorite');
             }
+
             card.dataset.symbol = e.symbol;
 
             card.addEventListener('click', (ev) => {
                 ev.stopPropagation();
-                window.webkit.messageHandlers.favoriteHandler.postMessage({ symbol: e.symbol });
+                window.webkit.messageHandlers.favoriteHandler.postMessage({
+                    symbol: e.symbol
+                });
             });
-            
-            const logoPath = `${""" + json.dumps(ASSETS_DIR) + """}/${e.symbol}.png`;
+
+            const logoPath = '""" + ASSETS_DIR + """/' + e.symbol + '.png';
+
             const img = document.createElement('img');
             img.src = logoPath;
             img.alt = e.symbol;
             img.title = e.symbol;
             img.onerror = () => img.style.display = 'none';
-            
+
             const symbolDiv = document.createElement('div');
             symbolDiv.className = 'symbol';
             symbolDiv.textContent = e.symbol;
-            
+
             card.appendChild(img);
             card.appendChild(symbolDiv);
+
             logosDiv.appendChild(card);
         });
-        
+
         dayDiv.appendChild(logosDiv);
+
+        if (currentMode === 'monthly' && earnings.length > 9) {
+            const moreDiv = document.createElement('div');
+            moreDiv.className = 'more-count';
+            moreDiv.textContent = `+${earnings.length - 9} more`;
+            dayDiv.appendChild(moreDiv);
+        }
     } else {
         const noEarnings = document.createElement('div');
         noEarnings.className = 'no-earnings';
