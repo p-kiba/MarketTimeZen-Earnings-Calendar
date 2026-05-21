@@ -898,7 +898,7 @@ footer {
     </div>
 
     <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Search by symbol (e.g., 7203, SONY)..." oninput="searchSymbols()">
+        <input type="text" id="searchInput" placeholder="Search by symbol or name (7203, SONY)..." oninput="searchSymbols()">
     </div>
 </div>
 
@@ -965,8 +965,9 @@ function switchMode(mode) {
     currentMode = mode;
     document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.mode-btn').forEach(btn => {
-        if ((mode === 'monthly' && btn.textContent === 'Monthly') ||
-            (mode === 'weekly' && btn.textContent === 'Weekly')) {
+        const label = btn.textContent.trim();
+        if ((mode === 'monthly' && label === 'Monthly') ||
+            (mode === 'weekly' && label === 'Weekly')) {
             btn.classList.add('active');
         }
     });
@@ -1113,6 +1114,8 @@ function renderDay(dateStr) {
             }
 
             card.dataset.symbol = e.symbol;
+            card.dataset.nameJa = e.name_ja || '';
+            card.dataset.nameEn = e.name_en || '';
 
             card.addEventListener('click', (ev) => {
                 ev.stopPropagation();
@@ -1168,18 +1171,22 @@ function formatDateRange(dates) {
 }
 
 function searchSymbols() {
-    const query = document.getElementById('searchInput').value.toUpperCase().trim();
+    const query = document.getElementById('searchInput').value.trim();
+    const queryUpper = query.toUpperCase();
     const cards = document.querySelectorAll('.logo-card');
     if (!query) {
         cards.forEach(card => card.classList.remove('hidden'));
     } else {
         cards.forEach(card => {
-            const symbol = card.dataset.symbol;
-            if (symbol.includes(query)) {
-                card.classList.remove('hidden');
-            } else {
-                card.classList.add('hidden');
-            }
+            const symbol  = (card.dataset.symbol  || '').toUpperCase();
+            const nameJa  = (card.dataset.nameJa  || '');          // 日本語はそのまま
+            const nameEn  = (card.dataset.nameEn  || '').toUpperCase();
+
+            const match = symbol.includes(queryUpper)
+                       || nameJa.includes(query)                   // 日本語は元のクエリで比較
+                       || nameEn.includes(queryUpper);
+
+            card.classList.toggle('hidden', !match);
         });
     }
 }

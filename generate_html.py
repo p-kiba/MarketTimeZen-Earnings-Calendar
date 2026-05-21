@@ -786,8 +786,9 @@ function switchMode(mode) {
     currentMode = mode;
     document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.mode-btn').forEach(btn => {
-        if ((mode === 'monthly' && btn.textContent === 'Monthly') ||
-            (mode === 'weekly' && btn.textContent === 'Weekly')) {
+        const label = btn.textContent.trim();
+        if ((mode === 'monthly' && label === 'Monthly') ||
+            (mode === 'weekly' && label === 'Weekly')) {
             btn.classList.add('active');
         }
     });
@@ -827,14 +828,12 @@ function renderCalendar() {
 
     const headerRow = document.createElement('div');
     headerRow.className = 'weekday-header';
-
     ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
         const cell = document.createElement('div');
         cell.className = 'weekday-cell';
         cell.textContent = day;
         headerRow.appendChild(cell);
     });
-
     calendar.appendChild(headerRow);
 
     if (currentMode === 'monthly') {
