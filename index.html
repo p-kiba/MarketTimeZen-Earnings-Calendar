@@ -460,7 +460,7 @@ footer {
     </div>
     <div class="header-content">
         <div class="header-title">Earnings Calendar</div>
-        <div class="header-date">May 21, 2026</div>
+        <div class="header-date">May 22, 2026</div>
     </div>
 </header>
 
@@ -506,7 +506,7 @@ footer {
 
 <div class="container" id="calendar"></div>
 
-<footer>Last updated: 2026-05-21 03:31</footer>
+<footer>Last updated: 2026-05-22 03:29</footer>
 
 <script>
 let earningsData = [];
@@ -587,8 +587,9 @@ function switchMode(mode) {
     currentMode = mode;
     document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.mode-btn').forEach(btn => {
-        if ((mode === 'monthly' && btn.textContent === 'Monthly') ||
-            (mode === 'weekly' && btn.textContent === 'Weekly')) {
+        const label = btn.textContent.trim();
+        if ((mode === 'monthly' && label === 'Monthly') ||
+            (mode === 'weekly' && label === 'Weekly')) {
             btn.classList.add('active');
         }
     });
@@ -628,14 +629,12 @@ function renderCalendar() {
 
     const headerRow = document.createElement('div');
     headerRow.className = 'weekday-header';
-
     ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].forEach(day => {
         const cell = document.createElement('div');
         cell.className = 'weekday-cell';
         cell.textContent = day;
         headerRow.appendChild(cell);
     });
-
     calendar.appendChild(headerRow);
 
     if (currentMode === 'monthly') {
