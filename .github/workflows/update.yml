@@ -18,7 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install pandas requests yfinance openpyxl
+        run: pip install pandas requests yfinance openpyxl beautifulsoup4
 
       - name: Run generate_html.py
         env:
