@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+from html_template import build_html_head, build_header, build_controls, build_common_js
 
 # 日本株の銘柄リスト（時価総額順）
 TARGET_JP = [

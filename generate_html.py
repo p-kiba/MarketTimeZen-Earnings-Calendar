@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import requests
 from datetime import datetime, timedelta
+from html_template import build_html_head, build_header, build_controls, build_common_js
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
 
