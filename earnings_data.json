@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-04",
-    "epsActual": 0,
+    "epsActual": 1.09,
     "epsEstimate": 1.0112,
     "hour": "amc",
     "quarter": 1,
-    "revenueActual": 0,
+    "revenueActual": 830240000,
     "revenueEstimate": 841240318,
     "symbol": "DOCU",
     "year": 2027
@@ -99,6 +99,17 @@
     "year": 2027
   },
   {
+    "date": "2026-06-10",
+    "epsActual": 0,
+    "epsEstimate": 1.9985,
+    "hour": "amc",
+    "quarter": 4,
+    "revenueActual": 0,
+    "revenueEstimate": 19481669489,
+    "symbol": "ORCL",
+    "year": 2026
+  },
+  {
     "date": "2026-06-18",
     "epsActual": 0,
     "epsEstimate": 1.6378,
@@ -108,17 +119,6 @@
     "revenueEstimate": 46736827253,
     "symbol": "KR",
     "year": 2027
-  },
-  {
-    "date": "2026-06-16",
-    "epsActual": 0,
-    "epsEstimate": 1.9985,
-    "hour": "amc",
-    "quarter": 4,
-    "revenueActual": 0,
-    "revenueEstimate": 19481669489,
-    "symbol": "ORCL",
-    "year": 2026
   },
   {
     "date": "2026-06-24",
