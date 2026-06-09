@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests yfinance openpyxl beautifulsoup4
 
+      - name: Update Earnings JSON
+        run: python earnings_py/main.py
+
       - name: Run generate_html.py
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
@@ -32,6 +35,12 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          git add index.html earnings_data.json japan.html earnings_data_jp.json
+          git add \
+            index.html \
+            earnings_data.json \
+            japan.html \
+            earnings_data_jp.json \
+            output_json/earnings \
+            earnings_py/input/earnings_index.json
           git commit -m "Auto update HTML & JSON $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push
