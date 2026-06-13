@@ -21,12 +21,25 @@ METRIC_TAGS = {
     "epsDiluted": [
         "EarningsPerShareDiluted",
     ],
+    "grossProfit": [
+        "GrossProfit",
+    ],
+    "costOfRevenue": [
+        "CostOfRevenue",
+        "CostOfGoodsAndServicesSold",
+    ],
+    "operatingCashFlow": [
+        "NetCashProvidedByUsedInOperatingActivities",
+    ],
 }
 
 METRIC_UNITS = {
     "revenue": "USD",
     "netIncome": "USD",
     "epsDiluted": "USD/shares",
+    "grossProfit": "USD",
+    "costOfRevenue": "USD",
+    "operatingCashFlow": "USD",
 }
 
 
@@ -89,6 +102,62 @@ def extract_periods(items):
     return result
 
 
+def extract_periods_ytd(items):
+    """CFのYTD累計値を取得する（日数チェックなし）"""
+    result = {}
+
+    for item in items:
+
+        form = item.get("form")
+        fy = item.get("fy")
+        fp = item.get("fp")
+
+        if fy is None:
+            continue
+
+        if form == "10-Q":
+            if fp not in ["Q1", "Q2", "Q3"]:
+                continue
+        elif form == "10-K":
+            if fp != "FY":
+                continue
+        else:
+            continue
+
+        start = item.get("start")
+        end = item.get("end")
+
+        if not start or not end:
+            continue
+
+        start_date = datetime.strptime(start, "%Y-%m-%d")
+        end_date = datetime.strptime(end, "%Y-%m-%d")
+        days = (end_date - start_date).days
+
+        if form == "10-K" and days < 300:
+            continue
+
+        key = f"FY{fy}{fp}"
+
+        existing = result.get(key)
+
+        if existing is None:
+            result[key] = dict(item)
+            result[key]["duration"] = days
+            continue
+
+        existing_end = datetime.strptime(existing["end"], "%Y-%m-%d")
+        existing_filed = datetime.strptime(existing["filed"], "%Y-%m-%d")
+        filed = datetime.strptime(item["filed"], "%Y-%m-%d")
+
+        if end_date > existing_end or (
+            end_date == existing_end and filed > existing_filed
+        ):
+            result[key] = dict(item)
+            result[key]["duration"] = days
+
+    return result
+
 
 def generate_q4(metric):
 
@@ -133,6 +202,51 @@ def generate_q4(metric):
             "filed": metric[fy_key]["filed"],
             "accn": metric[fy_key]["accn"],
         }
+
+    return result
+
+
+def generate_quarterly_from_ytd(ytd):
+    """YTD累計から単一四半期の値を逆算する"""
+    result = {}
+
+    fiscal_years = sorted(
+        {v["fy"] for v in ytd.values()},
+        reverse=True,
+    )
+
+    for fy in fiscal_years:
+        q1_key = f"FY{fy}Q1"
+        q2_key = f"FY{fy}Q2"
+        q3_key = f"FY{fy}Q3"
+        fy_key = f"FY{fy}FY"
+
+        # Q1はYTD = 単一四半期なのでそのまま使う
+        if q1_key in ytd:
+            result[q1_key] = dict(ytd[q1_key])
+
+        # Q2 = YTD Q2 - Q1
+        if q2_key in ytd and q1_key in ytd:
+            result[q2_key] = dict(ytd[q2_key])
+            result[q2_key]["val"] = ytd[q2_key]["val"] - ytd[q1_key]["val"]
+
+        # Q3 = YTD Q3 - YTD Q2
+        if q3_key in ytd and q2_key in ytd:
+            result[q3_key] = dict(ytd[q3_key])
+            result[q3_key]["val"] = ytd[q3_key]["val"] - ytd[q2_key]["val"]
+
+        # Q4 = 年間 - YTD Q3
+        if fy_key in ytd and q3_key in ytd:
+            result[f"FY{fy}Q4"] = {
+                "val": ytd[fy_key]["val"] - ytd[q3_key]["val"],
+                "fy": fy,
+                "fp": "Q4",
+                "form": "10-K",
+                "start": ytd[q3_key]["end"],
+                "end": ytd[fy_key]["end"],
+                "filed": ytd[fy_key]["filed"],
+                "accn": ytd[fy_key]["accn"],
+            }
 
     return result
 
@@ -185,6 +299,24 @@ def build_earnings(cik):
         )
     )
 
+    gross_profit = generate_q4(
+        extract_periods(
+            collect_metric_items(us_gaap, "grossProfit")
+        )
+    )
+
+    cost_of_revenue = generate_q4(
+        extract_periods(
+            collect_metric_items(us_gaap, "costOfRevenue")
+        )
+    )
+
+    operating_cash_flow = generate_quarterly_from_ytd(
+        extract_periods_ytd(
+            collect_metric_items(us_gaap, "operatingCashFlow")
+        )
+    )
+
     quarters = sorted(
         [
             q for q in (
@@ -206,10 +338,23 @@ def build_earnings(cik):
             else int(revenue[quarter]["fp"].replace("Q", ""))
         )
 
+        rev_val = revenue[quarter]["val"]
+
+        # GrossProfitが取得できない場合はRevenue - CostOfRevenueで計算
+        if quarter in gross_profit:
+            gp_val = gross_profit[quarter]["val"]
+        elif quarter in cost_of_revenue:
+            gp_val = rev_val - cost_of_revenue[quarter]["val"]
+        else:
+            gp_val = None
+
         output[quarter] = {
-            "revenue": revenue[quarter]["val"],
+            "revenue": rev_val,
             "netIncome": net_income[quarter]["val"],
             "epsDiluted": round(eps[quarter]["val"], 2),
+            "grossProfit": gp_val,
+            "grossMargin": round(gp_val / rev_val, 4) if gp_val and rev_val else None,
+            "operatingCashFlow": operating_cash_flow[quarter]["val"] if quarter in operating_cash_flow else None,
             "fiscalYear": revenue[quarter]["fy"],
             "fiscalQuarter": fiscal_quarter,
             "form": revenue[quarter]["form"],
