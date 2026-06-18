@@ -114,6 +114,22 @@ TARGET_MONTHLY = [
     "DUOL", "BMBL", "MTCH", "PINS", "SNAP", "TWTR",
     "ENPH", "SEDG", "RUN", "FSLR", "PLUG", "BE", "CLNE",
     "AGNC", "NLY", "STWD", "ARR",
+    "NOK", "SPCX", "FIG", "SNPS", "COHR", "RIOT",
+    
+    # Additional broad coverage
+    "BRK-B", "KLAC", "GEV", "DELL", "WDC", "TJX", "APP", "CDNS", "TER", "STX",
+    "AMKR", "LSCC", "OLED", "LITE", "FLEX", "HPQ", "HPE", "SMCI", "MSTR", "INTU",
+    "FTNT", "ADSK", "EA", "TTWO", "GDDY", "HUBS", "ROP", "PTC", "PAYC", "DT",
+    "ESTC", "S", "IOT", "PATH", "MANH", "TYL", "CDW", "ETN", "PH", "TT",
+    "IR", "CARR", "OTIS", "JCI", "ROK", "XYL", "PWR", "VST", "CEG", "AXON",
+    "LHX", "TDG", "TXT", "HWM", "GNRC", "SPGI", "MCO", "ICE", "CME", "NDAQ",
+    "STT", "AMP", "PGR", "AFL", "ACGL", "HIG", "AON", "AJG", "BRO", "RJF",
+    "TROW", "DHR", "MCK", "COR", "CAH", "BMY", "GSK", "NVO", "NVS", "RMD",
+    "IDXX", "ALNY", "ARGX", "GEHC", "WAT", "A", "IQV", "ZBH", "WST", "ROST",
+    "AZO", "ORLY", "TSCO", "ULTA", "YUM", "DPZ", "MNST", "CELH", "KMB", "SYY",
+    "DG", "DLTR", "BBY", "GME", "DKNG", "WMB", "LNG", "TRGP", "EQT", "HAL",
+    "BKR", "SHW", "PPG", "MLM", "VMC", "CF", "MOS", "DHI", "LEN", "PHM",
+    "TOL",
 ]
 
 ASSETS_DIR = "assets/logos/us"
