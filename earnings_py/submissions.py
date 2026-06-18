@@ -88,6 +88,7 @@ def get_changed_companies(companies):
 
         symbol = company["symbol"]
         cik = company["cik"]
+        name = company["name"]
 
         try:
 
@@ -113,6 +114,7 @@ def get_changed_companies(companies):
                 {
                     "symbol": symbol,
                     "cik": cik,
+                    "name": name,
                     "accessionNumber": latest_accession,
                 }
             )

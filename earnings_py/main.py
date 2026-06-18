@@ -32,13 +32,14 @@ def main():
 
         symbol = company["symbol"]
         cik = company["cik"]
+        name = company["name"]
         accession_number = company["accessionNumber"]
 
         print(f"Updating {symbol}...")
 
         try:
 
-            earnings = build_earnings(cik)
+            earnings = build_earnings(cik, company_name=name)
 
             filename = write_earnings_file(
                 symbol,

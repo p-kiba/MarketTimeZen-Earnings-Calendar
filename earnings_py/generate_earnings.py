@@ -267,7 +267,7 @@ def collect_metric_items(us_gaap, metric_name):
     return items
 
 
-def build_earnings(cik):
+def build_earnings(cik, company_name=None):
     url = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
     response = requests.get(url, headers=HEADERS, timeout=60)
     response.raise_for_status()
@@ -330,6 +330,9 @@ def build_earnings(cik):
     )[:40]
 
     output = {}
+
+    if company_name:
+        output["companyName"] = company_name
 
     for quarter in quarters:
         fiscal_quarter = (
