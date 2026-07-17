@@ -1,5 +1,20 @@
 {
   "companyName": "FASTENAL CO",
+  "FY2026Q2": {
+    "revenue": 2386900000,
+    "netIncome": 382800000,
+    "epsDiluted": 0.33,
+    "grossProfit": 1063600000,
+    "grossMargin": 0.4456,
+    "operatingCashFlow": 265700000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-16",
+    "accessionNumber": "0000815556-26-000041"
+  },
   "FY2026Q1": {
     "revenue": 2201700000,
     "netIncome": 339800000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-14",
     "accessionNumber": "0000815556-16-000122"
-  },
-  "FY2016Q2": {
-    "revenue": 1014287000,
-    "netIncome": 131521000,
-    "epsDiluted": 0.45,
-    "grossProfit": 501592000,
-    "grossMargin": 0.4945,
-    "operatingCashFlow": 86691000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-15",
-    "accessionNumber": "0000815556-16-000113"
   }
 }
