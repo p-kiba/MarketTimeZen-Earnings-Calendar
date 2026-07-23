@@ -1,5 +1,20 @@
 {
   "companyName": "CSX CORP",
+  "FY2026Q2": {
+    "revenue": 3935000000,
+    "netIncome": 1002000000,
+    "epsDiluted": 0.54,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1327000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-22",
+    "accessionNumber": "0000277948-26-000032"
+  },
   "FY2026Q1": {
     "revenue": 3482000000,
     "netIncome": 807000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-23",
     "filedDate": "2016-10-12",
     "accessionNumber": "0000277948-16-000082"
-  },
-  "FY2016Q2": {
-    "revenue": 2704000000,
-    "netIncome": 445000000,
-    "epsDiluted": 0.47,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 838000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-03-26",
-    "endDate": "2016-06-24",
-    "filedDate": "2016-07-14",
-    "accessionNumber": "0000277948-16-000073"
   }
 }
