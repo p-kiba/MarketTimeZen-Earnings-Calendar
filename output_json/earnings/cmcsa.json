@@ -1,5 +1,20 @@
 {
   "companyName": "COMCAST CORP",
+  "FY2026Q2": {
+    "revenue": 29940000000,
+    "netIncome": 3526000000,
+    "epsDiluted": 0.99,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 8092000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-23",
+    "accessionNumber": "0001628280-26-049360"
+  },
   "FY2026Q1": {
     "revenue": 31457000000,
     "netIncome": 2174000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-26",
     "accessionNumber": "0001193125-16-747958"
-  },
-  "FY2016Q2": {
-    "revenue": 19269000000,
-    "netIncome": 2028000000,
-    "epsDiluted": 0.83,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 4273000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-27",
-    "accessionNumber": "0001193125-16-659869"
   }
 }

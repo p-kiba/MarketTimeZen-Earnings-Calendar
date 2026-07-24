@@ -1,5 +1,20 @@
 {
   "companyName": "UNION PACIFIC CORP",
+  "FY2026Q2": {
+    "revenue": 6864000000,
+    "netIncome": 1993000000,
+    "epsDiluted": 3.36,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 3076000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-23",
+    "accessionNumber": "0000100885-26-000250"
+  },
   "FY2026Q1": {
     "revenue": 6217000000,
     "netIncome": 1701000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-20",
     "accessionNumber": "0000100885-16-000454"
-  },
-  "FY2016Q2": {
-    "revenue": 4770000000,
-    "netIncome": 979000000,
-    "epsDiluted": 1.17,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-21",
-    "accessionNumber": "0000100885-16-000400"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "CLEVELAND-CLIFFS INC.",
+  "FY2026Q2": {
+    "revenue": 5226000000,
+    "netIncome": -145000000,
+    "epsDiluted": -0.25,
+    "grossProfit": 132000000,
+    "grossMargin": 0.0253,
+    "operatingCashFlow": 230000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-23",
+    "accessionNumber": "0000764065-26-000100"
+  },
   "FY2026Q1": {
     "revenue": 4922000000,
     "netIncome": -237000000,
@@ -584,20 +599,5 @@
     "endDate": "2015-12-31",
     "filedDate": "2016-02-24",
     "accessionNumber": "0000764065-16-000183"
-  },
-  "FY2015Q3": {
-    "revenue": 593200000,
-    "netIncome": 10600000,
-    "epsDiluted": -0.1,
-    "grossProfit": 55100000,
-    "grossMargin": 0.0929,
-    "operatingCashFlow": 188700000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-07-01",
-    "endDate": "2015-09-30",
-    "filedDate": "2015-10-29",
-    "accessionNumber": "0000764065-15-000138"
   }
 }

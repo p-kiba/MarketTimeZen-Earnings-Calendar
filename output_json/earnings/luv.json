@@ -1,5 +1,20 @@
 {
   "companyName": "SOUTHWEST AIRLINES CO",
+  "FY2026Q2": {
+    "revenue": 8432000000,
+    "netIncome": 233000000,
+    "epsDiluted": 0.47,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 529000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-23",
+    "accessionNumber": "0000092380-26-000077"
+  },
   "FY2026Q1": {
     "revenue": 7249000000,
     "netIncome": 227000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-04-29",
     "accessionNumber": "0000092380-16-000213"
-  },
-  "FY2015Q4": {
-    "revenue": 4977000000,
-    "netIncome": 536000000,
-    "epsDiluted": 0.83,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 324000000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2015-09-30",
-    "endDate": "2015-12-31",
-    "filedDate": "2016-02-03",
-    "accessionNumber": "0000092380-16-000175"
   }
 }

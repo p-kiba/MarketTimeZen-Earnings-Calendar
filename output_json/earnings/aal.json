@@ -1,5 +1,20 @@
 {
   "companyName": "American Airlines Group Inc.",
+  "FY2026Q2": {
+    "revenue": 16735000000,
+    "netIncome": 71000000,
+    "epsDiluted": 0.11,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 471000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-23",
+    "accessionNumber": "0000006201-26-000052"
+  },
   "FY2026Q1": {
     "revenue": 13912000000,
     "netIncome": -382000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-20",
     "accessionNumber": "0001193125-16-742263"
-  },
-  "FY2016Q2": {
-    "revenue": 10363000000,
-    "netIncome": 950000000,
-    "epsDiluted": 1.68,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 2213000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-22",
-    "accessionNumber": "0001193125-16-654354"
   }
 }
