@@ -1,5 +1,20 @@
 {
   "companyName": "INTEL CORP",
+  "FY2026Q2": {
+    "revenue": 16128000000,
+    "netIncome": -11033000000,
+    "epsDiluted": -2.16,
+    "grossProfit": 6509000000,
+    "grossMargin": 0.4036,
+    "operatingCashFlow": 7006000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-03-29",
+    "endDate": "2026-06-27",
+    "filedDate": "2026-07-24",
+    "accessionNumber": "0000050863-26-000157"
+  },
   "FY2026Q1": {
     "revenue": 13577000000,
     "netIncome": -3728000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-10-01",
     "filedDate": "2016-10-31",
     "accessionNumber": "0000050863-16-000153"
-  },
-  "FY2016Q2": {
-    "revenue": 13533000000,
-    "netIncome": 1330000000,
-    "epsDiluted": 0.27,
-    "grossProfit": 7973000000,
-    "grossMargin": 0.5892,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-03",
-    "endDate": "2016-07-02",
-    "filedDate": "2016-08-01",
-    "accessionNumber": "0000050863-16-000142"
   }
 }
