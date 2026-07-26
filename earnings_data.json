@@ -225,9 +225,9 @@
     "hour": "bmo",
     "quarter": 2,
     "year": 2026,
-    "epsEstimate": 2.2023,
+    "epsEstimate": 2.2442,
     "epsActual": 2.46,
-    "revenueEstimate": 5418509337,
+    "revenueEstimate": 5451355365,
     "revenueActual": 5698000000
   },
   {
@@ -236,9 +236,9 @@
     "hour": "bmo",
     "quarter": 2,
     "year": 2026,
-    "epsEstimate": 2.2442,
+    "epsEstimate": 2.2023,
     "epsActual": 2.46,
-    "revenueEstimate": 5451355365,
+    "revenueEstimate": 5418509337,
     "revenueActual": 5698000000
   },
   {
@@ -2728,17 +2728,6 @@
     "revenueActual": 0
   },
   {
-    "symbol": "WHR",
-    "date": "2026-07-27",
-    "hour": "amc",
-    "quarter": 2,
-    "year": 2026,
-    "epsEstimate": 0.0627,
-    "epsActual": 0,
-    "revenueEstimate": 3594539166,
-    "revenueActual": 0
-  },
-  {
     "symbol": "TTWO",
     "date": "2026-08-07",
     "hour": "",
@@ -3883,17 +3872,6 @@
     "revenueActual": 0
   },
   {
-    "symbol": "MAR",
-    "date": "2026-08-03",
-    "hour": "bmo",
-    "quarter": 2,
-    "year": 2026,
-    "epsEstimate": 3.1016,
-    "epsActual": 0,
-    "revenueEstimate": 7273075650,
-    "revenueActual": 0
-  },
-  {
     "symbol": "AMAT",
     "date": "2026-08-13",
     "hour": "amc",
@@ -4114,6 +4092,17 @@
     "revenueActual": 0
   },
   {
+    "symbol": "ADI",
+    "date": "2026-08-19",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 3.3703,
+    "epsActual": 0,
+    "revenueEstimate": 3956507754,
+    "revenueActual": 0
+  },
+  {
     "symbol": "CSCO",
     "date": "2026-08-19",
     "hour": "amc",
@@ -4171,23 +4160,23 @@
   {
     "symbol": "TGT",
     "date": "2026-08-19",
-    "hour": "bmo",
-    "quarter": 2,
-    "year": 2026,
-    "epsEstimate": 0,
-    "epsActual": 0,
-    "revenueEstimate": 0,
-    "revenueActual": 0
-  },
-  {
-    "symbol": "TGT",
-    "date": "2026-08-19",
     "hour": "",
     "quarter": 2,
     "year": 2027,
     "epsEstimate": 2.2678,
     "epsActual": 0,
     "revenueEstimate": 26275930012,
+    "revenueActual": 0
+  },
+  {
+    "symbol": "TGT",
+    "date": "2026-08-19",
+    "hour": "bmo",
+    "quarter": 2,
+    "year": 2026,
+    "epsEstimate": 0,
+    "epsActual": 0,
+    "revenueEstimate": 0,
     "revenueActual": 0
   },
   {
@@ -4243,17 +4232,6 @@
     "epsEstimate": 1.5154,
     "epsActual": 0,
     "revenueEstimate": 1878153876,
-    "revenueActual": 0
-  },
-  {
-    "symbol": "ADI",
-    "date": "2026-08-18",
-    "hour": "bmo",
-    "quarter": 3,
-    "year": 2026,
-    "epsEstimate": 3.3703,
-    "epsActual": 0,
-    "revenueEstimate": 3956507754,
     "revenueActual": 0
   },
   {
