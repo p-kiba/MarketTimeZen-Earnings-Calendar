@@ -1,5 +1,20 @@
 {
   "companyName": "Hilton Worldwide Holdings Inc.",
+  "FY2026Q2": {
+    "revenue": 3341000000,
+    "netIncome": 482000000,
+    "epsDiluted": 2.1,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 472000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-28",
+    "accessionNumber": "0001585689-26-000043"
+  },
   "FY2026Q1": {
     "revenue": 2937000000,
     "netIncome": 385000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-26",
     "accessionNumber": "0001585689-16-000221"
-  },
-  "FY2016Q2": {
-    "revenue": 3051000000,
-    "netIncome": 239000000,
-    "epsDiluted": 0.24,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 343000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-27",
-    "accessionNumber": "0001585689-16-000206"
   }
 }

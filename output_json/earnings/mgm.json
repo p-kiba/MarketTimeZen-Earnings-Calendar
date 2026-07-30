@@ -1,5 +1,20 @@
 {
   "companyName": "MGM Resorts International",
+  "FY2026Q2": {
+    "revenue": 4450993000,
+    "netIncome": 292433000,
+    "epsDiluted": 1.11,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 558818000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-29",
+    "accessionNumber": "0000789570-26-000076"
+  },
   "FY2026Q1": {
     "revenue": 4454718000,
     "netIncome": 125136000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-09",
     "accessionNumber": "0001564590-16-028455"
-  },
-  "FY2016Q2": {
-    "revenue": 2269502000,
-    "netIncome": 474353000,
-    "epsDiluted": 0.83,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-08",
-    "accessionNumber": "0001564590-16-023114"
   }
 }
