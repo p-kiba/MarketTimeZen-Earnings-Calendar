@@ -1,5 +1,20 @@
 {
   "companyName": "Air Products & Chemicals, Inc.",
+  "FY2026Q3": {
+    "revenue": 3161000000,
+    "netIncome": -1440800000,
+    "epsDiluted": -6.47,
+    "grossProfit": 1036000000,
+    "grossMargin": 0.3277,
+    "operatingCashFlow": 1305200000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-30",
+    "accessionNumber": "0000002969-26-000036"
+  },
   "FY2026Q2": {
     "revenue": 3171800000,
     "netIncome": 710400000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-21",
     "accessionNumber": "0001193125-16-773346"
-  },
-  "FY2016Q3": {
-    "revenue": 2434400000,
-    "netIncome": 346800000,
-    "epsDiluted": 1.59,
-    "grossProfit": 795100000,
-    "grossMargin": 0.3266,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-29",
-    "accessionNumber": "0001193125-16-662727"
   }
 }

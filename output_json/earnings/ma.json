@@ -1,5 +1,20 @@
 {
   "companyName": "Mastercard Inc",
+  "FY2026Q2": {
+    "revenue": 9277000000,
+    "netIncome": 4388000000,
+    "epsDiluted": 4.97,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 3773000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-30",
+    "accessionNumber": "0001141391-26-000083"
+  },
   "FY2026Q1": {
     "revenue": 8398000000,
     "netIncome": 3882000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-04-28",
     "accessionNumber": "0001141391-16-000135"
-  },
-  "FY2015Q3": {
-    "revenue": 2530000000,
-    "netIncome": 977000000,
-    "epsDiluted": 0.86,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1272000000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-07-01",
-    "endDate": "2015-09-30",
-    "filedDate": "2015-10-29",
-    "accessionNumber": "0001141391-15-000065"
   }
 }

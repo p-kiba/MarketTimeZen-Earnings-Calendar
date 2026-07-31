@@ -1,5 +1,20 @@
 {
   "companyName": "STATE STREET CORP",
+  "FY2026Q2": {
+    "revenue": 4048000000,
+    "netIncome": 1084000000,
+    "epsDiluted": 3.65,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": -2326000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-30",
+    "accessionNumber": "0000093751-26-000397"
+  },
   "FY2026Q1": {
     "revenue": 3796000000,
     "netIncome": 764000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-03",
     "accessionNumber": "0000093751-16-000697"
-  },
-  "FY2016Q2": {
-    "revenue": 2573000000,
-    "netIncome": 619000000,
-    "epsDiluted": 1.47,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 2160000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-05",
-    "accessionNumber": "0000093751-16-000653"
   }
 }
