@@ -1,5 +1,20 @@
 {
   "companyName": "ILLUMINA, INC.",
+  "FY2026Q2": {
+    "revenue": 1159000000,
+    "netIncome": 207000000,
+    "epsDiluted": 1.35,
+    "grossProfit": 770000000,
+    "grossMargin": 0.6644,
+    "operatingCashFlow": 201000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-03-30",
+    "endDate": "2026-06-28",
+    "filedDate": "2026-07-31",
+    "accessionNumber": "0001110803-26-000160"
+  },
   "FY2026Q1": {
     "revenue": 1091000000,
     "netIncome": 134000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-04-03",
     "filedDate": "2016-05-09",
     "accessionNumber": "0001110803-16-000187"
-  },
-  "FY2015Q4": {
-    "revenue": 591548000,
-    "netIncome": 104477000,
-    "epsDiluted": 0.7,
-    "grossProfit": 410359000,
-    "grossMargin": 0.6937,
-    "operatingCashFlow": 240378000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2015-09-27",
-    "endDate": "2016-01-03",
-    "filedDate": "2016-03-02",
-    "accessionNumber": "0001110803-16-000175"
   }
 }

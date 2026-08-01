@@ -1,5 +1,20 @@
 {
   "companyName": "FLEX LTD.",
+  "FY2027Q1": {
+    "revenue": 7928000000,
+    "netIncome": 285000000,
+    "epsDiluted": 0.76,
+    "grossProfit": 747000000,
+    "grossMargin": 0.0942,
+    "operatingCashFlow": 276000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-26",
+    "filedDate": "2026-07-31",
+    "accessionNumber": "0000866374-26-000030"
+  },
   "FY2026Q4": {
     "revenue": 7477000000,
     "netIncome": 250000000,
@@ -584,20 +599,5 @@
     "endDate": "2015-09-25",
     "filedDate": "2015-10-26",
     "accessionNumber": "0001628280-15-007847"
-  },
-  "FY2016Q1": {
-    "revenue": 5566248000,
-    "netIncome": 110850000,
-    "epsDiluted": 0.19,
-    "grossProfit": 352341000,
-    "grossMargin": 0.0633,
-    "operatingCashFlow": 362276000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2015-04-01",
-    "endDate": "2015-06-26",
-    "filedDate": "2015-07-27",
-    "accessionNumber": "0001628280-15-005450"
   }
 }

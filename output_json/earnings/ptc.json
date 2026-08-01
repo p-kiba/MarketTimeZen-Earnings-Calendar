@@ -1,5 +1,20 @@
 {
   "companyName": "PTC INC.",
+  "FY2026Q3": {
+    "revenue": 600049000,
+    "netIncome": 118780000,
+    "epsDiluted": 1.03,
+    "grossProfit": 490465000,
+    "grossMargin": 0.8174,
+    "operatingCashFlow": 260629000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-31",
+    "accessionNumber": "0001193125-26-328444"
+  },
   "FY2026Q2": {
     "revenue": 774303000,
     "netIncome": 590723000,
@@ -584,20 +599,5 @@
     "endDate": "2016-04-02",
     "filedDate": "2016-05-11",
     "accessionNumber": "0000857005-16-000059"
-  },
-  "FY2016Q1": {
-    "revenue": 291017000,
-    "netIncome": -23892000,
-    "epsDiluted": -0.21,
-    "grossProfit": 210870000,
-    "grossMargin": 0.7246,
-    "operatingCashFlow": 61254000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2015-10-01",
-    "endDate": "2016-01-02",
-    "filedDate": "2016-02-10",
-    "accessionNumber": "0000857005-16-000050"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "LyondellBasell Industries N.V.",
+  "FY2026Q2": {
+    "revenue": 9177000000,
+    "netIncome": 559000000,
+    "epsDiluted": 1.71,
+    "grossProfit": 2038000000,
+    "grossMargin": 0.2221,
+    "operatingCashFlow": 752000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-31",
+    "accessionNumber": "0001489393-26-000061"
+  },
   "FY2026Q1": {
     "revenue": 7197000000,
     "netIncome": 125000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-01",
     "accessionNumber": "0001193125-16-754839"
-  },
-  "FY2016Q2": {
-    "revenue": 7328000000,
-    "netIncome": 1091000000,
-    "epsDiluted": 2.56,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1261000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-29",
-    "accessionNumber": "0001193125-16-664234"
   }
 }
