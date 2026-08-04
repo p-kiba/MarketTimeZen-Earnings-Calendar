@@ -1,5 +1,20 @@
 {
   "companyName": "BOSTON SCIENTIFIC CORP",
+  "FY2026Q2": {
+    "revenue": 5442000000,
+    "netIncome": 905000000,
+    "epsDiluted": 0.61,
+    "grossProfit": 3848000000,
+    "grossMargin": 0.7071,
+    "operatingCashFlow": 1474000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-03",
+    "accessionNumber": "0000885725-26-000053"
+  },
   "FY2026Q1": {
     "revenue": 5203000000,
     "netIncome": 1339000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-03",
     "accessionNumber": "0000885725-16-000053"
-  },
-  "FY2016Q2": {
-    "revenue": 2288000000,
-    "netIncome": -207000000,
-    "epsDiluted": -0.15,
-    "grossProfit": 1487000000,
-    "grossMargin": 0.6499,
-    "operatingCashFlow": 421000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-03",
-    "accessionNumber": "0000885725-16-000045"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "Strategy Inc",
+  "FY2026Q2": {
+    "revenue": 122368000,
+    "netIncome": -8219628000,
+    "epsDiluted": -24.45,
+    "grossProfit": 81550000,
+    "grossMargin": 0.6664,
+    "operatingCashFlow": -4139000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-03",
+    "accessionNumber": "0001050446-26-000044"
+  },
   "FY2026Q1": {
     "revenue": 124300000,
     "netIncome": -12542670000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-27",
     "accessionNumber": "0001564590-16-026393"
-  },
-  "FY2016Q2": {
-    "revenue": 123142000,
-    "netIncome": 18884000,
-    "epsDiluted": 1.64,
-    "grossProfit": 99041000,
-    "grossMargin": 0.8043,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-28",
-    "accessionNumber": "0001193125-16-662319"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "ELECTRONIC ARTS INC.",
+  "FY2027Q1": {
+    "revenue": 1986000000,
+    "netIncome": 397000000,
+    "epsDiluted": 1.56,
+    "grossProfit": 1712000000,
+    "grossMargin": 0.862,
+    "operatingCashFlow": -242000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-03",
+    "accessionNumber": "0001628280-26-051829"
+  },
   "FY2026Q4": {
     "revenue": 2120000000,
     "netIncome": 461000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-05-27",
     "accessionNumber": "0000712515-16-000111"
-  },
-  "FY2016Q3": {
-    "revenue": 1070000000,
-    "netIncome": -45000000,
-    "epsDiluted": -0.14,
-    "grossProfit": 524000000,
-    "grossMargin": 0.4897,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-10-01",
-    "endDate": "2015-12-31",
-    "filedDate": "2016-02-08",
-    "accessionNumber": "0000712515-16-000086"
   }
 }
