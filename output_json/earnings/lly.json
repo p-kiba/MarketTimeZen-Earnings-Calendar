@@ -1,5 +1,20 @@
 {
   "companyName": "ELI LILLY & Co",
+  "FY2026Q2": {
+    "revenue": 22974000000,
+    "netIncome": 7095000000,
+    "epsDiluted": 7.94,
+    "grossProfit": 19706000000,
+    "grossMargin": 0.8578,
+    "operatingCashFlow": 10690000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-05",
+    "accessionNumber": "0000059478-26-000081"
+  },
   "FY2026Q1": {
     "revenue": 19799000000,
     "netIncome": 7396000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-28",
     "accessionNumber": "0000059478-16-000440"
-  },
-  "FY2016Q2": {
-    "revenue": 5404800000,
-    "netIncome": 747700000,
-    "epsDiluted": 0.71,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1401800000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-28",
-    "accessionNumber": "0000059478-16-000399"
   }
 }

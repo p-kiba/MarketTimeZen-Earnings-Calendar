@@ -1,5 +1,20 @@
 {
   "companyName": "ALBEMARLE CORP",
+  "FY2026Q2": {
+    "revenue": 1743313000,
+    "netIncome": 479959000,
+    "epsDiluted": 3.52,
+    "grossProfit": 590301000,
+    "grossMargin": 0.3386,
+    "operatingCashFlow": 709997000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-05",
+    "accessionNumber": "0000915913-26-000102"
+  },
   "FY2026Q1": {
     "revenue": 1428731000,
     "netIncome": 319091000,
@@ -584,20 +599,5 @@
     "endDate": "2016-06-30",
     "filedDate": "2016-08-05",
     "accessionNumber": "0000915913-16-000065"
-  },
-  "FY2016Q1": {
-    "revenue": 865398000,
-    "netIncome": 228186000,
-    "epsDiluted": 2.02,
-    "grossProfit": 337398000,
-    "grossMargin": 0.3899,
-    "operatingCashFlow": 172708000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-01-01",
-    "endDate": "2016-03-31",
-    "filedDate": "2016-05-10",
-    "accessionNumber": "0000915913-16-000053"
   }
 }

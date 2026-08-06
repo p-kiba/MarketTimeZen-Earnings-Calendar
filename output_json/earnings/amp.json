@@ -1,5 +1,20 @@
 {
   "companyName": "AMERIPRISE FINANCIAL INC",
+  "FY2026Q2": {
+    "revenue": 5013000000,
+    "netIncome": 1113000000,
+    "epsDiluted": 11.98,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2886000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-04",
+    "accessionNumber": "0000820027-26-000043"
+  },
   "FY2026Q1": {
     "revenue": 4886000000,
     "netIncome": 915000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-02",
     "accessionNumber": "0000820027-16-000237"
-  },
-  "FY2016Q2": {
-    "revenue": 2879000000,
-    "netIncome": 335000000,
-    "epsDiluted": 1.97,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 724000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-01",
-    "accessionNumber": "0000820027-16-000225"
   }
 }
