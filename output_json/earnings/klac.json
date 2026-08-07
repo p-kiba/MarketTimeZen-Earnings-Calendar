@@ -1,5 +1,20 @@
 {
   "companyName": "KLA CORP",
+  "FY2026Q4": {
+    "revenue": 3657556000,
+    "netIncome": 1363059000,
+    "epsDiluted": -22.61,
+    "grossProfit": 2244448000,
+    "grossMargin": 0.6136,
+    "operatingCashFlow": 906430000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 4,
+    "form": "10-K",
+    "startDate": "2026-03-31",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-06",
+    "accessionNumber": "0000319201-26-000027"
+  },
   "FY2026Q3": {
     "revenue": 3415078000,
     "netIncome": 1200990000,
@@ -584,20 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-10-20",
     "accessionNumber": "0000319201-16-000104"
-  },
-  "FY2016Q4": {
-    "revenue": 919171000,
-    "netIncome": 271541000,
-    "epsDiluted": 1.73,
-    "grossProfit": 581603000,
-    "grossMargin": 0.6327,
-    "operatingCashFlow": 354093000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2016-03-31",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-05",
-    "accessionNumber": "0000319201-16-000090"
   }
 }

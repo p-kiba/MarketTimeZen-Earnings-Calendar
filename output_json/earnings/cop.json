@@ -1,5 +1,20 @@
 {
   "companyName": "CONOCOPHILLIPS",
+  "FY2026Q2": {
+    "revenue": 19161000000,
+    "netIncome": 3931000000,
+    "epsDiluted": 3.23,
+    "grossProfit": 12449000000,
+    "grossMargin": 0.6497,
+    "operatingCashFlow": 7434000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-06",
+    "accessionNumber": "0001163165-26-000032"
+  },
   "FY2026Q1": {
     "revenue": 15761000000,
     "netIncome": 2183000000,
@@ -584,20 +599,5 @@
     "endDate": "2015-12-31",
     "filedDate": "2016-02-23",
     "accessionNumber": "0001193125-16-472901"
-  },
-  "FY2015Q3": {
-    "revenue": 7507000000,
-    "netIncome": -1071000000,
-    "epsDiluted": -0.87,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1934000000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-07-01",
-    "endDate": "2015-09-30",
-    "filedDate": "2015-11-03",
-    "accessionNumber": "0001193125-15-363847"
   }
 }

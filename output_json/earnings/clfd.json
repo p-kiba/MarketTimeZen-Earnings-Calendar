@@ -1,5 +1,20 @@
 {
   "companyName": "Clearfield, Inc.",
+  "FY2026Q3": {
+    "revenue": 43864000,
+    "netIncome": 3000000,
+    "epsDiluted": 0.22,
+    "grossProfit": 13944000,
+    "grossMargin": 0.3179,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-06",
+    "accessionNumber": "0001171843-26-005329"
+  },
   "FY2026Q2": {
     "revenue": 34391000,
     "netIncome": -528000,
@@ -584,20 +599,5 @@
     "endDate": "2015-09-30",
     "filedDate": "2015-11-25",
     "accessionNumber": "0001171843-15-006549"
-  },
-  "FY2015Q3": {
-    "revenue": 18195911,
-    "netIncome": 1952900,
-    "epsDiluted": 0.14,
-    "grossProfit": 7796740,
-    "grossMargin": 0.4285,
-    "operatingCashFlow": 1425895,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-04-01",
-    "endDate": "2015-06-30",
-    "filedDate": "2015-07-29",
-    "accessionNumber": "0001171843-15-004151"
   }
 }

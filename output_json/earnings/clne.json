@@ -1,5 +1,20 @@
 {
   "companyName": "Clean Energy Fuels Corp.",
+  "FY2026Q2": {
+    "revenue": 106359000,
+    "netIncome": -14853000,
+    "epsDiluted": -0.07,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 28786000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-06",
+    "accessionNumber": "0001104659-26-092061"
+  },
   "FY2026Q1": {
     "revenue": 117556000,
     "netIncome": -12412000,
@@ -584,20 +599,5 @@
     "endDate": "2014-03-31",
     "filedDate": "2014-05-08",
     "accessionNumber": "0001104659-14-036488"
-  },
-  "FY2013Q3": {
-    "revenue": 86321000,
-    "netIncome": -18795000,
-    "epsDiluted": -0.2,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2013,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2013-07-01",
-    "endDate": "2013-09-30",
-    "filedDate": "2013-11-07",
-    "accessionNumber": "0001104659-13-082282"
   }
 }
