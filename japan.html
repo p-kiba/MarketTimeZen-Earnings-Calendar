@@ -357,6 +357,26 @@ footer {
   color: #b87800;
   font-weight: 700;
 }
+.logo-card.unconfirmed {
+  position: relative;
+  outline: 2px dashed #58799d;
+  outline-offset: -4px;
+}
+.logo-card.unconfirmed::after {
+  content: "TBD";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 4px;
+  border-radius: 999px;
+  background-color: #385a7c;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+}
 
 </style>
 </head>

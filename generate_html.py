@@ -1,9 +1,10 @@
 import os
 import json
+import tempfile
 import pandas as pd
 import requests
-from datetime import datetime, timedelta
-from earnings_utils import deduplicate_earnings
+from datetime import date as date_type, datetime, timedelta
+from earnings_utils import deduplicate_earnings, reconcile_earnings
 from html_template import build_html_head, build_header, build_controls, build_common_js
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
@@ -134,12 +135,49 @@ TARGET_MONTHLY = [
 ]
 
 ASSETS_DIR = "assets/logos/us"
+DATA_FILE = "earnings_data.json"
 
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 
 # 欠損値を0に置き換える
 def clean_record(record):
     return {k: (0 if v is None else v) for k, v in record.items()}
+
+
+def load_existing_earnings(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            records = json.load(f)
+    except FileNotFoundError:
+        return []
+
+    if not isinstance(records, list):
+        raise ValueError(f"{path} must contain a JSON array")
+    return records
+
+
+def write_earnings_atomically(path, records):
+    directory = os.path.dirname(os.path.abspath(path))
+    temporary_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(
+            "w",
+            encoding="utf-8",
+            dir=directory,
+            prefix=".earnings_data.",
+            suffix=".tmp",
+            delete=False,
+        ) as temporary_file:
+            temporary_path = temporary_file.name
+            json.dump(records, temporary_file, ensure_ascii=False, indent=2)
+            temporary_file.write("\n")
+        os.replace(temporary_path, path)
+    except Exception:
+        if temporary_path and os.path.exists(temporary_path):
+            os.unlink(temporary_path)
+        raise
+
 
 today = datetime.now()
 
@@ -188,8 +226,12 @@ if current_week:
 
 print(f"📅 Total weeks: {len(weeks)}")
 
+# 前回の予定と最新API応答を照合するため、上書き前のデータを保持する
+previous_data = load_existing_earnings(DATA_FILE)
+
 # APIからデータ取得（週単位）
 all_data = []
+successful_ranges = []
 for week in weeks:
     if not week:
         continue
@@ -200,10 +242,31 @@ for week in weeks:
     url = f"https://finnhub.io/api/v1/calendar/earnings?from={from_date}&to={to_date}&token={API_KEY}"
     
     try:
-        response = requests.get(url)
-        week_data = response.json().get("earningsCalendar", [])
-        # 対象銘柄のみ抽出＆欠損値処理
-        all_data.extend([clean_record(d) for d in week_data if d["symbol"] in TARGET_MONTHLY])
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        payload = response.json()
+        if not isinstance(payload, dict) or "earningsCalendar" not in payload:
+            raise ValueError("earningsCalendar is missing from the API response")
+
+        week_data = payload["earningsCalendar"]
+        if not isinstance(week_data, list):
+            raise ValueError("earningsCalendar must be an array")
+
+        cleaned_week_data = []
+        for record in week_data:
+            if not isinstance(record, dict):
+                raise ValueError("earningsCalendar contains a non-object record")
+            if record.get("symbol") not in TARGET_MONTHLY:
+                continue
+            if not isinstance(record.get("date"), str):
+                raise ValueError("an earnings record is missing its date")
+            record_date = date_type.fromisoformat(record["date"])
+            if not week[0].date() <= record_date <= week[-1].date():
+                raise ValueError("an earnings record is outside the requested range")
+            cleaned_week_data.append(clean_record(record))
+
+        all_data.extend(cleaned_week_data)
+        successful_ranges.append((week[0].date(), week[-1].date()))
         print(f"取得完了: {from_date} - {to_date} ({len(week_data)}件)")
     except Exception as e:
         print(f"エラー: {from_date} - {to_date} - {e}")
@@ -215,11 +278,25 @@ duplicate_count = raw_data_count - len(all_data)
 if duplicate_count:
     print(f"重複 {duplicate_count} 件を除外しました")
 
-# JSONファイルに出力
-with open("earnings_data.json", "w", encoding="utf-8") as f:
-    json.dump(all_data, f, ensure_ascii=False, indent=2)
+if successful_ranges:
+    all_data = reconcile_earnings(
+        previous_data,
+        all_data,
+        today=today.date(),
+        window_start=month_start.date(),
+        window_end=next_month_end.date(),
+        successful_ranges=successful_ranges,
+    )
+else:
+    all_data = previous_data
+    print("API取得に成功した期間がないため、既存データを保持しました")
 
-print(f"合計 {len(all_data)} 件のデータを保存しました")
+# JSONファイルに出力
+if successful_ranges or not os.path.exists(DATA_FILE):
+    write_earnings_atomically(DATA_FILE, all_data)
+    print(f"合計 {len(all_data)} 件のデータを保存しました")
+else:
+    print(f"合計 {len(all_data)} 件の既存データを利用します")
 
 # =====================
 # HTML 生成
@@ -258,7 +335,9 @@ function deduplicateEarnings(data) {{
 fetch('earnings_data.json')
   .then(res => res.json())
   .then(data => {{
-    earningsData = deduplicateEarnings(data);
+    earningsData = deduplicateEarnings(
+      data.filter(e => e.status !== 'changed')
+    );
     currentWeek = findCurrentWeek();
     renderCalendar();
     scrollToCurrentWeek();
@@ -347,6 +426,13 @@ function renderDay(dateStr) {{
       card.className = 'logo-card';
       if (favorites.includes(e.symbol)) card.classList.add('favorite');
       card.dataset.symbol = e.symbol;
+      card.dataset.status = e.status || 'confirmed';
+      if (e.status === 'unconfirmed') {{
+        card.classList.add('unconfirmed');
+        const statusText = `${{e.symbol}}: earnings date unconfirmed`;
+        card.title = statusText;
+        card.setAttribute('aria-label', statusText);
+      }}
       card.addEventListener('click', ev => {{
         ev.stopPropagation();
         window.webkit.messageHandlers.favoriteHandler.postMessage({{ symbol: e.symbol }});
