@@ -496,11 +496,20 @@ function formatDateRange(dates) {
 document.addEventListener('DOMContentLoaded', updateHeaderHeight);
 window.addEventListener('resize', updateHeaderHeight);
 
+function deduplicateEarnings(data) {
+  const seen = new Set();
+  return data.filter(e => {
+    const key = JSON.stringify([e.symbol, e.date]);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
 
 fetch('earnings_data.json')
   .then(res => res.json())
   .then(data => {
-    earningsData = data;
+    earningsData = deduplicateEarnings(data);
     currentWeek = findCurrentWeek();
     renderCalendar();
     scrollToCurrentWeek();

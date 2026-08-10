@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import requests
 from datetime import datetime, timedelta
+from earnings_utils import deduplicate_earnings
 from html_template import build_html_head, build_header, build_controls, build_common_js
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
@@ -207,6 +208,13 @@ for week in weeks:
     except Exception as e:
         print(f"エラー: {from_date} - {to_date} - {e}")
 
+# 同一銘柄の同一日に対するレコードはカード1枚分として扱う
+raw_data_count = len(all_data)
+all_data = deduplicate_earnings(all_data)
+duplicate_count = raw_data_count - len(all_data)
+if duplicate_count:
+    print(f"重複 {duplicate_count} 件を除外しました")
+
 # JSONファイルに出力
 with open("earnings_data.json", "w", encoding="utf-8") as f:
     json.dump(all_data, f, ensure_ascii=False, indent=2)
@@ -237,10 +245,20 @@ let targetSymbols = {symbols_json};
 
 {build_common_js()}
 
+function deduplicateEarnings(data) {{
+  const seen = new Set();
+  return data.filter(e => {{
+    const key = JSON.stringify([e.symbol, e.date]);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }});
+}}
+
 fetch('earnings_data.json')
   .then(res => res.json())
   .then(data => {{
-    earningsData = data;
+    earningsData = deduplicateEarnings(data);
     currentWeek = findCurrentWeek();
     renderCalendar();
     scrollToCurrentWeek();
