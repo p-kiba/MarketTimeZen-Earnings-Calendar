@@ -1,4 +1,7 @@
 from datetime import date, datetime
+import json
+import os
+import tempfile
 
 
 CONFIRMED = "confirmed"
@@ -23,6 +26,82 @@ def deduplicate_earnings(records):
     return unique_records
 
 
+def sort_earnings(records):
+    """Return unique earnings records in a stable date/symbol order."""
+    return sorted(
+        deduplicate_earnings(records),
+        key=lambda record: (record["date"], record["symbol"]),
+    )
+
+
+def load_existing_earnings(path):
+    """Load a JSON earnings array, returning an empty list when absent."""
+    try:
+        with open(path, encoding="utf-8") as earnings_file:
+            records = json.load(earnings_file)
+    except FileNotFoundError:
+        return []
+
+    if not isinstance(records, list):
+        raise ValueError(f"{path} must contain a JSON array")
+    return records
+
+
+def write_earnings_atomically(path, records):
+    """Replace an earnings JSON file only after the new file is complete."""
+    directory = os.path.dirname(os.path.abspath(path))
+    stem = os.path.splitext(os.path.basename(path))[0]
+    temporary_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(
+            "w",
+            encoding="utf-8",
+            dir=directory,
+            prefix=f".{stem}.",
+            suffix=".tmp",
+            delete=False,
+        ) as temporary_file:
+            temporary_path = temporary_file.name
+            json.dump(records, temporary_file, ensure_ascii=False, indent=2)
+            temporary_file.write("\n")
+        os.replace(temporary_path, path)
+    except Exception:
+        if temporary_path and os.path.exists(temporary_path):
+            os.unlink(temporary_path)
+        raise
+
+
+def merge_earnings_history(
+    previous_records,
+    snapshot_records,
+    *,
+    window_start,
+    window_end,
+    preserve_through=None,
+):
+    """Replace future window data while preserving completed history."""
+    window_start = _as_date(window_start)
+    window_end = _as_date(window_end)
+    if preserve_through is not None:
+        preserve_through = _as_date(preserve_through)
+    previous = deduplicate_earnings(previous_records)
+    snapshot = _records_in_window(
+        deduplicate_earnings(snapshot_records), window_start, window_end
+    )
+    history = [
+        record
+        for record in previous
+        if not window_start <= _record_date(record) <= window_end
+        or (
+            preserve_through is not None
+            and _record_date(record) <= preserve_through
+        )
+    ]
+    # Snapshot records come first so refreshed metadata wins for the same key.
+    return sort_earnings(snapshot + history)
+
+
 def reconcile_earnings(
     previous_records,
     fetched_records,
@@ -40,9 +119,13 @@ def reconcile_earnings(
         (_as_date(start), _as_date(end)) for start, end in successful_ranges
     ]
 
-    previous = _records_in_window(
-        deduplicate_earnings(previous_records), window_start, window_end
-    )
+    previous_unique = deduplicate_earnings(previous_records)
+    previous = _records_in_window(previous_unique, window_start, window_end)
+    history = [
+        record
+        for record in previous_unique
+        if not window_start <= _record_date(record) <= window_end
+    ]
     fetched = _records_in_window(
         deduplicate_earnings(fetched_records), window_start, window_end
     )
@@ -87,7 +170,7 @@ def reconcile_earnings(
         else:
             reconciled.append(_with_status(record, UNCONFIRMED))
 
-    return reconciled
+    return sort_earnings(reconciled + history)
 
 
 def _as_date(value):

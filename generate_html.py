@@ -1,10 +1,14 @@
 import os
 import json
-import tempfile
 import pandas as pd
 import requests
 from datetime import date as date_type, datetime, timedelta
-from earnings_utils import deduplicate_earnings, reconcile_earnings
+from earnings_utils import (
+    deduplicate_earnings,
+    load_existing_earnings,
+    reconcile_earnings,
+    write_earnings_atomically,
+)
 from html_template import build_html_head, build_header, build_controls, build_common_js
 
 API_KEY = os.getenv("FINNHUB_API_KEY", "YOUR_API_KEY")
@@ -136,47 +140,14 @@ TARGET_MONTHLY = [
 
 ASSETS_DIR = "assets/logos/us"
 DATA_FILE = "earnings_data.json"
+# 2026-07 contains only the spillover week; 2026-08 is the first complete month.
+HISTORY_START_MONTH = "2026-08"
 
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 
 # 欠損値を0に置き換える
 def clean_record(record):
     return {k: (0 if v is None else v) for k, v in record.items()}
-
-
-def load_existing_earnings(path):
-    try:
-        with open(path, encoding="utf-8") as f:
-            records = json.load(f)
-    except FileNotFoundError:
-        return []
-
-    if not isinstance(records, list):
-        raise ValueError(f"{path} must contain a JSON array")
-    return records
-
-
-def write_earnings_atomically(path, records):
-    directory = os.path.dirname(os.path.abspath(path))
-    temporary_path = None
-
-    try:
-        with tempfile.NamedTemporaryFile(
-            "w",
-            encoding="utf-8",
-            dir=directory,
-            prefix=".earnings_data.",
-            suffix=".tmp",
-            delete=False,
-        ) as temporary_file:
-            temporary_path = temporary_file.name
-            json.dump(records, temporary_file, ensure_ascii=False, indent=2)
-            temporary_file.write("\n")
-        os.replace(temporary_path, path)
-    except Exception:
-        if temporary_path and os.path.exists(temporary_path):
-            os.unlink(temporary_path)
-        raise
 
 
 today = datetime.now()
@@ -301,8 +272,12 @@ else:
 # =====================
 # HTML 生成
 # =====================
-weeks_json    = json.dumps([[d.strftime("%Y-%m-%d") for d in w] for w in weeks])
 symbols_json  = json.dumps(TARGET_MONTHLY)
+calendar_seed_months_json = json.dumps([
+    today.strftime("%Y-%m"),
+    next_month.strftime("%Y-%m"),
+])
+history_start_month_json = json.dumps(HISTORY_START_MONTH)
 date_str      = today.strftime('%B %d, %Y')
 updated_str   = today.strftime('%Y-%m-%d %H:%M')
 
@@ -317,7 +292,11 @@ html += f"""<script>
 let earningsData = [];
 let currentMode = 'monthly';
 let currentWeek = 0;
-let weeks = {weeks_json};
+let weeks = [];
+let availableMonths = [];
+let selectedMonth = '';
+let calendarSeedMonths = {calendar_seed_months_json};
+let calendarHistoryStartMonth = {history_start_month_json};
 let targetSymbols = {symbols_json};
 
 {build_common_js()}
@@ -338,7 +317,7 @@ fetch('earnings_data.json')
     earningsData = deduplicateEarnings(
       data.filter(e => e.status !== 'changed')
     );
-    currentWeek = findCurrentWeek();
+    initializeCalendarNavigation();
     renderCalendar();
     scrollToCurrentWeek();
   }});
@@ -358,17 +337,29 @@ function renderCalendar() {{
   calendar.appendChild(headerRow);
 
   if (currentMode === 'monthly') {{
-    weeks.forEach(weekDates => {{
-      const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    let renderedWeeks = 0;
+    weeks.forEach((weekDates, weekIndex) => {{
+      const hasEarnings = weekDates.some(dateStr =>
+        dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+          e.date === dateStr && targetSymbols.includes(e.symbol)
+        )
+      );
       if (!hasEarnings) return;
       const weekRow = document.createElement('div');
       weekRow.className = 'week-row week-row-wrapper';
+      weekRow.dataset.weekIndex = weekIndex;
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
+      renderedWeeks++;
     }});
+    if (renderedWeeks === 0) appendEmptyMessage(calendar, 'No earnings data for this month');
   }} else {{
     const weekDates = weeks[currentWeek];
-    const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    const hasEarnings = weekDates && weekDates.some(dateStr =>
+      dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+      )
+    );
     document.getElementById('weekLabel').textContent = `Week ${{currentWeek + 1}}: ${{formatDateRange(weeks[currentWeek])}}`;
     document.getElementById('prevWeek').disabled = currentWeek === 0;
     document.getElementById('nextWeek').disabled = currentWeek === weeks.length - 1;
@@ -380,17 +371,25 @@ function renderCalendar() {{
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
     }} else {{
-      const noDataDiv = document.createElement('div');
-      noDataDiv.style.cssText = 'width:100%;text-align:center;padding:40px;color:#888;font-size:16px;';
-      noDataDiv.textContent = 'No earnings data for this week';
-      calendar.appendChild(noDataDiv);
+      appendEmptyMessage(calendar, 'No earnings data for this week');
     }}
   }}
+  if (document.getElementById('searchInput').value.trim()) searchSymbols();
+}}
+
+function appendEmptyMessage(calendar, message) {{
+  const noDataDiv = document.createElement('div');
+  noDataDiv.className = 'empty-calendar';
+  noDataDiv.textContent = message;
+  calendar.appendChild(noDataDiv);
 }}
 
 function renderDay(dateStr) {{
-  const today = new Date().toISOString().split('T')[0];
-  const earnings = earningsData.filter(e => e.date === dateStr && targetSymbols.includes(e.symbol))
+  const today = getLocalDateKey();
+  const isOutsideMonth = !dateStr.startsWith(selectedMonth);
+  const earnings = earningsData.filter(e =>
+    !isOutsideMonth && e.date === dateStr && targetSymbols.includes(e.symbol)
+  )
     .sort((a, b) => {{
       const ai = targetSymbols.indexOf(a.symbol), bi = targetSymbols.indexOf(b.symbol);
       if (ai === -1 && bi === -1) return a.symbol.localeCompare(b.symbol);
@@ -400,9 +399,10 @@ function renderDay(dateStr) {{
 
   const dayDiv = document.createElement('div');
   dayDiv.className = 'day';
+  if (isOutsideMonth) dayDiv.classList.add('outside-month');
   if (dateStr === today) dayDiv.classList.add('today');
 
-  if (currentMode === 'monthly') {{
+  if (currentMode === 'monthly' && !isOutsideMonth) {{
     dayDiv.style.cursor = 'pointer';
     dayDiv.onclick = () => {{
       const weekIndex = weeks.findIndex(week => week.includes(dateStr));
@@ -455,7 +455,7 @@ function renderDay(dateStr) {{
       moreDiv.textContent = `+${{earnings.length - 9}} more`;
       dayDiv.appendChild(moreDiv);
     }}
-  }} else {{
+  }} else if (!isOutsideMonth) {{
     const noEarnings = document.createElement('div');
     noEarnings.className = 'no-earnings';
     noEarnings.textContent = 'No Earnings';

@@ -1,7 +1,12 @@
 import unittest
 from datetime import date
 
-from earnings_utils import deduplicate_earnings, reconcile_earnings
+from earnings_utils import (
+    deduplicate_earnings,
+    merge_earnings_history,
+    reconcile_earnings,
+    sort_earnings,
+)
 
 
 class DeduplicateEarningsTests(unittest.TestCase):
@@ -33,6 +38,113 @@ class DeduplicateEarningsTests(unittest.TestCase):
         result = deduplicate_earnings([first_date, second_date])
 
         self.assertEqual(result, [first_date, second_date])
+
+    def test_sorts_records_deterministically_after_deduplication(self):
+        records = [
+            {"symbol": "MSFT", "date": "2026-08-20"},
+            {"symbol": "TGT", "date": "2026-08-19"},
+            {"symbol": "AAPL", "date": "2026-08-20"},
+            {"symbol": "MSFT", "date": "2026-08-20", "quarter": 3},
+        ]
+
+        result = sort_earnings(records)
+
+        self.assertEqual(
+            result,
+            [
+                {"symbol": "TGT", "date": "2026-08-19"},
+                {"symbol": "AAPL", "date": "2026-08-20"},
+                {"symbol": "MSFT", "date": "2026-08-20"},
+            ],
+        )
+
+
+class MergeEarningsHistoryTests(unittest.TestCase):
+    WINDOW_START = date(2026, 8, 1)
+    WINDOW_END = date(2026, 9, 30)
+
+    def merge(self, previous, snapshot, preserve_through=None):
+        return merge_earnings_history(
+            previous,
+            snapshot,
+            window_start=self.WINDOW_START,
+            window_end=self.WINDOW_END,
+            preserve_through=preserve_through,
+        )
+
+    def test_replaces_the_current_window_and_preserves_history(self):
+        historical = {
+            "symbol": "7203.T",
+            "date": "2026-07-31",
+            "name_ja": "トヨタ自動車",
+        }
+        stale_current = {"symbol": "8306.T", "date": "2026-08-04"}
+        latest_current = {
+            "symbol": "8306.T",
+            "date": "2026-08-05",
+            "name_ja": "三菱UFJ",
+        }
+
+        result = self.merge(
+            [historical, stale_current],
+            [latest_current],
+        )
+
+        self.assertEqual(result, [historical, latest_current])
+
+    def test_ignores_snapshot_records_outside_the_authoritative_window(self):
+        historical = {"symbol": "7203.T", "date": "2026-07-31"}
+        unexpected = {"symbol": "9984.T", "date": "2026-10-01"}
+
+        result = self.merge([historical], [unexpected])
+
+        self.assertEqual(result, [historical])
+
+    def test_is_idempotent_across_repeated_monthly_merges(self):
+        july = {"symbol": "7203.T", "date": "2026-07-31"}
+        august = {"symbol": "8306.T", "date": "2026-08-05"}
+        first = self.merge([july], [august])
+
+        second = self.merge(first, [august, august])
+
+        self.assertEqual(second, [july, august])
+
+    def test_preserves_completed_dates_inside_the_current_window(self):
+        completed = {
+            "symbol": "7203.T",
+            "date": "2026-08-05",
+            "name_ja": "トヨタ自動車",
+        }
+        stale_future = {"symbol": "8306.T", "date": "2026-08-20"}
+        latest_future = {"symbol": "9984.T", "date": "2026-08-25"}
+
+        result = self.merge(
+            [completed, stale_future],
+            [latest_future],
+            preserve_through=date(2026, 8, 10),
+        )
+
+        self.assertEqual(result, [completed, latest_future])
+
+    def test_snapshot_refreshes_metadata_for_a_preserved_date(self):
+        previous = {
+            "symbol": "7203.T",
+            "date": "2026-08-05",
+            "name_ja": "old",
+        }
+        refreshed = {
+            "symbol": "7203.T",
+            "date": "2026-08-05",
+            "name_ja": "トヨタ自動車",
+        }
+
+        result = self.merge(
+            [previous],
+            [refreshed],
+            preserve_through=date(2026, 8, 10),
+        )
+
+        self.assertEqual(result, [refreshed])
 
 
 class ReconcileEarningsTests(unittest.TestCase):
@@ -85,8 +197,8 @@ class ReconcileEarningsTests(unittest.TestCase):
         self.assertEqual(
             result,
             [
-                {"symbol": "TGT", "date": "2026-08-20", "status": "confirmed"},
                 {"symbol": "TGT", "date": "2026-08-19", "status": "changed"},
+                {"symbol": "TGT", "date": "2026-08-20", "status": "confirmed"},
             ],
         )
 
@@ -227,8 +339,8 @@ class ReconcileEarningsTests(unittest.TestCase):
         self.assertEqual(
             result,
             [
-                {"symbol": "TGT", "date": "2026-08-12", "status": "confirmed"},
                 {"symbol": "TGT", "date": "2026-08-10", "status": "changed"},
+                {"symbol": "TGT", "date": "2026-08-12", "status": "confirmed"},
             ],
         )
 
@@ -249,8 +361,8 @@ class ReconcileEarningsTests(unittest.TestCase):
         self.assertEqual(
             result,
             [
-                {"symbol": "TGT", "date": "2026-08-19", "status": "confirmed"},
                 {"symbol": "TGT", "date": "2026-08-10", "status": "unconfirmed"},
+                {"symbol": "TGT", "date": "2026-08-19", "status": "confirmed"},
             ],
         )
 
@@ -266,18 +378,48 @@ class ReconcileEarningsTests(unittest.TestCase):
         self.assertEqual(
             result,
             [
-                {"symbol": "AAPL", "date": "2026-09-01", "status": "confirmed"},
                 {"symbol": "AAPL", "date": "2026-07-30", "status": "confirmed"},
+                {"symbol": "AAPL", "date": "2026-09-01", "status": "confirmed"},
             ],
         )
 
-    def test_discards_records_outside_the_current_generation_window(self):
-        previous = [{"symbol": "AAPL", "date": "2026-07-24"}]
+    def test_preserves_records_outside_the_current_generation_window(self):
+        previous = [
+            {"symbol": "AAPL", "date": "2026-07-24"},
+            {
+                "symbol": "TGT",
+                "date": "2026-10-01",
+                "status": "unconfirmed",
+            },
+        ]
         fetched = [{"symbol": "MSFT", "date": "2026-10-01"}]
 
         result = self.reconcile(previous, fetched)
 
-        self.assertEqual(result, [])
+        self.assertEqual(result, previous)
+
+    def test_keeps_history_across_multiple_generation_windows(self):
+        july = {"symbol": "AAPL", "date": "2026-07-30"}
+        august = {"symbol": "MSFT", "date": "2026-08-20"}
+        first = self.reconcile([july], [august])
+
+        second = reconcile_earnings(
+            first,
+            [{"symbol": "NVDA", "date": "2026-10-15"}],
+            today=date(2026, 9, 10),
+            window_start=date(2026, 9, 1),
+            window_end=date(2026, 10, 31),
+            successful_ranges=[(date(2026, 10, 12), date(2026, 10, 16))],
+        )
+
+        self.assertEqual(
+            second,
+            [
+                {"symbol": "AAPL", "date": "2026-07-30", "status": "confirmed"},
+                {"symbol": "MSFT", "date": "2026-08-20", "status": "confirmed"},
+                {"symbol": "NVDA", "date": "2026-10-15", "status": "confirmed"},
+            ],
+        )
 
 
 if __name__ == "__main__":

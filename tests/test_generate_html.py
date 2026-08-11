@@ -46,7 +46,15 @@ class GenerateHtmlIntegrationTests(unittest.TestCase):
 
         old_date = (first_monday + timedelta(days=2)).date().isoformat()
         new_date = (first_monday + timedelta(days=3)).date().isoformat()
-        previous = [{"symbol": "TGT", "date": old_date}]
+        historical_date = (
+            now.replace(day=1) - timedelta(days=10)
+        ).date().isoformat()
+        historical = {
+            "symbol": "AAPL",
+            "date": historical_date,
+            "status": "confirmed",
+        }
+        previous = [historical, {"symbol": "TGT", "date": old_date}]
 
         def fake_get(url, timeout):
             self.assertEqual(timeout, 30)
@@ -81,10 +89,17 @@ class GenerateHtmlIntegrationTests(unittest.TestCase):
 
             generated = json.loads(data_path.read_text(encoding="utf-8"))
             by_date = {record["date"]: record for record in generated}
+            self.assertEqual(by_date[historical_date], historical)
             self.assertEqual(by_date[new_date]["status"], "confirmed")
             self.assertEqual(by_date[old_date]["status"], "changed")
             self.assertTrue(data_path.read_text(encoding="utf-8").endswith("\n"))
             self.assertEqual(list(Path(temp_dir).glob(".earnings_data.*.tmp")), [])
+            generated_html = (Path(temp_dir) / "index.html").read_text(
+                encoding="utf-8"
+            )
+            self.assertIn('id="monthSelect"', generated_html)
+            self.assertIn("initializeCalendarNavigation();", generated_html)
+            self.assertIn("function buildWeeksForMonth(monthKey)", generated_html)
 
     def test_total_api_failure_does_not_rewrite_existing_data(self):
         original = '[{"symbol":"TGT","date":"2026-08-19"}]\n'

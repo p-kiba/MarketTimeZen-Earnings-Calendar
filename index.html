@@ -128,6 +128,31 @@ header {
 .country-divider {
   color: #bbb;
 }
+.month-nav {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+.month-nav.active {
+  display: flex;
+}
+.month-select {
+  min-width: 180px;
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+.month-select:focus {
+  outline: 2px solid #58799d;
+  outline-offset: 2px;
+}
 .week-nav {
   display: none;
   flex-direction: column;
@@ -174,6 +199,8 @@ header {
 }
 .week-indicators {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
 }
 .week-dot {
@@ -261,6 +288,19 @@ header {
   color: #4CAF50;
   font-size: 1.2em;
 }
+.day.outside-month {
+  background-color: #f7f7f7;
+  box-shadow: none;
+  opacity: 0.5;
+}
+.empty-calendar {
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: 40px 16px;
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+}
 .logos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -326,6 +366,7 @@ footer {
   .logo-card img { width: 40px; height: 40px; }
   .symbol { font-size: 12px; }
   .mode-btn { padding: 8px 16px; font-size: 14px; }
+  .month-select { min-width: 160px; font-size: 14px; }
   .week-label { min-width: 180px; font-size: 14px; }
 }
 @media (max-width: 480px) {
@@ -403,6 +444,11 @@ footer {
       <span class="country-link " onclick="goToMarket('japan.html')">Tokyo</span>
     </div>
   </div>
+  <div class="month-nav active" id="monthNav">
+    <button class="nav-btn" id="prevMonth" onclick="changeMonth(-1)" aria-label="Previous month">‹</button>
+    <select class="month-select" id="monthSelect" onchange="selectMonth(this.value)" aria-label="Displayed month"></select>
+    <button class="nav-btn" id="nextMonth" onclick="changeMonth(1)" aria-label="Next month">›</button>
+  </div>
   <div class="week-nav" id="weekNav">
     <div class="week-controls">
       <button class="nav-btn" id="prevWeek" onclick="changeWeek(-1)">‹</button>
@@ -421,7 +467,11 @@ footer {
 let earningsData = [];
 let currentMode = 'monthly';
 let currentWeek = 0;
-let weeks = [["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31"], ["2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07"], ["2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14"], ["2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21"], ["2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28"], ["2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04"], ["2026-09-07", "2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11"], ["2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18"], ["2026-09-21", "2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25"], ["2026-09-28", "2026-09-29", "2026-09-30"]];
+let weeks = [];
+let availableMonths = [];
+let selectedMonth = '';
+let calendarSeedMonths = ["2026-08", "2026-09"];
+let calendarHistoryStartMonth = "2026-08";
 let targetSymbols = ["AAPL", "MSFT", "GOOGL", "META", "AMZN", "NFLX", "TSLA", "NVDA", "IBM", "ORCL", "CSCO", "ADBE", "CRM", "INTC", "SNOW", "PANW", "PLTR", "AMD", "TSM", "ASML", "QCOM", "AVGO", "TXN", "AMAT", "LRCX", "MU", "ARM", "ANET", "MRVL", "NXPI", "ADI", "ON", "MPWR", "JPM", "BAC", "WFC", "C", "MS", "GS", "BLK", "SCHW", "AXP", "V", "MA", "BNY", "USB", "PNC", "TFC", "TRV", "IBKR", "SYF", "KEY", "MTB", "HBAN", "RF", "ZION", "ALLY", "SOFI", "COF", "KKR", "BX", "JNJ", "LLY", "UNH", "ABBV", "MRK", "PFE", "TMO", "ABT", "CVS", "HUM", "ELV", "ISRG", "REGN", "GILD", "BIIB", "AMGN", "ZTS", "AZN", "HCA", "DIS", "NKE", "SBUX", "MCD", "CMG", "TGT", "HD", "LOW", "BKNG", "MAR", "GM", "F", "ABNB", "UBER", "LYFT", "ETSY", "LULU", "PG", "KO", "PEP", "COST", "WMT", "MDLZ", "CL", "KDP", "WEN", "XOM", "CVX", "COP", "SLB", "BP", "OXY", "EOG", "MPC", "BA", "CAT", "GE", "HON", "RTX", "UPS", "FDX", "UNP", "CSX", "NSC", "GD", "LMT", "DE", "ITW", "DOV", "WM", "URI", "FAST", "AAL", "UAL", "DAL", "ALK", "VZ", "T", "TMUS", "CMCSA", "CHTR", "NEM", "FCX", "NUE", "CLF", "STLD", "APD", "LIN", "ECL", "BALL", "CCK", "AMT", "PLD", "EQIX", "PSA", "AGNC", "PYPL", "SQ", "COIN", "HOOD", "SPOT", "RDFN", "OPEN", "DUOL", "UPST", "ENPH", "GLW", "CBOE", "VRT", "CTLT", "KMI", "ENB", "RMBS", "WHR", "GNTX", "GFF", "SENS", "CLOV", "EVLV", "SIGA", "VIA", "FAST", "ERIC", "ACI", "LII", "PGNY", "INFY", "ALV", "WTFC", "RLI", "BOKF", "APH", "CLFD", "CNI", "LYB", "FET", "NVST", "EXAS", "SNDK", "NU", "DLO", "ADBE", "CRM", "ORCL", "CSCO", "IBM", "SNOW", "PLTR", "PANW", "CRWD", "ZS", "DDOG", "NET", "MDB", "WDAY", "NOW", "TEAM", "ZM", "DOCU", "OKTA", "TWLO", "ARM", "SHOP", "SQ", "PYPL", "COIN", "RBLX", "U", "SPOT", "ABNB", "UBER", "LYFT", "MU", "MCHP", "NXPI", "ADI", "MRVL", "ON", "MPWR", "SWKS", "QRVO", "WOLF", "BNY", "TFC", "USB", "PNC", "TRV", "AIG", "MET", "PRU", "ALL", "CB", "RF", "KEY", "HBAN", "MTB", "FITB", "CFG", "ZION", "ALLY", "SOFI", "IBKR", "SYF", "COF", "DFS", "KKR", "BX", "APO", "CVS", "CI", "HUM", "ELV", "ISRG", "REGN", "VRTX", "GILD", "BIIB", "AMGN", "ZTS", "ILMN", "DXCM", "EW", "SYK", "BSX", "MDT", "HOLX", "MRNA", "BNTX", "NVAX", "EXAS", "TDOC", "VEEV", "BKNG", "MAR", "HLT", "EXPE", "LVS", "MGM", "WYNN", "CCL", "RCL", "NCLH", "GM", "F", "RIVN", "LCID", "NIO", "LI", "XPEV", "ETSY", "EBAY", "W", "CHWY", "RVLV", "LULU", "DECK", "CROX", "TPR", "PG", "KO", "PEP", "COST", "WMT", "KR", "MDLZ", "CL", "GIS", "K", "HSY", "EL", "CLX", "CHD", "MO", "PM", "BTI", "OXY", "MPC", "VLO", "PSX", "HES", "DVN", "FANG", "BP", "SHEL", "TTE", "E", "UNP", "CSX", "NSC", "GD", "LMT", "NOC", "DE", "EMR", "ITW", "MMM", "WM", "RSG", "URI", "FAST", "PCAR", "ODFL", "JBHT", "CHRW", "AAL", "UAL", "DAL", "LUV", "ALK", "AMT", "PLD", "EQIX", "PSA", "O", "WELL", "DLR", "SPG", "VICI", "AVB", "LIN", "APD", "ECL", "DD", "DOW", "NEM", "FCX", "NUE", "STLD", "CLF", "ALB", "MP", "LAC", "BALL", "CCK", "PKG", "CMCSA", "CHTR", "LUMN", "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "WEC", "ES", "RDFN", "OPEN", "COIN", "HOOD", "UPST", "AFRM", "BNPL", "DUOL", "BMBL", "MTCH", "PINS", "SNAP", "TWTR", "ENPH", "SEDG", "RUN", "FSLR", "PLUG", "BE", "CLNE", "AGNC", "NLY", "STWD", "ARR", "NOK", "SPCX", "FIG", "SNPS", "COHR", "RIOT", "BRK-B", "KLAC", "GEV", "DELL", "WDC", "TJX", "APP", "CDNS", "TER", "STX", "AMKR", "LSCC", "OLED", "LITE", "FLEX", "HPQ", "HPE", "SMCI", "MSTR", "INTU", "FTNT", "ADSK", "EA", "TTWO", "GDDY", "HUBS", "ROP", "PTC", "PAYC", "DT", "ESTC", "S", "IOT", "PATH", "MANH", "TYL", "CDW", "ETN", "PH", "TT", "IR", "CARR", "OTIS", "JCI", "ROK", "XYL", "PWR", "VST", "CEG", "AXON", "LHX", "TDG", "TXT", "HWM", "GNRC", "SPGI", "MCO", "ICE", "CME", "NDAQ", "STT", "AMP", "PGR", "AFL", "ACGL", "HIG", "AON", "AJG", "BRO", "RJF", "TROW", "DHR", "MCK", "COR", "CAH", "BMY", "GSK", "NVO", "NVS", "RMD", "IDXX", "ALNY", "ARGX", "GEHC", "WAT", "A", "IQV", "ZBH", "WST", "ROST", "AZO", "ORLY", "TSCO", "ULTA", "YUM", "DPZ", "MNST", "CELH", "KMB", "SYY", "DG", "DLTR", "BBY", "GME", "DKNG", "WMB", "LNG", "TRGP", "EQT", "HAL", "BKR", "SHW", "PPG", "MLM", "VMC", "CF", "MOS", "DHI", "LEN", "PHM", "TOL"];
 
 
@@ -432,11 +482,128 @@ function getFavorites() {
 }
 const favorites = getFavorites();
 
-// favoritesパラメータを引き継いでページ遷移する
+function isMonthKey(value) {
+  if (!/^\d{4}-\d{2}$/.test(value || '')) return false;
+  const month = Number(value.slice(5));
+  return month >= 1 && month <= 12;
+}
+
+function shiftMonth(monthKey, delta) {
+  const [year, month] = monthKey.split('-').map(Number);
+  const shifted = new Date(Date.UTC(year, month - 1 + delta, 1));
+  return `${shifted.getUTCFullYear()}-${String(shifted.getUTCMonth() + 1).padStart(2, '0')}`;
+}
+
+function enumerateMonths(startMonth, endMonth) {
+  const months = [];
+  let month = startMonth;
+  while (month <= endMonth && months.length < 1200) {
+    months.push(month);
+    month = shiftMonth(month, 1);
+  }
+  return months;
+}
+
+function buildWeeksForMonth(monthKey) {
+  const [year, month] = monthKey.split('-').map(Number);
+  const first = new Date(Date.UTC(year, month - 1, 1));
+  const last = new Date(Date.UTC(year, month, 0));
+  const cursor = new Date(first);
+  cursor.setUTCDate(cursor.getUTCDate() - ((cursor.getUTCDay() + 6) % 7));
+
+  const monthWeeks = [];
+  while (cursor <= last) {
+    const week = [];
+    for (let day = 0; day < 5; day++) {
+      const value = new Date(cursor);
+      value.setUTCDate(value.getUTCDate() + day);
+      week.push(value.toISOString().slice(0, 10));
+    }
+    if (week.some(dateStr => dateStr.startsWith(monthKey))) {
+      monthWeeks.push(week);
+    }
+    cursor.setUTCDate(cursor.getUTCDate() + 7);
+  }
+  return monthWeeks;
+}
+
+function formatMonthLabel(monthKey) {
+  const [year, month] = monthKey.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString('en-US', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC'
+  });
+}
+
+function getLocalDateKey() {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+}
+
+function populateMonthSelect() {
+  const select = document.getElementById('monthSelect');
+  select.innerHTML = '';
+  availableMonths.forEach(month => {
+    const option = document.createElement('option');
+    option.value = month;
+    option.textContent = formatMonthLabel(month);
+    select.appendChild(option);
+  });
+}
+
+function updateMonthControls() {
+  const monthIndex = availableMonths.indexOf(selectedMonth);
+  document.getElementById('monthSelect').value = selectedMonth;
+  document.getElementById('prevMonth').disabled = monthIndex <= 0;
+  document.getElementById('nextMonth').disabled = monthIndex === -1 || monthIndex >= availableMonths.length - 1;
+}
+
+function initializeCalendarNavigation() {
+  const dataMonths = earningsData
+    .filter(e => targetSymbols.includes(e.symbol) && /^\d{4}-\d{2}-\d{2}$/.test(e.date || ''))
+    .map(e => e.date.slice(0, 7));
+  const candidates = [...new Set([...calendarSeedMonths, ...dataMonths])]
+    .filter(isMonthKey)
+    .filter(month => month >= calendarHistoryStartMonth)
+    .sort();
+  const currentMonth = getLocalDateKey().slice(0, 7);
+  if (candidates.length === 0) candidates.push(currentMonth);
+
+  availableMonths = enumerateMonths(candidates[0], candidates[candidates.length - 1]);
+  populateMonthSelect();
+
+  const requestedMonth = new URLSearchParams(window.location.search).get('month');
+  if (requestedMonth && availableMonths.includes(requestedMonth)) {
+    selectedMonth = requestedMonth;
+  } else if (availableMonths.includes(currentMonth)) {
+    selectedMonth = currentMonth;
+  } else {
+    selectedMonth = availableMonths[availableMonths.length - 1];
+  }
+  weeks = buildWeeksForMonth(selectedMonth);
+  currentWeek = findCurrentWeek();
+  updateMonthControls();
+  if (requestedMonth && requestedMonth !== selectedMonth) updateMonthQuery();
+}
+
+function updateMonthQuery() {
+  if (!window.history || !window.history.replaceState) return;
+  const params = new URLSearchParams(window.location.search);
+  params.set('month', selectedMonth);
+  const query = params.toString();
+  try {
+    window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
+  } catch (error) {
+    // Some embedded browsers do not allow history updates for local files.
+  }
+}
+
 function goToMarket(page) {
   const params = new URLSearchParams(window.location.search);
-  const fav = params.get('favorites');
-  window.location.href = fav ? `${page}?favorites=${fav}` : page;
+  if (selectedMonth) params.set('month', selectedMonth);
+  const query = params.toString();
+  window.location.href = query ? `${page}?${query}` : page;
 }
 
 function updateHeaderHeight() {
@@ -445,7 +612,7 @@ function updateHeaderHeight() {
 }
 
 function findCurrentWeek() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getLocalDateKey();
   const todayDay = new Date().getDay();
   for (let i = 0; i < weeks.length; i++) {
     const weekDates = weeks[i];
@@ -455,19 +622,30 @@ function findCurrentWeek() {
       if (weekDates[0] > today) return i;
     }
   }
-  return 0;
+  const firstWithEarnings = weeks.findIndex(weekDates =>
+    weekDates.some(dateStr =>
+      dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+      )
+    )
+  );
+  return firstWithEarnings === -1 ? 0 : firstWithEarnings;
 }
 
 function scrollToCurrentWeek() {
   if (currentMode !== 'monthly') return;
   const allWeekRows = document.querySelectorAll('.week-row-wrapper');
   if (allWeekRows.length === 0) return;
-  const targetRow = allWeekRows[currentWeek] || allWeekRows[0];
+  const targetRow = document.querySelector(`.week-row-wrapper[data-week-index="${currentWeek}"]`) || allWeekRows[0];
   if (!targetRow) return;
+  const scrollTarget = targetRow.getBoundingClientRect().height > 0
+    ? targetRow
+    : targetRow.querySelector('.day');
+  if (!scrollTarget) return;
   const headerEl = document.querySelector('header');
   const controlsEl = document.querySelector('.controls');
   const offset = (headerEl ? headerEl.offsetHeight : 0) + (controlsEl ? controlsEl.offsetHeight : 0);
-  const top = targetRow.getBoundingClientRect().top + window.scrollY - offset - 8;
+  const top = scrollTarget.getBoundingClientRect().top + window.scrollY - offset - 8;
   window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
 }
 
@@ -482,12 +660,31 @@ function switchMode(mode) {
     }
   });
   if (mode === 'weekly') {
+    document.getElementById('monthNav').classList.remove('active');
     document.getElementById('weekNav').classList.add('active');
     renderWeekDots();
   } else {
+    document.getElementById('monthNav').classList.add('active');
     document.getElementById('weekNav').classList.remove('active');
   }
   renderCalendar();
+}
+
+function selectMonth(monthKey) {
+  if (!availableMonths.includes(monthKey)) return;
+  selectedMonth = monthKey;
+  weeks = buildWeeksForMonth(selectedMonth);
+  currentWeek = findCurrentWeek();
+  updateMonthControls();
+  updateMonthQuery();
+  if (currentMode === 'weekly') renderWeekDots();
+  renderCalendar();
+}
+
+function changeMonth(delta) {
+  const monthIndex = availableMonths.indexOf(selectedMonth);
+  const nextIndex = Math.max(0, Math.min(availableMonths.length - 1, monthIndex + delta));
+  if (nextIndex !== monthIndex) selectMonth(availableMonths[nextIndex]);
 }
 
 function renderWeekDots() {
@@ -516,6 +713,7 @@ function formatDateRange(dates) {
 document.addEventListener('DOMContentLoaded', updateHeaderHeight);
 window.addEventListener('resize', updateHeaderHeight);
 
+
 function deduplicateEarnings(data) {
   const seen = new Set();
   return data.filter(e => {
@@ -532,7 +730,7 @@ fetch('earnings_data.json')
     earningsData = deduplicateEarnings(
       data.filter(e => e.status !== 'changed')
     );
-    currentWeek = findCurrentWeek();
+    initializeCalendarNavigation();
     renderCalendar();
     scrollToCurrentWeek();
   });
@@ -552,17 +750,29 @@ function renderCalendar() {
   calendar.appendChild(headerRow);
 
   if (currentMode === 'monthly') {
-    weeks.forEach(weekDates => {
-      const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    let renderedWeeks = 0;
+    weeks.forEach((weekDates, weekIndex) => {
+      const hasEarnings = weekDates.some(dateStr =>
+        dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+          e.date === dateStr && targetSymbols.includes(e.symbol)
+        )
+      );
       if (!hasEarnings) return;
       const weekRow = document.createElement('div');
       weekRow.className = 'week-row week-row-wrapper';
+      weekRow.dataset.weekIndex = weekIndex;
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
+      renderedWeeks++;
     });
+    if (renderedWeeks === 0) appendEmptyMessage(calendar, 'No earnings data for this month');
   } else {
     const weekDates = weeks[currentWeek];
-    const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    const hasEarnings = weekDates && weekDates.some(dateStr =>
+      dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+      )
+    );
     document.getElementById('weekLabel').textContent = `Week ${currentWeek + 1}: ${formatDateRange(weeks[currentWeek])}`;
     document.getElementById('prevWeek').disabled = currentWeek === 0;
     document.getElementById('nextWeek').disabled = currentWeek === weeks.length - 1;
@@ -574,17 +784,25 @@ function renderCalendar() {
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
     } else {
-      const noDataDiv = document.createElement('div');
-      noDataDiv.style.cssText = 'width:100%;text-align:center;padding:40px;color:#888;font-size:16px;';
-      noDataDiv.textContent = 'No earnings data for this week';
-      calendar.appendChild(noDataDiv);
+      appendEmptyMessage(calendar, 'No earnings data for this week');
     }
   }
+  if (document.getElementById('searchInput').value.trim()) searchSymbols();
+}
+
+function appendEmptyMessage(calendar, message) {
+  const noDataDiv = document.createElement('div');
+  noDataDiv.className = 'empty-calendar';
+  noDataDiv.textContent = message;
+  calendar.appendChild(noDataDiv);
 }
 
 function renderDay(dateStr) {
-  const today = new Date().toISOString().split('T')[0];
-  const earnings = earningsData.filter(e => e.date === dateStr && targetSymbols.includes(e.symbol))
+  const today = getLocalDateKey();
+  const isOutsideMonth = !dateStr.startsWith(selectedMonth);
+  const earnings = earningsData.filter(e =>
+    !isOutsideMonth && e.date === dateStr && targetSymbols.includes(e.symbol)
+  )
     .sort((a, b) => {
       const ai = targetSymbols.indexOf(a.symbol), bi = targetSymbols.indexOf(b.symbol);
       if (ai === -1 && bi === -1) return a.symbol.localeCompare(b.symbol);
@@ -594,9 +812,10 @@ function renderDay(dateStr) {
 
   const dayDiv = document.createElement('div');
   dayDiv.className = 'day';
+  if (isOutsideMonth) dayDiv.classList.add('outside-month');
   if (dateStr === today) dayDiv.classList.add('today');
 
-  if (currentMode === 'monthly') {
+  if (currentMode === 'monthly' && !isOutsideMonth) {
     dayDiv.style.cursor = 'pointer';
     dayDiv.onclick = () => {
       const weekIndex = weeks.findIndex(week => week.includes(dateStr));
@@ -649,7 +868,7 @@ function renderDay(dateStr) {
       moreDiv.textContent = `+${earnings.length - 9} more`;
       dayDiv.appendChild(moreDiv);
     }
-  } else {
+  } else if (!isOutsideMonth) {
     const noEarnings = document.createElement('div');
     noEarnings.className = 'no-earnings';
     noEarnings.textContent = 'No Earnings';

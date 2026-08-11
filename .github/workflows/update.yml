@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: earnings-calendar-update
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -45,6 +49,7 @@ jobs:
             earnings_data.json \
             japan.html \
             earnings_data_jp.json \
+            earnings_history_jp.json \
             output_json/earnings \
             earnings_py/input/earnings_index.json
           git commit -m "Auto update HTML & JSON $(date +'%Y-%m-%d %H:%M')" || echo "No changes"

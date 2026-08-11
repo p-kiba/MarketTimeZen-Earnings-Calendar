@@ -125,6 +125,31 @@ header {
 .country-divider {
   color: #bbb;
 }
+.month-nav {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+.month-nav.active {
+  display: flex;
+}
+.month-select {
+  min-width: 180px;
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+.month-select:focus {
+  outline: 2px solid #58799d;
+  outline-offset: 2px;
+}
 .week-nav {
   display: none;
   flex-direction: column;
@@ -171,6 +196,8 @@ header {
 }
 .week-indicators {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
 }
 .week-dot {
@@ -258,6 +285,19 @@ header {
   color: #4CAF50;
   font-size: 1.2em;
 }
+.day.outside-month {
+  background-color: #f7f7f7;
+  box-shadow: none;
+  opacity: 0.5;
+}
+.empty-calendar {
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: 40px 16px;
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+}
 .logos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -323,6 +363,7 @@ footer {
   .logo-card img { width: 40px; height: 40px; }
   .symbol { font-size: 12px; }
   .mode-btn { padding: 8px 16px; font-size: 14px; }
+  .month-select { min-width: 160px; font-size: 14px; }
   .week-label { min-width: 180px; font-size: 14px; }
 }
 @media (max-width: 480px) {
@@ -427,6 +468,11 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
       <span class="country-link {jp_active}" onclick="goToMarket('japan.html')">Tokyo</span>
     </div>
   </div>
+  <div class="month-nav active" id="monthNav">
+    <button class="nav-btn" id="prevMonth" onclick="changeMonth(-1)" aria-label="Previous month">‹</button>
+    <select class="month-select" id="monthSelect" onchange="selectMonth(this.value)" aria-label="Displayed month"></select>
+    <button class="nav-btn" id="nextMonth" onclick="changeMonth(1)" aria-label="Next month">›</button>
+  </div>
   <div class="week-nav" id="weekNav">
     <div class="week-controls">
       <button class="nav-btn" id="prevWeek" onclick="changeWeek(-1)">‹</button>
@@ -444,7 +490,7 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
 
 def build_common_js() -> str:
     """両ページ共通の JavaScript を返す（favorites取得・ページ遷移・週操作など）"""
-    return """
+    return r"""
 function getFavorites() {
   const params = new URLSearchParams(window.location.search);
   const fav = params.get('favorites');
@@ -452,11 +498,128 @@ function getFavorites() {
 }
 const favorites = getFavorites();
 
-// favoritesパラメータを引き継いでページ遷移する
+function isMonthKey(value) {
+  if (!/^\d{4}-\d{2}$/.test(value || '')) return false;
+  const month = Number(value.slice(5));
+  return month >= 1 && month <= 12;
+}
+
+function shiftMonth(monthKey, delta) {
+  const [year, month] = monthKey.split('-').map(Number);
+  const shifted = new Date(Date.UTC(year, month - 1 + delta, 1));
+  return `${shifted.getUTCFullYear()}-${String(shifted.getUTCMonth() + 1).padStart(2, '0')}`;
+}
+
+function enumerateMonths(startMonth, endMonth) {
+  const months = [];
+  let month = startMonth;
+  while (month <= endMonth && months.length < 1200) {
+    months.push(month);
+    month = shiftMonth(month, 1);
+  }
+  return months;
+}
+
+function buildWeeksForMonth(monthKey) {
+  const [year, month] = monthKey.split('-').map(Number);
+  const first = new Date(Date.UTC(year, month - 1, 1));
+  const last = new Date(Date.UTC(year, month, 0));
+  const cursor = new Date(first);
+  cursor.setUTCDate(cursor.getUTCDate() - ((cursor.getUTCDay() + 6) % 7));
+
+  const monthWeeks = [];
+  while (cursor <= last) {
+    const week = [];
+    for (let day = 0; day < 5; day++) {
+      const value = new Date(cursor);
+      value.setUTCDate(value.getUTCDate() + day);
+      week.push(value.toISOString().slice(0, 10));
+    }
+    if (week.some(dateStr => dateStr.startsWith(monthKey))) {
+      monthWeeks.push(week);
+    }
+    cursor.setUTCDate(cursor.getUTCDate() + 7);
+  }
+  return monthWeeks;
+}
+
+function formatMonthLabel(monthKey) {
+  const [year, month] = monthKey.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString('en-US', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC'
+  });
+}
+
+function getLocalDateKey() {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+}
+
+function populateMonthSelect() {
+  const select = document.getElementById('monthSelect');
+  select.innerHTML = '';
+  availableMonths.forEach(month => {
+    const option = document.createElement('option');
+    option.value = month;
+    option.textContent = formatMonthLabel(month);
+    select.appendChild(option);
+  });
+}
+
+function updateMonthControls() {
+  const monthIndex = availableMonths.indexOf(selectedMonth);
+  document.getElementById('monthSelect').value = selectedMonth;
+  document.getElementById('prevMonth').disabled = monthIndex <= 0;
+  document.getElementById('nextMonth').disabled = monthIndex === -1 || monthIndex >= availableMonths.length - 1;
+}
+
+function initializeCalendarNavigation() {
+  const dataMonths = earningsData
+    .filter(e => targetSymbols.includes(e.symbol) && /^\d{4}-\d{2}-\d{2}$/.test(e.date || ''))
+    .map(e => e.date.slice(0, 7));
+  const candidates = [...new Set([...calendarSeedMonths, ...dataMonths])]
+    .filter(isMonthKey)
+    .filter(month => month >= calendarHistoryStartMonth)
+    .sort();
+  const currentMonth = getLocalDateKey().slice(0, 7);
+  if (candidates.length === 0) candidates.push(currentMonth);
+
+  availableMonths = enumerateMonths(candidates[0], candidates[candidates.length - 1]);
+  populateMonthSelect();
+
+  const requestedMonth = new URLSearchParams(window.location.search).get('month');
+  if (requestedMonth && availableMonths.includes(requestedMonth)) {
+    selectedMonth = requestedMonth;
+  } else if (availableMonths.includes(currentMonth)) {
+    selectedMonth = currentMonth;
+  } else {
+    selectedMonth = availableMonths[availableMonths.length - 1];
+  }
+  weeks = buildWeeksForMonth(selectedMonth);
+  currentWeek = findCurrentWeek();
+  updateMonthControls();
+  if (requestedMonth && requestedMonth !== selectedMonth) updateMonthQuery();
+}
+
+function updateMonthQuery() {
+  if (!window.history || !window.history.replaceState) return;
+  const params = new URLSearchParams(window.location.search);
+  params.set('month', selectedMonth);
+  const query = params.toString();
+  try {
+    window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
+  } catch (error) {
+    // Some embedded browsers do not allow history updates for local files.
+  }
+}
+
 function goToMarket(page) {
   const params = new URLSearchParams(window.location.search);
-  const fav = params.get('favorites');
-  window.location.href = fav ? `${page}?favorites=${fav}` : page;
+  if (selectedMonth) params.set('month', selectedMonth);
+  const query = params.toString();
+  window.location.href = query ? `${page}?${query}` : page;
 }
 
 function updateHeaderHeight() {
@@ -465,7 +628,7 @@ function updateHeaderHeight() {
 }
 
 function findCurrentWeek() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getLocalDateKey();
   const todayDay = new Date().getDay();
   for (let i = 0; i < weeks.length; i++) {
     const weekDates = weeks[i];
@@ -475,19 +638,30 @@ function findCurrentWeek() {
       if (weekDates[0] > today) return i;
     }
   }
-  return 0;
+  const firstWithEarnings = weeks.findIndex(weekDates =>
+    weekDates.some(dateStr =>
+      dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+      )
+    )
+  );
+  return firstWithEarnings === -1 ? 0 : firstWithEarnings;
 }
 
 function scrollToCurrentWeek() {
   if (currentMode !== 'monthly') return;
   const allWeekRows = document.querySelectorAll('.week-row-wrapper');
   if (allWeekRows.length === 0) return;
-  const targetRow = allWeekRows[currentWeek] || allWeekRows[0];
+  const targetRow = document.querySelector(`.week-row-wrapper[data-week-index="${currentWeek}"]`) || allWeekRows[0];
   if (!targetRow) return;
+  const scrollTarget = targetRow.getBoundingClientRect().height > 0
+    ? targetRow
+    : targetRow.querySelector('.day');
+  if (!scrollTarget) return;
   const headerEl = document.querySelector('header');
   const controlsEl = document.querySelector('.controls');
   const offset = (headerEl ? headerEl.offsetHeight : 0) + (controlsEl ? controlsEl.offsetHeight : 0);
-  const top = targetRow.getBoundingClientRect().top + window.scrollY - offset - 8;
+  const top = scrollTarget.getBoundingClientRect().top + window.scrollY - offset - 8;
   window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
 }
 
@@ -502,12 +676,31 @@ function switchMode(mode) {
     }
   });
   if (mode === 'weekly') {
+    document.getElementById('monthNav').classList.remove('active');
     document.getElementById('weekNav').classList.add('active');
     renderWeekDots();
   } else {
+    document.getElementById('monthNav').classList.add('active');
     document.getElementById('weekNav').classList.remove('active');
   }
   renderCalendar();
+}
+
+function selectMonth(monthKey) {
+  if (!availableMonths.includes(monthKey)) return;
+  selectedMonth = monthKey;
+  weeks = buildWeeksForMonth(selectedMonth);
+  currentWeek = findCurrentWeek();
+  updateMonthControls();
+  updateMonthQuery();
+  if (currentMode === 'weekly') renderWeekDots();
+  renderCalendar();
+}
+
+function changeMonth(delta) {
+  const monthIndex = availableMonths.indexOf(selectedMonth);
+  const nextIndex = Math.max(0, Math.min(availableMonths.length - 1, monthIndex + delta));
+  if (nextIndex !== monthIndex) selectMonth(availableMonths[nextIndex]);
 }
 
 function renderWeekDots() {

@@ -1,8 +1,15 @@
 import json
+import os
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+from earnings_utils import (
+    load_existing_earnings,
+    merge_earnings_history,
+    sort_earnings,
+    write_earnings_atomically,
+)
 from html_template import build_html_head, build_header, build_controls, build_common_js
 
 # 日本株の銘柄リスト（時価総額順）
@@ -205,6 +212,21 @@ TARGET_JP = [
 ]
 
 ASSETS_DIR = "assets/logos/ja"
+DATA_FILE = "earnings_data_jp.json"
+HISTORY_FILE = "earnings_history_jp.json"
+# 2026-07 contains only the spillover week; 2026-08 is the first complete month.
+HISTORY_START_MONTH = "2026-08"
+UNDECIDED_DATE_LABELS = {"未定_Undecided"}
+
+
+def normalize_jpx_code(value):
+    """Return a stable JPX security code, or an empty string for blank cells."""
+    if value is None or pd.isna(value):
+        return ""
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    text = str(value).strip()
+    return "" if text.lower() in {"", "nan", "none"} else text
 
 # =====================
 # 取得対象期間
@@ -266,6 +288,7 @@ if not matches:
 # 全xlsx読み込み
 # =====================
 dfs = []
+failed_files = []
 for file in matches:
     try:
         df = pd.read_excel(BASE_URL + file, engine="openpyxl", header=4)
@@ -275,13 +298,19 @@ for file in matches:
         dfs.append(df)
         print(f"⬇️ Loaded: {file}")
     except Exception as e:
+        failed_files.append(file)
         print(f"❌ Failed: {file} - {e}")
+
+if failed_files:
+    raise RuntimeError(
+        "一部の決算ファイルを読み込めなかったため、既存データを保持します: "
+        + ", ".join(failed_files)
+    )
 
 if not dfs:
     raise Exception("xlsx読み込み失敗")
 
 df = pd.concat(dfs, ignore_index=True)
-df["code"] = df["code"].astype(str)
 df = df.where(pd.notnull(df), None)
 print(f"📊 Total rows: {len(df)}")
 
@@ -289,40 +318,104 @@ print(f"📊 Total rows: {len(df)}")
 # JSON形式へ変換・保存
 # =====================
 all_data = []
-for _, row in df.iterrows():
-    try:
-        date_obj = pd.to_datetime(row["date"]).date()
-        if period_start <= date_obj <= period_end:
-            all_data.append({
-                "date":            date_obj.strftime("%Y-%m-%d"),
-                "symbol":          f'{row["code"]}.T',
-                "name_ja":         row["name_ja"]         if pd.notna(row["name_ja"])         else "",
-                "name_en":         row["name_en"]         if pd.notna(row["name_en"])         else "",
-                "market":          row["market_ja"]       if pd.notna(row["market_ja"])       else "",
-                "industry":        row["industry_ja"]     if pd.notna(row["industry_ja"])     else "",
-                "fiscal_year_end": str(row["fiscal_year_end"]) if pd.notna(row["fiscal_year_end"]) else "",
-                "fiscal_period":   row["fiscal_period"]   if pd.notna(row["fiscal_period"])   else "",
-            })
-    except:
+failed_rows = []
+undecided_rows = []
+ignored_note_rows = []
+for row_index, row in df.iterrows():
+    raw_date = row["date"]
+    code = normalize_jpx_code(row["code"])
+    if raw_date is None or pd.isna(raw_date):
+        if code:
+            failed_rows.append(str(row_index))
         continue
 
-seen, unique = set(), []
-for item in all_data:
-    key = (item["symbol"], item["date"])
-    if key not in seen:
-        seen.add(key)
-        unique.append(item)
-unique.sort(key=lambda x: x["date"])
+    raw_date_text = str(raw_date).strip()
+    if raw_date_text in UNDECIDED_DATE_LABELS:
+        if code:
+            undecided_rows.append(str(row_index))
+        else:
+            ignored_note_rows.append(str(row_index))
+        continue
 
-with open("earnings_data_jp.json", "w", encoding="utf-8") as f:
-    json.dump(unique, f, ensure_ascii=False, indent=2)
-print(f"\n✅ 保存完了: {len(unique)} 件")
+    try:
+        date_obj = pd.to_datetime(raw_date).date()
+    except (TypeError, ValueError, OverflowError):
+        if code:
+            failed_rows.append(str(row_index))
+        else:
+            ignored_note_rows.append(str(row_index))
+        continue
+
+    if not period_start <= date_obj <= period_end:
+        continue
+
+    if not code:
+        failed_rows.append(str(row_index))
+        continue
+
+    all_data.append({
+        "date":            date_obj.strftime("%Y-%m-%d"),
+        "symbol":          f"{code}.T",
+        "name_ja":         row["name_ja"]         if pd.notna(row["name_ja"])         else "",
+        "name_en":         row["name_en"]         if pd.notna(row["name_en"])         else "",
+        "market":          row["market_ja"]       if pd.notna(row["market_ja"])       else "",
+        "industry":        row["industry_ja"]     if pd.notna(row["industry_ja"])     else "",
+        "fiscal_year_end": str(row["fiscal_year_end"]) if pd.notna(row["fiscal_year_end"]) else "",
+        "fiscal_period":   row["fiscal_period"]   if pd.notna(row["fiscal_period"])   else "",
+    })
+
+if failed_rows:
+    raise RuntimeError(
+        "一部の決算行を変換できなかったため、既存データを保持します: "
+        + ", ".join(failed_rows[:10])
+    )
+if undecided_rows:
+    print(f"⏸️ Date undecided: {len(undecided_rows)} rows")
+if ignored_note_rows:
+    print(f"ℹ️ Ignored JPX note rows: {len(ignored_note_rows)} rows")
+
+unique = sort_earnings(all_data)
+target_symbols = set(TARGET_JP)
+target_snapshot = [
+    record for record in unique if record["symbol"] in target_symbols
+]
+if not unique or not target_snapshot:
+    raise RuntimeError(
+        "対象期間の表示データが空のため、既存データを保持します"
+    )
+if os.path.exists(HISTORY_FILE):
+    previous_history = [
+        record
+        for record in load_existing_earnings(HISTORY_FILE)
+        if record.get("symbol") in target_symbols
+    ]
+else:
+    previous_history = [
+        record
+        for record in load_existing_earnings(DATA_FILE)
+        if record.get("symbol") in target_symbols
+    ]
+history = merge_earnings_history(
+    previous_history,
+    target_snapshot,
+    window_start=period_start,
+    window_end=period_end,
+    preserve_through=today.date(),
+)
+write_earnings_atomically(DATA_FILE, unique)
+write_earnings_atomically(HISTORY_FILE, history)
+print(f"\n✅ 全銘柄データ保存完了: {len(unique)} 件")
+print(f"✅ 表示用履歴保存完了: {len(history)} 件")
 
 # =====================
 # HTML 生成
 # =====================
-weeks_json   = json.dumps([[d.strftime("%Y-%m-%d") for d in w] for w in weeks])
 symbols_json = json.dumps(TARGET_JP)
+calendar_seed_months_json = json.dumps([
+    today.strftime("%Y-%m"),
+    next_month.strftime("%Y-%m"),
+])
+history_start_month_json = json.dumps(HISTORY_START_MONTH)
 date_str     = today.strftime('%B %d, %Y')
 updated_str  = today.strftime('%Y-%m-%d %H:%M')
 
@@ -337,16 +430,20 @@ html += f"""<script>
 let earningsData = [];
 let currentMode = 'monthly';
 let currentWeek = 0;
-let weeks = {weeks_json};
+let weeks = [];
+let availableMonths = [];
+let selectedMonth = '';
+let calendarSeedMonths = {calendar_seed_months_json};
+let calendarHistoryStartMonth = {history_start_month_json};
 let targetSymbols = {symbols_json};
 
 {build_common_js()}
 
-fetch('earnings_data_jp.json')
+fetch('earnings_history_jp.json')
   .then(res => res.json())
   .then(data => {{
     earningsData = data;
-    currentWeek = findCurrentWeek();
+    initializeCalendarNavigation();
     renderCalendar();
     scrollToCurrentWeek();
   }});
@@ -366,17 +463,29 @@ function renderCalendar() {{
   calendar.appendChild(headerRow);
 
   if (currentMode === 'monthly') {{
-    weeks.forEach(weekDates => {{
-      const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    let renderedWeeks = 0;
+    weeks.forEach((weekDates, weekIndex) => {{
+      const hasEarnings = weekDates.some(dateStr =>
+        dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+          e.date === dateStr && targetSymbols.includes(e.symbol)
+        )
+      );
       if (!hasEarnings) return;
       const weekRow = document.createElement('div');
       weekRow.className = 'week-row week-row-wrapper';
+      weekRow.dataset.weekIndex = weekIndex;
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
+      renderedWeeks++;
     }});
+    if (renderedWeeks === 0) appendEmptyMessage(calendar, 'No earnings data for this month');
   }} else {{
     const weekDates = weeks[currentWeek];
-    const hasEarnings = weekDates.some(dateStr => earningsData.some(e => e.date === dateStr));
+    const hasEarnings = weekDates && weekDates.some(dateStr =>
+      dateStr.startsWith(selectedMonth) && earningsData.some(e =>
+        e.date === dateStr && targetSymbols.includes(e.symbol)
+      )
+    );
     document.getElementById('weekLabel').textContent = `Week ${{currentWeek + 1}}: ${{formatDateRange(weeks[currentWeek])}}`;
     document.getElementById('prevWeek').disabled = currentWeek === 0;
     document.getElementById('nextWeek').disabled = currentWeek === weeks.length - 1;
@@ -388,17 +497,25 @@ function renderCalendar() {{
       weekDates.forEach(dateStr => weekRow.appendChild(renderDay(dateStr)));
       calendar.appendChild(weekRow);
     }} else {{
-      const noDataDiv = document.createElement('div');
-      noDataDiv.style.cssText = 'width:100%;text-align:center;padding:40px;color:#888;font-size:16px;';
-      noDataDiv.textContent = 'No earnings data for this week';
-      calendar.appendChild(noDataDiv);
+      appendEmptyMessage(calendar, 'No earnings data for this week');
     }}
   }}
+  if (document.getElementById('searchInput').value.trim()) searchSymbols();
+}}
+
+function appendEmptyMessage(calendar, message) {{
+  const noDataDiv = document.createElement('div');
+  noDataDiv.className = 'empty-calendar';
+  noDataDiv.textContent = message;
+  calendar.appendChild(noDataDiv);
 }}
 
 function renderDay(dateStr) {{
-  const today = new Date().toISOString().split('T')[0];
-  const earnings = earningsData.filter(e => e.date === dateStr && targetSymbols.includes(e.symbol))
+  const today = getLocalDateKey();
+  const isOutsideMonth = !dateStr.startsWith(selectedMonth);
+  const earnings = earningsData.filter(e =>
+    !isOutsideMonth && e.date === dateStr && targetSymbols.includes(e.symbol)
+  )
     .sort((a, b) => {{
       const ai = targetSymbols.indexOf(a.symbol), bi = targetSymbols.indexOf(b.symbol);
       if (ai === -1 && bi === -1) return a.symbol.localeCompare(b.symbol);
@@ -408,9 +525,10 @@ function renderDay(dateStr) {{
 
   const dayDiv = document.createElement('div');
   dayDiv.className = 'day';
+  if (isOutsideMonth) dayDiv.classList.add('outside-month');
   if (dateStr === today) dayDiv.classList.add('today');
 
-  if (currentMode === 'monthly') {{
+  if (currentMode === 'monthly' && !isOutsideMonth) {{
     dayDiv.style.cursor = 'pointer';
     dayDiv.onclick = () => {{
       const weekIndex = weeks.findIndex(week => week.includes(dateStr));
@@ -458,7 +576,7 @@ function renderDay(dateStr) {{
       moreDiv.textContent = `+${{earnings.length - 9}} more`;
       dayDiv.appendChild(moreDiv);
     }}
-  }} else {{
+  }} else if (!isOutsideMonth) {{
     const noEarnings = document.createElement('div');
     noEarnings.className = 'no-earnings';
     noEarnings.textContent = 'No Earnings';
