@@ -88,7 +88,7 @@ let weeks = [];
 let availableMonths = [];
 let selectedMonth = '';
 let calendarSeedMonths = [];
-let calendarHistoryStartMonth = '2026-08';
+let calendarHistoryStartMonth = '2026-07';
 let targetSymbols = [];
 function renderCalendar() {}
 """ + build_common_js() + """
@@ -121,11 +121,11 @@ targetSymbols = ['AAPL'];
 calendarSeedMonths = ['2026-08', '2026-09'];
 initializeCalendarNavigation();
 assert(
-  JSON.stringify(availableMonths) === JSON.stringify(['2026-08', '2026-09']),
-  'partial history month was exposed'
+  JSON.stringify(availableMonths) === JSON.stringify(['2026-07', '2026-08', '2026-09']),
+  'partial history month was not exposed'
 );
-assert(selectedMonth === '2026-08', 'local current month was not selected');
-assert(replacedUrl.includes('month=2026-08'), 'fallback URL was not synchronized');
+assert(selectedMonth === '2026-07', 'requested partial month was not selected');
+assert(replacedUrl === '', 'valid partial month unexpectedly changed the URL');
 """
 
         subprocess.run(

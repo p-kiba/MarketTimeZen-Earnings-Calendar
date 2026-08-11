@@ -214,8 +214,8 @@ TARGET_JP = [
 ASSETS_DIR = "assets/logos/ja"
 DATA_FILE = "earnings_data_jp.json"
 HISTORY_FILE = "earnings_history_jp.json"
-# 2026-07 contains only the spillover week; 2026-08 is the first complete month.
-HISTORY_START_MONTH = "2026-08"
+# 2026-07 is intentionally available as a partial history month (July 27-31).
+HISTORY_START_MONTH = "2026-07"
 UNDECIDED_DATE_LABELS = {"未定_Undecided"}
 
 

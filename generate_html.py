@@ -140,8 +140,8 @@ TARGET_MONTHLY = [
 
 ASSETS_DIR = "assets/logos/us"
 DATA_FILE = "earnings_data.json"
-# 2026-07 contains only the spillover week; 2026-08 is the first complete month.
-HISTORY_START_MONTH = "2026-08"
+# 2026-07 is intentionally available as a partial history month (July 27-31).
+HISTORY_START_MONTH = "2026-07"
 
 print(f"📊 TARGET_MONTHLY: {len(TARGET_MONTHLY)} symbols")
 
