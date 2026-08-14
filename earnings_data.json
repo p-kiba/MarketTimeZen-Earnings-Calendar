@@ -2994,9 +2994,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 3.4544,
-    "epsActual": 0,
+    "epsActual": 3.5,
     "revenueEstimate": 9175728984,
-    "revenueActual": 0,
+    "revenueActual": 9115000000,
     "status": "confirmed"
   },
   {
@@ -3006,21 +3006,21 @@
     "quarter": 2,
     "year": 2026,
     "epsEstimate": 0.1892,
-    "epsActual": 0,
+    "epsActual": 0.18,
     "revenueEstimate": 372547085,
-    "revenueActual": 0,
+    "revenueActual": 399660000,
     "status": "confirmed"
   },
   {
     "symbol": "NU",
     "date": "2026-08-13",
-    "hour": "",
+    "hour": "amc",
     "quarter": 2,
     "year": 2026,
     "epsEstimate": 0.2087,
-    "epsActual": 0,
+    "epsActual": 0.22,
     "revenueEstimate": 5383451384,
-    "revenueActual": 0,
+    "revenueActual": 5513210000,
     "status": "confirmed"
   },
   {
@@ -3030,9 +3030,9 @@
     "quarter": 4,
     "year": 2026,
     "epsEstimate": 1.2964,
-    "epsActual": 0,
+    "epsActual": 1.32,
     "revenueEstimate": 1894560828,
-    "revenueActual": 0,
+    "revenueActual": 1876600000,
     "status": "confirmed"
   },
   {
@@ -3158,7 +3158,7 @@
   {
     "symbol": "WMT",
     "date": "2026-08-20",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 2,
     "year": 2027,
     "epsEstimate": 0.7493,
@@ -3453,7 +3453,7 @@
     "epsActual": 0,
     "revenueEstimate": 11987236843,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MDB",
@@ -3500,6 +3500,18 @@
     "epsEstimate": 3.3015,
     "epsActual": 0,
     "revenueEstimate": 29947978596,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "HPE",
+    "date": "2026-09-02",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.9299,
+    "epsActual": 0,
+    "revenueEstimate": 11987236843,
     "revenueActual": 0,
     "status": "confirmed"
   },
