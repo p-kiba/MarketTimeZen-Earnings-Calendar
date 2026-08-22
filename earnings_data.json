@@ -3112,10 +3112,10 @@
     "date": "2026-08-19",
     "hour": "bmo",
     "quarter": 2,
-    "year": 2026,
-    "epsEstimate": 0,
+    "year": 2027,
+    "epsEstimate": 2.3095,
     "epsActual": 2.46,
-    "revenueEstimate": 0,
+    "revenueEstimate": 26324568724,
     "revenueActual": 26539000000,
     "status": "confirmed"
   },
@@ -3480,6 +3480,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "NIO",
+    "date": "2026-09-01",
+    "hour": "",
+    "quarter": 2,
+    "year": 2026,
+    "epsEstimate": -0.2124,
+    "epsActual": 0,
+    "revenueEstimate": 33823392070,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "PANW",
     "date": "2026-09-01",
     "hour": "amc",
@@ -3657,7 +3669,7 @@
     "epsActual": 0,
     "revenueEstimate": 33823392070,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "ADBE",
