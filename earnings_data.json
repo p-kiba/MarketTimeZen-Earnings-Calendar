@@ -3458,7 +3458,7 @@
   {
     "symbol": "MDB",
     "date": "2026-09-01",
-    "hour": "",
+    "hour": "amc",
     "quarter": 2,
     "year": 2027,
     "epsEstimate": 1.6134,
@@ -3470,7 +3470,7 @@
   {
     "symbol": "MDT",
     "date": "2026-09-01",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 1,
     "year": 2027,
     "epsEstimate": 1.4017,
@@ -3482,7 +3482,7 @@
   {
     "symbol": "NIO",
     "date": "2026-09-01",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 2,
     "year": 2026,
     "epsEstimate": -0.2124,
@@ -3753,7 +3753,7 @@
     "epsActual": 0,
     "revenueEstimate": 6789495275,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MU",
@@ -3764,6 +3764,18 @@
     "epsEstimate": 32.2476,
     "epsActual": 0,
     "revenueEstimate": 52142950606,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "AZO",
+    "date": "2026-09-22",
+    "hour": "amc",
+    "quarter": 4,
+    "year": 2026,
+    "epsEstimate": 54.9843,
+    "epsActual": 0,
+    "revenueEstimate": 6789495275,
     "revenueActual": 0,
     "status": "confirmed"
   },
