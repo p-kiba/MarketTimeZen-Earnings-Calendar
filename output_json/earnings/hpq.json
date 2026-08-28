@@ -1,5 +1,20 @@
 {
   "companyName": "HP INC",
+  "FY2026Q3": {
+    "revenue": 15677000000,
+    "netIncome": 661000000,
+    "epsDiluted": 0.71,
+    "grossProfit": 2945000000,
+    "grossMargin": 0.1879,
+    "operatingCashFlow": 1735000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-05-01",
+    "endDate": "2026-07-31",
+    "filedDate": "2026-08-27",
+    "accessionNumber": "0000047217-26-000051"
+  },
   "FY2026Q2": {
     "revenue": 14408000000,
     "netIncome": 450000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-07-31",
     "filedDate": "2016-09-01",
     "accessionNumber": "0000047217-16-000082"
-  },
-  "FY2016Q2": {
-    "revenue": 11588000000,
-    "netIncome": 629000000,
-    "epsDiluted": 0.36,
-    "grossProfit": 2250000000,
-    "grossMargin": 0.1942,
-    "operatingCashFlow": 1575000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-02-01",
-    "endDate": "2016-04-30",
-    "filedDate": "2016-06-03",
-    "accessionNumber": "0001047469-16-013586"
   }
 }
