@@ -1,5 +1,20 @@
 {
   "companyName": "Walmart Inc.",
+  "FY2027Q2": {
+    "revenue": 187937000000,
+    "netIncome": 6366000000,
+    "epsDiluted": 0.8,
+    "grossProfit": 49133000000,
+    "grossMargin": 0.2614,
+    "operatingCashFlow": 14972000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-05-01",
+    "endDate": "2026-07-31",
+    "filedDate": "2026-08-28",
+    "accessionNumber": "0000104169-26-000154"
+  },
   "FY2027Q1": {
     "revenue": 177751000000,
     "netIncome": 5330000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-10-31",
     "filedDate": "2016-12-01",
     "accessionNumber": "0000104169-16-000140"
-  },
-  "FY2017Q2": {
-    "revenue": 120854000000,
-    "netIncome": 3773000000,
-    "epsDiluted": 1.21,
-    "grossProfit": 31369000000,
-    "grossMargin": 0.2596,
-    "operatingCashFlow": 8738000000,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-05-01",
-    "endDate": "2016-07-31",
-    "filedDate": "2016-08-31",
-    "accessionNumber": "0000104169-16-000119"
   }
 }
