@@ -1,5 +1,20 @@
 {
   "companyName": "Medtronic plc",
+  "FY2027Q1": {
+    "revenue": 9756000000,
+    "netIncome": 1470000000,
+    "epsDiluted": 1.14,
+    "grossProfit": 6340000000,
+    "grossMargin": 0.6499,
+    "operatingCashFlow": 1793000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-04-25",
+    "endDate": "2026-07-31",
+    "filedDate": "2026-09-03",
+    "accessionNumber": "0001628280-26-060473"
+  },
   "FY2026Q4": {
     "revenue": 9808000000,
     "netIncome": 1244000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-10-28",
     "filedDate": "2016-12-05",
     "accessionNumber": "0001613103-16-000123"
-  },
-  "FY2017Q1": {
-    "revenue": 7166000000,
-    "netIncome": 929000000,
-    "epsDiluted": 0.66,
-    "grossProfit": 4905000000,
-    "grossMargin": 0.6845,
-    "operatingCashFlow": 1550000000,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-04-30",
-    "endDate": "2016-07-29",
-    "filedDate": "2016-09-07",
-    "accessionNumber": "0001613103-16-000100"
   }
 }
