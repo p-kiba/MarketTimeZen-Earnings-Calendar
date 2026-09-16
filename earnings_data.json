@@ -3890,7 +3890,7 @@
   {
     "symbol": "AZO",
     "date": "2026-09-22",
-    "hour": "amc",
+    "hour": "bmo",
     "quarter": 4,
     "year": 2026,
     "epsEstimate": 54.8009,
@@ -4281,7 +4281,7 @@
     "epsActual": 0,
     "revenueEstimate": 11494725836,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "AAL",
@@ -4508,6 +4508,18 @@
     "epsEstimate": 1.1255,
     "epsActual": 0,
     "revenueEstimate": 5420321954,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "TRV",
+    "date": "2026-10-16",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 6.8406,
+    "epsActual": 0,
+    "revenueEstimate": 11494725836,
     "revenueActual": 0,
     "status": "confirmed"
   },
