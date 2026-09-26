@@ -1,0 +1,365 @@
+{
+  "build_id": "1487aa55dd0e59be0f1fd7f9",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-31",
+      "conditions": "",
+      "deal_id": "deal-c33e3357d134b9d4b72fec26",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-c33e3357d134b9d4b72fec26",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c33e3357d134b9d4b72fec26"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-2e0d983d5da17c8a1c3844e2"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e7bbf5503fd4764b8e8f9f96": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e7bbf5503fd4764b8e8f9f96",
+        "rule_version": "5142f83dbf0f5ebc34e6bbf35b974b62774b980d15075ae088408f840ea59f00",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-f509e4994277d1f5748e745e",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-512 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 4.4 billion",
+          "payee_company_ids": [
+            "co-zt-systems"
+          ],
+          "payer_company_ids": [
+            "co-amd"
+          ],
+          "qualifier": "exact",
+          "scope": "SEC注記の現金・株式・条件付対価を含む取得対価",
+          "value": "4400000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "条件付対価は2025年10月に決済済み。内訳の丸め値を再加算しない。",
+      "deal_id": "deal-c33e3357d134b9d4b72fec26",
+      "detected_at": "2026-09-26T05:23:09+00:00",
+      "effective_date": null,
+      "event_id": "event-8a1c754cda88c000c67c582f",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-2cb38b05b6e3274abdad86ad"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-08-05",
+      "relationship_ids": [
+        "rel-2e0d983d5da17c8a1c3844e2"
+      ],
+      "supersedes_event_id": "event-c33e3357d134b9d4b72fec26",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-50380b7a0cd06e3ca1e2bdee": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-50380b7a0cd06e3ca1e2bdee",
+        "rule_version": "6ac48a849575b9c4214e44a151c781981c0e9b007ef3f0b65f35f3d687814106",
+        "verified_at": "2026-09-26T05:23:09+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2cb38b05b6e3274abdad86ad",
+      "excerpt": "ZT Systems",
+      "locator": "sec-div:262",
+      "normalized_text_hash": "351d9cc1de29de0ee093a864bfc91f24dc07983acf76661f69c35ed4acc6e2f8",
+      "section": "Official disclosure: business context",
+      "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c33e3357d134b9d4b72fec26",
+      "excerpt": "acquisition of ZT Systems",
+      "locator": "p:10",
+      "normalized_text_hash": "e00eb0960962ca8ad94af7452443fe90b8039345424c7443f99d0acb277c7874",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e7bbf5503fd4764b8e8f9f96",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-2cb38b05b6e3274abdad86ad"
+      ],
+      "geography": "",
+      "headline": "ZT Systems買収の取得対価",
+      "products": [
+        "AI計算基盤設計"
+      ],
+      "scale": "",
+      "source_role": "買収側",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-c33e3357d134b9d4b72fec26"
+    ],
+    "description": "2025年3月に完了したZT Systems買収の取得対価は44億米ドル。現金・AMD株式・条件付対価を含み、条件付対価は2025年10月に条件を満たして決済済み。製造事業の後の売却対価とは別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-2cb38b05b6e3274abdad86ad"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T05:23:09+00:00",
+    "latest_event_ids": [
+      "event-8a1c754cda88c000c67c582f"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2e0d983d5da17c8a1c3844e2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-06-27",
+    "target_company_id": "co-zt-systems",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-50380b7a0cd06e3ca1e2bdee": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-50380b7a0cd06e3ca1e2bdee",
+      "rule_version": "6ac48a849575b9c4214e44a151c781981c0e9b007ef3f0b65f35f3d687814106",
+      "verified_at": "2026-09-26T05:23:09+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000002488-26-000123",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "content_hash": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-08-05",
+      "filing_cik": "0000002488",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amd",
+      "retrieved_at": "2026-09-26T04:45:19+00:00",
+      "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+      "source_type": "sec_filing",
+      "title": "amd-20260627"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.amd.com/news/amd-completes-acquisition-of-zt-systems/",
+      "content_hash": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-31",
+      "publisher": "co-amd",
+      "retrieved_at": "2026-09-26T04:45:30+00:00",
+      "source_id": "source-e7bbf5503fd4764b8e8f9f96",
+      "source_type": "official_newsroom",
+      "title": "AMD Completes Acquisition of ZT Systems - AMD Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-f509e4994277d1f5748e745e",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-512 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-2cb38b05b6e3274abdad86ad"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 4.4 billion",
+        "payee_company_ids": [
+          "co-zt-systems"
+        ],
+        "payer_company_ids": [
+          "co-amd"
+        ],
+        "qualifier": "exact",
+        "scope": "SEC注記の現金・株式・条件付対価を含む取得対価",
+        "value": "4400000000",
+        "value_semantics": "revised_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-2cb38b05b6e3274abdad86ad"
+      ],
+      "geography": "",
+      "headline": "ZT Systems買収の取得対価",
+      "products": [
+        "AI計算基盤設計"
+      ],
+      "scale": "",
+      "source_role": "買収側",
+      "target_role": "買収対象"
+    },
+    "description": "2025年3月に完了したZT Systems買収の取得対価は44億米ドル。現金・AMD株式・条件付対価を含み、条件付対価は2025年10月に条件を満たして決済済み。製造事業の後の売却対価とは別。",
+    "direction": "directed",
+    "event_date": "2026-08-05",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:09+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2e0d983d5da17c8a1c3844e2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-06-27",
+    "target_company_id": "co-zt-systems",
+    "tier": {
+      "amount_id": "amount-f509e4994277d1f5748e745e",
+      "color": "#9b5de5",
+      "currency": "USD",
+      "level": 3
+    },
+    "tier_reasons": []
+  }
+}

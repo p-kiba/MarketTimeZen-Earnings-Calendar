@@ -145,7 +145,12 @@ def verify(root=ROOT):
             amounts = []
             for i, assertion in enumerate(claim['amounts']):
                 amount = deepcopy(assertion['amount'])
-                if assertion['anchor'] not in block:
+                amount_block=block
+                if assertion.get('proof'):
+                    if assertion['proof'] not in claim.get('context',[]):raise ValueError('Amount proof must be recorded in event evidence')
+                    if assertion.get('xbrl'):raise ValueError('Cross-document XBRL amounts require separate evaluation')
+                    amount_block=check_proof(assertion['proof'])
+                if assertion['anchor'] not in amount_block:
                     raise ValueError('Amount anchor absent from claim paragraph')
                 # The evaluated assertion includes the whole meaning, not just a number.
                 xbrl=assertion.get('xbrl')
@@ -162,7 +167,7 @@ def verify(root=ROOT):
                     if value!=Decimal(xbrl['value']) or str(xbrl['value']) not in [amount[k] for k in ('value','min_value','max_value')]:raise ValueError('XBRL value differs from evaluated amount')
                     amount['currency_basis']='SEC inline XBRL '+xbrl['fact_id']+' / '+measure.get_text(strip=True)
                 elif amount['currency']:
-                    currency_text=block
+                    currency_text=amount_block
                     if assertion.get('currency_proof'):
                         cp=assertion['currency_proof']
                         if cp not in claim.get('context',[]):raise ValueError('Currency proof must be recorded in event evidence')
@@ -182,7 +187,7 @@ def verify(root=ROOT):
             rel = dict(relationship_id=rid, source_company_id=a, target_company_id=b, relationship_type=claim['relationship_type'], direction=claim['direction'], description=claim['description'], deal_ids=[deal], lifecycle_status=claim['status'], status_as_of=claim.get('status_as_of',rule['date']), first_observed_at=old['first_observed_at'] if old else stamp, last_observed_at=stamp, latest_event_ids=[eid], evidence_ids=eids, verification='approved_rule', verification_metadata=meta)
             if claim.get('business'):
                 rel['business'] = dict(deepcopy(claim['business']), evidence_ids=eids)
-            event = dict(event_id=eid, deal_id=deal, relationship_ids=[rid], event_type=claim['event_type'], effective_date=None, agreement_date=None, announced_at=None, announced_date=rule['date'], filed_date=None, detected_at=stamp, evidence_ids=eids, amounts=amounts, amount_disclosure='disclosed' if amounts else 'not_stated_in_source', term=term, conditions=claim.get('conditions', ''), verification='approved_rule', verification_metadata=meta, field_verification={k:dict(verification='approved_rule',evidence_ids=eids) for k in ('parties','relationship','status','amounts','term','conditions')}, supersedes_event_id=None)
+            event = dict(event_id=eid, deal_id=deal, relationship_ids=[rid], event_type=claim['event_type'], effective_date=None, agreement_date=None, announced_at=None, announced_date=rule['date'], filed_date=None, detected_at=stamp, evidence_ids=eids, amounts=amounts, amount_disclosure='disclosed' if amounts else claim.get('amount_disclosure','not_stated_in_source'), term=term, conditions=claim.get('conditions', ''), verification='approved_rule', verification_metadata=meta, field_verification={k:dict(verification='approved_rule',evidence_ids=eids) for k in ('parties','relationship','status','amounts','term','conditions')}, supersedes_event_id=None)
             if source['source_type'] in ('sec_filing','sec_exhibit'):event.update(announced_date=None,filed_date=source['filed_date'])
             if revision:event['supersedes_event_id']=claim['base_event_id']
             for field in ('effective_date','agreement_date'):

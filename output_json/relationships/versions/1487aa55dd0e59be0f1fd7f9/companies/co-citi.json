@@ -1,0 +1,166 @@
+{
+  "build_id": "1487aa55dd0e59be0f1fd7f9",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-citi",
+      "country": null,
+      "display_name": "Citi",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-citi",
+    "country": null,
+    "display_name": "Citi",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ce4f3f8e91d996c50d4b6fbe"
+        ],
+        "geography": "米国・プエルトリコ",
+        "headline": "Costco会員向け提携カード",
+        "products": [
+          "Costco Anywhere Visaカード"
+        ],
+        "scale": "",
+        "source_role": "提携カード提供",
+        "target_role": "会員・店舗基盤提供"
+      },
+      "description": "CitiとCostcoがCostco Anywhere Visaカードを2016年6月20日に提供開始。会員向けの共同ブランドカードで、還元率や取扱高を契約額にはしない。",
+      "direction": "directed",
+      "event_date": "2016-06-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-7b1c4e0b90dc4db4823f0b17",
+      "relationship_type": "partnership",
+      "source_company_id": "co-citi",
+      "status_as_of": "2016-06-20",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-d13c9af46987e41735bcad40"
+        ],
+        "geography": "",
+        "headline": "Morphic買収の財務助言",
+        "products": [
+          "買収に伴う財務助言"
+        ],
+        "scale": "",
+        "source_role": "専任財務アドバイザー",
+        "target_role": "助言を受ける買収者"
+      },
+      "description": "CitiがLillyのMorphic買収で専任の財務アドバイザーを担当。買収対価をCitiへの助言報酬として転用しない。",
+      "direction": "directed",
+      "event_date": "2024-08-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-52343867befb2bf35148931a",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-citi",
+      "status_as_of": "2024-08-16",
+      "target_company_id": "co-lly",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2016-06-20",
+    "2024-08-16"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

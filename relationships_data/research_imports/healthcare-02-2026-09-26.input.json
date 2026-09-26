@@ -1,0 +1,1754 @@
+{
+  "schema_version": "mtz-research-candidates/1",
+  "is_template": false,
+  "scope": {
+    "target_companies": [
+      "Abbott Laboratories (ABT)",
+      "Pfizer (PFE)",
+      "UnitedHealth Group (UNH)",
+      "Thermo Fisher Scientific (TMO)",
+      "Danaher (DHR)"
+    ],
+    "disclosure_date_from": null,
+    "disclosure_date_to": "2026-09-26",
+    "as_of": "2026-09-26"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems%2C-Inc",
+      "title": "Abbott Completes Acquisition of Cardiovascular Systems, Inc.",
+      "publisher": "Abbott",
+      "published_date": "2023-04-27"
+    },
+    {
+      "id": "s2",
+      "url": "https://abbott.mediaroom.com/2023-02-08-Abbott-to-Acquire-Cardiovascular-Systems%2C-Inc",
+      "title": "Abbott to Acquire Cardiovascular Systems, Inc.",
+      "publisher": "Abbott",
+      "published_date": "2023-02-08"
+    },
+    {
+      "id": "s3",
+      "url": "https://abbott.mediaroom.com/2023-09-22-Abbott-Completes-Acquisition-of-Bigfoot-Biomedical",
+      "title": "Abbott Completes Acquisition of Bigfoot Biomedical",
+      "publisher": "Abbott",
+      "published_date": "2023-09-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://abbott.mediaroom.com/2021-09-02-Abbott-Expands-Peripheral-Vascular-Offerings-with-Acquisition-of-Walk-Vascular%2C-LLC",
+      "title": "Abbott Expands Peripheral Vascular Offerings with Acquisition of Walk Vascular, LLC",
+      "publisher": "Abbott",
+      "published_date": "2021-09-02"
+    },
+    {
+      "id": "s5",
+      "url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+      "title": "Abbott and Tandem Diabetes Care Advance Development of Integrated Technologies for Future Automated Insulin Delivery Systems",
+      "publisher": "Abbott",
+      "published_date": "2020-06-29"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "title": "Pfizer Completes Acquisition of Seagen",
+      "publisher": "Pfizer",
+      "published_date": "2023-12-14"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals",
+      "title": "Pfizer Completes Acquisition of Biohaven Pharmaceuticals",
+      "publisher": "Pfizer",
+      "published_date": "2022-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-arena-pharmaceuticals",
+      "title": "Pfizer Completes Acquisition of Arena Pharmaceuticals",
+      "publisher": "Pfizer",
+      "published_date": "2022-03-11"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics",
+      "title": "Pfizer Completes Acquisition of Global Blood Therapeutics",
+      "publisher": "Pfizer",
+      "published_date": "2022-10-05"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+      "title": "UnitedHealth Group Incorporated Form 10-K for the year ended December 31, 2022",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "published_date": "2023-02-24"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm",
+      "title": "LHC Group, Inc. Form 8-K",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "published_date": "2023-02-22"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm",
+      "title": "Amedisys, Inc. Form 8-K",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "published_date": "2025-08-14"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm",
+      "title": "DaVita Inc. Form 8-K",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "published_date": "2019-06-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2021/Thermo-Fisher-Scientific-Completes-Acquisition-of-PPD-Inc/default.aspx",
+      "title": "Thermo Fisher Scientific Completes Acquisition of PPD, Inc.",
+      "publisher": "Thermo Fisher Scientific",
+      "published_date": "2021-12-08"
+    },
+    {
+      "id": "s15",
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2023/Thermo-Fisher-Scientific-Completes-Acquisition-of-The-Binding-Site-Group/default.aspx",
+      "title": "Thermo Fisher Scientific Completes Acquisition of The Binding Site Group",
+      "publisher": "Thermo Fisher Scientific",
+      "published_date": "2023-01-03"
+    },
+    {
+      "id": "s16",
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2024/Thermo-Fisher-Scientific-Completes-Acquisition-of-Olink-Announces-Commencement-of-Subsequent-Offering-Period/default.aspx",
+      "title": "Thermo Fisher Scientific Completes Acquisition of Olink, Announces Commencement of Subsequent Offering Period",
+      "publisher": "Thermo Fisher Scientific",
+      "published_date": "2024-07-10"
+    },
+    {
+      "id": "s17",
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2023/Thermo-Fisher-Scientific-Completes-Acquisition-of-CorEvitas/default.aspx",
+      "title": "Thermo Fisher Scientific Completes Acquisition of CorEvitas",
+      "publisher": "Thermo Fisher Scientific",
+      "published_date": "2023-08-14"
+    },
+    {
+      "id": "s18",
+      "url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+      "title": "Danaher Completes Acquisition of Masimo Corporation",
+      "publisher": "Danaher Corporation",
+      "published_date": "2026-06-10"
+    },
+    {
+      "id": "s19",
+      "url": "https://investors.danaher.com/2026-02-17-Danaher-To-Acquire-Masimo-Corporation",
+      "title": "Danaher To Acquire Masimo Corporation",
+      "publisher": "Danaher Corporation",
+      "published_date": "2026-02-17"
+    },
+    {
+      "id": "s20",
+      "url": "https://investors.danaher.com/2023-12-06-Danaher-Completes-Acquisition-of-Abcam",
+      "title": "Danaher Completes Acquisition of Abcam",
+      "publisher": "Danaher Corporation",
+      "published_date": "2023-12-06"
+    },
+    {
+      "id": "s21",
+      "url": "https://investors.danaher.com/2023-08-28-Danaher-to-Acquire-Abcam",
+      "title": "Danaher to Acquire Abcam",
+      "publisher": "Danaher Corporation",
+      "published_date": "2023-08-28"
+    },
+    {
+      "id": "s22",
+      "url": "https://investors.danaher.com/2021-08-30-Danaher-Completes-Acquisition-of-Aldevron",
+      "title": "Danaher Completes Acquisition of Aldevron",
+      "publisher": "Danaher Corporation",
+      "published_date": "2021-08-30"
+    },
+    {
+      "id": "s23",
+      "url": "https://investors.danaher.com/2021-06-17-Danaher-To-Acquire-Aldevron",
+      "title": "Danaher To Acquire Aldevron",
+      "publisher": "Danaher Corporation",
+      "published_date": "2021-06-17"
+    },
+    {
+      "id": "s24",
+      "url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+      "title": "Danaher Completes Acquisition Of The Biopharma Business Of General Electric Life Sciences; Business Will Be Called Cytiva",
+      "publisher": "Danaher Corporation",
+      "published_date": "2020-03-31"
+    },
+    {
+      "id": "s25",
+      "url": "https://investors.danaher.com/2019-02-25-Danaher-to-Acquire-the-Biopharma-Business-of-General-Electric-Life-Sciences-for-21-4-Billion",
+      "title": "Danaher to Acquire the Biopharma Business of General Electric Life Sciences for $21.4 Billion",
+      "publisher": "Danaher Corporation",
+      "published_date": "2019-02-25"
+    }
+  ],
+  "records": [
+    {
+      "id": "r1",
+      "existing_relationship_id": null,
+      "company_a": "Abbott",
+      "company_b": "Cardiovascular Systems, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "AbbottはCardiovascular Systems, Inc.（CSI）を買収し、末梢・冠動脈疾患向けアテレクトミー技術をAbbottの血管治療ポートフォリオへ追加した。",
+      "disclosed_on": "2023-04-27",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total expected equity value of approximately $890 million",
+          "value": "890000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": null,
+          "conditions": "2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "2023-02-08発表ではCSI株主に1株20ドル、総予想株式価値約8.9億ドル。",
+        "2023-04-27に買収完了しCSIはAbbottの完全子会社となった。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s1",
+          "locator": "本文冒頭および最終段落の買収完了・完全子会社化の記載",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed"
+          ],
+          "summary_ja": "AbbottがCSIの買収完了を発表し、CSIが完全子会社になったことを確認。"
+        },
+        {
+          "source_id": "s2",
+          "locator": "取引条件の段落",
+          "supports": [
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "1株20ドル、総予想株式価値約8.9億ドルと記載。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s1",
+          "s2"
+        ],
+        "remaining_work": "金額は一次資料で「$」表記のみ確認できたため、通貨種類は推測せずnull。完了時の調整後総取得対価は今回確認した資料では特定していない。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r2",
+      "existing_relationship_id": null,
+      "company_a": "Abbott",
+      "company_b": "Bigfoot Biomedical",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Abbottはスマートインスリン管理システムを開発するBigfoot Biomedicalを買収し、FreeStyle Libreを含む接続型・個別化糖尿病管理ソリューションを拡充した。",
+      "disclosed_on": "2023-09-22",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "explicitly_undisclosed",
+      "amounts": [],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買収完了によりBigfootはAbbottの完全子会社となった。",
+        "一次資料はFinancial terms were not disclosedと明示している。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s3",
+          "locator": "本文冒頭から第3段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amount_disclosure"
+          ],
+          "summary_ja": "買収完了、事業目的、完全子会社化、金銭条件非開示を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "explicitly_undisclosed"
+        ],
+        "checked_source_ids": [
+          "s3"
+        ],
+        "remaining_work": "一次資料が金銭条件を明示的に非開示としているため、推測しない。"
+      },
+      "unknowns": [
+        "買収対価"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r3",
+      "existing_relationship_id": null,
+      "company_a": "Abbott",
+      "company_b": "Walk Vascular, LLC",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "AbbottはWalk Vascularを買収し、末梢血栓を除去する低侵襲の機械的吸引血栓除去システムを既存の血管内治療ポートフォリオへ組み込んだ。",
+      "disclosed_on": "2021-09-02",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "explicitly_undisclosed",
+      "amounts": [],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "一次資料はFinancial terms were not disclosedと明示している。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s4",
+          "locator": "本文冒頭",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amount_disclosure"
+          ],
+          "summary_ja": "AbbottによるWalk Vascular買収、取得技術、金銭条件非開示を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "explicitly_undisclosed"
+        ],
+        "checked_source_ids": [
+          "s4"
+        ],
+        "remaining_work": "一次資料が金銭条件を明示的に非開示としているため、推測しない。"
+      },
+      "unknowns": [
+        "買収対価"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r4",
+      "existing_relationship_id": null,
+      "company_a": "Abbott",
+      "company_b": "Tandem Diabetes Care",
+      "relationship_type": "partnership",
+      "direction": "undirected",
+      "summary_ja": "AbbottとTandem Diabetes Careは、AbbottのFreeStyle Libre連続血糖測定技術とTandemのインスリン送達システムを統合する糖尿病管理ソリューションを共同開発・商用化する契約を締結した。",
+      "disclosed_on": "2020-06-29",
+      "event_type": "new_agreement",
+      "status_as_disclosed": "signed",
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "契約は機器統合の技術開発と関連する商用支援活動を対象とする。",
+        "初期の商用活動は米国・カナダを対象とし、追加地域へ拡大する可能性が示されている。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s5",
+          "locator": "見出し直下および本文第1段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "conditions"
+          ],
+          "summary_ja": "両社が統合型糖尿病ソリューションの開発・商用化契約を最終化し、技術開発と商用支援を対象とすることを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "not_found_in_reviewed_sources"
+        ],
+        "checked_source_ids": [
+          "s5"
+        ],
+        "remaining_work": "確認した一次資料には取引金額と契約満了日の記載を確認できなかった。"
+      },
+      "unknowns": [
+        "契約金額",
+        "契約期間"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r5",
+      "existing_relationship_id": null,
+      "company_a": "Pfizer Inc.",
+      "company_b": "Seagen Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "PfizerはSeagenを買収し、Seagenの抗体薬物複合体（ADC）技術・がん治療薬ポートフォリオをPfizerのオンコロジー事業へ取り込んだ。",
+      "disclosed_on": "2023-12-14",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total enterprise value of approximately $43 billion",
+          "value": "43000000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "買収完了時にPfizerが公表した総企業価値。1株229ドルの現金対価。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "全発行済普通株式を1株229ドルの現金で取得。",
+        "総企業価値は約430億ドルと公表。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s6",
+          "locator": "本文冒頭の買収完了・取引条件の段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind"
+          ],
+          "summary_ja": "買収完了、1株229ドル、総企業価値約430億ドルを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s6"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、USDを直接示す根拠を今回の確認範囲で確定していないためcurrencyはnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r6",
+      "existing_relationship_id": null,
+      "company_a": "Pfizer Inc.",
+      "company_b": "Biohaven Pharmaceutical Holding Company Ltd.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "PfizerはBiohaven Pharmaceutical Holding Companyを買収し、NURTEC ODTを含むCGRP片頭痛治療ポートフォリオを取得した。",
+      "disclosed_on": "2022-10-03",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total transaction consideration of approximately $11.6 billion",
+          "value": "11600000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買収完了によりBiohavenはPfizerの完全子会社となった。",
+        "非CGRP開発資産はNew Biohaven側へ分離されたため、取得対象を混同しない。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s7",
+          "locator": "本文冒頭および取引条件の段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "conditions"
+          ],
+          "summary_ja": "買収完了、1株148.50ドル、総取引対価約116億ドル、完全子会社化を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s7"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r7",
+      "existing_relationship_id": null,
+      "company_a": "Pfizer Inc.",
+      "company_b": "Arena Pharmaceuticals, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "PfizerはArena Pharmaceuticalsを買収し、潰瘍性大腸炎などを対象とするetrasimodを含む免疫炎症領域の開発パイプラインを取得した。",
+      "disclosed_on": "2022-03-11",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total equity value of approximately $6.7 billion",
+          "value": "6700000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "全株式・オプション・RSUを1株100ドルの現金対価で取得した際の総株式価値。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買収は合併方式で完了し、ArenaはPfizerの完全子会社となった。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s8",
+          "locator": "Additional Transaction Details",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "1株100ドル、総株式価値約67億ドルで買収完了し、完全子会社化したことを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s8"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r8",
+      "existing_relationship_id": null,
+      "company_a": "Pfizer Inc.",
+      "company_b": "Global Blood Therapeutics, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "PfizerはGlobal Blood Therapeutics（GBT）を買収し、Oxbrytaや開発中資産を含む鎌状赤血球症の治療ポートフォリオと研究開発基盤を取得した。",
+      "disclosed_on": "2022-10-05",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "estimated total enterprise value of approximately $5.4 billion, including debt and net of cash acquired",
+          "value": "5400000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買収完了後、GBTはPfizerの完全子会社となった。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s9",
+          "locator": "Additional Transaction Details",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "1株68.50ドル、負債を含み取得現金控除後の推定総企業価値約54億ドルで買収完了したことを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s9"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r9",
+      "existing_relationship_id": null,
+      "company_a": "UnitedHealth Group Incorporated",
+      "company_b": "Change Healthcare Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "UnitedHealth GroupはChange Healthcareの全発行済普通株式を取得し、医療提供者・保険者向けの臨床、管理、決済プロセスを接続・簡素化する技術と機能を取り込んだ。",
+      "disclosed_on": "2022-10-03",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "a total of $13.9 billion in cash",
+          "value": "13900000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "同社はChangeの株式取得と負債・信用枠返済資金を合わせ総額139億ドルの現金を拠出した。",
+        "買収後、予定どおりClaimsXten等のclaims editing事業を別途売却したため、その売却額は買収対価に加算しない。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s10",
+          "locator": "Note 13 Business Combinations",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "2022-10-03にChange全株式を取得し、負債等の返済を含め現金総額139億ドルを拠出したと記載。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s10"
+        ],
+        "remaining_work": "一次資料本文は「$」表記で、当該金額の通貨単位を直接たどれるXBRL unitRefを今回の確認範囲では確定していないためcurrencyはnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r10",
+      "existing_relationship_id": null,
+      "company_a": "UnitedHealth Group Incorporated",
+      "company_b": "LHC Group, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "UnitedHealth GroupはLHC Groupを買収し、在宅医療・ホスピス等の事業を傘下に取り込んだ。",
+      "disclosed_on": "2023-02-22",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "$170.00 per share",
+          "value": "170.00",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "other",
+          "scope": "bilateral",
+          "value_semantics": "unknown",
+          "contingent": false,
+          "conditions": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "合併効力発生時に対象普通株式は1株170ドルの現金受領権へ転換された。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s11",
+          "locator": "Item 2.01 Completion of Acquisition or Disposition of Assets",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "conditions"
+          ],
+          "summary_ja": "買収完了と1株170ドルの現金合併対価を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s11"
+        ],
+        "remaining_work": "確認した完了資料では取引全体の確定総額を特定せず、1株当たり対価のみ記録。$表記の通貨種類も推測しない。"
+      },
+      "unknowns": [
+        "取引総額",
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r11",
+      "existing_relationship_id": null,
+      "company_a": "UnitedHealth Group Incorporated",
+      "company_b": "Amedisys, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "UnitedHealth GroupはAmedisysを買収し、Amedisysは合併後にUnitedHealth Groupの完全子会社となった。",
+      "disclosed_on": "2025-08-14",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "$101 per share in cash",
+          "value": "101",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "qualifier": "exact",
+          "kind": "other",
+          "scope": "bilateral",
+          "value_semantics": "unknown",
+          "contingent": false,
+          "conditions": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "対象株式は原則として1株101米ドルの現金受領権へ転換。",
+        "一部株式報酬はUnitedHealth GroupのRSU等へ変換される。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s12",
+          "locator": "文書冒頭XBRL unit表示およびItem 2.01",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].currency",
+            "conditions"
+          ],
+          "summary_ja": "2025-08-14の買収完了、1株101ドルの現金対価、XBRLのiso4217:USD単位を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found",
+          "currency_resolved"
+        ],
+        "checked_source_ids": [
+          "s12"
+        ],
+        "remaining_work": "完了資料では総取引対価の数値を独自計算せず、明示された1株当たり対価のみ記録。"
+      },
+      "unknowns": [
+        "取引総額"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r12",
+      "existing_relationship_id": null,
+      "company_a": "Collaborative Care Holdings, LLC",
+      "company_b": "DaVita Medical Holdings, LLC",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Optum傘下のCollaborative Care Holdings, LLCはDaVita Medical Holdings, LLCの全持分を取得し、DaVita Medical Group事業を買収した。UnitedHealth Group Incorporatedは購入契約の特定条項について当事者として記載されている。",
+      "disclosed_on": "2019-06-19",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "aggregate purchase price of $4,340,000,000",
+          "value": "4340000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": null,
+          "conditions": "契約上の一定の通常の購入価格調整の対象。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買主はCollaborative Care Holdings, LLCで、資料上Optumの完全子会社。親会社名への置換はしていない。",
+        "UnitedHealth Group Incorporatedは購入契約のSection 9.3および9.18に限り当事者として記載。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s13",
+          "locator": "Item 2.01, paragraphs describing buyer, target and purchase price",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "2019-06-19にDaVita Medical Holdingsの全持分取得が完了し、買主が43.4億ドルの総購入価格を支払ったことを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s13"
+        ],
+        "remaining_work": "一次資料は$表記のみのためcurrencyはnull。購入価格は通常の価格調整対象であり、最終調整後額はこの資料では特定していない。"
+      },
+      "unknowns": [
+        "amounts[0].currency",
+        "最終調整後購入価格"
+      ],
+      "notes": "対象企業UnitedHealth Groupとの関連は、買主がOptum傘下であり、UnitedHealth Group Incorporatedも契約の限定条項について当事者と明記されていることによる。company_aは一次資料の直接買主名を保持。"
+    },
+    {
+      "id": "r13",
+      "existing_relationship_id": null,
+      "company_a": "Thermo Fisher Scientific Inc.",
+      "company_b": "PPD, Inc.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Thermo Fisher Scientificは臨床研究サービス大手PPDを買収し、バイオ医薬品企業向けの臨床開発・研究サービス能力を拡充した。",
+      "disclosed_on": "2021-12-08",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "$17.4 billion",
+          "value": "17400000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "買収完了発表でThermo Fisherが公表した取得額。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "買収完了をThermo Fisherが公表。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s14",
+          "locator": "本文第1段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].kind"
+          ],
+          "summary_ja": "PPD買収を174億ドルで完了したと記載。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s14"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r14",
+      "existing_relationship_id": null,
+      "company_a": "Thermo Fisher Scientific Inc.",
+      "company_b": "The Binding Site Group",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Thermo Fisher ScientificはThe Binding Site Groupを買収し、多発性骨髄腫の検出・モニタリングを含む特殊診断事業を拡充した。",
+      "disclosed_on": "2023-01-03",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "£2.3 billion",
+          "value": "2300000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "GBP",
+          "qualifier": "exact",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "全額現金取引として公表された取引価値。"
+        },
+        {
+          "original_text": "$2.8 billion at current exchange rates",
+          "value": "2800000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "other",
+          "scope": "bilateral",
+          "value_semantics": "unknown",
+          "contingent": false,
+          "conditions": "Thermo Fisher自身が同じ取引価値について当時の為替レート換算表示として併記した値。別の対価ではなく、£2.3 billionへ加算しない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "売主はNordic Capital主導の株主グループ。",
+        "ドル換算値は会社が一次資料で併記したもので、こちらで為替換算したものではない。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s15",
+          "locator": "本文第1段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].currency",
+            "amounts[1].value",
+            "conditions"
+          ],
+          "summary_ja": "全額現金取引を23億ポンド、当時レートで28億ドルと会社が併記して買収完了を発表。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found",
+          "currency_resolved"
+        ],
+        "checked_source_ids": [
+          "s15"
+        ],
+        "remaining_work": "主たる原文額の£2.3 billionはGBPとして記録。併記された$2.8 billionは通貨種類を推測せずnullで、同一対価の換算表示として非加算。"
+      },
+      "unknowns": [
+        "amounts[1].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r15",
+      "existing_relationship_id": null,
+      "company_a": "Thermo Fisher Scientific Inc.",
+      "company_b": "Olink Holding AB (publ)",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Thermo Fisher Scientificは次世代プロテオミクス企業Olinkを買収し、そのPEA技術・タンパク質解析ソリューションをLife Sciences Solutions部門へ取り込んだ。",
+      "disclosed_on": "2024-07-10",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "approximately $3.1 billion, net of $96 million of acquired cash",
+          "value": "3100000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "unknown",
+          "contingent": false,
+          "conditions": "取得現金9600万ドル控除後の取引価値。グロス取得総額として扱わない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "2024-07-10時点で公開買付条件を満たし、応募済み証券を買付受諾。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s16",
+          "locator": "本文第1段落およびFurther Transaction Details and Timing",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "conditions"
+          ],
+          "summary_ja": "Olink買収完了と、取得現金9600万ドル控除後の取引価値約31億ドルを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s16"
+        ],
+        "remaining_work": "金額は取得現金控除後であり、グロス総額へ置き換えない。$表記の通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency",
+        "グロス取得総額"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r16",
+      "existing_relationship_id": null,
+      "company_a": "Thermo Fisher Scientific Inc.",
+      "company_b": "CorEvitas, LLC",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Thermo Fisher ScientificはCorEvitasをAudax Private Equityから買収し、承認済み治療の安全性・有効性評価に使う規制グレードのリアルワールドエビデンス・レジストリ基盤を取得した。",
+      "disclosed_on": "2023-08-14",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "$912.5 million in cash",
+          "value": "912500000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "exact",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "買収完了発表に記載された現金取得額。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "売主はAudax Private Equity。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s17",
+          "locator": "本文第1段落",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "amounts[0].value",
+            "amounts[0].kind"
+          ],
+          "summary_ja": "CorEvitasを9億1250万ドルの現金で買収完了したことを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s17"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r17",
+      "existing_relationship_id": null,
+      "company_a": "Danaher Corporation",
+      "company_b": "Masimo Corporation",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "DanaherはMasimoを買収し、パルスオキシメトリ、先進センサー、AI対応患者モニタリングを診断事業へ取り込んだ。",
+      "disclosed_on": "2026-06-10",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total enterprise value of approximately $9.9 billion including assumed indebtedness and net of acquired cash",
+          "value": "9900000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "2026-06-10に買収完了し、MasimoはDanaherの完全子会社となった。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s18",
+          "locator": "本文冒頭",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed"
+          ],
+          "summary_ja": "DanaherがMasimo買収完了と完全子会社化を発表。"
+        },
+        {
+          "source_id": "s19",
+          "locator": "本文第1段落",
+          "supports": [
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind",
+            "conditions"
+          ],
+          "summary_ja": "1株180ドル、引受債務を含み取得現金控除後の総企業価値約99億ドルと記載。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s18",
+          "s19"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。完了発表では企業価値を再掲していないため、金額は同一取引の契約発表を参照。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r18",
+      "existing_relationship_id": null,
+      "company_a": "Danaher Corporation",
+      "company_b": "Abcam plc",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "Danaherは抗体・試薬・バイオマーカー・アッセイを提供するAbcamを買収し、Life Sciences部門の創薬・生命科学研究向け製品群を拡充した。",
+      "disclosed_on": "2023-12-06",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "total enterprise value of approximately $5.7 billion including assumed indebtedness and net of acquired cash",
+          "value": "5700000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株24ドルの現金対価。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "英国Companies Act 2006に基づくCourt-sanctioned scheme of arrangementで完了。",
+        "AbcamはDanaherの間接完全子会社となった。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s20",
+          "locator": "本文冒頭",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "conditions"
+          ],
+          "summary_ja": "2023-12-06に1株24ドルの現金対価で買収完了し、Abcamが間接完全子会社となったことを確認。"
+        },
+        {
+          "source_id": "s21",
+          "locator": "本文第1段落",
+          "supports": [
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind"
+          ],
+          "summary_ja": "総企業価値約57億ドル（引受債務込み・取得現金控除後）を確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s20",
+          "s21"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r19",
+      "existing_relationship_id": null,
+      "company_a": "Danaher Corporation",
+      "company_b": "Aldevron, L.L.C.",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "DanaherはAldevronを買収し、プラスミドDNA、mRNA、タンパク質の製造能力をLife Sciences部門に加え、遺伝子医療向け製品群を拡充した。",
+      "disclosed_on": "2021-08-30",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "cash purchase price of approximately $9.6 billion",
+          "value": "9600000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "契約発表時に示された現金購入価格。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "Aldevronは買収後もDanaherのLife Sciences部門で独立した事業会社・ブランドとして運営。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s22",
+          "locator": "本文冒頭",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed",
+            "conditions"
+          ],
+          "summary_ja": "2021-08-30にAldevron買収が完了したことを確認。"
+        },
+        {
+          "source_id": "s23",
+          "locator": "本文第1段落",
+          "supports": [
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind"
+          ],
+          "summary_ja": "現金購入価格約96億ドルと記載。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s22",
+          "s23"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。"
+      },
+      "unknowns": [
+        "amounts[0].currency"
+      ],
+      "notes": null
+    },
+    {
+      "id": "r20",
+      "existing_relationship_id": null,
+      "company_a": "Danaher Corporation",
+      "company_b": "Biopharma business of General Electric Life Sciences",
+      "relationship_type": "acquisition",
+      "direction": "a_to_b",
+      "summary_ja": "DanaherはGeneral ElectricのLife Sciences部門からBiopharma事業を買収し、買収後の事業をCytivaとしてLife Sciences部門で運営した。",
+      "disclosed_on": "2020-03-31",
+      "event_type": "acquisition_closed",
+      "status_as_disclosed": "completed",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "original_text": "cash purchase price of approximately $21.4 billion",
+          "value": "21400000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "purchase_price",
+          "scope": "bilateral",
+          "value_semantics": "original_total",
+          "contingent": false,
+          "conditions": "契約発表時の現金購入価格。"
+        },
+        {
+          "original_text": "net purchase price is approximately $20 billion",
+          "value": "20000000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "approximately",
+          "kind": "other",
+          "scope": "bilateral",
+          "value_semantics": "unknown",
+          "contingent": false,
+          "conditions": "取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。"
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [
+        "2020-03-31に買収完了し、事業名はCytivaとなった。",
+        "約200億ドルのネット購入価格は税務上の便益を考慮した別表現であり、別の支払額として加算しない。"
+      ],
+      "evidence": [
+        {
+          "source_id": "s24",
+          "locator": "本文冒頭",
+          "supports": [
+            "company_a",
+            "company_b",
+            "summary_ja",
+            "disclosed_on",
+            "event_type",
+            "status_as_disclosed"
+          ],
+          "summary_ja": "GE Life SciencesのBiopharma事業買収完了とCytivaへの改称を確認。"
+        },
+        {
+          "source_id": "s25",
+          "locator": "本文第1段落",
+          "supports": [
+            "amounts[0].value",
+            "amounts[0].qualifier",
+            "amounts[0].kind",
+            "amounts[1].value",
+            "conditions"
+          ],
+          "summary_ja": "現金購入価格約214億ドル、見込み税務便益考慮後のネット購入価格約200億ドルを確認。"
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [
+          "amount_found"
+        ],
+        "checked_source_ids": [
+          "s24",
+          "s25"
+        ],
+        "remaining_work": "一次資料の金額表記は「$」で、通貨種類は推測せずnull。2つの金額は同一取引の異なる意味であり合算しない。"
+      },
+      "unknowns": [
+        "amounts[0].currency",
+        "amounts[1].currency"
+      ],
+      "notes": null
+    }
+  ],
+  "coverage": [
+    {
+      "target_company": "Abbott Laboratories (ABT)",
+      "searched_source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "remaining_work": "主要な買収3件と共同開発契約1件を一次資料で確認。その他の取引関係は未網羅。"
+    },
+    {
+      "target_company": "Pfizer (PFE)",
+      "searched_source_ids": [
+        "s6",
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "remaining_work": "大型買収4件を一次資料で確認。その他の買収・提携・供給契約は未網羅。"
+    },
+    {
+      "target_company": "UnitedHealth Group (UNH)",
+      "searched_source_ids": [
+        "s10",
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "remaining_work": "主要買収3件とOptum傘下買主によるDaVita Medical Group買収1件を確認。その他のOptum/UnitedHealthcare子会社取引は未網羅。"
+    },
+    {
+      "target_company": "Thermo Fisher Scientific (TMO)",
+      "searched_source_ids": [
+        "s14",
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "remaining_work": "大型買収4件を一次資料で確認。その他の買収・供給・共同開発案件は未網羅。"
+    },
+    {
+      "target_company": "Danaher (DHR)",
+      "searched_source_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25"
+      ],
+      "remaining_work": "大型買収4件を完了発表と契約発表で確認。その他の買収・提携・供給契約は未網羅。"
+    },
+    {
+      "target_company": "Exxon Mobil (XOM)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Chevron (CVX)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "ConocoPhillips (COP)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "NextEra Energy (NEE)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "GE Vernova (GEV)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Caterpillar (CAT)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Deere (DE)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Boeing (BA)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "RTX (RTX)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Lockheed Martin (LMT)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Netflix (NFLX)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Walt Disney (DIS)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Coca-Cola (KO)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "PepsiCo (PEP)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Procter & Gamble (PG)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Home Depot (HD)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "McDonald’s (MCD)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "Verizon (VZ)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "AT&T (T)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    },
+    {
+      "target_company": "T-Mobile US (TMUS)",
+      "searched_source_ids": [],
+      "remaining_work": "未調査。次回以降に一次資料を確認する。関係が存在しないことを意味しない。"
+    }
+  ]
+}

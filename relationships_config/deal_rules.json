@@ -2193,6 +2193,627 @@
         ],
         "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm"
       }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-abt",
+        "country": null,
+        "display_name": "Abbott",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2023-04-27",
+        "listing_status_source": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+            "symbol": "ABT",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Abbott",
+        "block_hash": "67ccb449fbaadce91a44171f03c718ed3326f7797a56e02daf428c9c51862588",
+        "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+        "locator": "p:21",
+        "source_id": "source-de2d8376ce4b5346e45caf42",
+        "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc"
+      },
+      "listing_proof": {
+        "anchor": "ABT",
+        "block_hash": "67ccb449fbaadce91a44171f03c718ed3326f7797a56e02daf428c9c51862588",
+        "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+        "locator": "p:21",
+        "source_id": "source-de2d8376ce4b5346e45caf42",
+        "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-csi",
+        "country": null,
+        "display_name": "Cardiovascular Systems, Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Cardiovascular Systems, Inc.",
+        "block_hash": "67ccb449fbaadce91a44171f03c718ed3326f7797a56e02daf428c9c51862588",
+        "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+        "locator": "p:21",
+        "source_id": "source-de2d8376ce4b5346e45caf42",
+        "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-bigfoot",
+        "country": null,
+        "display_name": "Bigfoot Biomedical",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Bigfoot Biomedical",
+        "block_hash": "65cb9c298dce08c5dbc0b299d5f8951fb0287a22a39d48b185fc4dd7e483b02f",
+        "content_hash": "9f06c721d56643eeb537ceb84fc0e39f3b066d21fbe2377bb914076bb58ff2b8",
+        "locator": "p:21",
+        "source_id": "source-e6ca0dfb1d34160678f962cc",
+        "url": "https://abbott.mediaroom.com/2023-09-22-Abbott-Completes-Acquisition-of-Bigfoot-Biomedical"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-walk-vascular",
+        "country": null,
+        "display_name": "Walk Vascular, LLC",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Walk Vascular, LLC",
+        "block_hash": "43339857b777fcd656598e5fa9df5aba57f18c9c3b0c1320278e016d02b2abe5",
+        "content_hash": "178b938694c62ad3bc175c7fc28e6e42670a6aae7d53d4860902607343701cea",
+        "locator": "p:21",
+        "source_id": "source-babd0cc235d57a864e61e971",
+        "url": "https://abbott.mediaroom.com/2021-09-02-Abbott-Expands-Peripheral-Vascular-Offerings-with-Acquisition-of-Walk-Vascular,-LLC"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-tndm",
+        "country": null,
+        "display_name": "Tandem Diabetes Care",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2020-06-29",
+        "listing_status_source": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+        "listings": [
+          {
+            "exchange": "NASDAQ",
+            "source_url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+            "symbol": "TNDM",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Tandem Diabetes Care",
+        "block_hash": "b0ca66af06ae7f5106ddd5bb948e35b60d951a6ef03df6ddc88d0d479fbb9996",
+        "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
+        "locator": "p:21",
+        "source_id": "source-a62874692f581e27febc7e5e",
+        "url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems"
+      },
+      "listing_proof": {
+        "anchor": "TNDM",
+        "block_hash": "b0ca66af06ae7f5106ddd5bb948e35b60d951a6ef03df6ddc88d0d479fbb9996",
+        "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
+        "locator": "p:21",
+        "source_id": "source-a62874692f581e27febc7e5e",
+        "url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-pfe",
+        "country": null,
+        "display_name": "Pfizer Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2023-12-14",
+        "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+            "symbol": "PFE",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Pfizer Inc.",
+        "block_hash": "cc73916dd727317b8da60c9c55a189a5bbfcdc330d1069a8758aadefd1ce71c9",
+        "content_hash": "f460793b26a82071df28e27c6fd8e7b33f72b933b06dee95333254db15b0dccc",
+        "locator": "p:6",
+        "source_id": "source-3e472d3f33227689100f98c2",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen"
+      },
+      "listing_proof": {
+        "anchor": "PFE",
+        "block_hash": "cc73916dd727317b8da60c9c55a189a5bbfcdc330d1069a8758aadefd1ce71c9",
+        "content_hash": "f460793b26a82071df28e27c6fd8e7b33f72b933b06dee95333254db15b0dccc",
+        "locator": "p:6",
+        "source_id": "source-3e472d3f33227689100f98c2",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-seagen",
+        "country": null,
+        "display_name": "Seagen Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Seagen Inc.",
+        "block_hash": "cc73916dd727317b8da60c9c55a189a5bbfcdc330d1069a8758aadefd1ce71c9",
+        "content_hash": "f460793b26a82071df28e27c6fd8e7b33f72b933b06dee95333254db15b0dccc",
+        "locator": "p:6",
+        "source_id": "source-3e472d3f33227689100f98c2",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-biohaven-acquired",
+        "country": null,
+        "display_name": "Biohaven Pharmaceutical Holding Company Ltd.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Biohaven Pharmaceutical Holding Company Ltd.",
+        "block_hash": "4c83beb8dbd398063b9ccbb489811ce3b7601e5dfc9eb5338d797ebaa29e4b0e",
+        "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+        "locator": "p:6",
+        "source_id": "source-5f7108272c4c34cddd296780",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-arena",
+        "country": null,
+        "display_name": "Arena Pharmaceuticals",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Arena Pharmaceuticals",
+        "block_hash": "7b867a43a86b2f39d00dcf505b28c77554e23819615c3223780e84144ced0eff",
+        "content_hash": "f5deb51dcd738a2aad750a30ed84e7d45f370fe21ae59477942a261980347149",
+        "locator": "p:6",
+        "source_id": "source-a720142e1edd9be0eb831174",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-arena-pharmaceuticals"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-gbt",
+        "country": null,
+        "display_name": "Global Blood Therapeutics, Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Global Blood Therapeutics, Inc.",
+        "block_hash": "882b1333aaa95c6966a688305ca2bef1a1729eb9a3b5fa705b8b34d3ddb35d12",
+        "content_hash": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5",
+        "locator": "p:5",
+        "source_id": "source-985c91384090103a85a0ed02",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-unh",
+        "country": null,
+        "display_name": "UnitedHealth Group Incorporated",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2023-02-24",
+        "listing_status_source": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+            "symbol": "UNH",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "UnitedHealth Group Incorporated",
+        "block_hash": "8c65781934dcc6993668d2dc1a8c82acc00c8b5951b2afdadd97c73b6b1cebcf",
+        "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+        "locator": "p:38",
+        "source_id": "source-736ee4eff3f0cdf493c72123",
+        "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm"
+      },
+      "listing_proof": {
+        "anchor": "UNH",
+        "block_hash": "2abb0b7bcdea68321f25b41c3343c7bca6daf675f8b808a1184c19ee55b0c219",
+        "content_hash": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35",
+        "locator": "sec-div:444",
+        "source_id": "source-69c773dcb84d55d4042f2798",
+        "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-change-healthcare",
+        "country": null,
+        "display_name": "Change Healthcare Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Change Healthcare Inc.",
+        "block_hash": "666928d895491a161226524f511bab08d4d9e3b4a17133721b8ab9111de4e098",
+        "content_hash": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35",
+        "locator": "sec-div:1250",
+        "source_id": "source-69c773dcb84d55d4042f2798",
+        "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-lhc",
+        "country": null,
+        "display_name": "LHC Group, Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "LHC Group, Inc.",
+        "block_hash": "8c65781934dcc6993668d2dc1a8c82acc00c8b5951b2afdadd97c73b6b1cebcf",
+        "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+        "locator": "p:38",
+        "source_id": "source-736ee4eff3f0cdf493c72123",
+        "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-amedisys",
+        "country": null,
+        "display_name": "Amedisys, Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Amedisys, Inc.",
+        "block_hash": "07803a710797a7e80dc5d9ab38c6c30902bdb4c21581db6441601b57fff391fa",
+        "content_hash": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099",
+        "locator": "p:29",
+        "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+        "url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-collaborative-care",
+        "country": null,
+        "display_name": "Collaborative Care Holdings, LLC",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Collaborative Care Holdings, LLC",
+        "block_hash": "46a52d0df8cdace84a946e16c19e0646eb0d60545c9b506e7288830252bdd9f3",
+        "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+        "locator": "sec-div:75",
+        "source_id": "source-a2f26d63620ff3373f6d3981",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-davita-medical",
+        "country": null,
+        "display_name": "DaVita Medical Holdings, LLC",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "DaVita Medical Holdings, LLC",
+        "block_hash": "46a52d0df8cdace84a946e16c19e0646eb0d60545c9b506e7288830252bdd9f3",
+        "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+        "locator": "sec-div:75",
+        "source_id": "source-a2f26d63620ff3373f6d3981",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-dhr",
+        "country": null,
+        "display_name": "Danaher Corporation",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2026-06-10",
+        "listing_status_source": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+            "symbol": "DHR",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Danaher Corporation",
+        "block_hash": "f1f1ba209497322df408bf580e13903d7edb69129d6f81b86a698659366b1f6c",
+        "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+        "locator": "p:6",
+        "source_id": "source-048157a1052c95d63011fbcf",
+        "url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation"
+      },
+      "listing_proof": {
+        "anchor": "DHR",
+        "block_hash": "f1f1ba209497322df408bf580e13903d7edb69129d6f81b86a698659366b1f6c",
+        "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+        "locator": "p:6",
+        "source_id": "source-048157a1052c95d63011fbcf",
+        "url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-masimo",
+        "country": null,
+        "display_name": "Masimo Corporation",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Masimo Corporation",
+        "block_hash": "f1f1ba209497322df408bf580e13903d7edb69129d6f81b86a698659366b1f6c",
+        "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+        "locator": "p:6",
+        "source_id": "source-048157a1052c95d63011fbcf",
+        "url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-abcam",
+        "country": null,
+        "display_name": "Abcam plc",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Abcam plc",
+        "block_hash": "03c4f4c6766f0531d8d54c4b1a1ed5e9006ff4ad2d77d80ccdb5ce85d7aa48a1",
+        "content_hash": "f670dd0983f1dd887c2a43c2eb4d359c203ca43804132dc707845f04b01b92de",
+        "locator": "p:6",
+        "source_id": "source-1c207d93a1582d5ee3de7b75",
+        "url": "https://investors.danaher.com/2023-12-06-Danaher-Completes-Acquisition-of-Abcam"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-aldevron",
+        "country": null,
+        "display_name": "Aldevron",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Aldevron",
+        "block_hash": "ea7289bfee7b5b57cfb6ec3f2500e28b43394fa1a35131fdd78ce5ece24b6bed",
+        "content_hash": "3034ce38112c86d76d6b3720ac24740a467761436ea68b3caa9ada21390ffef0",
+        "locator": "p:6",
+        "source_id": "source-131039e01e81a4b0c310ee48",
+        "url": "https://investors.danaher.com/2021-08-30-Danaher-Completes-Acquisition-of-Aldevron"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-ge",
+        "country": null,
+        "display_name": "General Electric Company",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2020-03-31",
+        "listing_status_source": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+            "symbol": "GE",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "General Electric Company",
+        "block_hash": "e73d8c2afd7e51f0bd7453c4a8dd8d553f145f02aa529284540f70c0ecd7b090",
+        "content_hash": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+        "locator": "p:6",
+        "source_id": "source-1103bb84dc36b92cb2910635",
+        "url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva"
+      },
+      "listing_proof": {
+        "anchor": "GE",
+        "block_hash": "e73d8c2afd7e51f0bd7453c4a8dd8d553f145f02aa529284540f70c0ecd7b090",
+        "content_hash": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+        "locator": "p:6",
+        "source_id": "source-1103bb84dc36b92cb2910635",
+        "url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva"
+      }
     }
   ],
   "rules": [
@@ -10462,6 +11083,1363 @@
       },
       "rule_id": "largecap-20260926-amazon-anthropic-2024-correction",
       "visible_date": "2025-02-07"
+    },
+    {
+      "assertions_hash": "6444e84250a423b44f5f9929103dea8b8a1610753e85612addbc5feac6f92a02",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。",
+                "contingent": null,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$890 million",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-abt"
+                ],
+                "qualifier": "approximately",
+                "scope": "2023-02-08の契約発表時点の金額。2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。 完了時点の調整後対価は未確認。",
+                "value": "890000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$890 million",
+              "proof": {
+                "anchor": "$890 million",
+                "block_hash": "1f69edafa9e2810ee2948adf1fd755c7a5ad291a1d14088b656d65aecb568c01",
+                "content_hash": "90fad6ba37e32b494e68d49ab72ac3622dd8f51f1fefae78b8bdd7d47bc4b730",
+                "locator": "p:23",
+                "source_id": "source-b7fb44f8e84f8b8b2cff5ece",
+                "url": "https://abbott.mediaroom.com/2023-02-08-Abbott-to-Acquire-Cardiovascular-Systems,-Inc"
+              }
+            }
+          ],
+          "block_hash": "67ccb449fbaadce91a44171f03c718ed3326f7797a56e02daf428c9c51862588",
+          "business": {
+            "geography": "",
+            "headline": "血管治療用アテレクトミー技術の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "2023-02-08発表ではCSI株主に1株20ドル、総予想株式価値約8.9億ドル。 2023-04-27に買収完了しCSIはAbbottの完全子会社となった。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+          "context": [
+            {
+              "anchor": "wholly owned",
+              "block_hash": "eb7946371b610897663dc7964715eb7c2751bc3d49ba3182e09e0c07a4dcd765",
+              "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+              "locator": "p:24",
+              "source_id": "source-de2d8376ce4b5346e45caf42",
+              "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc"
+            },
+            {
+              "anchor": "$890 million",
+              "block_hash": "1f69edafa9e2810ee2948adf1fd755c7a5ad291a1d14088b656d65aecb568c01",
+              "content_hash": "90fad6ba37e32b494e68d49ab72ac3622dd8f51f1fefae78b8bdd7d47bc4b730",
+              "locator": "p:23",
+              "source_id": "source-b7fb44f8e84f8b8b2cff5ece",
+              "url": "https://abbott.mediaroom.com/2023-02-08-Abbott-to-Acquire-Cardiovascular-Systems,-Inc"
+            }
+          ],
+          "description": "AbbottはCardiovascular Systems, Inc.（CSI）を買収し、末梢・冠動脈疾患向けアテレクトミー技術をAbbottの血管治療ポートフォリオへ追加した。",
+          "direction": "directed",
+          "effective_date": "2023-04-27",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r1",
+          "locator": "p:21",
+          "parties": {
+            "co-abt": "Abbott",
+            "co-csi": "Cardiovascular Systems, Inc."
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-abt",
+          "status": "completed",
+          "status_as_of": "2023-04-27",
+          "target_company_id": "co-csi"
+        }
+      ],
+      "date": "2023-04-27",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "67ccb449fbaadce91a44171f03c718ed3326f7797a56e02daf428c9c51862588",
+        "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+        "locator": "p:21",
+        "source_id": "source-de2d8376ce4b5346e45caf42",
+        "url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc"
+      },
+      "rule_id": "healthcare-02-20260926-r1",
+      "visible_date": "2023-04-27"
+    },
+    {
+      "assertions_hash": "5ea8cb758e5dc07ab76d750210d51313a15e959f8bbd3dbc081821eb3d27c1e4",
+      "claims": [
+        {
+          "amount_disclosure": "explicitly_undisclosed",
+          "amounts": [],
+          "block_hash": "65cb9c298dce08c5dbc0b299d5f8951fb0287a22a39d48b185fc4dd7e483b02f",
+          "business": {
+            "geography": "",
+            "headline": "スマートインスリン管理事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "買収完了によりBigfootはAbbottの完全子会社となった。 一次資料はFinancial terms were not disclosedと明示している。",
+          "context": [
+            {
+              "anchor": "Financial terms were not disclosed",
+              "block_hash": "4c06e2221ce4385a7482e18d2060962ab88ad35cfe830f1f1642c84274d56537",
+              "content_hash": "9f06c721d56643eeb537ceb84fc0e39f3b066d21fbe2377bb914076bb58ff2b8",
+              "locator": "p:23",
+              "source_id": "source-e6ca0dfb1d34160678f962cc",
+              "url": "https://abbott.mediaroom.com/2023-09-22-Abbott-Completes-Acquisition-of-Bigfoot-Biomedical"
+            }
+          ],
+          "description": "Abbottはスマートインスリン管理システムを開発するBigfoot Biomedicalを買収し、FreeStyle Libreを含む接続型・個別化糖尿病管理ソリューションを拡充した。",
+          "direction": "directed",
+          "effective_date": "2023-09-22",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r2",
+          "locator": "p:21",
+          "parties": {
+            "co-abt": "Abbott",
+            "co-bigfoot": "Bigfoot Biomedical"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-abt",
+          "status": "completed",
+          "status_as_of": "2023-09-22",
+          "target_company_id": "co-bigfoot"
+        }
+      ],
+      "date": "2023-09-22",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "65cb9c298dce08c5dbc0b299d5f8951fb0287a22a39d48b185fc4dd7e483b02f",
+        "content_hash": "9f06c721d56643eeb537ceb84fc0e39f3b066d21fbe2377bb914076bb58ff2b8",
+        "locator": "p:21",
+        "source_id": "source-e6ca0dfb1d34160678f962cc",
+        "url": "https://abbott.mediaroom.com/2023-09-22-Abbott-Completes-Acquisition-of-Bigfoot-Biomedical"
+      },
+      "rule_id": "healthcare-02-20260926-r2",
+      "visible_date": "2023-09-22"
+    },
+    {
+      "assertions_hash": "3bcf8226ab1012d998a6e299a9ae2f8ba9e0dc64acdb3ad566c37e4ca256133b",
+      "claims": [
+        {
+          "amount_disclosure": "explicitly_undisclosed",
+          "amounts": [],
+          "block_hash": "43339857b777fcd656598e5fa9df5aba57f18c9c3b0c1320278e016d02b2abe5",
+          "business": {
+            "geography": "",
+            "headline": "末梢血栓除去システムの買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "一次資料はFinancial terms were not disclosedと明示している。",
+          "context": [],
+          "description": "AbbottはWalk Vascularを買収し、末梢血栓を除去する低侵襲の機械的吸引血栓除去システムを既存の血管内治療ポートフォリオへ組み込んだ。",
+          "direction": "directed",
+          "effective_date": "2021-09-02",
+          "event_type": "newly_indexed",
+          "excerpt": "acquired",
+          "key": "r3",
+          "locator": "p:21",
+          "parties": {
+            "co-abt": "Abbott",
+            "co-walk-vascular": "Walk Vascular, LLC"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-abt",
+          "status": "completed",
+          "status_as_of": "2021-09-02",
+          "target_company_id": "co-walk-vascular"
+        }
+      ],
+      "date": "2021-09-02",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquired",
+        "block_hash": "43339857b777fcd656598e5fa9df5aba57f18c9c3b0c1320278e016d02b2abe5",
+        "content_hash": "178b938694c62ad3bc175c7fc28e6e42670a6aae7d53d4860902607343701cea",
+        "locator": "p:21",
+        "source_id": "source-babd0cc235d57a864e61e971",
+        "url": "https://abbott.mediaroom.com/2021-09-02-Abbott-Expands-Peripheral-Vascular-Offerings-with-Acquisition-of-Walk-Vascular,-LLC"
+      },
+      "rule_id": "healthcare-02-20260926-r3",
+      "visible_date": "2021-09-02"
+    },
+    {
+      "assertions_hash": "712b8140cc269a9ea6b5a483f788220634fa1ed9365c6f7aaea63b4211897753",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "b0ca66af06ae7f5106ddd5bb948e35b60d951a6ef03df6ddc88d0d479fbb9996",
+          "business": {
+            "geography": "",
+            "headline": "血糖測定とインスリン送達の統合開発",
+            "products": [],
+            "scale": "",
+            "source_role": "共同開発者",
+            "target_role": "共同開発者"
+          },
+          "conditions": "契約は機器統合の技術開発と関連する商用支援活動を対象とする。 初期の商用活動は米国・カナダを対象とし、追加地域へ拡大する可能性が示されている。",
+          "context": [
+            {
+              "anchor": "Abbott",
+              "block_hash": "a2999da3e272af53a5f04dfc0b78661be8d9e40c529c68e11fd0c22aa02c18a7",
+              "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
+              "locator": "p:22",
+              "source_id": "source-a62874692f581e27febc7e5e",
+              "url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems"
+            }
+          ],
+          "description": "AbbottとTandem Diabetes Careは、AbbottのFreeStyle Libre連続血糖測定技術とTandemのインスリン送達システムを統合する糖尿病管理ソリューションを共同開発・商用化する契約を締結した。",
+          "direction": "undirected",
+          "effective_date": null,
+          "event_type": "newly_indexed",
+          "excerpt": "agreement",
+          "key": "r4",
+          "locator": "p:21",
+          "parties": {
+            "co-abt": "Abbott",
+            "co-tndm": "Tandem Diabetes Care"
+          },
+          "relationship_type": "partnership",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-abt",
+          "status": "signed",
+          "status_as_of": "2020-06-29",
+          "target_company_id": "co-tndm"
+        }
+      ],
+      "date": "2020-06-29",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "agreement",
+        "block_hash": "b0ca66af06ae7f5106ddd5bb948e35b60d951a6ef03df6ddc88d0d479fbb9996",
+        "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
+        "locator": "p:21",
+        "source_id": "source-a62874692f581e27febc7e5e",
+        "url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems"
+      },
+      "rule_id": "healthcare-02-20260926-r4",
+      "visible_date": "2020-06-29"
+    },
+    {
+      "assertions_hash": "24d9ec65d0595f0fbc29a9ddd457ee202a7f9054a064c5387b7034b8a83885c5",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "買収完了時にPfizerが公表した総企業価値。1株229ドルの現金対価。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$43 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-pfe"
+                ],
+                "qualifier": "approximately",
+                "scope": "買収完了時にPfizerが公表した総企業価値。1株229ドルの現金対価。",
+                "value": "43000000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$43 billion"
+            }
+          ],
+          "block_hash": "cc73916dd727317b8da60c9c55a189a5bbfcdc330d1069a8758aadefd1ce71c9",
+          "business": {
+            "geography": "",
+            "headline": "抗体薬物複合体・がん治療薬事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "全発行済普通株式を1株229ドルの現金で取得。 総企業価値は約430億ドルと公表。",
+          "context": [],
+          "description": "PfizerはSeagenを買収し、Seagenの抗体薬物複合体（ADC）技術・がん治療薬ポートフォリオをPfizerのオンコロジー事業へ取り込んだ。",
+          "direction": "directed",
+          "effective_date": "2023-12-14",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r5",
+          "locator": "p:6",
+          "parties": {
+            "co-pfe": "Pfizer Inc.",
+            "co-seagen": "Seagen Inc."
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-pfe",
+          "status": "completed",
+          "status_as_of": "2023-12-14",
+          "target_company_id": "co-seagen"
+        }
+      ],
+      "date": "2023-12-14",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "cc73916dd727317b8da60c9c55a189a5bbfcdc330d1069a8758aadefd1ce71c9",
+        "content_hash": "f460793b26a82071df28e27c6fd8e7b33f72b933b06dee95333254db15b0dccc",
+        "locator": "p:6",
+        "source_id": "source-3e472d3f33227689100f98c2",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen"
+      },
+      "rule_id": "healthcare-02-20260926-r5",
+      "visible_date": "2023-12-14"
+    },
+    {
+      "assertions_hash": "616237e9a657f3742d35de0d0af1d2d6083ed283eb904444bbe3c1b14e9f4ebb",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$11.6 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-pfe"
+                ],
+                "qualifier": "approximately",
+                "scope": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+                "value": "11600000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$11.6 billion",
+              "proof": {
+                "anchor": "$11.6 billion",
+                "block_hash": "9412aca9624bc569f1be2967c205df622a82400efe19aade99e8f3459e245f96",
+                "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+                "locator": "p:15",
+                "source_id": "source-5f7108272c4c34cddd296780",
+                "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals"
+              }
+            }
+          ],
+          "block_hash": "4c83beb8dbd398063b9ccbb489811ce3b7601e5dfc9eb5338d797ebaa29e4b0e",
+          "business": {
+            "geography": "",
+            "headline": "片頭痛治療薬・CGRP事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "買収完了によりBiohavenはPfizerの完全子会社となった。 非CGRP開発資産はNew Biohaven側へ分離されたため、取得対象を混同しない。 非CGRP資産を保有する分離後のBiohaven Ltd.（BHVN）とは区別する。",
+          "context": [
+            {
+              "anchor": "spin-off",
+              "block_hash": "9c6f2039e82d40eac33190117f786523a4cc15728e7cdc2cd92e2268f8d0b775",
+              "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+              "locator": "p:16",
+              "source_id": "source-5f7108272c4c34cddd296780",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals"
+            },
+            {
+              "anchor": "$11.6 billion",
+              "block_hash": "9412aca9624bc569f1be2967c205df622a82400efe19aade99e8f3459e245f96",
+              "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+              "locator": "p:15",
+              "source_id": "source-5f7108272c4c34cddd296780",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals"
+            }
+          ],
+          "description": "PfizerはBiohaven Pharmaceutical Holding Companyを買収し、NURTEC ODTを含むCGRP片頭痛治療ポートフォリオを取得した。",
+          "direction": "directed",
+          "effective_date": "2022-10-03",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r6",
+          "locator": "p:6",
+          "parties": {
+            "co-biohaven-acquired": "Biohaven Pharmaceutical Holding Company Ltd.",
+            "co-pfe": "Pfizer Inc."
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-pfe",
+          "status": "completed",
+          "status_as_of": "2022-10-03",
+          "target_company_id": "co-biohaven-acquired"
+        }
+      ],
+      "date": "2022-10-03",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "4c83beb8dbd398063b9ccbb489811ce3b7601e5dfc9eb5338d797ebaa29e4b0e",
+        "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+        "locator": "p:6",
+        "source_id": "source-5f7108272c4c34cddd296780",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals"
+      },
+      "rule_id": "healthcare-02-20260926-r6",
+      "visible_date": "2022-10-03"
+    },
+    {
+      "assertions_hash": "9740518d168e2d7336aa0ae66ea81cc6c2957615b03afdb423bb358dda054ce1",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "全株式・オプション・RSUを1株100ドルの現金対価で取得した際の総株式価値。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$6.7 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-pfe"
+                ],
+                "qualifier": "approximately",
+                "scope": "全株式・オプション・RSUを1株100ドルの現金対価で取得した際の総株式価値。",
+                "value": "6700000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$6.7 billion",
+              "proof": {
+                "anchor": "$6.7 billion",
+                "block_hash": "2f591ef011b6ea95540c4d5578fbffbf9aa3320b111e986bb58fc02c034dd41a",
+                "content_hash": "f5deb51dcd738a2aad750a30ed84e7d45f370fe21ae59477942a261980347149",
+                "locator": "p:12",
+                "source_id": "source-a720142e1edd9be0eb831174",
+                "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-arena-pharmaceuticals"
+              }
+            }
+          ],
+          "block_hash": "7b867a43a86b2f39d00dcf505b28c77554e23819615c3223780e84144ced0eff",
+          "business": {
+            "geography": "",
+            "headline": "免疫炎症疾患向け開発薬の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "買収は合併方式で完了し、ArenaはPfizerの完全子会社となった。",
+          "context": [
+            {
+              "anchor": "$6.7 billion",
+              "block_hash": "2f591ef011b6ea95540c4d5578fbffbf9aa3320b111e986bb58fc02c034dd41a",
+              "content_hash": "f5deb51dcd738a2aad750a30ed84e7d45f370fe21ae59477942a261980347149",
+              "locator": "p:12",
+              "source_id": "source-a720142e1edd9be0eb831174",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-arena-pharmaceuticals"
+            }
+          ],
+          "description": "PfizerはArena Pharmaceuticalsを買収し、潰瘍性大腸炎などを対象とするetrasimodを含む免疫炎症領域の開発パイプラインを取得した。",
+          "direction": "directed",
+          "effective_date": "2022-03-11",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r7",
+          "locator": "p:6",
+          "parties": {
+            "co-arena": "Arena Pharmaceuticals",
+            "co-pfe": "Pfizer Inc."
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-pfe",
+          "status": "completed",
+          "status_as_of": "2022-03-11",
+          "target_company_id": "co-arena"
+        }
+      ],
+      "date": "2022-03-11",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "7b867a43a86b2f39d00dcf505b28c77554e23819615c3223780e84144ced0eff",
+        "content_hash": "f5deb51dcd738a2aad750a30ed84e7d45f370fe21ae59477942a261980347149",
+        "locator": "p:6",
+        "source_id": "source-a720142e1edd9be0eb831174",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-arena-pharmaceuticals"
+      },
+      "rule_id": "healthcare-02-20260926-r7",
+      "visible_date": "2022-03-11"
+    },
+    {
+      "assertions_hash": "6992daa1f1be90481a9e7509e39c65164c065fb484134cddbd8ddb803bfe50db",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$5.4 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-pfe"
+                ],
+                "qualifier": "approximately",
+                "scope": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+                "value": "5400000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$5.4 billion",
+              "proof": {
+                "anchor": "$5.4 billion",
+                "block_hash": "d2131d2be423a071c821bd895fc095c9e6f5c26be0ebecd952ce9ee6f87ceb33",
+                "content_hash": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5",
+                "locator": "p:10",
+                "source_id": "source-985c91384090103a85a0ed02",
+                "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics"
+              }
+            }
+          ],
+          "block_hash": "882b1333aaa95c6966a688305ca2bef1a1729eb9a3b5fa705b8b34d3ddb35d12",
+          "business": {
+            "geography": "",
+            "headline": "鎌状赤血球症治療薬事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "買収完了後、GBTはPfizerの完全子会社となった。",
+          "context": [
+            {
+              "anchor": "$5.4 billion",
+              "block_hash": "d2131d2be423a071c821bd895fc095c9e6f5c26be0ebecd952ce9ee6f87ceb33",
+              "content_hash": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5",
+              "locator": "p:10",
+              "source_id": "source-985c91384090103a85a0ed02",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics"
+            }
+          ],
+          "description": "PfizerはGlobal Blood Therapeutics（GBT）を買収し、Oxbrytaや開発中資産を含む鎌状赤血球症の治療ポートフォリオと研究開発基盤を取得した。",
+          "direction": "directed",
+          "effective_date": "2022-10-05",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r8",
+          "locator": "p:5",
+          "parties": {
+            "co-gbt": "Global Blood Therapeutics, Inc.",
+            "co-pfe": "Pfizer Inc."
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-pfe",
+          "status": "completed",
+          "status_as_of": "2022-10-05",
+          "target_company_id": "co-gbt"
+        }
+      ],
+      "date": "2022-10-05",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "882b1333aaa95c6966a688305ca2bef1a1729eb9a3b5fa705b8b34d3ddb35d12",
+        "content_hash": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5",
+        "locator": "p:5",
+        "source_id": "source-985c91384090103a85a0ed02",
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics"
+      },
+      "rule_id": "healthcare-02-20260926-r8",
+      "visible_date": "2022-10-05"
+    },
+    {
+      "assertions_hash": "c574c9be2c713882929c25f81777da3f205578189f6a2c6d524f4fc054974dc5",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+                "contingent": false,
+                "currency": "USD",
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$ 13.9 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-unh"
+                ],
+                "qualifier": "exact",
+                "scope": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+                "value": "13900000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$ 13.9 billion",
+              "xbrl": {
+                "fact_id": "id3VybDovL2RvY3MudjEvZG9jOjZiNjYwOTQ3ZmFiNzQ4OGNiNGQzM2JhY2EyY2IzYTM3L3NlYzo2YjY2MDk0N2ZhYjc0ODhjYjRkMzNiYWNhMmNiM2EzN18yNjk5L2ZyYWc6ODU0ZjRiMGU0ZjkwNGM4YWIxYWI4MzE1NTVlYTdjZGUvdGV4dHJlZ2lvbjo4NTRmNGIwZTRmOTA0YzhhYjFhYjgzMTU1NWVhN2NkZV8zMjk4NTM0ODg5MTU3_bd79a0ba-5007-42db-b176-a56882e5baa7",
+                "value": "13900000000"
+              }
+            }
+          ],
+          "block_hash": "666928d895491a161226524f511bab08d4d9e3b4a17133721b8ab9111de4e098",
+          "business": {
+            "geography": "",
+            "headline": "医療業務・決済技術事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "同社はChangeの株式取得と負債・信用枠返済資金を合わせ総額139億ドルの現金を拠出した。 買収後、予定どおりClaimsXten等のclaims editing事業を別途売却したため、その売却額は買収対価に加算しない。",
+          "context": [
+            {
+              "anchor": "UNITEDHEALTH GROUP INCORPORATED",
+              "block_hash": "2fc759106a6e45e16e7dfdd7c0e270edbf8d048200cadf8221e75b89bc71a0ee",
+              "content_hash": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35",
+              "locator": "tr:958",
+              "source_id": "source-69c773dcb84d55d4042f2798",
+              "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm"
+            }
+          ],
+          "description": "UnitedHealth GroupはChange Healthcareの全発行済普通株式を取得し、医療提供者・保険者向けの臨床、管理、決済プロセスを接続・簡素化する技術と機能を取り込んだ。",
+          "direction": "directed",
+          "effective_date": "2022-10-03",
+          "event_type": "newly_indexed",
+          "excerpt": "acquired",
+          "key": "r9",
+          "locator": "sec-div:1250",
+          "parties": {
+            "co-change-healthcare": "Change Healthcare Inc.",
+            "co-unh": "UNITEDHEALTH GROUP INCORPORATED"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-unh",
+          "status": "completed",
+          "status_as_of": "2022-10-03",
+          "target_company_id": "co-change-healthcare"
+        }
+      ],
+      "date": "2023-02-24",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquired",
+        "block_hash": "666928d895491a161226524f511bab08d4d9e3b4a17133721b8ab9111de4e098",
+        "content_hash": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35",
+        "locator": "sec-div:1250",
+        "source_id": "source-69c773dcb84d55d4042f2798",
+        "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm"
+      },
+      "rule_id": "healthcare-02-20260926-r9",
+      "visible_date": "2023-02-24"
+    },
+    {
+      "assertions_hash": "4b6171e05f9b68217bdb8eeb3b1dc71f3dd0787b8511d790ce609225f6d69855",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "other",
+                "conditions": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$170.00",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-unh"
+                ],
+                "qualifier": "exact",
+                "scope": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+                "value": "170.00",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$170.00",
+              "proof": {
+                "anchor": "$170.00",
+                "block_hash": "86cc6d5b51dc29004770b1a71ba17d6e586b802451d136e97f60cb9352241027",
+                "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+                "locator": "p:50",
+                "source_id": "source-736ee4eff3f0cdf493c72123",
+                "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm"
+              }
+            }
+          ],
+          "block_hash": "8c65781934dcc6993668d2dc1a8c82acc00c8b5951b2afdadd97c73b6b1cebcf",
+          "business": {
+            "geography": "",
+            "headline": "LHC Groupの買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "合併効力発生時に対象普通株式は1株170ドルの現金受領権へ転換された。",
+          "context": [
+            {
+              "anchor": "$170.00",
+              "block_hash": "86cc6d5b51dc29004770b1a71ba17d6e586b802451d136e97f60cb9352241027",
+              "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+              "locator": "p:50",
+              "source_id": "source-736ee4eff3f0cdf493c72123",
+              "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm"
+            }
+          ],
+          "description": "UnitedHealth GroupはLHC Groupを買収。2023年2月22日の合併完了後、LHC GroupはUnitedHealth Groupの完全子会社となった。",
+          "direction": "directed",
+          "effective_date": "2023-02-22",
+          "event_type": "newly_indexed",
+          "excerpt": "Merger",
+          "key": "r10",
+          "locator": "p:38",
+          "parties": {
+            "co-lhc": "LHC Group, Inc.",
+            "co-unh": "UnitedHealth Group Incorporated"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-unh",
+          "status": "completed",
+          "status_as_of": "2023-02-22",
+          "target_company_id": "co-lhc"
+        }
+      ],
+      "date": "2023-02-22",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "Merger",
+        "block_hash": "8c65781934dcc6993668d2dc1a8c82acc00c8b5951b2afdadd97c73b6b1cebcf",
+        "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+        "locator": "p:38",
+        "source_id": "source-736ee4eff3f0cdf493c72123",
+        "url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm"
+      },
+      "rule_id": "healthcare-02-20260926-r10",
+      "visible_date": "2023-02-22"
+    },
+    {
+      "assertions_hash": "a61311a324d694f79b5c95c3805aabac7bd53804eab70b53ba96a009b7f4023e",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "other",
+                "conditions": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$101 per share in cash",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-unh"
+                ],
+                "qualifier": "exact",
+                "scope": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+                "value": "101",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$101 per share in cash",
+              "proof": {
+                "anchor": "$101 per share in cash",
+                "block_hash": "8f4a93b9c0f2c7efcfa941e100269357eca1501b4b910222c2edd869f8223283",
+                "content_hash": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099",
+                "locator": "p:36",
+                "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+                "url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm"
+              }
+            }
+          ],
+          "block_hash": "07803a710797a7e80dc5d9ab38c6c30902bdb4c21581db6441601b57fff391fa",
+          "business": {
+            "geography": "",
+            "headline": "Amedisysの買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "対象株式は原則として1株101米ドルの現金受領権へ転換。 一部株式報酬はUnitedHealth GroupのRSU等へ変換される。 提供JSONのUSD指定は数値タグとの直接対応が未確認のため、通貨未確認へ修正。",
+          "context": [
+            {
+              "anchor": "$101 per share in cash",
+              "block_hash": "8f4a93b9c0f2c7efcfa941e100269357eca1501b4b910222c2edd869f8223283",
+              "content_hash": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099",
+              "locator": "p:36",
+              "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+              "url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm"
+            }
+          ],
+          "description": "UnitedHealth GroupはAmedisysを買収し、Amedisysは合併後にUnitedHealth Groupの完全子会社となった。",
+          "direction": "directed",
+          "effective_date": "2025-08-14",
+          "event_type": "newly_indexed",
+          "excerpt": "Merger",
+          "key": "r11",
+          "locator": "p:29",
+          "parties": {
+            "co-amedisys": "Amedisys, Inc.",
+            "co-unh": "UnitedHealth Group"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-unh",
+          "status": "completed",
+          "status_as_of": "2025-08-14",
+          "target_company_id": "co-amedisys"
+        }
+      ],
+      "date": "2025-08-14",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "Merger",
+        "block_hash": "07803a710797a7e80dc5d9ab38c6c30902bdb4c21581db6441601b57fff391fa",
+        "content_hash": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099",
+        "locator": "p:29",
+        "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+        "url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm"
+      },
+      "rule_id": "healthcare-02-20260926-r11",
+      "visible_date": "2025-08-14"
+    },
+    {
+      "assertions_hash": "895cd32af44185fd6f30c0df7ab487b6e50c2b986f4ad73436211a5f757992e1",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "契約上の一定の通常の購入価格調整の対象。",
+                "contingent": null,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$4,340,000,000",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-collaborative-care"
+                ],
+                "qualifier": "exact",
+                "scope": "契約上の一定の通常の購入価格調整の対象。",
+                "value": "4340000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$4,340,000,000",
+              "proof": {
+                "anchor": "$4,340,000,000",
+                "block_hash": "4b97f50806c44a84811684a5dcedcec69b4cce68b71a9fb650c2216ef98f888e",
+                "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+                "locator": "sec-div:76",
+                "source_id": "source-a2f26d63620ff3373f6d3981",
+                "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm"
+              }
+            }
+          ],
+          "block_hash": "46a52d0df8cdace84a946e16c19e0646eb0d60545c9b506e7288830252bdd9f3",
+          "business": {
+            "geography": "",
+            "headline": "DaVita Medical Group事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "買主はCollaborative Care Holdings, LLCで、資料上Optumの完全子会社。親会社名への置換はしていない。 UnitedHealth Group Incorporatedは購入契約のSection 9.3および9.18に限り当事者として記載。",
+          "context": [
+            {
+              "anchor": "$4,340,000,000",
+              "block_hash": "4b97f50806c44a84811684a5dcedcec69b4cce68b71a9fb650c2216ef98f888e",
+              "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+              "locator": "sec-div:76",
+              "source_id": "source-a2f26d63620ff3373f6d3981",
+              "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm"
+            }
+          ],
+          "description": "Optum傘下のCollaborative Care Holdings, LLCはDaVita Medical Holdings, LLCの全持分を取得し、DaVita Medical Group事業を買収した。UnitedHealth Group Incorporatedは購入契約の特定条項について当事者として記載されている。",
+          "direction": "directed",
+          "effective_date": "2019-06-19",
+          "event_type": "newly_indexed",
+          "excerpt": "disposition",
+          "key": "r12",
+          "locator": "sec-div:75",
+          "parties": {
+            "co-collaborative-care": "Collaborative Care Holdings, LLC",
+            "co-davita-medical": "DaVita Medical Holdings, LLC"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-collaborative-care",
+          "status": "completed",
+          "status_as_of": "2019-06-19",
+          "target_company_id": "co-davita-medical"
+        }
+      ],
+      "date": "2019-06-19",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "disposition",
+        "block_hash": "46a52d0df8cdace84a946e16c19e0646eb0d60545c9b506e7288830252bdd9f3",
+        "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+        "locator": "sec-div:75",
+        "source_id": "source-a2f26d63620ff3373f6d3981",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm"
+      },
+      "rule_id": "healthcare-02-20260926-r12",
+      "visible_date": "2019-06-19"
+    },
+    {
+      "assertions_hash": "1ac0a7444b2023423aa5083c45bb49276b844a5cced3bb7aa0928a2da7d73ed0",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$9.9 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-dhr"
+                ],
+                "qualifier": "approximately",
+                "scope": "2026-02-17の契約発表時点の金額。発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。 完了時点の調整後対価は未確認。",
+                "value": "9900000000",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$9.9 billion",
+              "proof": {
+                "anchor": "$9.9 billion",
+                "block_hash": "09d618f6329499e989e8d42591cd9697c5e3eda8b09399cd74618ba422278665",
+                "content_hash": "dc618d3c3c7536275bd7d58fe3dba38577748feeacd6c93ff894c752324b8ed0",
+                "locator": "p:6",
+                "source_id": "source-980228e795ee4570c7f71337",
+                "url": "https://investors.danaher.com/2026-02-17-Danaher-To-Acquire-Masimo-Corporation"
+              }
+            }
+          ],
+          "block_hash": "f1f1ba209497322df408bf580e13903d7edb69129d6f81b86a698659366b1f6c",
+          "business": {
+            "geography": "",
+            "headline": "パルスオキシメトリ・患者監視事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "2026-06-10に買収完了し、MasimoはDanaherの完全子会社となった。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+          "context": [
+            {
+              "anchor": "$9.9 billion",
+              "block_hash": "09d618f6329499e989e8d42591cd9697c5e3eda8b09399cd74618ba422278665",
+              "content_hash": "dc618d3c3c7536275bd7d58fe3dba38577748feeacd6c93ff894c752324b8ed0",
+              "locator": "p:6",
+              "source_id": "source-980228e795ee4570c7f71337",
+              "url": "https://investors.danaher.com/2026-02-17-Danaher-To-Acquire-Masimo-Corporation"
+            }
+          ],
+          "description": "DanaherはMasimoを買収し、パルスオキシメトリ、先進センサー、AI対応患者モニタリングを診断事業へ取り込んだ。",
+          "direction": "directed",
+          "effective_date": "2026-06-10",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r17",
+          "locator": "p:6",
+          "parties": {
+            "co-dhr": "Danaher Corporation",
+            "co-masimo": "Masimo Corporation"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-dhr",
+          "status": "completed",
+          "status_as_of": "2026-06-10",
+          "target_company_id": "co-masimo"
+        }
+      ],
+      "date": "2026-06-10",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "f1f1ba209497322df408bf580e13903d7edb69129d6f81b86a698659366b1f6c",
+        "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+        "locator": "p:6",
+        "source_id": "source-048157a1052c95d63011fbcf",
+        "url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation"
+      },
+      "rule_id": "healthcare-02-20260926-r17",
+      "visible_date": "2026-06-10"
+    },
+    {
+      "assertions_hash": "1e1ce66a6b035c7abd15730af8cf9f6b78d0d165be7b8f3eb99c2ad4dba3fdd8",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株24ドルの現金対価。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$5.7 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-dhr"
+                ],
+                "qualifier": "approximately",
+                "scope": "2023-08-28の契約発表時点の金額。発表時の総企業価値。引受債務を含み、取得現金を控除。1株24ドルの現金対価。 完了時点の調整後対価は未確認。",
+                "value": "5700000000",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$5.7 billion",
+              "proof": {
+                "anchor": "$5.7 billion",
+                "block_hash": "d52d1d6453b27f2fa80cde97d2535ab7b12fd8bb587505db247b613c63b08d16",
+                "content_hash": "687bdfab6c8e507b10ef9271819096403fcce6638a90fd8272cc4cace2945046",
+                "locator": "p:6",
+                "source_id": "source-c3b40310970e71a28842a0eb",
+                "url": "https://investors.danaher.com/2023-08-28-Danaher-to-Acquire-Abcam"
+              }
+            }
+          ],
+          "block_hash": "03c4f4c6766f0531d8d54c4b1a1ed5e9006ff4ad2d77d80ccdb5ce85d7aa48a1",
+          "business": {
+            "geography": "",
+            "headline": "抗体・試薬・研究用消耗品事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "英国Companies Act 2006に基づくCourt-sanctioned scheme of arrangementで完了。 AbcamはDanaherの間接完全子会社となった。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+          "context": [
+            {
+              "anchor": "Scheme",
+              "block_hash": "2ef58f38cf3cf6f0e362631f97eed3d1c568e94e4437f292e740a224c48cd195",
+              "content_hash": "f670dd0983f1dd887c2a43c2eb4d359c203ca43804132dc707845f04b01b92de",
+              "locator": "p:7",
+              "source_id": "source-1c207d93a1582d5ee3de7b75",
+              "url": "https://investors.danaher.com/2023-12-06-Danaher-Completes-Acquisition-of-Abcam"
+            },
+            {
+              "anchor": "antibodies",
+              "block_hash": "6178ecc8a2b61fea89bb689af69469548d398bdc9d9b3f5437de8219de5d38c4",
+              "content_hash": "687bdfab6c8e507b10ef9271819096403fcce6638a90fd8272cc4cace2945046",
+              "locator": "p:7",
+              "source_id": "source-c3b40310970e71a28842a0eb",
+              "url": "https://investors.danaher.com/2023-08-28-Danaher-to-Acquire-Abcam"
+            },
+            {
+              "anchor": "$5.7 billion",
+              "block_hash": "d52d1d6453b27f2fa80cde97d2535ab7b12fd8bb587505db247b613c63b08d16",
+              "content_hash": "687bdfab6c8e507b10ef9271819096403fcce6638a90fd8272cc4cace2945046",
+              "locator": "p:6",
+              "source_id": "source-c3b40310970e71a28842a0eb",
+              "url": "https://investors.danaher.com/2023-08-28-Danaher-to-Acquire-Abcam"
+            }
+          ],
+          "description": "Danaherは抗体・試薬・バイオマーカー・アッセイを提供するAbcamを買収し、Life Sciences部門の創薬・生命科学研究向け製品群を拡充した。",
+          "direction": "directed",
+          "effective_date": "2023-12-06",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r18",
+          "locator": "p:6",
+          "parties": {
+            "co-abcam": "Abcam plc",
+            "co-dhr": "Danaher Corporation"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-dhr",
+          "status": "completed",
+          "status_as_of": "2023-12-06",
+          "target_company_id": "co-abcam"
+        }
+      ],
+      "date": "2023-12-06",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "03c4f4c6766f0531d8d54c4b1a1ed5e9006ff4ad2d77d80ccdb5ce85d7aa48a1",
+        "content_hash": "f670dd0983f1dd887c2a43c2eb4d359c203ca43804132dc707845f04b01b92de",
+        "locator": "p:6",
+        "source_id": "source-1c207d93a1582d5ee3de7b75",
+        "url": "https://investors.danaher.com/2023-12-06-Danaher-Completes-Acquisition-of-Abcam"
+      },
+      "rule_id": "healthcare-02-20260926-r18",
+      "visible_date": "2023-12-06"
+    },
+    {
+      "assertions_hash": "6f459b3a5d533f5dcfed4f1ff0e2bdd2aa8683a0a3082ecc9b8a8c8165ebfb08",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "契約発表時に示された現金購入価格。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$9.6 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-dhr"
+                ],
+                "qualifier": "approximately",
+                "scope": "2021-06-17の契約発表時点の金額。契約発表時に示された現金購入価格。 完了時点の調整後対価は未確認。",
+                "value": "9600000000",
+                "value_semantics": "original_total"
+              },
+              "anchor": "$9.6 billion",
+              "proof": {
+                "anchor": "$9.6 billion",
+                "block_hash": "69510e77b53c81f094577b200ecc92cb0e506e1f85215f98ca778685b62a077d",
+                "content_hash": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af",
+                "locator": "p:6",
+                "source_id": "source-bf7fc3b9b827bac86de7441c",
+                "url": "https://investors.danaher.com/2021-06-17-Danaher-To-Acquire-Aldevron"
+              }
+            }
+          ],
+          "block_hash": "ea7289bfee7b5b57cfb6ec3f2500e28b43394fa1a35131fdd78ce5ece24b6bed",
+          "business": {
+            "geography": "",
+            "headline": "プラスミドDNA・mRNA製造事業の買収",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "買収対象"
+          },
+          "conditions": "Aldevronは買収後もDanaherのLife Sciences部門で独立した事業会社・ブランドとして運営。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+          "context": [
+            {
+              "anchor": "plasmid DNA",
+              "block_hash": "8556cd5104bb825ca0b794feb6a462cde46d45681679c6691a6dffbee3a7ec98",
+              "content_hash": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af",
+              "locator": "p:7",
+              "source_id": "source-bf7fc3b9b827bac86de7441c",
+              "url": "https://investors.danaher.com/2021-06-17-Danaher-To-Acquire-Aldevron"
+            },
+            {
+              "anchor": "$9.6 billion",
+              "block_hash": "69510e77b53c81f094577b200ecc92cb0e506e1f85215f98ca778685b62a077d",
+              "content_hash": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af",
+              "locator": "p:6",
+              "source_id": "source-bf7fc3b9b827bac86de7441c",
+              "url": "https://investors.danaher.com/2021-06-17-Danaher-To-Acquire-Aldevron"
+            }
+          ],
+          "description": "DanaherはAldevronを買収し、プラスミドDNA、mRNA、タンパク質の製造能力をLife Sciences部門に加え、遺伝子医療向け製品群を拡充した。",
+          "direction": "directed",
+          "effective_date": "2021-08-30",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r19",
+          "locator": "p:6",
+          "parties": {
+            "co-aldevron": "Aldevron",
+            "co-dhr": "Danaher Corporation"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-dhr",
+          "status": "completed",
+          "status_as_of": "2021-08-30",
+          "target_company_id": "co-aldevron"
+        }
+      ],
+      "date": "2021-08-30",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "ea7289bfee7b5b57cfb6ec3f2500e28b43394fa1a35131fdd78ce5ece24b6bed",
+        "content_hash": "3034ce38112c86d76d6b3720ac24740a467761436ea68b3caa9ada21390ffef0",
+        "locator": "p:6",
+        "source_id": "source-131039e01e81a4b0c310ee48",
+        "url": "https://investors.danaher.com/2021-08-30-Danaher-Completes-Acquisition-of-Aldevron"
+      },
+      "rule_id": "healthcare-02-20260926-r19",
+      "visible_date": "2021-08-30"
+    },
+    {
+      "assertions_hash": "2e99012656efb9c3674a486119fd687e0468e8f612efbb0988a5037852a521f9",
+      "claims": [
+        {
+          "amount_disclosure": "disclosed",
+          "amounts": [
+            {
+              "amount": {
+                "amount_kind": "purchase_price",
+                "conditions": "契約発表時の現金購入価格。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$21.4 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-dhr"
+                ],
+                "qualifier": "approximately",
+                "scope": "2019-02-25の契約発表時点の金額。契約発表時の現金購入価格。 完了時点の調整後対価は未確認。",
+                "value": "21400000000",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$21.4 billion",
+              "proof": {
+                "anchor": "$21.4 billion",
+                "block_hash": "17fc786bfc449a5ebf85e3c993f69ecc8d518994abd8a3e2effe0ee58d0687e0",
+                "content_hash": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701",
+                "locator": "p:6",
+                "source_id": "source-b3ba4c478b869f53bc5db300",
+                "url": "https://investors.danaher.com/2019-02-25-Danaher-to-Acquire-the-Biopharma-Business-of-General-Electric-Life-Sciences-for-21-4-Billion"
+              }
+            },
+            {
+              "amount": {
+                "amount_kind": "other",
+                "conditions": "取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。",
+                "contingent": false,
+                "currency": null,
+                "currency_basis": null,
+                "max_value": null,
+                "min_value": null,
+                "original_text": "$20 billion",
+                "payee_company_ids": [],
+                "payer_company_ids": [
+                  "co-dhr"
+                ],
+                "qualifier": "approximately",
+                "scope": "2019-02-25の契約発表時点の金額。取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。 完了時点の調整後対価は未確認。",
+                "value": "20000000000",
+                "value_semantics": "unknown"
+              },
+              "anchor": "$20 billion",
+              "proof": {
+                "anchor": "$21.4 billion",
+                "block_hash": "17fc786bfc449a5ebf85e3c993f69ecc8d518994abd8a3e2effe0ee58d0687e0",
+                "content_hash": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701",
+                "locator": "p:6",
+                "source_id": "source-b3ba4c478b869f53bc5db300",
+                "url": "https://investors.danaher.com/2019-02-25-Danaher-to-Acquire-the-Biopharma-Business-of-General-Electric-Life-Sciences-for-21-4-Billion"
+              }
+            }
+          ],
+          "block_hash": "e73d8c2afd7e51f0bd7453c4a8dd8d553f145f02aa529284540f70c0ecd7b090",
+          "business": {
+            "geography": "",
+            "headline": "GEのBiopharma事業買収（Cytiva）",
+            "products": [],
+            "scale": "",
+            "source_role": "買収者",
+            "target_role": "事業売却者"
+          },
+          "conditions": "2020-03-31に買収完了し、事業名はCytivaとなった。 約200億ドルのネット購入価格は税務上の便益を考慮した別表現であり、別の支払額として加算しない。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+          "context": [
+            {
+              "anchor": "$21.4 billion",
+              "block_hash": "17fc786bfc449a5ebf85e3c993f69ecc8d518994abd8a3e2effe0ee58d0687e0",
+              "content_hash": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701",
+              "locator": "p:6",
+              "source_id": "source-b3ba4c478b869f53bc5db300",
+              "url": "https://investors.danaher.com/2019-02-25-Danaher-to-Acquire-the-Biopharma-Business-of-General-Electric-Life-Sciences-for-21-4-Billion"
+            }
+          ],
+          "description": "DanaherはGeneral Electric CompanyからLife Sciences部門のBiopharma事業を買収し、Cytivaとして運営する。GE全社を取得したものではない。",
+          "direction": "directed",
+          "effective_date": "2020-03-31",
+          "event_type": "newly_indexed",
+          "excerpt": "acquisition",
+          "key": "r20",
+          "locator": "p:6",
+          "parties": {
+            "co-dhr": "Danaher Corporation",
+            "co-ge": "General Electric Company"
+          },
+          "relationship_type": "acquisition",
+          "section": "Source-verified historical transaction",
+          "source_company_id": "co-dhr",
+          "status": "completed",
+          "status_as_of": "2020-03-31",
+          "target_company_id": "co-ge"
+        }
+      ],
+      "date": "2020-03-31",
+      "evaluation_note": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "proof": {
+        "anchor": "acquisition",
+        "block_hash": "e73d8c2afd7e51f0bd7453c4a8dd8d553f145f02aa529284540f70c0ecd7b090",
+        "content_hash": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+        "locator": "p:6",
+        "source_id": "source-1103bb84dc36b92cb2910635",
+        "url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva"
+      },
+      "rule_id": "healthcare-02-20260926-r20",
+      "visible_date": "2020-03-31"
     }
   ]
 }

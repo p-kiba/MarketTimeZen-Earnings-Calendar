@@ -1,0 +1,395 @@
+{
+  "build_id": "1487aa55dd0e59be0f1fd7f9",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3e417e65fd7adc77af71cf96",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-09-25",
+      "conditions": "",
+      "deal_id": "deal-4336597f460697cb6683b19c",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-4336597f460697cb6683b19c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-4336597f460697cb6683b19c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d3082b9214c6b6945d6fadca"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-efc957b3506cdb3c32109b55": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-efc957b3506cdb3c32109b55",
+        "rule_version": "158aa5989764f7177371c0d68329b0bd43fd26a48d35d0f3399e989435ff5136",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    },
+    {
+      "agreement_date": "2025-09-23",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-40c71f658491ea626158bcbd",
+          "amount_kind": "contract_value",
+          "conditions": "提供・利用可能性の要件充足および解除条項に従う追加注文の上限。概算であり確定総額ではない。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-09-25",
+      "conditions": "追加注文の相手方はOpenAI OpCo, LLC。2025年5月8日付MSAに基づく2025年9月23日の追加注文で、最大約65億（原文$）。期限は2031年5月31日。提供・利用可能性の要件充足と解除条項に従う。MSAと注文には正当事由による解除が可能。ドル種類は未確認。",
+      "deal_id": "deal-4336597f460697cb6683b19c",
+      "detected_at": "2026-09-26T07:05:01+00:00",
+      "effective_date": null,
+      "event_id": "event-5bb10e41bb58330aed6daaa5",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-6c72fb24192cdddbe390bbc3",
+        "evidence-7cce7f20b408a039ad136e8b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d3082b9214c6b6945d6fadca"
+      ],
+      "supersedes_event_id": "event-4336597f460697cb6683b19c",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": "2031-05-31",
+        "evidence_ids": [
+          "evidence-6c72fb24192cdddbe390bbc3",
+          "evidence-7cce7f20b408a039ad136e8b"
+        ],
+        "renewal": null,
+        "start_basis": "2025年9月23日の追加注文に係る支払コミットメントの期限。MSA自体の一律満了日ではない。",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-33fde43ef418b98646d15bea": "e79bff25e7a5dfbd9f67133ca51659515ca3f93bbae747a6d1b98e4507f35e39",
+          "source-efc957b3506cdb3c32109b55": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04"
+        },
+        "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-coreweave-openai-term",
+        "rule_version": "c036f149d079028e97f8228e3a1ffc32ab8a241621cdc0596aa0e101ef837b23",
+        "verified_at": "2026-09-26T07:05:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4336597f460697cb6683b19c",
+      "excerpt": "contract value of this deal is up to $6.5 billion",
+      "locator": "p:0",
+      "normalized_text_hash": "1127e5e77ef796af70db05defc99516ee73757deb37a5f7e4a3c6ae570fd221f",
+      "section": "Official deal announcement",
+      "source_id": "source-efc957b3506cdb3c32109b55",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6c72fb24192cdddbe390bbc3",
+      "excerpt": "contract value of this deal is up to $6.5 billion",
+      "locator": "p:0",
+      "normalized_text_hash": "1127e5e77ef796af70db05defc99516ee73757deb37a5f7e4a3c6ae570fd221f",
+      "section": "Official deal announcement",
+      "source_id": "source-efc957b3506cdb3c32109b55",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-7cce7f20b408a039ad136e8b",
+      "excerpt": "May 31, 2031",
+      "locator": "p:40",
+      "normalized_text_hash": "cf9bdc14114334e1597eaa68ab9eab9d17650cdec82a8df6c87aa1f666f2435d",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-33fde43ef418b98646d15bea",
+      "supports_fields": [
+        "parties",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-4336597f460697cb6683b19c"
+    ],
+    "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6c72fb24192cdddbe390bbc3",
+      "evidence-7cce7f20b408a039ad136e8b"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T07:05:01+00:00",
+    "latest_event_ids": [
+      "event-5bb10e41bb58330aed6daaa5"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2025-09-25",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-33fde43ef418b98646d15bea": "e79bff25e7a5dfbd9f67133ca51659515ca3f93bbae747a6d1b98e4507f35e39",
+        "source-efc957b3506cdb3c32109b55": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04"
+      },
+      "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+      "reviewer": null,
+      "rule_id": "amount-review-20260926-coreweave-openai-term",
+      "rule_version": "c036f149d079028e97f8228e3a1ffc32ab8a241621cdc0596aa0e101ef837b23",
+      "verified_at": "2026-09-26T07:05:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-25-216497",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm",
+      "content_hash": "e79bff25e7a5dfbd9f67133ca51659515ca3f93bbae747a6d1b98e4507f35e39",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2025-09-25",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T06:55:20+00:00",
+      "source_id": "source-33fde43ef418b98646d15bea",
+      "source_type": "sec_filing",
+      "title": "8-K"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "content_hash": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-09-25",
+      "publisher": "co-coreweave",
+      "retrieved_at": "2026-09-25T16:04:11+00:00",
+      "source_id": "source-efc957b3506cdb3c32109b55",
+      "source_type": "official_newsroom",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-40c71f658491ea626158bcbd",
+        "amount_kind": "contract_value",
+        "conditions": "提供・利用可能性の要件充足および解除条項に従う追加注文の上限。概算であり確定総額ではない。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-6c72fb24192cdddbe390bbc3",
+          "evidence-7cce7f20b408a039ad136e8b"
+        ],
+        "max_value": "6500000000",
+        "min_value": null,
+        "original_text": "up to $6.5 billion",
+        "payee_company_ids": [
+          "co-coreweave"
+        ],
+        "payer_company_ids": [
+          "co-openai"
+        ],
+        "qualifier": "up_to",
+        "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+        "value": null,
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+    "direction": "directed",
+    "event_date": "2025-09-25",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:05:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2025-09-25",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "bounded_or_unspecified",
+      "conditional",
+      "not_total"
+    ]
+  }
+}
