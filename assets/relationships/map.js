@@ -1,17 +1,19 @@
-import {latestResults,resultRows} from './earnings-results.js?v=7699323f3ea4';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=7699323f3ea4';
-import {dealRows} from './deals.js?v=7699323f3ea4';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=7699323f3ea4';
-import {DataClient} from './data-client.js?v=7699323f3ea4';
-import {CompanyView} from './company-view.js?v=7699323f3ea4';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=7699323f3ea4';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=7699323f3ea4';
-import {dictionary} from './i18n.js?v=7699323f3ea4';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=c5c06dfaf4c6';
+import {latestResults,resultRows} from './earnings-results.js?v=c5c06dfaf4c6';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=c5c06dfaf4c6';
+import {dealRows} from './deals.js?v=c5c06dfaf4c6';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=c5c06dfaf4c6';
+import {DataClient} from './data-client.js?v=c5c06dfaf4c6';
+import {CompanyView} from './company-view.js?v=c5c06dfaf4c6';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=c5c06dfaf4c6';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=c5c06dfaf4c6';
+import {dictionary} from './i18n.js?v=c5c06dfaf4c6';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
 let neighborhoods=new Map(), collapsedGroups=new Set();
 let mapMode=false;
+let autoConnections=false,zoomReference=null,zoomDepth=1,zoomDepths=new Map();
 let expansionHistory=[], selectionVersion=0, selectionOpen=false, quickFilter="", selectionRows=10;
 const ux=(ja,en)=>state.lang==='ja'?ja:en;
 let layoutCenter=null,layoutKey='',layoutPositions=new Map();
@@ -132,7 +134,7 @@ async function choose(cid,push=true){
   cid=client.canonicalId(cid);
   detailGeneration++;const seq=++generation;request?.abort();request=new AbortController();message(t('loading'));
   try{const data=await client.company(cid,request.signal);if(seq!==generation)return;
-    state.company=cid;state.symbol='';state.q='';selected=cid;pageSize=30;expansionHistory=[];selectionOpen=false;selectionVersion++;
+    state.company=cid;state.symbol='';state.q='';selected=cid;pageSize=30;expansionHistory=[];selectionOpen=false;selectionVersion++;zoomReference=null;zoomDepth=1;
     ({companies,relationships}=mergeNeighborhoods([data]));expanded=new Set([cid]);neighborhoods=new Map([[cid,data]]);collapsedGroups.clear();
     $('mtz-search').value='';$('mtz-results').replaceChildren();closeDetail();updateURL(state,push);render();message(client.offline?t('offline'):'');
   }catch(e){if(e.name!=='AbortError'&&seq===generation){message(t('failed'),true);}}
@@ -276,19 +278,38 @@ function render(){
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
   const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b)}};});
   cy?.destroy();
-  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':16,'target-distance-from-node':16,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
+  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':16,'target-distance-from-node':16,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'.zoom-hidden',style:{'display':'none'}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
   if(!viewport&&cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
   cy.on('mouseover','edge',e=>{e.target.addClass('inspect');markSelectionRows(e.target.data('relations'),true);});cy.on('mouseout','edge',e=>{e.target.removeClass('inspect');markSelectionRows(e.target.data('relations'),false);});
   cy.on('tap','node',e=>selectCompany(e.target.id()));
   cy.on('dragfree','node',rerouteEdges);
   cy.on('tap','edge',e=>{const ids=e.target.data('relations');if(ids.length===1)showRelation(ids[0]);else{detailGeneration++;openDetail(t('details'));$('mtz-detail-content').append(el('p',t('aggregateReason'),'notice'));for(const id of ids){const r=relationships.get(id);$('mtz-detail-content').append(relationCard(r));}}});
-  cy.on('tap',e=>{if(e.target===cy){selected=null;selectionOpen=false;selectionVersion++;$('mtz-selection').hidden=true;highlightCompany();if(['suppliers','customers'].includes(quickFilter))render();}});
+  cy.on('tap',e=>{if(e.target===cy){selected=null;selectionOpen=false;selectionVersion++;$('mtz-selection').hidden=true;highlightCompany();updateZoomDisclosure();if(['suppliers','customers'].includes(quickFilter))render();}});
   highlightCompany();
   updatePeerLabels();
+  zoomDepths=neighborhoodDepths(shown,visibleRows.map(r=>[r.source_company_id,r.target_company_id]),state.company);
+  if(zoomReference===null)zoomReference=cy.zoom();
+  cy.on('zoom',updateZoomDisclosure);
+  updateZoomDisclosure();
   cy.style().selector('edge').style({'min-zoomed-font-size':10}).selector('node').style({'min-zoomed-font-size':9}).update();
   if(selectionOpen)renderSelection();
   $('mtz-graph').dataset.renderMs=(performance.now()-begin).toFixed(2);$('mtz-graph').dataset.nodes=String(nodes.length);$('mtz-graph').dataset.peerRelationships=String(peerCount);$('mtz-graph').dataset.edges=String(edges.length);
   const rendered=cy;requestAnimationFrame(()=>requestAnimationFrame(()=>{if(cy===rendered)$('mtz-graph').dataset.frameMs=(performance.now()-begin).toFixed(2);}));
+}
+function updateZoomDisclosure(){
+  if(!cy)return;
+  if(autoConnections)zoomDepth=cy.zoom()<=cy.minZoom()+.001?3:disclosureDepth(cy.zoom()/zoomReference,zoomDepth);
+  cy.batch(()=>{
+    cy.nodes().forEach(node=>{
+      const visible=!autoConnections||zoomDepth===3||(zoomDepths.get(node.id())??Infinity)<=zoomDepth||node.id()===selected;
+      node.toggleClass('zoom-hidden',!visible);
+    });
+    cy.edges().forEach(edge=>edge.toggleClass('zoom-hidden',edge.source().hasClass('zoom-hidden')||edge.target().hasClass('zoom-hidden')));
+  });
+  const status=$('mtz-auto-status');
+  if(status){status.hidden=!autoConnections;status.textContent=ux(
+    `${zoomDepth===1?'直接のつながり':zoomDepth===2?'2段先まで':'読み込み済み全体'} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}社`,
+    `${zoomDepth===1?'Direct':zoomDepth===2?'Two hops':'All loaded'} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}`);}
 }
 function matchesQuickFilter(r){
   if(!quickFilter)return true;
@@ -312,11 +333,17 @@ function renderMapTools(){
     render();
     cy?.nodes().forEach(n=>{const p=previous.positions.get(n.id());if(p)n.position(p);});rerouteEdges();
   });undo.disabled=!expansionHistory.length;tools.append(undo);
+  const toggle=el('label',undefined,'mtz-auto-connections'),input=el('input');input.type='checkbox';input.checked=autoConnections;
+  input.onchange=()=>{autoConnections=input.checked;if(autoConnections){zoomReference=cy?.zoom()||1;zoomDepth=1;}updateZoomDisclosure();};
+  toggle.append(input,el('span',ux('縮小でつながりを表示','Reveal connections on zoom out')));
+  toggle.title=ux('読み込み済みの企業を段階表示します。未取得のつながりは企業を選んで展開してください。','Progressively shows loaded companies. Expand a company to load more connections.');
+  const status=el('small',undefined,'mtz-auto-status');status.id='mtz-auto-status';status.hidden=!autoConnections;
+  tools.append(toggle,status);
 }
 function selectCompany(cid){
   if(state.view!=='map'){showCompany(cid);return;}
   closeDetail();selected=client.canonicalId(cid);selectionOpen=true;selectionRows=10;
-  highlightCompany();
+  highlightCompany();updateZoomDisclosure();
   if(['suppliers','customers'].includes(quickFilter))render();else renderSelection();
 }
 function markSelectionRows(ids,active){
