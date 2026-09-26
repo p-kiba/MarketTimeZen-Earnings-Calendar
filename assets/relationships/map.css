@@ -14,3 +14,5 @@
 .mtz-groups{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.mtz-groups button{border-radius:24px;font-size:12px;padding:9px 13px}.mtz-groups button[aria-expanded="true"]{background:#eff3f8;border-color:#9caabb}.mtz-groups button[aria-expanded="false"]{color:#657186;border-style:dashed}.mtz-relation-headline{font-weight:650;color:#283a50}.mtz-relation-description{line-height:1.65;color:#425268;max-width:80ch}.mtz-relation-row{gap:6px}.company-logo{aspect-ratio:1;object-fit:contain}.mtz-groups button:focus-visible{outline:3px solid #38bdf8;outline-offset:2px}
 
 .mtz-rating-note{font-size:12px;color:#5a6473;line-height:1.55}.mtz-footer #mtz-legend>p{flex-basis:100%;margin:4px 0 0;max-width:880px}
+
+.mtz-company-heading{display:flex;align-items:baseline;gap:8px 18px;flex-wrap:wrap;min-width:0}.mtz-company-heading h1{margin:0}.mtz-company-heading #mtz-source-period{white-space:nowrap}.mtz-toolbar{flex-wrap:wrap}.mtz-peer-control{display:flex;align-items:center;gap:7px;min-height:44px;margin:6px 0;font-size:13px;color:#65738a;cursor:pointer}@media(max-width:760px){.mtz-company-heading #mtz-source-period{white-space:normal;font-size:12px}}

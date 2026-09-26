@@ -27,3 +27,6 @@ Object.assign(dictionary.en,{universe_pilot:'Pilot',universe_large_cap_focus:'Ma
 
 dictionary.ja.collapseConnections='この企業の展開を戻す';
 dictionary.en.collapseConnections='Collapse this company’s expansion';
+
+Object.assign(dictionary.ja,{peerLabels:'周辺企業同士の契約内容を表示'});
+Object.assign(dictionary.en,{peerLabels:'Show contract labels between surrounding companies'});

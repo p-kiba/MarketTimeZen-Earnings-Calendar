@@ -1,6 +1,6 @@
 // Geometry expresses connectivity, never deal value or investment importance.
 // Reserve room for the square logo and its wrapped company name underneath.
-const CARD_WIDTH=132, CARD_HEIGHT=138, GOLDEN_ANGLE=Math.PI*(3-Math.sqrt(5));
+const CARD_WIDTH=120, CARD_HEIGHT=128, GOLDEN_ANGLE=Math.PI*(3-Math.sqrt(5));
 const compareId=(a,b)=>a<b?-1:a>b?1:0;
 function seed(id){let h=2166136261;for(const c of id)h=Math.imul(h^c.charCodeAt(0),16777619);return (h>>>0)/4294967296;}
 const validPoint=p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y);
@@ -24,16 +24,16 @@ export function graphPositions(ids,relationships,width,height,centerId=ids[0],pr
   const points=ordered.map((id,i)=>{
     if(i===center)return {x:0,y:0};
     if(anchors[i])return {...anchors[i]};
-    const angle=i*GOLDEN_ANGLE+seed(id)*.7,radius=110*Math.sqrt(i+1);
+    const angle=i*GOLDEN_ANGLE+seed(id)*.7,radius=90*Math.sqrt(i+1);
     const neighbors=[...adjacency[i]].filter(j=>anchors[j]).sort((a,b)=>a-b);
     if(neighbors.length){
-      return {x:neighbors.reduce((v,j)=>v+anchors[j].x,0)/neighbors.length+Math.cos(angle)*170,
-        y:neighbors.reduce((v,j)=>v+anchors[j].y,0)/neighbors.length+Math.sin(angle)*170};
+      return {x:neighbors.reduce((v,j)=>v+anchors[j].x,0)/neighbors.length+Math.cos(angle)*140,
+        y:neighbors.reduce((v,j)=>v+anchors[j].y,0)/neighbors.length+Math.sin(angle)*140};
     }
     return {x:Math.cos(angle)*radius*Math.sqrt(aspect),y:Math.sin(angle)*radius/Math.sqrt(aspect)};
   });
-  const springs=links.map(([a,b])=>({a,b,length:175+seed(ordered[a]+'|'+ordered[b])*85+
-    9*Math.sqrt(Math.max(adjacency[a].size,adjacency[b].size))}));
+  const springs=links.map(([a,b])=>({a,b,length:140+seed(ordered[a]+'|'+ordered[b])*55+
+    7*Math.sqrt(Math.max(adjacency[a].size,adjacency[b].size))}));
   // Bounded relaxation runs once per topology change, not continuously on screen.
   const iterations=anchors.some(Boolean)?180:260;
   for(let step=0;step<iterations;step++){
@@ -41,7 +41,7 @@ export function graphPositions(ids,relationships,width,height,centerId=ids[0],pr
     for(let a=0;a<points.length;a++)for(let b=a+1;b<points.length;b++){
       const p=points[a],q=points[b];let dx=p.x-q.x,dy=p.y-q.y;
       if(Math.abs(dx)+Math.abs(dy)<.01){dx=.1;dy=.17;}
-      const distance=Math.max(1,Math.hypot(dx,dy)),repulsion=1800/distance;
+      const distance=Math.max(1,Math.hypot(dx,dy)),repulsion=1050/distance;
       let fx=dx/distance*repulsion,fy=dy/distance*repulsion;
       const overlapX=CARD_WIDTH-Math.abs(dx),overlapY=CARD_HEIGHT-Math.abs(dy);
       if(overlapX>0&&overlapY>0){
