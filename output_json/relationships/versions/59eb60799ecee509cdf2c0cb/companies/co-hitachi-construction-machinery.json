@@ -1,0 +1,108 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-deere",
+      "country": null,
+      "display_name": "Deere",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-hitachi-construction-machinery",
+      "country": null,
+      "display_name": "Hitachi Construction Machinery Co., Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-hitachi-construction-machinery",
+    "country": null,
+    "display_name": "Hitachi Construction Machinery Co., Ltd.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-9a467b38121e6b732e59e1c7",
+          "amount_kind": "purchase_price",
+          "conditions": "DeereがHitachiの合弁持分と一定の知的財産ライセンスを取得する初期現金対価。契約上の相殺・調整の対象。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$275 million",
+          "payee_company_ids": [
+            "co-deere"
+          ],
+          "payer_company_ids": [
+            "co-hitachi-construction-machinery"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "275000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "DeereとHitachi Construction Machineryは既存の建機合弁を解消し、Deereが合弁工場のHitachi持分を取得するとともに、Hitachiブランドの油圧ショベル等に関する新たなライセンス・供給関係へ移行する契約を締結した。",
+      "direction": "undirected",
+      "event_date": "2021-08-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-1fbf668edf6e2c3d522a473a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-deere",
+      "status_as_of": "2021-08-19",
+      "target_company_id": "co-hitachi-construction-machinery",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-08-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

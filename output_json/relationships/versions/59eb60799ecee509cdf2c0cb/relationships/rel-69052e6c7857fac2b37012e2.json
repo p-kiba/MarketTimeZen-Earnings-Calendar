@@ -1,0 +1,223 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-09-11",
+      "conditions": "",
+      "deal_id": "deal-b237a3a398bfc7be19de8ddb",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-b237a3a398bfc7be19de8ddb",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-b237a3a398bfc7be19de8ddb",
+        "evidence-dfa67e1647c770ac94c39464"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b237a3a398bfc7be19de8ddb",
+            "evidence-dfa67e1647c770ac94c39464"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-69052e6c7857fac2b37012e2"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-00a442233f2f469d27837492": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-oracle-uber",
+        "rule_version": "4d29993d8fbc1ed519494cd5171709099fd797d005b616af5ef8a5e08967ef6d",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-b237a3a398bfc7be19de8ddb",
+      "excerpt": "Uber, the largest on",
+      "locator": "p:3",
+      "normalized_text_hash": "03eebf89492dd1b435cf00dcbbc159bf883ec2afc1a3f1dd98700980d3dd3f03",
+      "section": "Primary disclosure: p:3",
+      "source_id": "source-00a442233f2f469d27837492",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-dfa67e1647c770ac94c39464",
+      "excerpt": "To help tr",
+      "locator": "p:4",
+      "normalized_text_hash": "d34d27427c1da7b1d49458821391a2f935ede03faf542430c8211c4a3a0af3f3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-00a442233f2f469d27837492",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-b237a3a398bfc7be19de8ddb",
+        "evidence-dfa67e1647c770ac94c39464"
+      ],
+      "geography": "",
+      "headline": "配車・AI基盤へOCIを提供",
+      "products": [
+        "Oracle Cloud Infrastructure",
+        "AI推論",
+        "データ・ストレージ基盤"
+      ],
+      "scale": "",
+      "source_role": "Oracleがクラウド計算・保存基盤を提供",
+      "target_role": "Uberが配車サービス等に利用"
+    },
+    "deal_ids": [
+      "deal-b237a3a398bfc7be19de8ddb"
+    ],
+    "description": "Uberがアプリケーション、AI基盤、業務データとストリーミング基盤の一部をOracle Cloud Infrastructureへ移行。2024年9月発表時点の利用状況であり、Uberの全基盤の独占受託ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b237a3a398bfc7be19de8ddb",
+      "evidence-dfa67e1647c770ac94c39464"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-b237a3a398bfc7be19de8ddb"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-69052e6c7857fac2b37012e2",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-orcl",
+    "status_as_of": "2024-09-11",
+    "target_company_id": "co-uber",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-00a442233f2f469d27837492": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-oracle-uber",
+      "rule_version": "4d29993d8fbc1ed519494cd5171709099fd797d005b616af5ef8a5e08967ef6d",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.oracle.com/news/announcement/ocw24-uber-runs-on-oracle-cloud-infrastructure-2024-09-11/",
+      "content_hash": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-09-11",
+      "publisher": "www.oracle.com",
+      "retrieved_at": "2026-09-26T15:55:34+00:00",
+      "source_id": "source-00a442233f2f469d27837492",
+      "source_type": "official_newsroom",
+      "title": "Uber Runs on Oracle Cloud Infrastructure"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-b237a3a398bfc7be19de8ddb",
+        "evidence-dfa67e1647c770ac94c39464"
+      ],
+      "geography": "",
+      "headline": "配車・AI基盤へOCIを提供",
+      "products": [
+        "Oracle Cloud Infrastructure",
+        "AI推論",
+        "データ・ストレージ基盤"
+      ],
+      "scale": "",
+      "source_role": "Oracleがクラウド計算・保存基盤を提供",
+      "target_role": "Uberが配車サービス等に利用"
+    },
+    "description": "Uberがアプリケーション、AI基盤、業務データとストリーミング基盤の一部をOracle Cloud Infrastructureへ移行。2024年9月発表時点の利用状況であり、Uberの全基盤の独占受託ではない。",
+    "direction": "directed",
+    "event_date": "2024-09-11",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-69052e6c7857fac2b37012e2",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-orcl",
+    "status_as_of": "2024-09-11",
+    "target_company_id": "co-uber",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

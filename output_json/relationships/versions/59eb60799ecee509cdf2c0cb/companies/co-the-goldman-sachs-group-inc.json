@@ -1,0 +1,230 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-greensky-inc",
+      "country": null,
+      "display_name": "GreenSky, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nn-investment-partners",
+      "country": null,
+      "display_name": "NN Investment Partners",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-the-goldman-sachs-group-inc",
+      "country": null,
+      "display_name": "The Goldman Sachs Group, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-united-capital-financial-partners-inc",
+      "country": null,
+      "display_name": "United Capital Financial Partners, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-the-goldman-sachs-group-inc",
+    "country": null,
+    "display_name": "The Goldman Sachs Group, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-38df4eb81bb658110399fd71",
+          "amount_kind": "purchase_price",
+          "conditions": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$2.24 billion",
+          "payee_company_ids": [
+            "co-greensky-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "value": "2240000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Goldman SachsがGreenSkyの買収契約を締結。住宅改修向けPOS融資プラットフォームと加盟店・消費者向け融資機能をMarcusの消費者金融事業へ加える計画。",
+      "direction": "directed",
+      "event_date": "2021-09-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-88d638e4dc7e8339261329e4",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-goldman-sachs-group-inc",
+      "status_as_of": "2021-09-15",
+      "target_company_id": "co-greensky-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-62516384002ef84663bc7e7c",
+          "amount_kind": "purchase_price",
+          "conditions": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "€1.7 billion",
+          "payee_company_ids": [
+            "co-nn-investment-partners"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+          "value": "1700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Goldman SachsがNN GroupからNN Investment Partnersを取得し、900人超の社員と欧州の資産運用事業・ESG投資能力をGoldman Sachs Asset Managementへ統合。",
+      "direction": "directed",
+      "event_date": "2022-04-11",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-cf2b671b40e7fac0fe9b21ea",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-goldman-sachs-group-inc",
+      "status_as_of": "2022-04-11",
+      "target_company_id": "co-nn-investment-partners",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-c172c77d5870b5929a525ffc",
+          "amount_kind": "purchase_price",
+          "conditions": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$750 million",
+          "payee_company_ids": [
+            "co-united-capital-financial-partners-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "value": "750000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Goldman Sachsが独立系RIA向けウェルスマネジメント会社United Capitalを現金で取得する契約を締結。顧客向け助言とオープンアーキテクチャの運用ソリューションを追加する計画。",
+      "direction": "directed",
+      "event_date": "2019-05-16",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-c0b6b342bb2b69a1ce56e655",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-goldman-sachs-group-inc",
+      "status_as_of": "2019-05-16",
+      "target_company_id": "co-united-capital-financial-partners-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2019-05-16",
+    "2021-09-15",
+    "2022-04-11"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 0,
+  "total_relationships": 3
+}

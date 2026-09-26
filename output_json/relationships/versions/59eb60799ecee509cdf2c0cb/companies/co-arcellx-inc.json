@@ -1,0 +1,106 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-arcellx-inc",
+      "country": null,
+      "display_name": "Arcellx, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gilead-sciences-inc",
+      "country": null,
+      "display_name": "Gilead Sciences, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-arcellx-inc",
+    "country": null,
+    "display_name": "Arcellx, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-017aeef28f780ccf03bfef32",
+          "amount_kind": "purchase_price",
+          "conditions": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "representing a total implied equity value of approximately $7.8 billion at the time of closing",
+          "payee_company_ids": [
+            "co-arcellx-inc"
+          ],
+          "payer_company_ids": [
+            "co-gilead-sciences-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+          "value": "7800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。",
+      "direction": "directed",
+      "event_date": "2026-04-28",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-0dd6dfcd6216ee5ccccbd531",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-gilead-sciences-inc",
+      "status_as_of": "2026-04-28",
+      "target_company_id": "co-arcellx-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-04-28"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

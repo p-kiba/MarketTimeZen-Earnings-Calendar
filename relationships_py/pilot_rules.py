@@ -32,7 +32,7 @@ def verify(root=ROOT):
             for cid in (a,b):
                 if cid not in companies or companies[cid]['entity_status']!='resolved' or companies[cid]['display_name'] not in text:raise ValueError('Unresolved pilot party')
             rid=stable_id('rel',rule['rule_id'],a,b,kind);eid=stable_id('event',rid);deal=stable_id('deal',rid)
-            if rid in overrides['decisions']:continue
+            if rid in overrides['decisions'] or rid in overrides.get('cleared_candidates',{}):continue
             previous=next((r for r in master['relationships'] if r['relationship_id']==rid),None)
             # Unchanged input is a no-op, including verification timestamps.
             if previous and previous['verification']=='approved_rule' and previous['verification_metadata']['evidence_hashes'].get(sid)==source['content_hash']:continue

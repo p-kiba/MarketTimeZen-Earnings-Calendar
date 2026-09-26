@@ -101,7 +101,7 @@ def verify(root=ROOT):
             if claim['excerpt'] not in block:
                 raise ValueError('Excerpt missing from claim paragraph')
             rid = claim.get('revises_relationship_id') or stable_id('rel', rule['rule_id'], claim['key'])
-            if rid in overrides['decisions']:
+            if rid in overrides['decisions'] or rid in overrides.get('cleared_candidates',{}):
                 continue
             old = next((r for r in master['relationships'] if r['relationship_id'] == rid), None)
             revision=claim.get('revises_relationship_id') is not None

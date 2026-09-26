@@ -1,0 +1,215 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2020-06-29",
+      "conditions": "契約は機器統合の技術開発と関連する商用支援活動を対象とする。 初期の商用活動は米国・カナダを対象とし、追加地域へ拡大する可能性が示されている。",
+      "deal_id": "deal-c9dbcce627a767c84e04da38",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": null,
+      "event_id": "event-c9dbcce627a767c84e04da38",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c9dbcce627a767c84e04da38",
+        "evidence-2c1d27c79ac7361702c74a7e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c9dbcce627a767c84e04da38",
+            "evidence-2c1d27c79ac7361702c74a7e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-000d3c41901845cdf7e525d5"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a62874692f581e27febc7e5e": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r4",
+        "rule_version": "712b8140cc269a9ea6b5a483f788220634fa1ed9365c6f7aaea63b4211897753",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2c1d27c79ac7361702c74a7e",
+      "excerpt": "Abbott",
+      "locator": "p:22",
+      "normalized_text_hash": "6a4023373d4ff7b9aa421fa9b07aa96a96298684b071666d3ff29f61b5418c12",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-a62874692f581e27febc7e5e",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c9dbcce627a767c84e04da38",
+      "excerpt": "agreement",
+      "locator": "p:21",
+      "normalized_text_hash": "c07ceb010bbb9e8677148497e4571b1b6e8f84a9bc98cc82e9e677cce8196bd8",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-a62874692f581e27febc7e5e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-c9dbcce627a767c84e04da38",
+        "evidence-2c1d27c79ac7361702c74a7e"
+      ],
+      "geography": "",
+      "headline": "血糖測定とインスリン送達の統合開発",
+      "products": [],
+      "scale": "",
+      "source_role": "共同開発者",
+      "target_role": "共同開発者"
+    },
+    "deal_ids": [
+      "deal-c9dbcce627a767c84e04da38"
+    ],
+    "description": "AbbottとTandem Diabetes Careは、AbbottのFreeStyle Libre連続血糖測定技術とTandemのインスリン送達システムを統合する糖尿病管理ソリューションを共同開発・商用化する契約を締結した。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c9dbcce627a767c84e04da38",
+      "evidence-2c1d27c79ac7361702c74a7e"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-c9dbcce627a767c84e04da38"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-000d3c41901845cdf7e525d5",
+    "relationship_type": "partnership",
+    "source_company_id": "co-abt",
+    "status_as_of": "2020-06-29",
+    "target_company_id": "co-tndm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a62874692f581e27febc7e5e": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r4",
+      "rule_version": "712b8140cc269a9ea6b5a483f788220634fa1ed9365c6f7aaea63b4211897753",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+      "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-06-29",
+      "publisher": "Abbott",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-a62874692f581e27febc7e5e",
+      "source_type": "official_newsroom",
+      "title": "Abbott and Tandem Diabetes Care Advance Development of Integrated Technologies for Future Automated Insulin Delivery Systems - Jun 29, 2020"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-c9dbcce627a767c84e04da38",
+        "evidence-2c1d27c79ac7361702c74a7e"
+      ],
+      "geography": "",
+      "headline": "血糖測定とインスリン送達の統合開発",
+      "products": [],
+      "scale": "",
+      "source_role": "共同開発者",
+      "target_role": "共同開発者"
+    },
+    "description": "AbbottとTandem Diabetes Careは、AbbottのFreeStyle Libre連続血糖測定技術とTandemのインスリン送達システムを統合する糖尿病管理ソリューションを共同開発・商用化する契約を締結した。",
+    "direction": "undirected",
+    "event_date": "2020-06-29",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-000d3c41901845cdf7e525d5",
+    "relationship_type": "partnership",
+    "source_company_id": "co-abt",
+    "status_as_of": "2020-06-29",
+    "target_company_id": "co-tndm",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

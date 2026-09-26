@@ -1,0 +1,170 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-08-17",
+      "conditions": "",
+      "deal_id": "deal-2fcbf8cd91b81345b983db58",
+      "detected_at": "2026-09-26T08:11:08+00:00",
+      "effective_date": null,
+      "event_id": "event-6ff8287b1911d34a8c57b4ae",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-942b8c63a27d838c4b94e993"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "needs_review"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "needs_review"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-942b8c63a27d838c4b94e993"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-08-17",
+      "relationship_ids": [
+        "rel-9dbdfa83d85f04c8aaccc508"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 20,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-942b8c63a27d838c4b94e993"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-dcb7b306dffaedb5223f8dc1": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972"
+        },
+        "reason": "SEC Exhibit 99.1 dated August 17, 2026 states SB Energy will build, own and operate the data center under a 20-year lease to OpenAI, which is identified as customer.",
+        "reviewer": null,
+        "rule_id": "sb_energy_openai_data_center_lease",
+        "rule_version": "1",
+        "verified_at": "2026-09-26T19:23:40+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-942b8c63a27d838c4b94e993",
+      "excerpt": "SB Energy will build, own and operate the data center under a 20-year lease to OpenAI. OpenAI will be the customer.",
+      "locator": "sec-div:25",
+      "normalized_text_hash": "4b79951ac0ed5ad9252434aa7d73e1e06be1ec99e7932b7bcfecf3700042cc84",
+      "section": "paragraph",
+      "source_id": "source-dcb7b306dffaedb5223f8dc1",
+      "supports_fields": [
+        "relationship"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-2fcbf8cd91b81345b983db58"
+    ],
+    "description": "SB Energyがデータセンターを建設・保有・運営し、OpenAIへ20年リース。OpenAIは当該施設の顧客となり、発表上の計画容量は8 IT-GW。金額は非公表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-942b8c63a27d838c4b94e993"
+    ],
+    "first_observed_at": "2026-09-26T08:11:08+00:00",
+    "last_observed_at": "2026-09-26T08:11:08+00:00",
+    "latest_event_ids": [
+      "event-6ff8287b1911d34a8c57b4ae"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9dbdfa83d85f04c8aaccc508",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-sb-energy",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-dcb7b306dffaedb5223f8dc1": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972"
+      },
+      "reason": "SEC Exhibit 99.1 dated August 17, 2026 states SB Energy will build, own and operate the data center under a 20-year lease to OpenAI, which is identified as customer.",
+      "reviewer": null,
+      "rule_id": "sb_energy_openai_data_center_lease",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001045810-26-000069",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+      "content_hash": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2026-08-17",
+      "filing_cik": "0001045810",
+      "form": "EX-99.1",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-nvda",
+      "retrieved_at": "2026-09-26T05:30:12+00:00",
+      "source_id": "source-dcb7b306dffaedb5223f8dc1",
+      "source_type": "sec_exhibit",
+      "title": "Document"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "SB Energyがデータセンターを建設・保有・運営し、OpenAIへ20年リース。OpenAIは当該施設の顧客となり、発表上の計画容量は8 IT-GW。金額は非公表。",
+    "direction": "directed",
+    "event_date": "2026-08-17",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:11:08+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9dbdfa83d85f04c8aaccc508",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-sb-energy",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "ambiguous"
+    ]
+  }
+}

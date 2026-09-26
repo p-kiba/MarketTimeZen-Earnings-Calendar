@@ -1,0 +1,267 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-a1a66f2064b5efdcc6dd693b",
+          "amount_kind": "other",
+          "conditions": "純有利子負債54億ドルを含む企業価値。現金支払額ではない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+          "payee_company_ids": [
+            "co-marathon-oil"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "22500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2024-11-22",
+      "conditions": "Marathon Oil株1株につきConocoPhillips株0.2550株の交換条件。 2024-11-22に買収完了を発表。",
+      "deal_id": "deal-ff48c54c7f248c925f78002d",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-ff48c54c7f248c925f78002d",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-ff48c54c7f248c925f78002d",
+        "evidence-c59ce00fbfbe8eff900eae95"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-99e370033be8aedbfaecc8a1"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-282f9f96d0b2a4c028f62d22": "b89cbaf3ddc035c68bb145180faa364e15b55aa75e5a5240006cede0eabe661d",
+          "source-4f54d1e5d9f7403a6d4efb0d": "febd68650a022efe721dd0886283a380dc6dee1a9d1a9c14098b32a47992cfd6"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r9",
+        "rule_version": "50a7306d99b3b770b079ffc34831b1a5f1746d57ecc0f61b486e168edaf0c46b",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-c59ce00fbfbe8eff900eae95",
+      "excerpt": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+      "locator": "p:5",
+      "normalized_text_hash": "f23d3caf1d7721fe785b808f3f567950055c7a683314448aeb8f24c01a7e9c86",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-282f9f96d0b2a4c028f62d22",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ff48c54c7f248c925f78002d",
+      "excerpt": "HOUSTON –ConocoPhillips (NYSE:",
+      "locator": "p:1",
+      "normalized_text_hash": "523c6e4f8c4ea2d4a7457b27d393ad03c84439bc396de47dc48d4732149deb2a",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-4f54d1e5d9f7403a6d4efb0d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-ff48c54c7f248c925f78002d"
+    ],
+    "description": "ConocoPhillipsはMarathon Oilを全株式取引で買収し、米国内の低コスト供給資源とLNG事業に関係する資産を拡充した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ff48c54c7f248c925f78002d",
+      "evidence-c59ce00fbfbe8eff900eae95"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-ff48c54c7f248c925f78002d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-99e370033be8aedbfaecc8a1",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2024-11-22",
+    "target_company_id": "co-marathon-oil",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-282f9f96d0b2a4c028f62d22": "b89cbaf3ddc035c68bb145180faa364e15b55aa75e5a5240006cede0eabe661d",
+        "source-4f54d1e5d9f7403a6d4efb0d": "febd68650a022efe721dd0886283a380dc6dee1a9d1a9c14098b32a47992cfd6"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r9",
+      "rule_version": "50a7306d99b3b770b079ffc34831b1a5f1746d57ecc0f61b486e168edaf0c46b",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.conocophillips.com/news-media/story/conocophillips-to-acquire-marathon-oil-corporation-in-all-stock-transaction-provides-shareholder-distribution-update/",
+      "content_hash": "b89cbaf3ddc035c68bb145180faa364e15b55aa75e5a5240006cede0eabe661d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2024-05-29",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "ConocoPhillips",
+      "retrieved_at": "2026-09-26T13:44:10+00:00",
+      "source_id": "source-282f9f96d0b2a4c028f62d22",
+      "source_type": "official_newsroom",
+      "title": "ConocoPhillips to acquire Marathon Oil Corporation in all-stock transaction; provides shareholder distribution update | ConocoPhillips"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-marathon-oil-corporation/",
+      "content_hash": "febd68650a022efe721dd0886283a380dc6dee1a9d1a9c14098b32a47992cfd6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2024-11-22",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-11-22",
+      "publisher": "ConocoPhillips",
+      "retrieved_at": "2026-09-26T13:44:14+00:00",
+      "source_id": "source-4f54d1e5d9f7403a6d4efb0d",
+      "source_type": "official_newsroom",
+      "title": "ConocoPhillips completes acquisition of Marathon Oil Corporation | ConocoPhillips"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-a1a66f2064b5efdcc6dd693b",
+        "amount_kind": "other",
+        "conditions": "純有利子負債54億ドルを含む企業価値。現金支払額ではない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+        "payee_company_ids": [
+          "co-marathon-oil"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "22500000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "ConocoPhillipsはMarathon Oilを全株式取引で買収し、米国内の低コスト供給資源とLNG事業に関係する資産を拡充した。",
+    "direction": "directed",
+    "event_date": "2024-11-22",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-99e370033be8aedbfaecc8a1",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2024-11-22",
+    "target_company_id": "co-marathon-oil",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown",
+      "unsupported_kind"
+    ]
+  }
+}

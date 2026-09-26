@@ -1,0 +1,665 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ai21",
+      "country": null,
+      "display_name": "AI21 Labs",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-contextual-ai",
+      "country": null,
+      "display_name": "Contextual AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-crm",
+      "country": null,
+      "display_name": "Salesforce",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-essential-ai",
+      "country": null,
+      "display_name": "Essential AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001652044",
+      "company_id": "co-googl",
+      "country": null,
+      "display_name": "Alphabet Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Alphabet Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOG",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-google",
+      "country": null,
+      "display_name": "Google",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mistral",
+      "country": null,
+      "display_name": "Mistral AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nextera-energy",
+      "country": null,
+      "display_name": "NextEra Energy",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-wiz",
+      "country": null,
+      "display_name": "Wiz",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-google",
+    "country": null,
+    "display_name": "Google",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-0ed6f1685fd0f067e833c2eb",
+          "amount_kind": "investment_amount",
+          "conditions": "出資上限の発表。払込完了・具体的条件は未確認。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-ae3b6d3a103b4c1148a8fae4",
+            "evidence-e03c91652439763ec80de9d0"
+          ],
+          "max_value": "10000000000",
+          "min_value": null,
+          "original_text": "up to $10 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "up_to",
+          "scope": "NVIDIA単独の出資コミットメント上限。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-ae3b6d3a103b4c1148a8fae4",
+          "evidence-e03c91652439763ec80de9d0"
+        ],
+        "geography": "",
+        "headline": "Anthropicへの出資コミットメント",
+        "products": [
+          "AIモデル開発への出資"
+        ],
+        "scale": "",
+        "source_role": "出資コミットメントを発表",
+        "target_role": "資金調達先"
+      },
+      "description": "NVIDIAがAnthropicに最大100億米ドルの出資を約束すると発表。NVIDIA公式中国語版の金額・美元表記とAnthropic公式英語版の各社上限を照合。払込完了ではない。",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:02+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5e0d4e2ddc92f0f09d4e97f3"
+        ],
+        "geography": "",
+        "headline": "Google CloudへのBlackwell導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Googleは、Cloud顧客と社内チーム向けにBlackwellを導入する方針を表明。2024年の発表であり、現在の稼働状況を示す記録ではない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-df7df426425d2e51bfa4ec0e",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-google",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-b32331dbd435555ed1d9e002"
+        ],
+        "geography": "",
+        "headline": "Alphabetグループに所属",
+        "products": [
+          "企業グループ"
+        ],
+        "scale": "",
+        "source_role": "子会社",
+        "target_role": "親会社"
+      },
+      "description": "Google公式発表で、GoogleがAlphabetの子会社であることを確認。上場企業Alphabetと事業会社Googleを分けて表示する。",
+      "direction": "directed",
+      "event_date": "2026-03-11",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-35b485fef080503c4fa1186c",
+      "relationship_type": "group_member",
+      "source_company_id": "co-google",
+      "status_as_of": "2026-03-11",
+      "target_company_id": "co-googl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-6691777250de6047451ec2d7"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "AnthropicはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-65ffd6a857ff57460494f24b",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-7e65bb21f303e5667d225230"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "AI21 LabsはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-71f8ac871fc7215fa0a1e901",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-ai21",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e8325d3f8f5851ce685dac16"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "Contextual AIはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-d1709d5433048767799bb043",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-contextual-ai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-303f420590083188c90dc438"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "Essential AIはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-e905ff98be4f8d27fbda2b10",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-essential-ai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-217c00a3a41f9dadedd3d163"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "Mistral AIはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-0e1d24542f198848ff377a77",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-mistral",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-8456717f3f5253ad2c689f4a",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-1459 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 29.5 billion",
+          "payee_company_ids": [
+            "co-wiz"
+          ],
+          "payer_company_ids": [
+            "co-google"
+          ],
+          "qualifier": "exact",
+          "scope": "価格調整後・買収後報酬を除く取得対価",
+          "value": "29500000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-f7c601c8ff547a1119662a2d"
+        ],
+        "geography": "",
+        "headline": "Wiz買収の調整後取得対価",
+        "products": [
+          "クラウド・AIセキュリティ"
+        ],
+        "scale": "",
+        "source_role": "買収側",
+        "target_role": "買収対象"
+      },
+      "description": "2026年3月11日に完了したWiz買収。SEC注記の取得対価は価格調整後295億米ドルで、買収後報酬契約を除く。発表時の金額と会計上の取得対価を区別する。",
+      "direction": "directed",
+      "event_date": "2026-07-23",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:08+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-d2b2e96a1270019799251912",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-google",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-wiz",
+      "tier": {
+        "amount_id": "amount-8456717f3f5253ad2c689f4a",
+        "color": "#c49a24",
+        "currency": "USD",
+        "level": 4
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-759e3eee36b024dd03da4675",
+          "evidence-8229ac5d83b759cbda94d40e"
+        ],
+        "geography": "",
+        "headline": "Gemini・Agentforceとクラウド基盤の連携",
+        "products": [
+          "Gemini",
+          "Agentforce",
+          "Google Cloud",
+          "BigQuery"
+        ],
+        "scale": "",
+        "source_role": "AIモデル・クラウド基盤",
+        "target_role": "CRM・業務エージェント"
+      },
+      "description": "GoogleとSalesforceは提携を拡張し、AgentforceでのGemini利用、Google Cloud上のSalesforce展開、Data CloudとBigQueryのデータ連携を進める。2025年中の提供予定として発表された内容で、現在の稼働範囲は未確認。",
+      "direction": "undirected",
+      "event_date": "2025-02-24",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f1bdec1292b3ac4904bc9e90",
+      "relationship_type": "partnership",
+      "source_company_id": "co-google",
+      "status_as_of": "2025-02-24",
+      "target_company_id": "co-crm",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NextEra EnergyとGoogleは、再稼働を計画するDuane Arnold Energy Centerの電力をGoogleが購入する25年間のPPAと、米国内での新規原子力開発を検討する別契約を締結した。",
+      "direction": "directed",
+      "event_date": "2025-10-27",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-34a89eb06119182584fa1596",
+      "relationship_type": "supplier",
+      "source_company_id": "co-nextera-energy",
+      "status_as_of": "2025-10-27",
+      "target_company_id": "co-google",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2024-04-09",
+    "2025-02-24",
+    "2025-10-27",
+    "2026-03-11",
+    "2026-06-30"
+  ],
+  "total_counterparties": 10,
+  "total_peer_relationships": 2,
+  "total_relationships": 10
+}

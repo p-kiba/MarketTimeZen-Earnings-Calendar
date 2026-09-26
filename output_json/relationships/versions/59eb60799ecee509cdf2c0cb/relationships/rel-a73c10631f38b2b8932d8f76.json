@@ -1,0 +1,173 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-05-03",
+      "conditions": "2024-05-03に買収完了を発表。 取引対価は全株式で、Pioneer株1株につきExxonMobil株2.3234株。",
+      "deal_id": "deal-bbe74afc2a387cec4edfdd4c",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-bbe74afc2a387cec4edfdd4c",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-bbe74afc2a387cec4edfdd4c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-bbe74afc2a387cec4edfdd4c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-a73c10631f38b2b8932d8f76"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2e62748512c7c700285b8892": "e68e8ecc7a107bf6a4ace3eccc9415577394f7b2b7bfa874f8be736419503244"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r1; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r1",
+        "rule_version": "6fca5f3a4a5432bc43c60fc5f02efb981fb02ae55a3385e540fedf645aaa956d",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-bbe74afc2a387cec4edfdd4c",
+      "excerpt": "ExxonMobil completes acquisition",
+      "locator": "h1:3",
+      "normalized_text_hash": "cbd0b1f59c263bb60d91d549df0f9a1508fe54fce7fe8fa8fa9a4b972bb43fb4",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-2e62748512c7c700285b8892",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-bbe74afc2a387cec4edfdd4c"
+    ],
+    "description": "ExxonMobilはPioneer Natural Resourcesを株式交換で買収し、Permian Basinを中心とするPioneerの上流資産をExxonMobilの事業へ統合した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-bbe74afc2a387cec4edfdd4c"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-bbe74afc2a387cec4edfdd4c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-a73c10631f38b2b8932d8f76",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-xom",
+    "status_as_of": "2024-05-03",
+    "target_company_id": "co-pioneer-natural-resources",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2e62748512c7c700285b8892": "e68e8ecc7a107bf6a4ace3eccc9415577394f7b2b7bfa874f8be736419503244"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r1; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r1",
+      "rule_version": "6fca5f3a4a5432bc43c60fc5f02efb981fb02ae55a3385e540fedf645aaa956d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://corporate.exxonmobil.com/news/news-releases/2024/0503_exxonmobil-completes-acquisition-of-pioneer-natural-resources",
+      "content_hash": "e68e8ecc7a107bf6a4ace3eccc9415577394f7b2b7bfa874f8be736419503244",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2024-05-03",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-05-03",
+      "publisher": "ExxonMobil",
+      "retrieved_at": "2026-09-26T13:43:43+00:00",
+      "source_id": "source-2e62748512c7c700285b8892",
+      "source_type": "official_newsroom",
+      "title": "ExxonMobil completes acquisition of Pioneer Natural Resources | ExxonMobil"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "ExxonMobilはPioneer Natural Resourcesを株式交換で買収し、Permian Basinを中心とするPioneerの上流資産をExxonMobilの事業へ統合した。",
+    "direction": "directed",
+    "event_date": "2024-05-03",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-a73c10631f38b2b8932d8f76",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-xom",
+    "status_as_of": "2024-05-03",
+    "target_company_id": "co-pioneer-natural-resources",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

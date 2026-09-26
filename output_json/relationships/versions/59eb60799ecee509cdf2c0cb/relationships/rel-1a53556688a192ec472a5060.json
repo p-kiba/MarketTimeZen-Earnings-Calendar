@@ -1,0 +1,173 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "Wachovia普通株1株につきWells Fargo普通株0.1991株を交付。 Wachovia株主承認および通常の規制承認が必要。 発表ではFDICその他政府機関の金融支援を必要としないwhole company transactionと説明。",
+      "deal_id": "deal-64a4c6fc21c5a427e05fa559",
+      "detected_at": "2026-09-26T13:29:14+00:00",
+      "effective_date": null,
+      "event_id": "event-64a4c6fc21c5a427e05fa559",
+      "event_type": "acquisition_announced",
+      "evidence_ids": [
+        "evidence-64a4c6fc21c5a427e05fa559"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-64a4c6fc21c5a427e05fa559"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2008-10-03",
+      "relationship_ids": [
+        "rel-1a53556688a192ec472a5060"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3ab47b2bf581b85ad952556a": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d"
+        },
+        "reason": "Primary-source review of merged research record r57; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r57",
+        "rule_version": "89ef0a67dd1d30f2afb084491fe17a82227c155276f7cf101bb5fefa02313eea",
+        "verified_at": "2026-09-26T13:29:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-64a4c6fc21c5a427e05fa559",
+      "excerpt": "Wells Fargo & Company (NYSE:WFC) and Wachovia Corporation (NYSE:WB) said today they have signed a definitive agreement for the merger",
+      "locator": "p:12",
+      "normalized_text_hash": "acbac8d4191bb37c3cdab0edde9586643d3ce4bed0b76aef4f15011b68a4f373",
+      "section": "Official issuer disclosure",
+      "source_id": "source-3ab47b2bf581b85ad952556a",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-64a4c6fc21c5a427e05fa559"
+    ],
+    "description": "Wells FargoがWachoviaの全株式・全事業・債務・預金を株式交換で取得する合併契約を締結した。取引は発表時点で株主・規制当局の承認待ちだった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-64a4c6fc21c5a427e05fa559"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "latest_event_ids": [
+      "event-64a4c6fc21c5a427e05fa559"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-1a53556688a192ec472a5060",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-wells-fargo-company",
+    "status_as_of": "2008-10-03",
+    "target_company_id": "co-wachovia-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3ab47b2bf581b85ad952556a": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d"
+      },
+      "reason": "Primary-source review of merged research record r57; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r57",
+      "rule_version": "89ef0a67dd1d30f2afb084491fe17a82227c155276f7cf101bb5fefa02313eea",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000898822-08-000943",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/72971/000089882208000943/exhibit991.htm",
+      "content_hash": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": "2008-10-03",
+      "filing_cik": "0000072971",
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-3ab47b2bf581b85ad952556a",
+      "source_type": "sec_filing",
+      "title": "exhibit991.htm -- Converted by SEC Publisher, created by BCL Technologies Inc., for SEC Filing"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Wells FargoがWachoviaの全株式・全事業・債務・預金を株式交換で取得する合併契約を締結した。取引は発表時点で株主・規制当局の承認待ちだった。",
+    "direction": "directed",
+    "event_date": "2008-10-03",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-1a53556688a192ec472a5060",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-wells-fargo-company",
+    "status_as_of": "2008-10-03",
+    "target_company_id": "co-wachovia-corporation",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

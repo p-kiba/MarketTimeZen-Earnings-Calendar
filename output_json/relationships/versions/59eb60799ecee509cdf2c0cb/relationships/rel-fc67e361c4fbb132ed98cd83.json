@@ -1,0 +1,432 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": "2022-05-26",
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-fbf2cb9a06e85e066986618c",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": "2023-11-22",
+      "event_id": "event-fbf2cb9a06e85e066986618c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fbf2cb9a06e85e066986618c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2023-11-22",
+      "relationship_ids": [
+        "rel-fc67e361c4fbb132ed98cd83"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9377e59c45f1e1b3e5110b09": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-9377e59c45f1e1b3e5110b09",
+        "rule_version": "f3ba965f2df8eda004364fa78d0bc712fbbcb034537c3963d469bbd93fb479aa",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    },
+    {
+      "agreement_date": "2022-05-26",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d7156390211ae778d048efbf",
+          "amount_kind": "purchase_price",
+          "conditions": "完了済み買収の会計上の取得対価総額。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "U.S. dollars",
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "86,290",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-avgo"
+          ],
+          "qualifier": "exact",
+          "scope": "SEC 2024年10-K注記4の取得対価総額（現金・株式公正価値等、取得現金控除前）。全額現金ではない。",
+          "value": "86290000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "取得現金控除後の796.48億米ドル、引受債務、借入調達額とは区別。株主への現金・株式等の対価を含み、VMwareへの出資額とは扱わない。",
+      "deal_id": "deal-fbf2cb9a06e85e066986618c",
+      "detected_at": "2026-09-26T07:05:02+00:00",
+      "effective_date": "2023-11-22",
+      "event_id": "event-962d7d6ffc26df2eb9914d60",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-d34b4ee9f88824615bc20324",
+        "evidence-5d6039153c28f512d7d90dcf",
+        "evidence-9f84f3aa97ab1b71439dc0bc",
+        "evidence-b9af734b05a323259a5d208b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2024-12-20",
+      "relationship_ids": [
+        "rel-fc67e361c4fbb132ed98cd83"
+      ],
+      "supersedes_event_id": "event-fbf2cb9a06e85e066986618c",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+        },
+        "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-vmware-total",
+        "rule_version": "a1c3cfbf4677fe75171415fd72cf56814e47509391d4a86761e373c819bd2a8a",
+        "verified_at": "2026-09-26T07:05:02+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5d6039153c28f512d7d90dcf",
+      "excerpt": "VMware Merger",
+      "locator": "sec-div:1264",
+      "normalized_text_hash": "fe868070014d948f208c518aaa5b13e17beafdd85f2b6e482fb04aa004d77ab5",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9f84f3aa97ab1b71439dc0bc",
+      "excerpt": "U.S. dollars",
+      "locator": "sec-div:843",
+      "normalized_text_hash": "302c4150126b812217e0be9d899a311709943a3a4407eac65c7b61d626464ab6",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b9af734b05a323259a5d208b",
+      "excerpt": "(In millions)",
+      "locator": "tr:357",
+      "normalized_text_hash": "6b3e1d7eabe42fcc482eff13d49f7aedba6a89e714ea73c7fa879f72c0d6a2c7",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d34b4ee9f88824615bc20324",
+      "excerpt": "Total purchase consideration",
+      "locator": "tr:385",
+      "normalized_text_hash": "b13e7cea5ad18321d8ab8593d7e706cfaf47c0cbc2e92bf3ebd4423617dbe49f",
+      "section": "Official disclosure: business context",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fbf2cb9a06e85e066986618c",
+      "excerpt": "VMware",
+      "locator": "sec-div:67",
+      "normalized_text_hash": "06c82631eca64b52f2340f89be5b1ba1fec13a10732dd3e2597a9abd8b264319",
+      "section": "Official disclosure: business context",
+      "source_id": "source-9377e59c45f1e1b3e5110b09",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-d34b4ee9f88824615bc20324",
+        "evidence-5d6039153c28f512d7d90dcf",
+        "evidence-9f84f3aa97ab1b71439dc0bc",
+        "evidence-b9af734b05a323259a5d208b"
+      ],
+      "geography": "",
+      "headline": "VMware買収の完了",
+      "products": [
+        "VMware事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-fbf2cb9a06e85e066986618c"
+    ],
+    "description": "BroadcomによるVMware買収は2023年11月22日に完了。2024年10-K注記4の取得対価総額は862.90億米ドル。現金と株式公正価値等を含む会計上の総対価で、全額現金支払ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d34b4ee9f88824615bc20324",
+      "evidence-5d6039153c28f512d7d90dcf",
+      "evidence-9f84f3aa97ab1b71439dc0bc",
+      "evidence-b9af734b05a323259a5d208b"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T07:05:02+00:00",
+    "latest_event_ids": [
+      "event-962d7d6ffc26df2eb9914d60"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+      "reviewer": null,
+      "rule_id": "amount-review-20260926-vmware-total",
+      "rule_version": "a1c3cfbf4677fe75171415fd72cf56814e47509391d4a86761e373c819bd2a8a",
+      "verified_at": "2026-09-26T07:05:02+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001730168-24-000139",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+      "content_hash": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": "2024-12-20",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T06:58:19+00:00",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "source_type": "sec_filing",
+      "title": "avgo-20241103"
+    },
+    {
+      "accession_number": "0001140361-23-054354",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
+      "content_hash": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2023-11-22",
+      "filing_cik": "0001730168",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-avgo",
+      "retrieved_at": "2026-09-26T06:09:51+00:00",
+      "source_id": "source-9377e59c45f1e1b3e5110b09",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-d7156390211ae778d048efbf",
+        "amount_kind": "purchase_price",
+        "conditions": "完了済み買収の会計上の取得対価総額。",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "U.S. dollars",
+        "evidence_ids": [
+          "evidence-d34b4ee9f88824615bc20324",
+          "evidence-5d6039153c28f512d7d90dcf",
+          "evidence-9f84f3aa97ab1b71439dc0bc",
+          "evidence-b9af734b05a323259a5d208b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "86,290",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-avgo"
+        ],
+        "qualifier": "exact",
+        "scope": "SEC 2024年10-K注記4の取得対価総額（現金・株式公正価値等、取得現金控除前）。全額現金ではない。",
+        "value": "86290000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-d34b4ee9f88824615bc20324",
+        "evidence-5d6039153c28f512d7d90dcf",
+        "evidence-9f84f3aa97ab1b71439dc0bc",
+        "evidence-b9af734b05a323259a5d208b"
+      ],
+      "geography": "",
+      "headline": "VMware買収の完了",
+      "products": [
+        "VMware事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "BroadcomによるVMware買収は2023年11月22日に完了。2024年10-K注記4の取得対価総額は862.90億米ドル。現金と株式公正価値等を含む会計上の総対価で、全額現金支払ではない。",
+    "direction": "directed",
+    "event_date": "2024-12-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:05:02+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "tier": {
+      "amount_id": "amount-d7156390211ae778d048efbf",
+      "color": "#e34b55",
+      "currency": "USD",
+      "level": 5
+    },
+    "tier_reasons": []
+  }
+}

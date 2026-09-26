@@ -1,0 +1,79 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-arista-networks-inc",
+      "country": null,
+      "display_name": "Arista Networks, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-big-switch-networks-inc",
+      "country": null,
+      "display_name": "Big Switch Networks, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-big-switch-networks-inc",
+    "country": null,
+    "display_name": "Big Switch Networks, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "AristaがBig Switch Networksを取得し、CloudVisionとDANZを通じたデータセンター向けネットワーク監視、SDN、可観測性機能を強化。金額は取得可能な一次資料では確認できなかったため登録しない。",
+      "direction": "directed",
+      "event_date": "2021-02-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-71831ef3a457362caaf267b3",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-arista-networks-inc",
+      "status_as_of": "2021-02-19",
+      "target_company_id": "co-big-switch-networks-inc",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-02-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

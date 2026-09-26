@@ -1,0 +1,202 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2018-07-17",
+      "conditions": "2018年の発表時点の情報。現在も同条件で有効とはみなさない。契約総額は資料に記載なし。",
+      "deal_id": "deal-e4e0f2a2c021d776c8effe37",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": null,
+      "event_id": "event-e4e0f2a2c021d776c8effe37",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e4e0f2a2c021d776c8effe37"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e4e0f2a2c021d776c8effe37"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e034040a21765633a2b51199"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "years",
+        "duration_value": 5,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-e4e0f2a2c021d776c8effe37"
+        ],
+        "renewal": null,
+        "start_basis": "2018年7月発表の契約期間。正確な起算日と更新は未確認。",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-d14f7bb565a8f4d556900419": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-msft-co-wmt-service_provider",
+        "rule_version": "71a28f38f33d46010d004787bf287fdbb464c754c48bc1170f5d3255e9f2822b",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e4e0f2a2c021d776c8effe37",
+      "excerpt": "five-year agreement",
+      "locator": "p:9",
+      "normalized_text_hash": "c916743e813733652a072ca53cf0b251af361db1842c71b40c8bb7997973792e",
+      "section": "Verified contract and business scope",
+      "source_id": "source-d14f7bb565a8f4d556900419",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-e4e0f2a2c021d776c8effe37"
+      ],
+      "geography": "",
+      "headline": "Azure・Microsoft 365導入",
+      "products": [
+        "Microsoft Azure",
+        "Microsoft 365"
+      ],
+      "scale": "",
+      "source_role": "クラウド提供",
+      "target_role": "全社利用・移行"
+    },
+    "deal_ids": [
+      "deal-e4e0f2a2c021d776c8effe37"
+    ],
+    "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-e4e0f2a2c021d776c8effe37"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-e4e0f2a2c021d776c8effe37"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-e034040a21765633a2b51199",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2018-07-17",
+    "target_company_id": "co-wmt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d14f7bb565a8f4d556900419": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-msft-co-wmt-service_provider",
+      "rule_version": "71a28f38f33d46010d004787bf287fdbb464c754c48bc1170f5d3255e9f2822b",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://corporate.walmart.com/news/2018/07/17/walmart-establishes-strategic-partnership-with-microsoft-to-further-accelerate-digital-innovation-in-retail",
+      "content_hash": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2018-07-17",
+      "publisher": "corporate.walmart.com",
+      "retrieved_at": "2026-09-26T08:05:25+00:00",
+      "source_id": "source-d14f7bb565a8f4d556900419",
+      "source_type": "official_newsroom",
+      "title": "Walmart establishes strategic partnership with Microsoft to further accelerate digital innovation in retail"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-e4e0f2a2c021d776c8effe37"
+      ],
+      "geography": "",
+      "headline": "Azure・Microsoft 365導入",
+      "products": [
+        "Microsoft Azure",
+        "Microsoft 365"
+      ],
+      "scale": "",
+      "source_role": "クラウド提供",
+      "target_role": "全社利用・移行"
+    },
+    "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+    "direction": "directed",
+    "event_date": "2018-07-17",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-e034040a21765633a2b51199",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2018-07-17",
+    "target_company_id": "co-wmt",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-att",
+      "country": null,
+      "display_name": "AT&T",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001341439",
+      "company_id": "co-orcl",
+      "country": null,
+      "display_name": "Oracle",
+      "entity_status": "resolved",
+      "legal_name": "ORACLE CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL-PD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-att",
+    "country": null,
+    "display_name": "AT&T",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "geography": "",
+        "headline": "IoT回線・ネットワークAPIを提供",
+        "products": [
+          "IoT connectivity",
+          "ネットワークAPI",
+          "Oracle ECP"
+        ],
+        "scale": "",
+        "source_role": "AT&Tが通信接続・APIを提供",
+        "target_role": "OracleがECPに統合"
+      },
+      "description": "OracleのEnterprise Communications PlatformにAT&TのIoT接続とネットワークAPIを組み込み、業界向けクラウドアプリから機器を接続・管理。2024年発表では米国内のOCIリージョンで利用可能。",
+      "direction": "directed",
+      "event_date": "2024-08-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-e3a926dc98539d5a85d9b0d7",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-att",
+      "status_as_of": "2024-08-12",
+      "target_company_id": "co-orcl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-08-12"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

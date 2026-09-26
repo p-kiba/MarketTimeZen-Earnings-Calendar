@@ -1,0 +1,121 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pfe",
+      "country": null,
+      "display_name": "Pfizer Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-12-14",
+      "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+          "symbol": "PFE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-seagen",
+      "country": null,
+      "display_name": "Seagen Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-seagen",
+    "country": null,
+    "display_name": "Seagen Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-aca745be5277652bec7ea3d1",
+          "amount_kind": "purchase_price",
+          "conditions": "買収完了時にPfizerが公表した総企業価値。1株229ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-ccf247b0dc28a9d1f3bac9a9"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$43 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-pfe"
+          ],
+          "qualifier": "approximately",
+          "scope": "買収完了時にPfizerが公表した総企業価値。1株229ドルの現金対価。",
+          "value": "43000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-ccf247b0dc28a9d1f3bac9a9"
+        ],
+        "geography": "",
+        "headline": "抗体薬物複合体・がん治療薬事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "PfizerはSeagenを買収し、Seagenの抗体薬物複合体（ADC）技術・がん治療薬ポートフォリオをPfizerのオンコロジー事業へ取り込んだ。",
+      "direction": "directed",
+      "event_date": "2023-12-14",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-267801dcd55b1249461af1dd",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2023-12-14",
+      "target_company_id": "co-seagen",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-12-14"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

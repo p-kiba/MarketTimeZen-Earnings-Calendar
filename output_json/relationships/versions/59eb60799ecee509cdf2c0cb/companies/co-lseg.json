@@ -1,0 +1,162 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lseg",
+      "country": null,
+      "display_name": "LSEG",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-lseg",
+    "country": null,
+    "display_name": "LSEG",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-6eb598e0a621bdb5528e5490",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "max_value": null,
+          "min_value": "2800000000",
+          "original_text": "$2.8 billion",
+          "payee_company_ids": [
+            "co-msft"
+          ],
+          "payer_company_ids": [
+            "co-lseg"
+          ],
+          "qualifier": "at_least",
+          "scope": "契約期間中の最低クラウド関連支出。上限・確定総額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-cbf00286cfb6f009ad0a0b1e",
+          "evidence-6b63c148bb11ebc586d24ccb",
+          "evidence-176d5d66b63e48f05ecd342b"
+        ],
+        "geography": "",
+        "headline": "金融データ基盤の10年クラウド契約",
+        "products": [
+          "Microsoft Cloud",
+          "Azure",
+          "金融データ基盤"
+        ],
+        "scale": "",
+        "source_role": "クラウド基盤提供",
+        "target_role": "金融データ・分析基盤の移行"
+      },
+      "description": "LSEGがデータ基盤等をMicrosoft Cloudへ移行する10年間の商業契約。最低クラウド関連支出は28億米ドル。公式2022年決算資料の注記17でUS$表記を確認。最終総額や上限ではない。",
+      "direction": "directed",
+      "event_date": "2022-12-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:00+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-001b2b64cdceb319303838a7",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2022-12-12",
+      "target_company_id": "co-lseg",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "LSEG and Microsoft launch 10-year strategic partnership for next-generation data and analytics and cloud infrastructure solutions; Microsoft to make equity investment in LSEG through acquisition of shares | LSEG",
+      "direction": "directed",
+      "event_date": "2022-12-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:11:11+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-fcf208fb782c7b7c3136fe14",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2022-12-12",
+      "target_company_id": "co-lseg",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-12-12"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

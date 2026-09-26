@@ -1,0 +1,266 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3654847e90c5a459be858dd1",
+          "amount_kind": "purchase_price",
+          "conditions": "契約上の一定の通常の購入価格調整の対象。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4,340,000,000",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-collaborative-care"
+          ],
+          "qualifier": "exact",
+          "scope": "契約上の一定の通常の購入価格調整の対象。",
+          "value": "4340000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "買主はCollaborative Care Holdings, LLCで、資料上Optumの完全子会社。親会社名への置換はしていない。 UnitedHealth Group Incorporatedは購入契約のSection 9.3および9.18に限り当事者として記載。",
+      "deal_id": "deal-943e64d0ce8adea76127bdf8",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2019-06-19",
+      "event_id": "event-943e64d0ce8adea76127bdf8",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-943e64d0ce8adea76127bdf8",
+        "evidence-397110c63b46c53abd1ef617"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2019-06-19",
+      "relationship_ids": [
+        "rel-d3e4d64cb3e206074b6b4dae"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a2f26d63620ff3373f6d3981": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r12",
+        "rule_version": "895cd32af44185fd6f30c0df7ab487b6e50c2b986f4ad73436211a5f757992e1",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-397110c63b46c53abd1ef617",
+      "excerpt": "$4,340,000,000",
+      "locator": "sec-div:76",
+      "normalized_text_hash": "1fe7200e58e8a0199209c2b8a476fff1add20ece857a86ada0cec6f3181c2d1c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-a2f26d63620ff3373f6d3981",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-943e64d0ce8adea76127bdf8",
+      "excerpt": "disposition",
+      "locator": "sec-div:75",
+      "normalized_text_hash": "83ecb1cbb38ab07cbf6ecbdaf1418430f86783cce722e1c6cfc2c6bade7965bf",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-a2f26d63620ff3373f6d3981",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-943e64d0ce8adea76127bdf8",
+        "evidence-397110c63b46c53abd1ef617"
+      ],
+      "geography": "",
+      "headline": "DaVita Medical Group事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-943e64d0ce8adea76127bdf8"
+    ],
+    "description": "Optum傘下のCollaborative Care Holdings, LLCはDaVita Medical Holdings, LLCの全持分を取得し、DaVita Medical Group事業を買収した。UnitedHealth Group Incorporatedは購入契約の特定条項について当事者として記載されている。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-943e64d0ce8adea76127bdf8",
+      "evidence-397110c63b46c53abd1ef617"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-943e64d0ce8adea76127bdf8"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d3e4d64cb3e206074b6b4dae",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-collaborative-care",
+    "status_as_of": "2019-06-19",
+    "target_company_id": "co-davita-medical",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a2f26d63620ff3373f6d3981": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r12",
+      "rule_version": "895cd32af44185fd6f30c0df7ab487b6e50c2b986f4ad73436211a5f757992e1",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000927066-19-000108",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/927066/000092706619000108/dmgsale-8k.htm",
+      "content_hash": "990a5fb38770dbb4938fab26426ed7a833e133704896aa57173a55e20f036923",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": "2019-06-19",
+      "filing_cik": "0000927066",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-a2f26d63620ff3373f6d3981",
+      "source_type": "sec_filing",
+      "title": "Document"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-3654847e90c5a459be858dd1",
+        "amount_kind": "purchase_price",
+        "conditions": "契約上の一定の通常の購入価格調整の対象。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-943e64d0ce8adea76127bdf8",
+          "evidence-397110c63b46c53abd1ef617"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$4,340,000,000",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-collaborative-care"
+        ],
+        "qualifier": "exact",
+        "scope": "契約上の一定の通常の購入価格調整の対象。",
+        "value": "4340000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-943e64d0ce8adea76127bdf8",
+        "evidence-397110c63b46c53abd1ef617"
+      ],
+      "geography": "",
+      "headline": "DaVita Medical Group事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "Optum傘下のCollaborative Care Holdings, LLCはDaVita Medical Holdings, LLCの全持分を取得し、DaVita Medical Group事業を買収した。UnitedHealth Group Incorporatedは購入契約の特定条項について当事者として記載されている。",
+    "direction": "directed",
+    "event_date": "2019-06-19",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d3e4d64cb3e206074b6b4dae",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-collaborative-care",
+    "status_as_of": "2019-06-19",
+    "target_company_id": "co-davita-medical",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

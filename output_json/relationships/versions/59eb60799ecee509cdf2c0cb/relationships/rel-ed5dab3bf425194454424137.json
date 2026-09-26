@@ -1,0 +1,244 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-11-19",
+      "conditions": "合弁設立・将来の事業開始と展開計画。個社別の投資額・購入額は記載なし。",
+      "deal_id": "deal-0633fe2096c35540c26d5e37",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-0633fe2096c35540c26d5e37",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-0633fe2096c35540c26d5e37",
+        "evidence-c637a51b5fe0e48e701e7d55",
+        "evidence-5d8c610ba3673eb7b0e5c546"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0633fe2096c35540c26d5e37",
+            "evidence-c637a51b5fe0e48e701e7d55",
+            "evidence-5d8c610ba3673eb7b0e5c546"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ed5dab3bf425194454424137"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-cisco-amd",
+        "rule_version": "a3d6ea57baa6f05c57fef738f9897e6f31c50e0a56ae468a46911d3bc2644e87",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0633fe2096c35540c26d5e37",
+      "excerpt": "AMD, Cisco and HUMAIN",
+      "locator": "p:6",
+      "normalized_text_hash": "92cd2d635f0a6b4c3f8dd58c713b6abe05a7557cc1de35384fdfccc02bc42492",
+      "section": "Primary disclosure: p:6",
+      "source_id": "source-d3bab3b4fe0c0a4238d65460",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-5d8c610ba3673eb7b0e5c546",
+      "excerpt": "The compan",
+      "locator": "p:7",
+      "normalized_text_hash": "49394ece81b28dac24e3ba5031d6366997b559936571d2dbef3e7c6849627b0e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-d3bab3b4fe0c0a4238d65460",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c637a51b5fe0e48e701e7d55",
+      "excerpt": "WASHINGTON",
+      "locator": "p:5",
+      "normalized_text_hash": "c1076abb5127b43cd131a6e863475426c3903b7807a4780a5eda082a5d9b00bf",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-d3bab3b4fe0c0a4238d65460",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-0633fe2096c35540c26d5e37",
+        "evidence-c637a51b5fe0e48e701e7d55",
+        "evidence-5d8c610ba3673eb7b0e5c546"
+      ],
+      "geography": "Saudi Arabia",
+      "headline": "GPU・ネットワークでAI基盤を共同構築",
+      "products": [
+        "AMD Instinct MI450",
+        "Cisco critical infrastructure",
+        "AIデータセンター"
+      ],
+      "scale": "初期100MW、2030年まで最大1GWの計画",
+      "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+      "target_role": "AMDがGPUを担当"
+    },
+    "deal_ids": [
+      "deal-0633fe2096c35540c26d5e37"
+    ],
+    "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-0633fe2096c35540c26d5e37",
+      "evidence-c637a51b5fe0e48e701e7d55",
+      "evidence-5d8c610ba3673eb7b0e5c546"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-0633fe2096c35540c26d5e37"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-ed5dab3bf425194454424137",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2025-11-19",
+    "target_company_id": "co-amd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-amd",
+      "rule_version": "a3d6ea57baa6f05c57fef738f9897e6f31c50e0a56ae468a46911d3bc2644e87",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m11/amd-cisco-and-humain-to-form-joint-venture-to-deliver-world-leading-ai-infrastructure.html",
+      "content_hash": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-11-19",
+      "publisher": "newsroom.cisco.com",
+      "retrieved_at": "2026-09-26T15:00:35+00:00",
+      "source_id": "source-d3bab3b4fe0c0a4238d65460",
+      "source_type": "official_newsroom",
+      "title": "AMD, Cisco, and HUMAIN to form joint venture to deliver world-leading AI infrastructure"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-0633fe2096c35540c26d5e37",
+        "evidence-c637a51b5fe0e48e701e7d55",
+        "evidence-5d8c610ba3673eb7b0e5c546"
+      ],
+      "geography": "Saudi Arabia",
+      "headline": "GPU・ネットワークでAI基盤を共同構築",
+      "products": [
+        "AMD Instinct MI450",
+        "Cisco critical infrastructure",
+        "AIデータセンター"
+      ],
+      "scale": "初期100MW、2030年まで最大1GWの計画",
+      "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+      "target_role": "AMDがGPUを担当"
+    },
+    "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+    "direction": "undirected",
+    "event_date": "2025-11-19",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-ed5dab3bf425194454424137",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2025-11-19",
+    "target_company_id": "co-amd",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

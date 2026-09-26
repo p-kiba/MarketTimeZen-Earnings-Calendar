@@ -10,6 +10,7 @@ from .config import settings
 def extract_pending(root=ROOT):
     root=Path(root);master=load_master(root);state=read(root/'relationships_data/state/processed_documents.json');count=0
     overrides=read(root/'relationships_data/overrides.json',{'decisions':{},'merges':{}})
+    cleared=overrides.get('cleared_candidates',{})
     existing={r['relationship_id']:r for r in master['relationships']}
     for source in master['sources']:
         sid=source['source_id'];item=state['documents'].get(sid,{})
@@ -22,11 +23,11 @@ def extract_pending(root=ROOT):
         # documents whose cached JSON contained only a related-story card.
         parsed=parse_document(raw_path.read_bytes());write(path,parsed)
         candidates=extract(source,parsed,master['companies'],read(root/'relationships_config/aliases.json',{}))
-        actionable=[v for v in candidates if v[0]['relationship_id'] not in overrides['decisions'] and not (v[0]['relationship_id'] in existing and existing[v[0]['relationship_id']]['verification'] in APPROVED)]
+        actionable=[v for v in candidates if v[0]['relationship_id'] not in overrides['decisions'] and v[0]['relationship_id'] not in cleared and not (v[0]['relationship_id'] in existing and existing[v[0]['relationship_id']]['verification'] in APPROVED)]
         if count+len(actionable)>settings(root)['max_candidates_per_run']:continue
         for rel,event,evidence in candidates:
             rid=rel['relationship_id']
-            if rid in existing and (existing[rid]['verification'] in APPROVED or rid in overrides['decisions']):continue
+            if rid in existing and (existing[rid]['verification'] in APPROVED or rid in overrides['decisions'] or rid in cleared):continue
             for table,key,row in (('relationships','relationship_id',rel),('events','event_id',event),('evidence','evidence_id',evidence)):
                 old=next((r for r in master[table] if r[key]==row[key]),None)
                 if old and key=='relationship_id':row['first_observed_at']=old['first_observed_at']

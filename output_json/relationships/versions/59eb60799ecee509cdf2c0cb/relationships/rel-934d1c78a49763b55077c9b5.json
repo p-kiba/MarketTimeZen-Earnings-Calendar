@@ -1,0 +1,344 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-73cdc200ae034d0b76408289",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の買収価格。後続業績発表では取得現金控除後の買収額としても90億ドルと説明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.0 billion",
+          "payee_company_ids": [
+            "co-sikorsky-aircraft"
+          ],
+          "payer_company_ids": [
+            "co-lockheed-martin"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-3b2f6c05417ad51b9f31eace",
+          "amount_kind": "other",
+          "conditions": "税効果を考慮した実質的な会社説明上の値であり、90億ドルへ加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$7.1 billion",
+          "payee_company_ids": [
+            "co-sikorsky-aircraft"
+          ],
+          "payer_company_ids": [
+            "co-lockheed-martin"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "7100000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2015-11-06",
+      "conditions": "2015-11-06に買収完了。 契約発表では税務上の便益を考慮すると実質約71億ドルと説明。",
+      "deal_id": "deal-a65a65f39768d12b80151fa2",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-a65a65f39768d12b80151fa2",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-a65a65f39768d12b80151fa2",
+        "evidence-1fcfd03039e046eaad91d3f0",
+        "evidence-67f67b0907c4571e7c3a7346"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-934d1c78a49763b55077c9b5"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-0d64b1d9986e089f8ffc80a2": "ffe6192c9a98cbd09a550705c2f0693bcbbd88cd47f1a7c2d549f677ff833381",
+          "source-239c040e683df3f331a5589a": "173ee2690b921ba6aeb5c9cd3fe832ac33bc63c1763c43373afc95a22cd119e7"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r18",
+        "rule_version": "d6ca53edf1361e588a8bd465f42a7cdc2d53b2483348fb87cfa6d4165006d683",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1fcfd03039e046eaad91d3f0",
+      "excerpt": "$9.0 billion",
+      "locator": "p:2",
+      "normalized_text_hash": "5fa8cd0d116567340c168f81abba3f5c7b0ecea12ef04d0a0ab491c8df037ffa",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-0d64b1d9986e089f8ffc80a2",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-67f67b0907c4571e7c3a7346",
+      "excerpt": "$7.1 billion",
+      "locator": "p:2",
+      "normalized_text_hash": "cd17a975b08b21899ed1527fc66c437315b626634881e72997734a7c4354ffa3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-0d64b1d9986e089f8ffc80a2",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a65a65f39768d12b80151fa2",
+      "excerpt": "BETHESDA, Md. ,",
+      "locator": "p:2",
+      "normalized_text_hash": "9c122e3b6802cc4be1580720aa16f59c808179e7be61e88651f61a586a6d38de",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-239c040e683df3f331a5589a",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-a65a65f39768d12b80151fa2"
+    ],
+    "description": "Lockheed MartinはUnited TechnologiesからSikorsky Aircraftを買収し、軍用・民間ヘリコプター事業をLockheed Martinへ統合した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a65a65f39768d12b80151fa2",
+      "evidence-1fcfd03039e046eaad91d3f0",
+      "evidence-67f67b0907c4571e7c3a7346"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-a65a65f39768d12b80151fa2"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-934d1c78a49763b55077c9b5",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lockheed-martin",
+    "status_as_of": "2015-11-06",
+    "target_company_id": "co-sikorsky-aircraft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0d64b1d9986e089f8ffc80a2": "ffe6192c9a98cbd09a550705c2f0693bcbbd88cd47f1a7c2d549f677ff833381",
+        "source-239c040e683df3f331a5589a": "173ee2690b921ba6aeb5c9cd3fe832ac33bc63c1763c43373afc95a22cd119e7"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r18",
+      "rule_version": "d6ca53edf1361e588a8bd465f42a7cdc2d53b2483348fb87cfa6d4165006d683",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.lockheedmartin.com/2015-07-20-Lockheed-Martin-to-Acquire-Sikorsky-Aircraft-and-Conduct-Strategic-Review-of-IT-and-Technical-Services-Businesses",
+      "content_hash": "ffe6192c9a98cbd09a550705c2f0693bcbbd88cd47f1a7c2d549f677ff833381",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2015-07-20",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "Lockheed Martin",
+      "retrieved_at": "2026-09-26T13:48:27+00:00",
+      "source_id": "source-0d64b1d9986e089f8ffc80a2",
+      "source_type": "official_newsroom",
+      "title": "Lockheed Martin Corporation | Lockheed Martin"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.lockheedmartin.com/2015-11-06-Lockheed-Martin-Completes-Acquisition-of-Sikorsky-Aircraft",
+      "content_hash": "173ee2690b921ba6aeb5c9cd3fe832ac33bc63c1763c43373afc95a22cd119e7",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2015-11-06",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2015-11-06",
+      "publisher": "Lockheed Martin",
+      "retrieved_at": "2026-09-26T13:48:31+00:00",
+      "source_id": "source-239c040e683df3f331a5589a",
+      "source_type": "official_newsroom",
+      "title": "Lockheed Martin Corporation | Lockheed Martin"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-73cdc200ae034d0b76408289",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時の買収価格。後続業績発表では取得現金控除後の買収額としても90億ドルと説明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$9.0 billion",
+        "payee_company_ids": [
+          "co-sikorsky-aircraft"
+        ],
+        "payer_company_ids": [
+          "co-lockheed-martin"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "9000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-3b2f6c05417ad51b9f31eace",
+        "amount_kind": "other",
+        "conditions": "税効果を考慮した実質的な会社説明上の値であり、90億ドルへ加算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$7.1 billion",
+        "payee_company_ids": [
+          "co-sikorsky-aircraft"
+        ],
+        "payer_company_ids": [
+          "co-lockheed-martin"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "7100000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Lockheed MartinはUnited TechnologiesからSikorsky Aircraftを買収し、軍用・民間ヘリコプター事業をLockheed Martinへ統合した。",
+    "direction": "directed",
+    "event_date": "2015-11-06",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-934d1c78a49763b55077c9b5",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lockheed-martin",
+    "status_as_of": "2015-11-06",
+    "target_company_id": "co-sikorsky-aircraft",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "contingency_unknown",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

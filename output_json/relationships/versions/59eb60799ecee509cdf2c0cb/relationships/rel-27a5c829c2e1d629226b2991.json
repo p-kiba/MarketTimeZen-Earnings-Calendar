@@ -1,0 +1,286 @@
+{
+  "build_id": "59eb60799ecee509cdf2c0cb",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-07-30",
+      "conditions": "",
+      "deal_id": "deal-8bd17c18e0fa2c9d79475e86",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-8bd17c18e0fa2c9d79475e86",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-8bd17c18e0fa2c9d79475e86",
+        "evidence-9c8e4504b013da9115dbfd84",
+        "evidence-9efc770b4149da3238f8b9f7",
+        "evidence-2c96eb5b72c9cbc29c4d74d4",
+        "evidence-0e1c9087ec38e7379996e6c3"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8bd17c18e0fa2c9d79475e86",
+            "evidence-9c8e4504b013da9115dbfd84",
+            "evidence-9efc770b4149da3238f8b9f7",
+            "evidence-2c96eb5b72c9cbc29c4d74d4",
+            "evidence-0e1c9087ec38e7379996e6c3"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-27a5c829c2e1d629226b2991"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-10e0a75f5df0979f93998825": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-10e0a75f5df0979f93998825",
+        "rule_version": "1397071513da6ee5007954e8894d758d127265f9fae3b9696526ce1c08267da1",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0e1c9087ec38e7379996e6c3",
+      "excerpt": "2026",
+      "locator": "p:60",
+      "normalized_text_hash": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-2c96eb5b72c9cbc29c4d74d4",
+      "excerpt": "credit cards",
+      "locator": "li:59",
+      "normalized_text_hash": "35b7961fa9c6399019fb08e2ddce8ee77ba58bdf21c16a3755b80dd9fb59101f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8bd17c18e0fa2c9d79475e86",
+      "excerpt": "strategic partnership",
+      "locator": "p:55",
+      "normalized_text_hash": "13733f9f48adbb1c34e46b03f300a662a8663ffe24268264db08e347285a34c0",
+      "section": "Official disclosure: business context",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9c8e4504b013da9115dbfd84",
+      "excerpt": "API",
+      "locator": "li:57",
+      "normalized_text_hash": "e3af609e5881b83e0dd75a520c2468b37e986feaa6c216a7c704151da2097dcb",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9efc770b4149da3238f8b9f7",
+      "excerpt": "Ultimate Rewards",
+      "locator": "li:58",
+      "normalized_text_hash": "c598c6c25e5617ed821d667e68cc27c51e3a186fe5b525ace9d45fd44242dcbc",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-8bd17c18e0fa2c9d79475e86",
+        "evidence-9c8e4504b013da9115dbfd84",
+        "evidence-9efc770b4149da3238f8b9f7",
+        "evidence-2c96eb5b72c9cbc29c4d74d4",
+        "evidence-0e1c9087ec38e7379996e6c3"
+      ],
+      "geography": "",
+      "headline": "口座・ポイント・カードの暗号資産サービス連携",
+      "products": [
+        "口座接続API",
+        "Ultimate Rewards",
+        "カード決済"
+      ],
+      "scale": "",
+      "source_role": "銀行口座・決済・ポイント",
+      "target_role": "ウォレット・取引基盤"
+    },
+    "deal_ids": [
+      "deal-8bd17c18e0fa2c9d79475e86"
+    ],
+    "description": "JPMorganChaseとCoinbaseが、Chase口座とウォレットのAPI接続、ポイント移行、カードによる資金追加の提携を発表。カード対応は2025年秋、口座接続とポイント移行は2026年の予定で、稼働完了を示す記録ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-8bd17c18e0fa2c9d79475e86",
+      "evidence-9c8e4504b013da9115dbfd84",
+      "evidence-9efc770b4149da3238f8b9f7",
+      "evidence-2c96eb5b72c9cbc29c4d74d4",
+      "evidence-0e1c9087ec38e7379996e6c3"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-8bd17c18e0fa2c9d79475e86"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-27a5c829c2e1d629226b2991",
+    "relationship_type": "partnership",
+    "source_company_id": "co-jpm",
+    "status_as_of": "2025-07-30",
+    "target_company_id": "co-coinbase",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-10e0a75f5df0979f93998825": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-10e0a75f5df0979f93998825",
+      "rule_version": "1397071513da6ee5007954e8894d758d127265f9fae3b9696526ce1c08267da1",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership",
+      "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-07-30",
+      "publisher": "www.jpmorganchase.com",
+      "retrieved_at": "2026-09-26T06:09:54+00:00",
+      "source_id": "source-10e0a75f5df0979f93998825",
+      "source_type": "official_newsroom",
+      "title": "JPMorganChase and Coinbase Launch Strategic Partnership to Make Buying Crypto Easier than Ever"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-8bd17c18e0fa2c9d79475e86",
+        "evidence-9c8e4504b013da9115dbfd84",
+        "evidence-9efc770b4149da3238f8b9f7",
+        "evidence-2c96eb5b72c9cbc29c4d74d4",
+        "evidence-0e1c9087ec38e7379996e6c3"
+      ],
+      "geography": "",
+      "headline": "口座・ポイント・カードの暗号資産サービス連携",
+      "products": [
+        "口座接続API",
+        "Ultimate Rewards",
+        "カード決済"
+      ],
+      "scale": "",
+      "source_role": "銀行口座・決済・ポイント",
+      "target_role": "ウォレット・取引基盤"
+    },
+    "description": "JPMorganChaseとCoinbaseが、Chase口座とウォレットのAPI接続、ポイント移行、カードによる資金追加の提携を発表。カード対応は2025年秋、口座接続とポイント移行は2026年の予定で、稼働完了を示す記録ではない。",
+    "direction": "undirected",
+    "event_date": "2025-07-30",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-27a5c829c2e1d629226b2991",
+    "relationship_type": "partnership",
+    "source_company_id": "co-jpm",
+    "status_as_of": "2025-07-30",
+    "target_company_id": "co-coinbase",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}
