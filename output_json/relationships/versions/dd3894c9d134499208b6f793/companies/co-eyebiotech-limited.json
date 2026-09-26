@@ -1,0 +1,158 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-eyebiotech-limited",
+      "country": null,
+      "display_name": "Eyebiotech Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-eyebiotech-limited",
+    "country": null,
+    "display_name": "Eyebiotech Limited",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-819edaa726a8fef0a52800d6",
+          "amount_kind": "purchase_price",
+          "conditions": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.3 billion in cash",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "value": "1300000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-e4f82e68e66b7b0d1ad8159b",
+          "amount_kind": "purchase_price",
+          "conditions": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": "1700000000",
+          "min_value": null,
+          "original_text": "$1.7 billion in developmental, regulatory and commercial milestone payments",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがEyeBioを買収し、網膜疾患候補Restoretと前臨床パイプラインを取得。金額は契約発表の前払額と条件付きマイルストーン上限を分けて記録。",
+      "direction": "directed",
+      "event_date": "2024-07-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-109eedff1fe3a68f30242cb5",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2024-07-12",
+      "target_company_id": "co-eyebiotech-limited",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-07-12"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

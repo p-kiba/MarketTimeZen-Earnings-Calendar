@@ -1,0 +1,223 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "各最大1.6億株、原文行使価格$0.01/株。株数×行使価格を出資額・契約額・公正価値に換算しない。権利の発行と株式保有を区別する。",
+      "deal_id": "deal-301321a5de7c0b9d72f8d646",
+      "detected_at": "2026-09-26T06:22:28+00:00",
+      "effective_date": null,
+      "event_id": "event-301321a5de7c0b9d72f8d646",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-301321a5de7c0b9d72f8d646",
+        "evidence-b8f8dd3cc5f572747c5fb48e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-301321a5de7c0b9d72f8d646",
+            "evidence-b8f8dd3cc5f572747c5fb48e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-08-05",
+      "relationship_ids": [
+        "rel-d280a1e9a8109e320fa8c1ef"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": "2031-02-23",
+        "evidence_ids": [
+          "evidence-301321a5de7c0b9d72f8d646",
+          "evidence-b8f8dd3cc5f572747c5fb48e"
+        ],
+        "renewal": null,
+        "start_basis": "ワラントの行使期限。GPU供給契約の満了日ではない",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-50380b7a0cd06e3ca1e2bdee": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-50380b7a0cd06e3ca1e2bdee-warrants-20260926",
+        "rule_version": "f0d72be7409a5f03cbc28ed186bc21c4eaab096a118d9de3ce8a216aafaaf025",
+        "verified_at": "2026-09-26T06:22:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-301321a5de7c0b9d72f8d646",
+      "excerpt": "Meta Platforms, Inc.",
+      "locator": "sec-div:431",
+      "normalized_text_hash": "05eb4e7e22014c2817a61408dbd3eb62c3f52fc85e43c69ec81e83eac477ac94",
+      "section": "Official disclosure: business context",
+      "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b8f8dd3cc5f572747c5fb48e",
+      "excerpt": "Advanced Micro Devices",
+      "locator": "sec-div:201",
+      "normalized_text_hash": "ea3ebd805336c3796ab774eeb5f4ec0375c7c24e1ceb2349d91cf9d9762f4b80",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-301321a5de7c0b9d72f8d646",
+        "evidence-b8f8dd3cc5f572747c5fb48e"
+      ],
+      "geography": "",
+      "headline": "GPU購入等に連動する条件付きワラント",
+      "products": [
+        "AMD普通株の購入権"
+      ],
+      "scale": "",
+      "source_role": "購入権の発行者",
+      "target_role": "条件付き購入権の受領者"
+    },
+    "deal_ids": [
+      "deal-301321a5de7c0b9d72f8d646"
+    ],
+    "description": "AMDが2026年2月にMeta Platforms, Inc.へ最大1.6億株の普通株を購入できるワラントを発行。GPU購入・株価・技術・商業条件に応じて段階的に権利確定する。2026年6月27日時点では権利確定・行使可能株はない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-301321a5de7c0b9d72f8d646",
+      "evidence-b8f8dd3cc5f572747c5fb48e"
+    ],
+    "first_observed_at": "2026-09-26T06:22:28+00:00",
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "latest_event_ids": [
+      "event-301321a5de7c0b9d72f8d646"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d280a1e9a8109e320fa8c1ef",
+    "relationship_type": "equity_right",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-06-27",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-50380b7a0cd06e3ca1e2bdee": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-50380b7a0cd06e3ca1e2bdee-warrants-20260926",
+      "rule_version": "f0d72be7409a5f03cbc28ed186bc21c4eaab096a118d9de3ce8a216aafaaf025",
+      "verified_at": "2026-09-26T06:22:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000002488-26-000123",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "content_hash": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-08-05",
+      "filing_cik": "0000002488",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amd",
+      "retrieved_at": "2026-09-26T04:45:19+00:00",
+      "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+      "source_type": "sec_filing",
+      "title": "amd-20260627"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-301321a5de7c0b9d72f8d646",
+        "evidence-b8f8dd3cc5f572747c5fb48e"
+      ],
+      "geography": "",
+      "headline": "GPU購入等に連動する条件付きワラント",
+      "products": [
+        "AMD普通株の購入権"
+      ],
+      "scale": "",
+      "source_role": "購入権の発行者",
+      "target_role": "条件付き購入権の受領者"
+    },
+    "description": "AMDが2026年2月にMeta Platforms, Inc.へ最大1.6億株の普通株を購入できるワラントを発行。GPU購入・株価・技術・商業条件に応じて段階的に権利確定する。2026年6月27日時点では権利確定・行使可能株はない。",
+    "direction": "directed",
+    "event_date": "2026-08-05",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d280a1e9a8109e320fa8c1ef",
+    "relationship_type": "equity_right",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-06-27",
+    "target_company_id": "co-meta",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

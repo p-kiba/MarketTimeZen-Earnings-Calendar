@@ -1,0 +1,133 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-biohaven-acquired",
+      "country": null,
+      "display_name": "Biohaven Pharmaceutical Holding Company Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pfe",
+      "country": null,
+      "display_name": "Pfizer Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-12-14",
+      "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+          "symbol": "PFE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-biohaven-acquired",
+    "country": null,
+    "display_name": "Biohaven Pharmaceutical Holding Company Ltd.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-702b4078552f920b01ee8331",
+          "amount_kind": "purchase_price",
+          "conditions": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$11.6 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-pfe"
+          ],
+          "qualifier": "approximately",
+          "scope": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+          "value": "11600000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-05c293d151ca987ac6c1a4c6",
+          "evidence-a041b42469e1aad12020f30c",
+          "evidence-e41ee6ee717a2f2faf759178"
+        ],
+        "geography": "",
+        "headline": "片頭痛治療薬・CGRP事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "PfizerはBiohaven Pharmaceutical Holding Companyを買収し、NURTEC ODTを含むCGRP片頭痛治療ポートフォリオを取得した。",
+      "direction": "directed",
+      "event_date": "2022-10-03",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-0b99c4bd4306e9cc75d7f265",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2022-10-03",
+      "target_company_id": "co-biohaven-acquired",
+      "themes": [
+        "pharma_biotech"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-10-03"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

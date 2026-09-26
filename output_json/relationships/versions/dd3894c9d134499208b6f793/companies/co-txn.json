@@ -1,0 +1,104 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "consumer_media",
+        "ai_models"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-txn",
+      "country": null,
+      "display_name": "Texas Instruments",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "custom_silicon"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-txn",
+    "country": null,
+    "display_name": "Texas Instruments",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "custom_silicon"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f4780b88ad8c09b931cf235a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-txn",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-08-06"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

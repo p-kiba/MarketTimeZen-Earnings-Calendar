@@ -1,0 +1,226 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-8dd1f01bf97ad2df83b40d66",
+          "amount_kind": "purchase_price",
+          "conditions": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10.8 billion",
+          "payee_company_ids": [
+            "co-prometheus-biosciences-inc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "value": "10800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-06-16",
+      "conditions": "",
+      "deal_id": "deal-cf267ead108fd5587515982e",
+      "detected_at": "2026-09-26T12:51:16+00:00",
+      "effective_date": null,
+      "event_id": "event-cf267ead108fd5587515982e",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-cf267ead108fd5587515982e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-38baf7d825d6361508b872f0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-98a9d36a6bdc60852006a4a1": "0c95f77433c4217476662df7e4ae5fdd28cf5ebc7ba258b8094df687a11298d9"
+        },
+        "reason": "Primary-source review of merged research record r91; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r91",
+        "rule_version": "8ef3b6053c779c6792de13acfc3f487cd6833ff2830710c872b3c0c74cd017e6",
+        "verified_at": "2026-09-26T12:51:16+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-cf267ead108fd5587515982e",
+      "excerpt": "Under the terms of the acquisition agreement, Merck, through a subsidiary, has acquired all outstanding shares of Prometheus",
+      "locator": "p:8",
+      "normalized_text_hash": "2aa38cfae79b423cf6f809427cc61b6d0905ca8dea3bd488207369b6f2a06aee",
+      "section": "Official company disclosure",
+      "source_id": "source-98a9d36a6bdc60852006a4a1",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-cf267ead108fd5587515982e"
+    ],
+    "description": "MerckがPrometheus Biosciencesを買収し、TL1A標的抗体MK-7240など免疫疾患領域の臨床パイプラインを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cf267ead108fd5587515982e"
+    ],
+    "first_observed_at": "2026-09-26T12:51:16+00:00",
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "latest_event_ids": [
+      "event-cf267ead108fd5587515982e"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-38baf7d825d6361508b872f0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2023-06-16",
+    "target_company_id": "co-prometheus-biosciences-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-98a9d36a6bdc60852006a4a1": "0c95f77433c4217476662df7e4ae5fdd28cf5ebc7ba258b8094df687a11298d9"
+      },
+      "reason": "Primary-source review of merged research record r91; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r91",
+      "rule_version": "8ef3b6053c779c6792de13acfc3f487cd6833ff2830710c872b3c0c74cd017e6",
+      "verified_at": "2026-09-26T12:51:16+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/merck-completes-acquisition-of-prometheus-biosciences-inc/",
+      "content_hash": "0c95f77433c4217476662df7e4ae5fdd28cf5ebc7ba258b8094df687a11298d9",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-06-16",
+      "publisher": "Merck",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-98a9d36a6bdc60852006a4a1",
+      "source_type": "official_newsroom",
+      "title": "Merck Completes Acquisition of Prometheus Biosciences, Inc. - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-8dd1f01bf97ad2df83b40d66",
+        "amount_kind": "purchase_price",
+        "conditions": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-cf267ead108fd5587515982e"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$10.8 billion",
+        "payee_company_ids": [
+          "co-prometheus-biosciences-inc"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "approximately",
+        "scope": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+        "value": "10800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "MerckがPrometheus Biosciencesを買収し、TL1A標的抗体MK-7240など免疫疾患領域の臨床パイプラインを取得。",
+    "direction": "directed",
+    "event_date": "2023-06-16",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-38baf7d825d6361508b872f0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2023-06-16",
+    "target_company_id": "co-prometheus-biosciences-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

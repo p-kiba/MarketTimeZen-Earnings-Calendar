@@ -75,3 +75,7 @@ button:disabled{cursor:default;opacity:.55}
 .mtz-settings-panel .mtz-keep-expanded{display:flex;align-items:center;gap:7px;min-height:44px;padding:8px 0;font-size:12px;cursor:pointer}.mtz-settings-panel .mtz-keep-expanded input{flex:0 0 17px;width:17px;height:17px;min-height:0;margin:0;accent-color:var(--theme)}.mtz-settings-panel .mtz-keep-expanded span{line-height:1.5}.mtz-settings-panel .mtz-prefs-note{margin:12px 0 0;color:#65738a;font-size:11px}
 /* Keep the settings popover inside the viewport in either toolbar layout. */
 .mtz-map-tools .mtz-settings-panel{left:auto;right:0}.map-mode .mtz-map-tools .mtz-settings-panel{left:0;right:auto}
+
+/* Multi-label investor research themes; independent from relationship-type colors. */
+.mtz-theme-tags{display:inline-flex;align-items:center;gap:5px;flex-wrap:wrap}.mtz-theme-chip{display:inline-flex;align-items:center;border:1px solid #c9d8e8;border-radius:999px;background:#f1f7fc;color:#355675;padding:3px 8px;font-size:11px;line-height:1.4;white-space:nowrap}.mtz-company-heading #mtz-company-themes{align-self:center}#mtz-theme{min-width:175px}
+@media(max-width:760px){#mtz-theme{min-width:0}.mtz-company-heading #mtz-company-themes{flex-basis:100%}.mtz-selection-heading .mtz-theme-chip{font-size:10px}}

@@ -1,0 +1,268 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1df6566dffba1f98bccffa14",
+          "amount_kind": "other",
+          "conditions": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$101 per share in cash",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-unh"
+          ],
+          "qualifier": "exact",
+          "scope": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+          "value": "101",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "対象株式は原則として1株101米ドルの現金受領権へ転換。 一部株式報酬はUnitedHealth GroupのRSU等へ変換される。 提供JSONのUSD指定は数値タグとの直接対応が未確認のため、通貨未確認へ修正。",
+      "deal_id": "deal-23f64284d7d92480f8a909b9",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2025-08-14",
+      "event_id": "event-23f64284d7d92480f8a909b9",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-23f64284d7d92480f8a909b9",
+        "evidence-6131e44229645220a96cdb16"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-08-14",
+      "relationship_ids": [
+        "rel-131011a38d187270d2e6b82c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-c02ca469f10fc4f4cd6d9d13": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r11",
+        "rule_version": "a61311a324d694f79b5c95c3805aabac7bd53804eab70b53ba96a009b7f4023e",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-23f64284d7d92480f8a909b9",
+      "excerpt": "Merger",
+      "locator": "p:29",
+      "normalized_text_hash": "d807fbd917e1f0414c1f3eb81bd2ecd05dd99c0aa08ab4cdcd0c9986bcb02e29",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6131e44229645220a96cdb16",
+      "excerpt": "$101 per share in cash",
+      "locator": "p:36",
+      "normalized_text_hash": "47084b946a45391202dc19f9b40c4251bdd74929c036d5bae50b9d634229e01c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-23f64284d7d92480f8a909b9",
+        "evidence-6131e44229645220a96cdb16"
+      ],
+      "geography": "",
+      "headline": "Amedisysの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-23f64284d7d92480f8a909b9"
+    ],
+    "description": "UnitedHealth GroupはAmedisysを買収し、Amedisysは合併後にUnitedHealth Groupの完全子会社となった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-23f64284d7d92480f8a909b9",
+      "evidence-6131e44229645220a96cdb16"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-23f64284d7d92480f8a909b9"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-131011a38d187270d2e6b82c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2025-08-14",
+    "target_company_id": "co-amedisys",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-c02ca469f10fc4f4cd6d9d13": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r11",
+      "rule_version": "a61311a324d694f79b5c95c3805aabac7bd53804eab70b53ba96a009b7f4023e",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001104659-25-078145",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm",
+      "content_hash": "1097bb3e12c5cfa11cd7683ed406a2286bcf69e3b9d354ec15f35e033b444099",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": "2025-08-14",
+      "filing_cik": "0000896262",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-c02ca469f10fc4f4cd6d9d13",
+      "source_type": "sec_filing",
+      "title": "Amedisys, Inc. Form 8-K"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-1df6566dffba1f98bccffa14",
+        "amount_kind": "other",
+        "conditions": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-23f64284d7d92480f8a909b9",
+          "evidence-6131e44229645220a96cdb16"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$101 per share in cash",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-unh"
+        ],
+        "qualifier": "exact",
+        "scope": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+        "value": "101",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-23f64284d7d92480f8a909b9",
+        "evidence-6131e44229645220a96cdb16"
+      ],
+      "geography": "",
+      "headline": "Amedisysの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "UnitedHealth GroupはAmedisysを買収し、Amedisysは合併後にUnitedHealth Groupの完全子会社となった。",
+    "direction": "directed",
+    "event_date": "2025-08-14",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-131011a38d187270d2e6b82c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2025-08-14",
+    "target_company_id": "co-amedisys",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

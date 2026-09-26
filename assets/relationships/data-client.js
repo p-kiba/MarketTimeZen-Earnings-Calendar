@@ -6,7 +6,7 @@ async function hash(text) {return [...new Uint8Array(await crypto.subtle.digest(
 function saved(key) {try{return localStorage.getItem('mtz-public:'+SCOPE+':'+key);}catch{return null;}}
 function save(key,value) {try{localStorage.setItem('mtz-public:'+SCOPE+':'+key,value);}catch{/* Public cache is optional and contains no preferences. */}}
 export class DataClient {
-  constructor(){this.manifest=null;this.offline=false;this.cache=new Map();}
+  constructor(){this.manifest=null;this.offline=false;this.cache=new Map();this.themes=[];}
   async fetchText(path,signal){const res=await fetch(path,{signal,cache:'no-cache'});if(!res.ok)throw new Error(`HTTP ${res.status}`);return res.text();}
   async verified(path,expected,signal){
     let failure;
@@ -26,7 +26,7 @@ export class DataClient {
       const old=this.manifest;this.manifest=m;this.cache=new Map();
       try{
         const [companies,events,coverage]=await Promise.all(['companies.json','recent_events.json','coverage.json'].map(name=>this.file(name,signal)));
-        this.companies=companies.companies;this.events=events;this.coverage=coverage.coverage;
+        this.companies=companies.companies;this.themes=companies.themes||[];this.events=events;this.coverage=coverage.coverage;
         if(index>0)this.offline=true;save('last-pointer',JSON.stringify(p));return this;
       }catch(e){this.manifest=old;throw e;}
     }catch(e){if(e.name==='AbortError')throw e;failure=e;}

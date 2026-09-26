@@ -1,0 +1,210 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-11-18",
+      "conditions": "",
+      "deal_id": "deal-b9bcfb8a658e965ff833325a",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "effective_date": null,
+      "event_id": "event-b9bcfb8a658e965ff833325a",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-55e2fe0964455921d280a04c",
+        "evidence-71d626dcee86a5dc45fcccaf",
+        "evidence-d67304a70073f0e059e82946"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-13a995805e1bac42cbeedcee"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+        },
+        "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+        "reviewer": null,
+        "rule_id": "pilot-source-05412751bb0b3f7d68937500",
+        "rule_version": "1",
+        "verified_at": "2026-09-25T14:57:31+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-55e2fe0964455921d280a04c",
+      "excerpt": "NVIDIA and Anthropic are establishing a deep technology partnership",
+      "locator": "p:5",
+      "normalized_text_hash": "9f0133f53757c0f656123663913bda2cea6f80e5f05a28117fbab26e3ba0b658",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-71d626dcee86a5dc45fcccaf",
+      "excerpt": "Microsoft and Anthropic are also expanding their existing partnership",
+      "locator": "p:6",
+      "normalized_text_hash": "0641aa2e3620b84c1c02fa36e278408e5adae45650ee8c939345f6daa1672f96",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d67304a70073f0e059e82946",
+      "excerpt": "committing to invest",
+      "locator": "p:8",
+      "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "status"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-b9bcfb8a658e965ff833325a"
+    ],
+    "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-55e2fe0964455921d280a04c",
+      "evidence-71d626dcee86a5dc45fcccaf",
+      "evidence-d67304a70073f0e059e82946"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "latest_event_ids": [
+      "event-b9bcfb8a658e965ff833325a"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-13a995805e1bac42cbeedcee",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2025-11-18",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+      },
+      "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+      "reviewer": null,
+      "rule_id": "pilot-source-05412751bb0b3f7d68937500",
+      "rule_version": "1",
+      "verified_at": "2026-09-25T14:57:31+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+      "content_hash": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-11-18",
+      "publisher": "co-anthropic",
+      "retrieved_at": "2026-09-25T14:54:49+00:00",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "source_type": "official_newsroom",
+      "title": "Microsoft, NVIDIA, and Anthropic partnerships \\ Anthropic"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+    "direction": "undirected",
+    "event_date": "2025-11-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-13a995805e1bac42cbeedcee",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2025-11-18",
+    "target_company_id": "co-anthropic",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

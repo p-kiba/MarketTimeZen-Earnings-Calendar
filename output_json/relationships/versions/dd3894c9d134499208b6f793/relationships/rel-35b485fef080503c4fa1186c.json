@@ -1,0 +1,199 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-03-11",
+      "conditions": "",
+      "deal_id": "deal-b32331dbd435555ed1d9e002",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-b32331dbd435555ed1d9e002",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-b32331dbd435555ed1d9e002"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b32331dbd435555ed1d9e002"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-35b485fef080503c4fa1186c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-3f80e854721ad8645bce9be7",
+        "rule_version": "2233b5d51b25d18adc3a00bf95143c2c0cc8dff3ca08feaf94589c68d04a4bae",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-b32331dbd435555ed1d9e002",
+      "excerpt": "Google is a subsidiary of Alphabet Inc.",
+      "locator": "p:29",
+      "normalized_text_hash": "15e8f64274f544e3dde084042c5423005da901347d9f4af8dba1efea50562dcb",
+      "section": "Official disclosure: business context",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-b32331dbd435555ed1d9e002"
+      ],
+      "geography": "",
+      "headline": "Alphabetグループに所属",
+      "products": [
+        "企業グループ"
+      ],
+      "scale": "",
+      "source_role": "子会社",
+      "target_role": "親会社"
+    },
+    "deal_ids": [
+      "deal-b32331dbd435555ed1d9e002"
+    ],
+    "description": "Google公式発表で、GoogleがAlphabetの子会社であることを確認。上場企業Alphabetと事業会社Googleを分けて表示する。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b32331dbd435555ed1d9e002"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "latest_event_ids": [
+      "event-b32331dbd435555ed1d9e002"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-35b485fef080503c4fa1186c",
+    "relationship_type": "group_member",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-03-11",
+    "target_company_id": "co-googl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-3f80e854721ad8645bce9be7",
+      "rule_version": "2233b5d51b25d18adc3a00bf95143c2c0cc8dff3ca08feaf94589c68d04a4bae",
+      "verified_at": "2026-09-26T04:47:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/",
+      "content_hash": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-03-11",
+      "publisher": "co-google",
+      "retrieved_at": "2026-09-26T04:45:24+00:00",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "source_type": "official_newsroom",
+      "title": "Google completes acquisition of Wiz"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-b32331dbd435555ed1d9e002"
+      ],
+      "geography": "",
+      "headline": "Alphabetグループに所属",
+      "products": [
+        "企業グループ"
+      ],
+      "scale": "",
+      "source_role": "子会社",
+      "target_role": "親会社"
+    },
+    "description": "Google公式発表で、GoogleがAlphabetの子会社であることを確認。上場企業Alphabetと事業会社Googleを分けて表示する。",
+    "direction": "directed",
+    "event_date": "2026-03-11",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-35b485fef080503c4fa1186c",
+    "relationship_type": "group_member",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-03-11",
+    "target_company_id": "co-googl",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

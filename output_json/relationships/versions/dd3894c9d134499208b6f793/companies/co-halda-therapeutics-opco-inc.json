@@ -1,0 +1,109 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-halda-therapeutics-opco-inc",
+      "country": null,
+      "display_name": "Halda Therapeutics OpCo, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-johnson-johnson",
+      "country": null,
+      "display_name": "Johnson & Johnson",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-halda-therapeutics-opco-inc",
+    "country": null,
+    "display_name": "Halda Therapeutics OpCo, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f28e2e8ae8e9698543fbb765",
+          "amount_kind": "purchase_price",
+          "conditions": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$3.05 billion in cash",
+          "payee_company_ids": [
+            "co-halda-therapeutics-opco-inc"
+          ],
+          "payer_company_ids": [
+            "co-johnson-johnson"
+          ],
+          "qualifier": "exact",
+          "scope": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+          "value": "3050000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。",
+      "direction": "directed",
+      "event_date": "2025-12-29",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-89bb4437a2dce822962b1af9",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-johnson-johnson",
+      "status_as_of": "2025-12-29",
+      "target_company_id": "co-halda-therapeutics-opco-inc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-12-29"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

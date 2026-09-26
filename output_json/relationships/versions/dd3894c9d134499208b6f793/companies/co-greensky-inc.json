@@ -1,0 +1,112 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-greensky-inc",
+      "country": null,
+      "display_name": "GreenSky, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-the-goldman-sachs-group-inc",
+      "country": null,
+      "display_name": "The Goldman Sachs Group, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "financial_services"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-greensky-inc",
+    "country": null,
+    "display_name": "GreenSky, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-38df4eb81bb658110399fd71",
+          "amount_kind": "purchase_price",
+          "conditions": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$2.24 billion",
+          "payee_company_ids": [
+            "co-greensky-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "value": "2240000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Goldman SachsがGreenSkyの買収契約を締結。住宅改修向けPOS融資プラットフォームと加盟店・消費者向け融資機能をMarcusの消費者金融事業へ加える計画。",
+      "direction": "directed",
+      "event_date": "2021-09-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-88d638e4dc7e8339261329e4",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-goldman-sachs-group-inc",
+      "status_as_of": "2021-09-15",
+      "target_company_id": "co-greensky-inc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-09-15"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

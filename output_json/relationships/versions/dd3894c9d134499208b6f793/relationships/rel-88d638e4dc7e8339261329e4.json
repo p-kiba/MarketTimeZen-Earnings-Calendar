@@ -1,0 +1,227 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-38df4eb81bb658110399fd71",
+          "amount_kind": "purchase_price",
+          "conditions": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$2.24 billion",
+          "payee_company_ids": [
+            "co-greensky-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+          "value": "2240000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2021-09-15",
+      "conditions": "",
+      "deal_id": "deal-232064ab95e952d96a2d4b41",
+      "detected_at": "2026-09-26T13:07:05+00:00",
+      "effective_date": null,
+      "event_id": "event-232064ab95e952d96a2d4b41",
+      "event_type": "acquisition_announced",
+      "evidence_ids": [
+        "evidence-232064ab95e952d96a2d4b41"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-232064ab95e952d96a2d4b41"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-88d638e4dc7e8339261329e4"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-caa07b33d3c36dfbfab10da4": "e2a7d48eaae537681e29b1818b805f0d5fe7a7679187e917df06c0bc937c97fe"
+        },
+        "reason": "Primary-source review of merged research record r49; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r49",
+        "rule_version": "d4a7fd92a2810180336c0e0ad677d262fab6aa90782a7e42158e194657bbb985",
+        "verified_at": "2026-09-26T13:07:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-232064ab95e952d96a2d4b41",
+      "excerpt": "The Goldman Sachs Group, Inc. (“Goldman Sachs”) and GreenSky, Inc. (“GreenSky”; NASDAQ: GSKY) today announced that they have entered into a definitive agreement",
+      "locator": "p:63",
+      "normalized_text_hash": "f5e710da6837ef85b69c84810faa82c1c8fac88627127f04ff922ffed55bba5e",
+      "section": "Official issuer disclosure",
+      "source_id": "source-caa07b33d3c36dfbfab10da4",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-232064ab95e952d96a2d4b41"
+    ],
+    "description": "Goldman SachsがGreenSkyの買収契約を締結。住宅改修向けPOS融資プラットフォームと加盟店・消費者向け融資機能をMarcusの消費者金融事業へ加える計画。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-232064ab95e952d96a2d4b41"
+    ],
+    "first_observed_at": "2026-09-26T13:07:05+00:00",
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "latest_event_ids": [
+      "event-232064ab95e952d96a2d4b41"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-88d638e4dc7e8339261329e4",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2021-09-15",
+    "target_company_id": "co-greensky-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-caa07b33d3c36dfbfab10da4": "e2a7d48eaae537681e29b1818b805f0d5fe7a7679187e917df06c0bc937c97fe"
+      },
+      "reason": "Primary-source review of merged research record r49; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r49",
+      "rule_version": "d4a7fd92a2810180336c0e0ad677d262fab6aa90782a7e42158e194657bbb985",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.goldmansachs.com/pressroom/press-releases/2021/goldman-sachs-to-acquire-greensky",
+      "content_hash": "e2a7d48eaae537681e29b1818b805f0d5fe7a7679187e917df06c0bc937c97fe",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-09-15",
+      "publisher": "Goldman Sachs",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-caa07b33d3c36dfbfab10da4",
+      "source_type": "official_newsroom",
+      "title": "Goldman Sachs to Acquire GreenSky | Goldman Sachs"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-38df4eb81bb658110399fd71",
+        "amount_kind": "purchase_price",
+        "conditions": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$2.24 billion",
+        "payee_company_ids": [
+          "co-greensky-inc"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+        "value": "2240000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Goldman SachsがGreenSkyの買収契約を締結。住宅改修向けPOS融資プラットフォームと加盟店・消費者向け融資機能をMarcusの消費者金融事業へ加える計画。",
+    "direction": "directed",
+    "event_date": "2021-09-15",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-88d638e4dc7e8339261329e4",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2021-09-15",
+    "target_company_id": "co-greensky-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-eaf97ec5ec79ccf17af189f6",
+      "detected_at": "2026-09-26T05:23:05+00:00",
+      "effective_date": null,
+      "event_id": "event-eaf97ec5ec79ccf17af189f6",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-eaf97ec5ec79ccf17af189f6"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-eaf97ec5ec79ccf17af189f6"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-29",
+      "relationship_ids": [
+        "rel-4330bb60569e930aab9db1bd"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3984437aa8cfa506c1effea4": "9a53530ee417ffda80071b7ed68cfbffeda600fff9c31cbbb1093d0afc6e8154"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-3984437aa8cfa506c1effea4",
+        "rule_version": "975f8a2b31251f934ccf3dc52312c92082dc37aef722ea58e4c1acf7e42fc395",
+        "verified_at": "2026-09-26T05:23:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-eaf97ec5ec79ccf17af189f6",
+      "excerpt": "OpenAI",
+      "locator": "p:622",
+      "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-3984437aa8cfa506c1effea4",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-eaf97ec5ec79ccf17af189f6"
+      ],
+      "geography": "",
+      "headline": "モデル・基盤のIP利用と収益分配",
+      "products": [
+        "モデル・基盤の知的財産",
+        "収益分配"
+      ],
+      "scale": "",
+      "source_role": "IP利用・製品統合",
+      "target_role": "モデル・基盤技術提供"
+    },
+    "deal_ids": [
+      "deal-eaf97ec5ec79ccf17af189f6"
+    ],
+    "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-eaf97ec5ec79ccf17af189f6"
+    ],
+    "first_observed_at": "2026-09-26T05:23:05+00:00",
+    "last_observed_at": "2026-09-26T05:23:05+00:00",
+    "latest_event_ids": [
+      "event-eaf97ec5ec79ccf17af189f6"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-4330bb60569e930aab9db1bd",
+    "relationship_type": "partnership",
+    "source_company_id": "co-msft",
+    "status_as_of": "2026-07-29",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3984437aa8cfa506c1effea4": "9a53530ee417ffda80071b7ed68cfbffeda600fff9c31cbbb1093d0afc6e8154"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-3984437aa8cfa506c1effea4",
+      "rule_version": "975f8a2b31251f934ccf3dc52312c92082dc37aef722ea58e4c1acf7e42fc395",
+      "verified_at": "2026-09-26T05:23:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-26-323660",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "content_hash": "9a53530ee417ffda80071b7ed68cfbffeda600fff9c31cbbb1093d0afc6e8154",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-29",
+      "filing_cik": "0000789019",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-msft",
+      "retrieved_at": "2026-09-26T04:45:07+00:00",
+      "source_id": "source-3984437aa8cfa506c1effea4",
+      "source_type": "sec_filing",
+      "title": "10-K"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-eaf97ec5ec79ccf17af189f6"
+      ],
+      "geography": "",
+      "headline": "モデル・基盤のIP利用と収益分配",
+      "products": [
+        "モデル・基盤の知的財産",
+        "収益分配"
+      ],
+      "scale": "",
+      "source_role": "IP利用・製品統合",
+      "target_role": "モデル・基盤技術提供"
+    },
+    "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+    "direction": "undirected",
+    "event_date": "2026-07-29",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:05+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-4330bb60569e930aab9db1bd",
+    "relationship_type": "partnership",
+    "source_company_id": "co-msft",
+    "status_as_of": "2026-07-29",
+    "target_company_id": "co-openai",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

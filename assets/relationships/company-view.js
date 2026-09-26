@@ -36,6 +36,7 @@ function conciseCompany(company) {
 export class CompanyView {
   constructor(raw) {
     this.raw=raw;
+    this.themes=raw.themes||[];
     this.rawCompanies=new Map(raw.companies.map(c=>[c.company_id,c]));
     this.memberToGroup=new Map();
     this.groups=new Map();
@@ -57,7 +58,8 @@ export class CompanyView {
       const names=new Set([...group.aliases,...members.flatMap(c=>[c.display_name,c.legal_name,...c.aliases.map(a=>a.name)]).filter(Boolean)]);
       display.set(id,{...primary,display_name:group.name,
         aliases:[...names].map(name=>({name})),display_member_ids:group.members,
-        listings:[...new Map(members.flatMap(c=>c.listings).map(l=>[`${l.symbol}|${l.exchange}`,l])).values()]});
+        listings:[...new Map(members.flatMap(c=>c.listings).map(l=>[`${l.symbol}|${l.exchange}`,l])).values()],
+        themes:[...new Set(members.flatMap(c=>c.themes||[]))]});
     }
     this.companies=[...display.values()];
     this.displayCompanies=display;

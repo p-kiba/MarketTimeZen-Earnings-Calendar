@@ -1,13 +1,13 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=a50bc54762e5';
-import {latestResults,resultRows} from './earnings-results.js?v=a50bc54762e5';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=a50bc54762e5';
-import {dealRows} from './deals.js?v=a50bc54762e5';
-import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=a50bc54762e5';
-import {DataClient} from './data-client.js?v=a50bc54762e5';
-import {CompanyView} from './company-view.js?v=a50bc54762e5';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=a50bc54762e5';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=a50bc54762e5';
-import {dictionary} from './i18n.js?v=a50bc54762e5';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=4b76801f9d3c';
+import {latestResults,resultRows} from './earnings-results.js?v=4b76801f9d3c';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=4b76801f9d3c';
+import {dealRows} from './deals.js?v=4b76801f9d3c';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=4b76801f9d3c';
+import {DataClient} from './data-client.js?v=4b76801f9d3c';
+import {CompanyView} from './company-view.js?v=4b76801f9d3c';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=4b76801f9d3c';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=4b76801f9d3c';
+import {dictionary} from './i18n.js?v=4b76801f9d3c';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -42,6 +42,8 @@ const connectionColors={supply:'#29b6f6',partnership:'#2ecc91',capital:'#b678f0'
 const connectionKind=r=>({supplier:'supply',service_provider:'supply',partnership:'partnership',investment:'capital',acquisition:'acquisition',equity_right:'capital',subsidiary:'group',group_member:'group'}[r.relationship_type]||'group');
 const connectionTypeLabel=key=>({supply:ux('供給・サービス','Supply / services'),partnership:ux('提携','Partnership'),capital:ux('出資','Investment'),acquisition:ux('買収','Acquisition'),group:ux('グループ関係','Group relationships'),mixed:ux('複数種類の関係','Mixed relationship types')}[key]);
 const connectionColor=rows=>{const kinds=new Set(rows.map(connectionKind));return connectionColors[kinds.size===1?[...kinds][0]:'mixed'];};
+const themeName=id=>client?.themes.find(theme=>theme.id===id)?.name?.[state.lang]||id;
+const themeNames=company=>(company?.themes||[]).map(themeName);
 const bands=()=>amountBands(client?.manifest.tiers.USD.minimums||['0','100000000','1000000000','10000000000','50000000000'],state.lang);
 const logo=c=>logoPaths[c?.company_id]||c?.listings.map(l=>logoPaths[l.symbol]).find(Boolean)||'';
 const name=id=>{const key=client?.canonicalId(id)||id;return companies.get(key)?.display_name || client?.companies.find(c=>c.company_id===key)?.display_name || id;};
@@ -49,17 +51,17 @@ function message(text,error=false){$('mtz-message').textContent=text;$('mtz-mess
 function shell(){
   $('mtz-map-app').innerHTML=`
     ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><span id="mtz-market" class="muted"></span><nav class="mtz-feature"><a id="mtz-calendar"></a><a id="mtz-connections" href="map.html" aria-current="page"></a><button id="mtz-deals" type="button"></button></nav><button id="mtz-lang" type="button"></button></div>
-    <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
+    <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-theme-label"></span><select id="mtz-theme"></select></label><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
-    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
+    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-company-themes" class="mtz-theme-tags"></span><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
     <footer class="mtz-footer"><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
     <aside id="mtz-detail" class="mtz-detail" role="dialog" aria-labelledby="mtz-detail-title" tabindex="-1" hidden><button id="mtz-close" type="button"></button><div id="mtz-detail-content"></div></aside>`;
   $('mtz-lang').onclick=()=>{state.lang=state.lang==='en'?'ja':'en';updateURL(state);translate();if(client){renderIntro();render();}closeDetail();};
   $('mtz-deals').onclick=()=>{generation++;request?.abort();state.company=null;state.symbol='';state.relation=null;state.q='';$('mtz-search').value='';$('mtz-results').replaceChildren();companies.clear();relationships.clear();closeDetail();updateURL(state,true);message('');renderIntro();render();};
   $('mtz-search').addEventListener('input',search);
   $('mtz-search').addEventListener('keydown',e=>{if(e.key==='ArrowDown')$('mtz-results').querySelector('button')?.focus();});
-  for(const [id,key] of [['mtz-type','type'],['mtz-status','status'],['mtz-days','days'],['mtz-amount','amount']])$(id).addEventListener('change',()=>{state[key]=key==='amount'?$(id).checked:$(id).value;pageSize=30;dealPageSize=20;updateURL(state,true);renderIntro();render();});
+  for(const [id,key] of [['mtz-theme','theme'],['mtz-type','type'],['mtz-status','status'],['mtz-days','days'],['mtz-amount','amount']])$(id).addEventListener('change',()=>{state[key]=key==='amount'?$(id).checked:$(id).value;pageSize=30;dealPageSize=20;updateURL(state,true);renderIntro();if($('mtz-search').value)search();render();});
   $('mtz-map-view').onclick=()=>setView('map');$('mtz-list-view').onclick=()=>setView('list');
   $('mtz-plus').onclick=()=>cy?.zoom({level:Math.min(3,cy.zoom()*1.3),renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
   $('mtz-minus').onclick=()=>cy?.zoom({level:Math.max(.15,cy.zoom()/1.3),renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
@@ -88,6 +90,8 @@ function translate(){
   $('mtz-search').placeholder=t('search');$('mtz-plus').setAttribute('aria-label',t('zoomIn'));$('mtz-minus').setAttribute('aria-label',t('zoomOut'));
   function options(id,rows,value){$(id).replaceChildren(...rows.map(([v,label])=>{const o=el('option',label);o.value=v;return o;}));$(id).value=value;}
   options('mtz-type',[['',t('all')],...['service_provider','supplier','partnership','investment','acquisition','subsidiary','group_member','equity_right'].map(k=>[k,t(k)])],state.type);
+  $('mtz-theme-label').textContent=ux('テーマ','Theme');
+  $('mtz-theme').replaceChildren(...[[ '',ux('すべてのテーマ','All themes')],...(client?.themes||[]).map(theme=>[theme.id,theme.name[state.lang]||theme.id])].map(([value,label])=>{const option=el('option',label);option.value=value;return option;}));$('mtz-theme').value=state.theme;
   options('mtz-status',[['',t('allStatus')],...['announced','signed','active','completed','terminated','historical','unknown'].map(k=>[k,t(k)])],state.status);
   options('mtz-days',[['',t('anyDate')],['30',state.lang==='ja'?'30日以内':'Past 30 days'],['90',state.lang==='ja'?'90日以内':'Past 90 days'],['365',state.lang==='ja'?'1年以内':'Past year']],state.days);
   $('mtz-amount').checked=state.amount;
@@ -142,9 +146,9 @@ function setMapMode(enabled,restoreFocus=true){
 }
 function setView(view){if(view!=='map')setMapMode(false,false);state.view=view;updateURL(state,true);render();}
 function search(){
-  const q=$('mtz-search').value;state.q=q;const matches=client?rankCompanies(client.companies,q):[];$('mtz-results').replaceChildren();
+  const q=$('mtz-search').value;state.q=q;const matches=client?rankCompanies(client.companies,q).filter(({company})=>!state.theme||(company.themes||[]).includes(state.theme)):[];$('mtz-results').replaceChildren();
   if(!q)return;
-  matches.slice(0,20).forEach(({company:c})=>{$('mtz-results').append(button(c.display_name+' · '+(c.listings.map(l=>l.symbol+(l.exchange?' ('+l.exchange+')':'')).join(', ')||t('unknownSymbol'))+' · '+(c.country||'—'),()=>choose(c.company_id),'search-result'));});
+  matches.slice(0,20).forEach(({company:c})=>{$('mtz-results').append(button(c.display_name+' · '+(c.listings.map(l=>l.symbol+(l.exchange?' ('+l.exchange+')':'')).join(', ')||t('unknownSymbol'))+(themeNames(c).length?' · '+themeNames(c).join(' / '):''),()=>choose(c.company_id),'search-result'));});
   if(!matches.length)$('mtz-results').append(el('p',t('searchEmpty')));
 }
 async function choose(cid,push=true){
@@ -238,6 +242,7 @@ function relationCard(r){
   row.append(el('strong',name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id)));
   if(r.business?.headline)row.append(el('span',r.business.headline,'mtz-relation-headline'));
   if(r.description)row.append(el('span',r.description,'mtz-relation-description'));
+  if(r.themes?.length){const tags=el('span',undefined,'mtz-theme-tags');for(const id of r.themes)tags.append(el('span',themeName(id),'mtz-theme-chip'));row.append(tags);}
   row.append(el('span',t(r.relationship_type)+' · '+t(r.lifecycle_status)+' · '+(r.status_as_of||'—'),'muted'));
   row.append(el('span',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)+' · '+t(a.value_semantics)).join(' / '):t('unknownAmount')));
   row.append(el('span',ux('金額の分類', 'Amount classification')+': '+ratingText(r),'mtz-rating-note'));
@@ -245,7 +250,7 @@ function relationCard(r){
 }
 function filtered(){
   const cutoff=state.days?new Date(Date.now()-Number(state.days)*86400000).toISOString().slice(0,10):null;
-  return [...relationships.values()].filter(r=>(!state.type||r.relationship_type===state.type)&&(!state.status||r.lifecycle_status===state.status)&&(!state.amount||r.has_amount)&&(!cutoff||r.event_date&&r.event_date>=cutoff)).filter(r=>matchesQuickFilter(r)).sort((a,b)=>(b.event_date||'').localeCompare(a.event_date||'')||a.relationship_id.localeCompare(b.relationship_id));
+  return [...relationships.values()].filter(r=>(!state.theme||r.themes?.includes(state.theme)||[r.source_company_id,r.target_company_id].some(id=>(companies.get(id)?.themes||[]).includes(state.theme)))&&(!state.type||r.relationship_type===state.type)&&(!state.status||r.lifecycle_status===state.status)&&(!state.amount||r.has_amount)&&(!cutoff||r.event_date&&r.event_date>=cutoff)).filter(r=>matchesQuickFilter(r)).sort((a,b)=>(b.event_date||'').localeCompare(a.event_date||'')||a.relationship_id.localeCompare(b.relationship_id));
 }
 // Count distinct counterparties: several contracts with one company are one connection.
 function connectionCounts(rows){
@@ -266,6 +271,7 @@ function render(){
   if(!active){selectionOpen=false;$('mtz-selection').hidden=true;cy?.destroy();cy=null;return;}
   renderMapTools();
   $('mtz-company-name').textContent=name(state.company);$('mtz-company-name').onclick=()=>selectCompany(state.company);
+  $('mtz-company-themes').replaceChildren(...themeNames(companies.get(state.company)).map(label=>el('span',label,'mtz-theme-chip')));
   $('mtz-company-name').tabIndex=0;$('mtz-company-name').onkeydown=e=>{if(e.key==='Enter')selectCompany(state.company);};
   const all=filtered(), categories=connectionGroups(all,state.company);
   $('mtz-groups').replaceChildren(...categories.map(g=>{
@@ -515,7 +521,7 @@ async function renderSelection(){
   panel.replaceChildren();
   const heading=el('div',undefined,'mtz-selection-heading');
   if(logo(c)){const img=el('img');img.src=logo(c);img.alt='';heading.append(img);}
-  const title=el('div');title.append(el('strong',name(cid)),el('small',c.listings.map(l=>l.symbol).join(' · ')));heading.append(title);
+  const title=el('div');title.append(el('strong',name(cid)),el('small',c.listings.map(l=>l.symbol).join(' · ')));for(const label of themeNames(c))title.append(el('span',label,'mtz-theme-chip'));heading.append(title);
   heading.append(button('×',()=>{selectionOpen=false;selectionVersion++;panel.hidden=true;}));heading.lastChild.setAttribute('aria-label',t('close'));panel.append(heading);
   const actions=el('div',undefined,'mtz-selection-actions');
   const expand=button(t('loading'),()=>expandCompany(cid));expand.disabled=true;expand.classList.add('primary');

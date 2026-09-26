@@ -1,0 +1,246 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-01-21",
+      "conditions": "",
+      "deal_id": "deal-9711e6d6f7ee524748653d18",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-9711e6d6f7ee524748653d18",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-9711e6d6f7ee524748653d18",
+        "evidence-64b953595985a5aa4e67543f",
+        "evidence-acd51127e1fd0554ec74b815"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-9711e6d6f7ee524748653d18",
+            "evidence-64b953595985a5aa4e67543f",
+            "evidence-acd51127e1fd0554ec74b815"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-8cc6e4312d83af08b0b39611"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f02c0d35abc4f5b680305654": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-palantir-sovereign",
+        "rule_version": "6a375850b07265a2b8f0f86215f98b7a9ae2c42a17ef726b1cdb295c49ffbe4f",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-64b953595985a5aa4e67543f",
+      "excerpt": "The initia",
+      "locator": "p:5",
+      "normalized_text_hash": "11c9a04a6f395f65b75d512465f87cdc2f0970d987382fb68c4f8aee738f4bed",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-f02c0d35abc4f5b680305654",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9711e6d6f7ee524748653d18",
+      "excerpt": "DAVOS, Switzerland;",
+      "locator": "p:2",
+      "normalized_text_hash": "b8e3a472b0227adf87a039fe2d47c7c2ef98f7371599642c599fb96630336cb5",
+      "section": "Primary disclosure: p:2",
+      "source_id": "source-f02c0d35abc4f5b680305654",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-acd51127e1fd0554ec74b815",
+      "excerpt": "Palantir w",
+      "locator": "p:6",
+      "normalized_text_hash": "f28cef2bee2a4c8ab3912f2d157288b47a240c3834b3f81a9334ff1f4234ffae",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-f02c0d35abc4f5b680305654",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-9711e6d6f7ee524748653d18",
+        "evidence-64b953595985a5aa4e67543f",
+        "evidence-acd51127e1fd0554ec74b815"
+      ],
+      "geography": "欧州・中東・アフリカ",
+      "headline": "AIデータセンター運用ソフトを提供",
+      "products": [
+        "Palantir Chain Reaction",
+        "AIインフラ運用管理"
+      ],
+      "scale": "",
+      "source_role": "PalantirがAIインフラ運用ソフトを提供",
+      "target_role": "Sovereign AIがデータセンター構築に採用"
+    },
+    "deal_ids": [
+      "deal-9711e6d6f7ee524748653d18"
+    ],
+    "description": "Sovereign AIがEMEAのAIデータセンター構築・拡張にPalantirとAccentureを選定。PalantirはChain Reactionで電力から計算基盤までの展開を支え、重要インフラを運用・管理するソフトウェアを提供する計画。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9711e6d6f7ee524748653d18",
+      "evidence-64b953595985a5aa4e67543f",
+      "evidence-acd51127e1fd0554ec74b815"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-9711e6d6f7ee524748653d18"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-8cc6e4312d83af08b0b39611",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2026-01-21",
+    "target_company_id": "co-sovereign-ai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f02c0d35abc4f5b680305654": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-sovereign",
+      "rule_version": "6a375850b07265a2b8f0f86215f98b7a9ae2c42a17ef726b1cdb295c49ffbe4f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.accenture.com/news/2026/sovereign-ai-selects-accenture-and-palantir-to-help-build-next-generation-ai-infrastructure-across-emea",
+      "content_hash": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-21",
+      "publisher": "newsroom.accenture.com",
+      "retrieved_at": "2026-09-26T15:03:18+00:00",
+      "source_id": "source-f02c0d35abc4f5b680305654",
+      "source_type": "official_newsroom",
+      "title": "Sovereign AI Selects Accenture and Palantir to Help Build Next Generation AI Infrastructure Across EMEA"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-9711e6d6f7ee524748653d18",
+        "evidence-64b953595985a5aa4e67543f",
+        "evidence-acd51127e1fd0554ec74b815"
+      ],
+      "geography": "欧州・中東・アフリカ",
+      "headline": "AIデータセンター運用ソフトを提供",
+      "products": [
+        "Palantir Chain Reaction",
+        "AIインフラ運用管理"
+      ],
+      "scale": "",
+      "source_role": "PalantirがAIインフラ運用ソフトを提供",
+      "target_role": "Sovereign AIがデータセンター構築に採用"
+    },
+    "description": "Sovereign AIがEMEAのAIデータセンター構築・拡張にPalantirとAccentureを選定。PalantirはChain Reactionで電力から計算基盤までの展開を支え、重要インフラを運用・管理するソフトウェアを提供する計画。",
+    "direction": "directed",
+    "event_date": "2026-01-21",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-8cc6e4312d83af08b0b39611",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2026-01-21",
+    "target_company_id": "co-sovereign-ai",
+    "themes": [
+      "data_center_cloud",
+      "energy_power"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

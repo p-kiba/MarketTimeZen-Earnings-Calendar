@@ -1,0 +1,200 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cf-industries",
+      "country": null,
+      "display_name": "CF Industries",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-denbury-inc",
+      "country": null,
+      "display_name": "Denbury",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lg-chem",
+      "country": null,
+      "display_name": "LG Chem",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pioneer-natural-resources",
+      "country": null,
+      "display_name": "Pioneer Natural Resources",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-xom",
+      "country": null,
+      "display_name": "ExxonMobil",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "energy_power"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-xom",
+    "country": null,
+    "display_name": "ExxonMobil",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "energy_power"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "ExxonMobilはPioneer Natural Resourcesを株式交換で買収し、Permian Basinを中心とするPioneerの上流資産をExxonMobilの事業へ統合した。",
+      "direction": "directed",
+      "event_date": "2024-05-03",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-a73c10631f38b2b8932d8f76",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-xom",
+      "status_as_of": "2024-05-03",
+      "target_company_id": "co-pioneer-natural-resources",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "ExxonMobilはDenburyを全株式取引で買収し、米国最大級のCO2パイプライン網とCCS向け資産を取り込んだ。",
+      "direction": "directed",
+      "event_date": "2023-11-02",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-e61dc127ed9040a1862a634c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-xom",
+      "status_as_of": "2023-11-02",
+      "target_company_id": "co-denbury-inc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "ExxonMobilとLG Chemは、ExxonMobilの米国リチウム事業からLG Chemのテネシー州正極材工場へリチウムを供給する複数年のオフテイクに向け、拘束力のないMOUを締結した。",
+      "direction": "directed",
+      "event_date": "2024-11-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-12d60157c40214b0abb04a3c",
+      "relationship_type": "supplier",
+      "source_company_id": "co-xom",
+      "status_as_of": "2024-11-20",
+      "target_company_id": "co-lg-chem",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "CF IndustriesはExxonMobilと商業契約を締結し、ルイジアナ州Donaldsonville施設から回収されるCO2をExxonMobilが輸送・永久貯留する計画を進めた。",
+      "direction": "directed",
+      "event_date": "2022-10-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-0f38047954349ad568bf0366",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-xom",
+      "status_as_of": "2022-10-12",
+      "target_company_id": "co-cf-industries",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-10-12",
+    "2023-11-02",
+    "2024-05-03",
+    "2024-11-20"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

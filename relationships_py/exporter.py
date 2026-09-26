@@ -2,12 +2,37 @@
 from copy import deepcopy
 from pathlib import Path
 import shutil
+import re
 from .state import ROOT, read, write, digest, now, load_master
 from .config import settings, universe
 from .validation import validate_master, ID
 from .tiers import APPROVED, rating
 
 EXPORT_VERSION='1.5.1'
+
+THEME_SIGNALS={
+    'ai_models':r'\b(?:AI models?|artificial intelligence|generative AI|LLM|Claude|GPT)\b|生成AI|人工知能',
+    'enterprise_ai':r'\b(?:enterprise AI|AI agents?|business software|enterprise software|CRM)\b|企業向けAI',
+    'gpu_compute':r'\b(?:GPU|CUDA|compute accelerators?|AI accelerators?)\b|計算アクセラレータ',
+    'custom_silicon':r'\b(?:custom silicon|custom chips?|ASICs?)\b|カスタム半導体',
+    'memory':r'\b(?:HBM|DRAM|LPDDR|SOCAMM|memory modules?)\b|メモリ',
+    'semiconductor_manufacturing':r'\b(?:semiconductor|wafer|foundry|chip fabrication|advanced packaging)\b|半導体|ウエハ|ウェハ',
+    'data_center_cloud':r'\b(?:data cent(?:er|re)|cloud infrastructure|cloud services|cloud computing|AI compute infrastructure)\b|データセンター|クラウド基盤',
+    'networking':r'\b(?:Ethernet|networking|network infrastructure|switching|wireless connectivity|telecom)\b|ネットワーク|通信',
+    'pharma_biotech':r'\b(?:pharmaceutical|pharma|biotech|clinical trial|drug development|therapeutics?)\b|医薬品|バイオ医薬',
+    'healthcare':r'\b(?:healthcare|medical device|patient care|hospital)\b|医療|ヘルスケア',
+    'food_retail':r'\b(?:grocery|food retail|retail stores?|restaurant|food products?)\b|食品|小売|食料品',
+    'financial_services':r'\b(?:payment processing|financial services|banking|credit card|brokerage)\b|決済|金融サービス|銀行',
+    'energy_power':r'\b(?:power generation|electricity|renewable energy|nuclear power|grid infrastructure|solar power)\b|発電|電力|再生可能エネルギー|原子力',
+    'automotive_batteries':r'\b(?:electric vehicles?|EV batteries|battery cells|automotive)\b|電気自動車|車載電池|自動車',
+    'industrial_aerospace':r'\b(?:aerospace|aircraft|defense systems?|industrial equipment|flight control)\b|航空宇宙|防衛|産業機器',
+    'consumer_media':r'\b(?:streaming|consumer electronics|smartphones?|digital advertising|media content)\b|ストリーミング|消費者向け電子機器|スマートフォン',
+}
+
+def relationship_themes(row):
+    business=row.get('business') or {}
+    text=' '.join(str(value) for value in (row.get('description',''),business.get('headline',''),business.get('products','')) if value)
+    return [theme for theme,pattern in THEME_SIGNALS.items() if re.search(pattern,text,re.I)]
 
 EMPTY_TERM = dict(duration_value=None,duration_unit=None,start_basis=None,start_date=None,end_date=None,renewal=None,evidence_ids=[])
 
@@ -51,6 +76,12 @@ def export(root=ROOT, allow_removal=False):
     validate_master(master,root)
     data=public_subset(master)
     idx=validate_master(data,root,public=True)
+    theme_catalog=read(root/'relationships_config/company_themes.json',{'themes':[],'company_themes':{}})
+    theme_names={item['id'] for item in theme_catalog['themes']}
+    for company in data['companies']:
+        assigned=theme_catalog.get('company_themes',{}).get(company['company_id'],[])
+        if any(theme not in theme_names for theme in assigned):raise ValueError('Unknown company theme: '+company['company_id'])
+        company['themes']=assigned
     cov=coverage(root,cfg,master,data)
     dest=root/'output_json/relationships'; previous=read(dest/'latest.json',{})
     pending=sum(r['verification'] in ('candidate','needs_review') for r in master['relationships'])
@@ -73,9 +104,9 @@ def export(root=ROOT, allow_removal=False):
         events.sort(key=lambda e:(e['announced_date'] or e['filed_date'] or '',e['event_id']),reverse=True)
         amounts=events[0]['amounts'] if events else []
         classification=rating(amounts,cfg['tiers'],events[0]['amount_disclosure'] if events else 'ambiguous')
-        return {k:r[k] for k in ('relationship_id','source_company_id','target_company_id','relationship_type','direction','description','lifecycle_status','status_as_of','last_observed_at')} | classification | {'has_amount':bool(amounts),'event_date':(events[0]['announced_date'] or events[0]['filed_date']) if events else None,'amounts':amounts,'business':r.get('business')}
+        return {k:r[k] for k in ('relationship_id','source_company_id','target_company_id','relationship_type','direction','description','lifecycle_status','status_as_of','last_observed_at')} | classification | {'has_amount':bool(amounts),'event_date':(events[0]['announced_date'] or events[0]['filed_date']) if events else None,'amounts':amounts,'business':r.get('business'),'themes':relationship_themes(r)}
     summaries=[summary(r) for r in data['relationships']]
-    put('companies.json',{'companies':data['companies']})
+    put('companies.json',{'companies':data['companies'],'themes':theme_catalog['themes']})
     for company in data['companies']:
         cid=company['company_id'];rels=[r for r in summaries if cid in (r['source_company_id'],r['target_company_id'])]
         neighbors={r[k] for r in rels for k in ('source_company_id','target_company_id')}
@@ -130,7 +161,9 @@ def validate_public(root=ROOT,pointer=None):
         if digest(path.read_bytes())!=h or read(path).get('build_id')!=p['build_id'] or read(path).get('schema_version')!='1.0':raise ValueError('Corrupt or mixed build')
     companies=read(directory/'companies.json')['companies']; cids={c['company_id'] for c in companies}
     if cids!=set(manifest['company_ids']):raise ValueError('Company index mismatch')
-    master={'companies':companies,'relationships':[],'events':[],'sources':[],'evidence':[]}
+    # Theme tags are an optional presentation extension, not part of the
+    # evidence-backed legal-company master schema.
+    master={'companies':[{k:v for k,v in company.items() if k!='themes'} for company in companies],'relationships':[],'events':[],'sources':[],'evidence':[]}
     merge={name:{} for name in ('events','sources','evidence')}
     for rid in manifest['relationship_ids']:
         item=read(directory/f'relationships/{rid}.json');master['relationships'].append(item['relationship'])

@@ -1,0 +1,226 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-09-12",
+      "conditions": "",
+      "deal_id": "deal-5cfacd943e7c79f8e9af2285",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-5cfacd943e7c79f8e9af2285",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-5cfacd943e7c79f8e9af2285",
+        "evidence-8731877b6cefd9dbcdb66201"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5cfacd943e7c79f8e9af2285",
+            "evidence-8731877b6cefd9dbcdb66201"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-222d503bdbf468c2f7771935"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-0a9aea62715c86cab15507c2": "f9a0c6f9ca354b0dfa91207fd240c57b7298a774577a79bc60696d2d85a478ce"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-paypal-uber",
+        "rule_version": "e4896f87c98c81a7511ffa3f0997e97b8aa7e8f9e4913484e6d1b357bf09861a",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5cfacd943e7c79f8e9af2285",
+      "excerpt": "As part of the agree",
+      "locator": "p:9",
+      "normalized_text_hash": "0bcabed7974f00f378b580f81f19669b98a43ef62f3cd4d373fa45f0fa100522",
+      "section": "Primary disclosure: p:9",
+      "source_id": "source-0a9aea62715c86cab15507c2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8731877b6cefd9dbcdb66201",
+      "excerpt": "SAN JOSE, ",
+      "locator": "p:8",
+      "normalized_text_hash": "fc707f2dfe1069e3763b5a1c5c7eca3abd5e44aeac6441e63e0caa4b26d2c30a",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-0a9aea62715c86cab15507c2",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-5cfacd943e7c79f8e9af2285",
+        "evidence-8731877b6cefd9dbcdb66201"
+      ],
+      "geography": "",
+      "headline": "配車決済・送金基盤を提供",
+      "products": [
+        "PayPal Braintree",
+        "PayPal Payouts",
+        "デビット回線ルーティング"
+      ],
+      "scale": "",
+      "source_role": "PayPalが決済処理・送金基盤を提供",
+      "target_role": "Uberが配車等の決済に利用"
+    },
+    "deal_ids": [
+      "deal-5cfacd943e7c79f8e9af2285"
+    ],
+    "description": "PayPalとUberが複数年契約を拡張。Braintreeでカード処理・国内デビット回線ルーティングを支え、PayPal Payouts等も利用。2023年発表時点のサービス内容で、手数料率・契約総額は資料に記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-5cfacd943e7c79f8e9af2285",
+      "evidence-8731877b6cefd9dbcdb66201"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-5cfacd943e7c79f8e9af2285"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-222d503bdbf468c2f7771935",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-paypal",
+    "status_as_of": "2023-09-12",
+    "target_company_id": "co-uber",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0a9aea62715c86cab15507c2": "f9a0c6f9ca354b0dfa91207fd240c57b7298a774577a79bc60696d2d85a478ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-paypal-uber",
+      "rule_version": "e4896f87c98c81a7511ffa3f0997e97b8aa7e8f9e4913484e6d1b357bf09861a",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.paypal-corp.com/2023-09-12-Uber-and-PayPal-Expand-Relationship",
+      "content_hash": "f9a0c6f9ca354b0dfa91207fd240c57b7298a774577a79bc60696d2d85a478ce",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-09-12",
+      "publisher": "newsroom.paypal-corp.com",
+      "retrieved_at": "2026-09-26T16:04:09+00:00",
+      "source_id": "source-0a9aea62715c86cab15507c2",
+      "source_type": "official_newsroom",
+      "title": "Press Release: Uber and PayPal Expand Relationship"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-5cfacd943e7c79f8e9af2285",
+        "evidence-8731877b6cefd9dbcdb66201"
+      ],
+      "geography": "",
+      "headline": "配車決済・送金基盤を提供",
+      "products": [
+        "PayPal Braintree",
+        "PayPal Payouts",
+        "デビット回線ルーティング"
+      ],
+      "scale": "",
+      "source_role": "PayPalが決済処理・送金基盤を提供",
+      "target_role": "Uberが配車等の決済に利用"
+    },
+    "description": "PayPalとUberが複数年契約を拡張。Braintreeでカード処理・国内デビット回線ルーティングを支え、PayPal Payouts等も利用。2023年発表時点のサービス内容で、手数料率・契約総額は資料に記載なし。",
+    "direction": "directed",
+    "event_date": "2023-09-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-222d503bdbf468c2f7771935",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-paypal",
+    "status_as_of": "2023-09-12",
+    "target_company_id": "co-uber",
+    "themes": [
+      "financial_services"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

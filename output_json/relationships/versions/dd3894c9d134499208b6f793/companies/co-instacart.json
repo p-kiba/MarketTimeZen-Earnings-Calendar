@@ -1,0 +1,133 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "food_retail"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-instacart",
+      "country": null,
+      "display_name": "Instacart",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-06-11",
+      "listing_status_source": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+          "symbol": "CART",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "food_retail"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-instacart",
+    "country": null,
+    "display_name": "Instacart",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-06-11",
+    "listing_status_source": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+        "symbol": "CART",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "food_retail"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-244a3c4de0cb49740aadb506",
+          "evidence-d35f2fdd56d21925beb662d8"
+        ],
+        "geography": "",
+        "headline": "当日配送とECサイト基盤の提供",
+        "products": [
+          "当日配送",
+          "Instacart Storefront Pro"
+        ],
+        "scale": "",
+        "source_role": "配送・ECサイト基盤",
+        "target_role": "会員向け小売"
+      },
+      "description": "InstacartがCostcoの当日配送を支援し、配送サイトにもStorefront Proを提供。2017年からの提携を基にした2025年の発表。会員向け月額クレジットや注文額条件は二社の取引額ではない。",
+      "direction": "directed",
+      "event_date": "2025-06-11",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-2f45c4fa57583800e90111e8",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-instacart",
+      "status_as_of": "2025-06-11",
+      "target_company_id": "co-cost",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-06-11"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

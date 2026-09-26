@@ -1,0 +1,130 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000901832",
+      "company_id": "co-astrazeneca",
+      "country": null,
+      "display_name": "AstraZeneca",
+      "entity_status": "resolved",
+      "legal_name": "ASTRAZENECA PLC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000901832.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000901832.json",
+          "symbol": "AZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-daiichi-sankyo",
+      "country": null,
+      "display_name": "Daiichi Sankyo",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000901832",
+    "company_id": "co-astrazeneca",
+    "country": null,
+    "display_name": "AstraZeneca",
+    "entity_status": "resolved",
+    "legal_name": "ASTRAZENECA PLC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000901832.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000901832.json",
+        "symbol": "AZN",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "pharma_biotech"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "geography": "",
+        "headline": "ENHERTU・Dato-DXdを共同開発",
+        "products": [
+          "ENHERTU",
+          "datopotamab deruxtecan"
+        ],
+        "scale": "",
+        "source_role": "第一三共がDXd ADC技術と共同開発を担当",
+        "target_role": "AstraZenecaが共同開発・商業化を担当"
+      },
+      "description": "第一三共とAstraZenecaがENHERTUおよびdatopotamab deruxtecanを世界で共同開発・商業化していることを2023年発表で確認。Merck向け3製品の契約金額はこの協業に転用しない。",
+      "direction": "undirected",
+      "event_date": "2023-10-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-bee78c918bf368c41490d508",
+      "relationship_type": "partnership",
+      "source_company_id": "co-daiichi-sankyo",
+      "status_as_of": "2023-10-19",
+      "target_company_id": "co-astrazeneca",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-10-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

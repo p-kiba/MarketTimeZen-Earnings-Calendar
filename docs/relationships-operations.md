@@ -22,6 +22,14 @@ bash scripts/collect-relationships-local.sh
 - ローカル定期実行は掲載条件を満たす候補から公開用JSONを生成します。commit/push、デプロイは行いません。GitHub Actionsは同じ条件で生成結果をcommitし、Pages有効時は公開工程に進みます。
 - ユーザーの指示でテスト実行は一時停止中です。定期タスクにもこの指示を保存しています。
 
+## 調査テーマで企業・関係を絞り込む
+
+マップ上部の「テーマ」で、GPU・計算アクセラレータ、メモリ、半導体、クラウド・データセンター、医薬品・バイオ、食品・小売、金融、エネルギーなどを選べます。会社には複数のテーマを付けられます。関係側のテーマは、関係内容の明示的な製品・事業用語から分類し、線の相手企業の業種だけで取引内容を推測しません。選択企業のテーマは見出しと企業詳細に表示されます。
+
+テーマ定義と企業への割当は `relationships_config/company_themes.json` で管理します。これは投資調査のための編集可能な分類であり、会社の公式業種分類や、個々の契約内容を証明するものではありません。新しい会社を収集対象へ追加するときは、銘柄・会社IDを確認してから必要なテーマを割り当てます。公開JSONは `export` 時に生成され、会社・関係データと一緒に内容hash検証されます。
+
+時価総額重視の既存収集対象は `relationships_config/universe.json` の `large_cap_focus` です。NFLX、PLTR、CSCO、AVGO、ORCL、DELLを含む24社を対象にしています。OpenAIとAnthropicは非上場企業として時価総額リストと分け、公式ニュース収集先 `relationships_config/official_sources.json` に登録済みです。
+
 SECのみなら `bash scripts/collect-relationships-local.sh --sec-only`。過去分の追加取得は `--mode backfill --months 3` のように指定します。403などの制限を迂回せず、原文が得られない項目は確認待ちにします。
 
 ## 一次資料を読んで確認する

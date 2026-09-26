@@ -1,0 +1,172 @@
+{
+  "build_id": "dd3894c9d134499208b6f793",
+  "coverage": {
+    "backfill_months": 24,
+    "company_checks": {
+      "co-aapl": {
+        "checked_at": "2026-09-26T08:10:33+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 2
+      },
+      "co-amd": {
+        "checked_at": "2026-09-26T08:10:38+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      },
+      "co-amzn": {
+        "checked_at": "2026-09-26T08:10:34+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 2
+      },
+      "co-avgo": {
+        "checked_at": "2026-09-26T08:10:35+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 4
+      },
+      "co-brk-b": {
+        "checked_at": "2026-09-26T08:10:37+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 4
+      },
+      "co-cost": {
+        "checked_at": "2026-09-26T08:10:39+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 1,
+        "unsupported_filings": 0
+      },
+      "co-googl": {
+        "checked_at": "2026-09-26T08:10:33+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      },
+      "co-jpm": {
+        "checked_at": "2026-09-26T08:10:38+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 383
+      },
+      "co-lly": {
+        "checked_at": "2026-09-26T08:10:37+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 4
+      },
+      "co-meta": {
+        "checked_at": "2026-09-26T08:10:35+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 5
+      },
+      "co-msft": {
+        "checked_at": "2026-09-26T08:10:34+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      },
+      "co-mu": {
+        "checked_at": "2026-09-26T08:10:36+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      },
+      "co-nvda": {
+        "checked_at": "2026-09-26T08:10:32+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 3
+      },
+      "co-tsla": {
+        "checked_at": "2026-09-26T08:10:36+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      },
+      "co-wmt": {
+        "checked_at": "2026-09-26T08:10:39+00:00",
+        "last_success_date": "2026-09-26",
+        "since": "2026-09-19",
+        "status": "discovered",
+        "supported_filings": 0,
+        "unsupported_filings": 0
+      }
+    },
+    "documents": {
+      "candidate_created": 61,
+      "discovered": 199,
+      "downloaded": 105,
+      "parsed": 151,
+      "published": 0,
+      "retryable_error": 14,
+      "reviewed": 21,
+      "unsupported": 391
+    },
+    "indexed_companies": 223,
+    "last_run": {
+      "checked_at": "2026-09-26T08:10:46+00:00",
+      "downloaded_attempts": 7,
+      "errors": [],
+      "mode": "incremental",
+      "sec_only": true,
+      "universe": "large_cap_focus"
+    },
+    "limitations": [
+      "Selected-company coverage only; absence of a line does not imply absence of a relationship.",
+      "Historical source status is not a statement of current status.",
+      "Only explicit, complete official announcements are included automatically; other extractions remain pending.",
+      "SEC live collection requires SEC_USER_AGENT."
+    ],
+    "pending_review": 0,
+    "published_relationships": 241,
+    "statement_deferred_count": 9998,
+    "statement_review_count": 300,
+    "supported_forms": [
+      "8-K",
+      "8-K/A",
+      "10-K",
+      "10-K/A",
+      "10-Q",
+      "10-Q/A",
+      "6-K",
+      "6-K/A",
+      "20-F",
+      "20-F/A"
+    ],
+    "target_companies": 24,
+    "universe": "large_cap_focus"
+  },
+  "schema_version": "1.0"
+}
