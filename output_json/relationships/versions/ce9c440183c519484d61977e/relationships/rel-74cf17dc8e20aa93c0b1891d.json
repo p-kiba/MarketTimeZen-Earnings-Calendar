@@ -1,0 +1,225 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1affc87672744f6113131144",
+          "amount_kind": "investment_amount",
+          "conditions": "通常のクロージング条件の充足が必要。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD 30.0 billion",
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "USD 30.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-softbank-group"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-1747e7971d3998f896e21fc6",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-1747e7971d3998f896e21fc6",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1747e7971d3998f896e21fc6"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-74cf17dc8e20aa93c0b1891d"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-6a7dbd2365709848abd13576": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-6a7dbd2365709848abd13576",
+        "rule_version": "31c424f40bbaee854e4460a54acef6a7b4f4ab92ca37ff5a7e30e1401e797042",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1747e7971d3998f896e21fc6",
+      "excerpt": "follow-on investments of USD 30.0 billion",
+      "locator": "p:1",
+      "normalized_text_hash": "2307f84d43dba8d5f2029d026da8c6a78dde1caed8d46f15fc7c8a8e86debe74",
+      "section": "Official deal announcement",
+      "source_id": "source-6a7dbd2365709848abd13576",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-1747e7971d3998f896e21fc6"
+    ],
+    "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-1747e7971d3998f896e21fc6"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-1747e7971d3998f896e21fc6"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-74cf17dc8e20aa93c0b1891d",
+    "relationship_type": "investment",
+    "source_company_id": "co-softbank-group",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-6a7dbd2365709848abd13576": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-6a7dbd2365709848abd13576",
+      "rule_version": "31c424f40bbaee854e4460a54acef6a7b4f4ab92ca37ff5a7e30e1401e797042",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://group.softbank/en/news/press/20260227",
+      "content_hash": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-softbank-group",
+      "retrieved_at": "2026-09-25T16:04:08+00:00",
+      "source_id": "source-6a7dbd2365709848abd13576",
+      "source_type": "official_newsroom",
+      "title": "Follow-on Investments in OpenAI | SoftBank Group Corp."
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-1affc87672744f6113131144",
+        "amount_kind": "investment_amount",
+        "conditions": "通常のクロージング条件の充足が必要。",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "USD 30.0 billion",
+        "evidence_ids": [
+          "evidence-1747e7971d3998f896e21fc6"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "USD 30.0 billion",
+        "payee_company_ids": [
+          "co-openai"
+        ],
+        "payer_company_ids": [
+          "co-softbank-group"
+        ],
+        "qualifier": "exact",
+        "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+        "value": "30000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+    "direction": "directed",
+    "event_date": "2026-02-27",
+    "has_amount": true,
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-74cf17dc8e20aa93c0b1891d",
+    "relationship_type": "investment",
+    "source_company_id": "co-softbank-group",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "conditional"
+    ]
+  }
+}

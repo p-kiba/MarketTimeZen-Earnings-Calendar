@@ -1,0 +1,397 @@
+{
+  "build_id": "4eaa0f0dac49664feaebba14",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+          "amount_kind": "committed_total",
+          "conditions": "原文の$について通貨の種類は未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-04-20",
+      "conditions": "",
+      "deal_id": "deal-4a71d6c1a98ec10f5b5d90ca",
+      "detected_at": "2026-09-26T04:47:23+00:00",
+      "effective_date": null,
+      "event_id": "event-4a71d6c1a98ec10f5b5d90ca",
+      "event_type": "expansion",
+      "evidence_ids": [
+        "evidence-4a71d6c1a98ec10f5b5d90ca"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-4a71d6c1a98ec10f5b5d90ca"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+        },
+        "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-source-30402cd228887d44f9063873",
+        "rule_version": "fd234ab46b5d6dfbc743defbb6233fd85b7a09ee3ec0f1fc551c88a04536ca20",
+        "verified_at": "2026-09-26T04:47:23+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-dbc8579788241ae9f92a07f8",
+          "amount_kind": "incremental_commitment",
+          "conditions": "AWSチップの性能に関する契約上の義務を含む",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-592 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$ 100.0 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "既存契約に対する追加コミットメント",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "AWSチップの性能に関する契約上の義務を含む。起算日と具体的な性能閾値はこの注記に記載なし。",
+      "deal_id": "deal-4a71d6c1a98ec10f5b5d90ca",
+      "detected_at": "2026-09-26T05:23:10+00:00",
+      "effective_date": null,
+      "event_id": "event-f50b6777584fad5d93d1c45c",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-862e87425425f3e0001656be"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-31",
+      "relationship_ids": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "supersedes_event_id": "event-4a71d6c1a98ec10f5b5d90ca",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-862e87425425f3e0001656be"
+        ],
+        "renewal": null,
+        "start_basis": "契約拡張の対象期間。正確な起算日は非掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+        "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+        "verified_at": "2026-09-26T05:23:10+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4a71d6c1a98ec10f5b5d90ca",
+      "excerpt": "commitment from Anthropic to spend more than $100 billion",
+      "locator": "p:1",
+      "normalized_text_hash": "fafec0d02ade34b9c6c5f15a684c5140a828781575dd92497edbd234d3428040",
+      "section": "Official primary disclosure",
+      "source_id": "source-30402cd228887d44f9063873",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-862e87425425f3e0001656be",
+      "excerpt": "AWS",
+      "locator": "sec-div:226",
+      "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+      "section": "Official disclosure: business context",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-862e87425425f3e0001656be"
+      ],
+      "geography": "",
+      "headline": "AWS計算基盤契約の追加コミットメント",
+      "products": [
+        "AWS計算基盤",
+        "AWSチップ"
+      ],
+      "scale": "",
+      "source_role": "計算基盤提供",
+      "target_role": "AIモデルの学習・運用"
+    },
+    "deal_ids": [
+      "deal-4a71d6c1a98ec10f5b5d90ca"
+    ],
+    "description": "AWSとAnthropicの既存クラウド契約を10年間で1,000億米ドル超拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-862e87425425f3e0001656be"
+    ],
+    "first_observed_at": "2026-09-25T18:57:25+00:00",
+    "last_observed_at": "2026-09-26T05:23:10+00:00",
+    "latest_event_ids": [
+      "event-f50b6777584fad5d93d1c45c"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+      "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+      "verified_at": "2026-09-26T05:23:10+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-20",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:51:31+00:00",
+      "source_id": "source-30402cd228887d44f9063873",
+      "source_type": "official_newsroom",
+      "title": "Amazon announces $5B Anthropic investment, up to $20B more"
+    },
+    {
+      "accession_number": "0001018724-26-000026",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-31",
+      "filing_cik": "0001018724",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:45:09+00:00",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "source_type": "sec_filing",
+      "title": "amzn-20260630"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-dbc8579788241ae9f92a07f8",
+        "amount_kind": "incremental_commitment",
+        "conditions": "AWSチップの性能に関する契約上の義務を含む",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-592 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-862e87425425f3e0001656be"
+        ],
+        "max_value": null,
+        "min_value": "100000000000",
+        "original_text": "$ 100.0 billion",
+        "payee_company_ids": [
+          "co-aws"
+        ],
+        "payer_company_ids": [
+          "co-anthropic"
+        ],
+        "qualifier": "more_than",
+        "scope": "既存契約に対する追加コミットメント",
+        "value": null,
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-862e87425425f3e0001656be"
+      ],
+      "geography": "",
+      "headline": "AWS計算基盤契約の追加コミットメント",
+      "products": [
+        "AWS計算基盤",
+        "AWSチップ"
+      ],
+      "scale": "",
+      "source_role": "計算基盤提供",
+      "target_role": "AIモデルの学習・運用"
+    },
+    "description": "AWSとAnthropicの既存クラウド契約を10年間で1,000億米ドル超拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+    "direction": "directed",
+    "event_date": "2026-07-31",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:10+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "bounded_or_unspecified",
+      "conditional",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

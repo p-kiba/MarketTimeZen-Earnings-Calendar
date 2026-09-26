@@ -1,0 +1,174 @@
+{
+  "build_id": "6ee9382eb958b0d55c04f91a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coreweave",
+      "country": null,
+      "display_name": "CoreWeave",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-25",
+      "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "symbol": "CRWV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://investor.nvidia.com/investor-resources/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.nvidia.com/investor-resources/faqs/",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-coreweave",
+    "country": null,
+    "display_name": "CoreWeave",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-09-25",
+    "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+        "symbol": "CRWV",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-3e417e65fd7adc77af71cf96",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "direction": "directed",
+      "event_date": "2025-09-25",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-coreweave",
+      "status_as_of": "2025-09-25",
+      "target_company_id": "co-openai",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-27cf0f6b32d0dd5a1ce3d970"
+        ],
+        "geography": "",
+        "headline": "Blackwellクラウドの提供計画",
+        "products": [
+          "Blackwellクラウド"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "クラウドサービスの提供予定"
+      },
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-cf4bf93cd68aa208cc0b177d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-coreweave",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2025-09-25"
+  ],
+  "total_counterparties": 2,
+  "total_relationships": 2
+}

@@ -1,0 +1,42 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "coverage": {
+    "backfill_months": 24,
+    "company_checks": {},
+    "documents": {
+      "candidate_created": 2,
+      "discovered": 32,
+      "downloaded": 18,
+      "parsed": 1,
+      "published": 0,
+      "retryable_error": 3,
+      "reviewed": 0,
+      "unsupported": 1
+    },
+    "indexed_companies": 28,
+    "last_run": null,
+    "limitations": [
+      "Pilot/custom coverage only; absence of a line does not imply absence of a relationship.",
+      "Historical source status is not a statement of current status.",
+      "General extraction produces review candidates; scanned PDFs and JavaScript-only sources are unsupported.",
+      "SEC live collection requires SEC_USER_AGENT."
+    ],
+    "pending_review": 4,
+    "published_relationships": 33,
+    "supported_forms": [
+      "8-K",
+      "8-K/A",
+      "10-K",
+      "10-K/A",
+      "10-Q",
+      "10-Q/A",
+      "6-K",
+      "6-K/A",
+      "20-F",
+      "20-F/A"
+    ],
+    "target_companies": 20,
+    "universe": "pilot"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,182 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ibm",
+      "country": null,
+      "display_name": "IBM",
+      "entity_status": "resolved",
+      "legal_name": "International Business Machines Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.ibm.com/investor/help/general-faqs",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.ibm.com/investor/help/general-faqs",
+          "symbol": "IBM",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-redhat",
+      "country": null,
+      "display_name": "Red Hat",
+      "entity_status": "resolved",
+      "legal_name": "Red Hat",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-redhat",
+    "country": null,
+    "display_name": "Red Hat",
+    "entity_status": "resolved",
+    "legal_name": "Red Hat",
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "USD explicitly stated in the acquisition paragraph",
+          "evidence_ids": [
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-ibm"
+          ],
+          "qualifier": "approximately",
+          "scope": "Total equity value of all Red Hat common shares in this acquisition",
+          "value": "34000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+      "direction": "directed",
+      "event_date": "2019-07-09",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-0861e56024d9a66f3441f259",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-ibm",
+      "status_as_of": "2019-07-09",
+      "target_company_id": "co-redhat",
+      "tier": {
+        "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+        "color": "#c49a24",
+        "currency": "USD",
+        "level": 4
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-1bf847ba1504be2d08acc3c3"
+        ],
+        "geography": "",
+        "headline": "OpenShift AIのInstinct対応・AI推論検証",
+        "products": [
+          "AMD Instinct MI300X",
+          "Red Hat OpenShift AI",
+          "Red Hat Enterprise Linux AI"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "AIソフトウェア・仮想化基盤"
+      },
+      "description": "Red Hat OpenShift AIがAMD Instinct GPUに対応。両社はAzure ND MI300X v5上でRed Hat Enterprise Linux AIとInstinct MI300Xを使ったAI推論を検証したと公表。",
+      "direction": "undirected",
+      "event_date": "2025-05-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-b4481f1fa976d8bd5c68acf0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-amd",
+      "status_as_of": "2025-05-20",
+      "target_company_id": "co-redhat",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2019-07-09",
+    "2025-05-20"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

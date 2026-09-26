@@ -1,0 +1,228 @@
+{
+  "pilot": {
+    "as_of": "2026-09-25",
+    "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+    "license_note": "Project-selected pilot, not an index constituent list. Existing CIK mapping pending live revalidation.",
+    "securities": [
+      {
+        "symbol": "AAPL",
+        "company_id": "co-aapl",
+        "cik": "0000320193",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "MSFT",
+        "company_id": "co-msft",
+        "cik": "0000789019",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "GOOGL",
+        "company_id": "co-googl",
+        "cik": "0001652044",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "AMZN",
+        "company_id": "co-amzn",
+        "cik": "0001018724",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "NVDA",
+        "company_id": "co-nvda",
+        "cik": "0001045810",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "IBM",
+        "company_id": "co-ibm",
+        "cik": "0000051143",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "ORCL",
+        "company_id": "co-orcl",
+        "cik": "0001341439",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "CRM",
+        "company_id": "co-crm",
+        "cik": "0001108524",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "JPM",
+        "company_id": "co-jpm",
+        "cik": "0000019617",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "V",
+        "company_id": "co-v",
+        "cik": "0001403161",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "JNJ",
+        "company_id": "co-jnj",
+        "cik": "0000200406",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "LLY",
+        "company_id": "co-lly",
+        "cik": "0000059478",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "WMT",
+        "company_id": "co-wmt",
+        "cik": "0000104169",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "COST",
+        "company_id": "co-cost",
+        "cik": "0000909832",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "XOM",
+        "company_id": "co-xom",
+        "cik": "0000034088",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "CVX",
+        "company_id": "co-cvx",
+        "cik": "0000093410",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "CAT",
+        "company_id": "co-cat",
+        "cik": "0000018230",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "BA",
+        "company_id": "co-ba",
+        "cik": "0000012927",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "NEE",
+        "company_id": "co-nee",
+        "cik": "0000753308",
+        "cik_basis": "Existing earnings_py/input/us_companies.py; refresh with official SEC submissions before collection"
+      },
+      {
+        "symbol": "AKAM",
+        "company_id": "co-akam",
+        "cik": null,
+        "cik_basis": "Requires official resolution"
+      }
+    ]
+  },
+  "custom": null,
+  "sp500": null,
+  "large_cap_focus": {
+    "as_of": "2026-09-26",
+    "source_url": "https://stockanalysis.com/list/biggest-companies/",
+    "license_note": "Dated market-cap-priority research watchlist based on a public market-cap ranking reviewed 2026-09-26, not an index constituent list. Selection is a collection priority only; market-cap values and ranks are not stored or published. Verify CIK/ticker identity from SEC submissions before collection.",
+    "securities": [
+      {
+        "symbol": "NVDA",
+        "company_id": "co-nvda",
+        "cik": "0001045810",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "AAPL",
+        "company_id": "co-aapl",
+        "cik": "0000320193",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "GOOGL",
+        "company_id": "co-googl",
+        "cik": "0001652044",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "MSFT",
+        "company_id": "co-msft",
+        "cik": "0000789019",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "AMZN",
+        "company_id": "co-amzn",
+        "cik": "0001018724",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "META",
+        "company_id": "co-meta",
+        "cik": "0001326801",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "AVGO",
+        "company_id": "co-avgo",
+        "cik": "0001730168",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "TSLA",
+        "company_id": "co-tsla",
+        "cik": "0001318605",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "MU",
+        "company_id": "co-mu",
+        "cik": "0000723125",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "BRK-B",
+        "company_id": "co-brk-b",
+        "cik": "0001067983",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "LLY",
+        "company_id": "co-lly",
+        "cik": "0000059478",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "AMD",
+        "company_id": "co-amd",
+        "cik": "0000002488",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "JPM",
+        "company_id": "co-jpm",
+        "cik": "0000019617",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "WMT",
+        "company_id": "co-wmt",
+        "cik": "0000104169",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "COST",
+        "company_id": "co-cost",
+        "cik": "0000909832",
+        "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      }
+    ]
+  }
+}

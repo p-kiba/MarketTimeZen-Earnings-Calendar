@@ -1,0 +1,91 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-contextual-ai",
+      "country": null,
+      "display_name": "Contextual AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-google",
+      "country": null,
+      "display_name": "Google",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-contextual-ai",
+    "country": null,
+    "display_name": "Contextual AI",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e8325d3f8f5851ce685dac16"
+        ],
+        "geography": "",
+        "headline": "AIモデルの学習・提供用クラウド基盤",
+        "products": [
+          "Google Cloud AI infrastructure"
+        ],
+        "scale": "",
+        "source_role": "AI計算基盤を提供",
+        "target_role": "モデル開発・提供で利用"
+      },
+      "description": "Contextual AIはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+      "direction": "directed",
+      "event_date": "2024-04-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-d1709d5433048767799bb043",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-google",
+      "status_as_of": "2024-04-09",
+      "target_company_id": "co-contextual-ai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-04-09"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

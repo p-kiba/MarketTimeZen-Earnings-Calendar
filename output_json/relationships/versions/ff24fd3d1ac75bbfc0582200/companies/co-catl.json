@@ -1,0 +1,106 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-catl",
+      "country": null,
+      "display_name": "Contemporary Amperex Technology Co. Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001318605",
+      "company_id": "co-tsla",
+      "country": null,
+      "display_name": "Tesla",
+      "entity_status": "resolved",
+      "legal_name": "Tesla, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001318605.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+          "symbol": "TSLA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-catl",
+    "country": null,
+    "display_name": "Contemporary Amperex Technology Co. Limited",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-65dfb6e6fd176e1a9236d479",
+          "evidence-70d7c8d07f25fac7cc6772a2"
+        ],
+        "geography": "",
+        "headline": "CATLによるリチウムイオン電池セル供給",
+        "products": [
+          "リチウムイオン電池セル"
+        ],
+        "scale": "",
+        "source_role": "電池セル供給",
+        "target_role": "車両・蓄電製品への組込み"
+      },
+      "description": "Teslaの2024年10-KはContemporary Amperex Technology Co. Limitedを車両・蓄電製品向けリチウムイオン電池セル供給者として明記。企業グループ名での開示で、個別契約子会社・最新購入額・現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-01-30",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-b14a64fdabf6b0b449b1b74f",
+      "relationship_type": "supplier",
+      "source_company_id": "co-catl",
+      "status_as_of": "2024-12-31",
+      "target_company_id": "co-tsla",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-12-31"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

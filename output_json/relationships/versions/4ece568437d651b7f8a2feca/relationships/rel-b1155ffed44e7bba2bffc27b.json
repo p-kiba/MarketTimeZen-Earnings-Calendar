@@ -1,0 +1,190 @@
+{
+  "build_id": "4ece568437d651b7f8a2feca",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-11-22",
+      "conditions": "",
+      "deal_id": "deal-4a437f2b0d402a48e90b384b",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "effective_date": null,
+      "event_id": "event-4a437f2b0d402a48e90b384b",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-0abc68268b7aa1b43b4af998",
+        "evidence-cd43b0e029f3c0d56353ef9f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2110b6ef2c6af1e086212428": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4"
+        },
+        "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+        "reviewer": null,
+        "rule_id": "pilot-source-2110b6ef2c6af1e086212428",
+        "rule_version": "1",
+        "verified_at": "2026-09-25T14:57:31+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0abc68268b7aa1b43b4af998",
+      "excerpt": "a new $4 billion investment from Amazon",
+      "locator": "p:1",
+      "normalized_text_hash": "af6e49ad9389dd6048d5752be7513f4977a2b8c77b5e992123aa1aafa9805c3c",
+      "section": "Primary announcement",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cd43b0e029f3c0d56353ef9f",
+      "excerpt": "Amazon's total investment in Anthropic to $8 billion",
+      "locator": "p:1",
+      "normalized_text_hash": "5a3241b111f57469d4ec61ff3843bb6d2dd830f74c40f4c1cbc300a617db78db",
+      "section": "Primary announcement",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "supports_fields": [
+        "relationship",
+        "parties",
+        "status"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-4a437f2b0d402a48e90b384b"
+    ],
+    "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-0abc68268b7aa1b43b4af998",
+      "evidence-cd43b0e029f3c0d56353ef9f"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "latest_event_ids": [
+      "event-4a437f2b0d402a48e90b384b"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2024-11-22",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2110b6ef2c6af1e086212428": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4"
+      },
+      "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+      "reviewer": null,
+      "rule_id": "pilot-source-2110b6ef2c6af1e086212428",
+      "rule_version": "1",
+      "verified_at": "2026-09-25T14:57:31+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+      "content_hash": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-11-22",
+      "publisher": "co-anthropic",
+      "retrieved_at": "2026-09-25T14:55:37+00:00",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "source_type": "official_newsroom",
+      "title": "Powering the next generation of AI development with AWS \\ Anthropic"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+    "direction": "directed",
+    "event_date": "2024-11-22",
+    "has_amount": false,
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2024-11-22",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "ambiguous"
+    ]
+  }
+}

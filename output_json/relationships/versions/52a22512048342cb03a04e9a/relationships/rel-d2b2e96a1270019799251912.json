@@ -1,0 +1,200 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-03-11",
+      "conditions": "",
+      "deal_id": "deal-1b82d29797d80ff5f3356988",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-1b82d29797d80ff5f3356988",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1b82d29797d80ff5f3356988"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d2b2e96a1270019799251912"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-3f80e854721ad8645bce9be7",
+        "rule_version": "2233b5d51b25d18adc3a00bf95143c2c0cc8dff3ca08feaf94589c68d04a4bae",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1b82d29797d80ff5f3356988",
+      "excerpt": "acquisition of Wiz",
+      "locator": "p:14",
+      "normalized_text_hash": "744353d505f51550072e506902a6950bfaabf97005ad58a49c1144e2ed6d11a8",
+      "section": "Official disclosure: business context",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-1b82d29797d80ff5f3356988"
+      ],
+      "geography": "",
+      "headline": "Wiz買収完了・クラウドセキュリティ統合",
+      "products": [
+        "クラウドセキュリティ",
+        "AIセキュリティ"
+      ],
+      "scale": "",
+      "source_role": "買収側・クラウド基盤",
+      "target_role": "セキュリティプラットフォーム"
+    },
+    "deal_ids": [
+      "deal-1b82d29797d80ff5f3356988"
+    ],
+    "description": "GoogleがWizの買収完了を公表。Wizはブランドを維持し、Google Cloudでクラウド・AIセキュリティを提供する。完了発表の本文には買収額の記載がない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-1b82d29797d80ff5f3356988"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "latest_event_ids": [
+      "event-1b82d29797d80ff5f3356988"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d2b2e96a1270019799251912",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-03-11",
+    "target_company_id": "co-wiz",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-3f80e854721ad8645bce9be7",
+      "rule_version": "2233b5d51b25d18adc3a00bf95143c2c0cc8dff3ca08feaf94589c68d04a4bae",
+      "verified_at": "2026-09-26T04:47:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/",
+      "content_hash": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-03-11",
+      "publisher": "co-google",
+      "retrieved_at": "2026-09-26T04:45:24+00:00",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "source_type": "official_newsroom",
+      "title": "Google completes acquisition of Wiz"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-1b82d29797d80ff5f3356988"
+      ],
+      "geography": "",
+      "headline": "Wiz買収完了・クラウドセキュリティ統合",
+      "products": [
+        "クラウドセキュリティ",
+        "AIセキュリティ"
+      ],
+      "scale": "",
+      "source_role": "買収側・クラウド基盤",
+      "target_role": "セキュリティプラットフォーム"
+    },
+    "description": "GoogleがWizの買収完了を公表。Wizはブランドを維持し、Google Cloudでクラウド・AIセキュリティを提供する。完了発表の本文には買収額の記載がない。",
+    "direction": "directed",
+    "event_date": "2026-03-11",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d2b2e96a1270019799251912",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-03-11",
+    "target_company_id": "co-wiz",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vmware",
+      "country": null,
+      "display_name": "VMware",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-vmware",
+    "country": null,
+    "display_name": "VMware",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-fbf2cb9a06e85e066986618c"
+        ],
+        "geography": "",
+        "headline": "VMware買収の完了",
+        "products": [
+          "VMware事業"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Broadcomは2023年11月22日にVMware買収を完了。複数の合併・組織再編を経て完全子会社化した。買収資金借入額は取得対価の総額とは異なるため金額欄へ転記しない。",
+      "direction": "directed",
+      "event_date": "2023-11-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2023-11-22",
+      "target_company_id": "co-vmware",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-11-22"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

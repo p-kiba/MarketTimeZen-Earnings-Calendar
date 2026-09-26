@@ -1,0 +1,15 @@
+{
+  "approved_data_hash": "43916ff8403df77c42ac93502b8ec0dddd84926cce847e1f81494e724ad43f79",
+  "counts": {
+    "companies": 64,
+    "events": 90,
+    "evidence": 119,
+    "relationships": 84,
+    "sources": 37
+  },
+  "deployment_authorized": false,
+  "reason": "Reviewed the fixed 94-candidate batch against primary paragraphs; applied pinned IR claims, SEC notes and Nebius contract proofs; preserved uncertain candidates and revision history. No production deployment authorized.",
+  "review_id": "release-43916ff8403df77c42ac9350",
+  "reviewed_at": "2026-09-26T05:32:21+00:00",
+  "reviewer": "Codex source-bound review; not human approval"
+}

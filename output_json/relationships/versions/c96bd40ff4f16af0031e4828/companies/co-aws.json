@@ -1,0 +1,530 @@
+{
+  "build_id": "c96bd40ff4f16af0031e4828",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bmw",
+      "country": null,
+      "display_name": "BMW Group",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pinterest",
+      "country": null,
+      "display_name": "Pinterest",
+      "entity_status": "resolved",
+      "legal_name": "Pinterest, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-04",
+      "listing_status_source": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+          "symbol": "PINS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-aws",
+    "country": null,
+    "display_name": "Amazon Web Services",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "ambiguous"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-4fb18049fa4a8dd53a0f611c"
+        ],
+        "geography": "",
+        "headline": "Project Ceibaの共同開発",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-893537b62c6fcbb12218e592",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ec139d1d168ab1f22ef5ab68"
+        ],
+        "geography": "",
+        "headline": "次世代ADASのクラウド開発基盤",
+        "products": [
+          "AWS",
+          "ADAS"
+        ],
+        "scale": "",
+        "source_role": "クラウド計算・保存基盤",
+        "target_role": "自動運転支援システム開発"
+      },
+      "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "direction": "directed",
+      "event_date": "2023-09-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-41b0f944338f12494eb9ca43",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2023-09-05",
+      "target_company_id": "co-bmw",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-5c2d87866f426070b8a96f2a",
+          "amount_kind": "contract_value",
+          "conditions": "原文の$について通貨の種類は未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "direction": "directed",
+      "event_date": "2026-06-04",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T04:47:23+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-04",
+      "target_company_id": "co-pinterest",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-42fcf5e251fa582c83b71989"
+        ],
+        "geography": "",
+        "headline": "Claude PlatformのAWS経由提供",
+        "products": [
+          "Claude Platform on AWS",
+          "Amazon Bedrock"
+        ],
+        "scale": "",
+        "source_role": "モデル・サービス提供",
+        "target_role": "認証・請求・配布基盤"
+      },
+      "description": "Claude PlatformをAWSアカウントから利用できるようにする提携。既存の認証・請求・監視を利用する提供経路で、計算基盤購入やAmazonの出資とは別。",
+      "direction": "undirected",
+      "event_date": "2026-04-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7c6284727b5dd1a390fd1431",
+      "relationship_type": "partnership",
+      "source_company_id": "co-anthropic",
+      "status_as_of": "2026-04-20",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c643e5f7b48f934879177544"
+        ],
+        "geography": "",
+        "headline": "Bedrock上でのモデル・エージェント提供",
+        "products": [
+          "Amazon Bedrock Managed Agents"
+        ],
+        "scale": "",
+        "source_role": "AIモデル・エージェント機能",
+        "target_role": "クラウド実行・販売基盤"
+      },
+      "description": "AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "direction": "undirected",
+      "event_date": "2026-04-28",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-805c5f4e1aaba90d4ce03fc3",
+      "relationship_type": "partnership",
+      "source_company_id": "co-openai",
+      "status_as_of": "2026-04-28",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-49c7fa825c86850285e51519",
+          "amount_kind": "incremental_commitment",
+          "conditions": "AWSチップの性能に関する契約上の義務を含む",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-590 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 100.0 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する追加コミットメント",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-3fdd58163eaedf1bf60b480f"
+        ],
+        "geography": "",
+        "headline": "AWS計算基盤契約の追加コミットメント",
+        "products": [
+          "AWS計算基盤",
+          "AWSチップ"
+        ],
+        "scale": "",
+        "source_role": "計算基盤提供",
+        "target_role": "AIモデルの学習・運用"
+      },
+      "description": "AWSとOpenAIの既存クラウド契約を8年間で1,000億米ドル拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+      "direction": "directed",
+      "event_date": "2026-07-31",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:10+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-20d426fdc941021d2f69db80",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "conditional",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-dbc8579788241ae9f92a07f8",
+          "amount_kind": "incremental_commitment",
+          "conditions": "AWSチップの性能に関する契約上の義務を含む",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-592 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-862e87425425f3e0001656be"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$ 100.0 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "既存契約に対する追加コミットメント",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-862e87425425f3e0001656be"
+        ],
+        "geography": "",
+        "headline": "AWS計算基盤契約の追加コミットメント",
+        "products": [
+          "AWS計算基盤",
+          "AWSチップ"
+        ],
+        "scale": "",
+        "source_role": "計算基盤提供",
+        "target_role": "AIモデルの学習・運用"
+      },
+      "description": "AWSとAnthropicの既存クラウド契約を10年間で1,000億米ドル超拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+      "direction": "directed",
+      "event_date": "2026-07-31",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:10+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-09-05",
+    "2024-03-18",
+    "2026-04-20",
+    "2026-04-28",
+    "2026-06-04",
+    "2026-06-30"
+  ],
+  "total_counterparties": 5,
+  "total_peer_relationships": 3,
+  "total_relationships": 7
+}

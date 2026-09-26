@@ -1,0 +1,15 @@
+import json,os
+from pathlib import Path
+state=json.loads(Path('relationships_data/state/processed_documents.json').read_text())
+round_path=Path('relationships_data/state/collection_round.json')
+round_state=json.loads(round_path.read_text()) if round_path.exists() else {}
+summary='## Company connections\n\nPublication: '+os.getenv('EXPORT_OUTCOME','not run')+'\n\n'
+summary+='Collection never approves or exports candidates. Run the separate reviewed-release workflow after reviewing primary evidence.\n\n'
+summary+='New candidates: '+str(len(round_state.get('new_candidate_ids',[])))+'\n\n'
+errors=state.get('last_run',{}).get('errors',[])
+if errors and os.getenv('GITHUB_ACTIONS'):print('::warning::Relationship collection has '+str(len(errors))+' partial errors; inspect the review artifact and collection state.')
+summary+='Last collection (partial failures are retained):\n```json\n'+json.dumps(state.get('last_run'),ensure_ascii=False,indent=2)+'\n```\n'
+path=os.getenv('GITHUB_STEP_SUMMARY')
+if path:
+    with open(path,'a') as f:f.write(summary)
+else:print(summary)

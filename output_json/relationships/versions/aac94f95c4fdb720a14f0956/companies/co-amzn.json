@@ -1,0 +1,96 @@
+{
+  "build_id": "aac94f95c4fdb720a14f0956",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "Amazon.com, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://ir.aboutamazon.com/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://ir.aboutamazon.com/faqs/",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-amzn",
+    "country": null,
+    "display_name": "Amazon",
+    "entity_status": "resolved",
+    "legal_name": "Amazon.com, Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-25",
+    "listing_status_source": "https://ir.aboutamazon.com/faqs/",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://ir.aboutamazon.com/faqs/",
+        "symbol": "AMZN",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "direction": "directed",
+      "event_date": "2024-11-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2024-11-22",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 1
+}

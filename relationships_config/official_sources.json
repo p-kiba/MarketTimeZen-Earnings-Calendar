@@ -1,0 +1,228 @@
+[
+  {
+    "allowed_hosts": [
+      "www.anthropic.com"
+    ],
+    "company_id": "co-anthropic",
+    "crawl_interval": 3600,
+    "feed_url": null,
+    "link_selector": "a[href^=\"/news/\"]",
+    "listing_url": "https://www.anthropic.com/news",
+    "parser_type": "html",
+    "usage_note": "Public news announcements, robots checked on each discovery/ingest. Publish only short evidence excerpts and source links; full text stays in disposable local cache.",
+    "usage_reviewed_at": "2026-09-25"
+  },
+  {
+    "allowed_hosts": [
+      "www.ibm.com"
+    ],
+    "company_id": "co-ibm",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/investor/news/\"]",
+    "listing_url": "https://www.ibm.com/investor/news",
+    "parser_type": "html",
+    "usage_note": "Public investor announcements. No full-text republication; maximum 25 words per source across evidence excerpts. Check robots before fetch.",
+    "usage_reviewed_at": "2026-09-25"
+  },
+  {
+    "allowed_hosts": [
+      "www.apple.com",
+      "investor.apple.com"
+    ],
+    "company_id": "co-aapl",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href^=\"/newsroom/\"]",
+    "listing_url": "https://www.apple.com/newsroom/",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "nvidianews.nvidia.com"
+    ],
+    "company_id": "co-nvda",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/news/\"]",
+    "listing_url": "https://nvidianews.nvidia.com/news",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "openai.com"
+    ],
+    "company_id": "co-openai",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/index/\"]",
+    "listing_url": "https://openai.com/news/",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "www.aboutamazon.com",
+      "press.aboutamazon.com"
+    ],
+    "company_id": "co-amzn",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/news/aws/\"]",
+    "listing_url": "https://www.aboutamazon.com/news/aws",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "group.softbank"
+    ],
+    "company_id": "co-softbank-group",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/en/news/press/\"]",
+    "listing_url": "https://group.softbank/en/news/press",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "www.coreweave.com"
+    ],
+    "company_id": "co-coreweave",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/news/\"]",
+    "listing_url": "https://www.coreweave.com/newsroom",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "ir.amd.com",
+      "newsroom.amd.com"
+    ],
+    "company_id": "co-amd",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"press-releases/detail/\"]",
+    "listing_url": "https://ir.amd.com/news-events/press-releases",
+    "parser_type": "html",
+    "usage_note": "Official public announcements; robots checked before collection. Short evidence excerpts only, raw text in local cache; no unrestricted automatic approval.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "investors.broadcom.com"
+    ],
+    "company_id": "co-avgo",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"news\"]",
+    "listing_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+    "parser_type": "html",
+    "usage_note": "Public official issuer disclosures; robots checked. Short excerpts only, raw text locally cached.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "investors.mpmaterials.com"
+    ],
+    "company_id": "co-mp",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"news\"]",
+    "listing_url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-and-Apple-Announce-500-Million-Partnership-to-Produce-Recycled-Rare-Earth-Magnets-in-the-United-States/default.aspx",
+    "parser_type": "html",
+    "usage_note": "Public official issuer disclosures; robots checked. Short excerpts only, raw text locally cached.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "nebius.com"
+    ],
+    "company_id": "co-nebius",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/newsroom/\"]",
+    "listing_url": "https://nebius.com/newsroom",
+    "parser_type": "html",
+    "usage_note": "Official news. Robots checked, short excerpts and source links only; manual source-bound evaluation required.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "about.fb.com"
+    ],
+    "company_id": "co-meta",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href^=\"/news/\"]",
+    "listing_url": "https://about.fb.com/news/",
+    "parser_type": "html",
+    "usage_note": "Official Meta Newsroom. Discovery only; robots checked before fetch; brief source-bound evidence excerpts; not auto-approved.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "ir.tesla.com"
+    ],
+    "company_id": "co-tsla",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/press\"]",
+    "listing_url": "https://ir.tesla.com/press",
+    "parser_type": "html",
+    "usage_note": "Official Tesla investor press releases. Discovery only; robots checked before fetch; brief source-bound evidence excerpts; not auto-approved.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "investors.micron.com"
+    ],
+    "company_id": "co-mu",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/news/press-release/\"]",
+    "listing_url": "https://investors.micron.com/news/press-release",
+    "parser_type": "html",
+    "usage_note": "Official Micron investor press releases. Discovery only; robots checked before fetch; brief source-bound evidence excerpts; not auto-approved.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "news.microsoft.com",
+      "azure.microsoft.com"
+    ],
+    "company_id": "co-msft",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/source/\"]",
+    "listing_url": "https://news.microsoft.com/source/",
+    "parser_type": "html",
+    "usage_note": "Official Microsoft announcements. Robots checked; evidence excerpts only; changed assertions require source-bound review.",
+    "usage_reviewed_at": "2026-09-26"
+  },
+  {
+    "allowed_hosts": [
+      "blog.google",
+      "cloud.google.com"
+    ],
+    "company_id": "co-google",
+    "crawl_interval": 86400,
+    "feed_url": null,
+    "link_selector": "a[href*=\"/innovation-and-ai/infrastructure-and-cloud/google-cloud/\"]",
+    "listing_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/",
+    "parser_type": "html",
+    "usage_note": "Official Google publications; check robots, store raw text in private cache, publish short pinned evidence only. Parent Alphabet is a separate entity.",
+    "usage_reviewed_at": "2026-09-26"
+  }
+]

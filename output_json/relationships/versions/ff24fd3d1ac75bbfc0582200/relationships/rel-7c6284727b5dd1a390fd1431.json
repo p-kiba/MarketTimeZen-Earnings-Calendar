@@ -1,0 +1,200 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-04-20",
+      "conditions": "",
+      "deal_id": "deal-42fcf5e251fa582c83b71989",
+      "detected_at": "2026-09-26T05:23:02+00:00",
+      "effective_date": null,
+      "event_id": "event-42fcf5e251fa582c83b71989",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-42fcf5e251fa582c83b71989"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-42fcf5e251fa582c83b71989"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7c6284727b5dd1a390fd1431"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-30402cd228887d44f9063873",
+        "rule_version": "0b94fda016df5e414b4815c9c21eeefb87bc8426bb8c32598ce711b74c10fd67",
+        "verified_at": "2026-09-26T05:23:02+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-42fcf5e251fa582c83b71989",
+      "excerpt": "Claude",
+      "locator": "p:3",
+      "normalized_text_hash": "af059c4e11f52d10cc7d914e115fa4d448f5102ae454b88d6e10ca25cb3b239e",
+      "section": "Official disclosure: business context",
+      "source_id": "source-30402cd228887d44f9063873",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-42fcf5e251fa582c83b71989"
+      ],
+      "geography": "",
+      "headline": "Claude PlatformのAWS経由提供",
+      "products": [
+        "Claude Platform on AWS",
+        "Amazon Bedrock"
+      ],
+      "scale": "",
+      "source_role": "モデル・サービス提供",
+      "target_role": "認証・請求・配布基盤"
+    },
+    "deal_ids": [
+      "deal-42fcf5e251fa582c83b71989"
+    ],
+    "description": "Claude PlatformをAWSアカウントから利用できるようにする提携。既存の認証・請求・監視を利用する提供経路で、計算基盤購入やAmazonの出資とは別。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-42fcf5e251fa582c83b71989"
+    ],
+    "first_observed_at": "2026-09-26T05:23:02+00:00",
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "latest_event_ids": [
+      "event-42fcf5e251fa582c83b71989"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7c6284727b5dd1a390fd1431",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": "2026-04-20",
+    "target_company_id": "co-aws",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-30402cd228887d44f9063873",
+      "rule_version": "0b94fda016df5e414b4815c9c21eeefb87bc8426bb8c32598ce711b74c10fd67",
+      "verified_at": "2026-09-26T05:23:02+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-20",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:51:31+00:00",
+      "source_id": "source-30402cd228887d44f9063873",
+      "source_type": "official_newsroom",
+      "title": "Amazon announces $5B Anthropic investment, up to $20B more"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-42fcf5e251fa582c83b71989"
+      ],
+      "geography": "",
+      "headline": "Claude PlatformのAWS経由提供",
+      "products": [
+        "Claude Platform on AWS",
+        "Amazon Bedrock"
+      ],
+      "scale": "",
+      "source_role": "モデル・サービス提供",
+      "target_role": "認証・請求・配布基盤"
+    },
+    "description": "Claude PlatformをAWSアカウントから利用できるようにする提携。既存の認証・請求・監視を利用する提供経路で、計算基盤購入やAmazonの出資とは別。",
+    "direction": "undirected",
+    "event_date": "2026-04-20",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7c6284727b5dd1a390fd1431",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": "2026-04-20",
+    "target_company_id": "co-aws",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

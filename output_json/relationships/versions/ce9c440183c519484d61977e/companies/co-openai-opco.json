@@ -1,0 +1,106 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai-opco",
+      "country": null,
+      "display_name": "OpenAI OpCo, LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-openai-opco",
+    "country": null,
+    "display_name": "OpenAI OpCo, LLC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0317f37cc976b0e2bef46aba",
+          "evidence-b779b5c39d46249096e4ddab"
+        ],
+        "geography": "",
+        "headline": "GPU購入等に連動する条件付きワラント",
+        "products": [
+          "AMD普通株の購入権"
+        ],
+        "scale": "",
+        "source_role": "購入権の発行者",
+        "target_role": "条件付き購入権の受領者"
+      },
+      "description": "AMDが2025年10月にOpenAI OpCo, LLCへ最大1.6億株の普通株を購入できるワラントを発行。GPU購入・株価・技術・商業条件に応じて段階的に権利確定する。2026年6月27日時点では権利確定・行使可能株はない。",
+      "direction": "directed",
+      "event_date": "2026-08-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-9c76e24118116ba56eecb571",
+      "relationship_type": "equity_right",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-06-27",
+      "target_company_id": "co-openai-opco",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-06-27"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

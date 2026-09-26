@@ -1,0 +1,110 @@
+{
+  "build_id": "aac94f95c4fdb720a14f0956",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "Microsoft Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+      "listings": [
+        {
+          "exchange": null,
+          "source_url": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-msft",
+    "country": null,
+    "display_name": "Microsoft",
+    "entity_status": "resolved",
+    "legal_name": "Microsoft Corporation",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-25",
+    "listing_status_source": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+    "listings": [
+      {
+        "exchange": null,
+        "source_url": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+        "symbol": "MSFT",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6d961c24ce89eaf990cbc1ce",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    },
+    {
+      "description": "Microsoft announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 2
+}

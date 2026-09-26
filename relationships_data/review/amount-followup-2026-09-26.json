@@ -1,0 +1,175 @@
+{
+  "after": {
+    "companies": 84,
+    "events": 131,
+    "evidence": 231,
+    "known_currency": 21,
+    "relations": 112,
+    "sources": 72,
+    "tiered": 7,
+    "unknown_currency": 3,
+    "with_amount": 24,
+    "without_amount": 88
+  },
+  "apple_report_provenance": {
+    "document_limit_bytes": 50000000,
+    "hub_hash": "b247884ecd5b13ac8fdec4f46d871c0f4e31373b718832de48f089c7542d6feb",
+    "hub_url": "https://www.supplychainreports.apple/home/default.aspx",
+    "source_id": "source-b21c6157a251f4ccaed5f09e",
+    "url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf"
+  },
+  "applied_revisions": [
+    {
+      "assertions_hash": "7eb9e2fa592a53db8413291935ecc744e00656aa7527ea3003dbcbcf651bb00d",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "rule_id": "amount-followup-20260926-broadcom-apple-term"
+    },
+    {
+      "assertions_hash": "5794d906e11896b00b20ab7cbfd085af47551f0842ac358cced73fbac542a131",
+      "relationship_id": "rel-94dfb74b26088351048d83f6",
+      "rule_id": "amount-followup-20260926-sb-energy-prepayment"
+    },
+    {
+      "assertions_hash": "4e1fc14e545592139ff3fe7a31c88143d1358e45c02c8c929dfc09cc4c1d4ad5",
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "rule_id": "amount-followup-20260926-mp-apple-currency"
+    }
+  ],
+  "before": {
+    "companies": 84,
+    "events": 128,
+    "evidence": 214,
+    "known_currency": 19,
+    "relations": 112,
+    "sources": 68,
+    "tiered": 6,
+    "unknown_currency": 5,
+    "with_amount": 24,
+    "without_amount": 88
+  },
+  "checked_sources": [
+    {
+      "canonical_url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "content_hash": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
+      "filed_date": null,
+      "published_date": "2026-07-08",
+      "source_id": "source-a081634e897c3a0bfbfbbd44"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "content_hash": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de",
+      "filed_date": "2026-07-06",
+      "published_date": null,
+      "source_id": "source-fb740c13b0c1090f4abfbb08"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+      "content_hash": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972",
+      "filed_date": "2026-08-17",
+      "published_date": null,
+      "source_id": "source-dcb7b306dffaedb5223f8dc1"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm",
+      "content_hash": "a955c08f537a52e05b5d1b798436c987450137cb7533a5aecba460280603f50b",
+      "filed_date": "2026-09-01",
+      "published_date": null,
+      "source_id": "source-c09dc77ec843fdff3484a6da"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm",
+      "content_hash": "d4e304cdf15841e431e28f44ecce6e85e8015a5b8bbed76374de0feff0722354",
+      "filed_date": "2026-09-01",
+      "published_date": null,
+      "source_id": "source-c6a31cade1f4fdf38b853a41"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm",
+      "content_hash": "19d6ce726ff1e135d85c7e0c6065e2af1fd448dd5a9ea06c8e5062f082d0d0ca",
+      "filed_date": "2026-09-01",
+      "published_date": null,
+      "source_id": "source-73ee8d0a335e662babbb04fa"
+    },
+    {
+      "canonical_url": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+      "content_hash": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668",
+      "filed_date": null,
+      "published_date": "2025-07-15",
+      "source_id": "source-b5e25a8637f800532ae0d4ab"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "content_hash": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+      "filed_date": "2026-02-26",
+      "published_date": null,
+      "source_id": "source-587e14746647647685fb62e8"
+    },
+    {
+      "canonical_url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf",
+      "content_hash": "cd6ee94bdd0aff8dd484e9e46b63fe72cb9a7f279eddd65bd2b5163522b6e280",
+      "filed_date": null,
+      "published_date": null,
+      "source_id": "source-b21c6157a251f4ccaed5f09e"
+    }
+  ],
+  "checks": "Only actual source-bound ingest, verification, release and staging checks. Test suites and browser QA remain paused by user.",
+  "deployed": false,
+  "display_counts": {
+    "companies": 82,
+    "relationships": 110
+  },
+  "initial_ir_fetch_results": [
+    {
+      "error": "404 Client Error: Not Found for url: https://s203.q4cdn.com/robots.txt",
+      "status": "blocked",
+      "url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf"
+    },
+    {
+      "error": "HTTP 403; stopped without retry",
+      "status": "blocked",
+      "url": "https://www.corning.com/media/jp/global/documents/JPN_R_CORP_12826_Fourth_Quarter_Full_Year_2025_Earnings_FINAL.pdf"
+    }
+  ],
+  "release": {
+    "deployed": false,
+    "released_at": "2026-09-26T07:31:35+00:00",
+    "result": {
+      "build_id": "5c279e1f377f3416866941d2",
+      "manifest": "versions/5c279e1f377f3416866941d2/manifest.json",
+      "manifest_hash": "f42c397daf4d5135261ce5b9463ff8268daac57623a75b983f1f5e3d5b11bc1f",
+      "previous": {
+        "build_id": "ce9c440183c519484d61977e",
+        "manifest": "versions/ce9c440183c519484d61977e/manifest.json",
+        "manifest_hash": "87261193c07283fe95b351c17877f5966519e906d68e7ac5901516c97dac219f"
+      },
+      "schema_version": "1.0"
+    },
+    "review_id": "release-48748b0ba7f06a8c506c3883"
+  },
+  "reviewed_at": "2026-09-26T07:31:35+00:00",
+  "reviewer": "Codex source-bound review; no human or independent-agent review claimed",
+  "sec_indexes": [
+    {
+      "filed_date": "2026-07-06",
+      "index_hash": "18727ba09bebea492511abf904f029f524babca30f4bea7884cd45c9d689cbc6",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/0001193125-26-295589-index.htm",
+      "source_id": "source-fb740c13b0c1090f4abfbb08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm"
+    },
+    {
+      "filed_date": "2026-09-01",
+      "index_hash": "e72e4218678c355c7cba7389545c096f8c6d0180cf01ef3c589b4f7e21b6957f",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/0001628280-26-059639-index.htm",
+      "source_id": "source-c09dc77ec843fdff3484a6da",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm"
+    },
+    {
+      "filed_date": "2026-09-01",
+      "index_hash": "e72e4218678c355c7cba7389545c096f8c6d0180cf01ef3c589b4f7e21b6957f",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/0001628280-26-059639-index.htm",
+      "source_id": "source-73ee8d0a335e662babbb04fa",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm"
+    }
+  ],
+  "ui_change": "Removed selection-only width and arrow-scale overrides. Selected-edge labels and unrelated-edge dimming retained."
+}

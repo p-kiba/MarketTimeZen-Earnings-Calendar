@@ -1,0 +1,152 @@
+{
+  "build_id": "897d2d3f50e869d1f1e3f3ba",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ibm",
+      "country": null,
+      "display_name": "IBM",
+      "entity_status": "resolved",
+      "legal_name": "International Business Machines Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.ibm.com/investor/help/general-faqs",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.ibm.com/investor/help/general-faqs",
+          "symbol": "IBM",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-redhat",
+      "country": null,
+      "display_name": "Red Hat",
+      "entity_status": "resolved",
+      "legal_name": "Red Hat",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "Microsoft Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+      "listings": [
+        {
+          "exchange": null,
+          "source_url": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://investor.nvidia.com/investor-resources/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.nvidia.com/investor-resources/faqs/",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "Amazon.com, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://ir.aboutamazon.com/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://ir.aboutamazon.com/faqs/",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0"
+}

@@ -1,0 +1,154 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-08-06",
+      "conditions": "",
+      "deal_id": "deal-620b6ccf3791ea53f5f659f5",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "effective_date": null,
+      "event_id": "event-620b6ccf3791ea53f5f659f5",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-620b6ccf3791ea53f5f659f5"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-620b6ccf3791ea53f5f659f5"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f4780b88ad8c09b931cf235a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-573be38b22d361de3644ffb4",
+        "rule_version": "785ad2d930ddb10ef0d6df0418374da10d5569e87eaf4780cb14532512760e5e",
+        "verified_at": "2026-09-25T16:10:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-620b6ccf3791ea53f5f659f5",
+      "excerpt": "Apple is working with its suppliers",
+      "locator": "p:22",
+      "normalized_text_hash": "109ecbd951c8344914152c80626536a218581e775a76817872cf22669619a25d",
+      "section": "Official deal announcement",
+      "source_id": "source-573be38b22d361de3644ffb4",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-620b6ccf3791ea53f5f659f5"
+    ],
+    "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-620b6ccf3791ea53f5f659f5"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:10:28+00:00",
+    "latest_event_ids": [
+      "event-620b6ccf3791ea53f5f659f5"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f4780b88ad8c09b931cf235a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2025-08-06",
+    "target_company_id": "co-txn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-573be38b22d361de3644ffb4",
+      "rule_version": "785ad2d930ddb10ef0d6df0418374da10d5569e87eaf4780cb14532512760e5e",
+      "verified_at": "2026-09-25T16:10:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program/",
+      "content_hash": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-08-06",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:44+00:00",
+      "source_id": "source-573be38b22d361de3644ffb4",
+      "source_type": "official_newsroom",
+      "title": "Apple increases U.S. commitment to $600 billion, announces ambitious program - Apple"
+    }
+  ]
+}

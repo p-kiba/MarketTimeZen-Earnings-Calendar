@@ -1,0 +1,332 @@
+{
+  "build_id": "2c06907ca0102678fd73d9ee",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bmw",
+      "country": null,
+      "display_name": "BMW Group",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://investor.nvidia.com/investor-resources/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.nvidia.com/investor-resources/faqs/",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pinterest",
+      "country": null,
+      "display_name": "Pinterest",
+      "entity_status": "resolved",
+      "legal_name": "Pinterest, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-04",
+      "listing_status_source": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+          "symbol": "PINS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-aws",
+    "country": null,
+    "display_name": "Amazon Web Services",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-20d426fdc941021d2f69db80",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-5c2d87866f426070b8a96f2a",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "direction": "directed",
+      "event_date": "2026-06-04",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T18:57:25+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-04",
+      "target_company_id": "co-pinterest",
+      "tier": {
+        "amount_id": "amount-5c2d87866f426070b8a96f2a",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      }
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Anthropicは今後10年間にAWS技術へ$1,000億超を支出するコミットメントを発表。金額はAWS利用の支出であり、AmazonからAnthropicへの出資とは別。",
+      "direction": "directed",
+      "event_date": "2026-04-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T18:57:25+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-04-20",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-4fb18049fa4a8dd53a0f611c"
+        ],
+        "geography": "",
+        "headline": "Project Ceibaの共同開発",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-893537b62c6fcbb12218e592",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-aws",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ec139d1d168ab1f22ef5ab68"
+        ],
+        "geography": "",
+        "headline": "次世代ADASのクラウド開発基盤",
+        "products": [
+          "AWS",
+          "ADAS"
+        ],
+        "scale": "",
+        "source_role": "クラウド計算・保存基盤",
+        "target_role": "自動運転支援システム開発"
+      },
+      "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "direction": "directed",
+      "event_date": "2023-09-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-41b0f944338f12494eb9ca43",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2023-09-05",
+      "target_company_id": "co-bmw",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-09-05",
+    "2024-03-18",
+    "2026-02-27",
+    "2026-04-20",
+    "2026-06-04"
+  ],
+  "total_counterparties": 5,
+  "total_relationships": 5
+}

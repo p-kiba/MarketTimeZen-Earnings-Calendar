@@ -1,0 +1,131 @@
+{
+  "build_id": "2c06907ca0102678fd73d9ee",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bmw",
+      "country": null,
+      "display_name": "BMW Group",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-qualcomm-tech",
+      "country": null,
+      "display_name": "Qualcomm Technologies",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-bmw",
+    "country": null,
+    "display_name": "BMW Group",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ec139d1d168ab1f22ef5ab68"
+        ],
+        "geography": "",
+        "headline": "次世代ADASのクラウド開発基盤",
+        "products": [
+          "AWS",
+          "ADAS"
+        ],
+        "scale": "",
+        "source_role": "クラウド計算・保存基盤",
+        "target_role": "自動運転支援システム開発"
+      },
+      "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "direction": "directed",
+      "event_date": "2023-09-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-41b0f944338f12494eb9ca43",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2023-09-05",
+      "target_company_id": "co-bmw",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8a07742525f7df9e19a9bb08"
+        ],
+        "geography": "",
+        "headline": "Snapdragon RideによるADAS共同開発",
+        "products": [
+          "Snapdragon Ride",
+          "Ride Vision"
+        ],
+        "scale": "",
+        "source_role": "車載計算・認識プラットフォーム",
+        "target_role": "車両向けシステム共同開発"
+      },
+      "description": "BMW GroupとQualcomm TechnologiesがSnapdragon Rideを基に次世代自動運転支援システムを共同開発。親会社の別契約には置き換えない。",
+      "direction": "undirected",
+      "event_date": "2023-09-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7865b5bc09c12dd89d9f9a0e",
+      "relationship_type": "partnership",
+      "source_company_id": "co-qualcomm-tech",
+      "status_as_of": "2023-09-05",
+      "target_company_id": "co-bmw",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-09-05"
+  ],
+  "total_counterparties": 2,
+  "total_relationships": 2
+}

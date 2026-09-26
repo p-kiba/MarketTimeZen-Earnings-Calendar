@@ -1,0 +1,123 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pinterest",
+      "country": null,
+      "display_name": "Pinterest",
+      "entity_status": "resolved",
+      "legal_name": "Pinterest, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-04",
+      "listing_status_source": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+          "symbol": "PINS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-pinterest",
+    "country": null,
+    "display_name": "Pinterest",
+    "entity_status": "resolved",
+    "legal_name": "Pinterest, Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-06-04",
+    "listing_status_source": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+        "symbol": "PINS",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-5ce323339f0a875b3bacccbf",
+          "amount_kind": "contract_value",
+          "conditions": "原文はplanned commitment。無条件・取消不能の支払義務は未確認。ドル種類も未確認。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "direction": "directed",
+      "event_date": "2026-06-04",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-04",
+      "target_company_id": "co-pinterest",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-06-04"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

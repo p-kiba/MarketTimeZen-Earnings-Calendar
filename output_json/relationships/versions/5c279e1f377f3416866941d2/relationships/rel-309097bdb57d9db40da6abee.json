@@ -1,0 +1,221 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-09-18",
+      "conditions": "",
+      "deal_id": "deal-181eb4e4961d048111348010",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-181eb4e4961d048111348010",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-181eb4e4961d048111348010",
+        "evidence-6ea027e5fd1f1dee64dcfae2"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-181eb4e4961d048111348010",
+            "evidence-6ea027e5fd1f1dee64dcfae2"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-309097bdb57d9db40da6abee"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-954382408b763c0462854647": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-954382408b763c0462854647",
+        "rule_version": "36bd921c53cf764c5529f4fcc704ac303eb69e55d340a99a2726f4d1c767f36e",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-181eb4e4961d048111348010",
+      "excerpt": "Tesla Superchargers",
+      "locator": "p:4",
+      "normalized_text_hash": "13c2dcd120ea0d4246f74e86dbf0ff3f3779bf93ebce03e0257a1b0c9198ff04",
+      "section": "Official disclosure: business context",
+      "source_id": "source-954382408b763c0462854647",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6ea027e5fd1f1dee64dcfae2",
+      "excerpt": "United States",
+      "locator": "p:6",
+      "normalized_text_hash": "4a69f705fc64dc9ce39dea3f1c7c53700a8224a945e1813e693208c0dcaa4b97",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-954382408b763c0462854647",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-181eb4e4961d048111348010",
+        "evidence-6ea027e5fd1f1dee64dcfae2"
+      ],
+      "geography": "",
+      "headline": "GM製EVへのSupercharger利用開放",
+      "products": [
+        "Supercharger",
+        "NACS充電"
+      ],
+      "scale": "17,800基超の接続対象（発表時点）",
+      "source_role": "充電網の提供",
+      "target_role": "車両・アダプター・アプリ連携"
+    },
+    "deal_ids": [
+      "deal-181eb4e4961d048111348010"
+    ],
+    "description": "GMが認定NACSアダプターによるTesla Supercharger利用を開始すると発表。2024年9月時点では米国から開始しカナダは年内の予定。アダプターの小売価格を二社間契約金額にしない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-181eb4e4961d048111348010",
+      "evidence-6ea027e5fd1f1dee64dcfae2"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-181eb4e4961d048111348010"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-309097bdb57d9db40da6abee",
+    "relationship_type": "partnership",
+    "source_company_id": "co-tsla",
+    "status_as_of": "2024-09-18",
+    "target_company_id": "co-gm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-954382408b763c0462854647": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-954382408b763c0462854647",
+      "rule_version": "36bd921c53cf764c5529f4fcc704ac303eb69e55d340a99a2726f4d1c767f36e",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html",
+      "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-09-18",
+      "publisher": "news.gm.com",
+      "retrieved_at": "2026-09-26T06:11:56+00:00",
+      "source_id": "source-954382408b763c0462854647",
+      "source_type": "official_newsroom",
+      "title": "GM drivers can now charge at over 17,000 Tesla Supercharger stations"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-181eb4e4961d048111348010",
+        "evidence-6ea027e5fd1f1dee64dcfae2"
+      ],
+      "geography": "",
+      "headline": "GM製EVへのSupercharger利用開放",
+      "products": [
+        "Supercharger",
+        "NACS充電"
+      ],
+      "scale": "17,800基超の接続対象（発表時点）",
+      "source_role": "充電網の提供",
+      "target_role": "車両・アダプター・アプリ連携"
+    },
+    "description": "GMが認定NACSアダプターによるTesla Supercharger利用を開始すると発表。2024年9月時点では米国から開始しカナダは年内の予定。アダプターの小売価格を二社間契約金額にしない。",
+    "direction": "undirected",
+    "event_date": "2024-09-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-309097bdb57d9db40da6abee",
+    "relationship_type": "partnership",
+    "source_company_id": "co-tsla",
+    "status_as_of": "2024-09-18",
+    "target_company_id": "co-gm",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

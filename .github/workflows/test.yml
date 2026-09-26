@@ -1,0 +1,32 @@
+name: Calendar and Connections Tests
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install -r requirements-lock.txt
+      - name: Offline validation (no secrets)
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python -m pytest tests/relationships -q
+          node tests/relationships/browser/unit.mjs
+          python -m relationships_py validate-config
+          python -m relationships_py validate-public
+          python generate_html.py --html-only
+          python generate_html_jp.py --html-only
+          python scripts/build-calendar-universe.py
+          python scripts/stage-site.py

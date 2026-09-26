@@ -1,0 +1,84 @@
+{
+  "build_id": "4eaa0f0dac49664feaebba14",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001067983",
+      "company_id": "co-brk-b",
+      "country": null,
+      "display_name": "BERKSHIRE HATHAWAY INC",
+      "entity_status": "resolved",
+      "legal_name": "BERKSHIRE HATHAWAY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-B",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-A",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001067983",
+    "company_id": "co-brk-b",
+    "country": null,
+    "display_name": "BERKSHIRE HATHAWAY INC",
+    "entity_status": "resolved",
+    "legal_name": "BERKSHIRE HATHAWAY INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+        "symbol": "BRK-B",
+        "valid_from": null,
+        "valid_to": null
+      },
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+        "symbol": "BRK-A",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [],
+  "schema_version": "1.0",
+  "source_dates": [],
+  "total_counterparties": 0,
+  "total_peer_relationships": 0,
+  "total_relationships": 0
+}

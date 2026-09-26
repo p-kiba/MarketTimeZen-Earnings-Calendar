@@ -1,0 +1,182 @@
+{
+  "build_id": "20ee6c51c4fab97bbae831fa",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-5616456660b310d2888acc12",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "effective_date": null,
+      "event_id": "event-5616456660b310d2888acc12",
+      "event_type": "expansion",
+      "evidence_ids": [
+        "evidence-5616456660b310d2888acc12"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-20d426fdc941021d2f69db80"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 8,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-5616456660b310d2888acc12"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+        "rule_version": "7db6c068f7a176f950c34df500999e894d56de02b90c2f7794f26ba53e2f8417",
+        "verified_at": "2026-09-25T16:10:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5616456660b310d2888acc12",
+      "excerpt": "by $100 billion over 8 years",
+      "locator": "p:17",
+      "normalized_text_hash": "bc47fab07c5ce62e34800f43053d35c827aa90a32e20203e9684727f9b1b32d6",
+      "section": "Official deal announcement",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-5616456660b310d2888acc12"
+    ],
+    "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-5616456660b310d2888acc12"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:10:28+00:00",
+    "latest_event_ids": [
+      "event-5616456660b310d2888acc12"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-20d426fdc941021d2f69db80",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+      "rule_version": "7db6c068f7a176f950c34df500999e894d56de02b90c2f7794f26ba53e2f8417",
+      "verified_at": "2026-09-25T16:10:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/amazon-partnership/",
+      "content_hash": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:03:57+00:00",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "source_type": "official_newsroom",
+      "title": "OpenAI and Amazon announce strategic partnership | OpenAI"
+    }
+  ]
+}

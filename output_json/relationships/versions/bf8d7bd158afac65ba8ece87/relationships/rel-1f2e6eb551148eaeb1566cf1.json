@@ -1,0 +1,180 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d9a320f6ff61f889add18491",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-07-15",
+      "conditions": "",
+      "deal_id": "deal-e9b94e85e90507c290f01518",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-e9b94e85e90507c290f01518",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e9b94e85e90507c290f01518"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-b5e25a8637f800532ae0d4ab",
+        "rule_version": "a6a847fb40d508ea28b42ef40c4909d3455bdbda5ba34f9f1b6935e41ba67eb1",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e9b94e85e90507c290f01518",
+      "excerpt": "commitment of $500 million with MP Materials",
+      "locator": "p:8",
+      "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+      "section": "Official deal announcement",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-e9b94e85e90507c290f01518"
+    ],
+    "description": "Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-e9b94e85e90507c290f01518"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-e9b94e85e90507c290f01518"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mp",
+    "status_as_of": "2025-07-15",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-b5e25a8637f800532ae0d4ab",
+      "rule_version": "a6a847fb40d508ea28b42ef40c4909d3455bdbda5ba34f9f1b6935e41ba67eb1",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+      "content_hash": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-07-15",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:52+00:00",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "source_type": "official_newsroom",
+      "title": "Apple expands U.S. supply chain with $500 million commitment - Apple"
+    }
+  ]
+}

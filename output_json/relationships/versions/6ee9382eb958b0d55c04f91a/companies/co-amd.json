@@ -1,0 +1,87 @@
+{
+  "build_id": "6ee9382eb958b0d55c04f91a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-amd",
+    "country": null,
+    "display_name": "AMD",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8739aeba0e0f89563d579e1d",
+          "evidence-69633402b6641a6f32e01d37"
+        ],
+        "geography": "",
+        "headline": "AMD Instinct GPUの複数年導入",
+        "products": [
+          "AMD Instinct GPU"
+        ],
+        "scale": "最大6GW",
+        "source_role": "GPU技術・供給側",
+        "target_role": "AI基盤への導入側"
+      },
+      "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+      "direction": "directed",
+      "event_date": "2026-02-24",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d4a0a3f5715c51a8d104be79",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-02-24",
+      "target_company_id": "co-meta",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-02-24"
+  ],
+  "total_counterparties": 1,
+  "total_relationships": 1
+}

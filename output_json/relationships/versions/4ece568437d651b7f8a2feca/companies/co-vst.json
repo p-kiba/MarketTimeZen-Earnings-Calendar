@@ -1,0 +1,106 @@
+{
+  "build_id": "4ece568437d651b7f8a2feca",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vst",
+      "country": null,
+      "display_name": "Vistra",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-vst",
+    "country": null,
+    "display_name": "Vistra",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9e994dbc410bba321590f4ec",
+          "evidence-161ab02c80b64b2866d701af"
+        ],
+        "geography": "米国・Ohio州／Pennsylvania州",
+        "headline": "原子力発電の20年購入契約",
+        "products": [
+          "原子力電力"
+        ],
+        "scale": "既存2施設から2.1GW超、別途増強分",
+        "source_role": "発電・電力供給",
+        "target_role": "電力購入"
+      },
+      "description": "MetaがVistraの既存原発2施設から電力を購入する20年契約。さらに計3施設の増強分も対象。増強分は将来計画として区別する。",
+      "direction": "directed",
+      "event_date": "2026-01-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0ba31ccfbb0674a3df5100b6",
+      "relationship_type": "supplier",
+      "source_company_id": "co-vst",
+      "status_as_of": "2026-01-09",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-01-09"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

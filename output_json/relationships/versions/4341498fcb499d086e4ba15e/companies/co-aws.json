@@ -1,0 +1,95 @@
+{
+  "build_id": "4341498fcb499d086e4ba15e",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-aws",
+    "country": null,
+    "display_name": "Amazon Web Services",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-20d426fdc941021d2f69db80",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 1
+}

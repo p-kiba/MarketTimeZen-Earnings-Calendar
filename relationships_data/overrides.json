@@ -1,0 +1,1951 @@
+{
+  "decisions": {
+    "rel-0330225ef4a4a1cce4f71ae0": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "replaced_by": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-0473041d795a4a5b91cc731d": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-0572cb074696c02fd2e5b117": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 MicronとAnthropicは、AIデータセンター向けメモリー・ストレージの供給契約を締結。購入金額・確定数量は資料に記載されていない。",
+      "replaced_by": [
+        "rel-f328d2228cc9b431091f393f"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-0644543f8813ec712ed54865": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Googleは、Cloud顧客と社内チーム向けにBlackwellを導入する方針を表明。2024年の発表であり、現在の稼働状況を示す記録ではない。",
+      "replaced_by": [
+        "rel-df7df426425d2e51bfa4ec0e"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-078d4f5ea10c85df89682f5a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b1b4ca231314cb1091fcdce5": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-088717a21e89955543d5901c": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "replaced_by": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-09909eed5f967dfd12ef35a9": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "fields": [],
+      "reason": "Box担当者による製品評価の引用。Boxの購入契約やAmazon親会社とOpenAIの別提携契約の根拠にはしない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-0d3161b0765df19b0e525361": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "Corning契約とは別のAmazon全体のNorth Carolina投資予定$100億および2010年以降累計$200億超。Corning→Amazon投資ではなく、この金額をCorning契約に転用しない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-0e0a655d61dcbdc88ad8bbdd": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-1039d562587357728b8fa410": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "MicrosoftからNebiusへの月次後払いと追加合意サービスの請求条件。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-10efbc33134989450da2dff0": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "replaced_by": [
+        "rel-893537b62c6fcbb12218e592"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-10f873c9af14a73829d8362b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-1220af71f07124173033a8b1": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-670569af7185bb7c5f4ebb46": "53dcf8fa97f7e04e8f0dd1386b2baef06947de61b7ac53dba19f66191eb98296"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-190b745374286695501f5036": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "replaced_by": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-1d8da60d9764c01c04a7f564": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-20476a4e9482f46d04ea2cad": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-209ff560b4b65c2c2c8cd160": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "replaced_by": [
+        "rel-41b0f944338f12494eb9ca43"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-20d8ec673fd5de4e74a34202": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+      "replaced_by": [
+        "rel-709b1676999b7884cf9448c2"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-242cd9613501b1d81f1eb068": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "replaced_by": [
+        "rel-b1155ffed44e7bba2bffc27b",
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-25bf70cef0a87322228e4080": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "replaced_by": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-27bcf82e43a99025f47228a7": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "fields": [],
+      "reason": "AWS CEO個人のAmazon株式売却計画。AWS→Amazonサービス契約ではなく、個人の持株処分を企業間関係にしない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-27f1195920588a5ccc6f9263": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 BMW GroupとQualcomm TechnologiesがSnapdragon Rideを基に次世代自動運転支援システムを共同開発。親会社の別契約には置き換えない。",
+      "replaced_by": [
+        "rel-7865b5bc09c12dd89d9f9a0e"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-290b7b77f4d3616b7f039d78": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-98b725fc97c7b56cf1b968b5": "ae8a6f875ac4b86ba3ccfa5b73292cdd8c5e9a32dd99a7aa965a90974f67d959"
+      },
+      "fields": [],
+      "reason": "原文はNVIDIAがSB Energy関連会社に対し、OpenAI Group PBCの匿名関連会社の賃貸債務について与える条件付き保証。OpenAI→NVIDIAのサービス契約ではない。$1050億は保証上限で売買代金・出資額ではない。別途NVIDIA–SB Energy案件として精査する。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-29ef2b09251f5c7761184bd2": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-8a370485647279c078b2eaf0": "eeae8c6400c1da0deb6943e3201ecdaeb7e7afcc41c1100a14474b64588c6b1d"
+      },
+      "fields": [],
+      "reason": "明示された提携当事者はNVIDIAとSB Energy Corp.（関連会社を含む）。OpenAI Group PBCの関連会社はテナント。抽出されたNVIDIA–OpenAI本体の提携に置換してはいけない。別途NVIDIA–SB Energyの提携を新規提案。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-2ad15fb187deb2cbda40b414": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-3984437aa8cfa506c1effea4": "9a53530ee417ffda80071b7ed68cfbffeda600fff9c31cbbb1093d0afc6e8154"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。 2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+      "replaced_by": [
+        "rel-4330bb60569e930aab9db1bd"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-2c5b59c324d293cdcec4b1b6": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a082eafaab75412f307259a8": "ad6a3cec3c1ff820db8674b01a3515439d15d49d2e8bd45c28a4e3fa5fc02d2d"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-2e115bad4b080c19cc815e42": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+      "replaced_by": [
+        "rel-709b1676999b7884cf9448c2"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-2f9294e889a1226b867cc8ba": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6a992de5997e797293db2fd3": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185"
+      },
+      "fields": [],
+      "reason": "同じPinterest–AWS更新契約の導入段落。p:1に2031年までの予定$40億を明記。提供方向はAWS→Pinterestで既存関係に収録済み。",
+      "replaced_by": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-3767a25cfbb39a0df2f127bf": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 Corningとの提携を拡張し、Kentuckyの工場にスマートフォン用カバーガラスの製造ラインと共同イノベーションセンターを設ける計画。iPhone・Apple Watch向け。個社契約額は非掲載。",
+      "replaced_by": [
+        "rel-e1a79bc20a2ca2dd7f2b3d5d"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-3e35bc7cf30ad4ed3378a024": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-4133d31acad27f22ef49bbb8": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-44736a85fc3c4ca80db3c8a2": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "光ファイバー・ケーブル・接続製品の供給契約の主段落。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-44bfc41c026dcc19399b14ab": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5dd316072ce72ff8763f4344": "339fe03b4c6e21f010c20ca2dd5fdacf83979fdad018ea9ffe84e527b783eb84"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-45bb9802f8d8c2e10327eb79": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 AppleとGlobalFoundriesが米国内の半導体製造を拡大する契約。無線接続技術と電力管理技術を対象とし、New YorkのMalta工場に新たな能力を導入する。",
+      "replaced_by": [
+        "rel-a54e7c7f287bb4436f3b3443"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-46c714ee165cf59c93fb9736": {
+      "decision": "withdrawn",
+      "evidence_hashes": {
+        "source-86de2bbc1de5ca7c58545590": "dcc2a13e510ac977a7b9d91416c4db21df90f0d02e2a6538281f00b3bd6f7c5d"
+      },
+      "fields": [
+        "parties",
+        "relationship",
+        "status"
+      ],
+      "reason": "SEC 6-K 0001104659-25-088312 and exhibit 4.4 identify Nebius, Inc. as contracting party. Replaced with its verified contract and an explicit subsidiary-to-listed-parent link. Parent-level duplicate withdrawn without deleting history.",
+      "reviewer": "Codex source-bound entity correction (not human approval)",
+      "rule_id": null,
+      "rule_version": null,
+      "verified_at": "2026-09-26T05:27:07+00:00"
+    },
+    "rel-47a11c9ff409776d4a31d04a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6a7dbd2365709848abd13576": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "replaced_by": [
+        "rel-74cf17dc8e20aa93c0b1891d"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-47a3963e61937b018b2dfc60": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "replaced_by": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-47b68e4a8d0762f6becb3409": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "同契約と地域雇用・訓練を説明するAWS CEOの引用。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-49e4918e0383c05237b7ad44": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "同契約に伴うCorning生産能力拡張についてのCEOの引用。175年はCorningの歴史で契約期間ではない。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-4a35a74764976f28115a44ab": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6e487dceeb3d6a4768e63fe5": "0bf360248a62e75f573c022065cf94c9535ee073728b4785e2087dae9bc1c759"
+      },
+      "fields": [],
+      "reason": "Metaの広告シグナルに影響するApple・GoogleのOS/ブラウザー変更を並列列挙したリスク説明。Apple→Google契約ではない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-4e971e4314d828129e107db5": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "引渡し遅延時のGPUサービス解除・前払金返金条項。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-504b7562dccb20399ab311fc": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "同契約に伴う人材養成プログラム拡張。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-52286a25c798ae7fb60f96ab": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b1b4ca231314cb1091fcdce5": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-5408f20745f0178925a08c78": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "契約期間とGPU/ホスティング提供義務の表形式段落。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-54400ff91bf56ec1b337d5cc": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "AWSの一般紹介。Amazon Web Services内のAmazonを別当事者として抽出した誤接続で、AWS→Amazonの個別サービス契約はない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-55f8dbdff5a4c3b4c24c14d3": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+      "replaced_by": [
+        "rel-3d1097f90640e48dbad9e2ba"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-5601bacb61870ced751ead82": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "replaced_by": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-56c6335a08393d92814aae37": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "直前の表と同文のGPU/ホスティング提供義務。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-58d926ffe2e95fa8826e74ac": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。 BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "replaced_by": [
+        "rel-729343557b3c5f5e431b4854"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-59ce03685f53fcd88fac95cd": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-35153d51df6f7aff06e1b439": "c5c5ce6791e12c7a471e9ecaa57e9c9f016f29d5ddf67814bcd401480f588677"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-5cf07ffeb2795e6c3545874a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "replaced_by": [
+        "rel-b1155ffed44e7bba2bffc27b",
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-616e23616e586c915d6a46cc": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-311f300719e0734712c02ce3": "87fd1432fdcf6eab78ef8574866412cde3bc08cd66bdfde8ae0f19d5671fa84c"
+      },
+      "fields": [],
+      "reason": "RSS一覧全体から企業名と取引語を混合した候補。単一記事・当事者・契約の組合せを裏付けない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-61763d2664011ed3ef63d3ad": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Claude PlatformをAWSアカウントから利用できるようにする提携。既存の認証・請求・監視を利用する提供経路で、計算基盤購入やAmazonの出資とは別。",
+      "replaced_by": [
+        "rel-7c6284727b5dd1a390fd1431"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-61cc08291a23945c326efc2a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "Cloud Servicesの定義とNebiusによる提供義務。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-691409b999f8451f7b0c5e21": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 BMW GroupとQualcomm TechnologiesがSnapdragon Rideを基に次世代自動運転支援システムを共同開発。親会社の別契約には置き換えない。",
+      "replaced_by": [
+        "rel-7865b5bc09c12dd89d9f9a0e"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-6ad822aaf0125ebe7ecdf89f": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+      },
+      "fields": [],
+      "reason": "Wiz買収に関する将来見通しの注意書き。GoogleがAlphabetを買収した証拠ではない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-6e2431d559f0b8ef5d431ec3": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "fields": [],
+      "reason": "Amazonの投資キャッシュフローの集計とAnthropic・OpenAIへの別々の投資。AnthropicがOpenAIを買収した関係ではない。OpenAIへのQ2払込$137億は既存Amazon→OpenAI SEC補完に収録済み。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-707c700cd599af2527c0d09a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "replaced_by": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-7753a6e29dd5d5aa86fba9f8": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "replaced_by": [
+        "rel-13a995805e1bac42cbeedcee"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-78310ea95a1c7989858b3d56": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5f65a471bafc823d593d0381": "f05b099d3cb92ec481162390489a8ff2f22b304e3c377df2d055bbcfd8f3e14b"
+      },
+      "fields": [],
+      "reason": "Dell・HPE・Lenovoの対応システムを列挙する互換性の説明。Red HatとLenovoの独立したサービス契約や取引方向は確定できない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-78a6c85dc7a44363dc44dae4": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-79304bb16221ab07fa941783": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-fb740c13b0c1090f4abfbb08": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。 BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "replaced_by": [
+        "rel-729343557b3c5f5e431b4854"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-79738aeb5b60082fc7bef5aa": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-79af675dd250012004c8faba": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "replaced_by": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-79c507f1f691f978d315257b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 Coherentと複数年契約を締結。Texasの工場で、iPhone・iPadのFace IDなどに使うVCSELレーザーを製造。個社の契約額や正確な満了日は非掲載。",
+      "replaced_by": [
+        "rel-56154fbd6458d555ea4e1269"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-7b2db6de3eefc1e7e16e2e62": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5dd316072ce72ff8763f4344": "339fe03b4c6e21f010c20ca2dd5fdacf83979fdad018ea9ffe84e527b783eb84"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-7cba0400cc49741b3bd2ffee": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a510268302cec99ee40f5a8e": "204a2ae70e74ba4cd815100b54c7e1ceaddd3a5ec5f0158ffaf4281456a30930"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-811df29207b5ede934a44785": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OracleとNVIDIAによるAI・分析基盤での協力。Blackwellに関する2024年発表時点の計画として収録。",
+      "replaced_by": [
+        "rel-21a0a1809ad47b1309030f4f"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-82674fe009c13f64fd9e91c3": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "replaced_by": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-85f56b12df78b0a4acdbd84b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+      "replaced_by": [
+        "rel-f1531c1c768cb62ef861572b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-8661709f4970014bdb6a613a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 SamsungのAustin工場で新たな半導体製造技術を導入し、iPhoneを含むApple製品の電力効率・性能を支えるチップを供給する計画。計画と納入完了を区別。",
+      "replaced_by": [
+        "rel-96fcddfc115dc25b9cc754cf"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-888a9e371deaced588041af9": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-156553bb76e00d30eaea9caa": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 NVIDIA技術をMetaのAI学習・推論用データセンターに大規模導入する複数年の戦略提携を発表。契約金額はこの資料に記載されていない。",
+      "replaced_by": [
+        "rel-1ca0875248128b2b14fd2ee7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-89f306aae415f2d96a16fbe0": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a93ee3808fa50bc8a4944bef": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041"
+      },
+      "fields": [],
+      "reason": "NVIDIAとAmazonはともにOpenAIの出資者として列挙されている。両社間の出資ではなく、調達総額・評価額を二社の金額に割り当てない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-8b4b53287dfef19eab573631": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "直前の表と同文の月次後払い・請求条件。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-8c85c4b710e9373aa8d96e41": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-9100fad2d0e7e3b9401381c7": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "replaced_by": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-915f4e9dc1ba40edc28c1d36": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5670db465f60e64b6c4f877c": "9a556713048cba7f9c4fcf1b418b972b1d5f74a17e6332a9c10dfbd5229b543e"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-92e4806ffb35b9908f62194c": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a93ee3808fa50bc8a4944bef": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-96ac4cd165233cfe018a92ca": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 MicronとAnthropicは、AIデータセンター向けメモリー・ストレージの供給契約を締結。購入金額・確定数量は資料に記載されていない。",
+      "replaced_by": [
+        "rel-f328d2228cc9b431091f393f"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-96aef014ee3d31f9a50343b9": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-96c60caf50bf4ca908466ad7": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Microsoft and Anthropic described expansion of their existing partnership.",
+      "replaced_by": [
+        "rel-6d961c24ce89eaf990cbc1ce"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-98e1a90f87e30d3263dac89e": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "replaced_by": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-9a86481255845456f58a0beb": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6092ac3bed9810b09cfc7a5c": "47a0a4a1d6a335fffab571789aba597eca0637d2650f0f62371afa10e205b987"
+      },
+      "fields": [],
+      "reason": "FY27 Q1の業績見通し調整スライド。前年のOpenAI契約に言及するのみで、OpenAI→Microsoftの新たなサービス提供・金額・契約期間を特定しない。既存提携への直接の同一契約対応も確定できない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-9de82ed09f881007e6bfa588": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "replaced_by": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-9f329efede8c3068f2106856": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-2110b6ef2c6af1e086212428": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "replaced_by": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-9f7b39c99989d554b240d7d3": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-caf9b28600b243a4ebfa78e3": "cf0834d418cea03359cd7102d5f843bc2df0e6d461f882993a1449b63dd1087e"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "replaced_by": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-a01021143e30ba0df7679ff6": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-a0cd696ee7324fa28d06ce8a": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "replaced_by": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-a168226eb5bbd62745464073": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 AWSとAnthropicの既存クラウド契約を10年間で1,000億米ドル超拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+      "replaced_by": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-a1b3913ad82413cc651a8452": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+      "replaced_by": [
+        "rel-4a336e7623b5deed03fe6cba"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-a26630fb32918057add592fb": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-8a370485647279c078b2eaf0": "eeae8c6400c1da0deb6943e3201ecdaeb7e7afcc41c1100a14474b64588c6b1d"
+      },
+      "fields": [],
+      "reason": "将来見通し免責段落で、NVIDIA–SB Energy提携とOpenAI関連会社のテナント役割を要約する。新たなNVIDIA–OpenAI本体の契約を証明しない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-a9eadc97ae5be89a60c0be4b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "Corning光接続製品がAmazonデータセンターを支える旨の説明。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-ac091cbbeb5da31005f969d4": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+      "replaced_by": [
+        "rel-f1531c1c768cb62ef861572b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-af9e07925486ef09193d80c0": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-b1e417f21d424f874bcf63a7": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "直前の表と同文の費用負担条項。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-b3c181d325362a81770f5f45": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-156553bb76e00d30eaea9caa": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 NVIDIA技術をMetaのAI学習・推論用データセンターに大規模導入する複数年の戦略提携を発表。契約金額はこの資料に記載されていない。",
+      "replaced_by": [
+        "rel-1ca0875248128b2b14fd2ee7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-b825586b32bcdbe1b1975da4": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 SamsungのAustin工場で新たな半導体製造技術を導入し、iPhoneを含むApple製品の電力効率・性能を支えるチップを供給する計画。計画と納入完了を区別。",
+      "replaced_by": [
+        "rel-96fcddfc115dc25b9cc754cf"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-c4a4e79f768598366a7e4eda": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、既存関係の製品・拠点・役割を補完。 AppleとGlobalFoundriesが米国内の半導体製造を拡大する契約。無線接続技術と電力管理技術を対象とし、New YorkのMalta工場に新たな能力を導入する。",
+      "replaced_by": [
+        "rel-a54e7c7f287bb4436f3b3443"
+      ],
+      "review_outcome": "enriched",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-c733dcf627b595459de21cfe": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "Nebiusのサービス遂行費用の負担条項。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-c8e0d3852273e23bcd511996": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "replaced_by": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-cbf329f811230b3c87eb7c90": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5c923bf7b269f378af9ff54f": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0"
+      },
+      "fields": [],
+      "reason": "同契約の雇用効果に関する上院議員の引用。既存Corning→Amazon供給契約と同一。新たなAmazon→Corningサービス・株式投資を示さない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-cc51fbab336a601ce801eb42": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 DellをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "replaced_by": [
+        "rel-f195c0a88113d682d625afa9"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-cf1e85c26052ccd4f73fc351": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6e487dceeb3d6a4768e63fe5": "0bf360248a62e75f573c022065cf94c9535ee073728b4785e2087dae9bc1c759"
+      },
+      "fields": [],
+      "reason": "Metaのモバイルプラットフォーム依存に関するリスク説明。AppleとGoogleの独立した仕様変更・方針を記すだけで二社間サービス契約はない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-d3d15d8f827e52440d0b8745": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-c3f8c9eeca3ee4afaee15052": "c28678e4a87a7bbddadf00405d4c329be6f90ae9a406909ab861980043bb5c09"
+      },
+      "fields": [],
+      "reason": "Amazon取締役就任者の経歴。GoogleがMandiantを買収したとの記述でありAmazon–Google買収ではない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-d450555f9f95555b330b6592": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "fields": [],
+      "reason": "Amazonが保有する二社への投資の会計評価の説明。Anthropic–OpenAIのワラント・持分関係は示さず、$2297億・$74億も二社契約額ではない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-d478e72c22a7e077ef5b34ec": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-d65e463de613ac91f236063b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 MetaがVistraの既存原発2施設から電力を購入する20年契約。さらに計3施設の増強分も対象。増強分は将来計画として区別する。",
+      "replaced_by": [
+        "rel-0ba31ccfbb0674a3df5100b6"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-d99770dc5407c8338b469992": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "replaced_by": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-d9c8f1837c77b7cb6863b202": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "Microsoftの税務情報提供・誤申告時の税負担条項。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-dae2b3a8dde8dddd347a1a95": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-efc957b3506cdb3c32109b55": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "replaced_by": [
+        "rel-d3082b9214c6b6945d6fadca"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e1821f4c7278bad3b6dafbcc": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-1d2da399ba6eaf8ade2a5618": "51032dc0d9cd64758b8362fb83bc24e6073f6d9ebf661f328fe8d94b5ee4e662"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 CorningがMetaのデータセンターに光ファイバーを供給する複数年契約。最大$60億とされ、North Carolinaの生産能力拡大を支える。",
+      "replaced_by": [
+        "rel-77e795db35c98a2e7dcc8958"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e212ca45e80599b9479a7d77": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "replaced_by": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e2ad06fd13c3ca55d55547af": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e3c35af4686b724a046d1bbb": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-6a7dbd2365709848abd13576": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "replaced_by": [
+        "rel-74cf17dc8e20aa93c0b1891d"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e5aa4ec206b3fc0ea5672c0c": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-e9874e6f7f0a121b39d32a47": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "fields": [],
+      "reason": "BMWが次世代ADASの優先クラウドにAWSを選定した2023年発表そのもの。既存AWS→BMW関係と同一。2025年車両発売予定を契約満了日にしない。",
+      "replaced_by": [
+        "rel-41b0f944338f12494eb9ca43"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-e9c8b516d0c98be54d59058b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "replaced_by": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-ecda05a8e5325cd22498732b": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-50380b7a0cd06e3ca1e2bdee": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692"
+      },
+      "fields": [],
+      "reason": "AMDがOpenAI OpCo, LLCとMeta Platforms, Inc.それぞれに別個のワラントを発行。OpenAI→Metaの権利ではない。AMD→各受領者の2関係を新規提案し、株数・行使価格を出資/契約総額にしない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-f0fbb55793fca863b05d1cc9": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "replaced_by": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-f3924fbaaccceea98731cb82": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "fields": [],
+      "reason": "個人データ処理・管理者の責任条項。同一EX-4.4契約の一部。冒頭tr:14でNebiusはNebius, Inc.と定義され、親会社Nebius Groupの別契約でもMicrosoftからのサービス提供でもない。",
+      "replaced_by": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-remaining32",
+      "rule_version": "f81cca2f856f904f539bf3b27fec1942551c7507af70d999059d944abf62d615",
+      "verified_at": "2026-09-26T06:22:49+00:00"
+    },
+    "rel-f49899c4c460e8e7910b6683": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b1b4ca231314cb1091fcdce5": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29"
+      },
+      "fields": [],
+      "reason": "Amazon Web Servicesという単一名称中のAmazonを親会社の独立言及と誤認した候補。二社間の取引をこの段落は示していない。",
+      "replaced_by": [],
+      "review_outcome": "excluded",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-f99f3ed3c9b7d9bdc6a069fa": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "replaced_by": [
+        "rel-3184bf461ce38af0e098a4cb"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-fae4981d75fee9bdde5d595e": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-fece013c92d9c27893b5db03": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、確認済みの同一関係へ集約。 Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "replaced_by": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "review_outcome": "duplicate",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    },
+    "rel-ff856200192c699e96abe831": {
+      "decision": "rejected",
+      "evidence_hashes": {
+        "source-b1b4ca231314cb1091fcdce5": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29"
+      },
+      "fields": [],
+      "reason": "原文の具体的な事業内容を確認し、新しい確認済み関係に置換。自動抽出の取引種別・方向または親会社／事業名の混同を修正。 CorningがAmazonの米国データセンター向けに光ファイバー・ケーブル・接続製品を供給する契約。数十億ドル規模との表現のみで、具体的な数値は公表されていない。地域全体への投資額を契約額に転用しない。",
+      "replaced_by": [
+        "rel-0a038d06b3d5e568824b197b"
+      ],
+      "review_outcome": "added",
+      "reviewer": null,
+      "rule_id": "review-2026-09-26-94",
+      "rule_version": "3baf931bc364b4f1282ed90bd9131169001e442e16e8078bfc6933b503500098",
+      "verified_at": "2026-09-26T05:25:37+00:00"
+    }
+  },
+  "merges": {}
+}

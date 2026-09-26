@@ -1,0 +1,133 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://investor.apple.com/faq/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.apple.com/faq/",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-avgo",
+    "country": null,
+    "display_name": "Broadcom",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-49afa7407b3dc5eb932acbc6",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "description": "Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 2
+}

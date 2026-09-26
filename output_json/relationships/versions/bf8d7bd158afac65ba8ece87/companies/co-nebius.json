@@ -1,0 +1,99 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "Microsoft Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+      "listings": [
+        {
+          "exchange": null,
+          "source_url": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nebius",
+      "country": null,
+      "display_name": "Nebius",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-08",
+      "listing_status_source": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+          "symbol": "NBIS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-nebius",
+    "country": null,
+    "display_name": "Nebius",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-09-08",
+    "listing_status_source": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+        "symbol": "NBIS",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "description": "NebiusがMicrosoftにAI計算基盤を提供する複数年契約。金額は別途提出された6-Kの確認待ちで、このニュース本文から推測しない。",
+      "direction": "directed",
+      "event_date": "2025-09-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-46c714ee165cf59c93fb9736",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-nebius",
+      "status_as_of": "2025-09-08",
+      "target_company_id": "co-msft",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 1
+}

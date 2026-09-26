@@ -1,0 +1,170 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sb-energy",
+      "country": null,
+      "display_name": "SB Energy",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sb-energy",
+    "country": null,
+    "display_name": "SB Energy",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9d7870d915edaad80f912711",
+          "evidence-2001c9d7de85e8e930484e73"
+        ],
+        "geography": "米国・Ohio州Pike County",
+        "headline": "PORTSのAIデータセンター開発提携",
+        "products": [
+          "AIデータセンター",
+          "DSX AI基盤"
+        ],
+        "scale": "初期約4.25GW、追加約3.8GWはオプション",
+        "source_role": "計算基盤・信用補完",
+        "target_role": "データセンター開発"
+      },
+      "description": "NVIDIAとSB EnergyがOhio州PORTSのAIデータセンター開発で複数年提携。初期約4.25GW分の土地・電力・施設容量を確保。OpenAI関連会社がテナントであり、OpenAI本体との別契約へ置き換えない。",
+      "direction": "undirected",
+      "event_date": "2026-08-17",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-2cd4a3dd0d81f31b595717c4",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-08-17",
+      "target_company_id": "co-sb-energy",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-382837baf00df0b53aefc8ac",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-9f2ff8385c764fe2bb2ca751"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.5 billion",
+          "payee_company_ids": [
+            "co-sb-energy"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の出資予定額。保証上限や施設総投資額とは別。",
+          "value": "1500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-9f2ff8385c764fe2bb2ca751"
+        ],
+        "geography": "",
+        "headline": "SB Energyへの出資予定",
+        "products": [
+          "AIインフラ事業への出資"
+        ],
+        "scale": "",
+        "source_role": "投資予定者",
+        "target_role": "資金調達先"
+      },
+      "description": "NVIDIAがSB Energyへの原文$15億の出資予定を発表。開発能力拡大とOhio地域への取り組みを支える。払込完了やドル種類はこの発表だけでは確認できない。",
+      "direction": "directed",
+      "event_date": "2026-08-17",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-94dfb74b26088351048d83f6",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-08-17",
+      "target_company_id": "co-sb-energy",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-08-17"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

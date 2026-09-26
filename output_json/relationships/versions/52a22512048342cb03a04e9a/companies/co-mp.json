@@ -1,0 +1,120 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mp",
+      "country": null,
+      "display_name": "MP Materials",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-mp",
+    "country": null,
+    "display_name": "MP Materials",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-d9a320f6ff61f889add18491",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "direction": "directed",
+      "event_date": "2025-07-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "relationship_type": "supplier",
+      "source_company_id": "co-mp",
+      "status_as_of": "2025-07-15",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-07-15"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

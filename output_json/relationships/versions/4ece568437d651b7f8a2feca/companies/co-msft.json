@@ -1,0 +1,394 @@
+{
+  "build_id": "4ece568437d651b7f8a2feca",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mistral",
+      "country": null,
+      "display_name": "Mistral AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nebius",
+      "country": null,
+      "display_name": "Nebius",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-08",
+      "listing_status_source": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+          "symbol": "NBIS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000789019",
+    "company_id": "co-msft",
+    "country": null,
+    "display_name": "Microsoft",
+    "entity_status": "resolved",
+    "legal_name": "MICROSOFT CORP",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+        "symbol": "MSFT",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      },
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "ambiguous"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-80576b1ef3d452f6c1656692"
+        ],
+        "geography": "",
+        "headline": "Blackwellクラウドの提供計画",
+        "products": [
+          "Blackwellクラウド"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "クラウドサービスの提供予定"
+      },
+      "description": "NebiusをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-194394469e921764e37c4d4f",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-nebius",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6d961c24ce89eaf990cbc1ce",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Microsoft announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "ambiguous"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NebiusがMicrosoftにAI計算基盤を提供する複数年契約。金額は別途提出された6-Kの確認待ちで、このニュース本文から推測しない。",
+      "direction": "directed",
+      "event_date": "2025-09-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-46c714ee165cf59c93fb9736",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-nebius",
+      "status_as_of": "2025-09-08",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3c668aa2b4b224ef43c84c8b"
+        ],
+        "geography": "",
+        "headline": "Azure基盤へのGB200導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-97df4097d9e031d99b91203b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ae8ab4a3235f695c92171898"
+        ],
+        "geography": "",
+        "headline": "AzureによるAIモデル学習・推論支援",
+        "products": [
+          "Azure AIスーパーコンピューティング"
+        ],
+        "scale": "",
+        "source_role": "計算基盤の提供",
+        "target_role": "AIモデル開発・運用"
+      },
+      "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+      "direction": "directed",
+      "event_date": "2024-02-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-4a336e7623b5deed03fe6cba",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2024-02-26",
+      "target_company_id": "co-mistral",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-400cd4735ae46af3c63f6fdf"
+        ],
+        "geography": "",
+        "headline": "Azure経由のMistralモデル販売・提供",
+        "products": [
+          "Models as a Service",
+          "Azure AI Studio"
+        ],
+        "scale": "",
+        "source_role": "販売・配布プラットフォーム",
+        "target_role": "AIモデルの提供"
+      },
+      "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "direction": "undirected",
+      "event_date": "2024-02-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e4aeb3770a0ec947e2269328",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2024-02-26",
+      "target_company_id": "co-mistral",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-02-26",
+    "2024-03-18",
+    "2025-09-08",
+    "2025-11-18"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 3,
+  "total_relationships": 6
+}

@@ -1,0 +1,60 @@
+{
+  "build_id": "897d2d3f50e869d1f1e3f3ba",
+  "company_ids": [
+    "co-ibm",
+    "co-redhat",
+    "co-msft",
+    "co-nvda",
+    "co-anthropic",
+    "co-amzn"
+  ],
+  "data_as_of": "2025-11-18",
+  "expanded_nodes": 150,
+  "files": {
+    "companies.json": "fe757a6a5346a5416f6ce86ec9032475931df01e89abb64a620b0a863a461e4e",
+    "companies/co-amzn.json": "001cab4bf9b0fd710c7c82856499e0e9150ddb0ad5b1aa6b3b2e2bcee750bce2",
+    "companies/co-anthropic.json": "2b73181a310f239cd61c131d5af7ea0f5d10bc18b5826b0bfeaa3a0ec504f280",
+    "companies/co-ibm.json": "da004dab9cad2060be1b3bbf704b310c6dfa47653ecd60ab4a997075a39af288",
+    "companies/co-msft.json": "3a8c00d90915e0210fa501cb2031407f18c7c2f288e5e314cd01ce62c42aadfc",
+    "companies/co-nvda.json": "0bbeab32bd3056c3a9805eb784cf9076da5a0c156b279aa5d46955b28437b396",
+    "companies/co-redhat.json": "1c4cf9ee9578cb74275b57bb26b678eec1984b075ddd2f799564a22c5f4851ff",
+    "coverage.json": "34cf9e6bd6556f5adcd6750afc444ad38a5e8d832002eacd7ad7923c2fa3aa5a",
+    "recent_events.json": "acef6579d59b687919dd6d79b8f23d8a1fb454ad76e2742db9d08c6395fac060",
+    "relationships/rel-0861e56024d9a66f3441f259.json": "f7b5b936c62bea2a9aa4d63a28f38587198aef4321bfe7b80cacf6359140b09e",
+    "relationships/rel-13a995805e1bac42cbeedcee.json": "91503dd8700fd974a00cf35123dc94773387bef0ba7cf9c40e8208e1b1158fad",
+    "relationships/rel-6575e2a22fa91487946a85f8.json": "1e8cb1fd402e7f6fcd1c686bdf9d2a01d23caa470c90beab87d4fa337e8c668d",
+    "relationships/rel-6d961c24ce89eaf990cbc1ce.json": "7afecab230d019422639d1f2aefdb58b2663ed3e8e72bef309fd489a0b678f17",
+    "relationships/rel-b1155ffed44e7bba2bffc27b.json": "e8f7379c878dcc1942c91420e3ada2ac30ef494ce97dc761bd8fe2e01dd78a55",
+    "relationships/rel-dd794e17a1bb66e5a3d22e3c.json": "f55de08ddf427c1a0eeb47bd72b4cff000bb0a183402249bd3711e1ecf49b062"
+  },
+  "generated_at": "2026-09-25T15:18:20+00:00",
+  "initial_nodes": 30,
+  "relationship_count": 6,
+  "relationship_ids": [
+    "rel-0861e56024d9a66f3441f259",
+    "rel-13a995805e1bac42cbeedcee",
+    "rel-6d961c24ce89eaf990cbc1ce",
+    "rel-6575e2a22fa91487946a85f8",
+    "rel-dd794e17a1bb66e5a3d22e3c",
+    "rel-b1155ffed44e7bba2bffc27b"
+  ],
+  "schema_version": "1.0",
+  "tiers": {
+    "USD": {
+      "colors": [
+        "#8a919e",
+        "#38bdf8",
+        "#9b5de5",
+        "#c49a24",
+        "#e34b55"
+      ],
+      "minimums": [
+        "0",
+        "100000000",
+        "1000000000",
+        "10000000000",
+        "50000000000"
+      ]
+    }
+  }
+}

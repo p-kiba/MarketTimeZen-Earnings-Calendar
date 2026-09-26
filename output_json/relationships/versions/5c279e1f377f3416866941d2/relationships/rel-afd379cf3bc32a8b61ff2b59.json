@@ -1,0 +1,200 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-09-16",
+      "conditions": "",
+      "deal_id": "deal-9df2a3f982016acad2c2c012",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-9df2a3f982016acad2c2c012",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-9df2a3f982016acad2c2c012"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-9df2a3f982016acad2c2c012"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-afd379cf3bc32a8b61ff2b59"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3c64d85b296779a0af7546e9": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-3c64d85b296779a0af7546e9",
+        "rule_version": "d4869f2143f672fd1c5490783701ed92c682c23a935a97a526909e536bfe1e2d",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-9df2a3f982016acad2c2c012",
+      "excerpt": "47 states",
+      "locator": "p:2",
+      "normalized_text_hash": "49052f78da352901411f8966167fe3cd0d1e33ccbf61fd2a730aff6532d331be",
+      "section": "Official disclosure: business context",
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-9df2a3f982016acad2c2c012"
+      ],
+      "geography": "米国",
+      "headline": "Uber Eats配送を米国47州へ拡大",
+      "products": [
+        "Uber Eats",
+        "即時・予約配送"
+      ],
+      "scale": "47州、約600拠点（発表時点）",
+      "source_role": "配送プラットフォーム",
+      "target_role": "倉庫型店舗・商品販売"
+    },
+    "deal_ids": [
+      "deal-9df2a3f982016acad2c2c012"
+    ],
+    "description": "UberとCostcoがUber Eats経由の米国配送を17州から47州へ拡大。約600拠点から即時・予約配送を提供すると公表。提携収益や手数料率は非掲載。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9df2a3f982016acad2c2c012"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-9df2a3f982016acad2c2c012"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-uber",
+    "status_as_of": "2026-09-16",
+    "target_company_id": "co-cost",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3c64d85b296779a0af7546e9": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-3c64d85b296779a0af7546e9",
+      "rule_version": "d4869f2143f672fd1c5490783701ed92c682c23a935a97a526909e536bfe1e2d",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-09-16",
+      "publisher": "investor.uber.com",
+      "retrieved_at": "2026-09-26T06:11:50+00:00",
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_type": "official_newsroom",
+      "title": "Uber Technologies, Inc.  - Costco Expands Nationwide Delivery on Uber Eats"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-9df2a3f982016acad2c2c012"
+      ],
+      "geography": "米国",
+      "headline": "Uber Eats配送を米国47州へ拡大",
+      "products": [
+        "Uber Eats",
+        "即時・予約配送"
+      ],
+      "scale": "47州、約600拠点（発表時点）",
+      "source_role": "配送プラットフォーム",
+      "target_role": "倉庫型店舗・商品販売"
+    },
+    "description": "UberとCostcoがUber Eats経由の米国配送を17州から47州へ拡大。約600拠点から即時・予約配送を提供すると公表。提携収益や手数料率は非掲載。",
+    "direction": "directed",
+    "event_date": "2026-09-16",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-uber",
+    "status_as_of": "2026-09-16",
+    "target_company_id": "co-cost",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

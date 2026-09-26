@@ -1,0 +1,238 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "USD explicitly stated in the acquisition paragraph",
+          "evidence_ids": [
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-ibm"
+          ],
+          "qualifier": "approximately",
+          "scope": "Total equity value of all Red Hat common shares in this acquisition",
+          "value": "34000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2019-07-09",
+      "conditions": "",
+      "deal_id": "deal-878bce5a20465deba6b0b74c",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "effective_date": "2019-07-09",
+      "event_id": "event-878bce5a20465deba6b0b74c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-32427758e4d733676deaaa29",
+        "evidence-dabc8a11a07684182ed41f52"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-32427758e4d733676deaaa29",
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0861e56024d9a66f3441f259"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e9aab3329fcbb0da69522f12": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066"
+        },
+        "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+        "reviewer": null,
+        "rule_id": "pilot-source-e9aab3329fcbb0da69522f12",
+        "rule_version": "1",
+        "verified_at": "2026-09-25T14:57:31+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-32427758e4d733676deaaa29",
+      "excerpt": "On July 9, 2019, IBM announced the completion of its acquisition of Red Hat",
+      "locator": "p:1",
+      "normalized_text_hash": "547900127d49339e31500df63f3395c0cb809a30da8465cf4aac4494d67b6914",
+      "section": "Primary announcement",
+      "source_id": "source-e9aab3329fcbb0da69522f12",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-dabc8a11a07684182ed41f52",
+      "excerpt": "total equity value of approximately USD 34 billion",
+      "locator": "p:9",
+      "normalized_text_hash": "7c554a2a5a10e7e7837d270e20621b8b3f614a98a00d2b4d78415ea47a81f253",
+      "section": "Primary announcement",
+      "source_id": "source-e9aab3329fcbb0da69522f12",
+      "supports_fields": [
+        "amounts"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-878bce5a20465deba6b0b74c"
+    ],
+    "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-32427758e4d733676deaaa29",
+      "evidence-dabc8a11a07684182ed41f52"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "latest_event_ids": [
+      "event-878bce5a20465deba6b0b74c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0861e56024d9a66f3441f259",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-ibm",
+    "status_as_of": "2019-07-09",
+    "target_company_id": "co-redhat",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e9aab3329fcbb0da69522f12": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066"
+      },
+      "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+      "reviewer": null,
+      "rule_id": "pilot-source-e9aab3329fcbb0da69522f12",
+      "rule_version": "1",
+      "verified_at": "2026-09-25T14:57:31+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat",
+      "content_hash": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2019-07-09",
+      "publisher": "co-ibm",
+      "retrieved_at": "2026-09-25T14:45:55+00:00",
+      "source_id": "source-e9aab3329fcbb0da69522f12",
+      "source_type": "official_newsroom",
+      "title": "IBM Completes Acquisition of Red Hat"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "USD explicitly stated in the acquisition paragraph",
+        "evidence_ids": [
+          "evidence-dabc8a11a07684182ed41f52"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-ibm"
+        ],
+        "qualifier": "approximately",
+        "scope": "Total equity value of all Red Hat common shares in this acquisition",
+        "value": "34000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+    "direction": "directed",
+    "event_date": "2019-07-09",
+    "has_amount": true,
+    "last_observed_at": "2026-09-25T14:57:31+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0861e56024d9a66f3441f259",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-ibm",
+    "status_as_of": "2019-07-09",
+    "target_company_id": "co-redhat",
+    "tier": {
+      "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+      "color": "#c49a24",
+      "currency": "USD",
+      "level": 4
+    },
+    "tier_reasons": []
+  }
+}

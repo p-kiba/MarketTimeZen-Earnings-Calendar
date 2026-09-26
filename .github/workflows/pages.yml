@@ -1,0 +1,60 @@
+name: Complete Site Artifact and Pages
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy only after Pages settings and terms have been reviewed'
+        type: boolean
+        default: false
+  workflow_run:
+    workflows: [Auto Update Earnings Calendar, Release Reviewed Company Relationships]
+    types: [completed]
+permissions:
+  contents: read
+# One owner for publishing, sharing the data writers' lock. Checkout latest after acquiring it.
+concurrency:
+  group: earnings-calendar-update
+  cancel-in-progress: false
+jobs:
+  build:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref_name == github.event.repository.default_branch) ||
+      (vars.MTZ_PAGES_ENABLED == 'true' && github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == github.event.repository.default_branch &&
+      (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch'))
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          cache: pip
+      - run: pip install -r requirements-lock.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node tests/relationships/browser/unit.mjs
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python -m pytest tests/relationships -q
+          python scripts/stage-site.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site-build
+  deploy:
+    needs: build
+    if: vars.MTZ_PAGES_ENABLED == 'true' && (github.event_name == 'workflow_run' || inputs.deploy == true)
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

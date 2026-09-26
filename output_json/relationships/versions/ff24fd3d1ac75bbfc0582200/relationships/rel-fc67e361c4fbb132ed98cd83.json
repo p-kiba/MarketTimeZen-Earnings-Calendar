@@ -1,0 +1,198 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "events": [
+    {
+      "agreement_date": "2022-05-26",
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-fbf2cb9a06e85e066986618c",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": "2023-11-22",
+      "event_id": "event-fbf2cb9a06e85e066986618c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fbf2cb9a06e85e066986618c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fbf2cb9a06e85e066986618c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2023-11-22",
+      "relationship_ids": [
+        "rel-fc67e361c4fbb132ed98cd83"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9377e59c45f1e1b3e5110b09": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-9377e59c45f1e1b3e5110b09",
+        "rule_version": "f3ba965f2df8eda004364fa78d0bc712fbbcb034537c3963d469bbd93fb479aa",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-fbf2cb9a06e85e066986618c",
+      "excerpt": "VMware",
+      "locator": "sec-div:67",
+      "normalized_text_hash": "06c82631eca64b52f2340f89be5b1ba1fec13a10732dd3e2597a9abd8b264319",
+      "section": "Official disclosure: business context",
+      "source_id": "source-9377e59c45f1e1b3e5110b09",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-fbf2cb9a06e85e066986618c"
+      ],
+      "geography": "",
+      "headline": "VMware買収の完了",
+      "products": [
+        "VMware事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-fbf2cb9a06e85e066986618c"
+    ],
+    "description": "Broadcomは2023年11月22日にVMware買収を完了。複数の合併・組織再編を経て完全子会社化した。買収資金借入額は取得対価の総額とは異なるため金額欄へ転記しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fbf2cb9a06e85e066986618c"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-fbf2cb9a06e85e066986618c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9377e59c45f1e1b3e5110b09": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-9377e59c45f1e1b3e5110b09",
+      "rule_version": "f3ba965f2df8eda004364fa78d0bc712fbbcb034537c3963d469bbd93fb479aa",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001140361-23-054354",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
+      "content_hash": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2023-11-22",
+      "filing_cik": "0001730168",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-avgo",
+      "retrieved_at": "2026-09-26T06:09:51+00:00",
+      "source_id": "source-9377e59c45f1e1b3e5110b09",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-fbf2cb9a06e85e066986618c"
+      ],
+      "geography": "",
+      "headline": "VMware買収の完了",
+      "products": [
+        "VMware事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "Broadcomは2023年11月22日にVMware買収を完了。複数の合併・組織再編を経て完全子会社化した。買収資金借入額は取得対価の総額とは異なるため金額欄へ転記しない。",
+    "direction": "directed",
+    "event_date": "2023-11-22",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

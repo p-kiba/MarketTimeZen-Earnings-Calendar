@@ -1,0 +1,169 @@
+{
+  "build_id": "bf8d7bd158afac65ba8ece87",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://investor.nvidia.com/investor-resources/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.nvidia.com/investor-resources/faqs/",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-nvda",
+    "country": null,
+    "display_name": "NVIDIA",
+    "entity_status": "resolved",
+    "legal_name": "NVIDIA Corporation",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-25",
+    "listing_status_source": "https://investor.nvidia.com/investor-resources/faqs/",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://investor.nvidia.com/investor-resources/faqs/",
+        "symbol": "NVDA",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 3
+}

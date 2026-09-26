@@ -1,3 +1,5 @@
+import sys
+HTML_ONLY = "--html-only" in sys.argv
 import json
 import os
 import requests
@@ -264,148 +266,150 @@ while current.date() <= period_end:
     weeks.append(week)
     current += timedelta(days=7)
 
-# =====================
-# JPXページ取得
-# =====================
-PAGE_URL = "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"
-BASE_URL = "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/"
-headers  = {"User-Agent": "Mozilla/5.0"}
+if not HTML_ONLY:
+    # =====================
+    # JPXページ取得
+    # =====================
+    PAGE_URL = "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"
+    BASE_URL = "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/"
+    headers  = {"User-Agent": "Mozilla/5.0"}
 
-response = requests.get(PAGE_URL, headers=headers)
-response.encoding = response.apparent_encoding
-soup = BeautifulSoup(response.text, "html.parser")
+    response = requests.get(PAGE_URL, headers=headers)
+    response.encoding = response.apparent_encoding
+    soup = BeautifulSoup(response.text, "html.parser")
 
-matches = sorted(set(
-    a["href"].split("/")[-1]
-    for a in soup.find_all("a", href=True)
-    if "kessan" in a["href"] and a["href"].endswith(".xlsx")
-))
-print("📄 Found files:", matches)
-if not matches:
-    raise Exception("決算ファイルが見つかりません")
+    matches = sorted(set(
+        a["href"].split("/")[-1]
+        for a in soup.find_all("a", href=True)
+        if "kessan" in a["href"] and a["href"].endswith(".xlsx")
+    ))
+    print("📄 Found files:", matches)
+    if not matches:
+        raise Exception("決算ファイルが見つかりません")
 
-# =====================
-# 全xlsx読み込み
-# =====================
-dfs = []
-failed_files = []
-for file in matches:
-    try:
-        df = pd.read_excel(BASE_URL + file, engine="openpyxl", header=4)
-        df.columns = ["date", "code", "name_ja", "name_en", "fiscal_year_end",
-                      "industry_ja", "industry_en", "type", "fiscal_period",
-                      "market_ja", "market_en"]
-        dfs.append(df)
-        print(f"⬇️ Loaded: {file}")
-    except Exception as e:
-        failed_files.append(file)
-        print(f"❌ Failed: {file} - {e}")
+    # =====================
+    # 全xlsx読み込み
+    # =====================
+    dfs = []
+    failed_files = []
+    for file in matches:
+        try:
+            df = pd.read_excel(BASE_URL + file, engine="openpyxl", header=4)
+            df.columns = ["date", "code", "name_ja", "name_en", "fiscal_year_end",
+                          "industry_ja", "industry_en", "type", "fiscal_period",
+                          "market_ja", "market_en"]
+            dfs.append(df)
+            print(f"⬇️ Loaded: {file}")
+        except Exception as e:
+            failed_files.append(file)
+            print(f"❌ Failed: {file} - {e}")
 
-if failed_files:
-    raise RuntimeError(
-        "一部の決算ファイルを読み込めなかったため、既存データを保持します: "
-        + ", ".join(failed_files)
-    )
+    if failed_files:
+        raise RuntimeError(
+            "一部の決算ファイルを読み込めなかったため、既存データを保持します: "
+            + ", ".join(failed_files)
+        )
 
-if not dfs:
-    raise Exception("xlsx読み込み失敗")
+    if not dfs:
+        raise Exception("xlsx読み込み失敗")
 
-df = pd.concat(dfs, ignore_index=True)
-df = df.where(pd.notnull(df), None)
-print(f"📊 Total rows: {len(df)}")
+    df = pd.concat(dfs, ignore_index=True)
+    df = df.where(pd.notnull(df), None)
+    print(f"📊 Total rows: {len(df)}")
 
-# =====================
-# JSON形式へ変換・保存
-# =====================
-all_data = []
-failed_rows = []
-undecided_rows = []
-ignored_note_rows = []
-for row_index, row in df.iterrows():
-    raw_date = row["date"]
-    code = normalize_jpx_code(row["code"])
-    if raw_date is None or pd.isna(raw_date):
-        if code:
+    # =====================
+    # JSON形式へ変換・保存
+    # =====================
+    all_data = []
+    failed_rows = []
+    undecided_rows = []
+    ignored_note_rows = []
+    for row_index, row in df.iterrows():
+        raw_date = row["date"]
+        code = normalize_jpx_code(row["code"])
+        if raw_date is None or pd.isna(raw_date):
+            if code:
+                failed_rows.append(str(row_index))
+            continue
+
+        raw_date_text = str(raw_date).strip()
+        if raw_date_text in UNDECIDED_DATE_LABELS:
+            if code:
+                undecided_rows.append(str(row_index))
+            else:
+                ignored_note_rows.append(str(row_index))
+            continue
+
+        try:
+            date_obj = pd.to_datetime(raw_date).date()
+        except (TypeError, ValueError, OverflowError):
+            if code:
+                failed_rows.append(str(row_index))
+            else:
+                ignored_note_rows.append(str(row_index))
+            continue
+
+        if not period_start <= date_obj <= period_end:
+            continue
+
+        if not code:
             failed_rows.append(str(row_index))
-        continue
+            continue
 
-    raw_date_text = str(raw_date).strip()
-    if raw_date_text in UNDECIDED_DATE_LABELS:
-        if code:
-            undecided_rows.append(str(row_index))
-        else:
-            ignored_note_rows.append(str(row_index))
-        continue
+        all_data.append({
+            "date":            date_obj.strftime("%Y-%m-%d"),
+            "symbol":          f"{code}.T",
+            "name_ja":         row["name_ja"]         if pd.notna(row["name_ja"])         else "",
+            "name_en":         row["name_en"]         if pd.notna(row["name_en"])         else "",
+            "market":          row["market_ja"]       if pd.notna(row["market_ja"])       else "",
+            "industry":        row["industry_ja"]     if pd.notna(row["industry_ja"])     else "",
+            "fiscal_year_end": str(row["fiscal_year_end"]) if pd.notna(row["fiscal_year_end"]) else "",
+            "fiscal_period":   row["fiscal_period"]   if pd.notna(row["fiscal_period"])   else "",
+        })
 
-    try:
-        date_obj = pd.to_datetime(raw_date).date()
-    except (TypeError, ValueError, OverflowError):
-        if code:
-            failed_rows.append(str(row_index))
-        else:
-            ignored_note_rows.append(str(row_index))
-        continue
+    if failed_rows:
+        raise RuntimeError(
+            "一部の決算行を変換できなかったため、既存データを保持します: "
+            + ", ".join(failed_rows[:10])
+        )
+    if undecided_rows:
+        print(f"⏸️ Date undecided: {len(undecided_rows)} rows")
+    if ignored_note_rows:
+        print(f"ℹ️ Ignored JPX note rows: {len(ignored_note_rows)} rows")
 
-    if not period_start <= date_obj <= period_end:
-        continue
-
-    if not code:
-        failed_rows.append(str(row_index))
-        continue
-
-    all_data.append({
-        "date":            date_obj.strftime("%Y-%m-%d"),
-        "symbol":          f"{code}.T",
-        "name_ja":         row["name_ja"]         if pd.notna(row["name_ja"])         else "",
-        "name_en":         row["name_en"]         if pd.notna(row["name_en"])         else "",
-        "market":          row["market_ja"]       if pd.notna(row["market_ja"])       else "",
-        "industry":        row["industry_ja"]     if pd.notna(row["industry_ja"])     else "",
-        "fiscal_year_end": str(row["fiscal_year_end"]) if pd.notna(row["fiscal_year_end"]) else "",
-        "fiscal_period":   row["fiscal_period"]   if pd.notna(row["fiscal_period"])   else "",
-    })
-
-if failed_rows:
-    raise RuntimeError(
-        "一部の決算行を変換できなかったため、既存データを保持します: "
-        + ", ".join(failed_rows[:10])
-    )
-if undecided_rows:
-    print(f"⏸️ Date undecided: {len(undecided_rows)} rows")
-if ignored_note_rows:
-    print(f"ℹ️ Ignored JPX note rows: {len(ignored_note_rows)} rows")
-
-unique = sort_earnings(all_data)
-target_symbols = set(TARGET_JP)
-target_snapshot = [
-    record for record in unique if record["symbol"] in target_symbols
-]
-if not unique or not target_snapshot:
-    raise RuntimeError(
-        "対象期間の表示データが空のため、既存データを保持します"
-    )
-if os.path.exists(HISTORY_FILE):
-    previous_history = [
-        record
-        for record in load_existing_earnings(HISTORY_FILE)
-        if record.get("symbol") in target_symbols
+    unique = sort_earnings(all_data)
+    target_symbols = set(TARGET_JP)
+    target_snapshot = [
+        record for record in unique if record["symbol"] in target_symbols
     ]
-else:
-    previous_history = [
-        record
-        for record in load_existing_earnings(DATA_FILE)
-        if record.get("symbol") in target_symbols
-    ]
-history = merge_earnings_history(
-    previous_history,
-    target_snapshot,
-    window_start=period_start,
-    window_end=period_end,
-    preserve_through=today.date(),
-)
-write_earnings_atomically(DATA_FILE, unique)
-write_earnings_atomically(HISTORY_FILE, history)
-print(f"\n✅ 全銘柄データ保存完了: {len(unique)} 件")
-print(f"✅ 表示用履歴保存完了: {len(history)} 件")
+    if not unique or not target_snapshot:
+        raise RuntimeError(
+            "対象期間の表示データが空のため、既存データを保持します"
+        )
+    if os.path.exists(HISTORY_FILE):
+        previous_history = [
+            record
+            for record in load_existing_earnings(HISTORY_FILE)
+            if record.get("symbol") in target_symbols
+        ]
+    else:
+        previous_history = [
+            record
+            for record in load_existing_earnings(DATA_FILE)
+            if record.get("symbol") in target_symbols
+        ]
+    history = merge_earnings_history(
+        previous_history,
+        target_snapshot,
+        window_start=period_start,
+        window_end=period_end,
+        preserve_through=today.date(),
+    )
+    write_earnings_atomically(DATA_FILE, unique)
+    write_earnings_atomically(HISTORY_FILE, history)
+    print(f"\n✅ 全銘柄データ保存完了: {len(unique)} 件")
+    print(f"✅ 表示用履歴保存完了: {len(history)} 件")
+
 
 # =====================
 # HTML 生成
@@ -417,7 +421,7 @@ calendar_seed_months_json = json.dumps([
 ])
 history_start_month_json = json.dumps(HISTORY_START_MONTH)
 date_str     = today.strftime('%B %d, %Y')
-updated_str  = today.strftime('%Y-%m-%d %H:%M')
+updated_str  = (datetime.fromtimestamp(os.path.getmtime(DATA_FILE)) if HTML_ONLY else today).strftime('%Y-%m-%d %H:%M')
 
 html = build_html_head("Japan Earnings Calendar", lang="ja")
 html += "<body>\n"
@@ -443,6 +447,7 @@ fetch('earnings_history_jp.json')
   .then(res => res.json())
   .then(data => {{
     earningsData = data;
+    initializeSymbolSearch();
     initializeCalendarNavigation();
     renderCalendar();
     scrollToCurrentWeek();
@@ -556,7 +561,7 @@ function renderDay(dateStr) {{
       card.dataset.nameEn  = e.name_en || '';
       card.addEventListener('click', ev => {{
         ev.stopPropagation();
-        window.webkit.messageHandlers.favoriteHandler.postMessage({{ symbol: e.symbol }});
+        notifyFavorite(e.symbol);
       }});
       const img = document.createElement('img');
       img.src = '{ASSETS_DIR}/' + e.symbol + '.png';

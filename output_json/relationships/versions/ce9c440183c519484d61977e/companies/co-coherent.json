@@ -1,0 +1,106 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coherent",
+      "country": null,
+      "display_name": "Coherent",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-coherent",
+    "country": null,
+    "display_name": "Coherent",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-da9a6c5b30924d0e2e27b01b"
+        ],
+        "geography": "米国・Texas",
+        "headline": "Face ID向けVCSELレーザーの複数年契約",
+        "products": [
+          "VCSELレーザー",
+          "Face ID"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "Coherentと複数年契約を締結。Texasの工場で、iPhone・iPadのFace IDなどに使うVCSELレーザーを製造。個社の契約額や正確な満了日は非掲載。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-56154fbd6458d555ea4e1269",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-coherent",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-08-06"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

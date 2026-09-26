@@ -63,6 +63,10 @@ header {
     display: none;
   }
 }
+.mtz-feature-nav { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+.mtz-feature-link { min-height: 44px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; color: #31343C; text-decoration: none; font-size: 14px; }
+.mtz-feature-link[aria-current] { background: #31343C; color: white; }
+.mtz-view-connections { min-height: 44px; margin-top: 8px; padding: 10px 14px; border: 1px solid #58799d; border-radius: 8px; color: #385a7c; background: white; cursor: pointer; }
 .controls {
   background-color: white;
   padding: 16px;
@@ -456,7 +460,11 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
     ny_active  = 'active' if active_market == 'us' else ''
     jp_active  = 'active' if active_market == 'jp' else ''
 
-    return f"""<div class="controls">
+    return f"""<div class="controls" data-market="{active_market}">
+  <nav class="mtz-feature-nav" aria-label="Features">
+    <a class="mtz-feature-link" aria-current="page" href="{'index.html' if active_market == 'us' else 'japan.html'}">Earnings calendar</a>
+    <a class="mtz-feature-link" href="map.html" onclick="event.preventDefault(); goToConnections();">Company connections · US companies</a>
+  </nav>
   <div class="top-controls-row">
     <div class="mode-toggle">
       <button class="mode-btn active" onclick="switchMode('monthly')">Monthly</button>
@@ -483,6 +491,7 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
   </div>
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="{search_placeholder}" oninput="searchSymbols()">
+    <button class="mtz-view-connections" type="button" onclick="goToConnections(true)">View connections · US</button>
   </div>
 </div>
 """
@@ -491,6 +500,30 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
 def build_common_js() -> str:
     """両ページ共通の JavaScript を返す（favorites取得・ページ遷移・週操作など）"""
     return r"""
+function notifyFavorite(symbol) {
+  const handler = window.webkit?.messageHandlers?.favoriteHandler;
+  if (handler && typeof handler.postMessage === 'function') handler.postMessage({ symbol });
+}
+function goToConnections(useSearch = false) {
+  const url = new URL('map.html', window.location.href);
+  const params = new URLSearchParams(window.location.search);
+  for (const key of ['favorites', 'lang', 'tz']) {
+    const value = params.get(key);
+    if (value) url.searchParams.set(key, value.slice(0, 5000));
+  }
+  if (selectedMonth) url.searchParams.set('month', selectedMonth);
+  url.searchParams.set('return_market', document.querySelector('.controls').dataset.market);
+  const query = useSearch ? document.getElementById('searchInput').value.trim().slice(0, 120) : '';
+  if (query) {
+    const exact = [...new Set(targetSymbols.filter(s => s.toUpperCase() === query.toUpperCase()))];
+    url.searchParams.set(exact.length === 1 ? 'symbol' : 'q', exact.length === 1 ? exact[0] : query);
+  }
+  window.location.href = url.href;
+}
+function initializeSymbolSearch() {
+  const query = new URLSearchParams(window.location.search).get('symbol');
+  if (query && /^[A-Za-z0-9.^/-]{1,20}$/.test(query)) document.getElementById('searchInput').value = query;
+}
 function getFavorites() {
   const params = new URLSearchParams(window.location.search);
   const fav = params.get('favorites');

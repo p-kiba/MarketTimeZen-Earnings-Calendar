@@ -1,0 +1,107 @@
+{
+  "build_id": "20ee6c51c4fab97bbae831fa",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://investor.apple.com/faq/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.apple.com/faq/",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bosch",
+      "country": null,
+      "display_name": "Bosch",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tsmc",
+      "country": null,
+      "display_name": "TSMC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-bosch",
+    "country": null,
+    "display_name": "Bosch",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:10:28+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-52db33727c36dae4a1c9db96",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:10:28+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-33284e76c221eecfec8e07a0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 2
+}

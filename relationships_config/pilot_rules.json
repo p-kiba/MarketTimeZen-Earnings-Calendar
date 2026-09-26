@@ -1,0 +1,175 @@
+[
+  {
+    "claims": [
+      {
+        "amount": {
+          "amount_kind": "purchase_price",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "USD explicitly stated in the acquisition paragraph",
+          "locator": "p:9",
+          "qualifier": "approximately",
+          "scope": "Total equity value of all Red Hat common shares in this acquisition",
+          "value": "34000000000",
+          "value_semantics": "original_total"
+        },
+        "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+        "lifecycle_status": "completed",
+        "locator": "p:1",
+        "relationship_type": "acquisition",
+        "source_company_id": "co-ibm",
+        "target_company_id": "co-redhat"
+      }
+    ],
+    "claims_hash": "379c0d7c015c1dc9cabc217b205ca339f6953bfa228b7dfc7b39136a99f169ef",
+    "content_hash": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066",
+    "evaluation_note": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+    "evidence": [
+      {
+        "excerpt": "On July 9, 2019, IBM announced the completion of its acquisition of Red Hat",
+        "locator": "p:1",
+        "paragraph_hash": "c1a6593044d82d591cb4f9311a948c65d19f0fcadaae0c40fd7ba3e7f9992e05",
+        "supports_fields": [
+          "parties",
+          "relationship",
+          "status"
+        ]
+      },
+      {
+        "excerpt": "total equity value of approximately USD 34 billion",
+        "locator": "p:9",
+        "paragraph_hash": "929c2abb18bce0dd0904cb7ef472c98f1d5a69334fdf852c5f7eec9bd367f578",
+        "supports_fields": [
+          "amounts"
+        ]
+      }
+    ],
+    "publication_date": "2019-07-09",
+    "rule_id": "pilot-source-e9aab3329fcbb0da69522f12",
+    "source_id": "source-e9aab3329fcbb0da69522f12",
+    "source_url": "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat",
+    "version": "1",
+    "visible_date": "July 9, 2019"
+  },
+  {
+    "claims": [
+      {
+        "amount": null,
+        "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+        "lifecycle_status": "announced",
+        "locator": "p:5",
+        "relationship_type": "partnership",
+        "source_company_id": "co-nvda",
+        "target_company_id": "co-anthropic"
+      },
+      {
+        "amount": null,
+        "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+        "lifecycle_status": "announced",
+        "locator": "p:6",
+        "relationship_type": "partnership",
+        "source_company_id": "co-msft",
+        "target_company_id": "co-anthropic"
+      },
+      {
+        "amount": null,
+        "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+        "lifecycle_status": "announced",
+        "locator": "p:8",
+        "relationship_type": "investment",
+        "source_company_id": "co-nvda",
+        "target_company_id": "co-anthropic"
+      },
+      {
+        "amount": null,
+        "description": "Microsoft announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+        "lifecycle_status": "announced",
+        "locator": "p:8",
+        "relationship_type": "investment",
+        "source_company_id": "co-msft",
+        "target_company_id": "co-anthropic"
+      }
+    ],
+    "claims_hash": "5696eec7027010b3b0dd95dffd5cbfb9d79fdaf9af9a74d8eb456a942ffea5b8",
+    "content_hash": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
+    "evaluation_note": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+    "evidence": [
+      {
+        "excerpt": "NVIDIA and Anthropic are establishing a deep technology partnership",
+        "locator": "p:5",
+        "paragraph_hash": "fdafd95ad7a07559aa9bccee11dea273d9c5e1f1af00439ffc990e4a3bdc48f8",
+        "supports_fields": [
+          "relationship",
+          "parties"
+        ]
+      },
+      {
+        "excerpt": "Microsoft and Anthropic are also expanding their existing partnership",
+        "locator": "p:6",
+        "paragraph_hash": "2ae1b802fdcf66f7b5283da419996e4cb12f017eba8f04679e88131cb81e4fb8",
+        "supports_fields": [
+          "relationship",
+          "parties"
+        ]
+      },
+      {
+        "excerpt": "committing to invest",
+        "locator": "p:8",
+        "paragraph_hash": "0318fae5f10be4b73916dd9ecad98248d1e2ca6326a750b8bbbf7673ad4de650",
+        "supports_fields": [
+          "relationship",
+          "status"
+        ]
+      }
+    ],
+    "publication_date": "2025-11-18",
+    "rule_id": "pilot-source-05412751bb0b3f7d68937500",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "source_url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "version": "1",
+    "visible_date": "Nov 18, 2025"
+  },
+  {
+    "claims": [
+      {
+        "amount": null,
+        "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+        "lifecycle_status": "announced",
+        "locator": "p:1",
+        "relationship_type": "investment",
+        "source_company_id": "co-amzn",
+        "target_company_id": "co-anthropic"
+      }
+    ],
+    "claims_hash": "4f92f97cb9baffbe823512cd25b184ce2cbe34b716663689d846908ea3e109fc",
+    "content_hash": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4",
+    "evaluation_note": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+    "evidence": [
+      {
+        "excerpt": "a new $4 billion investment from Amazon",
+        "locator": "p:1",
+        "paragraph_hash": "6e1705175548f8a44338b7e81f11df88f11d73cbabd230fbbeefa2aadac769d1",
+        "supports_fields": [
+          "relationship",
+          "parties"
+        ]
+      },
+      {
+        "excerpt": "Amazon's total investment in Anthropic to $8 billion",
+        "locator": "p:1",
+        "paragraph_hash": "6e1705175548f8a44338b7e81f11df88f11d73cbabd230fbbeefa2aadac769d1",
+        "supports_fields": [
+          "relationship",
+          "parties",
+          "status"
+        ]
+      }
+    ],
+    "publication_date": "2024-11-22",
+    "rule_id": "pilot-source-2110b6ef2c6af1e086212428",
+    "source_id": "source-2110b6ef2c6af1e086212428",
+    "source_url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+    "version": "1",
+    "visible_date": "Nov 22, 2024"
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-03-26",
+      "conditions": "",
+      "deal_id": "deal-d533bc2fcf46b553077806d2",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-d533bc2fcf46b553077806d2",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-d533bc2fcf46b553077806d2"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d533bc2fcf46b553077806d2"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-05c6587da4c523af5144b983"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-390fbac73b8351518df960c3": "956ad2cadbd306ca3c7baa94e52bdaa0f60fe861f7f3f2fdbe2a3993d1cf5937"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-390fbac73b8351518df960c3",
+        "rule_version": "7df037a7fc61a8f2e66c5ad798af7b8b41f3713b1920ab48e51d2a0d5c29f023",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d533bc2fcf46b553077806d2",
+      "excerpt": "Apple is working with",
+      "locator": "p:7",
+      "normalized_text_hash": "f5ebe33985d5606c6242478f909e3b3909bfd1a6389b10d5172a7db76536ad79",
+      "section": "Official deal announcement",
+      "source_id": "source-390fbac73b8351518df960c3",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-d533bc2fcf46b553077806d2"
+    ],
+    "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-d533bc2fcf46b553077806d2"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-d533bc2fcf46b553077806d2"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-05c6587da4c523af5144b983",
+    "relationship_type": "partnership",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2026-03-26",
+    "target_company_id": "co-qnity",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-390fbac73b8351518df960c3": "956ad2cadbd306ca3c7baa94e52bdaa0f60fe861f7f3f2fdbe2a3993d1cf5937"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-390fbac73b8351518df960c3",
+      "rule_version": "7df037a7fc61a8f2e66c5ad798af7b8b41f3713b1920ab48e51d2a0d5c29f023",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2026/03/apple-adds-new-partners-to-its-american-manufacturing-program/",
+      "content_hash": "956ad2cadbd306ca3c7baa94e52bdaa0f60fe861f7f3f2fdbe2a3993d1cf5937",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-03-26",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:48+00:00",
+      "source_id": "source-390fbac73b8351518df960c3",
+      "source_type": "official_newsroom",
+      "title": "Apple adds new partners to its American Manufacturing Program - Apple"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+    "direction": "undirected",
+    "event_date": "2026-03-26",
+    "has_amount": false,
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-05c6587da4c523af5144b983",
+    "relationship_type": "partnership",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2026-03-26",
+    "target_company_id": "co-qnity",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

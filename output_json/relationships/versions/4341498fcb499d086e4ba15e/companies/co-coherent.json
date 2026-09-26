@@ -1,0 +1,77 @@
+{
+  "build_id": "4341498fcb499d086e4ba15e",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://investor.apple.com/faq/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.apple.com/faq/",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coherent",
+      "country": null,
+      "display_name": "Coherent",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-coherent",
+    "country": null,
+    "display_name": "Coherent",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:10:28+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-56154fbd6458d555ea4e1269",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-coherent",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 1
+}

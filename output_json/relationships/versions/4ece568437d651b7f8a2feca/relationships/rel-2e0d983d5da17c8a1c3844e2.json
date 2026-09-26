@@ -1,0 +1,200 @@
+{
+  "build_id": "4ece568437d651b7f8a2feca",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-31",
+      "conditions": "",
+      "deal_id": "deal-c33e3357d134b9d4b72fec26",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-c33e3357d134b9d4b72fec26",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c33e3357d134b9d4b72fec26"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c33e3357d134b9d4b72fec26"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-2e0d983d5da17c8a1c3844e2"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e7bbf5503fd4764b8e8f9f96": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e7bbf5503fd4764b8e8f9f96",
+        "rule_version": "5142f83dbf0f5ebc34e6bbf35b974b62774b980d15075ae088408f840ea59f00",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-c33e3357d134b9d4b72fec26",
+      "excerpt": "acquisition of ZT Systems",
+      "locator": "p:10",
+      "normalized_text_hash": "e00eb0960962ca8ad94af7452443fe90b8039345424c7443f99d0acb277c7874",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e7bbf5503fd4764b8e8f9f96",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-c33e3357d134b9d4b72fec26"
+      ],
+      "geography": "",
+      "headline": "ZT Systems買収・ラック規模AI基盤",
+      "products": [
+        "AMD ROCm",
+        "ラック規模AIシステム"
+      ],
+      "scale": "",
+      "source_role": "半導体・ソフトウェア基盤と買収主体",
+      "target_role": "サーバー・ラック設計技術"
+    },
+    "deal_ids": [
+      "deal-c33e3357d134b9d4b72fec26"
+    ],
+    "description": "AMDがZT Systemsの買収完了を公表。CPU・GPU・ネットワーク、ROCmとラック規模のシステム設計技術を組み合わせ、AI基盤の設計・導入を強化する。完了発表のこの記載に買収額はない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-c33e3357d134b9d4b72fec26"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "latest_event_ids": [
+      "event-c33e3357d134b9d4b72fec26"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2e0d983d5da17c8a1c3844e2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-03-31",
+    "target_company_id": "co-zt-systems",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e7bbf5503fd4764b8e8f9f96": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e7bbf5503fd4764b8e8f9f96",
+      "rule_version": "5142f83dbf0f5ebc34e6bbf35b974b62774b980d15075ae088408f840ea59f00",
+      "verified_at": "2026-09-26T04:47:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.amd.com/news/amd-completes-acquisition-of-zt-systems/",
+      "content_hash": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-31",
+      "publisher": "co-amd",
+      "retrieved_at": "2026-09-26T04:45:30+00:00",
+      "source_id": "source-e7bbf5503fd4764b8e8f9f96",
+      "source_type": "official_newsroom",
+      "title": "AMD Completes Acquisition of ZT Systems - AMD Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-c33e3357d134b9d4b72fec26"
+      ],
+      "geography": "",
+      "headline": "ZT Systems買収・ラック規模AI基盤",
+      "products": [
+        "AMD ROCm",
+        "ラック規模AIシステム"
+      ],
+      "scale": "",
+      "source_role": "半導体・ソフトウェア基盤と買収主体",
+      "target_role": "サーバー・ラック設計技術"
+    },
+    "description": "AMDがZT Systemsの買収完了を公表。CPU・GPU・ネットワーク、ROCmとラック規模のシステム設計技術を組み合わせ、AI基盤の設計・導入を強化する。完了発表のこの記載に買収額はない。",
+    "direction": "directed",
+    "event_date": "2025-03-31",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2e0d983d5da17c8a1c3844e2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-03-31",
+    "target_company_id": "co-zt-systems",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

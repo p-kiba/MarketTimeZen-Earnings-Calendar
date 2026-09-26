@@ -1,0 +1,38 @@
+name: Release Reviewed Company Relationships
+on:
+  workflow_dispatch:
+    inputs:
+      review_id:
+        description: 'Content-addressed review ID created after source review'
+        type: string
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: earnings-calendar-update
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          cache: pip
+      - run: pip install -r requirements-lock.txt
+      - name: Release exactly the reviewed records
+        env:
+          REVIEW_ID: ${{ inputs.review_id }}
+        run: python -m relationships_py release-reviewed --review-id "$REVIEW_ID"
+      - name: Persist the validated map data
+        run: bash scripts/commit-generated.sh output_json/relationships relationships_data/state/last_reviewed_release.json
+      - name: Save release manifest for operators
+        uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-map-release-${{ github.run_id }}
+          path: |
+            output_json/relationships/latest.json
+            relationships_data/state/last_reviewed_release.json
+          retention-days: 30

@@ -1,0 +1,87 @@
+{
+  "build_id": "897d2d3f50e869d1f1e3f3ba",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ibm",
+      "country": null,
+      "display_name": "IBM",
+      "entity_status": "resolved",
+      "legal_name": "International Business Machines Corporation",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://www.ibm.com/investor/help/general-faqs",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.ibm.com/investor/help/general-faqs",
+          "symbol": "IBM",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-redhat",
+      "country": null,
+      "display_name": "Red Hat",
+      "entity_status": "resolved",
+      "legal_name": "Red Hat",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-redhat",
+    "country": null,
+    "display_name": "Red Hat",
+    "entity_status": "resolved",
+    "legal_name": "Red Hat",
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+      "direction": "directed",
+      "event_date": "2019-07-09",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-0861e56024d9a66f3441f259",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-ibm",
+      "status_as_of": "2019-07-09",
+      "target_company_id": "co-redhat",
+      "tier": {
+        "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+        "color": "#c49a24",
+        "currency": "USD",
+        "level": 4
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "total_relationships": 1
+}

@@ -1,0 +1,70 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000909832",
+    "company_id": "co-cost",
+    "country": null,
+    "display_name": "COSTCO WHOLESALE CORP /NEW",
+    "entity_status": "resolved",
+    "legal_name": "COSTCO WHOLESALE CORP /NEW",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+        "symbol": "COST",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [],
+  "schema_version": "1.0",
+  "source_dates": [],
+  "total_counterparties": 0,
+  "total_peer_relationships": 0,
+  "total_relationships": 0
+}

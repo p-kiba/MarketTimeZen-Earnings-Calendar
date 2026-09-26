@@ -1,0 +1,15 @@
+{
+  "approved_data_hash": "02e8baa887a3a7d3494d6e4360652713a84de05e50b0d53307da4ff7643b2a7a",
+  "counts": {
+    "companies": 84,
+    "events": 120,
+    "evidence": 191,
+    "relationships": 112,
+    "sources": 61
+  },
+  "deployment_authorized": false,
+  "reason": "Reviewed remaining32 candidates:18duplicates13excluded1held. Added28 verified relationships and revised2 existing records, with primary-source hashes and SEC amount/unit checks; see docs/relationships-expansion-2026-09-26.md. Tests paused; local staging only; no deployment.",
+  "review_id": "release-02e8baa887a3a7d3494d6e43",
+  "reviewed_at": "2026-09-26T06:27:32+00:00",
+  "reviewer": "Codex root integration after Sol discovery and Astra source review; not human approval"
+}

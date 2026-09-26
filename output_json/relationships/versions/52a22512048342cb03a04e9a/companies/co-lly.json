@@ -1,0 +1,70 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000059478",
+    "company_id": "co-lly",
+    "country": null,
+    "display_name": "ELI LILLY & Co",
+    "entity_status": "resolved",
+    "legal_name": "ELI LILLY & Co",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+        "symbol": "LLY",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [],
+  "schema_version": "1.0",
+  "source_dates": [],
+  "total_counterparties": 0,
+  "total_peer_relationships": 0,
+  "total_relationships": 0
+}

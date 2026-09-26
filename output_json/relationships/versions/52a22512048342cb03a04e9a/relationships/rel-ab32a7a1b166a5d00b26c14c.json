@@ -1,0 +1,228 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+          "amount_kind": "committed_total",
+          "conditions": "原文の$について通貨の種類は未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-04-20",
+      "conditions": "",
+      "deal_id": "deal-4a71d6c1a98ec10f5b5d90ca",
+      "detected_at": "2026-09-26T04:47:23+00:00",
+      "effective_date": null,
+      "event_id": "event-4a71d6c1a98ec10f5b5d90ca",
+      "event_type": "expansion",
+      "evidence_ids": [
+        "evidence-4a71d6c1a98ec10f5b5d90ca"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-4a71d6c1a98ec10f5b5d90ca"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+        },
+        "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-source-30402cd228887d44f9063873",
+        "rule_version": "fd234ab46b5d6dfbc743defbb6233fd85b7a09ee3ec0f1fc551c88a04536ca20",
+        "verified_at": "2026-09-26T04:47:23+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4a71d6c1a98ec10f5b5d90ca",
+      "excerpt": "commitment from Anthropic to spend more than $100 billion",
+      "locator": "p:1",
+      "normalized_text_hash": "fafec0d02ade34b9c6c5f15a684c5140a828781575dd92497edbd234d3428040",
+      "section": "Official primary disclosure",
+      "source_id": "source-30402cd228887d44f9063873",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-4a71d6c1a98ec10f5b5d90ca"
+    ],
+    "description": "Anthropicは今後10年間にAWS技術へ$1,000億超を支出するコミットメントを発表。金額はAWS利用の支出であり、AmazonからAnthropicへの出資とは別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4a71d6c1a98ec10f5b5d90ca"
+    ],
+    "first_observed_at": "2026-09-25T18:57:25+00:00",
+    "last_observed_at": "2026-09-26T04:47:23+00:00",
+    "latest_event_ids": [
+      "event-4a71d6c1a98ec10f5b5d90ca"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-04-20",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+      },
+      "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-source-30402cd228887d44f9063873",
+      "rule_version": "fd234ab46b5d6dfbc743defbb6233fd85b7a09ee3ec0f1fc551c88a04536ca20",
+      "verified_at": "2026-09-26T04:47:23+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-20",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:51:31+00:00",
+      "source_id": "source-30402cd228887d44f9063873",
+      "source_type": "official_newsroom",
+      "title": "Amazon announces $5B Anthropic investment, up to $20B more"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+        "amount_kind": "committed_total",
+        "conditions": "原文の$について通貨の種類は未確認。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-4a71d6c1a98ec10f5b5d90ca"
+        ],
+        "max_value": null,
+        "min_value": "100000000000",
+        "original_text": "$100 billion",
+        "payee_company_ids": [
+          "co-aws"
+        ],
+        "payer_company_ids": [
+          "co-anthropic"
+        ],
+        "qualifier": "more_than",
+        "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+        "value": null,
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Anthropicは今後10年間にAWS技術へ$1,000億超を支出するコミットメントを発表。金額はAWS利用の支出であり、AmazonからAnthropicへの出資とは別。",
+    "direction": "directed",
+    "event_date": "2026-04-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T04:47:23+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-ab32a7a1b166a5d00b26c14c",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-04-20",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "bounded_or_unspecified"
+    ]
+  }
+}

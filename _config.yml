@@ -1,0 +1,12 @@
+# Defense in depth for a legacy Jekyll branch build. Prefer the allowlisted Pages artifact.
+exclude:
+  - relationships_data
+  - relationships_config
+  - relationships_py
+  - schemas
+  - tests
+  - docs
+  - scripts
+  - requirements-lock.txt
+  - requirements-relationships.txt
+  - design-qa.md

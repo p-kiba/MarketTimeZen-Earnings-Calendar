@@ -1,0 +1,513 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coreweave",
+      "country": null,
+      "display_name": "CoreWeave",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-25",
+      "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "symbol": "CRWV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-softbank-group",
+      "country": null,
+      "display_name": "SoftBank Group Corp.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-openai",
+    "country": null,
+    "display_name": "OpenAI",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-4fb18049fa4a8dd53a0f611c"
+        ],
+        "geography": "",
+        "headline": "Project Ceibaの共同開発",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-893537b62c6fcbb12218e592",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-27cf0f6b32d0dd5a1ce3d970"
+        ],
+        "geography": "",
+        "headline": "Blackwellクラウドの提供計画",
+        "products": [
+          "Blackwellクラウド"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "クラウドサービスの提供予定"
+      },
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-cf4bf93cd68aa208cc0b177d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-coreweave",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AmazonはOpenAIへの$500億の出資を発表。初回$150億と、条件充足後の$350億を含む。全額払込済みという意味ではない。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-57699a141d5ba23298393759",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-20d426fdc941021d2f69db80",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-1affc87672744f6113131144",
+          "amount_kind": "investment_amount",
+          "conditions": "通常のクロージング条件の充足が必要。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD 30.0 billion",
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "USD 30.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-softbank-group"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-74cf17dc8e20aa93c0b1891d",
+      "relationship_type": "investment",
+      "source_company_id": "co-softbank-group",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-3e417e65fd7adc77af71cf96",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "direction": "directed",
+      "event_date": "2025-09-25",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-coreweave",
+      "status_as_of": "2025-09-25",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-09-25",
+    "2025-10-13",
+    "2026-02-27"
+  ],
+  "total_counterparties": 6,
+  "total_peer_relationships": 2,
+  "total_relationships": 6
+}

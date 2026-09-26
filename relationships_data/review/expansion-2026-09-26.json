@@ -1,0 +1,484 @@
+{
+  "amount_relationships": 21,
+  "as_of": "2026-09-26T06:25:28+00:00",
+  "browser_qa_run": false,
+  "counts": {
+    "companies": 84,
+    "events": 120,
+    "evidence": 191,
+    "relationships": 112,
+    "sources": 61
+  },
+  "coverage": [
+    {
+      "after": {
+        "counterparties": 27,
+        "relationships": 29
+      },
+      "before": {
+        "counterparties": 24,
+        "relationships": 25
+      },
+      "company_id": "co-nvda",
+      "symbol": "NVDA"
+    },
+    {
+      "after": {
+        "counterparties": 17,
+        "relationships": 18
+      },
+      "before": {
+        "counterparties": 15,
+        "relationships": 16
+      },
+      "company_id": "co-aapl",
+      "symbol": "AAPL"
+    },
+    {
+      "after": {
+        "counterparties": 1,
+        "relationships": 1
+      },
+      "before": {
+        "counterparties": 1,
+        "relationships": 1
+      },
+      "company_id": "co-googl",
+      "symbol": "GOOGL"
+    },
+    {
+      "after": {
+        "counterparties": 6,
+        "relationships": 9
+      },
+      "before": {
+        "counterparties": 5,
+        "relationships": 8
+      },
+      "company_id": "co-msft",
+      "symbol": "MSFT"
+    },
+    {
+      "after": {
+        "counterparties": 5,
+        "relationships": 6
+      },
+      "before": {
+        "counterparties": 3,
+        "relationships": 4
+      },
+      "company_id": "co-amzn",
+      "symbol": "AMZN"
+    },
+    {
+      "after": {
+        "counterparties": 8,
+        "relationships": 9
+      },
+      "before": {
+        "counterparties": 7,
+        "relationships": 7
+      },
+      "company_id": "co-meta",
+      "symbol": "META"
+    },
+    {
+      "after": {
+        "counterparties": 4,
+        "relationships": 5
+      },
+      "before": {
+        "counterparties": 3,
+        "relationships": 4
+      },
+      "company_id": "co-avgo",
+      "symbol": "AVGO"
+    },
+    {
+      "after": {
+        "counterparties": 4,
+        "relationships": 4
+      },
+      "before": {
+        "counterparties": 1,
+        "relationships": 1
+      },
+      "company_id": "co-tsla",
+      "symbol": "TSLA"
+    },
+    {
+      "after": {
+        "counterparties": 4,
+        "relationships": 6
+      },
+      "before": {
+        "counterparties": 2,
+        "relationships": 4
+      },
+      "company_id": "co-mu",
+      "symbol": "MU"
+    },
+    {
+      "after": {
+        "counterparties": 2,
+        "relationships": 2
+      },
+      "before": {
+        "counterparties": 0,
+        "relationships": 0
+      },
+      "company_id": "co-brk-b",
+      "symbol": "BRK-B"
+    },
+    {
+      "after": {
+        "counterparties": 2,
+        "relationships": 2
+      },
+      "before": {
+        "counterparties": 0,
+        "relationships": 0
+      },
+      "company_id": "co-lly",
+      "symbol": "LLY"
+    },
+    {
+      "after": {
+        "counterparties": 6,
+        "relationships": 7
+      },
+      "before": {
+        "counterparties": 3,
+        "relationships": 3
+      },
+      "company_id": "co-amd",
+      "symbol": "AMD"
+    },
+    {
+      "after": {
+        "counterparties": 2,
+        "relationships": 2
+      },
+      "before": {
+        "counterparties": 0,
+        "relationships": 0
+      },
+      "company_id": "co-jpm",
+      "symbol": "JPM"
+    },
+    {
+      "after": {
+        "counterparties": 2,
+        "relationships": 2
+      },
+      "before": {
+        "counterparties": 0,
+        "relationships": 0
+      },
+      "company_id": "co-wmt",
+      "symbol": "WMT"
+    },
+    {
+      "after": {
+        "counterparties": 2,
+        "relationships": 2
+      },
+      "before": {
+        "counterparties": 0,
+        "relationships": 0
+      },
+      "company_id": "co-cost",
+      "symbol": "COST"
+    }
+  ],
+  "deployed": false,
+  "display_counts": {
+    "companies": 82,
+    "relationships": 110
+  },
+  "display_groups": [
+    {
+      "company_id": "co-googl",
+      "members": [
+        "co-googl",
+        "co-google"
+      ]
+    },
+    {
+      "company_id": "co-amzn",
+      "members": [
+        "co-amzn",
+        "co-aws"
+      ]
+    }
+  ],
+  "human_reviewed": false,
+  "local_build_id": "ff24fd3d1ac75bbfc0582200",
+  "method": "Sol primary-source discovery, Astra independent review, Codex root integration. Source-bound rule verification; no tests or deployment.",
+  "new_relationships": [
+    {
+      "headline": "Gemini・Agentforceとクラウド基盤の連携",
+      "parties": [
+        "co-google",
+        "co-crm"
+      ],
+      "relationship_id": "rel-f1bdec1292b3ac4904bc9e90",
+      "type": "partnership"
+    },
+    {
+      "headline": "Siri・Writing ToolsへのChatGPT統合",
+      "parties": [
+        "co-aapl",
+        "co-openai"
+      ],
+      "relationship_id": "rel-f348beaac7b09852594df48b",
+      "type": "partnership"
+    },
+    {
+      "headline": "ラストマイル配送用EVの共同開発",
+      "parties": [
+        "co-amzn",
+        "co-rivian"
+      ],
+      "relationship_id": "rel-e6632315ef3dbe91b18569ac",
+      "type": "partnership"
+    },
+    {
+      "headline": "OpenAI向けInstinct GPUの6GW導入契約",
+      "parties": [
+        "co-amd",
+        "co-openai"
+      ],
+      "relationship_id": "rel-77c8b0b821bdc0dd7d9c057d",
+      "type": "supplier"
+    },
+    {
+      "headline": "AIスマートグラスの共同展開",
+      "parties": [
+        "co-meta",
+        "co-essilorluxottica"
+      ],
+      "relationship_id": "rel-9f3036af0186bf949a3d348a",
+      "type": "partnership"
+    },
+    {
+      "headline": "VMware買収の完了",
+      "parties": [
+        "co-avgo",
+        "co-vmware"
+      ],
+      "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+      "type": "acquisition"
+    },
+    {
+      "headline": "企業向けAI導入支援の協業拡張",
+      "parties": [
+        "co-nvda",
+        "co-acn"
+      ],
+      "relationship_id": "rel-48f52fdef6b07ac816a6bb49",
+      "type": "partnership"
+    },
+    {
+      "headline": "口座・ポイント・カードの暗号資産サービス連携",
+      "parties": [
+        "co-jpm",
+        "co-coinbase"
+      ],
+      "relationship_id": "rel-27a5c829c2e1d629226b2991",
+      "type": "partnership"
+    },
+    {
+      "headline": "Apple Cardの発行事業移行",
+      "parties": [
+        "co-jpm",
+        "co-aapl"
+      ],
+      "relationship_id": "rel-f1d9241d2753001d0046d304",
+      "type": "partnership"
+    },
+    {
+      "headline": "Dresden原発の長期電力購入契約",
+      "parties": [
+        "co-ceg",
+        "co-wmt"
+      ],
+      "relationship_id": "rel-156ce4bb86e7492c5d95a571",
+      "type": "supplier"
+    },
+    {
+      "headline": "従業員向けAI認定・研修プログラム",
+      "parties": [
+        "co-wmt",
+        "co-openai"
+      ],
+      "relationship_id": "rel-f0227fe08b108fbea5840b67",
+      "type": "partnership"
+    },
+    {
+      "headline": "当日配送とECサイト基盤の提供",
+      "parties": [
+        "co-instacart",
+        "co-cost"
+      ],
+      "relationship_id": "rel-2f45c4fa57583800e90111e8",
+      "type": "service_provider"
+    },
+    {
+      "headline": "Uber Eats配送を米国47州へ拡大",
+      "parties": [
+        "co-uber",
+        "co-cost"
+      ],
+      "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+      "type": "service_provider"
+    },
+    {
+      "headline": "GM製EVへのSupercharger利用開放",
+      "parties": [
+        "co-tsla",
+        "co-gm"
+      ],
+      "relationship_id": "rel-309097bdb57d9db40da6abee",
+      "type": "partnership"
+    },
+    {
+      "headline": "Instinct MI350向けHBM3Eの採用",
+      "parties": [
+        "co-mu",
+        "co-amd"
+      ],
+      "relationship_id": "rel-8b214788326480d747629f53",
+      "type": "supplier"
+    },
+    {
+      "headline": "CXLメモリー拡張モジュールの共同開発",
+      "parties": [
+        "co-mu",
+        "co-microchip"
+      ],
+      "relationship_id": "rel-eaa18edef9572085f2c69006",
+      "type": "partnership"
+    },
+    {
+      "headline": "AI創薬研究所の共同設立",
+      "parties": [
+        "co-nvda",
+        "co-lly"
+      ],
+      "relationship_id": "rel-1ce3b86d6e78f4e9d4f5cc31",
+      "type": "partnership"
+    },
+    {
+      "headline": "Panasonicによるリチウムイオン電池セル供給",
+      "parties": [
+        "co-panasonic",
+        "co-tsla"
+      ],
+      "relationship_id": "rel-f6b6987e9cdc0f35fabbd9ee",
+      "type": "supplier"
+    },
+    {
+      "headline": "CATLによるリチウムイオン電池セル供給",
+      "parties": [
+        "co-catl",
+        "co-tsla"
+      ],
+      "relationship_id": "rel-b14a64fdabf6b0b449b1b74f",
+      "type": "supplier"
+    },
+    {
+      "headline": "金融データ基盤の10年クラウド契約",
+      "parties": [
+        "co-msft",
+        "co-lseg"
+      ],
+      "relationship_id": "rel-001b2b64cdceb319303838a7",
+      "type": "service_provider"
+    },
+    {
+      "headline": "OxyChem化学品事業の取得完了",
+      "parties": [
+        "co-brk-b",
+        "co-oxychem"
+      ],
+      "relationship_id": "rel-904040c303f1daf93003c990",
+      "type": "acquisition"
+    },
+    {
+      "headline": "住宅建設会社Taylor Morrisonの買収完了",
+      "parties": [
+        "co-brk-b",
+        "co-taylor-morrison"
+      ],
+      "relationship_id": "rel-ddf8bf47de5ba37f9e7c0c8b",
+      "type": "acquisition"
+    },
+    {
+      "headline": "Verve買収の現金対価と条件付き追加対価",
+      "parties": [
+        "co-lly",
+        "co-verve"
+      ],
+      "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+      "type": "acquisition"
+    },
+    {
+      "headline": "PORTSのAIデータセンター開発提携",
+      "parties": [
+        "co-nvda",
+        "co-sb-energy"
+      ],
+      "relationship_id": "rel-2cd4a3dd0d81f31b595717c4",
+      "type": "partnership"
+    },
+    {
+      "headline": "SB Energyへの出資予定",
+      "parties": [
+        "co-nvda",
+        "co-sb-energy"
+      ],
+      "relationship_id": "rel-94dfb74b26088351048d83f6",
+      "type": "investment"
+    },
+    {
+      "headline": "GPU購入等に連動する条件付きワラント",
+      "parties": [
+        "co-amd",
+        "co-openai-opco"
+      ],
+      "relationship_id": "rel-9c76e24118116ba56eecb571",
+      "type": "equity_right"
+    },
+    {
+      "headline": "GPU購入等に連動する条件付きワラント",
+      "parties": [
+        "co-amd",
+        "co-meta"
+      ],
+      "relationship_id": "rel-d280a1e9a8109e320fa8c1ef",
+      "type": "equity_right"
+    },
+    {
+      "headline": "AmazonのAWS事業セグメント",
+      "parties": [
+        "co-aws",
+        "co-amzn"
+      ],
+      "relationship_id": "rel-378f42715112dd6fb7536cde",
+      "type": "group_member"
+    }
+  ],
+  "pending_candidates": 1,
+  "tests_run": false,
+  "tiered_relationships": 5,
+  "unpublished_followups": [
+    "Micron DRIVE AGX Orin product integration: exact independent scope pending",
+    "NVIDIA PORTS guarantee: anonymous affiliate counterparties; do not treat USD105bn cap as service/investment price",
+    "Berkshire Pilot ownership: optional discovery candidate not ingested in this batch"
+  ],
+  "updated_relationship_ids": [
+    "rel-91f0a3e2eaf94ec9c9d636b7",
+    "rel-6c91d437575935bb6dd80400"
+  ]
+}

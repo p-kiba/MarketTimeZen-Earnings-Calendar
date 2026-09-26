@@ -1,0 +1,173 @@
+{
+  "build_id": "ce9c440183c519484d61977e",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-08-06",
+      "conditions": "",
+      "deal_id": "deal-109811e9609f70780261bae2",
+      "detected_at": "2026-09-26T05:23:01+00:00",
+      "effective_date": null,
+      "event_id": "event-109811e9609f70780261bae2",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-109811e9609f70780261bae2"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-109811e9609f70780261bae2"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3184bf461ce38af0e098a4cb"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-573be38b22d361de3644ffb4",
+        "rule_version": "cc92c0d92f414fe3b3389596c243d781ed5bddfef59e0cbce1344e9ee70dfe75",
+        "verified_at": "2026-09-26T05:23:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-109811e9609f70780261bae2",
+      "excerpt": "chips for Apple",
+      "locator": "p:28",
+      "normalized_text_hash": "1117473a8396c8a009f8c4e4097315e481569e826f512776d8a1e0cfb4cf289d",
+      "section": "Official deal announcement",
+      "source_id": "source-573be38b22d361de3644ffb4",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-109811e9609f70780261bae2"
+    ],
+    "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-109811e9609f70780261bae2"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T05:23:01+00:00",
+    "latest_event_ids": [
+      "event-109811e9609f70780261bae2"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2025-08-06",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-573be38b22d361de3644ffb4": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-573be38b22d361de3644ffb4",
+      "rule_version": "cc92c0d92f414fe3b3389596c243d781ed5bddfef59e0cbce1344e9ee70dfe75",
+      "verified_at": "2026-09-26T05:23:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program/",
+      "content_hash": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-08-06",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:44+00:00",
+      "source_id": "source-573be38b22d361de3644ffb4",
+      "source_type": "official_newsroom",
+      "title": "Apple increases U.S. commitment to $600 billion, announces ambitious program - Apple"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+    "direction": "directed",
+    "event_date": "2025-08-06",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:01+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2025-08-06",
+    "target_company_id": "co-aapl",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

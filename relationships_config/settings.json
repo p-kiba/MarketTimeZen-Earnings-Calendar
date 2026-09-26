@@ -1,0 +1,36 @@
+{
+  "auto_publish_strict": false,
+  "backfill_months": 24,
+  "expanded_nodes": 150,
+  "initial_nodes": 30,
+  "ir_interval_seconds": 2,
+  "max_attachments": 15,
+  "max_candidates_per_run": 300,
+  "max_document_bytes": 10000000,
+  "max_documents_per_run": 40,
+  "max_removal_fraction": 0.5,
+  "overlap_days": 7,
+  "page_size": 30,
+  "retained_builds": 3,
+  "sec_requests_per_second": 2,
+  "tiers": {
+    "USD": {
+      "colors": [
+        "#8a919e",
+        "#38bdf8",
+        "#9b5de5",
+        "#c49a24",
+        "#e34b55"
+      ],
+      "minimums": [
+        "0",
+        "100000000",
+        "1000000000",
+        "10000000000",
+        "50000000000"
+      ]
+    }
+  },
+  "timeout_seconds": 30,
+  "universe": "large_cap_focus"
+}

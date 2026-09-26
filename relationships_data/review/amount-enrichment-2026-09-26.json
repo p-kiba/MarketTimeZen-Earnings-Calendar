@@ -1,0 +1,411 @@
+{
+  "after": {
+    "known_currency": 19,
+    "relations": 112,
+    "tiered": 6,
+    "unknown_currency": 5,
+    "with_amount": 24,
+    "without_amount": 88
+  },
+  "applied_revisions": [
+    {
+      "assertions_hash": "d9b9ad39cc219c491c5e38c8caa85c29c422092739e884d4e868a1f9354bedbb",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "rule_id": "amount-review-20260926-nvda-openai-currency"
+    },
+    {
+      "assertions_hash": "f0da2b98cead73a585276898fc018712028e0a931b1859c8e4f33b8d335043d8",
+      "relationship_id": "rel-001b2b64cdceb319303838a7",
+      "rule_id": "amount-review-20260926-lseg-currency"
+    },
+    {
+      "assertions_hash": "ff4a5931a82a6d4edf0896ae34950020c4b0f6bfaad615b5b7eae8b97e6d2fd4",
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "rule_id": "amount-review-20260926-pinterest-currency"
+    },
+    {
+      "assertions_hash": "d4924a43ad67a21c013001d318286995324bb5bfecf0159190b8a8b36e90df48",
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "rule_id": "amount-review-20260926-mp-apple-prepayment"
+    },
+    {
+      "assertions_hash": "c036f149d079028e97f8228e3a1ffc32ab8a241621cdc0596aa0e101ef837b23",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "rule_id": "amount-review-20260926-coreweave-openai-term"
+    },
+    {
+      "assertions_hash": "a1c3cfbf4677fe75171415fd72cf56814e47509391d4a86761e373c819bd2a8a",
+      "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+      "rule_id": "amount-review-20260926-vmware-total"
+    },
+    {
+      "assertions_hash": "fa1ac1de0902a571f575465c6ba17374255caf9b831c0e727f4cf9598bbb647f",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "rule_id": "amount-review-20260926-co-nvda-anthropic"
+    },
+    {
+      "assertions_hash": "c79b8d4700bd9507f2f0a74663c2f2ee8405840a49a44a5487979454eb26fcb0",
+      "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+      "rule_id": "amount-review-20260926-co-msft-anthropic"
+    }
+  ],
+  "before": {
+    "known_currency": 13,
+    "relations": 112,
+    "tiered": 5,
+    "unknown_currency": 8,
+    "with_amount": 21,
+    "without_amount": 91
+  },
+  "checks": "Source hashes, locators, short-excerpt policy, schemas and publication integrity checked by actual verification/release/staging operations. Tests and browser QA paused by user.",
+  "currency_audit": [
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://openai.com/index/scaling-ai-for-everyone/",
+          "content_hash": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041",
+          "filed_date": null,
+          "published_date": "2026-02-27",
+          "source_id": "source-a93ee3808fa50bc8a4944bef"
+        },
+        {
+          "canonical_url": "https://openai.com/pt-BR/index/scaling-ai-for-everyone/",
+          "content_hash": "d168974908c8816a6ebb04d050f4d176a170b2b3aed6ee328e8eff0e81f93e1c",
+          "filed_date": null,
+          "published_date": "2026-09-23",
+          "source_id": "source-3cfcb1f741a499306ab3804a"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+          "content_hash": "d1d5014810027ce07fdd0cf2bd6192af740db2768b19df312a891fde5e94d4fc",
+          "filed_date": "2026-05-20",
+          "published_date": null,
+          "source_id": "source-bf55ebb8498cbedcd4b83ac5"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+          "content_hash": "ae8a6f875ac4b86ba3ccfa5b73292cdd8c5e9a32dd99a7aa965a90974f67d959",
+          "filed_date": "2026-08-26",
+          "published_date": null,
+          "source_id": "source-98b725fc97c7b56cf1b968b5"
+        }
+      ],
+      "note": "US$明記を公式各言語版で照合。実行条件・払込完了は未確認。",
+      "parties": "NVIDIA / OpenAI",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "research_status": "resolved"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://www.lseg.com/en/media-centre/press-releases/2022/lseg-and-microsoft-launch-strategic-partnership",
+          "content_hash": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb",
+          "filed_date": null,
+          "published_date": "2022-12-12",
+          "source_id": "source-61c6b764e9c70965003c43ed"
+        },
+        {
+          "canonical_url": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-2mar2023.pdf",
+          "content_hash": "e3e717352ced8dd8f8bdb55444591fbb3b308ff160104b09fed70e9e4639b086",
+          "filed_date": null,
+          "published_date": "2023-03-02",
+          "source_id": "source-a546fd76d4326d41a8780b1c"
+        }
+      ],
+      "note": "PDF52ページ注記17の表を視認。最低28億USDであり最終総額ではない。",
+      "parties": "Microsoft / LSEG",
+      "relationship_id": "rel-001b2b64cdceb319303838a7",
+      "research_status": "resolved"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+          "content_hash": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
+          "filed_date": null,
+          "published_date": "2026-06-04",
+          "source_id": "source-08880256638be8c4001e0a07"
+        },
+        {
+          "canonical_url": "https://www.aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
+          "content_hash": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185",
+          "filed_date": null,
+          "published_date": "2026-06-04",
+          "source_id": "source-6a992de5997e797293db2fd3"
+        },
+        {
+          "canonical_url": "https://aws.amazon.com/ko/solutions/case-studies/",
+          "content_hash": "c30a737250a8df0f34bbb0cc6311ad5658ec68f25d8a587b1c9a423c204cdde2",
+          "filed_date": null,
+          "published_date": null,
+          "source_id": "source-fd7567215edc904218e14829"
+        }
+      ],
+      "note": "AWS公開顧客カードに40億USD・2031年。元の予定コミットメントを維持。",
+      "parties": "AWS / Pinterest",
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "research_status": "resolved"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+          "content_hash": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668",
+          "filed_date": null,
+          "published_date": "2025-07-15",
+          "source_id": "source-b5e25a8637f800532ae0d4ab"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+          "content_hash": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+          "filed_date": "2026-02-26",
+          "published_date": null,
+          "source_id": "source-587e14746647647685fb62e8"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1801368/000119312525160635/d923027d424b5.htm",
+          "content_hash": "d89492ba4505b4fe995e73febf16105b18482a4fa4a6357e2271b8f3e3c3cc50",
+          "filed_date": "2025-07-18",
+          "published_date": null,
+          "source_id": "source-6de0b20465f13b7f0fabccfb"
+        }
+      ],
+      "note": "財務注記の前払金はUSD。別発表の総額$5億の通貨へ転用しない。",
+      "parties": "MP Materials / Apple",
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "research_status": "currency_unresolved_terms_enriched"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "content_hash": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04",
+          "filed_date": null,
+          "published_date": "2025-09-25",
+          "source_id": "source-efc957b3506cdb3c32109b55"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "content_hash": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0",
+          "filed_date": "2026-03-02",
+          "published_date": null,
+          "source_id": "source-8a635398939d78d38bee180a"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274dex101.htm",
+          "content_hash": "3b144a97aecc5681158d0880b5fdc7d139bdd18afa46a082cf5f9c77622ace2f",
+          "filed_date": "2025-09-25",
+          "published_date": null,
+          "source_id": "source-338412fcbd2914ae458e7de3"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm",
+          "content_hash": "e79bff25e7a5dfbd9f67133ca51659515ca3f93bbae747a6d1b98e4507f35e39",
+          "filed_date": "2025-09-25",
+          "published_date": null,
+          "source_id": "source-33fde43ef418b98646d15bea"
+        }
+      ],
+      "note": "追加注文の期限・提供要件・解除条項を補完。契約相手はOpenAI OpCo, LLC。",
+      "parties": "CoreWeave / OpenAI",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "research_status": "currency_unresolved_terms_enriched"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+          "content_hash": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
+          "filed_date": null,
+          "published_date": "2026-07-08",
+          "source_id": "source-a081634e897c3a0bfbfbbd44"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+          "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
+          "filed_date": "2026-09-10",
+          "published_date": null,
+          "source_id": "source-cb648fc9cc715c1fec6a6e6f"
+        }
+      ],
+      "note": "発表の見込み額は契約最低額ではない。確認した最新10-Qに該当通貨の追加根拠なし。",
+      "parties": "Broadcom / Apple",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "research_status": "currency_unresolved"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://about.fb.com/news/2026/01/meta-6-billion-agreement-corning-support-us-manufacturing/",
+          "content_hash": "51032dc0d9cd64758b8362fb83bc24e6073f6d9ebf661f328fe8d94b5ee4e662",
+          "filed_date": null,
+          "published_date": "2026-01-27",
+          "source_id": "source-1d2da399ba6eaf8ade2a5618"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm",
+          "content_hash": "0cc8039805e9dcb1ea1459ac2f15b42edb79e0740f38f771b316d8ee6466530e",
+          "filed_date": "2026-02-12",
+          "published_date": null,
+          "source_id": "source-c498c3fcc5c4ccef32ec7c14"
+        }
+      ],
+      "note": "公式ドイツ語ページのUS-Dollar表記は見つかったが403で原文固定不可。公開データには未反映。",
+      "parties": "Corning / Meta",
+      "relationship_id": "rel-77e795db35c98a2e7dcc8958",
+      "research_status": "currency_evidence_fetch_blocked"
+    },
+    {
+      "checked_sources": [
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+          "content_hash": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972",
+          "filed_date": "2026-08-17",
+          "published_date": null,
+          "source_id": "source-dcb7b306dffaedb5223f8dc1"
+        },
+        {
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm",
+          "content_hash": "d4e304cdf15841e431e28f44ecce6e85e8015a5b8bbed76374de0feff0722354",
+          "filed_date": "2026-09-01",
+          "published_date": null,
+          "source_id": "source-c6a31cade1f4fdf38b853a41"
+        }
+      ],
+      "note": "S-1に前払契約と別のIPO同時私募を発見。Energy Global経由の資金移動・通貨・元取引の対応付けを追加精査。二つの15億を合算しない。",
+      "parties": "NVIDIA / SB Energy",
+      "relationship_id": "rel-94dfb74b26088351048d83f6",
+      "research_status": "currency_and_legal_parties_unresolved"
+    }
+  ],
+  "deployed": false,
+  "display_counts": {
+    "companies": 82,
+    "relationships": 110
+  },
+  "ir_fetch_results": [
+    {
+      "source_id": "source-a546fd76d4326d41a8780b1c",
+      "status": "downloaded",
+      "url": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-2mar2023.pdf"
+    },
+    {
+      "source_id": "source-3cfcb1f741a499306ab3804a",
+      "status": "downloaded",
+      "url": "https://openai.com/pt-BR/index/scaling-ai-for-everyone/"
+    },
+    {
+      "error": "HTTP 403; stopped without retry",
+      "status": "blocked",
+      "url": "https://www.corning.com/optical-communications/emea/de/home/neuigkeiten-events/presseportal/2026/01/corning-and-meta-collaborate.html"
+    },
+    {
+      "source_id": "source-fd7567215edc904218e14829",
+      "status": "downloaded",
+      "url": "https://aws.amazon.com/ko/solutions/case-studies/"
+    },
+    {
+      "source_id": "source-eef75e5bb0b9745e046106bf",
+      "status": "downloaded",
+      "url": "https://blogs.nvidia.com.tw/blog/microsoft-nvidia-anthropic-announce-partnership/"
+    },
+    {
+      "error": "404 Client Error: Not Found for url: https://www.apple.com/jp/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+      "status": "blocked",
+      "url": "https://www.apple.com/jp/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/"
+    }
+  ],
+  "release": {
+    "deployed": false,
+    "released_at": "2026-09-26T07:07:34+00:00",
+    "result": {
+      "build_id": "ce9c440183c519484d61977e",
+      "manifest": "versions/ce9c440183c519484d61977e/manifest.json",
+      "manifest_hash": "87261193c07283fe95b351c17877f5966519e906d68e7ac5901516c97dac219f",
+      "previous": {
+        "build_id": "ff24fd3d1ac75bbfc0582200",
+        "manifest": "versions/ff24fd3d1ac75bbfc0582200/manifest.json",
+        "manifest_hash": "452f09739553fb1367c5ffcb00024668b507c254bb69211538f820d717ce736c"
+      },
+      "schema_version": "1.0"
+    },
+    "review_id": "release-bac98a9277c7315bd261a3cf"
+  },
+  "remaining": [
+    "Five original currencies unresolved",
+    "Remaining 88 relations without amounts not exhaustively reinvestigated",
+    "Line emphasis without increased width deferred per user",
+    "PDF parsing and correction replay regression tests deferred until user resumes tests"
+  ],
+  "reviewed_at": "2026-09-26T07:08:25+00:00",
+  "reviewer": "Codex primary-source review; no human or independent-agent review claimed",
+  "sec_filing_indexes": [
+    {
+      "filed_date": "2026-02-26",
+      "index_hash": "dc3dbbee0b60f8f58552ac09cca98071c3997500c0948c20e7c3264ad03e690c",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/0001801368-26-000008-index.htm",
+      "source_id": "source-587e14746647647685fb62e8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm"
+    },
+    {
+      "filed_date": "2026-03-02",
+      "index_hash": "32c2c0d902270fcf27bfa02aecf9735f0b8087ccad9d3144ff6e2aed40ca804c",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/0001769628-26-000104-index.htm",
+      "source_id": "source-8a635398939d78d38bee180a",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
+    },
+    {
+      "filed_date": "2026-05-20",
+      "index_hash": "b90ff3d72a50860b3c2775a0fc2d25f5295b337c4f4e20cb299ee98532b3b34f",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.htm",
+      "source_id": "source-bf55ebb8498cbedcd4b83ac5",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+    },
+    {
+      "filed_date": "2025-09-25",
+      "index_hash": "ab8db97b1c56e5fbca61470c4d0a0dccaee57c0a42b62c66cfec57ead0b32c94",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/0001193125-25-216497-index.htm",
+      "source_id": "source-338412fcbd2914ae458e7de3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274dex101.htm"
+    },
+    {
+      "filed_date": "2025-09-25",
+      "index_hash": "ab8db97b1c56e5fbca61470c4d0a0dccaee57c0a42b62c66cfec57ead0b32c94",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/0001193125-25-216497-index.htm",
+      "source_id": "source-33fde43ef418b98646d15bea",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm"
+    },
+    {
+      "error": "Document exceeds configured byte limit",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm"
+    },
+    {
+      "filed_date": "2026-02-12",
+      "index_hash": "3b5420ecbe6ded3a2c3e7c6accf4c9215ea356846af3d7745cf1ff0d2381e4c4",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/0000024741-26-000124-index.htm",
+      "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+      "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm"
+    },
+    {
+      "filed_date": "2024-12-20",
+      "index_hash": "e0a393e03c8b10df79db82c91086e66fdb0421227c64f1e39246a3fa3504e97a",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.htm",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
+    },
+    {
+      "filed_date": "2025-07-18",
+      "index_hash": "ba95c67999648d1f433cb6c7adf2ae96e70d28b79c06c72133ccaf74d700985b",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1801368/000119312525160635/0001193125-25-160635-index.htm",
+      "source_id": "source-6de0b20465f13b7f0fabccfb",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000119312525160635/d923027d424b5.htm"
+    },
+    {
+      "filed_date": "2026-09-01",
+      "index_hash": "e72e4218678c355c7cba7389545c096f8c6d0180cf01ef3c589b4f7e21b6957f",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/0001628280-26-059639-index.htm",
+      "source_id": "source-c6a31cade1f4fdf38b853a41",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm"
+    }
+  ]
+}

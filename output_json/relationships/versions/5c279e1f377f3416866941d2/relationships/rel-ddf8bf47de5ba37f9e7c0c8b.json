@@ -1,0 +1,249 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": "2026-05-31",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3317a620753573af4a266127",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_35309f9c-844b-400c-a443-90cc4225d5e9 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 6.8 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-brk-b"
+          ],
+          "qualifier": "approximately",
+          "scope": "全普通株取得の現金対価総額。買収対象企業の株主への支払であり、対象企業への払込ではない。",
+          "value": "6800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "2026年7月22日の株主承認と必要な規制承認を経て完了。",
+      "deal_id": "deal-ab87d569c6dfb02dbe5274d9",
+      "detected_at": "2026-09-26T06:22:27+00:00",
+      "effective_date": "2026-07-24",
+      "event_id": "event-ab87d569c6dfb02dbe5274d9",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ab87d569c6dfb02dbe5274d9"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-08-10",
+      "relationship_ids": [
+        "rel-ddf8bf47de5ba37f9e7c0c8b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f611c9fee0eb629bc5667626": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-f611c9fee0eb629bc5667626",
+        "rule_version": "d60ac8ef9de1d336e4eb311577ec6669730fe6a3c9c02bc68ff5c6884e0cd9c7",
+        "verified_at": "2026-09-26T06:22:27+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ab87d569c6dfb02dbe5274d9",
+      "excerpt": "Taylor Morrison",
+      "locator": "p:1219",
+      "normalized_text_hash": "0f6047ae06391959973f7fe19168ffee483a52e6392f9dd025aa70fd0702a08c",
+      "section": "Official disclosure: business context",
+      "source_id": "source-f611c9fee0eb629bc5667626",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ab87d569c6dfb02dbe5274d9"
+      ],
+      "geography": "",
+      "headline": "住宅建設会社Taylor Morrisonの買収完了",
+      "products": [
+        "住宅開発・建設事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-ab87d569c6dfb02dbe5274d9"
+    ],
+    "description": "BerkshireがTaylor Morrisonの全普通株取得を2026年7月24日に完了。現金対価総額は約68億米ドル。1株当たり価格や企業価値を重ねて加算しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ab87d569c6dfb02dbe5274d9"
+    ],
+    "first_observed_at": "2026-09-26T06:22:27+00:00",
+    "last_observed_at": "2026-09-26T06:22:27+00:00",
+    "latest_event_ids": [
+      "event-ab87d569c6dfb02dbe5274d9"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ddf8bf47de5ba37f9e7c0c8b",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-brk-b",
+    "status_as_of": "2026-07-24",
+    "target_company_id": "co-taylor-morrison",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f611c9fee0eb629bc5667626": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-f611c9fee0eb629bc5667626",
+      "rule_version": "d60ac8ef9de1d336e4eb311577ec6669730fe6a3c9c02bc68ff5c6884e0cd9c7",
+      "verified_at": "2026-09-26T06:22:27+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-26-341032",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+      "content_hash": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-08-10",
+      "filing_cik": "0001067983",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-brk-b",
+      "retrieved_at": "2026-09-26T04:45:17+00:00",
+      "source_id": "source-f611c9fee0eb629bc5667626",
+      "source_type": "sec_filing",
+      "title": "10-Q"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-3317a620753573af4a266127",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL F_35309f9c-844b-400c-a443-90cc4225d5e9 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-ab87d569c6dfb02dbe5274d9"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 6.8 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-brk-b"
+        ],
+        "qualifier": "approximately",
+        "scope": "全普通株取得の現金対価総額。買収対象企業の株主への支払であり、対象企業への払込ではない。",
+        "value": "6800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-ab87d569c6dfb02dbe5274d9"
+      ],
+      "geography": "",
+      "headline": "住宅建設会社Taylor Morrisonの買収完了",
+      "products": [
+        "住宅開発・建設事業"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "BerkshireがTaylor Morrisonの全普通株取得を2026年7月24日に完了。現金対価総額は約68億米ドル。1株当たり価格や企業価値を重ねて加算しない。",
+    "direction": "directed",
+    "event_date": "2026-08-10",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T06:22:27+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ddf8bf47de5ba37f9e7c0c8b",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-brk-b",
+    "status_as_of": "2026-07-24",
+    "target_company_id": "co-taylor-morrison",
+    "tier": {
+      "amount_id": "amount-3317a620753573af4a266127",
+      "color": "#9b5de5",
+      "currency": "USD",
+      "level": 3
+    },
+    "tier_reasons": []
+  }
+}

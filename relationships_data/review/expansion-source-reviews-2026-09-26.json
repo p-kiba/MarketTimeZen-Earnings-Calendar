@@ -1,0 +1,1022 @@
+{
+  "draft_final_review": "Astra: 0 blocking corrections in 29-claim draft. AWS business membership separately checked by root against Amazon SEC segment note.",
+  "reviews": [
+    {
+      "google_entity_check": {
+        "co-googl": "Alphabet Inc.; resolved; merged_into null",
+        "co-google": "Google; resolved; merged_into null",
+        "conclusion": "Distinct master records; preserve Google endpoint."
+      },
+      "reviewer": "independent source crosscheck",
+      "scope": "Read-only primary-source review; no approval implied. Original paragraphs retained in /tmp for parent review. No master/config edits, tests, git or deploy.",
+      "sources": [
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "p:1217"
+            },
+            {
+              "locator": "p:1219"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2025-10-01",
+              "amount": 9400000000,
+              "amount_type": "purchase_price",
+              "approximate": true,
+              "conditions": [
+                "Cash consideration includes certain post-closing adjustments.",
+                "Occidental retained legacy environmental liabilities.",
+                "OxyChem is the acquired chemicals business; do not describe this as Berkshire acquiring Occidental Petroleum.",
+                "The original 9.7 billion figure is not present in this inspected filing; separate earlier evidence required."
+              ],
+              "currency": "USD",
+              "effective_date": "2026-01-02",
+              "from": "Berkshire Hathaway",
+              "status": "completed",
+              "to": "OxyChem"
+            },
+            {
+              "agreement_date": "2026-05-31",
+              "amount": 6800000000,
+              "amount_type": "purchase_price",
+              "approximate": true,
+              "conditions": [
+                "All outstanding common stock acquired at $72.50 per share in cash; approximate aggregate $6.8B.",
+                "Do not mistake May 31 XBRL context period for completion date."
+              ],
+              "currency": "USD",
+              "effective_date": "2026-07-24",
+              "from": "Berkshire Hathaway",
+              "shareholder_approval_date": "2026-07-22",
+              "status": "completed",
+              "to": "Taylor Morrison Home Corporation"
+            }
+          ],
+          "source_date": "2026-08-10",
+          "source_date_basis": "SEC index Filing Date independently verified: https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/0001193125-26-341032-index.html",
+          "source_id": "source-f611c9fee0eb629bc5667626",
+          "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+          "xbrl_proofs": [
+            {
+              "decimals": "-8",
+              "fact_id": "F_e9c71479-93f8-4785-885a-34163ef0fdf6",
+              "name": "us-gaap:PaymentsToAcquireBusinessesGross",
+              "scale": "9",
+              "unitref": "U_USD"
+            },
+            {
+              "decimals": "-8",
+              "fact_id": "F_35309f9c-844b-400c-a443-90cc4225d5e9",
+              "name": "us-gaap:PaymentsToAcquireBusinessesGross",
+              "scale": "9",
+              "unitref": "U_USD"
+            }
+          ]
+        },
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "tr:9"
+            },
+            {
+              "locator": "tr:10"
+            },
+            {
+              "locator": "sec-div:67"
+            },
+            {
+              "locator": "sec-div:75"
+            },
+            {
+              "locator": "sec-div:88"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2022-05-26",
+              "amount": null,
+              "conditions": [
+                "Completion and legal merger sequence explicit at sec-div:67.",
+                "Per-share $142.50 cash or 0.25200 Broadcom share subject to 50/50 aggregate proration; not a total deal price.",
+                "Borrowing $28,390,625,000 also funds working capital, refinancing and expenses: not acquisition price.",
+                "No total purchase price in inspected source."
+              ],
+              "currency": null,
+              "effective_date": "2023-11-22",
+              "from": "Broadcom Inc.",
+              "status": "completed",
+              "to": "VMware Inc."
+            }
+          ],
+          "source_date": "2023-11-22",
+          "source_date_basis": "Stored filing metadata and visible report date; SEC index attempts inaccessible via web tool, so index filing date not independently reverified.",
+          "source_id": "source-9377e59c45f1e1b3e5110b09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
+        },
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "p:0"
+            },
+            {
+              "locator": "li:13"
+            },
+            {
+              "locator": "p:29"
+            },
+            {
+              "locator": "p:33"
+            },
+            {
+              "locator": "p:37"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2022-12-12",
+              "amount": 2800000000,
+              "amount_type": "minimum_commitment",
+              "conditions": [
+                "Minimum cloud-related spend, not exact total or cap; additional spend depends on partnership success.",
+                "Source also gives £2.3 billion parenthetical; no explicit USD, US$, or U.S. dollars in parsed text. Leave ISO currency unknown under strict explicit-currency rule.",
+                "Regulated application migration needs applicable board/regulator approvals.",
+                "Separate Microsoft acquisition of approximately 4% LSEG equity from existing shareholders; do not conflate stake value with cloud commitment."
+              ],
+              "currency": null,
+              "currency_original": "$",
+              "from": "LSEG",
+              "status": "agreement_signed",
+              "term": "10 years",
+              "to": "Microsoft"
+            }
+          ],
+          "source_date": "2022-12-12",
+          "source_date_basis": "p:0 visible date",
+          "source_id": "source-61c6b764e9c70965003c43ed",
+          "url": "https://www.lseg.com/en/media-centre/press-releases/2022/lseg-and-microsoft-launch-strategic-partnership"
+        },
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "p:13"
+            },
+            {
+              "locator": "p:15"
+            },
+            {
+              "locator": "p:16"
+            },
+            {
+              "locator": "p:20"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2025-10-06",
+              "amount": null,
+              "capacity": "6 gigawatts",
+              "conditions": [
+                "Multi-year, multi-generation definitive GPU agreement; first 1 GW starts 2H 2026 as projected at announcement.",
+                "Warrant issued to OpenAI for up to 160 million AMD shares is a distinct conditional equity instrument, not completed stock ownership.",
+                "Warrant vesting tied to deployment/purchases, AMD share-price targets and technical/commercial milestones.",
+                "Expected tens of billions of AMD revenue is projection, not disclosed signed contract price."
+              ],
+              "currency": null,
+              "from": "AMD",
+              "status": "agreement_signed",
+              "to": "OpenAI"
+            }
+          ],
+          "source_date": "2025-10-06",
+          "source_date_basis": "p:13 dated dateline and parsed publication date",
+          "source_id": "source-749efa2de6972ac888c69fc5",
+          "url": "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d/"
+        },
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "p:4"
+            },
+            {
+              "locator": "p:5"
+            },
+            {
+              "locator": "p:20"
+            },
+            {
+              "locator": "p:27"
+            },
+            {
+              "locator": "p:34"
+            },
+            {
+              "locator": "p:39"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2025-02-24",
+              "amount": null,
+              "conditions": [
+                "Source refers to both Google and Google Cloud. Preserve existing co-google; do not replace with Alphabet co-googl.",
+                "Gemini/Agentforce and Salesforce infrastructure integrations are announced future availability, not proof every product had launched.",
+                "Slack/Workspace deeper integrations described as exploring.",
+                "No disclosed transaction amount; $2T market opportunity is not partnership value."
+              ],
+              "currency": null,
+              "from": "Salesforce",
+              "from_id": "co-crm",
+              "status": "partnership_expanded",
+              "to": "Google",
+              "to_id": "co-google"
+            }
+          ],
+          "source_date": "2025-02-24",
+          "source_date_basis": "Raw HTML span#_ctrl0_ctl48_spanDate.evergreen-news-date-text = February 24, 2025; parse_document omits span date.",
+          "source_id": "source-4c4fb934da11449636adaee0",
+          "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-and-Google-Bring-Gemini-to-Agentforce-Enable-More-Customer-Choice-in-Major-Partnership-Expansion/default.aspx"
+        },
+        {
+          "parser_version": "rules-1.5",
+          "proofs": [
+            {
+              "locator": "p:11"
+            },
+            {
+              "locator": "p:44"
+            },
+            {
+              "locator": "p:45"
+            },
+            {
+              "locator": "p:46"
+            },
+            {
+              "locator": "p:47"
+            },
+            {
+              "locator": "p:48"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "relationships": [
+            {
+              "agreement_date": "2024-06-10",
+              "amount": null,
+              "conditions": [
+                "p:44 integration refers to ChatGPT product; p:47 explicitly identifies OpenAI as operator. Do not invent exact contracting legal entity.",
+                "iOS 18/iPadOS 18/macOS Sequoia integration and later-this-year launch are announcements in this source, not standalone completion verification.",
+                "No commercial price, term, equity or exclusivity disclosed.",
+                "End-user free access is not evidence Apple pays OpenAI zero."
+              ],
+              "currency": null,
+              "from": "Apple",
+              "status": "integration_announced",
+              "to": "OpenAI"
+            }
+          ],
+          "source_date": "2024-06-10",
+          "source_date_basis": "p:11 and raw JSON-LD datePublished 2024-06-10Z; dateModified 2026-08-19 must not replace publication.",
+          "source_id": "source-e543cca254c9a9b311c82e0f",
+          "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"
+        },
+        {
+          "parsed_published_date": null,
+          "proofs": [
+            {
+              "locator": "sec-div:296"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "review_notes": [
+            "Completed all-share Verve acquisition in July 2025, month precision from prose.",
+            "549 million USD cash amount is NET OF CASH ACQUIRED; preserve basis, not gross purchase-price claim.",
+            "Separate one nontradeable CVR/share with up to $3/share or approximately $300 million contingent on specified milestone. Do not sum to exact 849 million gross total.",
+            "XBRL contexts verify Verve member and Lilly issuer, but differing July context dates do not establish precise closing day.",
+            "Filing date 2026-04-30 supplied/index-verified by root; not independently repeated."
+          ],
+          "source_id": "source-db1eb3c30600532489dbe85d",
+          "stored_filed_date": "2026-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
+          "xbrl_proofs": [
+            {
+              "fact_id": "f-344",
+              "fact_xml": "<ix:nonfraction contextref=\"c-129\" decimals=\"2\" id=\"f-344\" name=\"us-gaap:BusinessAcquisitionSharePrice\" scale=\"0\" unitref=\"usdPerShare\">10.50</ix:nonfraction>"
+            },
+            {
+              "fact_id": "f-345",
+              "fact_xml": "<ix:nonfraction contextref=\"c-130\" decimals=\"-6\" id=\"f-345\" name=\"us-gaap:BusinessCombinationConsiderationTransferred1\" scale=\"6\" unitref=\"usd\">549</ix:nonfraction>"
+            },
+            {
+              "fact_id": "f-347",
+              "fact_xml": "<ix:nonfraction contextref=\"c-129\" decimals=\"2\" id=\"f-347\" name=\"lly:BusinessAcquisitionContingentValueRightAdditionalPricePerShare\" scale=\"0\" unitref=\"usdPerShare\">3.00</ix:nonfraction>"
+            },
+            {
+              "fact_id": "f-348",
+              "fact_xml": "<ix:nonfraction contextref=\"c-129\" decimals=\"-6\" id=\"f-348\" name=\"us-gaap:BusinessCombinationContingentConsiderationArrangementsRangeOfOutcomesValueHigh\" scale=\"6\" unitref=\"usd\">300</ix:nonfraction>"
+            }
+          ]
+        },
+        {
+          "parsed_published_date": null,
+          "proofs": [
+            {
+              "locator": "p:4"
+            },
+            {
+              "locator": "p:5"
+            },
+            {
+              "locator": "p:6"
+            },
+            {
+              "locator": "p:17"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "review_notes": [
+            "Joint AI co-innovation lab announced by NVIDIA and Eli Lilly and Company.",
+            "Two companies combined invest UP TO $1 billion over five years; no individual share or bilateral payment disclosed. Exclude from relationship amount; retain scoped note.",
+            "No precise current legal entity structure inference."
+          ],
+          "source_date": "2026-01-12",
+          "source_date_basis": "Raw HTML div.article-date text: January 12, 2026. Parser does not include div.",
+          "source_id": "source-cd43899c7dae58b9562f23d5",
+          "stored_filed_date": null,
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai"
+        },
+        {
+          "parsed_published_date": null,
+          "proofs": [
+            {
+              "locator": "sec-div:426"
+            },
+            {
+              "locator": "sec-div:457"
+            }
+          ],
+          "raw_hash_matches_source": true,
+          "review_notes": [
+            "Tesla states currently relies on Panasonic and Contemporary Amperex Technology Co. Limited (CATL) for lithium-ion cells. Both supplier edges supported as of report.",
+            "Panasonic partnership production at Gigafactory Nevada separately explicit.",
+            "Keep names as disclosed; do not infer successor/parent or current corporate structure.",
+            "No transaction value or contract start dates disclosed in these paragraphs.",
+            "2025-01-30 is filing date supplied/index-verified by root; not acquisition/relationship effective date."
+          ],
+          "source_id": "source-2e2c4751a2cd43512ffd443d",
+          "stored_filed_date": "2025-01-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-26T06:16:03+00:00",
+      "method": "Read fetched raw HTML from repository cache using stable_id(source,url), reparsed with documents.parse_document, inspected exact date-bearing HTML for omitted dates. No master writes or tests.",
+      "review_count": 10,
+      "review_id": "expansion-coverage-independent-review-2026-09-26",
+      "reviewer": "Codex independent primary-source review; no human approval asserted",
+      "reviews": [
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+          "corrections": [
+            "機能の稼働完了を2026年の現在状態として推定しない。"
+          ],
+          "date_proof": {
+            "locator": "p:54",
+            "original_text": "July 30, 2025"
+          },
+          "description_ja": "JPMorganChaseとCoinbaseが、Chase口座とCoinbaseウォレットの直接連携、Ultimate Rewardsの移行、Chaseカードによる資金追加を含む提携を発表。口座連携・ポイント移行は2026年、カードは2025年秋の開始予定として公表。",
+          "direction": "undirected",
+          "entity_notes": [
+            "p:55がJPMorganChase (NYSE:JPM) とCoinbase (NASDAQ:COIN)を明示。銀行子会社名は記載しない。"
+          ],
+          "key": "jpm-coinbase",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "1363fe1489ede7032ce96bb778e42596aee31416d1dfdd5aaa70cd74cee4e610",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "p:54",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "5f4228c53098903deeb1be30ad0f420aa8787926a31f8eed9beab69f248dc063",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "p:55",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "c3296ca30a9ca6e6de146a5c9f029027faaac530c1ba10e6d241b1c5a219a7c0",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "li:57",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "bf1dda79a9c584b2d748ea815d9e687b2e89a3b6d02deab4b32d15cddd11b7e8",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "li:58",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "bb76a96e608e320422d215906eab0a8a3fa1b1054ba481c1cde04b9d2f9c57df",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "li:59",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "d99f0aeeabb94184105f851f8bfe52dc87bcc13a8f30a2f7bb262f221fa255aa",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "p:60",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            },
+            {
+              "block_hash": "70b4ed0ad7f4f1bb2cf8a6bf4e6cae13db33db8659ae2782e8737d637e1f30c8",
+              "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
+              "locator": "p:66",
+              "source_id": "source-10e0a75f5df0979f93998825",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+            }
+          ],
+          "published_date": "2025-07-30",
+          "relationship_type": "partnership",
+          "source_id": "source-10e0a75f5df0979f93998825",
+          "status": "announced",
+          "term": null,
+          "title": "JPMorganChase–Coinbase",
+          "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+          "corrections": [
+            "約24か月は移行までの予定所要期間であり契約期間・確定終了日ではない。",
+            "カード残高$200億超と信用損失引当$22億は取得対価・提携金額ではない。"
+          ],
+          "date_proof": {
+            "locator": "p:52",
+            "original_text": "January 07, 2026"
+          },
+          "description_ja": "JPMorgan Chase & Co.のChaseブランドとAppleがApple Cardの新発行体への移行を発表。約24か月の移行見込みで、規制承認が条件。現在の発行体Goldman Sachs Bank USAからの移行完了は未確認。",
+          "direction": "undirected",
+          "entity_notes": [
+            "p:72にChaseはJPMorgan Chase & Co.の米国消費者/商業銀行事業と明示。p:61もJPMorganChase自身のforward purchase commitmentを明示。親会社グループの提携として支持される。",
+            "JPMorgan Chase Bank, N.A.の名称は原文にないため法的発行銀行主体は断定しない。",
+            "Apple Payments Services LLCの既存サービス提供関係はp:70の別役割。Apple本体が銀行・カード発行者であるとは記載しない。"
+          ],
+          "key": "jpm-apple-card",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "acfa5cfe09b9c6783ae2c228183d5a4184c7468de487d3e2a4968facacd12e53",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:52",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "b76e786ffb2788c613981edbb283e3fc86619dcec0def5e2f5f0369425f00bdf",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:53",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "c53a38ffbf97030791091e637712542061b071737b4a6ec591c904d6e2ffdcb0",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:56",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "a0c148e3e121dcd7238a16aaeaf64f071bd8f64c203ad6d17d9c22d33b9f5b01",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:61",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "22688ce3648f766a2adf862202da706e4a83433b35f135fa437f6b534743161b",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:69",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "862c440d951f5398e313b02f5cd0bae8b6a84b713a380e13931c6c23a41d55f6",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:70",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            },
+            {
+              "block_hash": "20746cb58f01523c4031a886d62a3007f6e9b398dbfbd5b380251ba8ea308fe7",
+              "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+              "locator": "p:72",
+              "source_id": "source-92cd7a26ed3a4b47c33ab169",
+              "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+            }
+          ],
+          "published_date": "2026-01-07",
+          "relationship_type": "partnership",
+          "source_id": "source-92cd7a26ed3a4b47c33ab169",
+          "status": "announced",
+          "term": null,
+          "title": "JPMorgan Chase & Co.（Chaseブランド）–Apple",
+          "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+          "corrections": [
+            "two 15-year termsとの原文から独立した2契約と断定しない。",
+            "2030+15から厳密な満了年月日を生成しない。",
+            "HTML JSON-LDのdatePublishedは2026-6-03と不整合だが、可視日付p:2・本文日付p:11・meta publishDateはいずれも2026-06-23。後者を採用。"
+          ],
+          "date_proof": {
+            "locator": "p:2 and p:11",
+            "original_text": "June 23, 2026"
+          },
+          "description_ja": "ConstellationがWalmartへDresden Clean Energy Center（Illinois）の電力・環境属性・容量を供給する長期PPA。約176MWに増強分30MWを含む。2029年と2030年から始まる各15年の期間を持つ将来供給の契約。",
+          "direction": "Constellation → Walmart",
+          "entity_notes": [
+            "Constellation Energy Corporationはp:22で明記。原子炉保有/運営の個別子会社を推定しない。"
+          ],
+          "key": "wmt-constellation",
+          "parser_published_date": "2026-06-23",
+          "proofs": [
+            {
+              "block_hash": "8b3b3dba39292b54c65ae80bec62c92be8a4ff71c32ee535fdac405d44733fe3",
+              "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+              "locator": "p:2",
+              "source_id": "source-8c82b593c2eddb5518350269",
+              "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+            },
+            {
+              "block_hash": "8771d6aef73770d8058655871a19bca14897dc008a7a51ce643636d3542eef61",
+              "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+              "locator": "p:11",
+              "source_id": "source-8c82b593c2eddb5518350269",
+              "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+            },
+            {
+              "block_hash": "0672cb5903f2cf9524724b21a1554bac4d41dd4d92112546abbc9df33901a1a8",
+              "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+              "locator": "p:12",
+              "source_id": "source-8c82b593c2eddb5518350269",
+              "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+            },
+            {
+              "block_hash": "014ad5cea866820f03fa264a59b49e16e895362c2d940d2f458b96ec6d930d8f",
+              "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+              "locator": "p:16",
+              "source_id": "source-8c82b593c2eddb5518350269",
+              "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+            },
+            {
+              "block_hash": "642abf24ce1a7564c7a85b0fc281da351f2c547e80520152160283410df3237c",
+              "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+              "locator": "p:22",
+              "source_id": "source-8c82b593c2eddb5518350269",
+              "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+            }
+          ],
+          "published_date": "2026-06-23",
+          "relationship_type": "supplier",
+          "source_id": "source-8c82b593c2eddb5518350269",
+          "status": "signed",
+          "term": {
+            "duration_years_each": 15,
+            "exact_end_date": null,
+            "exact_start_date": null,
+            "start_years": [
+              2029,
+              2030
+            ]
+          },
+          "title": "Constellation–Walmart",
+          "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+          "corrections": [
+            "会員特典の開始は6月30日。既存配送関係は発表時点で稼働。",
+            "月$10・注文$150以上は顧客特典条件で企業間取引総額ではない。米国/カナダ双方が対象のため$だけから一律USDにしない。"
+          ],
+          "date_proof": {
+            "locator": "p:1; script[type=application/ld+json].datePublished",
+            "original_text": "SAN FRANCISCO, June 11, 2025; 2025-06-11T19:29:32.000Z"
+          },
+          "description_ja": "InstacartはCostcoの当日配送を2017年から支え、2021年にはCostco配送サイトのStorefront Pro利用へ提携を拡張。2025年6月30日から米国・カナダのExecutive会員向け月次クレジットを導入すると発表。",
+          "direction": "Instacart → Costco",
+          "entity_notes": [
+            "p:6がMaplebear Inc. is the registered corporate name of Instacartと明示。"
+          ],
+          "key": "cost-instacart",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "c1269675b9590d8f65a1f722964ae442833f7a177c8d5a095cf571aa2ddca190",
+              "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+              "locator": "p:0",
+              "source_id": "source-76d484b769a58ce428aba97c",
+              "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+            },
+            {
+              "block_hash": "865b8223f7a7777ccf43428611afac20584d0d7823fb9d81c6a098f2a4f35081",
+              "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+              "locator": "p:1",
+              "source_id": "source-76d484b769a58ce428aba97c",
+              "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+            },
+            {
+              "block_hash": "7d125f96de9ed1a2fbdb7770be7fcfaa747eac52be7a53ed52ec65ba3754f06e",
+              "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+              "locator": "p:2",
+              "source_id": "source-76d484b769a58ce428aba97c",
+              "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+            },
+            {
+              "block_hash": "7a1a31fbeb8618ad151c011d022ec872545b1ba9295bdac9814b4cc4e75a6f29",
+              "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+              "locator": "p:4",
+              "source_id": "source-76d484b769a58ce428aba97c",
+              "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+            },
+            {
+              "block_hash": "948270c7e8fe1e20ee042c24ca0cb964b63a77dc45835118c2b1c88fc20e1cc8",
+              "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
+              "locator": "p:6",
+              "source_id": "source-76d484b769a58ce428aba97c",
+              "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+            }
+          ],
+          "published_date": "2025-06-11",
+          "relationship_type": "service_provider",
+          "source_id": "source-76d484b769a58ce428aba97c",
+          "status": "active",
+          "term": null,
+          "title": "Instacart（Maplebear Inc.）–Costco",
+          "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+          "corrections": [
+            "記事日付はparserではnullだがraw HTMLのspan#_ctrl0_ctl42_lblDateにSeptember 16, 2026。",
+            "Uber Eatsを独立した法的企業にしない。"
+          ],
+          "date_proof": {
+            "locator": "span#_ctrl0_ctl42_lblDate.module_date-text",
+            "original_text": "September 16, 2026"
+          },
+          "description_ja": "Uber TechnologiesとCostcoはUber Eatsを通じた米国配送を17州から47州へ拡張。約600店舗でオンデマンド・予約配送に対応すると2026年9月16日に公表。",
+          "direction": "Uber → Costco",
+          "entity_notes": [
+            "p:2がUber Technologies, Inc. (NYSE:UBER)を明示。Costcoについて取引法人の子会社名はない。"
+          ],
+          "key": "cost-uber",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "a075d980c73f2bfd90114ba77ce24c66ea914ea3bf18ef2300f26270b98fa26d",
+              "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+              "locator": "p:2",
+              "source_id": "source-3c64d85b296779a0af7546e9",
+              "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx"
+            },
+            {
+              "block_hash": "48686ae30109f98c95d671ed723ab52b9bceb4e7c3f026974ae3521c727443cd",
+              "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+              "locator": "p:3",
+              "source_id": "source-3c64d85b296779a0af7546e9",
+              "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx"
+            },
+            {
+              "block_hash": "cb804b193bdc62fc5c0156db74891b6e2e99db4807a3a423ea56e5903e062dfe",
+              "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+              "locator": "p:10",
+              "source_id": "source-3c64d85b296779a0af7546e9",
+              "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx"
+            }
+          ],
+          "published_date": "2026-09-16",
+          "relationship_type": "service_provider",
+          "source_id": "source-3c64d85b296779a0af7546e9",
+          "status": "active",
+          "term": null,
+          "title": "Uber–Costco",
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+          "corrections": [
+            "Solの北米全域で利用可能となったとの読み方を訂正。p:6は米国先行・カナダ後日予定。",
+            "17,800はSupercharger数。station拠点数との同一視を避ける。",
+            "USD225はアダプターMSRPで企業間契約額ではない。"
+          ],
+          "date_proof": {
+            "locator": "p:1",
+            "original_text": "2024-09-18"
+          },
+          "description_ja": "GMは2024年9月18日、GM認定NACS DCアダプターによるTesla Supercharger 17,800基超へのアクセス開始を発表。米国から導入し、カナダ向けアダプターは同年後半の予定。GMアプリで充電場所検索・開始・支払いに対応する。",
+          "direction": "undirected",
+          "entity_notes": [
+            "Teslaの名でネットワーク利用を公表。Tesla/GMの個別契約主体名や利益分配は非掲載。"
+          ],
+          "key": "gm-tesla",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "70e2445590a66dabe3325aa411a00bb7eea1ad9c5d4e99f0cfb2e465c7763f5c",
+              "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+              "locator": "p:1",
+              "source_id": "source-954382408b763c0462854647",
+              "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
+            },
+            {
+              "block_hash": "fd6943d72dd39d12e17e8468c2c735358e2ba2f9a8ed7593f54e30f1302831a6",
+              "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+              "locator": "p:4",
+              "source_id": "source-954382408b763c0462854647",
+              "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
+            },
+            {
+              "block_hash": "751ca1d7a3e9b0fb1890dd1b8dbe70f2488cc54f4e326e18baa2add0ec2ee81d",
+              "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+              "locator": "p:6",
+              "source_id": "source-954382408b763c0462854647",
+              "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
+            },
+            {
+              "block_hash": "b0a0b51c233cd9d525691140193e7e2d4f3636c8d5b509c3d956ed43c4b4409d",
+              "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
+              "locator": "p:8",
+              "source_id": "source-954382408b763c0462854647",
+              "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
+            }
+          ],
+          "published_date": "2024-09-18",
+          "relationship_type": "partnership",
+          "source_id": "source-954382408b763c0462854647",
+          "status": "active",
+          "term": null,
+          "title": "Tesla–General Motors",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+          "corrections": [
+            "供給数量・購入金額・契約期間は非開示。採用と出荷/量産完了を区別する。",
+            "日付不明のAMDパートナー紹介ページより、日付と製品採用が明示された本IR記事を主根拠にする。"
+          ],
+          "date_proof": {
+            "locator": "p:6; span#_ctrl0_ctl28_spanDate; script[type=application/ld+json].datePublished",
+            "original_text": "June 12, 2025; 2025-06-12T13:46:00Z"
+          },
+          "description_ja": "Micronの36GB・12段HBM3EをAMD Instinct MI350シリーズへ設計採用。共同エンジニアリングで適合性を最適化したと公表。2025年6月12日の発表ではMI350はupcomingとされる。",
+          "direction": "Micron → AMD",
+          "entity_notes": [
+            "Micron Technology, Inc. (Nasdaq:MU) とAMD製品/担当者の明示された共同技術関係。個別契約法人の子会社名は推定しない。"
+          ],
+          "key": "mu-amd",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "20b36dddab735271b21584fd08590c1e37c1a883b3ff5931767771d8ce08e368",
+              "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+              "locator": "p:6",
+              "source_id": "source-ee012bbdda9ec95b37ff6810",
+              "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
+            },
+            {
+              "block_hash": "233426e01b5ddba5eecca518d9eb7c64bdaa3f009f23580a9e2caaa08eed1338",
+              "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+              "locator": "p:7",
+              "source_id": "source-ee012bbdda9ec95b37ff6810",
+              "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
+            },
+            {
+              "block_hash": "bb76f953c21cae63e419e0f2ac9a466684ffc568659c349b8e91455fc60f13bc",
+              "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+              "locator": "p:8",
+              "source_id": "source-ee012bbdda9ec95b37ff6810",
+              "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
+            },
+            {
+              "block_hash": "5bcb96f8052ac0f11f187a547bcb8ee934e40f8408e11efb3ad9b6341abf2bc8",
+              "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+              "locator": "p:9",
+              "source_id": "source-ee012bbdda9ec95b37ff6810",
+              "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
+            }
+          ],
+          "published_date": "2025-06-12",
+          "relationship_type": "supplier",
+          "source_id": "source-ee012bbdda9ec95b37ff6810",
+          "status": "announced",
+          "term": null,
+          "title": "Micron–AMD",
+          "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "21628ed8173d840793caf7c3fcf8b8c2a76272ee64c9f3ba300db70c8a620013",
+          "corrections": [
+            "Solのstatus demonstratedは実機デモ実施を連想させるため、公表済み共同開発・サンプル提供の範囲に限定。",
+            "供給契約・量産売上・契約総額を推定しない。"
+          ],
+          "date_proof": {
+            "locator": "p:5; span#_ctrl0_ctl28_spanDate; script[type=application/ld+json].datePublished",
+            "original_text": "Aug. 07, 2023; August 7, 2023; 2023-08-07T08:02:00Z"
+          },
+          "description_ja": "Micronのメモリー技術とMicrochipのSMC2000制御技術を組み合わせ、AI・データセンター向けCXLメモリー拡張ソリューションを共同開発したと公表。MicronはCZ120の顧客・パートナー向けサンプル提供を発表。",
+          "direction": "undirected",
+          "entity_notes": [
+            "p:14のMicrochip Technology担当者による共同開発の具体的説明。MCHPへ対応可能だが子会社契約は記されない。"
+          ],
+          "key": "mu-microchip",
+          "parser_published_date": null,
+          "proofs": [
+            {
+              "block_hash": "21978c6f0c65f5fd2b919d6e7d01ca0f8519fb05274233bafcf23e015f7e43db",
+              "content_hash": "21628ed8173d840793caf7c3fcf8b8c2a76272ee64c9f3ba300db70c8a620013",
+              "locator": "p:5",
+              "source_id": "source-1e47859411dbf0322c82f0a3",
+              "url": "https://investors.micron.com/news/press-release/2023/Micron-Launches-Memory-Expansion-Module-Portfolio-to-Accelerate-CXL-2-0-Adoption-08-07-2023/default.aspx"
+            },
+            {
+              "block_hash": "5e7de11a73284ff72251abe0fbbd2fee26273ca3082cacb102bb01dc6ad7b4cd",
+              "content_hash": "21628ed8173d840793caf7c3fcf8b8c2a76272ee64c9f3ba300db70c8a620013",
+              "locator": "p:14",
+              "source_id": "source-1e47859411dbf0322c82f0a3",
+              "url": "https://investors.micron.com/news/press-release/2023/Micron-Launches-Memory-Expansion-Module-Portfolio-to-Accelerate-CXL-2-0-Adoption-08-07-2023/default.aspx"
+            }
+          ],
+          "published_date": "2023-08-07",
+          "relationship_type": "partnership",
+          "source_id": "source-1e47859411dbf0322c82f0a3",
+          "status": "announced",
+          "term": null,
+          "title": "Micron–Microchip Technology",
+          "url": "https://investors.micron.com/news/press-release/2023/Micron-Launches-Memory-Expansion-Module-Portfolio-to-Accelerate-CXL-2-0-Adoption-08-07-2023/default.aspx"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
+          "corrections": [
+            "meta article:modified_timeは2026-09-23T16:09:02+00:00。初回発表日と現在取得版の更新日を区別。",
+            "p:19のMuse Spark提供地域は7月23日に訂正された旨があるため、初回6月時点の機能説明へ安易に混ぜない。",
+            "開始価格$299は小売価格で提携金額ではない。"
+          ],
+          "date_proof": {
+            "locator": "meta[property=article:published_time]; time.entry-date.published",
+            "original_text": "2026-06-23T13:00:32+00:00; June 23, 2026"
+          },
+          "description_ja": "MetaとEssilorLuxotticaはMeta Glassesを共同で展開。新しいAIグラスのシリーズを2026年6月23日に発表し、複数国で販売開始と公表。",
+          "direction": "undirected",
+          "entity_notes": [
+            "両グループ名による製品提携をp:0が明示。独立したJV法人設立や個別法的供給者を示さない。"
+          ],
+          "key": "meta-essilorluxottica",
+          "parser_published_date": "2026-06-23",
+          "proofs": [
+            {
+              "block_hash": "c003eb38cc1aff973fde3e09949cb6e35ac02701524f5ae4b0ee23a9acacd1aa",
+              "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
+              "locator": "p:0",
+              "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+              "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+            },
+            {
+              "block_hash": "fc0d9814d7de314d3bf4473b2915f744c937ee33dbfbac240effa2013a87341f",
+              "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
+              "locator": "p:1",
+              "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+              "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+            },
+            {
+              "block_hash": "182366f700d74360ddbc4a510217ec70e3905cb935ad080dc92691bbb01905c0",
+              "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
+              "locator": "p:24",
+              "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+              "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+            }
+          ],
+          "published_date": "2026-06-23",
+          "relationship_type": "partnership",
+          "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+          "status": "active",
+          "term": null,
+          "title": "Meta–EssilorLuxottica",
+          "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+        },
+        {
+          "amounts": [],
+          "assessment": "supported_with_scope",
+          "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+          "corrections": [
+            "NVIDIA Business GroupはAccentureの事業グループで、共同出資会社の設立ではない。",
+            "p:7の$30億はAccenture前年度の生成AI受注額で提携金額ではない。",
+            "3万人の研修や拠点拡張は公表時点の計画として記載。"
+          ],
+          "date_proof": {
+            "locator": "p:0; meta[name=publisheddate]",
+            "original_text": "October 2, 2024; 2024-10-02 07:59"
+          },
+          "description_ja": "AccentureとNVIDIAが企業のAI導入を支える提携を拡張。Accenture内にNVIDIA Business Groupを設け、NVIDIA AI技術を使うAI Refineryとエンジニアリング拠点の展開を公表。",
+          "direction": "undirected",
+          "entity_notes": [
+            "p:6がAccenture (NYSE:ACN) とNVIDIAによる提携を明示。子会社契約主体は推定しない。"
+          ],
+          "key": "accenture-nvidia",
+          "parser_published_date": "2024-10-02",
+          "proofs": [
+            {
+              "block_hash": "3c120064936eed77abb423cc29bb711c69f5f3e8f336c062a4b0e8045622e12b",
+              "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+              "locator": "p:0",
+              "source_id": "source-56ab4107d3146e817658156a",
+              "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+            },
+            {
+              "block_hash": "3f8630de6c0a300139072a02665a67e707fa85401e7a8848c9d69394e306c4b8",
+              "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+              "locator": "p:6",
+              "source_id": "source-56ab4107d3146e817658156a",
+              "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+            },
+            {
+              "block_hash": "13973f9f4f964e58b270348f6e029054e42e126cf1bf2a7537141a40296b2022",
+              "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+              "locator": "p:7",
+              "source_id": "source-56ab4107d3146e817658156a",
+              "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+            },
+            {
+              "block_hash": "935fdcc72c77755fa6bbeccb0aeb1096266eb5505aae4187fc4652992206798d",
+              "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+              "locator": "p:11",
+              "source_id": "source-56ab4107d3146e817658156a",
+              "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+            },
+            {
+              "block_hash": "b83ca63f3dc56e9abe838adf637cbd29bd034a145c007aec92ae3855fe06e139",
+              "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+              "locator": "p:16",
+              "source_id": "source-56ab4107d3146e817658156a",
+              "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+            }
+          ],
+          "published_date": "2024-10-02",
+          "relationship_type": "partnership",
+          "source_id": "source-56ab4107d3146e817658156a",
+          "status": "announced",
+          "term": null,
+          "title": "Accenture–NVIDIA",
+          "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
+        }
+      ],
+      "summary": [
+        "10関係とも限定した企業間関係として一次資料に支持される。",
+        "GMの米国先行/カナダ予定、Walmartの2つの期間、顧客価格と契約金額の分離、Chaseの親会社表現、parser未抽出の日付を補正。",
+        "JPMAppleの親会社グループ提携はp:72/p:61で支持されるが法的発行銀行名は推定しない。"
+      ]
+    }
+  ],
+  "root_corrections": [
+    "Broadcom filed2023-11-22 independently checked from SEC index via Client; receipt in broadcom-vmware-filing-date.json",
+    "Berkshire filed2026-08-10 verified; original research date corrected before approval",
+    "Walmart PPA: two15year periods, not two contracts; GM:USactive/Canadaplanned; historical statuses preserved"
+  ]
+}

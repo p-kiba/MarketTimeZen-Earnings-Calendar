@@ -1,0 +1,240 @@
+{
+  "build_id": "ff24fd3d1ac75bbfc0582200",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-01-07",
+      "conditions": "移管対象残高200億ドル超や信用損失引当22億ドルを、契約金額・買収対価として登録しない。約24か月は移行の想定期間で、契約存続期間ではない。",
+      "deal_id": "deal-5ea640d287aedc568584853d",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-5ea640d287aedc568584853d",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-5ea640d287aedc568584853d",
+        "evidence-d907c1d8316e33933e336d76",
+        "evidence-92b55f09a4a7c87daf09e08c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5ea640d287aedc568584853d",
+            "evidence-d907c1d8316e33933e336d76",
+            "evidence-92b55f09a4a7c87daf09e08c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f1d9241d2753001d0046d304"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-92cd7a26ed3a4b47c33ab169": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-92cd7a26ed3a4b47c33ab169",
+        "rule_version": "79140a9c11dbf23ddaef4c83c86d647441c376215e7c57513e0d1d6f91b5d6d0",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5ea640d287aedc568584853d",
+      "excerpt": "Apple Card",
+      "locator": "p:53",
+      "normalized_text_hash": "8e0ab047e55d602b7a6145275310d71e081bbcf87ed24b9a3c6a3e1504f4c6ef",
+      "section": "Official disclosure: business context",
+      "source_id": "source-92cd7a26ed3a4b47c33ab169",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-92b55f09a4a7c87daf09e08c",
+      "excerpt": "JPMorgan Chase",
+      "locator": "p:72",
+      "normalized_text_hash": "955653cc14eef1e18512747b76e98843d03727852379f248c728ff5fda28f946",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-92cd7a26ed3a4b47c33ab169",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d907c1d8316e33933e336d76",
+      "excerpt": "JPMorganChase",
+      "locator": "p:61",
+      "normalized_text_hash": "0938111a0909036d53f662ca8eeb9516ed4dcf8047e6daacf4bd0a9ca2cbebb3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-92cd7a26ed3a4b47c33ab169",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-5ea640d287aedc568584853d",
+        "evidence-d907c1d8316e33933e336d76",
+        "evidence-92b55f09a4a7c87daf09e08c"
+      ],
+      "geography": "",
+      "headline": "Apple Cardの発行事業移行",
+      "products": [
+        "Apple Card"
+      ],
+      "scale": "",
+      "source_role": "Chaseブランドのカード発行事業",
+      "target_role": "カード・Walletの利用体験"
+    },
+    "deal_ids": [
+      "deal-5ea640d287aedc568584853d"
+    ],
+    "description": "AppleとChaseがApple Card発行事業の移行を発表。約24か月での移行を想定し規制承認等が条件。Chaseブランドの事業提携として記録し、具体的な発行銀行法人名を推定しない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-5ea640d287aedc568584853d",
+      "evidence-d907c1d8316e33933e336d76",
+      "evidence-92b55f09a4a7c87daf09e08c"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-5ea640d287aedc568584853d"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-f1d9241d2753001d0046d304",
+    "relationship_type": "partnership",
+    "source_company_id": "co-jpm",
+    "status_as_of": "2026-01-07",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-92cd7a26ed3a4b47c33ab169": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-92cd7a26ed3a4b47c33ab169",
+      "rule_version": "79140a9c11dbf23ddaef4c83c86d647441c376215e7c57513e0d1d6f91b5d6d0",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card",
+      "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-07",
+      "publisher": "www.jpmorganchase.com",
+      "retrieved_at": "2026-09-26T06:11:45+00:00",
+      "source_id": "source-92cd7a26ed3a4b47c33ab169",
+      "source_type": "official_newsroom",
+      "title": "Chase to become new issuer of Apple Card"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-5ea640d287aedc568584853d",
+        "evidence-d907c1d8316e33933e336d76",
+        "evidence-92b55f09a4a7c87daf09e08c"
+      ],
+      "geography": "",
+      "headline": "Apple Cardの発行事業移行",
+      "products": [
+        "Apple Card"
+      ],
+      "scale": "",
+      "source_role": "Chaseブランドのカード発行事業",
+      "target_role": "カード・Walletの利用体験"
+    },
+    "description": "AppleとChaseがApple Card発行事業の移行を発表。約24か月での移行を想定し規制承認等が条件。Chaseブランドの事業提携として記録し、具体的な発行銀行法人名を推定しない。",
+    "direction": "undirected",
+    "event_date": "2026-01-07",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-f1d9241d2753001d0046d304",
+    "relationship_type": "partnership",
+    "source_company_id": "co-jpm",
+    "status_as_of": "2026-01-07",
+    "target_company_id": "co-aapl",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

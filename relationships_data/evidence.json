@@ -1,0 +1,4582 @@
+[
+  {
+    "evidence_id": "evidence-32427758e4d733676deaaa29",
+    "excerpt": "On July 9, 2019, IBM announced the completion of its acquisition of Red Hat",
+    "locator": "p:1",
+    "normalized_text_hash": "547900127d49339e31500df63f3395c0cb809a30da8465cf4aac4494d67b6914",
+    "section": "Primary announcement",
+    "source_id": "source-e9aab3329fcbb0da69522f12",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dabc8a11a07684182ed41f52",
+    "excerpt": "total equity value of approximately USD 34 billion",
+    "locator": "p:9",
+    "normalized_text_hash": "7c554a2a5a10e7e7837d270e20621b8b3f614a98a00d2b4d78415ea47a81f253",
+    "section": "Primary announcement",
+    "source_id": "source-e9aab3329fcbb0da69522f12",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-55e2fe0964455921d280a04c",
+    "excerpt": "NVIDIA and Anthropic are establishing a deep technology partnership",
+    "locator": "p:5",
+    "normalized_text_hash": "9f0133f53757c0f656123663913bda2cea6f80e5f05a28117fbab26e3ba0b658",
+    "section": "Primary announcement",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship",
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-71d626dcee86a5dc45fcccaf",
+    "excerpt": "Microsoft and Anthropic are also expanding their existing partnership",
+    "locator": "p:6",
+    "normalized_text_hash": "0641aa2e3620b84c1c02fa36e278408e5adae45650ee8c939345f6daa1672f96",
+    "section": "Primary announcement",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship",
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d67304a70073f0e059e82946",
+    "excerpt": "committing to invest",
+    "locator": "p:8",
+    "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+    "section": "Primary announcement",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0abc68268b7aa1b43b4af998",
+    "excerpt": "a new $4 billion investment from Amazon",
+    "locator": "p:1",
+    "normalized_text_hash": "af6e49ad9389dd6048d5752be7513f4977a2b8c77b5e992123aa1aafa9805c3c",
+    "section": "Primary announcement",
+    "source_id": "source-2110b6ef2c6af1e086212428",
+    "supports_fields": [
+      "relationship",
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cd43b0e029f3c0d56353ef9f",
+    "excerpt": "Amazon's total investment in Anthropic to $8 billion",
+    "locator": "p:1",
+    "normalized_text_hash": "5a3241b111f57469d4ec61ff3843bb6d2dd830f74c40f4c1cbc300a617db78db",
+    "section": "Primary announcement",
+    "source_id": "source-2110b6ef2c6af1e086212428",
+    "supports_fields": [
+      "relationship",
+      "parties",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b6a411f88e722b5c1c7fcdc7",
+    "excerpt": "For the first time, NVIDIA and Anthropic are establishing a deep technology partnership to support Anthropic’s future growth. Anthropic and NVIDIA will collaborate on design",
+    "locator": "p:5",
+    "normalized_text_hash": "35d1ea13ab68ffff1cb5c3a822e9f8fbe67d550c6dc971badf28ff83d5b2bda5",
+    "section": "paragraph",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-476ff23031dda1dbdefadb20",
+    "excerpt": "Microsoft and Anthropic are also expanding their existing partnership to provide broader access to Claude for businesses. Customers of Microsoft Foundry will be able to",
+    "locator": "p:6",
+    "normalized_text_hash": "4362f314953cbcd564d5863ee24cfe8521731451eb4437fe408f1f456858064b",
+    "section": "paragraph",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b9528db619cf406db1db478c",
+    "excerpt": "Amazon remains Anthropic’s primary cloud provider and training partner.",
+    "locator": "p:10",
+    "normalized_text_hash": "eee48de43753feb03d97a6faad989d61d9fc018e47d86030bdfcb471629aaeec",
+    "section": "paragraph",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-326dec4656bc0b31183574e4",
+    "excerpt": "Today we’re announcing an expansion of our collaboration with Amazon Web Services (AWS), deepening our work together to develop and deploy advanced AI systems. This",
+    "locator": "p:1",
+    "normalized_text_hash": "8e48a19d44b42e4fb21003c75a99cdb7035b001b8dad94ed404725768aba951c",
+    "section": "paragraph",
+    "source_id": "source-2110b6ef2c6af1e086212428",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f9c588e54fdeb2ccdf6a3562",
+    "excerpt": "expected to exceed $30 billion",
+    "locator": "p:8",
+    "normalized_text_hash": "7cf41eef49ed25dfbb243fecf001fdcdda8b9aa19bb1c4ff3862818f428327cc",
+    "section": "Official deal announcement",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e9b94e85e90507c290f01518",
+    "excerpt": "commitment of $500 million with MP Materials",
+    "locator": "p:8",
+    "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+    "section": "Official deal announcement",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fd728dff9d9a98a2491825ff",
+    "excerpt": "Apple is working with",
+    "locator": "p:7",
+    "normalized_text_hash": "f5ebe33985d5606c6242478f909e3b3909bfd1a6389b10d5172a7db76536ad79",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bfee9d2699801e4efd890512",
+    "excerpt": "Apple is working with",
+    "locator": "p:7",
+    "normalized_text_hash": "f5ebe33985d5606c6242478f909e3b3909bfd1a6389b10d5172a7db76536ad79",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-959c73df9082b6cbec3d7668",
+    "excerpt": "Apple is working with",
+    "locator": "p:7",
+    "normalized_text_hash": "f5ebe33985d5606c6242478f909e3b3909bfd1a6389b10d5172a7db76536ad79",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d533bc2fcf46b553077806d2",
+    "excerpt": "Apple is working with",
+    "locator": "p:7",
+    "normalized_text_hash": "f5ebe33985d5606c6242478f909e3b3909bfd1a6389b10d5172a7db76536ad79",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2aee7b9c9a01690c2e30a20b",
+    "excerpt": "Apple, Bosch, and TSMC",
+    "locator": "p:11",
+    "normalized_text_hash": "18194808dce36a09bf785eaf1ed7fa414792246f00bdbfc8e49bb4b1926aec88",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9234eb797b69099c624ee6d5",
+    "excerpt": "Cirrus Logic and GlobalFoundries",
+    "locator": "p:12",
+    "normalized_text_hash": "74931814263ec96bfb487adcbab4769a8c15d04c4cbcd2bc7d68e4fb5cbf57ee",
+    "section": "Official deal announcement",
+    "source_id": "source-390fbac73b8351518df960c3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e787132ccb6696c2c099b161",
+    "excerpt": "$50 billion",
+    "locator": "p:8",
+    "normalized_text_hash": "fb74c61a643ab988c80fc9e236dca892b9c5fb61c1f7d851021a9224514e8de9",
+    "section": "Official deal announcement",
+    "source_id": "source-57fc2c4b4f807eed60b3118f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5616456660b310d2888acc12",
+    "excerpt": "by $100 billion over 8 years",
+    "locator": "p:17",
+    "normalized_text_hash": "bc47fab07c5ce62e34800f43053d35c827aa90a32e20203e9684727f9b1b32d6",
+    "section": "Official deal announcement",
+    "source_id": "source-57fc2c4b4f807eed60b3118f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1747e7971d3998f896e21fc6",
+    "excerpt": "follow-on investments of USD 30.0 billion",
+    "locator": "p:1",
+    "normalized_text_hash": "2307f84d43dba8d5f2029d026da8c6a78dde1caed8d46f15fc7c8a8e86debe74",
+    "section": "Official deal announcement",
+    "source_id": "source-6a7dbd2365709848abd13576",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4336597f460697cb6683b19c",
+    "excerpt": "contract value of this deal is up to $6.5 billion",
+    "locator": "p:0",
+    "normalized_text_hash": "1127e5e77ef796af70db05defc99516ee73757deb37a5f7e4a3c6ae570fd221f",
+    "section": "Official deal announcement",
+    "source_id": "source-efc957b3506cdb3c32109b55",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-be50fd18b8c831fc26ed3b75",
+    "excerpt": "collaboration for 10 gigawatts of custom AI accelerators",
+    "locator": "p:6",
+    "normalized_text_hash": "8b71eb8efecec543a49ddf5761e2f3e6e2835bd25ba84fc114c1e6e4766b356b",
+    "section": "Official deal announcement",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d33b7c985b21cb38cae3c466",
+    "excerpt": "deliver AI infrastructure to Microsoft",
+    "locator": "p:1",
+    "normalized_text_hash": "441951c426c85a50c5ead4c36545186976958ec9df8655af8530ed43029fc3da",
+    "section": "Official deal announcement",
+    "source_id": "source-86de2bbc1de5ca7c58545590",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a4e2e466d7faa2f14fa3c21b",
+    "excerpt": "OpenAI",
+    "locator": "p:9",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Issuer context",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-43c157c06368872c9e7a4d2f",
+    "excerpt": "$30B from NVIDIA",
+    "locator": "p:3",
+    "normalized_text_hash": "5e3d1c1f5996c29406e74beafccb3a1a3eebfd46d352b9389e2b1372f1dc4418",
+    "section": "Official deal announcement",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4fb18049fa4a8dd53a0f611c",
+    "excerpt": "Blackwell",
+    "locator": "p:9",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5e0d4e2ddc92f0f09d4e97f3",
+    "excerpt": "Blackwell",
+    "locator": "p:8",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3c668aa2b4b224ef43c84c8b",
+    "excerpt": "Blackwell",
+    "locator": "p:13",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-54c244875fe3df75e2156263",
+    "excerpt": "Blackwell",
+    "locator": "p:15",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6f0ed657e3e8f05f4001a551",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d6174fedaf3020a6eeaab7c7",
+    "excerpt": "Blackwell",
+    "locator": "p:7",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b3b7636fabdd46dbedc8a6e7",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-08d33f8d0dfcbb760b1c1fd2",
+    "excerpt": "Blackwell",
+    "locator": "p:7",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ceeeb180fd31561f0ec9b4f3",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ca164342243ad4ff60104510",
+    "excerpt": "Blackwell",
+    "locator": "p:33",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9e28ae2ecf7bcbee0ccb61ce",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f5848e4e0d76ef001072e534",
+    "excerpt": "Blackwell",
+    "locator": "p:33",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b3abfe1daeb87ec4795365bf",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-52ef1d14267011e745edccde",
+    "excerpt": "Blackwell",
+    "locator": "p:33",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-54fa151eda7a66ba9425b5f3",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6f7743fd01262233d39afc73",
+    "excerpt": "Blackwell",
+    "locator": "p:33",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c2322f6874f4547ccc114b54",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-453c932ba412149f40d4153e",
+    "excerpt": "Blackwell",
+    "locator": "p:33",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-336e8b67a245e71e39d3d502",
+    "excerpt": "Blackwell",
+    "locator": "p:31",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-27cf0f6b32d0dd5a1ce3d970",
+    "excerpt": "Blackwell",
+    "locator": "p:31",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-816a020a4e954cf8ff63a614",
+    "excerpt": "Blackwell",
+    "locator": "p:31",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d45dcfe1a19667ee5f462eb9",
+    "excerpt": "Blackwell",
+    "locator": "p:31",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-80576b1ef3d452f6c1656692",
+    "excerpt": "Blackwell",
+    "locator": "p:31",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fe3d2dacfb81a73736305e3b",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cb0e24f1df0feda87f98790d",
+    "excerpt": "Blackwell",
+    "locator": "p:34",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b917f9295664236f53d4d269",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a15c681599c6d4730348c8ca",
+    "excerpt": "Blackwell",
+    "locator": "p:34",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1251443e9f89e3f655afabf5",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e24d00d18d237ca02188db21",
+    "excerpt": "Blackwell",
+    "locator": "p:34",
+    "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b2cdcfdfa987dfa624f87f20",
+    "excerpt": "NVIDIA",
+    "locator": "p:4",
+    "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+    "section": "Issuer context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9ab4245ad92717e7582b7f1b",
+    "excerpt": "TSMC",
+    "locator": "li:19",
+    "normalized_text_hash": "82139a4940b8498ea49fc653d08c0eabeb73a110be3720765d97b91717ce0d12",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-41a7bfee1b6530bb83077e61",
+    "excerpt": "Meta",
+    "locator": "p:3",
+    "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+    "section": "Issuer context",
+    "source_id": "source-1d2da399ba6eaf8ade2a5618",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7312fd52813f947b8a4a701f",
+    "excerpt": "up to $6 billion",
+    "locator": "p:1",
+    "normalized_text_hash": "a57be2a64aa13b42af0fea0f3ff77408a4514fac15e2b135f4d6b1a818a9a8b0",
+    "section": "Official disclosure: business context",
+    "source_id": "source-1d2da399ba6eaf8ade2a5618",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-69633402b6641a6f32e01d37",
+    "excerpt": "Meta",
+    "locator": "p:1",
+    "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+    "section": "Issuer context",
+    "source_id": "source-5a44e3fab07fdbe47c2e947d",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8739aeba0e0f89563d579e1d",
+    "excerpt": "up to 6GW",
+    "locator": "p:0",
+    "normalized_text_hash": "15241a3547e6622f5b1f8f23a1aab8e0d6f57c48db96bff7da9177825a552914",
+    "section": "Official disclosure: business context",
+    "source_id": "source-5a44e3fab07fdbe47c2e947d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9d9e4aeef35c978ce2683dbd",
+    "excerpt": "multi-year strategic partnership",
+    "locator": "p:0",
+    "normalized_text_hash": "41e0fb0760a9e2af4d9437507e499348cfbf871e94c47c18c86e37661cb93c78",
+    "section": "Official disclosure: business context",
+    "source_id": "source-156553bb76e00d30eaea9caa",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f66dbd9a11407cff6293c321",
+    "excerpt": "MTIA",
+    "locator": "p:0",
+    "normalized_text_hash": "befc9a70a068ceb56c86a9e323b639cd9918bc18e2b60f2e5996573b97a5a7db",
+    "section": "Issuer context",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8de2474671dfafbf05178542",
+    "excerpt": "1GW",
+    "locator": "p:3",
+    "normalized_text_hash": "8f563455a7bbc9043a5120220ba7ec0149d2972183d238eb77c464f6da8293df",
+    "section": "Issuer context",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cfd18cf92f081195140a429a",
+    "excerpt": "Broadcom",
+    "locator": "p:2",
+    "normalized_text_hash": "dfb457f6f9d8eacac296fa68eba52abac6b5921aa3d38838ef3c924b87736adc",
+    "section": "Official disclosure: business context",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e4f0521ddb336370ee184fcc",
+    "excerpt": "Natrium",
+    "locator": "p:11",
+    "normalized_text_hash": "0ff042c2d0720c6e002c2f97623c359d06211187f0e07b0a8f9ee0019717f6d1",
+    "section": "Official disclosure: business context",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4f9210ce13650bc633e27aa9",
+    "excerpt": "Meta",
+    "locator": "p:16",
+    "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+    "section": "Issuer context",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e6b20533ea615df64558ef88",
+    "excerpt": "1.2 GW",
+    "locator": "p:14",
+    "normalized_text_hash": "c79704c7b96d9d5ba74f3126ef3b1e564dd11f3e42a8a3862aaa81eb4eec0bfd",
+    "section": "Official disclosure: business context",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-161ab02c80b64b2866d701af",
+    "excerpt": "Meta",
+    "locator": "p:20",
+    "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+    "section": "Issuer context",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9e994dbc410bba321590f4ec",
+    "excerpt": "20-year",
+    "locator": "p:19",
+    "normalized_text_hash": "afec7555a89c8c869b9bcb750791d68d00fb17c84dc16e7280af803e55c438de",
+    "section": "Official disclosure: business context",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9bfa9ccf5b2f5a27f3101d22",
+    "excerpt": "supply agreement",
+    "locator": "p:5",
+    "normalized_text_hash": "ef8da2ac4153d8227d71768a89347b36e0c0dc089329baa43e90a0107c0f212e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-48d62afdde1d117e2d2985f5",
+    "excerpt": "Claude",
+    "locator": "p:6",
+    "normalized_text_hash": "af059c4e11f52d10cc7d914e115fa4d448f5102ae454b88d6e10ca25cb3b239e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-26f713878035ce63c8e9b5da",
+    "excerpt": "Series H",
+    "locator": "p:7",
+    "normalized_text_hash": "ea44af4aa552440e54b8490268ad498652320871808e48ea596b33030169e134",
+    "section": "Official disclosure: business context",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-184cf00a6c7c5240261fad35",
+    "excerpt": "HBM3E",
+    "locator": "p:6",
+    "normalized_text_hash": "f7d916fa1b40ff70bbfa6e5d5a8a7c25be9e066a7f9cb12d84b8d89618185ed1",
+    "section": "Official disclosure: business context",
+    "source_id": "source-6b1498de2bb1640d71b431f2",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ae8ab4a3235f695c92171898",
+    "excerpt": "Azure",
+    "locator": "li:7",
+    "normalized_text_hash": "b73a3f696754fed17eaaed47ee0e8a680969030394d9e0cd54a1de79760cd0d6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-400cd4735ae46af3c63f6fdf",
+    "excerpt": "Mistral AI",
+    "locator": "li:8",
+    "normalized_text_hash": "3ee0399ee2ab02c6cacf7b593d054f70d121e9424c4815fe0294431f6494c635",
+    "section": "Official disclosure: business context",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ec139d1d168ab1f22ef5ab68",
+    "excerpt": "preferred cloud provider",
+    "locator": "p:1",
+    "normalized_text_hash": "cfe8312d218e526982d8f6bd82bcf5ec3ffc48c0c285c93706ef5cd1e79e4b10",
+    "section": "Official disclosure: business context",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8a07742525f7df9e19a9bb08",
+    "excerpt": "Snapdragon Ride",
+    "locator": "p:4",
+    "normalized_text_hash": "c6d398f5d3db4443e34b3d039a889a8e73d4d0f3de16d10cc8d437ae200039b2",
+    "section": "Official disclosure: business context",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3dd968ce7715186d222203a6",
+    "excerpt": "Text of this article July 8, 2026 PRESS RELEASE Apple to increase spend with Broadcom to produce billions more U.S. chips New multiyear agreement includes",
+    "locator": "li:2",
+    "normalized_text_hash": "f398a05e306c2c2191e928af98521338910d2071a1eb6c640a7e72865beabca0",
+    "section": "paragraph",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9e07ba102e384d940845d8fe",
+    "excerpt": "CUPERTINO, CALIFORNIA Apple today announced a new multiyear commitment with Broadcom to design and produce custom silicon components and cutting-edge wireless connectivity technologies for a",
+    "locator": "p:8",
+    "normalized_text_hash": "a6073609efe132b898677006f05e47102417fa68cff8f44337c5dbbeec614438",
+    "section": "paragraph",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2f621e384d1d5bbf97c1cfc5",
+    "excerpt": "Broadcom is part of Apple’s American Manufacturing Program (AMP), launched last year to accelerate manufacturing in the U.S. This new agreement, which marks Apple’s largest",
+    "locator": "p:9",
+    "normalized_text_hash": "92be9c90f477921dd9e3c57110c880474a147f165f1afb78d2ac8b72c1d048ea",
+    "section": "paragraph",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4be3974f1226adde8ef8cefa",
+    "excerpt": "“Apple and Broadcom have a long history together, and this new phase of our partnership further accelerates our commitment to American manufacturing and innovation,” said",
+    "locator": "p:10",
+    "normalized_text_hash": "839ff7ad2f1a2746f3f6eb12077853a3a6df9591373b2b350660669e218081e0",
+    "section": "paragraph",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-56e83e230c95929b67ecb354",
+    "excerpt": "Apple is also working with Samsung at its fab in Austin, Texas, to launch an innovative new technology for making chips, which has never been",
+    "locator": "li:6",
+    "normalized_text_hash": "94e331c6d5125f32669d134fa1f098fcfd28354c34a310ebf6559c9d42577fc0",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bf83c3ae2386bc8592d398b6",
+    "excerpt": "GlobalFoundries and Apple have also entered an agreement to bring more semiconductor manufacturing to the United States, focused on manufacturing cutting-edge wireless technologies and advanced",
+    "locator": "li:7",
+    "normalized_text_hash": "206c0333462421cd9bc56f97837c4b911596f427d764852e167c7b112a1d79b9",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ec1b6122bc1e43d878d992e4",
+    "excerpt": "The American Manufacturing Program will help fund a major expansion of Apple’s long-standing partnership with Corning , bringing the world’s largest and most advanced smartphone",
+    "locator": "p:23",
+    "normalized_text_hash": "0f7d8f8bef6edafbd86f4cd48edf28ea333c288128769c2b033a694ce7721c7f",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-511d2321c3fe42f20efbde40",
+    "excerpt": "Apple has also entered into a new multiyear agreement with Coherent, a long-standing partner that produces the VCSEL lasers that enable multiple features — including",
+    "locator": "p:24",
+    "normalized_text_hash": "61838623529d2d01852694e38b52719647a9e9275f526cf0b41e934ef1b37e48",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6c92f3d6216f320731864122",
+    "excerpt": "This U.S. silicon supply chain is on track to produce more than 19 billion chips for Apple products in 2025. That includes TSMC in Arizona,",
+    "locator": "p:28",
+    "normalized_text_hash": "201041e612be6adbf59618ba14a12a4360c6c10b3f6ad40f43ad2d5f910c290f",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2ebeeb4bf1b1b5f910bd7114",
+    "excerpt": "Apple is also working with Samsung at its fab in Austin, Texas, to launch an innovative new technology for making chips, which has never been",
+    "locator": "li:33",
+    "normalized_text_hash": "94e331c6d5125f32669d134fa1f098fcfd28354c34a310ebf6559c9d42577fc0",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cef391ff165e645f64746d08",
+    "excerpt": "GlobalFoundries and Apple have also entered an agreement to bring more semiconductor manufacturing to the United States, focused on manufacturing cutting-edge wireless technologies and advanced",
+    "locator": "li:34",
+    "normalized_text_hash": "206c0333462421cd9bc56f97837c4b911596f427d764852e167c7b112a1d79b9",
+    "section": "paragraph",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-92e42b8dbbe5a3198020b386",
+    "excerpt": "Text of this article July 15, 2025 UPDATE Apple expands U.S. supply chain with $500 million commitment to American rare earth magnets In the first-of-its-kind",
+    "locator": "li:2",
+    "normalized_text_hash": "d48974015000a78ae786659071035b729220d74143330eafc4aa311a1dd2749d",
+    "section": "paragraph",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c902c23cbd36f154d1209918",
+    "excerpt": "Today Apple announced a new commitment of $500 million with MP Materials, the only fully integrated rare earth producer in the United States. With this",
+    "locator": "p:8",
+    "normalized_text_hash": "b0fc7fb2df6ea4bf513beaa29da2fc7ade78dad32edbe0996c4005f414d04fd1",
+    "section": "paragraph",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d098f95c53f246e501137174",
+    "excerpt": "Apple and MP Materials will build out the state-of-the-art Texas factory with a series of neodymium magnet manufacturing lines specifically designed for Apple products. The",
+    "locator": "p:10",
+    "normalized_text_hash": "3a8c47c10a630ac77386b4f70b0367678c180ac6325e58597590eb0f052b0aef",
+    "section": "paragraph",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5fd5ff77228e486299f63858",
+    "excerpt": "Apple pioneered the use of recycled rare earth elements in consumer electronics, first introducing them in the Taptic Engine of iPhone 11 in 2019. Today,",
+    "locator": "p:12",
+    "normalized_text_hash": "d1f7ec3c8f3b07cf351d605f2b097dbfc8bf95e98c699161ffd985598499610f",
+    "section": "paragraph",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3ce827a5566e7d90162f78ec",
+    "excerpt": "This news continues the companies’ work together to provide cutting-edge AI technology to benefit organizations worldwide. Earlier this year, OpenAI open weight foundation models became",
+    "locator": "p:5",
+    "normalized_text_hash": "8fe038779dda99f8c56a4b443d6c09576bb5933d2c4267601b7899e454a981ac",
+    "section": "paragraph",
+    "source_id": "source-caf9b28600b243a4ebfa78e3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-75d755fd783b07b282168cd6",
+    "excerpt": "OpenAI and Amazon announce strategic partnership",
+    "locator": "h1:1",
+    "normalized_text_hash": "fdc6afcf7d2a03d1b4901b4a6680186d7b65c21c8dd4c60b05b1a6bc1293e9bb",
+    "section": "paragraph",
+    "source_id": "source-57fc2c4b4f807eed60b3118f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fbeff5c45beb6f327cd115f9",
+    "excerpt": "Amazon will invest $50 billion in OpenAI.",
+    "locator": "li:7",
+    "normalized_text_hash": "7d6e48241a0634b546d035a423229066996c66ff096d3022ce96cb51794908b1",
+    "section": "paragraph",
+    "source_id": "source-57fc2c4b4f807eed60b3118f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f76c0f3071a6ca640468eddd",
+    "excerpt": "OpenAI and Amazon (NASDAQ: AMZN) today announced a multi-year strategic partnership to accelerate AI innovation for enterprises, startups, and end consumers around the world. Amazon",
+    "locator": "p:8",
+    "normalized_text_hash": "dbbecc5207037c620c7dd1cca6c6d26178ee9f11e54d6590f1bbfb2a857abfff",
+    "section": "paragraph",
+    "source_id": "source-57fc2c4b4f807eed60b3118f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0f4c645e8d2d1e7288dcfd88",
+    "excerpt": "Today we’re announcing $110B in new investment at a $730B pre-money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon. We’ve",
+    "locator": "p:3",
+    "normalized_text_hash": "cf5a2f44adcbb7c8e00c9c1d49e03d523f55d0e0c4f4aeca5a3ee89a2f350631",
+    "section": "paragraph",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d40aa40885ae73506febe2bd",
+    "excerpt": "OpenAI and Amazon today announced a multi-year strategic partnership to accelerate AI innovation for enterprises, startups, and end consumers around the world. Read the full",
+    "locator": "p:11",
+    "normalized_text_hash": "a60b6771acf82138bba6cec3ffcf60bfceebf5fb0e372a9a17b94f40a9e7cb2f",
+    "section": "paragraph",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6a62101a5cd5c55727927fc5",
+    "excerpt": "SoftBank Group Corp. (“SBG”) today announced that, on February 27, 2026 (U.S. time), it entered into a definitive agreement with OpenAI Group PBC (“OpenAI”), a",
+    "locator": "p:1",
+    "normalized_text_hash": "b700f992244bf707d1596d682e1ab74c04b95c94cebab70fd3a6a6fc61d2ccc8",
+    "section": "paragraph",
+    "source_id": "source-6a7dbd2365709848abd13576",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9a644f1f44dae35d0ccb4a98",
+    "excerpt": "Masayoshi Son, Chairman & CEO of SoftBank Group Corp., said: “AI is transforming the world at an unprecedented pace. OpenAI is a clear leader, with",
+    "locator": "p:32",
+    "normalized_text_hash": "b72200d620cc496db6f6e6894081d41b3b94762db40aa6cf0f780afc2208f7dd",
+    "section": "paragraph",
+    "source_id": "source-6a7dbd2365709848abd13576",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7e842dc0f8bc0b980a314f19",
+    "excerpt": "“CoreWeave has become an important partner in OpenAI’s broader infrastructure platform,” said Peter Hoeschele, VP of Infrastructure and Industrial Compute. “By delivering compute at unmatched",
+    "locator": "p:3",
+    "normalized_text_hash": "74a6f00e293942fd75fdeaceff7ccefc0123e684e47d42c6268c302ba82b808b",
+    "section": "paragraph",
+    "source_id": "source-efc957b3506cdb3c32109b55",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cabc9faf1930650e24cab7ea",
+    "excerpt": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+    "locator": "h1:1",
+    "normalized_text_hash": "cb8cf1ba07b1b7345f8a88b175fdd506c29e40468e1b2b267f8625c0a97b3e66",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bfe42f4ca345e1bc66d44863",
+    "excerpt": "Multi-year partnership enables OpenAI and Broadcom to deliver accelerator and network systems for next-generation AI clusters.",
+    "locator": "p:2",
+    "normalized_text_hash": "71296e94aeb9b6ddab1701434a8c20122bfb0c75d906c45a1cc4e3603c613e22",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4427b8e42a2f49ba34368928",
+    "excerpt": "San Francisco and Palo Alto—October 13, 2025— OpenAI and Broadcom today announced a collaboration for 10 gigawatts of custom AI accelerators. OpenAI will design the",
+    "locator": "p:6",
+    "normalized_text_hash": "2ff9a8ed8a4a3104a74e3378df0946db193999422e9b2e5efe46188ee7461c8b",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d982fcd505ad912c0507be4d",
+    "excerpt": "OpenAI and Broadcom have long-standing agreements on the co-development and supply of the AI accelerators. The two companies have signed a term sheet to deploy",
+    "locator": "p:7",
+    "normalized_text_hash": "7638dfde7c87f4f369c982d7a481fc850ccd2579eae5a7f47b2c4e1dbad44b77",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-706f6cbf9f509788eec0cb2e",
+    "excerpt": "“Partnering with Broadcom is a critical step in building the infrastructure needed to unlock AI’s potential and deliver real benefits for people and businesses,” said",
+    "locator": "p:8",
+    "normalized_text_hash": "ccaa2813e204782b5b8cf43a7170da4580eb713536e9c7de8e8408c07997663b",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f6b753e956ade753640528cf",
+    "excerpt": "“Broadcom’s collaboration with OpenAI signifies a pivotal moment in the pursuit of artificial general intelligence,” said Hock Tan, President and CEO of Broadcom. “OpenAI has",
+    "locator": "p:9",
+    "normalized_text_hash": "2685c2e2fde6c06b6b349b948f4cc5139a475afbdfed9f42154423e630770a4c",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1bbb2a3807f3a619dacf6a9c",
+    "excerpt": "“Our collaboration with Broadcom will power breakthroughs in AI and bring the technology’s full potential closer to reality,” said OpenAI co-founder and President, Greg Brockman.",
+    "locator": "p:10",
+    "normalized_text_hash": "48a5ac3f73b5191f6b557119c587c41cad026c3399b902e327ba71401a59a8dc",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dcf7d5d657a63e32f6af65cd",
+    "excerpt": "“Our partnership with OpenAI continues to set new industry benchmarks for the design and deployment of open, scalable and power-efficient AI clusters,” said Charlie Kawwas,",
+    "locator": "p:11",
+    "normalized_text_hash": "47171874f1cbf03a3e7fead3a9276a6df746e99763ef251d70f0a333b09d027c",
+    "section": "paragraph",
+    "source_id": "source-c552bea1179de1caca57afec",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fff961d2e4a1108a864fa05d",
+    "excerpt": "Additionally, AWS customers will be able to access the full Anthropic-native Claude console from within AWS. Claude Platform on AWS lets customers access Anthropic's Claude",
+    "locator": "p:3",
+    "normalized_text_hash": "bc9a89be8ae3eb9a471c237f7e6b7a2c7e89b4a22dbfabe9add2b307d2698859",
+    "section": "paragraph",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ae02d33883133e5ba0553fcb",
+    "excerpt": "Separately, Amazon will invest $5 billion in Anthropic today and up to an additional $20 billion in the future tied to certain commercial milestones. This",
+    "locator": "p:4",
+    "normalized_text_hash": "c71c013494ef03c54f57c2cac5195e4b0a08b34592a36640b10564ae522d842a",
+    "section": "paragraph",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f200949dbad0f1f03c350079",
+    "excerpt": "\"Our users tell us Claude is increasingly essential to how they work, and we need to build the infrastructure to keep pace with rapidly growing",
+    "locator": "p:6",
+    "normalized_text_hash": "21dfb0de93543570c4b1cdc9c4239f23634604f878f0568745f10656bdb73f0e",
+    "section": "paragraph",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6ff7131102e7b16b84b7fd08",
+    "excerpt": "OpenAI and Amazon today announced a multi-year strategic partnership to accelerate AI innovation for enterprises, startups, and end consumers around the world. Amazon will also",
+    "locator": "p:0",
+    "normalized_text_hash": "3fe6a699f7eeddfd40465bcdba88e4dfeee5001ae31025297d041da334ce1e60",
+    "section": "paragraph",
+    "source_id": "source-5dd316072ce72ff8763f4344",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0756eb40cb34195c49ac26c5",
+    "excerpt": "“We have lots of developers and companies eager to run services powered by OpenAI models on AWS, and our unique collaboration with OpenAI to provide",
+    "locator": "p:11",
+    "normalized_text_hash": "aaf873bf9cb4132769b97df1f9beabc6739e88562c28654d5af06208d6219fff",
+    "section": "paragraph",
+    "source_id": "source-5dd316072ce72ff8763f4344",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e162120532ee088ef6d8bb64",
+    "excerpt": "“This long-term partnership with Meta reflects Corning’s commitment to develop, innovate, and manufacture the critical technologies that power next generation data centers here in the",
+    "locator": "p:5",
+    "normalized_text_hash": "a59f17c3d7d3af1f5495f14da8cf096b88e087accb68b712ac74cd1790b6b2c2",
+    "section": "paragraph",
+    "source_id": "source-1d2da399ba6eaf8ade2a5618",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-59f5b0e0f06aa0e3157826ba",
+    "excerpt": "Sundar Pichai, CEO of Alphabet and Google: “Scaling services like Search and Gmail to billions of users has taught us a lot about managing compute",
+    "locator": "p:8",
+    "normalized_text_hash": "fbfdb20d044e79f04400f12ee686566e70ab22f0e79ae4af4b76992cf1022d00",
+    "section": "paragraph",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dc31d48148e25b6b30a4626e",
+    "excerpt": "Andy Jassy, president and CEO of Amazon: “Our deep collaboration with NVIDIA goes back more than 13 years, when we launched the world’s first GPU",
+    "locator": "p:9",
+    "normalized_text_hash": "534233dfadf17a702f61a423f2b280d44f2ab3fb5f31f7e6aa8ed0da1b141d6f",
+    "section": "paragraph",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fe3648f6cc989f127b13c4e1",
+    "excerpt": "Michael Dell, founder and CEO of Dell Technologies: “Generative AI is critical to creating smarter, more reliable and efficient systems. Dell Technologies and NVIDIA are",
+    "locator": "p:10",
+    "normalized_text_hash": "e77fc3858c17a95f0eb9093cbb029bf40c729d802e9b64f706c0908973eda884",
+    "section": "paragraph",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-62030df307a316758b40731a",
+    "excerpt": "Larry Ellison, chairman and CTO of Oracle: \"Oracle’s close collaboration with NVIDIA will enable qualitative and quantitative breakthroughs in AI, machine learning and data analytics.",
+    "locator": "p:15",
+    "normalized_text_hash": "edb2eb30d7e64891a8a8f54e7f7d23547d291f5c22e331fba0dabcfbec58e3d4",
+    "section": "paragraph",
+    "source_id": "source-e97b9cecec1fb660d74d12ae",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1332c8abd88973afb3b33c63",
+    "excerpt": "Today, we’re excited to announce a multi-year strategic partnership with NVIDIA to advance our long-term AI infrastructure roadmap. The large-scale deployment of NVIDIA technology builds",
+    "locator": "p:0",
+    "normalized_text_hash": "928efbce11f3491197d3c9ade367894338528c308a4df3753a081889da788a12",
+    "section": "paragraph",
+    "source_id": "source-156553bb76e00d30eaea9caa",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c8e6c11aac6270f94367e456",
+    "excerpt": "As part of this multi-generational collaboration, engineering teams across Meta and NVIDIA will optimize and accelerate state-of-the-art AI models across our core workloads to drive",
+    "locator": "p:5",
+    "normalized_text_hash": "336eff4cdf257f50f23fdd8e1b1402d24b83417c37bdd88b3c841f1217546e89",
+    "section": "paragraph",
+    "source_id": "source-156553bb76e00d30eaea9caa",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-43f195782100a36910fe8341",
+    "excerpt": "Today we’re announcing an expanded partnership with Broadcom to co-develop multiple generations of our next-generation MTIA (Meta Training and Inference Accelerator) chips — the custom",
+    "locator": "p:0",
+    "normalized_text_hash": "5e0e532ee7eaf4d17f5085cc4ece22e33156b4ae418e82f220b2646428e5d415",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1dc4f0d6775fffaded13a632",
+    "excerpt": "At Meta, we take a portfolio approach to AI silicon, matching the right accelerator to each workload to achieve the best mix of performance and",
+    "locator": "p:1",
+    "normalized_text_hash": "773b8e55538cc9153b7eb93d22655f881b2b02cf4ba5975ff62fb4b866242db2",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8d1dcb67042bf7b40ecdacd7",
+    "excerpt": "Broadcom will work with us across chip design, advanced packaging, and networking to help build out the massive computing foundation we need to deliver real-time",
+    "locator": "p:2",
+    "normalized_text_hash": "ab8ea6d33205eb130a867739d4fc05fa550cf2424c2a2594b1a5c2df145786f5",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-71dcce54743eab6d337689d7",
+    "excerpt": "“We are pleased to expand our strategic collaboration with Meta as they pioneer the next frontier of artificial intelligence,” said Hock Tan, President and CEO",
+    "locator": "p:4",
+    "normalized_text_hash": "1c9dca66c6220f63693dcdf0c2ef781738af5610be4683d38f618934344118f7",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ff8bffcd2d0703433e4ce5fd",
+    "excerpt": "“Meta is partnering with Broadcom across chip design, packaging, and networking to build out the massive computing foundation we need to deliver personal superintelligence to",
+    "locator": "p:5",
+    "normalized_text_hash": "2c81bda48115618080b3680b1208f359c0c34636d310cff8b2822dc9a6887713",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-913197399f71a24e1f26cd75",
+    "excerpt": "This expanded partnership with Broadcom and the continued evolution of MTIA are critical to Meta’s broader AI infrastructure strategy, ensuring we have the custom compute",
+    "locator": "p:6",
+    "normalized_text_hash": "066f09efc6c3fc3e4f1927324bf6e21d02ef0f6da66480159a8094ff02f60df3",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-446f96130f8a0b722a086936",
+    "excerpt": "Given the scale of this expanded partnership, Broadcom President and CEO, Hock Tan, will transition off of Meta’s Board of Directors and will move to",
+    "locator": "p:8",
+    "normalized_text_hash": "8a89916da50c3ef2c232c1cef02e1ea9b274d155c5aff9491a2a5a5c566dd47e",
+    "section": "paragraph",
+    "source_id": "source-5b6b35f482dbbfa8b0632deb",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-db20e99d1633d6d876de014e",
+    "excerpt": "Our agreement with TerraPower will provide funding that supports the development of two new Natrium® units capable of generating up to 690 MW of firm",
+    "locator": "p:11",
+    "normalized_text_hash": "dea2ed9391e58cacfb6b6816c78ee1fb300d8d90b7f7a7613eb1329ba9d5b02b",
+    "section": "paragraph",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c587c08ea4550ee22d6851ba",
+    "excerpt": "“To successfully address growing energy demand, we must deploy gigawatts of advanced nuclear energy in the 2030s. This agreement with Meta is designed to support",
+    "locator": "p:12",
+    "normalized_text_hash": "42b05460a0c21bfb51a84c40c033cc3a2cf8c99fb79554378d9f6c2c468a63d8",
+    "section": "paragraph",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d8c2c5cc1c6ed0b270efad28",
+    "excerpt": "Meta’s commitments ensure that these facilities can continue providing reliable power to the regional electricity grid. The new additional uprate capacity at each of them,",
+    "locator": "p:20",
+    "normalized_text_hash": "494073bd0b92bf927d22b4a5a08f3b970b6fc79fa149a8dae07cf2eb0b5b056a",
+    "section": "paragraph",
+    "source_id": "source-1d8d40a462d948ef66361776",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-585a922728a70ffb2b233eba",
+    "excerpt": "BOISE, Idaho, June 22, 2026 (GLOBE NEWSWIRE) -- Micron Technology, Inc. (Nasdaq: MU) today announced a strategic agreement with Anthropic that spans memory and storage",
+    "locator": "p:1",
+    "normalized_text_hash": "00531a6a5c21083a0b2be9732da4ee964555745edbdaf20b3f58b2bcbe88e032",
+    "section": "paragraph",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8628f1c67cf8a6afe9e4db32",
+    "excerpt": "\"Our compute strategy depends on getting every layer of the stack right, and memory and storage are central to how efficiently we can train and",
+    "locator": "p:2",
+    "normalized_text_hash": "198ac1e296b72ec97ba12df5a2cf242c6067ae13440d3bf198330bdaa716bb4f",
+    "section": "paragraph",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f40175941f3040087dbdffe9",
+    "excerpt": "Supply Agreement Building on the technical collaboration, Micron and Anthropic have entered into a memory and storage supply agreement spanning Micron's industry-leading data center portfolio.",
+    "locator": "p:5",
+    "normalized_text_hash": "497b6904d97be36174d430296bd85e05b19c2a37584fd10c0902d50a9217ea89",
+    "section": "paragraph",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3dc8f569b32436c371825db8",
+    "excerpt": "Strategic Investment In addition to the technology alignment and supply agreement, Micron has made a strategic investment in Anthropic’s Series H funding round, reflecting a",
+    "locator": "p:7",
+    "normalized_text_hash": "97d3c15bbb4948888f2b3f112e62e2a9d7abfe28e3795af07394725d871fc5fd",
+    "section": "paragraph",
+    "source_id": "source-27605b8f97d38f158cac2f54",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f20d6ce89df7218ba565828b",
+    "excerpt": "Micron’s SOCAMM, a modular LPDDR5X memory solution, was developed in collaboration with NVIDIA to support the NVIDIA GB300 Grace ™ Blackwell Ultra Superchip . The",
+    "locator": "p:6",
+    "normalized_text_hash": "1107c6c7e8075a48c4c3e7a07483175cd1e95474852a818c803530ba01dc6c11",
+    "section": "paragraph",
+    "source_id": "source-6b1498de2bb1640d71b431f2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ddedb93c8e67d3f4d26e266e",
+    "excerpt": "Today, we are announcing a multi-year partnership between Microsoft and Mistral AI, a recognized leader in generative artificial intelligence. Both companies are fueled by a",
+    "locator": "p:1",
+    "normalized_text_hash": "70de496d7704d1d93470c1828683c75b021f8b7dd1aec69b222adcbf0e8de3c4",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-612df06b383e09672d467233",
+    "excerpt": "This partnership with Microsoft enables Mistral AI with access to Azure’s cutting-edge AI infrastructure , to accelerate the development and deployment of their next generation",
+    "locator": "p:4",
+    "normalized_text_hash": "6043df7d04fc150a15917cb5db3846340ae27b733b14254037e5292a1fe4f60e",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a1ceda03b9edd7a34cf8c0a9",
+    "excerpt": "Microsoft’s partnership with Mistral AI is focused on three core areas:",
+    "locator": "p:6",
+    "normalized_text_hash": "904609cb13c5e285adc49a50c0113c984facc8247752cb3ac11de93d1efdff86",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-81c0a5985d764a4af1c9b4a9",
+    "excerpt": "AI research and development : Microsoft and Mistral AI will explore collaboration around training purpose-specific models for select customers, including European public sector workloads.",
+    "locator": "li:9",
+    "normalized_text_hash": "56626674a4bef554661e8a4a857d816f3aeb632895339dee84c26d1061ebbb9c",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9e49b1b6e463e51d939a9c2e",
+    "excerpt": "This latest addition of Mistral AI’s premium models into Models as a Service (MaaS) within Azure AI Studio and Azure Machine Learning provides Microsoft customers",
+    "locator": "p:12",
+    "normalized_text_hash": "8993bf280d66639291161b3ba116a3be217ec1778cd082a66b01f157abfb556d",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-012ecc5f7c0f9f05c62146cf",
+    "excerpt": "Microsoft is committed to supporting global AI innovation and growth, offering world-class datacenter AI infrastructure, and developing technology securely to empower individuals with the skills",
+    "locator": "p:16",
+    "normalized_text_hash": "d345a688f33908b45c9ea6386bdeea7a1005834556917e4503d204f703769e06",
+    "section": "paragraph",
+    "source_id": "source-902621c5139ad46e9da56c18",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8d8c573ef04e6ed8f453bf6e",
+    "excerpt": "“In the next decade, consumer habits and expectations will drive more changes in the automotive industry than we’ve seen over the past 30 years,” said",
+    "locator": "p:2",
+    "normalized_text_hash": "799463e37447b160383cd60d4b909a15edc5e074001fdc513a21a58047144158",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-18ac5618075e18c5f98cc8b8",
+    "excerpt": "The BMW Group has also joined Qualcomm Technologies, Inc., to co-develop next-generation automated driving systems based on the open and modular Snapdragon Ride Platform. The",
+    "locator": "p:4",
+    "normalized_text_hash": "9ecaf132383aa8ab15988f1b588ff4247d1743041f3887351a13a92e08375dad",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-51a26804010a1488578cdc1d",
+    "excerpt": "AWS services will help power this new scalable, automated driving platform based on a common reference architecture, accelerating the development life cycle and broadening it",
+    "locator": "p:7",
+    "normalized_text_hash": "173079373712132066d0bc9e7df2e0b32e26fdf7ae5d82b2862b63fc351435c0",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-373563f1ee34b918f0710906",
+    "excerpt": "About Amazon Web Services",
+    "locator": "p:9",
+    "normalized_text_hash": "06981cd74d4a73d0a267c5281968114a0df81710417dc836449e0d82a3804d25",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8109bf6676d1ac9ea1c7ca7e",
+    "excerpt": "$4 billion commitment for cloud services through 2031",
+    "locator": "p:0",
+    "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+    "section": "Official primary disclosure",
+    "source_id": "source-08880256638be8c4001e0a07",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4a71d6c1a98ec10f5b5d90ca",
+    "excerpt": "commitment from Anthropic to spend more than $100 billion",
+    "locator": "p:1",
+    "normalized_text_hash": "fafec0d02ade34b9c6c5f15a684c5140a828781575dd92497edbd234d3428040",
+    "section": "Official primary disclosure",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-30e04eeb7e253e4cd3492e78",
+    "excerpt": "Amazon will invest $5 billion in Anthropic today and up to an additional $20 billion",
+    "locator": "p:4",
+    "normalized_text_hash": "4ed08c48526e2662d0d19bf923b71d6410ae13cdf9d09e44c7a4364a879ddc55",
+    "section": "Official primary disclosure",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1b82d29797d80ff5f3356988",
+    "excerpt": "acquisition of Wiz",
+    "locator": "p:14",
+    "normalized_text_hash": "744353d505f51550072e506902a6950bfaabf97005ad58a49c1144e2ed6d11a8",
+    "section": "Official disclosure: business context",
+    "source_id": "source-3f80e854721ad8645bce9be7",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b32331dbd435555ed1d9e002",
+    "excerpt": "Google is a subsidiary of Alphabet Inc.",
+    "locator": "p:29",
+    "normalized_text_hash": "15e8f64274f544e3dde084042c5423005da901347d9f4af8dba1efea50562dcb",
+    "section": "Official disclosure: business context",
+    "source_id": "source-3f80e854721ad8645bce9be7",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6691777250de6047451ec2d7",
+    "excerpt": "Google Cloud customers",
+    "locator": "p:26",
+    "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7e65bb21f303e5667d225230",
+    "excerpt": "Google Cloud customers",
+    "locator": "p:26",
+    "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e8325d3f8f5851ce685dac16",
+    "excerpt": "Google Cloud customers",
+    "locator": "p:26",
+    "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-303f420590083188c90dc438",
+    "excerpt": "Google Cloud customers",
+    "locator": "p:26",
+    "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-217c00a3a41f9dadedd3d163",
+    "excerpt": "Google Cloud customers",
+    "locator": "p:26",
+    "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c33e3357d134b9d4b72fec26",
+    "excerpt": "acquisition of ZT Systems",
+    "locator": "p:10",
+    "normalized_text_hash": "e00eb0960962ca8ad94af7452443fe90b8039345424c7443f99d0acb277c7874",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e7bbf5503fd4764b8e8f9f96",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1bf847ba1504be2d08acc3c3",
+    "excerpt": "Red Hat OpenShift AI",
+    "locator": "p:16",
+    "normalized_text_hash": "5622060a1003963107eb5e5b3bbade3c40ccb808cc97dde06541a2e6a1ea4e25",
+    "section": "Official disclosure: business context",
+    "source_id": "source-5f65a471bafc823d593d0381",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1ea5fbd3747b2138dcdc5e2d",
+    "excerpt": "Amazon Web Services will support MHS through Strands Robots, the library for connecting AI agents to physical devices. AWS will provide participants a private, pre-release",
+    "locator": "li:27",
+    "normalized_text_hash": "f644eb04c8c4562aa97f595c955eb4a15e113df9bc381a6e49ccbd83d30e27cb",
+    "section": "paragraph",
+    "source_id": "source-5670db465f60e64b6c4f877c",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-06ef2e6c5944c76853ddb5a7",
+    "excerpt": "Amazon has invested more than $20 billion in North Carolina since 2010, including infrastructure and compensation to our employees, and in 2025 alone, donated $10",
+    "locator": "p:81",
+    "normalized_text_hash": "9e7d71695d5d62a021bfed2849e6e72e2e4e7901524f6fdcc5729bc81bd4c7aa",
+    "section": "paragraph",
+    "source_id": "source-b1b4ca231314cb1091fcdce5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a00265ad6505ce768295747f",
+    "excerpt": "“We knew we had ambitious goals, but what we didn't know was just how incredible our local partnerships would become,” said Roger Wehner, vice president",
+    "locator": "p:269",
+    "normalized_text_hash": "d98777a9f23421f04344b81068b01e0359c9fd75f83976c91e14b693751ca0b1",
+    "section": "paragraph",
+    "source_id": "source-b1b4ca231314cb1091fcdce5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d288a7f2c401db84a4039d3b",
+    "excerpt": "More than a decade ago, Amazon Web Services (AWS) built its first data centers in eastern Oregon . Since then, AWS has remained committed to",
+    "locator": "p:271",
+    "normalized_text_hash": "6c3df7918722b0989d0f8417b2a6b57c474c87220c823a46817f629556bde4b3",
+    "section": "paragraph",
+    "source_id": "source-b1b4ca231314cb1091fcdce5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d3b404303815c9fd2255c918",
+    "excerpt": "Additionally, Amazon Web Services (AWS) recently launched initiatives in Georgia this year to provide free tech skills training through no-cost programs such as the AWS",
+    "locator": "p:307",
+    "normalized_text_hash": "bae978dc21203f92c3eaba5316daaa4d9beca31f145c2cacc8afa415742829ca",
+    "section": "paragraph",
+    "source_id": "source-b1b4ca231314cb1091fcdce5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-97ef4079653e620c7be10324",
+    "excerpt": "Amazon Web Services (AWS) announced that it is the first cloud provider to have its cloud capabilities approved for use by all North Atlantic Treaty",
+    "locator": "p:0",
+    "normalized_text_hash": "d730b7412c8063e331f0bbb624087d092da0a6fa94106b5dfe0ca1468463e980",
+    "section": "paragraph",
+    "source_id": "source-a510268302cec99ee40f5a8e",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c10f21132c4fcf2110384cee",
+    "excerpt": "Amazon Web Services (AWS) announced Fastnet, a state-of-the-art transatlantic subsea fiber optic cable system connecting Maryland, U.S., and County Cork, Ireland. When operational in 2028,",
+    "locator": "p:0",
+    "normalized_text_hash": "b2aad0ec559b4538edab962981254231eb8dde54cfda23d9d0c6cac6751c57b9",
+    "section": "paragraph",
+    "source_id": "source-670569af7185bb7c5f4ebb46",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c6e118b760eb41d40151a2ba",
+    "excerpt": "August 11, 2026: Two specialized cybersecurity models from OpenAI are now available on Amazon Bedrock to eligible customers. Daybreak Red provides access to GPT-5.6 Cyber,",
+    "locator": "p:5",
+    "normalized_text_hash": "2189ccdd0058d88aa02d981d4a469cd89f90cae1acb0dc2f687a4ec4eaa1008d",
+    "section": "paragraph",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-93baf5563ba7102c2044e66d",
+    "excerpt": "Today's most capable AI agents have shown what frontier reasoning models can do: perform complex, multi-step work with minimal human intervention. OpenAI frontier models and",
+    "locator": "p:18",
+    "normalized_text_hash": "32dff344f60946de349faab7583a0efdd23fff535b7da6be0e434e44f67c201c",
+    "section": "paragraph",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-82d272d91a0115393f3db5b6",
+    "excerpt": "Bedrock Managed Agents is optimized for OpenAI models on AWS. It is built with the OpenAI agent harness, which is engineered to unlock the full",
+    "locator": "p:19",
+    "normalized_text_hash": "958c337ad41819ddf553e960826d86889d22cc91ce168f77bae910adf31fa8f5",
+    "section": "paragraph",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ca70173a8635a0d8b6f15cd7",
+    "excerpt": "Box is the leading Intelligent Content Management platform, helping over 115,000 organizations fuel collaboration, manage their entire content lifecycle, secure critical content, and transform business",
+    "locator": "p:20",
+    "normalized_text_hash": "abccf7280dd9b68b15900c45ff36b21bfdbae8102c835769d107f8b561f7d4ec",
+    "section": "paragraph",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e91c393d33771c87b3cda4c6",
+    "excerpt": "This is the beginning of a deeper collaboration between AWS and OpenAI. As OpenAI pushes the frontier of reasoning and agentic capabilities, AWS and OpenAI",
+    "locator": "p:22",
+    "normalized_text_hash": "8542e3ba646e3d0500c7925d31917918f5660e36fb796b49f46efa9e9d623740",
+    "section": "paragraph",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8bfc6a6319dac999bfc19afb",
+    "excerpt": "Amazon Web Services (AWS) now offers five AI certifications, spanning foundational AI literacy, business strategy for AI adoption and scale, and professional-level expertise.",
+    "locator": "p:0",
+    "normalized_text_hash": "b142d8a64d479d6813309152dcc5a15fbc0d8e76793cb5c77fe8014df6cd28b8",
+    "section": "paragraph",
+    "source_id": "source-a082eafaab75412f307259a8",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ea83a523bd7d8791153b104e",
+    "excerpt": "Amazon Web Services (AWS) has announced at LEAP in Riyadh that its first AWS Cloud Infrastructure Region in the Kingdom of Saudi Arabia is on",
+    "locator": "p:0",
+    "normalized_text_hash": "16fbe4126cb620cd3849849e556e381d27efa5a6ba71ba91339d36d39560ff06",
+    "section": "paragraph",
+    "source_id": "source-35153d51df6f7aff06e1b439",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bc62115c5f2357b874f03801",
+    "excerpt": "Press Releases | SoftBank Group Corp. https://group.softbank/en/news/press Issuance of Foreign Currency-Denominated Senior Notes https://group.softbank/en/news/press/20260924 SoftBank Group Corp. announces that it determined the following terms and",
+    "locator": "body",
+    "normalized_text_hash": "10a38ef2f1aaa57686a303c5eebd8fd902e298a225357dd1b4b2aaba212552d5",
+    "section": "paragraph",
+    "source_id": "source-311f300719e0734712c02ce3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c10fece4b014b735a07f579d",
+    "excerpt": "We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and",
+    "locator": "p:622",
+    "normalized_text_hash": "c04bd0f1a4fcbfdb89eb8dfe39da35084799600d16665b556bc873ae9cf4dd4b",
+    "section": "paragraph",
+    "source_id": "source-3984437aa8cfa506c1effea4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-179adea8fb6c0cb211f3a2c1",
+    "excerpt": "Broadcom Inc. (“Broadcom”) and Apple Inc. (“Apple”) have agreed to expand their long-standing technology collaboration through 2031 by entering into new multi-year long-term agreements for",
+    "locator": "p:37",
+    "normalized_text_hash": "a7752f5be85b2041737656d5d606e406aac2810ac5f191fb2ceca3545a6672fd",
+    "section": "paragraph",
+    "source_id": "source-fb740c13b0c1090f4abfbb08",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7b22aab78b15defe95135197",
+    "excerpt": "This release includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 regarding the acquisition of Wiz by Google. These",
+    "locator": "p:35",
+    "normalized_text_hash": "6de19cbf920a8082cd0dd76c25503bb483f7d8e7cbd1e1ac569550aa7027305b",
+    "section": "paragraph",
+    "source_id": "source-3f80e854721ad8645bce9be7",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f175731128ee18b6ac2a95cc",
+    "excerpt": "Red Hat OpenShift Virtualization on AMD EPYC CPUs helps enterprises optimize application deployment on leading servers, such as Dell PowerEdge, HPE ProLiant and Lenovo ThinkSystem",
+    "locator": "p:25",
+    "normalized_text_hash": "3eb81196a954b55c5fd03195ce23432edfef38c031e9b531a7a266aea28d40f1",
+    "section": "paragraph",
+    "source_id": "source-5f65a471bafc823d593d0381",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-011fe94ce375f7f524e50e52",
+    "excerpt": "Apple",
+    "locator": "p:23",
+    "normalized_text_hash": "5cf1bb9c8e87656de50440845d90e544c1ef8b542d49a6b7d5dee805d8922218",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-da9a6c5b30924d0e2e27b01b",
+    "excerpt": "Apple",
+    "locator": "p:24",
+    "normalized_text_hash": "5cf1bb9c8e87656de50440845d90e544c1ef8b542d49a6b7d5dee805d8922218",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3291d3b57302e16b333b8c0a",
+    "excerpt": "Apple is working with its suppliers",
+    "locator": "p:22",
+    "normalized_text_hash": "109ecbd951c8344914152c80626536a218581e775a76817872cf22669619a25d",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dfa251b77c24bed55c6195a9",
+    "excerpt": "Apple is working with its suppliers",
+    "locator": "p:22",
+    "normalized_text_hash": "109ecbd951c8344914152c80626536a218581e775a76817872cf22669619a25d",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-620b6ccf3791ea53f5f659f5",
+    "excerpt": "Apple is working with its suppliers",
+    "locator": "p:22",
+    "normalized_text_hash": "109ecbd951c8344914152c80626536a218581e775a76817872cf22669619a25d",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-627aa4d715a1f61e4a09b158",
+    "excerpt": "Apple",
+    "locator": "li:6",
+    "normalized_text_hash": "5cf1bb9c8e87656de50440845d90e544c1ef8b542d49a6b7d5dee805d8922218",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2afeeef7c9de3e5d12f5d913",
+    "excerpt": "Apple",
+    "locator": "li:7",
+    "normalized_text_hash": "5cf1bb9c8e87656de50440845d90e544c1ef8b542d49a6b7d5dee805d8922218",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-48c967613ec2dea4bb7a0549",
+    "excerpt": "Apple is working with its suppliers",
+    "locator": "p:22",
+    "normalized_text_hash": "109ecbd951c8344914152c80626536a218581e775a76817872cf22669619a25d",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-109811e9609f70780261bae2",
+    "excerpt": "chips for Apple",
+    "locator": "p:28",
+    "normalized_text_hash": "1117473a8396c8a009f8c4e4097315e481569e826f512776d8a1e0cfb4cf289d",
+    "section": "Official deal announcement",
+    "source_id": "source-573be38b22d361de3644ffb4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-42fcf5e251fa582c83b71989",
+    "excerpt": "Claude",
+    "locator": "p:3",
+    "normalized_text_hash": "af059c4e11f52d10cc7d914e115fa4d448f5102ae454b88d6e10ca25cb3b239e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-30402cd228887d44f9063873",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c643e5f7b48f934879177544",
+    "excerpt": "OpenAI",
+    "locator": "p:18",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e399a056fe88552f19bc3f9a",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-506b5146054b77e62239c494",
+    "excerpt": "Corning",
+    "locator": "p:0",
+    "normalized_text_hash": "7ac69b815fd603b27a6520cc1c3b4bff94d2f4a82a5bf0a3d5ca7bb79891c698",
+    "section": "Official disclosure: business context",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e70fb1abda4ee3eb0021abe4",
+    "excerpt": "custom ASIC",
+    "locator": "p:37",
+    "normalized_text_hash": "fb7eb0736aec6b6b5e5dc3fa61cdc804ad4765ea194fd79903c22aab910d55e0",
+    "section": "Official disclosure: business context",
+    "source_id": "source-fb740c13b0c1090f4abfbb08",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-eaf97ec5ec79ccf17af189f6",
+    "excerpt": "OpenAI",
+    "locator": "p:622",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-3984437aa8cfa506c1effea4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-145ce7fed53a37d180b7ef97",
+    "excerpt": "Microsoft",
+    "locator": "p:622",
+    "normalized_text_hash": "9a638d930e8e64ec91311c812361c4a2a313a44a81bbeace36606af776a2a8da",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-3984437aa8cfa506c1effea4",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e995fc47cf71b1312937019c",
+    "excerpt": "OpenAI",
+    "locator": "p:2066",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-3984437aa8cfa506c1effea4",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f7c601c8ff547a1119662a2d",
+    "excerpt": "Wiz",
+    "locator": "sec-div:636",
+    "normalized_text_hash": "f59117ebaa0c6fe4ff4bf1f791998b087ad599f9f8923a2d34e1d1f11cb7612a",
+    "section": "Official disclosure: business context",
+    "source_id": "source-abfe9536df9546b38044b12e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2cb38b05b6e3274abdad86ad",
+    "excerpt": "ZT Systems",
+    "locator": "sec-div:262",
+    "normalized_text_hash": "351d9cc1de29de0ee093a864bfc91f24dc07983acf76661f69c35ed4acc6e2f8",
+    "section": "Official disclosure: business context",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3fdd58163eaedf1bf60b480f",
+    "excerpt": "AWS",
+    "locator": "sec-div:225",
+    "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+    "section": "Official disclosure: business context",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-862e87425425f3e0001656be",
+    "excerpt": "AWS",
+    "locator": "sec-div:226",
+    "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+    "section": "Official disclosure: business context",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b1097708322ba6c087938eff",
+    "excerpt": "Amazon.com, Inc.",
+    "locator": "sec-div:169",
+    "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4ba5ca69582530729d025dd1",
+    "excerpt": "Anthropic",
+    "locator": "sec-div:262",
+    "normalized_text_hash": "210a0ae96a2b4a2915bd61154fb64e108958daaedc99f6c6b1da715d706890e8",
+    "section": "Official disclosure: business context",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3f2b9c3aa60e3678cc711e0b",
+    "excerpt": "Amazon.com, Inc.",
+    "locator": "sec-div:169",
+    "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-db1fc17b1ee2abcafe7a7a35",
+    "excerpt": "Commitment Amount",
+    "locator": "sec-div:268",
+    "normalized_text_hash": "90afa79f0e761bff29470fc861ef15f00448c12be5c72042a8684741a2f44733",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c00df121431864012024cd54",
+    "excerpt": "liquidity event",
+    "locator": "sec-div:267",
+    "normalized_text_hash": "c771c3e6bd8d00d8d7a988f02522828af28e949fa54acb69c7bff985bafc7865",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6b7374ad75fc5808cac7baf8",
+    "excerpt": "OpenAI",
+    "locator": "sec-div:266",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-79446d6a3466c15936c93b93",
+    "excerpt": "Nebius",
+    "locator": "p:17",
+    "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+    "section": "Official disclosure: business context",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f69997278f23ee93e7a9df7a",
+    "excerpt": "Nebius",
+    "locator": "p:17",
+    "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3b80a9f1075089e0ffac0121",
+    "excerpt": "USD",
+    "locator": "p:225",
+    "normalized_text_hash": "82bb059ec10744f31e0406b8ef7a7a0f3c30c9b18435120fa859b2c0b9627888",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-507025c22527cd508383b8ce",
+    "excerpt": "Service Term",
+    "locator": "p:82",
+    "normalized_text_hash": "59af8edb431ca13b68ed45340c08291df1ce628b4d13c0931b9d40a81db13f5e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fce2ebc637632b660a11c619",
+    "excerpt": "Completion Scenarios",
+    "locator": "p:112",
+    "normalized_text_hash": "574ea15c8cff67888ddaf778c45aba01f004edfea0c7496f11f7ab6836cb883b",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1f892248df9a5f59d7701a16",
+    "excerpt": "terminate",
+    "locator": "p:19",
+    "normalized_text_hash": "69af7910652c11d2eadd273a15f62578f70aa1e61e44afb415b4268a2bf1e03c",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-769f7e15def0f74869ecff90",
+    "excerpt": "Microsoft",
+    "locator": "p:18",
+    "normalized_text_hash": "9a638d930e8e64ec91311c812361c4a2a313a44a81bbeace36606af776a2a8da",
+    "section": "Official disclosure: business context",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-985d1413eeced67c7dba7d15",
+    "excerpt": "Pinterest, the visual search and discovery platform where more than 600 million people find inspiration, curate ideas, and shop products every month, is working with",
+    "locator": "p:0",
+    "normalized_text_hash": "4ae93264b4177a5c83921f609a8dd612515a2e266b8a2785c340ee7e7a172b45",
+    "section": "paragraph",
+    "source_id": "source-6a992de5997e797293db2fd3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5620d162c16fb8c4e49f62ea",
+    "excerpt": "One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform. This combined solution provides",
+    "locator": "li:23",
+    "normalized_text_hash": "6a1ca1bc1376ea32d654db1ecd793120f00a7f26fb17a2fdf278cf3c3562eb71",
+    "section": "paragraph",
+    "source_id": "source-6b1498de2bb1640d71b431f2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-136e0c691731a56f02ef3bde",
+    "excerpt": "SEATTLE & MUNICH--(BUSINESS WIRE)-- Amazon Web Services (AWS) today announced the BMW Group has chosen AWS as the preferred cloud provider for its automated driving",
+    "locator": "p:1",
+    "normalized_text_hash": "befc8ab2ec56a1b8edd25ecc03810d84d9b8fee39ec39ec8ddddd1f92d57b659",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-047a60ab93dbbe9c71100ba3",
+    "excerpt": "Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually",
+    "locator": "p:10",
+    "normalized_text_hash": "ca4cc39ffd0a8e83030b8119a14b9411ac63814e37f5faa91febaa33712c8f8c",
+    "section": "paragraph",
+    "source_id": "source-9bc443c9160fcd8af6385296",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4f035ecdc194bb839198e63a",
+    "excerpt": "SB Energy Corp. guarantees – In August 2026, we entered into guarantees, capped at a total of $ 105 billion, to provide credit support on",
+    "locator": "sec-div:447",
+    "normalized_text_hash": "a8b5664d3d6199216fc683cccef75865bb09a2de800ae5d8f3a636f9c8f238ba",
+    "section": "paragraph",
+    "source_id": "source-98b725fc97c7b56cf1b968b5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5ac0fc6f9c200445ccb18883",
+    "excerpt": "On August 17, 2026, NVIDIA Corporation (“NVIDIA”) announced a multi-year partnership with SB Energy Corp. (collectively with its affiliates, “SB Energy”) to advance the development",
+    "locator": "sec-div:43",
+    "normalized_text_hash": "cf7c7f42242387b1144a6841ac9cf65d4c27816dbb60dc2c8e1dd222ebd122e9",
+    "section": "paragraph",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a2c21b3dd41f237968269f90",
+    "excerpt": "Certain statements in this Current Report on Form 8-K, including, but not limited to, statements as to: NVIDIA’s partnership with SB Energy and the expected",
+    "locator": "sec-div:79",
+    "normalized_text_hash": "bb532a6464103657e65b81e7145fdbd870f871622298d36d295bee84580794d9",
+    "section": "paragraph",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-001bb0cee446738d11412d94",
+    "excerpt": "On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the “Company”) elected Kevin R. Mandia as a director of the Company and also",
+    "locator": "sec-div:61",
+    "normalized_text_hash": "fbc3ddea2cb4cc300a39de9846e1b6c7c7827aaacebffcb5c04ee4b848965b3a",
+    "section": "paragraph",
+    "source_id": "source-c3f8c9eeca3ee4afaee15052",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-55f23c2daf66c890e835e973",
+    "excerpt": "Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset",
+    "locator": "sec-div:553",
+    "normalized_text_hash": "b8f27fc98bd441a2023c9b2a61de870e3d815ceacb13f86c9df0f6eff0033f8f",
+    "section": "paragraph",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-48db2264866ca04b571a6507",
+    "excerpt": "As of June 30, 2026, our recorded value in equity, equity warrant, and convertible debt investments in public and private companies was $229.7 billion. Our",
+    "locator": "sec-div:701",
+    "normalized_text_hash": "82c2d6fe0e70171608669adbe588ba733ec42934c70ff2e393c52e0263de6d28",
+    "section": "paragraph",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b2b32ab42eba862beba59dc5",
+    "excerpt": "On May 4, 2026 , Matthew S. Garman , CEO Amazon Web Services , adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell",
+    "locator": "sec-div:945",
+    "normalized_text_hash": "a8aa85e1508aa450e0e10fe969cc65d103c01399af02516fbcf8223ac5b28f95",
+    "section": "paragraph",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1edf2845102ba5708f989844",
+    "excerpt": "In addition, mobile operating system and browser providers, such as Apple and Google, have implemented product changes and/or announced plans to limit the ability of",
+    "locator": "sec-div:1403",
+    "normalized_text_hash": "e6fce5585642b9b71877aa4ee9e1f0b819c94556d5943dd98c7dc6dc5bace621",
+    "section": "paragraph",
+    "source_id": "source-6e487dceeb3d6a4768e63fe5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f581c972f3dbd77f4fabfb9e",
+    "excerpt": "systems and mobile browsers. Changes, bugs, or technical issues in such systems, or changes in our relationships with mobile operating system partners, handset manufacturers, browser",
+    "locator": "sec-div:1416",
+    "normalized_text_hash": "4854f56022613d3aae821f8a0fa41831133c30b5cc87c8a16ccf02a51f210cff",
+    "section": "paragraph",
+    "source_id": "source-6e487dceeb3d6a4768e63fe5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-afbb7012b3c7e400aad5e9df",
+    "excerpt": "In October 2025 and February 2026, the Company issued warrants to OpenAI OpCo, LLC (OpenAI) and Meta Platforms, Inc. (Meta), each entitling the holder the",
+    "locator": "sec-div:431",
+    "normalized_text_hash": "bb702763ecb14d6e5240c1c92783541edfeede357fbe0da2046c8e1f3b918715",
+    "section": "paragraph",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-588a761f2bc2cb8ed41b5e97",
+    "excerpt": "1.1 Nebius will perform or deliver to Microsoft under the Agreement the services described in this SOW (collectively, the “ Services ”). The parties agree",
+    "locator": "p:70",
+    "normalized_text_hash": "223e5d266a7c4674f9a8d80833fca973b83a8510d897f496b7e1c1889299e9ba",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3a57bf70a52b1e0ca4f690e2",
+    "excerpt": "a. This Agreement shall commence of the date hereof and shall continue until the last GPU Service End Date provided in Table 1 (the “",
+    "locator": "tr:72",
+    "normalized_text_hash": "525833c74451beeda2042a64d74e4009d40c2e0ac5f631af48fcb403f2ce236c",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7359b7f7b5dcd08cb35237d9",
+    "excerpt": "This Agreement shall commence of the date hereof and shall continue until the last GPU Service End Date provided in Table 1 (the “ Term",
+    "locator": "p:74",
+    "normalized_text_hash": "492357a8395066619d529ac752fa7e1b1d39ae077361d335b393c8698c9ba3df",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f6d2d616269dc697ec704aa6",
+    "excerpt": "iii. The monthly installment amount for a GPU Service milestone will be calculated by multiplying the number of GPUs in the GPU Service by the",
+    "locator": "tr:274",
+    "normalized_text_hash": "ee9060159e580fc38f2050bafac0035b24e0d81ae7b3715354edc5251093f43c",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dd2827069ed104467e5636ba",
+    "excerpt": "The monthly installment amount for a GPU Service milestone will be calculated by multiplying the number of GPUs in the GPU Service by the Price",
+    "locator": "p:276",
+    "normalized_text_hash": "0894ee65b548a7f6abf635162956dc868620952407310c2781387fd1fdf728de",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ea1dce512f544e995d7bfc2b",
+    "excerpt": "e. Nebius will be solely responsible for all expenses it incurs while performing the Services, unless Microsoft otherwise consents in writing.",
+    "locator": "tr:286",
+    "normalized_text_hash": "2eaa4e757c4d2062aed5f64169a0577126e475ecb404d8e7625ee4ba32be8896",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1a92054a19269d8cdfcf2729",
+    "excerpt": "Nebius will be solely responsible for all expenses it incurs while performing the Services, unless Microsoft otherwise consents in writing.",
+    "locator": "p:288",
+    "normalized_text_hash": "cbcecbe722ddc9495020100e78d09843a78e69381dbb5e47185e038dd155a92d",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-103c2920cf7f92ebfb2b42ef",
+    "excerpt": "Acceptance Period (the “ Grace Period ”); or (ii) Nebius’s notifications to Microsoft make clear that a GPU Service, in Microsoft’s reasonable judgment, is not",
+    "locator": "p:307",
+    "normalized_text_hash": "55161f4e1da9dba3ef1cfe0b7ac9759facf3692d6d74d5d8427831e8fcf294f6",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a47459520e939af49bd3de64",
+    "excerpt": "applicable sales tax will be invoiced by Supplier to Microsoft, and Microsoft will be obliged to pay the amounts of such sales tax to Supplier.",
+    "locator": "p:395",
+    "normalized_text_hash": "0fa0a5820ad04f16c44a7cbfd3523121dfe68429bd6f57d48ca15814c557d9d0",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2dd625db2dfb3c20bee28c1f",
+    "excerpt": "The Parties will comply with the data protection requirements in Exhibit A and the security requirements in Exhibit E of the GPU Services SOW. The",
+    "locator": "p:451",
+    "normalized_text_hash": "1762d2dc51bd4ef47e9e1c5902672323c89b90347a0a8e7c8c12f394f319736e",
+    "section": "paragraph",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cc530dd97933b44935387022",
+    "excerpt": "Today, Amazon announced a multibillion-dollar agreement with Corning Incorporated, a leading manufacturer of advanced glass and fiber optic technology, to supply the optical fiber, cable,",
+    "locator": "p:0",
+    "normalized_text_hash": "8710f62391a60187c4a7438d818343516ddc9351f73829a5a6b589edaf65dda7",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-80b0310708a8c14516f98dd8",
+    "excerpt": "Through the agreement, Amazon will work with Corning on a new program that will expand its Fiber Optic Technician Training Program with Catawba Valley Community",
+    "locator": "p:1",
+    "normalized_text_hash": "c9bccb4c6809df6d12b40203a3bd48137b7408e6793b02bd5c9b8b0b8d12978d",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d2a7f86b5c9a98e08cf1d146",
+    "excerpt": "\"Amazon's investments in North Carolina have created more than 26,000 jobs across the state. This multibillion-dollar agreement with Corning continues that commitment, channeling investment into",
+    "locator": "p:2",
+    "normalized_text_hash": "2890c15fd35bc70ca1819734834fec2a213d4543f5899574ada056ee3443359d",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e5bc73868e89979fc42aa9b9",
+    "excerpt": "This agreement with Corning is in addition to Amazon’s plans, announced last year, to invest $10 billion in North Carolina to expand cloud computing infrastructure.",
+    "locator": "p:3",
+    "normalized_text_hash": "1e5ea56f75b8bfb8dc1f884d4be2c03d6bda266061d6f68b5ce2c8f77e9833d2",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6ce64a26cb9b55f7e478636a",
+    "excerpt": "\"Every day, North Carolina is proving that American manufacturing and cutting-edge technology go hand in hand. This multibillion-dollar agreement, between Amazon and Corning, will create",
+    "locator": "p:4",
+    "normalized_text_hash": "9d3ef74080f6b8cd86ee089eb39c68fe658fcac01755fa8ab44d97c0cd64aea2",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bb565c2f0fe5c4a200fee12b",
+    "excerpt": "Amazon's data centers power the services millions of people and businesses rely on every day, from hospitals and emergency services to streaming entertainment and AI",
+    "locator": "p:5",
+    "normalized_text_hash": "e348ace5ecbc3b72a4189730973096394aed2336391b237e371c61b999160264",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0f9315c8390d7cc16664c32e",
+    "excerpt": "\"This agreement with Amazon represents a significant milestone for Corning and for American manufacturing,\" said Wendell Weeks, chairman, CEO, and president of Corning. \"For 175",
+    "locator": "p:6",
+    "normalized_text_hash": "f797a8f7d311735caa4be48d7f96dc483a2c1bca99d0196d196b76a0b17a39f4",
+    "section": "paragraph",
+    "source_id": "source-5c923bf7b269f378af9ff54f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-35bf5814fdd4ddac193c7c63",
+    "excerpt": "FY27 Q1 Outlook Detail As provided July 29, 2026 Commercial Business Commercial bookings Healthy growth on a growing expiry base when adjusted for OpenAI contracts",
+    "locator": "p:20",
+    "normalized_text_hash": "85b0852b36b7edac059aa9c47c329a5e0976c8d3fdb38b7177681f106986241b",
+    "section": "paragraph",
+    "source_id": "source-6092ac3bed9810b09cfc7a5c",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8229ac5d83b759cbda94d40e",
+    "excerpt": "2025",
+    "locator": "p:39",
+    "normalized_text_hash": "10f785c6e4f662128181cf1aa7b39172a90d34faa840224dcb8a717019a21224",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-759e3eee36b024dd03da4675",
+    "excerpt": "Salesforce",
+    "locator": "p:5",
+    "normalized_text_hash": "0e0574953307083b6c99342b9bdb1d004c8932858d1d8ecbf649fd190f88046d",
+    "section": "Official disclosure: business context",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bfeec1a0474e9e0ef2c73173",
+    "excerpt": "OpenAI",
+    "locator": "p:47",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b2f8b7974e801b9d2d70bc37",
+    "excerpt": "Siri",
+    "locator": "p:45",
+    "normalized_text_hash": "879dd9bef4ecca3310d97c4ae31521cea30e0c7a297ec1552f20b7e5f6b07001",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-735ed19d0886075fb2a165a0",
+    "excerpt": "Writing Tools",
+    "locator": "p:46",
+    "normalized_text_hash": "4e0b451544b6adb4bbc5e77b9846ac48b8d537fa0f0b5cc0589e832aed46302c",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9fa3cc38b21bb70a94f197a0",
+    "excerpt": "later this year",
+    "locator": "p:48",
+    "normalized_text_hash": "98e619a35e3be28d80c225f17305f118fe029bc848e3700f8bda318f6a89bc72",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-63894b170823b8d91d923f9b",
+    "excerpt": "ChatGPT",
+    "locator": "p:44",
+    "normalized_text_hash": "530f6d3a8577198784a27a81c5fa019f1548316f4bcaf715de9932f19f71f177",
+    "section": "Official disclosure: business context",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5bb4f5e00b888a1d86aa3336",
+    "excerpt": "100,000",
+    "locator": "p:1",
+    "normalized_text_hash": "35b43d5f502340daeef600616c6fbff23aefee6880a75a6868b664cb49890b4e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-2aebe9353387cabf30bf9a57",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-81ec3b88224fdf1dbdf01c0a",
+    "excerpt": "logistics",
+    "locator": "p:2",
+    "normalized_text_hash": "5a0da346fb1f8ef99d99ac80be74ff900609d12bb33f1e670aeb0f0bc19a7a8f",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-2aebe9353387cabf30bf9a57",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d70e05dd6f348730f1b2fe86",
+    "excerpt": "Rivian",
+    "locator": "p:0",
+    "normalized_text_hash": "d7d89f1977785616f91d7e27f84155cefc0a8d3685fef312622918786d431299",
+    "section": "Official disclosure: business context",
+    "source_id": "source-2aebe9353387cabf30bf9a57",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0c3d3ee65d5c97e5435470f3",
+    "excerpt": "definitive agreement",
+    "locator": "p:15",
+    "normalized_text_hash": "aad6de0f90ee3600b43616706251643f487581b3c065a35e8e2152facbd6a099",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-749efa2de6972ac888c69fc5",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9dfeb3e936cf0e2704e49bd4",
+    "excerpt": "warrant",
+    "locator": "p:16",
+    "normalized_text_hash": "43f9cfa0fd78b80a7d763fadcef0cf2781f1ba2c79e4b5d93fd80113e02a24fb",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-749efa2de6972ac888c69fc5",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-61da7e5bbb0f9f405e3ea29d",
+    "excerpt": "6 gigawatt",
+    "locator": "p:13",
+    "normalized_text_hash": "1a34560f31f96492b36f78431042bd8401bbd3c7b62fa3428d9dd805e8739ed8",
+    "section": "Official disclosure: business context",
+    "source_id": "source-749efa2de6972ac888c69fc5",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-49ec2b7df6d4bc5774b09182",
+    "excerpt": "EssilorLuxottica",
+    "locator": "p:0",
+    "normalized_text_hash": "1abcd73c137b5cfee7ce3d3adab66a69d1dbe270cff67819bf5d3c65d512519e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fbf2cb9a06e85e066986618c",
+    "excerpt": "VMware",
+    "locator": "sec-div:67",
+    "normalized_text_hash": "06c82631eca64b52f2340f89be5b1ba1fec13a10732dd3e2597a9abd8b264319",
+    "section": "Official disclosure: business context",
+    "source_id": "source-9377e59c45f1e1b3e5110b09",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dcdae98ea621c32f9ddc653a",
+    "excerpt": "AI Refinery",
+    "locator": "p:7",
+    "normalized_text_hash": "5491e7a43edcbf7e7a59e2a607da005d217de5f24243b9dee7b1141fe1e5cca6",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-552ad927f18fa6ab55bc972e",
+    "excerpt": "expanded partnership",
+    "locator": "p:6",
+    "normalized_text_hash": "a78555a4584e681bcc7f295474aa1b90e206a3dba1df2c3d058c89a668bec0ae",
+    "section": "Official disclosure: business context",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9c8e4504b013da9115dbfd84",
+    "excerpt": "API",
+    "locator": "li:57",
+    "normalized_text_hash": "e3af609e5881b83e0dd75a520c2468b37e986feaa6c216a7c704151da2097dcb",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-10e0a75f5df0979f93998825",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9efc770b4149da3238f8b9f7",
+    "excerpt": "Ultimate Rewards",
+    "locator": "li:58",
+    "normalized_text_hash": "c598c6c25e5617ed821d667e68cc27c51e3a186fe5b525ace9d45fd44242dcbc",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-10e0a75f5df0979f93998825",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2c96eb5b72c9cbc29c4d74d4",
+    "excerpt": "credit cards",
+    "locator": "li:59",
+    "normalized_text_hash": "35b7961fa9c6399019fb08e2ddce8ee77ba58bdf21c16a3755b80dd9fb59101f",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-10e0a75f5df0979f93998825",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0e1c9087ec38e7379996e6c3",
+    "excerpt": "2026",
+    "locator": "p:60",
+    "normalized_text_hash": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-10e0a75f5df0979f93998825",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8bd17c18e0fa2c9d79475e86",
+    "excerpt": "strategic partnership",
+    "locator": "p:55",
+    "normalized_text_hash": "13733f9f48adbb1c34e46b03f300a662a8663ffe24268264db08e347285a34c0",
+    "section": "Official disclosure: business context",
+    "source_id": "source-10e0a75f5df0979f93998825",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d907c1d8316e33933e336d76",
+    "excerpt": "JPMorganChase",
+    "locator": "p:61",
+    "normalized_text_hash": "0938111a0909036d53f662ca8eeb9516ed4dcf8047e6daacf4bd0a9ca2cbebb3",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-92cd7a26ed3a4b47c33ab169",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-92b55f09a4a7c87daf09e08c",
+    "excerpt": "JPMorgan Chase",
+    "locator": "p:72",
+    "normalized_text_hash": "955653cc14eef1e18512747b76e98843d03727852379f248c728ff5fda28f946",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-92cd7a26ed3a4b47c33ab169",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5ea640d287aedc568584853d",
+    "excerpt": "Apple Card",
+    "locator": "p:53",
+    "normalized_text_hash": "8e0ab047e55d602b7a6145275310d71e081bbcf87ed24b9a3c6a3e1504f4c6ef",
+    "section": "Official disclosure: business context",
+    "source_id": "source-92cd7a26ed3a4b47c33ab169",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d65aad92e35a2e6807eb104d",
+    "excerpt": "two 15",
+    "locator": "p:12",
+    "normalized_text_hash": "9f9b253b34f5dd2216079e09be1ba7629c4b9407599128b3bef97083c219b859",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-8c82b593c2eddb5518350269",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ea770c6bd6c5456283c88641",
+    "excerpt": "power purchase agreement",
+    "locator": "p:11",
+    "normalized_text_hash": "8e85f596735c63e977c1c73fb5d9bb7f7e2b56cffdb53bae8a02d3e2d594d5c4",
+    "section": "Official disclosure: business context",
+    "source_id": "source-8c82b593c2eddb5518350269",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-eb33d1334bfe87c02cc35d13",
+    "excerpt": "Walmart",
+    "locator": "p:0",
+    "normalized_text_hash": "be56e761bd06aae9d9a84cfe27861db8706b07dc5061ba8224b1524f78463851",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c03dacc675125baf513a841a",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-428b397c67afda0d9253addc",
+    "excerpt": "OpenAI",
+    "locator": "p:3",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Official disclosure: business context",
+    "source_id": "source-c03dacc675125baf513a841a",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d35f2fdd56d21925beb662d8",
+    "excerpt": "delivery",
+    "locator": "p:2",
+    "normalized_text_hash": "07474afa53a08ba5eb86a9f068ff446a4f394b3c0c6b29d924e3833c3542801e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-76d484b769a58ce428aba97c",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-244a3c4de0cb49740aadb506",
+    "excerpt": "same-day delivery",
+    "locator": "p:4",
+    "normalized_text_hash": "23d5ade41496273d70a67844e1ba988b7c8e5b4109e916637dcdfead76cae94f",
+    "section": "Official disclosure: business context",
+    "source_id": "source-76d484b769a58ce428aba97c",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9df2a3f982016acad2c2c012",
+    "excerpt": "47 states",
+    "locator": "p:2",
+    "normalized_text_hash": "49052f78da352901411f8966167fe3cd0d1e33ccbf61fd2a730aff6532d331be",
+    "section": "Official disclosure: business context",
+    "source_id": "source-3c64d85b296779a0af7546e9",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6ea027e5fd1f1dee64dcfae2",
+    "excerpt": "United States",
+    "locator": "p:6",
+    "normalized_text_hash": "4a69f705fc64dc9ce39dea3f1c7c53700a8224a945e1813e693208c0dcaa4b97",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-954382408b763c0462854647",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-181eb4e4961d048111348010",
+    "excerpt": "Tesla Superchargers",
+    "locator": "p:4",
+    "normalized_text_hash": "13c2dcd120ea0d4246f74e86dbf0ff3f3779bf93ebce03e0257a1b0c9198ff04",
+    "section": "Official disclosure: business context",
+    "source_id": "source-954382408b763c0462854647",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a5ad4a6711829db02f00f748",
+    "excerpt": "joint engineering",
+    "locator": "p:8",
+    "normalized_text_hash": "843473a9c6d3a9138fba71797f942c8f8ec06005201d16cd98dfdf045a05935c",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-ee012bbdda9ec95b37ff6810",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ee85db5bc805656d1bbb86ae",
+    "excerpt": "HBM3E",
+    "locator": "p:6",
+    "normalized_text_hash": "f7d916fa1b40ff70bbfa6e5d5a8a7c25be9e066a7f9cb12d84b8d89618185ed1",
+    "section": "Official disclosure: business context",
+    "source_id": "source-ee012bbdda9ec95b37ff6810",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-726287ccca635fd8be50a753",
+    "excerpt": "co-innovate",
+    "locator": "p:14",
+    "normalized_text_hash": "d19bc8a7b6466268fa9658c08c02cf02d2e73208549a63a3bb4070c57216225e",
+    "section": "Official disclosure: business context",
+    "source_id": "source-1e47859411dbf0322c82f0a3",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9141199f654cc2be023ba186",
+    "excerpt": "five years",
+    "locator": "p:5",
+    "normalized_text_hash": "be26dc1b47aeead0bf329c4223d08da7158aeb96e9ac49fce6a061176fc214a4",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-cd43899c7dae58b9562f23d5",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6cc4ab520872a275ef17e5fe",
+    "excerpt": "Vera Rubin",
+    "locator": "li:2",
+    "normalized_text_hash": "137c0c98333c07febe56bfd8abfdd749fa8853fd2ca4924c0ed565a27bc59481",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-cd43899c7dae58b9562f23d5",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-78a8f49d6a748da60455ad4e",
+    "excerpt": "co-innovation lab",
+    "locator": "p:4",
+    "normalized_text_hash": "f4a600229a9c90854659aa25bed31e2af335a53590c32add370d9bf1bc6442da",
+    "section": "Official disclosure: business context",
+    "source_id": "source-cd43899c7dae58b9562f23d5",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d036c99a4ba24d631675af0a",
+    "excerpt": "Tesla, Inc.",
+    "locator": "tr:832",
+    "normalized_text_hash": "c8d4c759497a06700e568857834a3faa668698cdd3e66afa7a3eb64391f85e3a",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ba06ba099e70a8b28b71ad1c",
+    "excerpt": "Panasonic",
+    "locator": "sec-div:426",
+    "normalized_text_hash": "60a8cfc0d9b45950720d6f202ccb24f838932d2f04ca2ab2e274c39284eeda9c",
+    "section": "Official disclosure: business context",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-70d7c8d07f25fac7cc6772a2",
+    "excerpt": "Tesla, Inc.",
+    "locator": "tr:832",
+    "normalized_text_hash": "c8d4c759497a06700e568857834a3faa668698cdd3e66afa7a3eb64391f85e3a",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-65dfb6e6fd176e1a9236d479",
+    "excerpt": "Contemporary Amperex Technology Co. Limited",
+    "locator": "sec-div:426",
+    "normalized_text_hash": "22623f10075d5d8e5ca2ce9cc191816fa1a181ac5067069ac2d1e314968bf16c",
+    "section": "Official disclosure: business context",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ab51c6b40e4b8fa278b78d9b",
+    "excerpt": "10-year",
+    "locator": "p:29",
+    "normalized_text_hash": "96019d2425cf60d07c5361540931b8779cdb5c2baf5801d79262a6c52cbdfff9",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1fd73c8d5298466790456fda",
+    "excerpt": "$2.8 billion",
+    "locator": "li:13",
+    "normalized_text_hash": "5379c811129a329ba9deca252e7d2c6e3c0c94cfbbe4227b380c753f510a8ea1",
+    "section": "Official disclosure: business context",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-caf68e172092fd2d4aa54505",
+    "excerpt": "OxyChem",
+    "locator": "p:1217",
+    "normalized_text_hash": "bcda4c47c9d2dd6dc5f397c0db8f425e8cbdd32c26bb54b9c1413a81922117ba",
+    "section": "Official disclosure: business context",
+    "source_id": "source-f611c9fee0eb629bc5667626",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ab87d569c6dfb02dbe5274d9",
+    "excerpt": "Taylor Morrison",
+    "locator": "p:1219",
+    "normalized_text_hash": "0f6047ae06391959973f7fe19168ffee483a52e6392f9dd025aa70fd0702a08c",
+    "section": "Official disclosure: business context",
+    "source_id": "source-f611c9fee0eb629bc5667626",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7bfe6dc1e05d18831639aff0",
+    "excerpt": "ELI LILLY",
+    "locator": "tr:354",
+    "normalized_text_hash": "b8d27d6be93270b301eb6d473606bec65294fb3e9505b9ef24a3c4dd25db3945",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-db1eb3c30600532489dbe85d",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fc1d61bdd745864237dcf88d",
+    "excerpt": "Verve",
+    "locator": "sec-div:296",
+    "normalized_text_hash": "e57a7df8e7de05d0a4e4ecf9a4de76eb1c744a2cfc6fb22ad9b557e5f0b82b07",
+    "section": "Official disclosure: business context",
+    "source_id": "source-db1eb3c30600532489dbe85d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2001c9d7de85e8e930484e73",
+    "excerpt": "4.25",
+    "locator": "sec-div:47",
+    "normalized_text_hash": "6f9bcb5e167f6def6e016670c91c61db3a7dae277f683fb8c73333a5add4535e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9d7870d915edaad80f912711",
+    "excerpt": "SB Energy",
+    "locator": "sec-div:43",
+    "normalized_text_hash": "ee799ea7b112cd8540984d03e96307e5205ede00856bfb317e669bace4e4bf29",
+    "section": "Official disclosure: business context",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9f2ff8385c764fe2bb2ca751",
+    "excerpt": "NVIDIA will invest",
+    "locator": "body",
+    "normalized_text_hash": "48ca0db9d6b08d3e8cf5aae16e59a465c1c8759e044b79baa3324185741feedc",
+    "section": "Official disclosure: business context",
+    "source_id": "source-dcb7b306dffaedb5223f8dc1",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b779b5c39d46249096e4ddab",
+    "excerpt": "Advanced Micro Devices",
+    "locator": "sec-div:201",
+    "normalized_text_hash": "ea3ebd805336c3796ab774eeb5f4ec0375c7c24e1ceb2349d91cf9d9762f4b80",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0317f37cc976b0e2bef46aba",
+    "excerpt": "OpenAI OpCo, LLC",
+    "locator": "sec-div:431",
+    "normalized_text_hash": "161ab9d8f9b776be2c1f9c1903d1bdf1d9a0b57b14be8ca3e908624424bcea82",
+    "section": "Official disclosure: business context",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b8f8dd3cc5f572747c5fb48e",
+    "excerpt": "Advanced Micro Devices",
+    "locator": "sec-div:201",
+    "normalized_text_hash": "ea3ebd805336c3796ab774eeb5f4ec0375c7c24e1ceb2349d91cf9d9762f4b80",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-301321a5de7c0b9d72f8d646",
+    "excerpt": "Meta Platforms, Inc.",
+    "locator": "sec-div:431",
+    "normalized_text_hash": "05eb4e7e22014c2817a61408dbd3eb62c3f52fc85e43c69ec81e83eac477ac94",
+    "section": "Official disclosure: business context",
+    "source_id": "source-50380b7a0cd06e3ca1e2bdee",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6ca9b4b38d8a795ae1316c39",
+    "excerpt": "Nebius",
+    "locator": "p:17",
+    "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f54260078c8a9d4bf2d1ef82",
+    "excerpt": "USD",
+    "locator": "p:225",
+    "normalized_text_hash": "82bb059ec10744f31e0406b8ef7a7a0f3c30c9b18435120fa859b2c0b9627888",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fde4f68b3658649eb858d4a2",
+    "excerpt": "Service Term",
+    "locator": "p:82",
+    "normalized_text_hash": "59af8edb431ca13b68ed45340c08291df1ce628b4d13c0931b9d40a81db13f5e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-565eb49bcd3091e4475154e6",
+    "excerpt": "Completion Scenarios",
+    "locator": "p:112",
+    "normalized_text_hash": "574ea15c8cff67888ddaf778c45aba01f004edfea0c7496f11f7ab6836cb883b",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0d9bb5ccd1fc65bf3b25e412",
+    "excerpt": "terminate",
+    "locator": "p:19",
+    "normalized_text_hash": "69af7910652c11d2eadd273a15f62578f70aa1e61e44afb415b4268a2bf1e03c",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a6e0f1e34a6be7b21ad27b24",
+    "excerpt": "7 September 2025",
+    "locator": "tr:38",
+    "normalized_text_hash": "54607c68b5d17302bd51c8b0f4d2e226db376e108e739fc8dc415607f77bf221",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-49ec40f48cdc9a70ee2094d0",
+    "excerpt": "SOW Effective Date",
+    "locator": "p:65",
+    "normalized_text_hash": "b33dfc6a0d74d21523408b63ccbef78fe4cbab921eb7c9932ee4599ac5931506",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d4643519e744b27c41500f6f",
+    "excerpt": "in arrears",
+    "locator": "p:276",
+    "normalized_text_hash": "123bf411bae191194b5b0d05937285c57ed64c2a32077f9daf2e7451c0e10091",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dec80a373decd2246692fb57",
+    "excerpt": "refund",
+    "locator": "p:307",
+    "normalized_text_hash": "3a54b8a8a6a22923e99058058fb4421377deb633300292f4ea2a55b1c044573d",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9fea911a654adcb1007a7839",
+    "supports_fields": [
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f49bee8d697f19fbb063aa5b",
+    "excerpt": "Microsoft",
+    "locator": "p:18",
+    "normalized_text_hash": "9a638d930e8e64ec91311c812361c4a2a313a44a81bbeace36606af776a2a8da",
+    "section": "Official disclosure: business context",
+    "source_id": "source-94f508577c8bd15a6526574e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d06cf2742409cfa195f56c41",
+    "excerpt": "planned",
+    "locator": "p:1",
+    "normalized_text_hash": "05ad072baae0b1e93afd052919622063b32b852dd55c9495c77a16487b1fa639",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-6a992de5997e797293db2fd3",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7bb6ae02ee67570a622a1a45",
+    "excerpt": "$4 billion commitment for cloud services through 2031",
+    "locator": "p:0",
+    "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+    "section": "Official primary disclosure",
+    "source_id": "source-08880256638be8c4001e0a07",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b29812fe572cb5b098c04088",
+    "excerpt": "Amazon.com, Inc.",
+    "locator": "sec-div:169",
+    "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fb566464d15d2cde96ccaee5",
+    "excerpt": "AWS",
+    "locator": "sec-div:476",
+    "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a1bb814a5b38887346dead5e",
+    "excerpt": "three segments",
+    "locator": "sec-div:465",
+    "normalized_text_hash": "08c01fe75daf312b3faccd9067950001b71f9f209499cf83c4ed3197f0d6b309",
+    "section": "Official disclosure: business context",
+    "source_id": "source-352ea3659c271d031e0a4319",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-97592c134fd373087c0d5137",
+    "excerpt": "OpenAI",
+    "locator": "p:9",
+    "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5e3852f06e426c50ca7dab7b",
+    "excerpt": "US$ 30 bi da NVIDIA",
+    "locator": "p:3",
+    "normalized_text_hash": "7089de519ca37675da414bc213ffc247568f62152c5d74492adb13986711c47a",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-3cfcb1f741a499306ab3804a",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-49d5c61b81bdcf05afeefccf",
+    "excerpt": "$30B from NVIDIA",
+    "locator": "p:3",
+    "normalized_text_hash": "5e3d1c1f5996c29406e74beafccb3a1a3eebfd46d352b9389e2b1372f1dc4418",
+    "section": "Official deal announcement",
+    "source_id": "source-a93ee3808fa50bc8a4944bef",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6b63c148bb11ebc586d24ccb",
+    "excerpt": "10-year",
+    "locator": "p:29",
+    "normalized_text_hash": "96019d2425cf60d07c5361540931b8779cdb5c2baf5801d79262a6c52cbdfff9",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-176d5d66b63e48f05ecd342b",
+    "excerpt": "US$2.8 billion",
+    "locator": "pdf-page:52",
+    "normalized_text_hash": "b01a1e50e7cd4ed3b65ce92a85499b6f162e6f2eb271dac8494666189a22a843",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-a546fd76d4326d41a8780b1c",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cbf00286cfb6f009ad0a0b1e",
+    "excerpt": "$2.8 billion",
+    "locator": "li:13",
+    "normalized_text_hash": "5379c811129a329ba9deca252e7d2c6e3c0c94cfbbe4227b380c753f510a8ea1",
+    "section": "Official disclosure: business context",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-52d747a31e71183880c2736b",
+    "excerpt": "planned",
+    "locator": "p:1",
+    "normalized_text_hash": "05ad072baae0b1e93afd052919622063b32b852dd55c9495c77a16487b1fa639",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-6a992de5997e797293db2fd3",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-61cc82b31e07852b780f68b7",
+    "excerpt": "2031년까지 AWS에 40억 USD를 투자하여 맞춤형 실리콘으로 월간 사용자 6억 명을 위한 AI 기반 시각적 검색을 지원하는 Pinterest",
+    "locator": "aws-card:2",
+    "normalized_text_hash": "5204d33a4544ed66707b4da510747c12f23e234834c6aa30063306a03cee3a25",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-fd7567215edc904218e14829",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-63f7112ae75089cd06b7c0cf",
+    "excerpt": "$4 billion commitment for cloud services through 2031",
+    "locator": "p:0",
+    "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+    "section": "Official primary disclosure",
+    "source_id": "source-08880256638be8c4001e0a07",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-76f607a62baa88381eba1b76",
+    "excerpt": "specified milestones",
+    "locator": "sec-div:1975",
+    "normalized_text_hash": "07025ad948ecb4d9ec6f15bf8a9633e932c3e57990658f9c1206eed242b2b693",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d0b3289764083123a109e54d",
+    "excerpt": "initial prepayment",
+    "locator": "sec-div:1976",
+    "normalized_text_hash": "5a9efcd97950612ad6a2a6873a11eb100b57ed07bec1d5d8e92029a5f2409274",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2fed0ac409bda8162c2a650b",
+    "excerpt": "U.S. dollars",
+    "locator": "sec-div:1474",
+    "normalized_text_hash": "46c44d7800a3cfd1685b2ea4ba6a3c102074009e98d22a0181d9fa29ce381364",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-48816b0c6d5fd4e392a59275",
+    "excerpt": "commitment of $500 million with MP Materials",
+    "locator": "p:8",
+    "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+    "section": "Official deal announcement",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7cce7f20b408a039ad136e8b",
+    "excerpt": "May 31, 2031",
+    "locator": "p:40",
+    "normalized_text_hash": "cf9bdc14114334e1597eaa68ab9eab9d17650cdec82a8df6c87aa1f666f2435d",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-33fde43ef418b98646d15bea",
+    "supports_fields": [
+      "parties",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6c72fb24192cdddbe390bbc3",
+    "excerpt": "contract value of this deal is up to $6.5 billion",
+    "locator": "p:0",
+    "normalized_text_hash": "1127e5e77ef796af70db05defc99516ee73757deb37a5f7e4a3c6ae570fd221f",
+    "section": "Official deal announcement",
+    "source_id": "source-efc957b3506cdb3c32109b55",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5d6039153c28f512d7d90dcf",
+    "excerpt": "VMware Merger",
+    "locator": "sec-div:1264",
+    "normalized_text_hash": "fe868070014d948f208c518aaa5b13e17beafdd85f2b6e482fb04aa004d77ab5",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9f84f3aa97ab1b71439dc0bc",
+    "excerpt": "U.S. dollars",
+    "locator": "sec-div:843",
+    "normalized_text_hash": "302c4150126b812217e0be9d899a311709943a3a4407eac65c7b61d626464ab6",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b9af734b05a323259a5d208b",
+    "excerpt": "(In millions)",
+    "locator": "tr:357",
+    "normalized_text_hash": "6b3e1d7eabe42fcc482eff13d49f7aedba6a89e714ea73c7fa879f72c0d6a2c7",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d34b4ee9f88824615bc20324",
+    "excerpt": "Total purchase consideration",
+    "locator": "tr:385",
+    "normalized_text_hash": "b13e7cea5ad18321d8ab8593d7e706cfaf47c0cbc2e92bf3ebd4423617dbe49f",
+    "section": "Official disclosure: business context",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e03c91652439763ec80de9d0",
+    "excerpt": "作為此次合作的一環，NVIDIA 與微軟分別將向 Anthropic 投資最高 100 億美元與 50 億美元。",
+    "locator": "p:5",
+    "normalized_text_hash": "ab9958e6e965508297c7e19e27de0281327c25d270ee230921727bd313959a58",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-eef75e5bb0b9745e046106bf",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ae3b6d3a103b4c1148a8fae4",
+    "excerpt": "committing to invest",
+    "locator": "p:8",
+    "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+    "section": "Investment commitments",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1102d76adde28f24970580a9",
+    "excerpt": "作為此次合作的一環，NVIDIA 與微軟分別將向 Anthropic 投資最高 100 億美元與 50 億美元。",
+    "locator": "p:5",
+    "normalized_text_hash": "ab9958e6e965508297c7e19e27de0281327c25d270ee230921727bd313959a58",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-eef75e5bb0b9745e046106bf",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b10672dc1d36c53f2fed6ee4",
+    "excerpt": "committing to invest",
+    "locator": "p:8",
+    "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+    "section": "Investment commitments",
+    "source_id": "source-05412751bb0b3f7d68937500",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a57cd14114379f5c7c6aa66d",
+    "excerpt": "through 2031",
+    "locator": "p:37",
+    "normalized_text_hash": "b71017bd2715e5fd926abbdb4451a014b45883f29901a0b3383180fad72f548f",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-fb740c13b0c1090f4abfbb08",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "term"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0e646c04da6288aface08d55",
+    "excerpt": "expected to exceed $30 billion",
+    "locator": "p:8",
+    "normalized_text_hash": "7cf41eef49ed25dfbb243fecf001fdcdda8b9aa19bb1c4ff3862818f428327cc",
+    "section": "Official deal announcement",
+    "source_id": "source-a081634e897c3a0bfbfbbd44",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a69dde16f0afcfebd62a5cf6",
+    "excerpt": "Purchase Amount",
+    "locator": "sec-div:7",
+    "normalized_text_hash": "b2aa0c59615e9c6f225c4d5cfe225926e906e34f0d0be4e239d40a1a955f82ab",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c09dc77ec843fdff3484a6da",
+    "supports_fields": [
+      "parties",
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-68a9e67d28892f85fa87a8c3",
+    "excerpt": "U.S. dollars",
+    "locator": "sec-div:33",
+    "normalized_text_hash": "46c44d7800a3cfd1685b2ea4ba6a3c102074009e98d22a0181d9fa29ce381364",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c09dc77ec843fdff3484a6da",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-60ff129d085c4dbc5b9f9cee",
+    "excerpt": "August 17, 2026",
+    "locator": "sec-div:19981",
+    "normalized_text_hash": "e5c6adbc8706f6bfc8c46b424adca842552a0a216936d16b4256157b193b5353",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "parties",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-07e29eb11461cedf83ac54c6",
+    "excerpt": "NVIDIA prepaid",
+    "locator": "sec-div:19982",
+    "normalized_text_hash": "558af820925a875d660021244bc370fa7b88fefa015e10c3c1ba111cc0959b52",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "parties",
+      "amounts",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-73980ebb87319a94302b4f6f",
+    "excerpt": "those proceeds",
+    "locator": "sec-div:19983",
+    "normalized_text_hash": "64b40e1cac1bd42329d124f51c6aa8ce50afc39d80566e38ccc1351889fbda13",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "parties",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-15ba5cad0a8f8ee901dadd9f",
+    "excerpt": "settlement obligations",
+    "locator": "sec-div:19985",
+    "normalized_text_hash": "bb8ae96fae5ae15907fd4c7f8fb5001213ddd1858e8f78e89779a7f9be67e42b",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-43ee9b687de6354c517ff94b",
+    "excerpt": "Class N",
+    "locator": "sec-div:19986",
+    "normalized_text_hash": "cf8eea5a467c90799112011ceeedff20e84fa2644549577c15f7c2ab174669b2",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5f76134935e0058527bb8026",
+    "excerpt": "90%",
+    "locator": "sec-div:19987",
+    "normalized_text_hash": "c1afdf520dcefb7c0fc540c00c4787d91336e3cf250bee9f70694b24ad5cd777",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-147c11eacbc92d7691f75633",
+    "excerpt": "IPO Price",
+    "locator": "sec-div:8",
+    "normalized_text_hash": "26256f2762469221c1f8481eebc36715d7e9bea7001101241e54ba526fd83cd3",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-73ee8d0a335e662babbb04fa",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4219c9e4b631eaf148992e32",
+    "excerpt": "NVIDIA will invest",
+    "locator": "body",
+    "normalized_text_hash": "48ca0db9d6b08d3e8cf5aae16e59a465c1c8759e044b79baa3324185741feedc",
+    "section": "Official disclosure: business context",
+    "source_id": "source-dcb7b306dffaedb5223f8dc1",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d14e0e18610927c2573696f8",
+    "excerpt": "specified milestones",
+    "locator": "sec-div:1975",
+    "normalized_text_hash": "07025ad948ecb4d9ec6f15bf8a9633e932c3e57990658f9c1206eed242b2b693",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cbccdd2ff07ec34ac7a25b5c",
+    "excerpt": "initial prepayment",
+    "locator": "sec-div:1976",
+    "normalized_text_hash": "5a9efcd97950612ad6a2a6873a11eb100b57ed07bec1d5d8e92029a5f2409274",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9217b0146660203287706d0d",
+    "excerpt": "U.S. dollars",
+    "locator": "sec-div:1474",
+    "normalized_text_hash": "46c44d7800a3cfd1685b2ea4ba6a3c102074009e98d22a0181d9fa29ce381364",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-587e14746647647685fb62e8",
+    "supports_fields": [
+      "amounts",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-82270006a3eee6951dca52d0",
+    "excerpt": "5 亿美元",
+    "locator": "pdf-page:11",
+    "normalized_text_hash": "e970ac91988f3187a276f50ea7cdb4b33c710912402e2ed065fb3ab2de1afc2e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-b21c6157a251f4ccaed5f09e",
+    "supports_fields": [
+      "parties",
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5680da31c2062f377b5556db",
+    "excerpt": "commitment of $500 million with MP Materials",
+    "locator": "p:8",
+    "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+    "section": "Official deal announcement",
+    "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  }
+]

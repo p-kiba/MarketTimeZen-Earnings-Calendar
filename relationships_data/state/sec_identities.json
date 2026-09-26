@@ -1,0 +1,611 @@
+{
+  "co-aapl": {
+    "company": {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "dabb28a7c4af8fac408a72345ec959c1a08255a6c5c1af99c4f22b2beacfc77f",
+    "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "verified_at": "2026-09-26T04:44:23+00:00"
+  },
+  "co-amd": {
+    "company": {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "ee2e45e80e5f2f32a16c1bca969f92fa3c8c0be79d6ec934319c4066c0e0da88",
+    "url": "https://data.sec.gov/submissions/CIK0000002488.json",
+    "verified_at": "2026-09-26T04:44:28+00:00"
+  },
+  "co-amzn": {
+    "company": {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "97fcbd4fa5ee692a974ddd4569d01c225734e1f3b11c889c35f8795de25bd680",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "verified_at": "2026-09-26T04:44:25+00:00"
+  },
+  "co-avgo": {
+    "company": {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "1fae3fa390ecb3426397b77755f8220c54d2360d27ce7f1c0cceb15078f5c236",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "verified_at": "2026-09-26T04:44:26+00:00"
+  },
+  "co-brk-b": {
+    "company": {
+      "aliases": [],
+      "cik": "0001067983",
+      "company_id": "co-brk-b",
+      "country": null,
+      "display_name": "BERKSHIRE HATHAWAY INC",
+      "entity_status": "resolved",
+      "legal_name": "BERKSHIRE HATHAWAY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-B",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-A",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "a79cc7058dc0f6d2ce9e706f28d607bdf6e935836bed6b0bedd5545862159a37",
+    "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "verified_at": "2026-09-26T04:44:28+00:00"
+  },
+  "co-cost": {
+    "company": {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "4adb0612389f9106dba1b6d9f9ffe1f0a538e4b1fd04dff75c42a26d8f994a71",
+    "url": "https://data.sec.gov/submissions/CIK0000909832.json",
+    "verified_at": "2026-09-26T04:44:30+00:00"
+  },
+  "co-googl": {
+    "company": {
+      "aliases": [],
+      "cik": "0001652044",
+      "company_id": "co-googl",
+      "country": null,
+      "display_name": "Alphabet Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Alphabet Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOG",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "symbol": "GOOGN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "9624fe558574d3c33ca6a6a0f9451a2fdba6e11e465de1d5a822d2e3d70042bc",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "verified_at": "2026-09-26T04:44:24+00:00"
+  },
+  "co-jpm": {
+    "company": {
+      "aliases": [],
+      "cik": "0000019617",
+      "company_id": "co-jpm",
+      "country": null,
+      "display_name": "JPMORGAN CHASE & CO",
+      "entity_status": "resolved",
+      "legal_name": "JPMORGAN CHASE & CO",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PC",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "AMJB",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PD",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PJ",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PK",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "VYLD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "271f01402aa2594788df198622fa05fc83cdc0f2a84a78d5c6dbbbf07f92f52b",
+    "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+    "verified_at": "2026-09-26T04:44:29+00:00"
+  },
+  "co-lly": {
+    "company": {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "2376b7e1a3de85e79b30f8de59aa265d9bb1110617a50dda1586572bbd84dc07",
+    "url": "https://data.sec.gov/submissions/CIK0000059478.json",
+    "verified_at": "2026-09-26T04:44:28+00:00"
+  },
+  "co-meta": {
+    "company": {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "7627db9dbf44d398db1726ca661ff7222dcbd76bc768ddec13815ab9b9fbd07e",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "verified_at": "2026-09-26T04:44:25+00:00"
+  },
+  "co-msft": {
+    "company": {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "551ff75d16e89942b05b48835f3548be1276d59159bf86f009468b99542a94b9",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "verified_at": "2026-09-26T04:44:25+00:00"
+  },
+  "co-mu": {
+    "company": {
+      "aliases": [],
+      "cik": "0000723125",
+      "company_id": "co-mu",
+      "country": null,
+      "display_name": "Micron",
+      "entity_status": "resolved",
+      "legal_name": "MICRON TECHNOLOGY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000723125.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000723125.json",
+          "symbol": "MU",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "1792d677ccb061981e1d9c868502c9e2d05fd0ec583bc1dfec8b8be377518aae",
+    "url": "https://data.sec.gov/submissions/CIK0000723125.json",
+    "verified_at": "2026-09-26T04:44:27+00:00"
+  },
+  "co-nvda": {
+    "company": {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "e220b9939d680e34f3a59655b5134a8f1a44e6a4d9292426093c8a899d3020a8",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "verified_at": "2026-09-26T04:44:23+00:00"
+  },
+  "co-tsla": {
+    "company": {
+      "aliases": [],
+      "cik": "0001318605",
+      "company_id": "co-tsla",
+      "country": null,
+      "display_name": "Tesla",
+      "entity_status": "resolved",
+      "legal_name": "Tesla, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001318605.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+          "symbol": "TSLA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "b0790bd286b9b30ae0df5daaa78898cc5684d345f8159735e15b67c99e77c37b",
+    "url": "https://data.sec.gov/submissions/CIK0001318605.json",
+    "verified_at": "2026-09-26T04:44:26+00:00"
+  },
+  "co-wmt": {
+    "company": {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    "source_hash": "3655f0ee3b85ad68016b49c0de49f5b13987a23ac9f3cd2d9f984111dbabf0a6",
+    "url": "https://data.sec.gov/submissions/CIK0000104169.json",
+    "verified_at": "2026-09-26T04:44:29+00:00"
+  }
+}

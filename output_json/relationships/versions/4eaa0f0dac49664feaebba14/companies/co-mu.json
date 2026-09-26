@@ -1,0 +1,289 @@
+{
+  "build_id": "4eaa0f0dac49664feaebba14",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000723125",
+      "company_id": "co-mu",
+      "country": null,
+      "display_name": "Micron",
+      "entity_status": "resolved",
+      "legal_name": "MICRON TECHNOLOGY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000723125.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000723125.json",
+          "symbol": "MU",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000723125",
+    "company_id": "co-mu",
+    "country": null,
+    "display_name": "Micron",
+    "entity_status": "resolved",
+    "legal_name": "MICRON TECHNOLOGY INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000723125.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000723125.json",
+        "symbol": "MU",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "ambiguous"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9bfa9ccf5b2f5a27f3101d22"
+        ],
+        "geography": "",
+        "headline": "AIメモリー・ストレージ供給契約",
+        "products": [
+          "メモリー",
+          "ストレージ"
+        ],
+        "scale": "",
+        "source_role": "データセンター製品の供給",
+        "target_role": "AI計算基盤向け調達"
+      },
+      "description": "MicronとAnthropicは、AIデータセンター向けメモリー・ストレージの供給契約を締結。購入金額・確定数量は資料に記載されていない。",
+      "direction": "directed",
+      "event_date": "2026-06-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-f328d2228cc9b431091f393f",
+      "relationship_type": "supplier",
+      "source_company_id": "co-mu",
+      "status_as_of": "2026-06-22",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-48d62afdde1d117e2d2985f5"
+        ],
+        "geography": "",
+        "headline": "Claudeの社内業務導入",
+        "products": [
+          "Claude"
+        ],
+        "scale": "",
+        "source_role": "AIモデル提供",
+        "target_role": "開発・製造・社内業務で利用"
+      },
+      "description": "MicronはClaudeを導入し、開発・製造・社内業務で利用していると公表。サービス利用額は記載されていない。",
+      "direction": "directed",
+      "event_date": "2026-06-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-e4fdc47f33ba7052a08f89c9",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-anthropic",
+      "status_as_of": "2026-06-22",
+      "target_company_id": "co-mu",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-26f713878035ce63c8e9b5da"
+        ],
+        "geography": "",
+        "headline": "Anthropic Series Hへの出資",
+        "products": [
+          "Series H出資"
+        ],
+        "scale": "",
+        "source_role": "出資者",
+        "target_role": "資金調達側"
+      },
+      "description": "MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+      "direction": "directed",
+      "event_date": "2026-06-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-709b1676999b7884cf9448c2",
+      "relationship_type": "investment",
+      "source_company_id": "co-mu",
+      "status_as_of": "2026-06-22",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-184cf00a6c7c5240261fad35"
+        ],
+        "geography": "",
+        "headline": "Blackwell向けHBM3E・SOCAMM",
+        "products": [
+          "HBM3E 12H 36GB",
+          "HBM3E 8H 24GB",
+          "SOCAMM"
+        ],
+        "scale": "",
+        "source_role": "メモリー技術・製品",
+        "target_role": "GPU・サーバープラットフォーム"
+      },
+      "description": "MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+      "direction": "directed",
+      "event_date": "2025-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3d1097f90640e48dbad9e2ba",
+      "relationship_type": "supplier",
+      "source_company_id": "co-mu",
+      "status_as_of": "2025-03-18",
+      "target_company_id": "co-nvda",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-03-18",
+    "2026-06-22"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 2,
+  "total_relationships": 4
+}

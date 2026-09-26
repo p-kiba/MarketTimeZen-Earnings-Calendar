@@ -1,0 +1,5325 @@
+{
+  "build_id": "2c06907ca0102678fd73d9ee",
+  "events": [
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5c2d87866f426070b8a96f2a",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-06-04",
+      "company_ids": [
+        "co-aws",
+        "co-pinterest"
+      ],
+      "conditions": "",
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-8109bf6676d1ac9ea1c7ca7e",
+      "event_type": "new_agreement",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-8109bf6676d1ac9ea1c7ca7e"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-04-20",
+      "company_ids": [
+        "co-anthropic",
+        "co-aws"
+      ],
+      "conditions": "",
+      "description": "Anthropicは今後10年間にAWS技術へ$1,000億超を支出するコミットメントを発表。金額はAWS利用の支出であり、AmazonからAnthropicへの出資とは別。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-4a71d6c1a98ec10f5b5d90ca",
+      "event_type": "expansion",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-4a71d6c1a98ec10f5b5d90ca"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-ca158567fdcad72b83c3a617",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の直ちに行う追加出資額。過去投資累計とは別。",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-61cd8f571bc3646945b6a2f4",
+          "amount_kind": "potential_expansion",
+          "conditions": "certain commercial milestonesの達成が条件。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の条件付き将来追加出資の上限。",
+          "value": "20000000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-04-20",
+      "company_ids": [
+        "co-amzn",
+        "co-anthropic"
+      ],
+      "conditions": "将来の追加$200億は一定の商業マイルストーン達成に連動。引用文にある過去の投資$80億は今回の追加額へ合算しない。",
+      "description": "AmazonはAnthropicへの追加出資$50億と、商業マイルストーン達成に連動する将来の追加出資最大$200億を発表。以前の累計投資$80億とは別枠。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-30e04eeb7e253e4cd3492e78",
+      "event_type": "expansion",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    }
+  ],
+  "newly_indexed": [
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-49afa7407b3dc5eb932acbc6",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-07-08",
+      "company_ids": [
+        "co-aapl",
+        "co-avgo"
+      ],
+      "conditions": "",
+      "description": "Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-f9c588e54fdeb2ccdf6a3562",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronとAnthropicは、AIデータセンター向けメモリー・ストレージの供給契約を締結。購入金額・確定数量は資料に記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9bfa9ccf5b2f5a27f3101d22",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f328d2228cc9b431091f393f"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "signed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronはClaudeを導入し、開発・製造・社内業務で利用していると公表。サービス利用額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-48d62afdde1d117e2d2985f5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e4fdc47f33ba7052a08f89c9"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-26f713878035ce63c8e9b5da",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-709b1676999b7884cf9448c2"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "completed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-04-14",
+      "company_ids": [
+        "co-avgo",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-cfd18cf92f081195140a429a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-bosch"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-fd728dff9d9a98a2491825ff",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-52db33727c36dae4a1c9db96"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-cirrus"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-bfee9d2699801e4efd890512",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3fc8d84d62525ec9ac1cff88"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-tdk"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-959c73df9082b6cbec3d7668",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7a6a372adb37f5efe5570d73"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-qnity"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-d533bc2fcf46b553077806d2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-05c6587da4c523af5144b983"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-bosch",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-2aee7b9c9a01690c2e30a20b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-33284e76c221eecfec8e07a0"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-cirrus",
+        "co-gfs"
+      ],
+      "conditions": "",
+      "description": "Apple向け技術に用いる半導体プロセス・混合信号ソリューションの協業。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-9234eb797b69099c624ee6d5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ad97c4534214e19743408c3b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-amzn",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "AmazonはOpenAIへの$500億の出資を発表。初回$150億と、条件充足後の$350億を含む。全額払込済みという意味ではない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-e787132ccb6696c2c099b161",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-aws",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-5616456660b310d2888acc12",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-20d426fdc941021d2f69db80"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 8,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-5616456660b310d2888acc12"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1affc87672744f6113131144",
+          "amount_kind": "investment_amount",
+          "conditions": "通常のクロージング条件の充足が必要。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD 30.0 billion",
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "USD 30.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-softbank-group"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-openai",
+        "co-softbank-group"
+      ],
+      "conditions": "",
+      "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-1747e7971d3998f896e21fc6",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-74cf17dc8e20aa93c0b1891d"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "signed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-nvda",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-43c157c06368872c9e7a4d2f",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0b750bf7554cd2d1815b7904"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-02-24",
+      "company_ids": [
+        "co-amd",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-8739aeba0e0f89563d579e1d",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d4a0a3f5715c51a8d104be79"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-02-17",
+      "company_ids": [
+        "co-meta",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA技術をMetaのAI学習・推論用データセンターに大規模導入する複数年の戦略提携を発表。契約金額はこの資料に記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9d9e4aeef35c978ce2683dbd",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1ca0875248128b2b14fd2ee7"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1943531cca9a567b4f6ad99f",
+          "amount_kind": "contract_value",
+          "conditions": "上限額。年額ではない。原文$の通貨種類はこの記録では未確認。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7312fd52813f947b8a4a701f",
+            "evidence-41a7bfee1b6530bb83077e61"
+          ],
+          "max_value": "6000000000",
+          "min_value": null,
+          "original_text": "$6 billion",
+          "payee_company_ids": [
+            "co-glw"
+          ],
+          "payer_company_ids": [
+            "co-meta"
+          ],
+          "qualifier": "up_to",
+          "scope": "Metaのデータセンター向け光ファイバー供給の複数年契約上限",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-01-27",
+      "company_ids": [
+        "co-glw",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "CorningがMetaのデータセンターに光ファイバーを供給する複数年契約。最大$60億とされ、North Carolinaの生産能力拡大を支える。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-7312fd52813f947b8a4a701f",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-77e795db35c98a2e7dcc8958"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-terrapower"
+      ],
+      "conditions": "",
+      "description": "MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e4f0521ddb336370ee184fcc",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f1531c1c768cb62ef861572b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-oklo"
+      ],
+      "conditions": "",
+      "description": "Ohio州の新設原子力キャンパス開発を支援する提携。最大1.2GWを計画し、最速2030年の稼働を想定。未稼働の開発計画として表示。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e6b20533ea615df64558ef88",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-10f75830f2d48d7285779605"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-vst"
+      ],
+      "conditions": "",
+      "description": "MetaがVistraの既存原発2施設から電力を購入する20年契約。さらに計3施設の増強分も対象。増強分は将来計画として区別する。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9e994dbc410bba321590f4ec",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0ba31ccfbb0674a3df5100b6"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 20,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-9e994dbc410bba321590f4ec",
+          "evidence-161ab02c80b64b2866d701af"
+        ],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-b9bcfb8a658e965ff833325a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-13a995805e1bac42cbeedcee"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-c09e61b6220df2575f32f622",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6d961c24ce89eaf990cbc1ce"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-49468fd6bca461f20c9b1d50",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6575e2a22fa91487946a85f8"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Microsoft announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-bfa1616b5e3b454de49d18b3",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dd794e17a1bb66e5a3d22e3c"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-10-13",
+      "company_ids": [
+        "co-avgo",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-be50fd18b8c831fc26ed3b75",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3e417e65fd7adc77af71cf96",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2025-09-25",
+      "company_ids": [
+        "co-coreweave",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-4336597f460697cb6683b19c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d3082b9214c6b6945d6fadca"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-09-08",
+      "company_ids": [
+        "co-msft",
+        "co-nebius"
+      ],
+      "conditions": "",
+      "description": "NebiusがMicrosoftにAI計算基盤を提供する複数年契約。金額は別途提出された6-Kの確認待ちで、このニュース本文から推測しない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-d33b7c985b21cb38cae3c466",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-46c714ee165cf59c93fb9736"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-glw"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-011fe94ce375f7f524e50e52",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e1a79bc20a2ca2dd7f2b3d5d"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-coherent"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-da9a6c5b30924d0e2e27b01b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-56154fbd6458d555ea4e1269"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-gwa"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-3291d3b57302e16b333b8c0a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-8f428b09a0e367a1851af394"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-amat"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-dfa251b77c24bed55c6195a9",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0e337fd63bd6d4f505d87843"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-txn"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-620b6ccf3791ea53f5f659f5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f4780b88ad8c09b931cf235a"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-samsung"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-627aa4d715a1f61e4a09b158",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-96fcddfc115dc25b9cc754cf"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-gfs"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-2afeeef7c9de3e5d12f5d913",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-a54e7c7f287bb4436f3b3443"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-amkor"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-48c967613ec2dea4bb7a0549",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e2898651f9dce1b13e467dc0"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-109811e9609f70780261bae2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3184bf461ce38af0e098a4cb"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d9a320f6ff61f889add18491",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2025-07-15",
+      "company_ids": [
+        "co-aapl",
+        "co-mp"
+      ],
+      "conditions": "",
+      "description": "Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-e9b94e85e90507c290f01518",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-03-18",
+      "company_ids": [
+        "co-mu",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-184cf00a6c7c5240261fad35",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3d1097f90640e48dbad9e2ba"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2024-11-22",
+      "company_ids": [
+        "co-amzn",
+        "co-anthropic"
+      ],
+      "conditions": "",
+      "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-4a437f2b0d402a48e90b384b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-aws",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-4fb18049fa4a8dd53a0f611c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-893537b62c6fcbb12218e592"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-google",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Googleは、Cloud顧客と社内チーム向けにBlackwellを導入する方針を表明。2024年の発表であり、現在の稼働状況を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-5e0d4e2ddc92f0f09d4e97f3",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-df7df426425d2e51bfa4ec0e"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-msft",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-3c668aa2b4b224ef43c84c8b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-97df4097d9e031d99b91203b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-orcl"
+      ],
+      "conditions": "",
+      "description": "OracleとNVIDIAによるAI・分析基盤での協力。Blackwellに関する2024年発表時点の計画として収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-54c244875fe3df75e2156263",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-21a0a1809ad47b1309030f4f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-tsla"
+      ],
+      "conditions": "",
+      "description": "NVIDIAがBlackwellの採用予定企業としてTeslaを公表。契約額や発注・納入完了の証拠ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-d6174fedaf3020a6eeaab7c7",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-851cad8630a0f3dc53b35e67"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-xai"
+      ],
+      "conditions": "",
+      "description": "NVIDIAがBlackwellの採用予定企業としてxAIを公表。契約額や発注・納入完了の証拠ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-08d33f8d0dfcbb760b1c1fd2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-16ba49d45c91f5a2fb8d3fc9"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-dell",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "DellをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ca164342243ad4ff60104510",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f195c0a88113d682d625afa9"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-csco",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CiscoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-f5848e4e0d76ef001072e534",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-96244cb894231a8327a29d15"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-hpe",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Hewlett Packard EnterpriseをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-52ef1d14267011e745edccde",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9b4a35fa0134b4c8b4045815"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-lenovo",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "LenovoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-6f7743fd01262233d39afc73",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-791735b1a60a1c6130a00dcf"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-smci"
+      ],
+      "conditions": "",
+      "description": "SupermicroをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-453c932ba412149f40d4153e",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-36e061784f167174dc8a2ad1"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-apld",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Applied DigitalをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-336e8b67a245e71e39d3d502",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ba6df60fb97bfab90fe9ea1c"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-coreweave",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-27cf0f6b32d0dd5a1ce3d970",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-cf4bf93cd68aa208cc0b177d"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-crusoe",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CrusoeをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-816a020a4e954cf8ff63a614",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-a0258e6142d7449b1b17183b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-lambda",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "LambdaをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-d45dcfe1a19667ee5f462eb9",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57c534919bc466d49187f9eb"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nebius",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NebiusをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-80576b1ef3d452f6c1656692",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-194394469e921764e37c4d4f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-ansys",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Ansysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-cb0e24f1df0feda87f98790d",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-83616632f553874f56bf7d3f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-cdns",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Cadenceは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-a15c681599c6d4730348c8ca",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e78d90a429de9941f5836acc"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-snps"
+      ],
+      "conditions": "",
+      "description": "Synopsysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e24d00d18d237ca02188db21",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-718f174a712617473d9d79cb"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "Blackwell GPUはTSMCのカスタム4NPプロセスで製造されるとNVIDIAが公表。個別の製造委託金額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9ab4245ad92717e7582b7f1b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7c27f4067c93433644fbeaa5"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-02-26",
+      "company_ids": [
+        "co-mistral",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ae8ab4a3235f695c92171898",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-4a336e7623b5deed03fe6cba"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-02-26",
+      "company_ids": [
+        "co-mistral",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-400cd4735ae46af3c63f6fdf",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2023-09-05",
+      "company_ids": [
+        "co-aws",
+        "co-bmw"
+      ],
+      "conditions": "",
+      "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ec139d1d168ab1f22ef5ab68",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-41b0f944338f12494eb9ca43"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2023-09-05",
+      "company_ids": [
+        "co-bmw",
+        "co-qualcomm-tech"
+      ],
+      "conditions": "",
+      "description": "BMW GroupとQualcomm TechnologiesがSnapdragon Rideを基に次世代自動運転支援システムを共同開発。親会社の別契約には置き換えない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-8a07742525f7df9e19a9bb08",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7865b5bc09c12dd89d9f9a0e"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "USD explicitly stated in the acquisition paragraph",
+          "evidence_ids": [
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-ibm"
+          ],
+          "qualifier": "approximately",
+          "scope": "Total equity value of all Red Hat common shares in this acquisition",
+          "value": "34000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2019-07-09",
+      "company_ids": [
+        "co-ibm",
+        "co-redhat"
+      ],
+      "conditions": "",
+      "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-878bce5a20465deba6b0b74c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0861e56024d9a66f3441f259"
+      ],
+      "relationship_types": [
+        "acquisition"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "completed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "timeline": [
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-49afa7407b3dc5eb932acbc6",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-07-08",
+      "company_ids": [
+        "co-aapl",
+        "co-avgo"
+      ],
+      "conditions": "",
+      "description": "Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-f9c588e54fdeb2ccdf6a3562",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronとAnthropicは、AIデータセンター向けメモリー・ストレージの供給契約を締結。購入金額・確定数量は資料に記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9bfa9ccf5b2f5a27f3101d22",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f328d2228cc9b431091f393f"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "signed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronはClaudeを導入し、開発・製造・社内業務で利用していると公表。サービス利用額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-48d62afdde1d117e2d2985f5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e4fdc47f33ba7052a08f89c9"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-06-22",
+      "company_ids": [
+        "co-anthropic",
+        "co-mu"
+      ],
+      "conditions": "",
+      "description": "MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-26f713878035ce63c8e9b5da",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-709b1676999b7884cf9448c2"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "completed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5c2d87866f426070b8a96f2a",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-06-04",
+      "company_ids": [
+        "co-aws",
+        "co-pinterest"
+      ],
+      "conditions": "",
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-8109bf6676d1ac9ea1c7ca7e",
+      "event_type": "new_agreement",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-8109bf6676d1ac9ea1c7ca7e"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-fc18a5dbb0807b07ea5937a7",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-4a71d6c1a98ec10f5b5d90ca"
+          ],
+          "max_value": null,
+          "min_value": "100000000000",
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-anthropic"
+          ],
+          "qualifier": "more_than",
+          "scope": "Anthropicによる今後10年間のAWS技術への支出コミットメント。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-04-20",
+      "company_ids": [
+        "co-anthropic",
+        "co-aws"
+      ],
+      "conditions": "",
+      "description": "Anthropicは今後10年間にAWS技術へ$1,000億超を支出するコミットメントを発表。金額はAWS利用の支出であり、AmazonからAnthropicへの出資とは別。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-4a71d6c1a98ec10f5b5d90ca",
+      "event_type": "expansion",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ab32a7a1b166a5d00b26c14c"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-4a71d6c1a98ec10f5b5d90ca"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-ca158567fdcad72b83c3a617",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の直ちに行う追加出資額。過去投資累計とは別。",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-61cd8f571bc3646945b6a2f4",
+          "amount_kind": "potential_expansion",
+          "conditions": "certain commercial milestonesの達成が条件。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の条件付き将来追加出資の上限。",
+          "value": "20000000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-04-20",
+      "company_ids": [
+        "co-amzn",
+        "co-anthropic"
+      ],
+      "conditions": "将来の追加$200億は一定の商業マイルストーン達成に連動。引用文にある過去の投資$80億は今回の追加額へ合算しない。",
+      "description": "AmazonはAnthropicへの追加出資$50億と、商業マイルストーン達成に連動する将来の追加出資最大$200億を発表。以前の累計投資$80億とは別枠。",
+      "detected_at": "2026-09-25T18:57:25+00:00",
+      "event_id": "event-30e04eeb7e253e4cd3492e78",
+      "event_type": "expansion",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-04-14",
+      "company_ids": [
+        "co-avgo",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-cfd18cf92f081195140a429a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-bosch"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-fd728dff9d9a98a2491825ff",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-52db33727c36dae4a1c9db96"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-cirrus"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-bfee9d2699801e4efd890512",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3fc8d84d62525ec9ac1cff88"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-tdk"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-959c73df9082b6cbec3d7668",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7a6a372adb37f5efe5570d73"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-aapl",
+        "co-qnity"
+      ],
+      "conditions": "",
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-d533bc2fcf46b553077806d2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-05c6587da4c523af5144b983"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-bosch",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-2aee7b9c9a01690c2e30a20b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-33284e76c221eecfec8e07a0"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-03-26",
+      "company_ids": [
+        "co-cirrus",
+        "co-gfs"
+      ],
+      "conditions": "",
+      "description": "Apple向け技術に用いる半導体プロセス・混合信号ソリューションの協業。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-9234eb797b69099c624ee6d5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ad97c4534214e19743408c3b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-amzn",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "AmazonはOpenAIへの$500億の出資を発表。初回$150億と、条件充足後の$350億を含む。全額払込済みという意味ではない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-e787132ccb6696c2c099b161",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-aws",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "AWSとOpenAIは既存クラウド契約を8年間で$1,000億拡大すると発表。既存の$380億と合算せず追加額として記録。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-5616456660b310d2888acc12",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-20d426fdc941021d2f69db80"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 8,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-5616456660b310d2888acc12"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1affc87672744f6113131144",
+          "amount_kind": "investment_amount",
+          "conditions": "通常のクロージング条件の充足が必要。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD 30.0 billion",
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "USD 30.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-softbank-group"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-openai",
+        "co-softbank-group"
+      ],
+      "conditions": "",
+      "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-1747e7971d3998f896e21fc6",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-74cf17dc8e20aa93c0b1891d"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "signed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-02-27",
+      "company_ids": [
+        "co-nvda",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-43c157c06368872c9e7a4d2f",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0b750bf7554cd2d1815b7904"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-02-24",
+      "company_ids": [
+        "co-amd",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-8739aeba0e0f89563d579e1d",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d4a0a3f5715c51a8d104be79"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-02-17",
+      "company_ids": [
+        "co-meta",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA技術をMetaのAI学習・推論用データセンターに大規模導入する複数年の戦略提携を発表。契約金額はこの資料に記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9d9e4aeef35c978ce2683dbd",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1ca0875248128b2b14fd2ee7"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1943531cca9a567b4f6ad99f",
+          "amount_kind": "contract_value",
+          "conditions": "上限額。年額ではない。原文$の通貨種類はこの記録では未確認。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7312fd52813f947b8a4a701f",
+            "evidence-41a7bfee1b6530bb83077e61"
+          ],
+          "max_value": "6000000000",
+          "min_value": null,
+          "original_text": "$6 billion",
+          "payee_company_ids": [
+            "co-glw"
+          ],
+          "payer_company_ids": [
+            "co-meta"
+          ],
+          "qualifier": "up_to",
+          "scope": "Metaのデータセンター向け光ファイバー供給の複数年契約上限",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2026-01-27",
+      "company_ids": [
+        "co-glw",
+        "co-meta"
+      ],
+      "conditions": "",
+      "description": "CorningがMetaのデータセンターに光ファイバーを供給する複数年契約。最大$60億とされ、North Carolinaの生産能力拡大を支える。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-7312fd52813f947b8a4a701f",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-77e795db35c98a2e7dcc8958"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-terrapower"
+      ],
+      "conditions": "",
+      "description": "MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e4f0521ddb336370ee184fcc",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f1531c1c768cb62ef861572b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-oklo"
+      ],
+      "conditions": "",
+      "description": "Ohio州の新設原子力キャンパス開発を支援する提携。最大1.2GWを計画し、最速2030年の稼働を想定。未稼働の開発計画として表示。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e6b20533ea615df64558ef88",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-10f75830f2d48d7285779605"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2026-01-09",
+      "company_ids": [
+        "co-meta",
+        "co-vst"
+      ],
+      "conditions": "",
+      "description": "MetaがVistraの既存原発2施設から電力を購入する20年契約。さらに計3施設の増強分も対象。増強分は将来計画として区別する。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9e994dbc410bba321590f4ec",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0ba31ccfbb0674a3df5100b6"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 20,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-9e994dbc410bba321590f4ec",
+          "evidence-161ab02c80b64b2866d701af"
+        ],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-b9bcfb8a658e965ff833325a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-13a995805e1bac42cbeedcee"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-c09e61b6220df2575f32f622",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6d961c24ce89eaf990cbc1ce"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NVIDIA announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-49468fd6bca461f20c9b1d50",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6575e2a22fa91487946a85f8"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2025-11-18",
+      "company_ids": [
+        "co-anthropic",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Microsoft announced an investment commitment with an upper limit. Completion and currency are not established by this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-bfa1616b5e3b454de49d18b3",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dd794e17a1bb66e5a3d22e3c"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-10-13",
+      "company_ids": [
+        "co-avgo",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-be50fd18b8c831fc26ed3b75",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3e417e65fd7adc77af71cf96",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-4336597f460697cb6683b19c"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2025-09-25",
+      "company_ids": [
+        "co-coreweave",
+        "co-openai"
+      ],
+      "conditions": "",
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-4336597f460697cb6683b19c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d3082b9214c6b6945d6fadca"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-09-08",
+      "company_ids": [
+        "co-msft",
+        "co-nebius"
+      ],
+      "conditions": "",
+      "description": "NebiusがMicrosoftにAI計算基盤を提供する複数年契約。金額は別途提出された6-Kの確認待ちで、このニュース本文から推測しない。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-d33b7c985b21cb38cae3c466",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-46c714ee165cf59c93fb9736"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-glw"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-011fe94ce375f7f524e50e52",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e1a79bc20a2ca2dd7f2b3d5d"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-coherent"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-da9a6c5b30924d0e2e27b01b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-56154fbd6458d555ea4e1269"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-gwa"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-3291d3b57302e16b333b8c0a",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-8f428b09a0e367a1851af394"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-amat"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-dfa251b77c24bed55c6195a9",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0e337fd63bd6d4f505d87843"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-txn"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-620b6ccf3791ea53f5f659f5",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f4780b88ad8c09b931cf235a"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-samsung"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-627aa4d715a1f61e4a09b158",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-96fcddfc115dc25b9cc754cf"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-gfs"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-2afeeef7c9de3e5d12f5d913",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-a54e7c7f287bb4436f3b3443"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-amkor"
+      ],
+      "conditions": "",
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-48c967613ec2dea4bb7a0549",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e2898651f9dce1b13e467dc0"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-08-06",
+      "company_ids": [
+        "co-aapl",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "detected_at": "2026-09-25T16:10:28+00:00",
+      "event_id": "event-109811e9609f70780261bae2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3184bf461ce38af0e098a4cb"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d9a320f6ff61f889add18491",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2025-07-15",
+      "company_ids": [
+        "co-aapl",
+        "co-mp"
+      ],
+      "conditions": "",
+      "description": "Appleによる希土類磁石の購入とリサイクル事業に関する複数年コミットメント。全社投資計画の$5,000億とは区別。",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "event_id": "event-e9b94e85e90507c290f01518",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2025-03-18",
+      "company_ids": [
+        "co-mu",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-184cf00a6c7c5240261fad35",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3d1097f90640e48dbad9e2ba"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "active"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_date": "2024-11-22",
+      "company_ids": [
+        "co-amzn",
+        "co-anthropic"
+      ],
+      "conditions": "",
+      "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-4a437f2b0d402a48e90b384b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "relationship_types": [
+        "investment"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-aws",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-4fb18049fa4a8dd53a0f611c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-893537b62c6fcbb12218e592"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-google",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Googleは、Cloud顧客と社内チーム向けにBlackwellを導入する方針を表明。2024年の発表であり、現在の稼働状況を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-5e0d4e2ddc92f0f09d4e97f3",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-df7df426425d2e51bfa4ec0e"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-msft",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-3c668aa2b4b224ef43c84c8b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-97df4097d9e031d99b91203b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-orcl"
+      ],
+      "conditions": "",
+      "description": "OracleとNVIDIAによるAI・分析基盤での協力。Blackwellに関する2024年発表時点の計画として収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-54c244875fe3df75e2156263",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-21a0a1809ad47b1309030f4f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-tsla"
+      ],
+      "conditions": "",
+      "description": "NVIDIAがBlackwellの採用予定企業としてTeslaを公表。契約額や発注・納入完了の証拠ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-d6174fedaf3020a6eeaab7c7",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-851cad8630a0f3dc53b35e67"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-xai"
+      ],
+      "conditions": "",
+      "description": "NVIDIAがBlackwellの採用予定企業としてxAIを公表。契約額や発注・納入完了の証拠ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-08d33f8d0dfcbb760b1c1fd2",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-16ba49d45c91f5a2fb8d3fc9"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-dell",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "DellをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ca164342243ad4ff60104510",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f195c0a88113d682d625afa9"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-csco",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CiscoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-f5848e4e0d76ef001072e534",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-96244cb894231a8327a29d15"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-hpe",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Hewlett Packard EnterpriseをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-52ef1d14267011e745edccde",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9b4a35fa0134b4c8b4045815"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-lenovo",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "LenovoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-6f7743fd01262233d39afc73",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-791735b1a60a1c6130a00dcf"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-smci"
+      ],
+      "conditions": "",
+      "description": "SupermicroをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-453c932ba412149f40d4153e",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-36e061784f167174dc8a2ad1"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-apld",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Applied DigitalをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-336e8b67a245e71e39d3d502",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ba6df60fb97bfab90fe9ea1c"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-coreweave",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-27cf0f6b32d0dd5a1ce3d970",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-cf4bf93cd68aa208cc0b177d"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-crusoe",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "CrusoeをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-816a020a4e954cf8ff63a614",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-a0258e6142d7449b1b17183b"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-lambda",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "LambdaをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-d45dcfe1a19667ee5f462eb9",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57c534919bc466d49187f9eb"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nebius",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "NebiusをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-80576b1ef3d452f6c1656692",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-194394469e921764e37c4d4f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-ansys",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Ansysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-cb0e24f1df0feda87f98790d",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-83616632f553874f56bf7d3f"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-cdns",
+        "co-nvda"
+      ],
+      "conditions": "",
+      "description": "Cadenceは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-a15c681599c6d4730348c8ca",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e78d90a429de9941f5836acc"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-snps"
+      ],
+      "conditions": "",
+      "description": "Synopsysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-e24d00d18d237ca02188db21",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-718f174a712617473d9d79cb"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-03-18",
+      "company_ids": [
+        "co-nvda",
+        "co-tsmc"
+      ],
+      "conditions": "",
+      "description": "Blackwell GPUはTSMCのカスタム4NPプロセスで製造されるとNVIDIAが公表。個別の製造委託金額は記載されていない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-9ab4245ad92717e7582b7f1b",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7c27f4067c93433644fbeaa5"
+      ],
+      "relationship_types": [
+        "supplier"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-02-26",
+      "company_ids": [
+        "co-mistral",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ae8ab4a3235f695c92171898",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-4a336e7623b5deed03fe6cba"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2024-02-26",
+      "company_ids": [
+        "co-mistral",
+        "co-msft"
+      ],
+      "conditions": "",
+      "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-400cd4735ae46af3c63f6fdf",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2023-09-05",
+      "company_ids": [
+        "co-aws",
+        "co-bmw"
+      ],
+      "conditions": "",
+      "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-ec139d1d168ab1f22ef5ab68",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-41b0f944338f12494eb9ca43"
+      ],
+      "relationship_types": [
+        "service_provider"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_date": "2023-09-05",
+      "company_ids": [
+        "co-bmw",
+        "co-qualcomm-tech"
+      ],
+      "conditions": "",
+      "description": "BMW GroupとQualcomm TechnologiesがSnapdragon Rideを基に次世代自動運転支援システムを共同開発。親会社の別契約には置き換えない。",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "event_id": "event-8a07742525f7df9e19a9bb08",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7865b5bc09c12dd89d9f9a0e"
+      ],
+      "relationship_types": [
+        "partnership"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "announced"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    },
+    {
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-b020bf1fd2a0a9c75ae1783c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "USD explicitly stated in the acquisition paragraph",
+          "evidence_ids": [
+            "evidence-dabc8a11a07684182ed41f52"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-ibm"
+          ],
+          "qualifier": "approximately",
+          "scope": "Total equity value of all Red Hat common shares in this acquisition",
+          "value": "34000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_date": "2019-07-09",
+      "company_ids": [
+        "co-ibm",
+        "co-redhat"
+      ],
+      "conditions": "",
+      "description": "IBM reported completion of the Red Hat acquisition. The amount represents equity value at that historical closing, not current revenue.",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "event_id": "event-878bce5a20465deba6b0b74c",
+      "event_type": "newly_indexed",
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0861e56024d9a66f3441f259"
+      ],
+      "relationship_types": [
+        "acquisition"
+      ],
+      "source_count": 1,
+      "statuses": [
+        "completed"
+      ],
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      }
+    }
+  ],
+  "undated": []
+}

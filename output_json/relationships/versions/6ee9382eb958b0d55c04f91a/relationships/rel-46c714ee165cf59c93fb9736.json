@@ -1,0 +1,154 @@
+{
+  "build_id": "6ee9382eb958b0d55c04f91a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-09-08",
+      "conditions": "",
+      "deal_id": "deal-d33b7c985b21cb38cae3c466",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-d33b7c985b21cb38cae3c466",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-d33b7c985b21cb38cae3c466"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d33b7c985b21cb38cae3c466"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-46c714ee165cf59c93fb9736"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-86de2bbc1de5ca7c58545590": "dcc2a13e510ac977a7b9d91416c4db21df90f0d02e2a6538281f00b3bd6f7c5d"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-86de2bbc1de5ca7c58545590",
+        "rule_version": "4edcbb8940173e9c9df45f924d69a3a5900db9259d316f17db4edd41ce994185",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d33b7c985b21cb38cae3c466",
+      "excerpt": "deliver AI infrastructure to Microsoft",
+      "locator": "p:1",
+      "normalized_text_hash": "441951c426c85a50c5ead4c36545186976958ec9df8655af8530ed43029fc3da",
+      "section": "Official deal announcement",
+      "source_id": "source-86de2bbc1de5ca7c58545590",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-d33b7c985b21cb38cae3c466"
+    ],
+    "description": "NebiusがMicrosoftにAI計算基盤を提供する複数年契約。金額は別途提出された6-Kの確認待ちで、このニュース本文から推測しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d33b7c985b21cb38cae3c466"
+    ],
+    "first_observed_at": "2026-09-25T16:14:29+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-d33b7c985b21cb38cae3c466"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-46c714ee165cf59c93fb9736",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-nebius",
+    "status_as_of": "2025-09-08",
+    "target_company_id": "co-msft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-86de2bbc1de5ca7c58545590": "dcc2a13e510ac977a7b9d91416c4db21df90f0d02e2a6538281f00b3bd6f7c5d"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-86de2bbc1de5ca7c58545590",
+      "rule_version": "4edcbb8940173e9c9df45f924d69a3a5900db9259d316f17db4edd41ce994185",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "content_hash": "dcc2a13e510ac977a7b9d91416c4db21df90f0d02e2a6538281f00b3bd6f7c5d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-09-08",
+      "publisher": "co-nebius",
+      "retrieved_at": "2026-09-25T16:11:15+00:00",
+      "source_id": "source-86de2bbc1de5ca7c58545590",
+      "source_type": "official_newsroom",
+      "title": "Nebius announces multi-billion dollar agreement with Microsoft for AI infrastructure"
+    }
+  ]
+}

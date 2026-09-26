@@ -1,0 +1,219 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-02-24",
+      "conditions": "",
+      "deal_id": "deal-8739aeba0e0f89563d579e1d",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-8739aeba0e0f89563d579e1d",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-8739aeba0e0f89563d579e1d",
+        "evidence-69633402b6641a6f32e01d37"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8739aeba0e0f89563d579e1d",
+            "evidence-69633402b6641a6f32e01d37"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d4a0a3f5715c51a8d104be79"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5a44e3fab07fdbe47c2e947d": "be4c3125fd880ee796a4772399a94adb3c85742e2e0ba498bce881950f1f218d"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-5a44e3fab07fdbe47c2e947d",
+        "rule_version": "92b650e367f14a9e9a6548feabf53ff4fe8347b1cf81315ef6629eee434491cf",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-69633402b6641a6f32e01d37",
+      "excerpt": "Meta",
+      "locator": "p:1",
+      "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+      "section": "Issuer context",
+      "source_id": "source-5a44e3fab07fdbe47c2e947d",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8739aeba0e0f89563d579e1d",
+      "excerpt": "up to 6GW",
+      "locator": "p:0",
+      "normalized_text_hash": "15241a3547e6622f5b1f8f23a1aab8e0d6f57c48db96bff7da9177825a552914",
+      "section": "Official disclosure: business context",
+      "source_id": "source-5a44e3fab07fdbe47c2e947d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-8739aeba0e0f89563d579e1d",
+        "evidence-69633402b6641a6f32e01d37"
+      ],
+      "geography": "",
+      "headline": "AMD Instinct GPUの複数年導入",
+      "products": [
+        "AMD Instinct GPU"
+      ],
+      "scale": "最大6GW",
+      "source_role": "GPU技術・供給側",
+      "target_role": "AI基盤への導入側"
+    },
+    "deal_ids": [
+      "deal-8739aeba0e0f89563d579e1d"
+    ],
+    "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8739aeba0e0f89563d579e1d",
+      "evidence-69633402b6641a6f32e01d37"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-8739aeba0e0f89563d579e1d"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-d4a0a3f5715c51a8d104be79",
+    "relationship_type": "supplier",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-02-24",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5a44e3fab07fdbe47c2e947d": "be4c3125fd880ee796a4772399a94adb3c85742e2e0ba498bce881950f1f218d"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-5a44e3fab07fdbe47c2e947d",
+      "rule_version": "92b650e367f14a9e9a6548feabf53ff4fe8347b1cf81315ef6629eee434491cf",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/",
+      "content_hash": "be4c3125fd880ee796a4772399a94adb3c85742e2e0ba498bce881950f1f218d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-24",
+      "publisher": "co-meta",
+      "retrieved_at": "2026-09-26T04:02:46+00:00",
+      "source_id": "source-5a44e3fab07fdbe47c2e947d",
+      "source_type": "official_newsroom",
+      "title": "Meta and AMD Partner for Longterm AI Infrastructure Agreement"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-8739aeba0e0f89563d579e1d",
+        "evidence-69633402b6641a6f32e01d37"
+      ],
+      "geography": "",
+      "headline": "AMD Instinct GPUの複数年導入",
+      "products": [
+        "AMD Instinct GPU"
+      ],
+      "scale": "最大6GW",
+      "source_role": "GPU技術・供給側",
+      "target_role": "AI基盤への導入側"
+    },
+    "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+    "direction": "directed",
+    "event_date": "2026-02-24",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-d4a0a3f5715c51a8d104be79",
+    "relationship_type": "supplier",
+    "source_company_id": "co-amd",
+    "status_as_of": "2026-02-24",
+    "target_company_id": "co-meta",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

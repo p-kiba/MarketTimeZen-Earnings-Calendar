@@ -1,0 +1,244 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-04-14",
+      "conditions": "",
+      "deal_id": "deal-cfd18cf92f081195140a429a",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-cfd18cf92f081195140a429a",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-cfd18cf92f081195140a429a",
+        "evidence-f66dbd9a11407cff6293c321",
+        "evidence-8de2474671dfafbf05178542"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-cfd18cf92f081195140a429a",
+            "evidence-f66dbd9a11407cff6293c321",
+            "evidence-8de2474671dfafbf05178542"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-04262cbf72168254eb6aa408"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-5b6b35f482dbbfa8b0632deb",
+        "rule_version": "0d454fd5cca1946ba64ac73877198931e9d4f0b59692021b4dd14ae05015ed89",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-8de2474671dfafbf05178542",
+      "excerpt": "1GW",
+      "locator": "p:3",
+      "normalized_text_hash": "8f563455a7bbc9043a5120220ba7ec0149d2972183d238eb77c464f6da8293df",
+      "section": "Issuer context",
+      "source_id": "source-5b6b35f482dbbfa8b0632deb",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cfd18cf92f081195140a429a",
+      "excerpt": "Broadcom",
+      "locator": "p:2",
+      "normalized_text_hash": "dfb457f6f9d8eacac296fa68eba52abac6b5921aa3d38838ef3c924b87736adc",
+      "section": "Official disclosure: business context",
+      "source_id": "source-5b6b35f482dbbfa8b0632deb",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f66dbd9a11407cff6293c321",
+      "excerpt": "MTIA",
+      "locator": "p:0",
+      "normalized_text_hash": "befc9a70a068ceb56c86a9e323b639cd9918bc18e2b60f2e5996573b97a5a7db",
+      "section": "Issuer context",
+      "source_id": "source-5b6b35f482dbbfa8b0632deb",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-cfd18cf92f081195140a429a",
+        "evidence-f66dbd9a11407cff6293c321",
+        "evidence-8de2474671dfafbf05178542"
+      ],
+      "geography": "",
+      "headline": "MTIAカスタムAI半導体の共同開発",
+      "products": [
+        "MTIA",
+        "XPU",
+        "Ethernet"
+      ],
+      "scale": "初期1GW超、複数GWへ展開予定",
+      "source_role": "半導体設計・実装・ネットワーク技術",
+      "target_role": "自社AI基盤への導入"
+    },
+    "deal_ids": [
+      "deal-cfd18cf92f081195140a429a"
+    ],
+    "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-cfd18cf92f081195140a429a",
+      "evidence-f66dbd9a11407cff6293c321",
+      "evidence-8de2474671dfafbf05178542"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-cfd18cf92f081195140a429a"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-04262cbf72168254eb6aa408",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-04-14",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5b6b35f482dbbfa8b0632deb": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-5b6b35f482dbbfa8b0632deb",
+      "rule_version": "0d454fd5cca1946ba64ac73877198931e9d4f0b59692021b4dd14ae05015ed89",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/",
+      "content_hash": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-14",
+      "publisher": "co-meta",
+      "retrieved_at": "2026-09-26T04:02:54+00:00",
+      "source_id": "source-5b6b35f482dbbfa8b0632deb",
+      "source_type": "official_newsroom",
+      "title": "Meta Partners With Broadcom to Co-Develop Custom AI Silicon"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-cfd18cf92f081195140a429a",
+        "evidence-f66dbd9a11407cff6293c321",
+        "evidence-8de2474671dfafbf05178542"
+      ],
+      "geography": "",
+      "headline": "MTIAカスタムAI半導体の共同開発",
+      "products": [
+        "MTIA",
+        "XPU",
+        "Ethernet"
+      ],
+      "scale": "初期1GW超、複数GWへ展開予定",
+      "source_role": "半導体設計・実装・ネットワーク技術",
+      "target_role": "自社AI基盤への導入"
+    },
+    "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+    "direction": "undirected",
+    "event_date": "2026-04-14",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-04262cbf72168254eb6aa408",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-04-14",
+    "target_company_id": "co-meta",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

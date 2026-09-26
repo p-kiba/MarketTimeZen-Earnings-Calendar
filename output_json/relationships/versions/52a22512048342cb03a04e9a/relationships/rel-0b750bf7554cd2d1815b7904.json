@@ -1,0 +1,247 @@
+{
+  "build_id": "52a22512048342cb03a04e9a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-4b20bc0c686bf80c0a089625",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-43c157c06368872c9e7a4d2f",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-43c157c06368872c9e7a4d2f",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-43c157c06368872c9e7a4d2f",
+        "evidence-a4e2e466d7faa2f14fa3c21b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-43c157c06368872c9e7a4d2f",
+            "evidence-a4e2e466d7faa2f14fa3c21b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0b750bf7554cd2d1815b7904"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a93ee3808fa50bc8a4944bef": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-a93ee3808fa50bc8a4944bef",
+        "rule_version": "d7d0a543f04c8f7e5d9b22941243d28c1b36ca11d619f67d07b60f4a6413fb44",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-43c157c06368872c9e7a4d2f",
+      "excerpt": "$30B from NVIDIA",
+      "locator": "p:3",
+      "normalized_text_hash": "5e3d1c1f5996c29406e74beafccb3a1a3eebfd46d352b9389e2b1372f1dc4418",
+      "section": "Official deal announcement",
+      "source_id": "source-a93ee3808fa50bc8a4944bef",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a4e2e466d7faa2f14fa3c21b",
+      "excerpt": "OpenAI",
+      "locator": "p:9",
+      "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+      "section": "Issuer context",
+      "source_id": "source-a93ee3808fa50bc8a4944bef",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-43c157c06368872c9e7a4d2f"
+    ],
+    "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-43c157c06368872c9e7a4d2f",
+      "evidence-a4e2e466d7faa2f14fa3c21b"
+    ],
+    "first_observed_at": "2026-09-25T16:14:30+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-43c157c06368872c9e7a4d2f"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+    "relationship_type": "investment",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a93ee3808fa50bc8a4944bef": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-a93ee3808fa50bc8a4944bef",
+      "rule_version": "d7d0a543f04c8f7e5d9b22941243d28c1b36ca11d619f67d07b60f4a6413fb44",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "content_hash": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:04:01+00:00",
+      "source_id": "source-a93ee3808fa50bc8a4944bef",
+      "source_type": "official_newsroom",
+      "title": "Scaling AI for everyone | OpenAI"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-4b20bc0c686bf80c0a089625",
+        "amount_kind": "investment_amount",
+        "conditions": "",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-43c157c06368872c9e7a4d2f",
+          "evidence-a4e2e466d7faa2f14fa3c21b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$30B",
+        "payee_company_ids": [
+          "co-openai"
+        ],
+        "payer_company_ids": [
+          "co-nvda"
+        ],
+        "qualifier": "exact",
+        "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+        "value": "30000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "OpenAIは資金調達ラウンドでNVIDIAから$300億を受けると発表。ラウンド全体の調達額や企業評価額とは別。",
+    "direction": "directed",
+    "event_date": "2026-02-27",
+    "has_amount": true,
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+    "relationship_type": "investment",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

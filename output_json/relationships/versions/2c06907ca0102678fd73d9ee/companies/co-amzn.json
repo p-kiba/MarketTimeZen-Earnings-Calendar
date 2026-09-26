@@ -1,0 +1,228 @@
+{
+  "build_id": "2c06907ca0102678fd73d9ee",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "Amazon.com, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-25",
+      "listing_status_source": "https://ir.aboutamazon.com/faqs/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://ir.aboutamazon.com/faqs/",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-amzn",
+    "country": null,
+    "display_name": "Amazon",
+    "entity_status": "resolved",
+    "legal_name": "Amazon.com, Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-25",
+    "listing_status_source": "https://ir.aboutamazon.com/faqs/",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://ir.aboutamazon.com/faqs/",
+        "symbol": "AMZN",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
+      "direction": "directed",
+      "event_date": "2024-11-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2024-11-22",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AmazonはOpenAIへの$500億の出資を発表。初回$150億と、条件充足後の$350億を含む。全額払込済みという意味ではない。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-57699a141d5ba23298393759",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-ca158567fdcad72b83c3a617",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の直ちに行う追加出資額。過去投資累計とは別。",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-61cd8f571bc3646945b6a2f4",
+          "amount_kind": "potential_expansion",
+          "conditions": "certain commercial milestonesの達成が条件。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "$",
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の条件付き将来追加出資の上限。",
+          "value": "20000000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AmazonはAnthropicへの追加出資$50億と、商業マイルストーン達成に連動する将来の追加出資最大$200億を発表。以前の累計投資$80億とは別枠。",
+      "direction": "directed",
+      "event_date": "2026-04-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T18:57:25+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-248a901c4333ee7ad29f78fb",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2026-04-20",
+      "target_company_id": "co-anthropic",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-11-22",
+    "2026-02-27",
+    "2026-04-20"
+  ],
+  "total_counterparties": 2,
+  "total_relationships": 3
+}

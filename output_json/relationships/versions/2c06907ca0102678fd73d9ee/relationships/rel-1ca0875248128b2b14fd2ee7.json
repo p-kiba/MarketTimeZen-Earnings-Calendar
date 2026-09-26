@@ -1,0 +1,167 @@
+{
+  "build_id": "2c06907ca0102678fd73d9ee",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-02-17",
+      "conditions": "",
+      "deal_id": "deal-9d9e4aeef35c978ce2683dbd",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-9d9e4aeef35c978ce2683dbd",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-9d9e4aeef35c978ce2683dbd"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-9d9e4aeef35c978ce2683dbd"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1ca0875248128b2b14fd2ee7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-156553bb76e00d30eaea9caa": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-156553bb76e00d30eaea9caa",
+        "rule_version": "16a18998d050c6bfcd5d3105a069622427532379911701b65837572202f4d417",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-9d9e4aeef35c978ce2683dbd",
+      "excerpt": "multi-year strategic partnership",
+      "locator": "p:0",
+      "normalized_text_hash": "41e0fb0760a9e2af4d9437507e499348cfbf871e94c47c18c86e37661cb93c78",
+      "section": "Official disclosure: business context",
+      "source_id": "source-156553bb76e00d30eaea9caa",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-9d9e4aeef35c978ce2683dbd"
+      ],
+      "geography": "",
+      "headline": "AIデータセンター基盤の長期協業",
+      "products": [
+        "AI学習・推論基盤"
+      ],
+      "scale": "",
+      "source_role": "AI計算基盤技術",
+      "target_role": "データセンターの構築・運用"
+    },
+    "deal_ids": [
+      "deal-9d9e4aeef35c978ce2683dbd"
+    ],
+    "description": "NVIDIA技術をMetaのAI学習・推論用データセンターに大規模導入する複数年の戦略提携を発表。契約金額はこの資料に記載されていない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-9d9e4aeef35c978ce2683dbd"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-9d9e4aeef35c978ce2683dbd"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1ca0875248128b2b14fd2ee7",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-02-17",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-156553bb76e00d30eaea9caa": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-156553bb76e00d30eaea9caa",
+      "rule_version": "16a18998d050c6bfcd5d3105a069622427532379911701b65837572202f4d417",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/",
+      "content_hash": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-17",
+      "publisher": "co-meta",
+      "retrieved_at": "2026-09-26T04:02:50+00:00",
+      "source_id": "source-156553bb76e00d30eaea9caa",
+      "source_type": "official_newsroom",
+      "title": "Meta and NVIDIA Announce Long-Term Infrastructure Partnership"
+    }
+  ]
+}

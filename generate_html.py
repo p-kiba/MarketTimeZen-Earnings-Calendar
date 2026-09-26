@@ -1,3 +1,5 @@
+import sys
+HTML_ONLY = "--html-only" in sys.argv
 import os
 import json
 import pandas as pd
@@ -203,7 +205,7 @@ previous_data = load_existing_earnings(DATA_FILE)
 # APIからデータ取得（週単位）
 all_data = []
 successful_ranges = []
-for week in weeks:
+for week in ([] if HTML_ONLY else weeks):
     if not week:
         continue
     
@@ -263,7 +265,7 @@ else:
     print("API取得に成功した期間がないため、既存データを保持しました")
 
 # JSONファイルに出力
-if successful_ranges or not os.path.exists(DATA_FILE):
+if not HTML_ONLY and (successful_ranges or not os.path.exists(DATA_FILE)):
     write_earnings_atomically(DATA_FILE, all_data)
     print(f"合計 {len(all_data)} 件のデータを保存しました")
 else:
@@ -279,7 +281,7 @@ calendar_seed_months_json = json.dumps([
 ])
 history_start_month_json = json.dumps(HISTORY_START_MONTH)
 date_str      = today.strftime('%B %d, %Y')
-updated_str   = today.strftime('%Y-%m-%d %H:%M')
+updated_str   = (datetime.fromtimestamp(os.path.getmtime(DATA_FILE)) if HTML_ONLY else today).strftime('%Y-%m-%d %H:%M')
 
 html = build_html_head("Earnings Calendar", lang="en")
 html += "<body>\n"
@@ -317,6 +319,7 @@ fetch('earnings_data.json')
     earningsData = deduplicateEarnings(
       data.filter(e => e.status !== 'changed')
     );
+    initializeSymbolSearch();
     initializeCalendarNavigation();
     renderCalendar();
     scrollToCurrentWeek();
@@ -435,7 +438,7 @@ function renderDay(dateStr) {{
       }}
       card.addEventListener('click', ev => {{
         ev.stopPropagation();
-        window.webkit.messageHandlers.favoriteHandler.postMessage({{ symbol: e.symbol }});
+        notifyFavorite(e.symbol);
       }});
       const img = document.createElement('img');
       img.src = '{ASSETS_DIR}/' + e.symbol + '.png';

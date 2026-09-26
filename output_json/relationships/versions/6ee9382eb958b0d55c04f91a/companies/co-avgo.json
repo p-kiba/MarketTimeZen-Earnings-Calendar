@@ -1,0 +1,188 @@
+{
+  "build_id": "6ee9382eb958b0d55c04f91a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://investor.apple.com/faq/",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://investor.apple.com/faq/",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-avgo",
+    "country": null,
+    "display_name": "Broadcom",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-49afa7407b3dc5eb932acbc6",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Apple製品向けのカスタム半導体・無線部品の複数年契約。原文は契約額が$300億を超える見込みと記載。Broadcomの設備投資$15億やApple全社の米国投資計画とは別。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "tier": null
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-cfd18cf92f081195140a429a",
+          "evidence-f66dbd9a11407cff6293c321",
+          "evidence-8de2474671dfafbf05178542"
+        ],
+        "geography": "",
+        "headline": "MTIAカスタムAI半導体の共同開発",
+        "products": [
+          "MTIA",
+          "XPU",
+          "Ethernet"
+        ],
+        "scale": "初期1GW超、複数GWへ展開予定",
+        "source_role": "半導体設計・実装・ネットワーク技術",
+        "target_role": "自社AI基盤への導入"
+      },
+      "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "direction": "undirected",
+      "event_date": "2026-04-14",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-04262cbf72168254eb6aa408",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-04-14",
+      "target_company_id": "co-meta",
+      "tier": null
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-10-13",
+    "2026-04-14",
+    "2026-07-08"
+  ],
+  "total_counterparties": 3,
+  "total_relationships": 3
+}

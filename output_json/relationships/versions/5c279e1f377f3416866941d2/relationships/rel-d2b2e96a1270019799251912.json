@@ -1,0 +1,365 @@
+{
+  "build_id": "5c279e1f377f3416866941d2",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-03-11",
+      "conditions": "",
+      "deal_id": "deal-1b82d29797d80ff5f3356988",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-1b82d29797d80ff5f3356988",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1b82d29797d80ff5f3356988"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1b82d29797d80ff5f3356988"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d2b2e96a1270019799251912"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3f80e854721ad8645bce9be7": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-3f80e854721ad8645bce9be7",
+        "rule_version": "2233b5d51b25d18adc3a00bf95143c2c0cc8dff3ca08feaf94589c68d04a4bae",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-8456717f3f5253ad2c689f4a",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-1459 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 29.5 billion",
+          "payee_company_ids": [
+            "co-wiz"
+          ],
+          "payer_company_ids": [
+            "co-google"
+          ],
+          "qualifier": "exact",
+          "scope": "価格調整後・買収後報酬を除く取得対価",
+          "value": "29500000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "買収後報酬契約は取得対価に含まない。",
+      "deal_id": "deal-1b82d29797d80ff5f3356988",
+      "detected_at": "2026-09-26T05:23:08+00:00",
+      "effective_date": "2026-03-11",
+      "event_id": "event-b46839d91d047db12e94c4d1",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-f7c601c8ff547a1119662a2d"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-f7c601c8ff547a1119662a2d"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-23",
+      "relationship_ids": [
+        "rel-d2b2e96a1270019799251912"
+      ],
+      "supersedes_event_id": "event-1b82d29797d80ff5f3356988",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-abfe9536df9546b38044b12e": "5432673d5e3e83a94f3aee84d9b906648c086dd5e021516f60bbe6d0541edd7f"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-abfe9536df9546b38044b12e",
+        "rule_version": "d020cc39b00e2602c3ee4a2ec811e1451a7f35bc0264044d753cadf615b10692",
+        "verified_at": "2026-09-26T05:23:08+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1b82d29797d80ff5f3356988",
+      "excerpt": "acquisition of Wiz",
+      "locator": "p:14",
+      "normalized_text_hash": "744353d505f51550072e506902a6950bfaabf97005ad58a49c1144e2ed6d11a8",
+      "section": "Official disclosure: business context",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f7c601c8ff547a1119662a2d",
+      "excerpt": "Wiz",
+      "locator": "sec-div:636",
+      "normalized_text_hash": "f59117ebaa0c6fe4ff4bf1f791998b087ad599f9f8923a2d34e1d1f11cb7612a",
+      "section": "Official disclosure: business context",
+      "source_id": "source-abfe9536df9546b38044b12e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-f7c601c8ff547a1119662a2d"
+      ],
+      "geography": "",
+      "headline": "Wiz買収の調整後取得対価",
+      "products": [
+        "クラウド・AIセキュリティ"
+      ],
+      "scale": "",
+      "source_role": "買収側",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-1b82d29797d80ff5f3356988"
+    ],
+    "description": "2026年3月11日に完了したWiz買収。SEC注記の取得対価は価格調整後295億米ドルで、買収後報酬契約を除く。発表時の金額と会計上の取得対価を区別する。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f7c601c8ff547a1119662a2d"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T05:23:08+00:00",
+    "latest_event_ids": [
+      "event-b46839d91d047db12e94c4d1"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d2b2e96a1270019799251912",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-wiz",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-abfe9536df9546b38044b12e": "5432673d5e3e83a94f3aee84d9b906648c086dd5e021516f60bbe6d0541edd7f"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-abfe9536df9546b38044b12e",
+      "rule_version": "d020cc39b00e2602c3ee4a2ec811e1451a7f35bc0264044d753cadf615b10692",
+      "verified_at": "2026-09-26T05:23:08+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/",
+      "content_hash": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-03-11",
+      "publisher": "co-google",
+      "retrieved_at": "2026-09-26T04:45:24+00:00",
+      "source_id": "source-3f80e854721ad8645bce9be7",
+      "source_type": "official_newsroom",
+      "title": "Google completes acquisition of Wiz"
+    },
+    {
+      "accession_number": "0001652044-26-000071",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "content_hash": "5432673d5e3e83a94f3aee84d9b906648c086dd5e021516f60bbe6d0541edd7f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-23",
+      "filing_cik": "0001652044",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-googl",
+      "retrieved_at": "2026-09-26T04:45:04+00:00",
+      "source_id": "source-abfe9536df9546b38044b12e",
+      "source_type": "sec_filing",
+      "title": "goog-20260630"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-8456717f3f5253ad2c689f4a",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-1459 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-f7c601c8ff547a1119662a2d"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 29.5 billion",
+        "payee_company_ids": [
+          "co-wiz"
+        ],
+        "payer_company_ids": [
+          "co-google"
+        ],
+        "qualifier": "exact",
+        "scope": "価格調整後・買収後報酬を除く取得対価",
+        "value": "29500000000",
+        "value_semantics": "revised_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-f7c601c8ff547a1119662a2d"
+      ],
+      "geography": "",
+      "headline": "Wiz買収の調整後取得対価",
+      "products": [
+        "クラウド・AIセキュリティ"
+      ],
+      "scale": "",
+      "source_role": "買収側",
+      "target_role": "買収対象"
+    },
+    "description": "2026年3月11日に完了したWiz買収。SEC注記の取得対価は価格調整後295億米ドルで、買収後報酬契約を除く。発表時の金額と会計上の取得対価を区別する。",
+    "direction": "directed",
+    "event_date": "2026-07-23",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:08+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d2b2e96a1270019799251912",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-google",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-wiz",
+    "tier": {
+      "amount_id": "amount-8456717f3f5253ad2c689f4a",
+      "color": "#c49a24",
+      "currency": "USD",
+      "level": 4
+    },
+    "tier_reasons": []
+  }
+}

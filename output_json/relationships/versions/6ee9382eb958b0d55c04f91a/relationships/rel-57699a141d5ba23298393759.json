@@ -1,0 +1,180 @@
+{
+  "build_id": "6ee9382eb958b0d55c04f91a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-e787132ccb6696c2c099b161",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-e787132ccb6696c2c099b161",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e787132ccb6696c2c099b161"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+        "rule_version": "354a598b0856a07800d58bf56202971bea563490a3817764c58195a5e3e92b0b",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e787132ccb6696c2c099b161",
+      "excerpt": "$50 billion",
+      "locator": "p:8",
+      "normalized_text_hash": "fb74c61a643ab988c80fc9e236dca892b9c5fb61c1f7d851021a9224514e8de9",
+      "section": "Official deal announcement",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-e787132ccb6696c2c099b161"
+    ],
+    "description": "AmazonはOpenAIへの$500億の出資を発表。初回$150億と、条件充足後の$350億を含む。全額払込済みという意味ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-e787132ccb6696c2c099b161"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-e787132ccb6696c2c099b161"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-57699a141d5ba23298393759",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2026-02-27",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+      "rule_version": "354a598b0856a07800d58bf56202971bea563490a3817764c58195a5e3e92b0b",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/amazon-partnership/",
+      "content_hash": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:03:57+00:00",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "source_type": "official_newsroom",
+      "title": "OpenAI and Amazon announce strategic partnership | OpenAI"
+    }
+  ]
+}
