@@ -1,0 +1,1100 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aws",
+      "country": null,
+      "display_name": "Amazon Web Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coreweave",
+      "country": null,
+      "display_name": "CoreWeave",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-25",
+      "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "symbol": "CRWV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-softbank-group",
+      "country": null,
+      "display_name": "SoftBank Group Corp.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-openai",
+    "country": null,
+    "display_name": "OpenAI",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-4fb18049fa4a8dd53a0f611c"
+        ],
+        "geography": "",
+        "headline": "Project Ceibaの共同開発",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-893537b62c6fcbb12218e592",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3c668aa2b4b224ef43c84c8b"
+        ],
+        "geography": "",
+        "headline": "Azure基盤へのGB200導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-97df4097d9e031d99b91203b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-27cf0f6b32d0dd5a1ce3d970"
+        ],
+        "geography": "",
+        "headline": "Blackwellクラウドの提供計画",
+        "products": [
+          "Blackwellクラウド"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "クラウドサービスの提供予定"
+      },
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-cf4bf93cd68aa208cc0b177d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-coreweave",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e70fb1abda4ee3eb0021abe4"
+        ],
+        "geography": "",
+        "headline": "2031年までのカスタムASIC開発・供給",
+        "products": [
+          "カスタムASIC"
+        ],
+        "scale": "2031年まで（具体的な満了日なし）",
+        "source_role": "設計・供給",
+        "target_role": "製品への採用"
+      },
+      "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "direction": "undirected",
+      "event_date": "2026-07-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-729343557b3c5f5e431b4854",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-a1bb814a5b38887346dead5e",
+          "evidence-b29812fe572cb5b098c04088",
+          "evidence-fb566464d15d2cde96ccaee5"
+        ],
+        "geography": "",
+        "headline": "AmazonのAWS事業セグメント",
+        "products": [
+          "クラウド計算・ストレージ事業"
+        ],
+        "scale": "",
+        "source_role": "報告セグメント",
+        "target_role": "連結事業の報告主体"
+      },
+      "description": "AmazonのSEC開示はAWSを同社の報告セグメントの一つとして記載。Amazon銘柄からAWS事業の取引をたどるための所属関係で、AWSの特定法人を親会社へ統合したり、社内売買契約を作ったりするものではない。",
+      "direction": "directed",
+      "event_date": "2026-07-31",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:24:51+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-378f42715112dd6fb7536cde",
+      "relationship_type": "group_member",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-amzn",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e45799e38b4915054a64a417",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:30:23+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e4e0f2a2c021d776c8effe37"
+        ],
+        "geography": "",
+        "headline": "Azure・Microsoft 365導入",
+        "products": [
+          "Microsoft Azure",
+          "Microsoft 365"
+        ],
+        "scale": "",
+        "source_role": "クラウド提供",
+        "target_role": "全社利用・移行"
+      },
+      "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+      "direction": "directed",
+      "event_date": "2018-07-17",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-e034040a21765633a2b51199",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2018-07-17",
+      "target_company_id": "co-wmt",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-1affc87672744f6113131144",
+          "amount_kind": "investment_amount",
+          "conditions": "通常のクロージング条件の充足が必要。",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD 30.0 billion",
+          "evidence_ids": [
+            "evidence-1747e7971d3998f896e21fc6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "USD 30.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-softbank-group"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年2月に合意した追加出資契約。SVF2を通じた投資。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "SoftBank GroupはSVF2を通じてOpenAI Group PBCに追加出資する契約を発表。通常のクロージング条件付き。過去分を含む累計額とは区別。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-74cf17dc8e20aa93c0b1891d",
+      "relationship_type": "investment",
+      "source_company_id": "co-softbank-group",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c643e5f7b48f934879177544"
+        ],
+        "geography": "",
+        "headline": "Bedrock上でのモデル・エージェント提供",
+        "products": [
+          "Amazon Bedrock Managed Agents"
+        ],
+        "scale": "",
+        "source_role": "AIモデル・エージェント機能",
+        "target_role": "クラウド実行・販売基盤"
+      },
+      "description": "AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+      "direction": "undirected",
+      "event_date": "2026-04-28",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-805c5f4e1aaba90d4ce03fc3",
+      "relationship_type": "partnership",
+      "source_company_id": "co-openai",
+      "status_as_of": "2026-04-28",
+      "target_company_id": "co-aws",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-eaf97ec5ec79ccf17af189f6"
+        ],
+        "geography": "",
+        "headline": "モデル・基盤のIP利用と収益分配",
+        "products": [
+          "モデル・基盤の知的財産",
+          "収益分配"
+        ],
+        "scale": "",
+        "source_role": "IP利用・製品統合",
+        "target_role": "モデル・基盤技術提供"
+      },
+      "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+      "direction": "undirected",
+      "event_date": "2026-07-29",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-4330bb60569e930aab9db1bd",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-07-29",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4bd84d0619902fd319fffe9f",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a8fb47a-6fbe-4336-9a3c-c952489d3025 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "出資に関する累計資金コミットメント。契約対価・年度売上とは異なる。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-481e37c169a589476d924a43",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a19381b-b0bb-404e-aa8f-8a1f44d4dd41 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 11.9 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年6月30日までの累計払込額。130億米ドルの内数であり加算しない。",
+          "value": "11900000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-e995fc47cf71b1312937019c",
+          "evidence-145ce7fed53a37d180b7ef97"
+        ],
+        "geography": "",
+        "headline": "OpenAIへの資金コミットメントと払込状況",
+        "products": [
+          "持分法投資"
+        ],
+        "scale": "",
+        "source_role": "投資者",
+        "target_role": "投資先"
+      },
+      "description": "Microsoftの出資コミットメントは130億米ドル、6月末までの払込は119億米ドル。転換後換算の持分は約25%。当期売上241億米ドル・売掛金60億米ドルは投資額に含めない。",
+      "direction": "directed",
+      "event_date": "2026-07-29",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-c716a112ddca6d34cb9e4a09",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-49c7fa825c86850285e51519",
+          "amount_kind": "incremental_commitment",
+          "conditions": "AWSチップの性能に関する契約上の義務を含む",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-590 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 100.0 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する追加コミットメント",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-3fdd58163eaedf1bf60b480f"
+        ],
+        "geography": "",
+        "headline": "AWS計算基盤契約の追加コミットメント",
+        "products": [
+          "AWS計算基盤",
+          "AWSチップ"
+        ],
+        "scale": "",
+        "source_role": "計算基盤提供",
+        "target_role": "AIモデルの学習・運用"
+      },
+      "description": "AWSとOpenAIの既存クラウド契約を8年間で1,000億米ドル拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+      "direction": "directed",
+      "event_date": "2026-07-31",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:10+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-20d426fdc941021d2f69db80",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-aws",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "conditional",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-b2580e0616d2f7a03b1abc60",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-669 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.7 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年Q2に払い込まれた追加額。初回150億と別表示。",
+          "value": "13700000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-6b7374ad75fc5808cac7baf8",
+          "evidence-3f2b9c3aa60e3678cc711e0b",
+          "evidence-db1fc17b1ee2abcafe7a7a35",
+          "evidence-c00df121431864012024cd54"
+        ],
+        "geography": "",
+        "headline": "OpenAI出資の払込進捗",
+        "products": [
+          "Series C優先株"
+        ],
+        "scale": "",
+        "source_role": "出資者",
+        "target_role": "資金調達側"
+      },
+      "description": "Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+      "direction": "directed",
+      "event_date": "2026-07-31",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:11+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-57699a141d5ba23298393759",
+      "relationship_type": "investment",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2026-07-31",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-63894b170823b8d91d923f9b",
+          "evidence-bfeec1a0474e9e0ef2c73173",
+          "evidence-b2f8b7974e801b9d2d70bc37",
+          "evidence-735ed19d0886075fb2a165a0",
+          "evidence-9fa3cc38b21bb70a94f197a0"
+        ],
+        "geography": "",
+        "headline": "Siri・Writing ToolsへのChatGPT統合",
+        "products": [
+          "ChatGPT",
+          "Siri",
+          "Writing Tools"
+        ],
+        "scale": "",
+        "source_role": "OS・アプリへの統合",
+        "target_role": "AIモデル提供"
+      },
+      "description": "AppleがiOS 18・iPadOS 18・macOS SequoiaへのChatGPT統合を発表。SiriとWriting Toolsから利用できる計画で、2024年後半の提供予定。契約金額・収益分配率はこの発表では未確認。",
+      "direction": "undirected",
+      "event_date": "2024-06-10",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f348beaac7b09852594df48b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2024-06-10",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-61da7e5bbb0f9f405e3ea29d",
+          "evidence-0c3d3ee65d5c97e5435470f3",
+          "evidence-9dfeb3e936cf0e2704e49bd4"
+        ],
+        "geography": "",
+        "headline": "OpenAI向けInstinct GPUの6GW導入契約",
+        "products": [
+          "AMD Instinct MI450",
+          "AIラック基盤"
+        ],
+        "scale": "全体6GW、初期1GWの予定",
+        "source_role": "GPU・計算基盤供給",
+        "target_role": "AI計算能力の調達"
+      },
+      "description": "AMD Instinct GPUをOpenAIのAI基盤に複数年・複数世代で導入する6GWの契約。最初の1GWはMI450で2026年後半の展開開始を予定。6GWは容量であり契約金額ではない。",
+      "direction": "directed",
+      "event_date": "2025-10-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-77c8b0b821bdc0dd7d9c057d",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amd",
+      "status_as_of": "2025-10-06",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-428b397c67afda0d9253addc",
+          "evidence-eb33d1334bfe87c02cc35d13"
+        ],
+        "geography": "",
+        "headline": "従業員向けAI認定・研修プログラム",
+        "products": [
+          "OpenAI Certifications",
+          "AI研修"
+        ],
+        "scale": "",
+        "source_role": "従業員研修の設計・展開",
+        "target_role": "AI研修・認定プログラム"
+      },
+      "description": "WalmartがOpenAIと従業員向けAI研修で協業。米国の現場・オフィス従業員向けに認定プログラムをカスタマイズし、2026年からの提供を計画。Walmart全体の技能研修予算をOpenAIへの支払額に転用しない。",
+      "direction": "undirected",
+      "event_date": "2025-09-04",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f0227fe08b108fbea5840b67",
+      "relationship_type": "partnership",
+      "source_company_id": "co-wmt",
+      "status_as_of": "2025-09-04",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4dcf8603d928941962613340",
+          "amount_kind": "investment_amount",
+          "conditions": "発表額。払込完了・実行条件は未確認。通貨は同じ公式発表の各言語版を照合。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-49d5c61b81bdcf05afeefccf",
+            "evidence-97592c134fd373087c0d5137",
+            "evidence-5e3852f06e426c50ca7dab7b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "NVIDIAがOpenAIの今回資金調達ラウンドに300億米ドルを出資すると発表。OpenAI公式の英語発表とポルトガル語版のUS$表記を照合。払込完了・実行条件はこの記録では未確認。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:04:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-40c71f658491ea626158bcbd",
+          "amount_kind": "contract_value",
+          "conditions": "提供・利用可能性の要件充足および解除条項に従う追加注文の上限。概算であり確定総額ではない。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "direction": "directed",
+      "event_date": "2025-09-25",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-coreweave",
+      "status_as_of": "2025-09-25",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-06-10",
+    "2025-09-04",
+    "2025-09-25",
+    "2025-10-06",
+    "2025-10-13",
+    "2026-02-27",
+    "2026-04-28",
+    "2026-06-30",
+    "2026-07-29",
+    "2026-07-31"
+  ],
+  "total_counterparties": 10,
+  "total_peer_relationships": 7,
+  "total_relationships": 12
+}

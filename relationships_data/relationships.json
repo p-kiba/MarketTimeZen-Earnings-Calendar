@@ -12268,358 +12268,6 @@
   },
   {
     "deal_ids": [
-      "deal-3dc68c7a1114fdd7b71b4a84"
-    ],
-    "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-3dc68c7a1114fdd7b71b4a84"
-    ],
-    "first_observed_at": "2026-09-26T12:38:30+00:00",
-    "last_observed_at": "2026-09-26T12:38:30+00:00",
-    "latest_event_ids": [
-      "event-3dc68c7a1114fdd7b71b4a84"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-832328c6401f9ce728708a8c",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-lam-research",
-    "status_as_of": "2022-11-15",
-    "target_company_id": "co-semsysco",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r5",
-      "rule_version": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-b0981d12ef454e412cb28435"
-    ],
-    "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-b0981d12ef454e412cb28435"
-    ],
-    "first_observed_at": "2026-09-26T12:38:30+00:00",
-    "last_observed_at": "2026-09-26T12:38:30+00:00",
-    "latest_event_ids": [
-      "event-b0981d12ef454e412cb28435"
-    ],
-    "lifecycle_status": "active",
-    "relationship_id": "rel-2e9c5666585943783841c695",
-    "relationship_type": "supplier",
-    "source_company_id": "co-lam-research",
-    "status_as_of": "2022-06-14",
-    "target_company_id": "co-sk-hynix",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r7",
-      "rule_version": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-78eee7f5d229fac3f9365c3a"
-    ],
-    "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
-    "direction": "undirected",
-    "evidence_ids": [
-      "evidence-78eee7f5d229fac3f9365c3a"
-    ],
-    "first_observed_at": "2026-09-26T12:38:30+00:00",
-    "last_observed_at": "2026-09-26T12:38:30+00:00",
-    "latest_event_ids": [
-      "event-78eee7f5d229fac3f9365c3a"
-    ],
-    "lifecycle_status": "active",
-    "relationship_id": "rel-d6862887c33e0533897cf789",
-    "relationship_type": "partnership",
-    "source_company_id": "co-palantir",
-    "status_as_of": "2024-10-23",
-    "target_company_id": "co-l3harris",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r27",
-      "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-94cf4a3a2cc0470bb4e4252f"
-    ],
-    "description": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-94cf4a3a2cc0470bb4e4252f"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-94cf4a3a2cc0470bb4e4252f"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-89bb4437a2dce822962b1af9",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-johnson-johnson",
-    "status_as_of": "2025-12-29",
-    "target_company_id": "co-halda-therapeutics-opco-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
-      },
-      "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r81",
-      "rule_version": "659e6d3b02a7f71a0d68ae7d564e9df90736068d902c72c48accc74a20331b68",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-215028fed2e5371d28f489ab"
-    ],
-    "description": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-215028fed2e5371d28f489ab"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-215028fed2e5371d28f489ab"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-6f45970090fc73603fe406f7",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-abbvie",
-    "status_as_of": "2026-09-03",
-    "target_company_id": "co-apogee-therapeutics-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
-      },
-      "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r85",
-      "rule_version": "9b6d5d5411ae57f8c1003c7d9ca03e2ea56c90182624a49809797bd8987f3ad2",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-b99f5e60222d633a0f0cf558"
-    ],
-    "description": "AmgenがDark Blue Therapeuticsを買収し、MLLT1/3を標的とする急性骨髄性白血病向けタンパク質分解薬プログラムを取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-b99f5e60222d633a0f0cf558"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-b99f5e60222d633a0f0cf558"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-aa47d9d867a4733fe6fae8ee",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-amgen",
-    "status_as_of": "2026-01-06",
-    "target_company_id": "co-dark-blue-therapeutics-ltd",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
-      },
-      "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r93",
-      "rule_version": "d1ff51e1c5ab5bf5001174c3d1a48eabc6bb617d9e52cd0bdc4fe4071626cb1f",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-812ef833642e67d92c65153b"
-    ],
-    "description": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-812ef833642e67d92c65153b"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-812ef833642e67d92c65153b"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-b3fc1326d50f92faeb8a28c8",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-amgen",
-    "status_as_of": "2023-10-06",
-    "target_company_id": "co-horizon-therapeutics-plc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
-      },
-      "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r94",
-      "rule_version": "4f11f62d70efb3ab1719590e6fcaf8d5873308eb6f8602a5420db508c3dae640",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-24a48fd7afca54f66cedd2a6"
-    ],
-    "description": "AmgenがChemoCentryxを買収し、ANCA関連血管炎治療薬TAVNEOSなどを取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-24a48fd7afca54f66cedd2a6"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-24a48fd7afca54f66cedd2a6"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-6e29a334c9b72cf785de62a8",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-amgen",
-    "status_as_of": "2022-10-20",
-    "target_company_id": "co-chemocentryx-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
-      },
-      "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r95",
-      "rule_version": "4ebdbcc782c999de431ef27ec4c12e59850af575bf1cb26073c33cca1dbe399c",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-dbe1375b2216941071e89726"
-    ],
-    "description": "AmgenがTeneobioの全発行済株式を取得。二重・多重特異性抗体技術とTNB-585を含む医薬品パイプラインを取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-dbe1375b2216941071e89726"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-dbe1375b2216941071e89726"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-bb67dda3496d8e5ff52b017f",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-amgen",
-    "status_as_of": "2021-10-19",
-    "target_company_id": "co-teneobio-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-1bf04cb307e50b46e25b3f70": "dcaf057f6374544c9ea6aaec5014f5d00cdddc4c9f4d4ecd4be3252344d7cf4f"
-      },
-      "reason": "Primary-source review of merged research record r96; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r96",
-      "rule_version": "c37a4755111f7aad9509bf4f8e204c3fcd9b3342559df43733531cc33f909098",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-278ff07b6fb8849f31cf08af"
-    ],
-    "description": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-278ff07b6fb8849f31cf08af"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-278ff07b6fb8849f31cf08af"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-0dd6dfcd6216ee5ccccbd531",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-gilead-sciences-inc",
-    "status_as_of": "2026-04-28",
-    "target_company_id": "co-arcellx-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
-      },
-      "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r97",
-      "rule_version": "b03efe74d5c8db00bae032235b1948e29483d35a861d7e89a22ad4ad3a4ea5f5",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
-      "deal-7acd14666af3ca64d1f87326"
-    ],
-    "description": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-7acd14666af3ca64d1f87326"
-    ],
-    "first_observed_at": "2026-09-26T12:44:59+00:00",
-    "last_observed_at": "2026-09-26T12:44:59+00:00",
-    "latest_event_ids": [
-      "event-7acd14666af3ca64d1f87326"
-    ],
-    "lifecycle_status": "completed",
-    "relationship_id": "rel-834a22411368a7cb4e68d27c",
-    "relationship_type": "acquisition",
-    "source_company_id": "co-gilead-sciences-inc",
-    "status_as_of": "2020-10-23",
-    "target_company_id": "co-immunomedics-inc",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
-      },
-      "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r99",
-      "rule_version": "ddac16b1d656edb92b17779c8289dd2a01e8e50d67dee2224a108f98406b4b56",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "deal_ids": [
       "deal-71ac406683dfb20643bf74b0"
     ],
     "description": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。",
@@ -13045,6 +12693,754 @@
       "rule_id": "merged-20260926-r53",
       "rule_version": "4dbc47ab60febb192506fcc8c2360346eb4576a2e4f28f301129d43faa2da22c",
       "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-832328c6401f9ce728708a8c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-11-15",
+    "target_company_id": "co-semsysco",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r5",
+      "rule_version": "8addb7f69157e1a189a4dde43bfcfa32927eef97964552d2f1ca6ef4c3bf0d34",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-b0981d12ef454e412cb28435"
+    ],
+    "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b0981d12ef454e412cb28435"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-b0981d12ef454e412cb28435"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-2e9c5666585943783841c695",
+    "relationship_type": "supplier",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-06-14",
+    "target_company_id": "co-sk-hynix",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r7",
+      "rule_version": "34c4635657f691e319abbf90795cc6a8b4ec29e165d45af36abed45202d510ac",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-78eee7f5d229fac3f9365c3a"
+    ],
+    "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-78eee7f5d229fac3f9365c3a"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-78eee7f5d229fac3f9365c3a"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-d6862887c33e0533897cf789",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2024-10-23",
+    "target_company_id": "co-l3harris",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r27",
+      "rule_version": "e736391b5a10f7bf4d3c18cbb4d6caf334db797661cd8367779d2de729c3b617",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "description": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89bb4437a2dce822962b1af9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-johnson-johnson",
+    "status_as_of": "2025-12-29",
+    "target_company_id": "co-halda-therapeutics-opco-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
+      },
+      "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r81",
+      "rule_version": "aa905021237a1d6eda40ebdeddd8d3cc4ceeeb57a08d8757340cdd54c0e3264f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-215028fed2e5371d28f489ab"
+    ],
+    "description": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-215028fed2e5371d28f489ab"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-215028fed2e5371d28f489ab"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6f45970090fc73603fe406f7",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2026-09-03",
+    "target_company_id": "co-apogee-therapeutics-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
+      },
+      "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r85",
+      "rule_version": "4047958645530ef3ffe85cb22740d437c82b6474b496da5d1754c386f10d2481",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-b99f5e60222d633a0f0cf558"
+    ],
+    "description": "AmgenがDark Blue Therapeuticsを買収し、MLLT1/3を標的とする急性骨髄性白血病向けタンパク質分解薬プログラムを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b99f5e60222d633a0f0cf558"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-b99f5e60222d633a0f0cf558"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-aa47d9d867a4733fe6fae8ee",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2026-01-06",
+    "target_company_id": "co-dark-blue-therapeutics-ltd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
+      },
+      "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r93",
+      "rule_version": "44c0e1f3d79c6a1f88e5e727fb1bfbd47ae59776ce1fe673c292474eaaabe6b7",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-812ef833642e67d92c65153b"
+    ],
+    "description": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-812ef833642e67d92c65153b"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-812ef833642e67d92c65153b"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b3fc1326d50f92faeb8a28c8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2023-10-06",
+    "target_company_id": "co-horizon-therapeutics-plc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
+      },
+      "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r94",
+      "rule_version": "91a3e9dddb2ee44b5b4e571b146b73634f197f46f35b18aaaf4d4c61f3a76747",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-24a48fd7afca54f66cedd2a6"
+    ],
+    "description": "AmgenがChemoCentryxを買収し、ANCA関連血管炎治療薬TAVNEOSなどを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-24a48fd7afca54f66cedd2a6"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-24a48fd7afca54f66cedd2a6"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6e29a334c9b72cf785de62a8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2022-10-20",
+    "target_company_id": "co-chemocentryx-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
+      },
+      "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r95",
+      "rule_version": "39cbadf2f5336b6a5bd8a86bc2381d0954daf791d4a56c30cb90fd2c6484a577",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-dbe1375b2216941071e89726"
+    ],
+    "description": "AmgenがTeneobioの全発行済株式を取得。二重・多重特異性抗体技術とTNB-585を含む医薬品パイプラインを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-dbe1375b2216941071e89726"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-dbe1375b2216941071e89726"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bb67dda3496d8e5ff52b017f",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2021-10-19",
+    "target_company_id": "co-teneobio-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1bf04cb307e50b46e25b3f70": "dcaf057f6374544c9ea6aaec5014f5d00cdddc4c9f4d4ecd4be3252344d7cf4f"
+      },
+      "reason": "Primary-source review of merged research record r96; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r96",
+      "rule_version": "14924482206f441037bb4553ffb9a2335e125e98d0866bdadc8edcf87be8f063",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-278ff07b6fb8849f31cf08af"
+    ],
+    "description": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-278ff07b6fb8849f31cf08af"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-278ff07b6fb8849f31cf08af"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0dd6dfcd6216ee5ccccbd531",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2026-04-28",
+    "target_company_id": "co-arcellx-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
+      },
+      "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r97",
+      "rule_version": "359693c3abfea26ad89d6b15abcefa7607a5ea5e9b86b076d375c838a7d7e02f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-7acd14666af3ca64d1f87326"
+    ],
+    "description": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7acd14666af3ca64d1f87326"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-7acd14666af3ca64d1f87326"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-834a22411368a7cb4e68d27c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2020-10-23",
+    "target_company_id": "co-immunomedics-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
+      },
+      "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r99",
+      "rule_version": "bfdaf8a257c698e9fa2d0d54c627c072b9e25e747d021054aba6af29d381fb2a",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-566fc4ed2dd70795e6774ff2"
+    ],
+    "description": "MarvellがInnoviumを全株取得し、cloud/edgeデータセンター向けネットワークスイッチ製品を取り込んだ。全株式取引。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-566fc4ed2dd70795e6774ff2",
+      "evidence-189f65cadba3dbf64e5a6246",
+      "evidence-a7dfcbf61d56ebc8b24ee003"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:26:58+00:00",
+    "latest_event_ids": [
+      "event-566fc4ed2dd70795e6774ff2"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-981a4b02d05f0f2abac80aef",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-marvell-technology-inc",
+    "status_as_of": "2022-03-10",
+    "target_company_id": "co-innovium-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+      },
+      "reason": "Primary-source review of merged research record r14; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r14",
+      "rule_version": "8cc6dc00232750ce8ce45f769ba6293c2a4f2f277d9198aae424a091079d0add",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-009df4431895104913691658"
+    ],
+    "description": "MarvellがInphiを現金と株式で買収し、高速データ移動・光インターコネクト技術を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-009df4431895104913691658",
+      "evidence-53e86c580dc4287037c3cd4f"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:26:58+00:00",
+    "latest_event_ids": [
+      "event-009df4431895104913691658"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d5fc92e82f48fd3deaeb77b0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-marvell-technology-inc",
+    "status_as_of": "2022-03-10",
+    "target_company_id": "co-inphi-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+      },
+      "reason": "Primary-source review of merged research record r15; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r15",
+      "rule_version": "2c2ba8491c9fcb90707d29156c0c9d21dd5553bd8bceb3bc9cf4f0574ba2de44",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-db97f614ca9122369146f87a"
+    ],
+    "description": "Morgan StanleyがSolium Capitalの買収契約を締結。株式報酬・従業員持株制度の記録管理SaaSを取得する計画で、株主承認等を条件としていた。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-db97f614ca9122369146f87a",
+      "evidence-e0661a54ef4d95ae553dad3e"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:26:58+00:00",
+    "latest_event_ids": [
+      "event-db97f614ca9122369146f87a"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-979519b461ccef0644a11927",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2019-02-11",
+    "target_company_id": "co-solium-capital-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-539b63489a2fbca88be2910a": "4c52cd4bdbdd85284f16aff8540f3ad02ed55ab17bfa85d01979ae28616b9521"
+      },
+      "reason": "Primary-source review of merged research record r55; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r55",
+      "rule_version": "c24e5309347c1cb477ef074993f35ac6ffe8c58e65e245b382ff16b830ab2976",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-cb2093417892261a4531cc1d"
+    ],
+    "description": "ComputershareがWells Fargo Corporate Trust Servicesの資産を取得し、米国のコーポレートトラスト事業と約2,000人の従業員を引き継いだ。取得対象はWells Fargo全社ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cb2093417892261a4531cc1d",
+      "evidence-4e4a6c46543d42c940786054"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-cb2093417892261a4531cc1d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-a8dda407caa0922f32977214",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-computershare-limited",
+    "status_as_of": "2021-11-01",
+    "target_company_id": "co-wells-fargo-corporate-trust-services",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-51e68390ea04d8136b704359": "1c75c4b55988f5f0ef681c9e962866965c25872d43bebb5bfab17e01d1c9d1b1",
+        "source-85418f5554a350d7b72bca8c": "0312d25f2a627fd9ba63c157f87b225ea452bd4882b24c38ec568ae6fa687110"
+      },
+      "reason": "Primary-source review of merged research record r58; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r58",
+      "rule_version": "b7929eef55004d0262ed53bb9ded7aba75f24996bf7048178c02d52c0585fbc4",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-a01c6be400303087d115087a"
+    ],
+    "description": "Capital OneがVelocity Blackのデジタルコンシェルジュ事業を取得。旅行・エンターテインメント・買物・飲食の予約提案と手配を独自技術と人によるサービスで提供する。買収金額は発表資料にない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a01c6be400303087d115087a"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-a01c6be400303087d115087a"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-30eede1b51614c353ecb82fb",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-capital-one-financial-corporation",
+    "status_as_of": "2023-06-01",
+    "target_company_id": "co-velocity-mobile-limited-velocity-black",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8ce8168f61789a97714772f8": "40ced28936b7836a6088ee89ff59de34e16523e6f803426d76d8d98b2661785a"
+      },
+      "reason": "Primary-source review of merged research record r80; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r80",
+      "rule_version": "3a7af375f918140d884cc0c8e3d76f4bdc71ada22d98f782ce2324c9b243f7d5",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-33e388c6fe4ba5085e7e5fea"
+    ],
+    "description": "AbbVieがCapstan Therapeuticsを買収し、自己免疫疾患向けin vivo抗CD19 CAR-T候補とRNA送達用tLNPプラットフォームを取得。発表時に示された最大21億ドルの現金対価は慣例的調整付きで、完了時の最終支払額は確認できていない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-33e388c6fe4ba5085e7e5fea",
+      "evidence-8fccde85051478fdf45060fa"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-33e388c6fe4ba5085e7e5fea"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-92109d86b7f144a48593e708",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2025-08-19",
+    "target_company_id": "co-capstan-therapeutics-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2b3fab4cc6818e18255dc91b": "53b049331aab74b10a25a059436b1eb88867a0006e1b8525295ebe4fe2eec48b",
+        "source-7e76753563f25bc4214d433d": "ed273e59d113d4c57097801fb25f0f2566176dda6c13ce41cdc5b03b58315398"
+      },
+      "reason": "Primary-source review of merged research record r86; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r86",
+      "rule_version": "c2b951dd1ac1b938fea9ac240fd0b3f10972c0f3183ff288eca40538ae05ad7d",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-d0df0ffaf355845b1c2d60c8"
+    ],
+    "description": "AbbVieがCerevel Therapeuticsの全発行済株式を取得。emraclidine、tavapadon等の神経・精神疾患向け臨床パイプラインを神経科学事業に加えた。完了発表では最終総額を示していない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d0df0ffaf355845b1c2d60c8"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-d0df0ffaf355845b1c2d60c8"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-382dd2ec6cd155c9a673af4c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-08-01",
+    "target_company_id": "co-cerevel-therapeutics",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-43f64c933167807c5d7e1145": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3"
+      },
+      "reason": "Primary-source review of merged research record r87; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r87",
+      "rule_version": "9d520e5e8759e8604200204339a483eca8b4c549ff8c679b43df01eef255db1b",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-58cf20d6eca34b0ce7f4748c"
+    ],
+    "description": "AbbVieがImmunoGenを買収し、卵巣がん治療薬ELAHEREと次世代抗体薬物複合体パイプラインを取得。完了発表は買収総額を再提示していない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-58cf20d6eca34b0ce7f4748c"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-58cf20d6eca34b0ce7f4748c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b9e3ccbd9119e84b9daac2e9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-02-12",
+    "target_company_id": "co-immunogen-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-04329c75804a9c7bc10626a9": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696"
+      },
+      "reason": "Primary-source review of merged research record r88; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r88",
+      "rule_version": "6c74c1d29b3bcfbe847b3bba775bcfac3b4814f3e6683da1fc167254c7ab8b2d",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-a08a6238127b8df87e477a70"
+    ],
+    "description": "GileadとArcusが10年間のがん免疫療法共同開発・商業化契約を締結。Arcusは前払金と株式投資を受け、Gileadは臨床候補のオプトイン権を得る。米国では共同開発・利益折半、米国外ではGileadが独占商業化しロイヤルティを支払う。前払金、株式投資、マイルストーン上限、研究開発支援上限は別項目として保持。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-a08a6238127b8df87e477a70",
+      "evidence-810853c5094d9c37b44702a4",
+      "evidence-0a44c4601acacbb6d6c10a4a",
+      "evidence-7d4c582d1daf6e60191b920b"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-a08a6238127b8df87e477a70"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-81a9bee3a46160664ddcd39a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2020-05-27",
+    "target_company_id": "co-arcus-biosciences-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-022b42ac311499beb0096e70": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407"
+      },
+      "reason": "Primary-source review of merged research record r100; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r100",
+      "rule_version": "6d6c6e53075aa8bd4f323caec034627f57646d8fea6dec5293a8fa3f96e0c029",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-a640a808a15b0f045049c4fd"
+    ],
+    "description": "Morgan StanleyとCitiはGlobal Wealth ManagementとSmith Barney等をMorgan Stanley Smith Barney合弁会社に統合する契約を締結。Morgan Stanleyは51%、Citiは49%を保有する設計だった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a640a808a15b0f045049c4fd"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "latest_event_ids": [
+      "event-a640a808a15b0f045049c4fd"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d55d4e59970fa5d441457458",
+    "relationship_type": "partnership",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2009-01-13",
+    "target_company_id": "co-citi",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3e03bd686ab5ed117f60c179": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b"
+      },
+      "reason": "Primary-source review of merged research record r56; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r56",
+      "rule_version": "b947906d259b188aa946f991769c3ffaa9c8ec2adc57bf105daaacdae2a2f3ad",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-64a4c6fc21c5a427e05fa559"
+    ],
+    "description": "Wells FargoがWachoviaの全株式・全事業・債務・預金を株式交換で取得する合併契約を締結した。取引は発表時点で株主・規制当局の承認待ちだった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-64a4c6fc21c5a427e05fa559"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "latest_event_ids": [
+      "event-64a4c6fc21c5a427e05fa559"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-1a53556688a192ec472a5060",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-wells-fargo-company",
+    "status_as_of": "2008-10-03",
+    "target_company_id": "co-wachovia-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3ab47b2bf581b85ad952556a": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d"
+      },
+      "reason": "Primary-source review of merged research record r57; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r57",
+      "rule_version": "89ef0a67dd1d30f2afb084491fe17a82227c155276f7cf101bb5fefa02313eea",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-f6a80abb7d1485cc5331230d"
+    ],
+    "description": "Charles SchwabがUSAA-IMCOの資産取得を完了し、USAA会員向けウェルスマネジメント・投資ブローカレッジの独占提供者となる長期紹介契約も結んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f6a80abb7d1485cc5331230d",
+      "evidence-fad126af5b633120a3ca97f5"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:29:17+00:00",
+    "latest_event_ids": [
+      "event-f6a80abb7d1485cc5331230d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-dd81fd2f32b715d353d46e12",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-charles-schwab-corporation",
+    "status_as_of": "2020-05-26",
+    "target_company_id": "co-usaa-investment-management-company",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5d9e6f74b3debe6f7317168d": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec"
+      },
+      "reason": "Primary-source review of merged research record r74; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r74",
+      "rule_version": "a09bf443ee9bfa1f31653c6f9cdcf5fdb6c96cbeacc1bec81d5a77d871572498",
+      "verified_at": "2026-09-26T13:29:17+00:00"
     }
   }
 ]

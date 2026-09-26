@@ -1,0 +1,549 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-ca158567fdcad72b83c3a617",
+          "amount_kind": "investment_amount",
+          "conditions": "原文の$について通貨の種類は未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表の直ちに行う追加出資額。過去投資累計とは別。",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-61cd8f571bc3646945b6a2f4",
+          "amount_kind": "potential_expansion",
+          "conditions": "certain commercial milestonesの達成が条件。 原文の$について通貨の種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "max_value": "20000000000",
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "up_to",
+          "scope": "今回発表の条件付き将来追加出資の上限。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-04-20",
+      "conditions": "将来の追加$200億は一定の商業マイルストーン達成に連動。引用文にある過去の投資$80億は今回の追加額へ合算しない。",
+      "deal_id": "deal-30e04eeb7e253e4cd3492e78",
+      "detected_at": "2026-09-26T04:47:23+00:00",
+      "effective_date": null,
+      "event_id": "event-30e04eeb7e253e4cd3492e78",
+      "event_type": "expansion",
+      "evidence_ids": [
+        "evidence-30e04eeb7e253e4cd3492e78"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-30e04eeb7e253e4cd3492e78"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-30402cd228887d44f9063873": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d"
+        },
+        "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-source-30402cd228887d44f9063873",
+        "rule_version": "fd234ab46b5d6dfbc743defbb6233fd85b7a09ee3ec0f1fc551c88a04536ca20",
+        "verified_at": "2026-09-26T04:47:23+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5b031a0b038c89d8d20d193a",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-654 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 5.0 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "Series GへのQ2出資",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-078512c8a97b2978cdc13861",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-657 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 5.0 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "Series HへのQ2出資。200億米ドル枠の内数",
+          "value": "5000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-7c45a0f8df232caa3d30afd9",
+          "amount_kind": "potential_expansion",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-658 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "max_value": "15000000000",
+          "min_value": null,
+          "original_text": "$ 15.0 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "up_to",
+          "scope": "Series H出資後の条件付き残枠。追加の確約済み払込額ではない。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "計算能力の引渡しマイルストーンで引出可能額が増える。IPO等の流動化から30か月後に失効。IPO前は転換社債、IPO等の後は持分上限に従う普通株。",
+      "deal_id": "deal-30e04eeb7e253e4cd3492e78",
+      "detected_at": "2026-09-26T05:23:11+00:00",
+      "effective_date": null,
+      "event_id": "event-0e04f55f48c43a8e25d729b3",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-4ba5ca69582530729d025dd1",
+        "evidence-b1097708322ba6c087938eff"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-4ba5ca69582530729d025dd1",
+            "evidence-b1097708322ba6c087938eff"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-31",
+      "relationship_ids": [
+        "rel-248a901c4333ee7ad29f78fb"
+      ],
+      "supersedes_event_id": "event-30e04eeb7e253e4cd3492e78",
+      "term": {
+        "duration_unit": "month",
+        "duration_value": 30,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-4ba5ca69582530729d025dd1",
+          "evidence-b1097708322ba6c087938eff"
+        ],
+        "renewal": null,
+        "start_basis": "AnthropicのIPO等の流動化イベント。暦上の満了日未確定",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+        "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+        "verified_at": "2026-09-26T05:23:11+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-30e04eeb7e253e4cd3492e78",
+      "excerpt": "Amazon will invest $5 billion in Anthropic today and up to an additional $20 billion",
+      "locator": "p:4",
+      "normalized_text_hash": "4ed08c48526e2662d0d19bf923b71d6410ae13cdf9d09e44c7a4364a879ddc55",
+      "section": "Official primary disclosure",
+      "source_id": "source-30402cd228887d44f9063873",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-4ba5ca69582530729d025dd1",
+      "excerpt": "Anthropic",
+      "locator": "sec-div:262",
+      "normalized_text_hash": "210a0ae96a2b4a2915bd61154fb64e108958daaedc99f6c6b1da715d706890e8",
+      "section": "Official disclosure: business context",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b1097708322ba6c087938eff",
+      "excerpt": "Amazon.com, Inc.",
+      "locator": "sec-div:169",
+      "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-4ba5ca69582530729d025dd1",
+        "evidence-b1097708322ba6c087938eff"
+      ],
+      "geography": "",
+      "headline": "Series G・H出資と条件付き資金枠",
+      "products": [
+        "非議決権優先株",
+        "条件付き資金枠"
+      ],
+      "scale": "",
+      "source_role": "出資・資金提供",
+      "target_role": "調達側"
+    },
+    "deal_ids": [
+      "deal-30e04eeb7e253e4cd3492e78"
+    ],
+    "description": "Amazonは2026年Q2にAnthropicのSeries GとSeries Hへそれぞれ50億米ドルを出資。Series H出資は200億米ドルの融資・出資枠を150億米ドルへ減額。残枠は計算能力の引渡し達成で利用可能となる条件付き。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4ba5ca69582530729d025dd1",
+      "evidence-b1097708322ba6c087938eff"
+    ],
+    "first_observed_at": "2026-09-25T18:57:25+00:00",
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "latest_event_ids": [
+      "event-0e04f55f48c43a8e25d729b3"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-248a901c4333ee7ad29f78fb",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+      "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+      "verified_at": "2026-09-26T05:23:11+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-20",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:51:31+00:00",
+      "source_id": "source-30402cd228887d44f9063873",
+      "source_type": "official_newsroom",
+      "title": "Amazon announces $5B Anthropic investment, up to $20B more"
+    },
+    {
+      "accession_number": "0001018724-26-000026",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-31",
+      "filing_cik": "0001018724",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:45:09+00:00",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "source_type": "sec_filing",
+      "title": "amzn-20260630"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-5b031a0b038c89d8d20d193a",
+        "amount_kind": "investment_amount",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-654 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-4ba5ca69582530729d025dd1",
+          "evidence-b1097708322ba6c087938eff"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 5.0 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "exact",
+        "scope": "Series GへのQ2出資",
+        "value": "5000000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-078512c8a97b2978cdc13861",
+        "amount_kind": "investment_amount",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-657 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-4ba5ca69582530729d025dd1",
+          "evidence-b1097708322ba6c087938eff"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 5.0 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "exact",
+        "scope": "Series HへのQ2出資。200億米ドル枠の内数",
+        "value": "5000000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-7c45a0f8df232caa3d30afd9",
+        "amount_kind": "potential_expansion",
+        "conditions": "",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-658 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-4ba5ca69582530729d025dd1",
+          "evidence-b1097708322ba6c087938eff"
+        ],
+        "max_value": "15000000000",
+        "min_value": null,
+        "original_text": "$ 15.0 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "up_to",
+        "scope": "Series H出資後の条件付き残枠。追加の確約済み払込額ではない。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-4ba5ca69582530729d025dd1",
+        "evidence-b1097708322ba6c087938eff"
+      ],
+      "geography": "",
+      "headline": "Series G・H出資と条件付き資金枠",
+      "products": [
+        "非議決権優先株",
+        "条件付き資金枠"
+      ],
+      "scale": "",
+      "source_role": "出資・資金提供",
+      "target_role": "調達側"
+    },
+    "description": "Amazonは2026年Q2にAnthropicのSeries GとSeries Hへそれぞれ50億米ドルを出資。Series H出資は200億米ドルの融資・出資枠を150億米ドルへ減額。残枠は計算能力の引渡し達成で利用可能となる条件付き。",
+    "direction": "directed",
+    "event_date": "2026-07-31",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-248a901c4333ee7ad29f78fb",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "not_total",
+      "bounded_or_unspecified",
+      "conditional",
+      "unsupported_kind"
+    ]
+  }
+}

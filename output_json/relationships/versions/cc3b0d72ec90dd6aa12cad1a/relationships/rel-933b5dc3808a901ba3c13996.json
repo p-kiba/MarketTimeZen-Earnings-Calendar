@@ -1,0 +1,247 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-31428a388d8e2722ba3430c6",
+          "amount_kind": "purchase_price",
+          "conditions": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 180.5 million",
+          "payee_company_ids": [
+            "co-awake-security-inc"
+          ],
+          "payer_company_ids": [
+            "co-arista-networks-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+          "value": "180500000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-f1d8fd8bf3b6e199757e79a2",
+      "detected_at": "2026-09-26T13:07:04+00:00",
+      "effective_date": null,
+      "event_id": "event-f1d8fd8bf3b6e199757e79a2",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-f1d8fd8bf3b6e199757e79a2",
+        "evidence-796330e44e04a73b34383364"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2021-02-19",
+      "relationship_ids": [
+        "rel-933b5dc3808a901ba3c13996"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+        },
+        "reason": "Primary-source review of merged research record r22; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r22",
+        "rule_version": "6fa82db4fc53fa36168539bee31f41297c42844d1468f547b2b47e98b5bf51d4",
+        "verified_at": "2026-09-26T13:07:04+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-796330e44e04a73b34383364",
+      "excerpt": "Arista Networks, Inc.",
+      "locator": "tr:752",
+      "normalized_text_hash": "feaf5797de01620eeea573ee23ccad9935e1c384dc76e657d92fb2c3f462b5d3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-1fd65a34dc432bc0a5bfb8cd",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f1d8fd8bf3b6e199757e79a2",
+      "excerpt": "total purchase consideration of $ 180.5 million",
+      "locator": "sec-div:1574",
+      "normalized_text_hash": "f09e879b4d1491b1e21977696ee3f4a75914d3eeef63073de6ad5b3cd59e7cd7",
+      "section": "Official issuer disclosure",
+      "source_id": "source-1fd65a34dc432bc0a5bfb8cd",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-f1d8fd8bf3b6e199757e79a2"
+    ],
+    "description": "AristaがAwake Securityの全株式を取得。ネットワーク検知・対応（NDR）プラットフォームを製品群に加え、AIと人の専門性を組み合わせた脅威検知・対応機能を拡張。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f1d8fd8bf3b6e199757e79a2",
+      "evidence-796330e44e04a73b34383364"
+    ],
+    "first_observed_at": "2026-09-26T12:59:55+00:00",
+    "last_observed_at": "2026-09-26T13:07:04+00:00",
+    "latest_event_ids": [
+      "event-f1d8fd8bf3b6e199757e79a2"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-933b5dc3808a901ba3c13996",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-arista-networks-inc",
+    "status_as_of": "2021-02-19",
+    "target_company_id": "co-awake-security-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+      },
+      "reason": "Primary-source review of merged research record r22; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r22",
+      "rule_version": "6fa82db4fc53fa36168539bee31f41297c42844d1468f547b2b47e98b5bf51d4",
+      "verified_at": "2026-09-26T13:07:04+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001596532-21-000049",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653221000049/anet-20201231.htm",
+      "content_hash": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": "2021-02-19",
+      "filing_cik": "0001596532",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-1fd65a34dc432bc0a5bfb8cd",
+      "source_type": "sec_filing",
+      "title": "anet-20201231"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-31428a388d8e2722ba3430c6",
+        "amount_kind": "purchase_price",
+        "conditions": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 180.5 million",
+        "payee_company_ids": [
+          "co-awake-security-inc"
+        ],
+        "payer_company_ids": [
+          "co-arista-networks-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+        "value": "180500000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AristaがAwake Securityの全株式を取得。ネットワーク検知・対応（NDR）プラットフォームを製品群に加え、AIと人の専門性を組み合わせた脅威検知・対応機能を拡張。",
+    "direction": "directed",
+    "event_date": "2021-02-19",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:07:04+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-933b5dc3808a901ba3c13996",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-arista-networks-inc",
+    "status_as_of": "2021-02-19",
+    "target_company_id": "co-awake-security-inc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

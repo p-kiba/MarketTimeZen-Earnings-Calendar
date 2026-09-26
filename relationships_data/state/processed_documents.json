@@ -1,126 +1,4 @@
 {
-  "companies": {
-    "co-aapl": {
-      "checked_at": "2026-09-26T08:10:33+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 2
-    },
-    "co-amd": {
-      "checked_at": "2026-09-26T08:10:38+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    },
-    "co-amzn": {
-      "checked_at": "2026-09-26T08:10:34+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 2
-    },
-    "co-avgo": {
-      "checked_at": "2026-09-26T08:10:35+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 4
-    },
-    "co-brk-b": {
-      "checked_at": "2026-09-26T08:10:37+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 4
-    },
-    "co-cost": {
-      "checked_at": "2026-09-26T08:10:39+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 1,
-      "unsupported_filings": 0
-    },
-    "co-googl": {
-      "checked_at": "2026-09-26T08:10:33+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    },
-    "co-jpm": {
-      "checked_at": "2026-09-26T08:10:38+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 383
-    },
-    "co-lly": {
-      "checked_at": "2026-09-26T08:10:37+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 4
-    },
-    "co-meta": {
-      "checked_at": "2026-09-26T08:10:35+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 5
-    },
-    "co-msft": {
-      "checked_at": "2026-09-26T08:10:34+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    },
-    "co-mu": {
-      "checked_at": "2026-09-26T08:10:36+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    },
-    "co-nvda": {
-      "checked_at": "2026-09-26T08:10:32+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 3
-    },
-    "co-tsla": {
-      "checked_at": "2026-09-26T08:10:36+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    },
-    "co-wmt": {
-      "checked_at": "2026-09-26T08:10:39+00:00",
-      "last_success_date": "2026-09-26",
-      "since": "2026-09-19",
-      "status": "discovered",
-      "supported_filings": 0,
-      "unsupported_filings": 0
-    }
-  },
   "documents": {
     "source-000b62198b91906e95a2f2c2": {
       "meta": {
@@ -10003,92 +9881,214 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028715/form424b2.htm"
+    },
+    "source-8ce8168f61789a97714772f8": {
+      "content_hash": "40ced28936b7836a6088ee89ff59de34e16523e6f803426d76d8d98b2661785a",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Capital One",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.capitalone.com/about/newsroom/velocity-black-acquisition/"
+    },
+    "source-2b3fab4cc6818e18255dc91b": {
+      "content_hash": "53b049331aab74b10a25a059436b1eb88867a0006e1b8525295ebe4fe2eec48b",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics"
+    },
+    "source-43f64c933167807c5d7e1145": {
+      "content_hash": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2024-08-01-AbbVie-Completes-Acquisition-of-Cerevel-Therapeutics"
+    },
+    "source-5d9e6f74b3debe6f7317168d": {
+      "content_hash": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0000316709-22-000009",
+        "filed_date": null,
+        "filing_cik": "0000316709",
+        "form": "10-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670922000009/schw-20211231.htm"
+    },
+    "source-3e03bd686ab5ed117f60c179": {
+      "content_hash": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Morgan Stanley",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-citi-to-form-industry-leading-wealth-management-business-through-joint-venture_af3e409a-e1b7-11dd-84e6-b390c77322d3"
+    },
+    "source-022b42ac311499beb0096e70": {
+      "content_hash": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Gilead Sciences",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-and-arcus-biosciences-establish-10-year-partnership-to-co-develop-and-co-commercialize-next-generation-cancer-immunotherapies"
+    },
+    "source-539b63489a2fbca88be2910a": {
+      "content_hash": "4c52cd4bdbdd85284f16aff8540f3ad02ed55ab17bfa85d01979ae28616b9521",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Morgan Stanley",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-solium--creating-a-leading-provider-of"
+    },
+    "source-04329c75804a9c7bc10626a9": {
+      "content_hash": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2024-02-12-AbbVie-Completes-Acquisition-of-ImmunoGen"
+    },
+    "source-7e76753563f25bc4214d433d": {
+      "content_hash": "ed273e59d113d4c57097801fb25f0f2566176dda6c13ce41cdc5b03b58315398",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics,-Further-Strengthening-Commitment-to-Transforming-Patient-Care-in-Immunology"
+    },
+    "source-85418f5554a350d7b72bca8c": {
+      "content_hash": "0312d25f2a627fd9ba63c157f87b225ea452bd4882b24c38ec568ae6fa687110",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Computershare",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.computershare.com/us/news/corporate-trust/computershare-acquires-wells-fargo-corporate-trust"
+    },
+    "source-3ab47b2bf581b85ad952556a": {
+      "content_hash": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0000898822-08-000943",
+        "filed_date": "2008-10-03",
+        "filing_cik": "0000072971",
+        "form": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000089882208000943/exhibit991.htm"
+    },
+    "source-51e68390ea04d8136b704359": {
+      "content_hash": "1c75c4b55988f5f0ef681c9e962866965c25872d43bebb5bfab17e01d1c9d1b1",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Computershare",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://content-assets.computershare.com/eh96rkuu9740/58338d2bf9c0485b9a0f4d313bffa8f0/d8be87f034145ced6fbf66b06955c9e8/Retail_Entitlement_Offer_and_Retail_Offer_Booklet.pdf"
+    },
+    "source-ac06e0c6a556686f3e7bae16": {
+      "content_hash": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Marvell Technology, Inc. / SEC filing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000016/mrvl-20220129.htm"
     }
-  },
-  "feeds": {
-    "co-aapl": {
-      "checked_at": "2026-09-26T04:40:45+00:00",
-      "error": "Insufficient readable text",
-      "status": "retryable_error"
-    },
-    "co-amzn": {
-      "checked_at": "2026-09-26T04:41:48+00:00",
-      "found": 12,
-      "status": "discovered"
-    },
-    "co-anthropic": {
-      "checked_at": "2026-09-26T04:39:58+00:00",
-      "found": 10,
-      "status": "discovered"
-    },
-    "co-coreweave": {
-      "checked_at": "2026-09-26T04:42:46+00:00",
-      "found": 83,
-      "status": "discovered"
-    },
-    "co-google": {
-      "checked_at": "2026-09-26T05:30:52+00:00",
-      "error": "404 Client Error: Not Found for url: https://blog.google/products-and-platforms/products/google-cloud/",
-      "status": "retryable_error"
-    },
-    "co-ibm": {
-      "checked_at": "2026-09-25T15:09:27+00:00",
-      "company_id": "co-ibm",
-      "found": 23,
-      "status": "discovered"
-    },
-    "co-meta": {
-      "checked_at": "2026-09-26T04:43:26+00:00",
-      "found": 1,
-      "status": "discovered"
-    },
-    "co-mp": {
-      "checked_at": "2026-09-26T04:43:20+00:00",
-      "error": "Empty or blocked document",
-      "status": "retryable_error"
-    },
-    "co-msft": {
-      "checked_at": "2026-09-26T04:43:39+00:00",
-      "found": 32,
-      "status": "discovered"
-    },
-    "co-mu": {
-      "checked_at": "2026-09-26T04:43:36+00:00",
-      "found": 0,
-      "status": "discovered"
-    },
-    "co-nebius": {
-      "checked_at": "2026-09-26T04:43:23+00:00",
-      "found": 20,
-      "status": "discovered"
-    },
-    "co-nvda": {
-      "checked_at": "2026-09-26T04:40:47+00:00",
-      "found": 0,
-      "status": "discovered"
-    },
-    "co-openai": {
-      "checked_at": "2026-09-26T04:40:49+00:00",
-      "found": 14,
-      "status": "discovered"
-    },
-    "co-softbank-group": {
-      "checked_at": "2026-09-26T04:42:39+00:00",
-      "found": 41,
-      "status": "discovered"
-    },
-    "co-tsla": {
-      "checked_at": "2026-09-26T04:43:28+00:00",
-      "error": "HTTP 403; stopped without retry",
-      "status": "retryable_error"
-    }
-  },
-  "last_run": {
-    "checked_at": "2026-09-26T08:10:46+00:00",
-    "downloaded_attempts": 7,
-    "errors": [],
-    "mode": "incremental",
-    "sec_only": true,
-    "universe": "large_cap_focus"
   }
 }

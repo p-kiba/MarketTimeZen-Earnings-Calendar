@@ -33317,1108 +33317,6 @@
   },
   {
     "agreement_date": null,
-    "amount_disclosure": "explicitly_undisclosed",
-    "amounts": [],
-    "announced_at": null,
-    "announced_date": "2022-11-15",
-    "conditions": "買収対価は公式発表で非開示。",
-    "deal_id": "deal-3dc68c7a1114fdd7b71b4a84",
-    "detected_at": "2026-09-26T12:38:30+00:00",
-    "effective_date": null,
-    "event_id": "event-3dc68c7a1114fdd7b71b4a84",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-3dc68c7a1114fdd7b71b4a84"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-3dc68c7a1114fdd7b71b4a84"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-832328c6401f9ce728708a8c"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r5",
-      "rule_version": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "not_stated_in_source",
-    "amounts": [],
-    "announced_at": null,
-    "announced_date": "2022-06-14",
-    "conditions": "公式発表には契約金額や購入数量の記載なし。",
-    "deal_id": "deal-b0981d12ef454e412cb28435",
-    "detected_at": "2026-09-26T12:38:30+00:00",
-    "effective_date": null,
-    "event_id": "event-b0981d12ef454e412cb28435",
-    "event_type": "newly_indexed",
-    "evidence_ids": [
-      "evidence-b0981d12ef454e412cb28435"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-b0981d12ef454e412cb28435"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-2e9c5666585943783841c695"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r7",
-      "rule_version": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "not_stated_in_source",
-    "amounts": [],
-    "announced_at": null,
-    "announced_date": "2024-10-23",
-    "conditions": "発表時点で複数の進行中施策を記載。二社間金額と契約期間は当該発表に記載なし。",
-    "deal_id": "deal-78eee7f5d229fac3f9365c3a",
-    "detected_at": "2026-09-26T12:38:30+00:00",
-    "effective_date": null,
-    "event_id": "event-78eee7f5d229fac3f9365c3a",
-    "event_type": "new_agreement",
-    "evidence_ids": [
-      "evidence-78eee7f5d229fac3f9365c3a"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-78eee7f5d229fac3f9365c3a"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-d6862887c33e0533897cf789"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
-      },
-      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r27",
-      "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
-      "verified_at": "2026-09-26T12:38:30+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-f28e2e8ae8e9698543fbb765",
-        "amount_kind": "purchase_price",
-        "conditions": "完了した買収の現金対価。原文に通貨コードや定義はない。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "$3.05 billion in cash",
-        "payee_company_ids": [
-          "co-halda-therapeutics-opco-inc"
-        ],
-        "payer_company_ids": [
-          "co-johnson-johnson"
-        ],
-        "qualifier": "exact",
-        "scope": "完了した買収の現金対価。原文に通貨コードや定義はない。",
-        "value": "3050000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2025-12-29",
-    "conditions": "",
-    "deal_id": "deal-94cf4a3a2cc0470bb4e4252f",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-94cf4a3a2cc0470bb4e4252f",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-94cf4a3a2cc0470bb4e4252f"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-94cf4a3a2cc0470bb4e4252f"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-89bb4437a2dce822962b1af9"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
-      },
-      "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r81",
-      "rule_version": "659e6d3b02a7f71a0d68ae7d564e9df90736068d902c72c48accc74a20331b68",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-59abf875a9c4da7fcb3b21b6",
-        "amount_kind": "purchase_price",
-        "conditions": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "$135.11 per share in cash, for a total equity value of approximately $10.9 billion",
-        "payee_company_ids": [
-          "co-apogee-therapeutics-inc"
-        ],
-        "payer_company_ids": [
-          "co-abbvie"
-        ],
-        "qualifier": "approximately",
-        "scope": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
-        "value": "10900000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2026-09-03",
-    "conditions": "",
-    "deal_id": "deal-215028fed2e5371d28f489ab",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-215028fed2e5371d28f489ab",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-215028fed2e5371d28f489ab"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-215028fed2e5371d28f489ab"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-6f45970090fc73603fe406f7"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
-      },
-      "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r85",
-      "rule_version": "9b6d5d5411ae57f8c1003c7d9ca03e2ea56c90182624a49809797bd8987f3ad2",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-815c5da9bca85f400fd86ee0",
-        "amount_kind": "purchase_price",
-        "conditions": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
-        "contingent": true,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "max_value": "840000000",
-        "min_value": null,
-        "original_text": "in a transaction valued at up to $840 million",
-        "payee_company_ids": [
-          "co-dark-blue-therapeutics-ltd"
-        ],
-        "payer_company_ids": [
-          "co-amgen"
-        ],
-        "qualifier": "up_to",
-        "scope": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
-        "value": null,
-        "value_semantics": "contingent",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2026-01-06",
-    "conditions": "",
-    "deal_id": "deal-b99f5e60222d633a0f0cf558",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-b99f5e60222d633a0f0cf558",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-b99f5e60222d633a0f0cf558"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-b99f5e60222d633a0f0cf558"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-aa47d9d867a4733fe6fae8ee"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
-      },
-      "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r93",
-      "rule_version": "d1ff51e1c5ab5bf5001174c3d1a48eabc6bb617d9e52cd0bdc4fe4071626cb1f",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-661bf9e6a6929776a8ae7411",
-        "amount_kind": "purchase_price",
-        "conditions": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "$116.50 per share in cash, representing a transaction equity value of approximately $27.8 billion",
-        "payee_company_ids": [
-          "co-horizon-therapeutics-plc"
-        ],
-        "payer_company_ids": [
-          "co-amgen"
-        ],
-        "qualifier": "approximately",
-        "scope": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
-        "value": "27800000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2023-10-06",
-    "conditions": "",
-    "deal_id": "deal-812ef833642e67d92c65153b",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-812ef833642e67d92c65153b",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-812ef833642e67d92c65153b"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-812ef833642e67d92c65153b"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-b3fc1326d50f92faeb8a28c8"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
-      },
-      "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r94",
-      "rule_version": "4f11f62d70efb3ab1719590e6fcaf8d5873308eb6f8602a5420db508c3dae640",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-5425afcd5c3fa87098140f43",
-        "amount_kind": "purchase_price",
-        "conditions": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "representing aggregate merger consideration of approximately $3.7 billion",
-        "payee_company_ids": [
-          "co-chemocentryx-inc"
-        ],
-        "payer_company_ids": [
-          "co-amgen"
-        ],
-        "qualifier": "approximately",
-        "scope": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
-        "value": "3700000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2022-10-20",
-    "conditions": "",
-    "deal_id": "deal-24a48fd7afca54f66cedd2a6",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-24a48fd7afca54f66cedd2a6",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-24a48fd7afca54f66cedd2a6"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-24a48fd7afca54f66cedd2a6"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-6e29a334c9b72cf785de62a8"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
-      },
-      "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r95",
-      "rule_version": "4ebdbcc782c999de431ef27ec4c12e59850af575bf1cb26073c33cca1dbe399c",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-236d2379b123bdfde824c1c8",
-        "amount_kind": "purchase_price",
-        "conditions": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "$900 million upfront cash payment",
-        "payee_company_ids": [
-          "co-teneobio-inc"
-        ],
-        "payer_company_ids": [
-          "co-amgen"
-        ],
-        "qualifier": "exact",
-        "scope": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
-        "value": "900000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      },
-      {
-        "amount_id": "amount-64765d53f0003940db3c361d",
-        "amount_kind": "purchase_price",
-        "conditions": "旧Teneobio株主への将来の条件付きマイルストーン支払。",
-        "contingent": true,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "max_value": "1600000000",
-        "min_value": null,
-        "original_text": "up to an additional $1.6 billion in cash",
-        "payee_company_ids": [
-          "co-teneobio-inc"
-        ],
-        "payer_company_ids": [
-          "co-amgen"
-        ],
-        "qualifier": "up_to",
-        "scope": "旧Teneobio株主への将来の条件付きマイルストーン支払の上限。前払額へ加算せず、原文通貨コードは未確認。",
-        "value": null,
-        "value_semantics": "contingent",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2021-10-19",
-    "conditions": "",
-    "deal_id": "deal-dbe1375b2216941071e89726",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-dbe1375b2216941071e89726",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-dbe1375b2216941071e89726"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-dbe1375b2216941071e89726"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-bb67dda3496d8e5ff52b017f"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-1bf04cb307e50b46e25b3f70": "dcaf057f6374544c9ea6aaec5014f5d00cdddc4c9f4d4ecd4be3252344d7cf4f"
-      },
-      "reason": "Primary-source review of merged research record r96; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r96",
-      "rule_version": "c37a4755111f7aad9509bf4f8e204c3fcd9b3342559df43733531cc33f909098",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-017aeef28f780ccf03bfef32",
-        "amount_kind": "purchase_price",
-        "conditions": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
-        "contingent": true,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "representing a total implied equity value of approximately $7.8 billion at the time of closing",
-        "payee_company_ids": [
-          "co-arcellx-inc"
-        ],
-        "payer_company_ids": [
-          "co-gilead-sciences-inc"
-        ],
-        "qualifier": "approximately",
-        "scope": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
-        "value": "7800000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2026-04-28",
-    "conditions": "現金$115／株に加え、非譲渡の条件付きCVR $5／株を含む。",
-    "deal_id": "deal-278ff07b6fb8849f31cf08af",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-278ff07b6fb8849f31cf08af",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-278ff07b6fb8849f31cf08af"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-278ff07b6fb8849f31cf08af"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-0dd6dfcd6216ee5ccccbd531"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
-      },
-      "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r97",
-      "rule_version": "b03efe74d5c8db00bae032235b1948e29483d35a861d7e89a22ad4ad3a4ea5f5",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
-    "amount_disclosure": "disclosed",
-    "amounts": [
-      {
-        "amount_id": "amount-5b556bbf7af3314b7363a3cb",
-        "amount_kind": "purchase_price",
-        "conditions": "買収の総対価として開示された概算額。原文通貨コード不明。",
-        "contingent": false,
-        "currency": null,
-        "currency_basis": null,
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "max_value": null,
-        "min_value": null,
-        "original_text": "for approximately $21 billion in the aggregate",
-        "payee_company_ids": [
-          "co-immunomedics-inc"
-        ],
-        "payer_company_ids": [
-          "co-gilead-sciences-inc"
-        ],
-        "qualifier": "approximately",
-        "scope": "買収の総対価として開示された概算額。原文通貨コード不明。",
-        "value": "21000000000",
-        "value_semantics": "original_total",
-        "verification": "approved_rule"
-      }
-    ],
-    "announced_at": null,
-    "announced_date": "2020-10-23",
-    "conditions": "",
-    "deal_id": "deal-7acd14666af3ca64d1f87326",
-    "detected_at": "2026-09-26T12:44:59+00:00",
-    "effective_date": null,
-    "event_id": "event-7acd14666af3ca64d1f87326",
-    "event_type": "acquisition_closed",
-    "evidence_ids": [
-      "evidence-7acd14666af3ca64d1f87326"
-    ],
-    "field_verification": {
-      "amounts": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      },
-      "conditions": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      },
-      "parties": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      },
-      "relationship": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      },
-      "status": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      },
-      "term": {
-        "evidence_ids": [
-          "evidence-7acd14666af3ca64d1f87326"
-        ],
-        "verification": "approved_rule"
-      }
-    },
-    "filed_date": null,
-    "relationship_ids": [
-      "rel-834a22411368a7cb4e68d27c"
-    ],
-    "supersedes_event_id": null,
-    "term": {
-      "duration_unit": null,
-      "duration_value": null,
-      "end_date": null,
-      "evidence_ids": [],
-      "renewal": null,
-      "start_basis": null,
-      "start_date": null
-    },
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
-      },
-      "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
-      "reviewer": null,
-      "rule_id": "merged-20260926-r99",
-      "rule_version": "ddac16b1d656edb92b17779c8289dd2a01e8e50d67dee2224a108f98406b4b56",
-      "verified_at": "2026-09-26T12:44:59+00:00"
-    }
-  },
-  {
-    "agreement_date": null,
     "amount_disclosure": "disclosed",
     "amounts": [
       {
@@ -35911,6 +34809,2377 @@
       "rule_id": "merged-20260926-r53",
       "rule_version": "4dbc47ab60febb192506fcc8c2360346eb4576a2e4f28f301129d43faa2da22c",
       "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "explicitly_undisclosed",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-11-15",
+    "conditions": "買収対価は公式発表で非開示。",
+    "deal_id": "deal-3dc68c7a1114fdd7b71b4a84",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-3dc68c7a1114fdd7b71b4a84",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-832328c6401f9ce728708a8c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r5",
+      "rule_version": "8addb7f69157e1a189a4dde43bfcfa32927eef97964552d2f1ca6ef4c3bf0d34",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-06-14",
+    "conditions": "公式発表には契約金額や購入数量の記載なし。",
+    "deal_id": "deal-b0981d12ef454e412cb28435",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-b0981d12ef454e412cb28435",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-b0981d12ef454e412cb28435"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-2e9c5666585943783841c695"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r7",
+      "rule_version": "34c4635657f691e319abbf90795cc6a8b4ec29e165d45af36abed45202d510ac",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-10-23",
+    "conditions": "発表時点で複数の進行中施策を記載。二社間金額と契約期間は当該発表に記載なし。",
+    "deal_id": "deal-78eee7f5d229fac3f9365c3a",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-78eee7f5d229fac3f9365c3a",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-78eee7f5d229fac3f9365c3a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-d6862887c33e0533897cf789"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r27",
+      "rule_version": "e736391b5a10f7bf4d3c18cbb4d6caf334db797661cd8367779d2de729c3b617",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-f28e2e8ae8e9698543fbb765",
+        "amount_kind": "purchase_price",
+        "conditions": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$3.05 billion in cash",
+        "payee_company_ids": [
+          "co-halda-therapeutics-opco-inc"
+        ],
+        "payer_company_ids": [
+          "co-johnson-johnson"
+        ],
+        "qualifier": "exact",
+        "scope": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+        "value": "3050000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2025-12-29",
+    "conditions": "",
+    "deal_id": "deal-94cf4a3a2cc0470bb4e4252f",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-94cf4a3a2cc0470bb4e4252f",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-89bb4437a2dce822962b1af9"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
+      },
+      "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r81",
+      "rule_version": "aa905021237a1d6eda40ebdeddd8d3cc4ceeeb57a08d8757340cdd54c0e3264f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-59abf875a9c4da7fcb3b21b6",
+        "amount_kind": "purchase_price",
+        "conditions": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$135.11 per share in cash, for a total equity value of approximately $10.9 billion",
+        "payee_company_ids": [
+          "co-apogee-therapeutics-inc"
+        ],
+        "payer_company_ids": [
+          "co-abbvie"
+        ],
+        "qualifier": "approximately",
+        "scope": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+        "value": "10900000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2026-09-03",
+    "conditions": "",
+    "deal_id": "deal-215028fed2e5371d28f489ab",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-215028fed2e5371d28f489ab",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-215028fed2e5371d28f489ab"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-6f45970090fc73603fe406f7"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
+      },
+      "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r85",
+      "rule_version": "4047958645530ef3ffe85cb22740d437c82b6474b496da5d1754c386f10d2481",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-815c5da9bca85f400fd86ee0",
+        "amount_kind": "purchase_price",
+        "conditions": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "max_value": "840000000",
+        "min_value": null,
+        "original_text": "in a transaction valued at up to $840 million",
+        "payee_company_ids": [
+          "co-dark-blue-therapeutics-ltd"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "up_to",
+        "scope": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2026-01-06",
+    "conditions": "",
+    "deal_id": "deal-b99f5e60222d633a0f0cf558",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-b99f5e60222d633a0f0cf558",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-b99f5e60222d633a0f0cf558"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-aa47d9d867a4733fe6fae8ee"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
+      },
+      "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r93",
+      "rule_version": "44c0e1f3d79c6a1f88e5e727fb1bfbd47ae59776ce1fe673c292474eaaabe6b7",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-661bf9e6a6929776a8ae7411",
+        "amount_kind": "purchase_price",
+        "conditions": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$116.50 per share in cash, representing a transaction equity value of approximately $27.8 billion",
+        "payee_company_ids": [
+          "co-horizon-therapeutics-plc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "approximately",
+        "scope": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+        "value": "27800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2023-10-06",
+    "conditions": "",
+    "deal_id": "deal-812ef833642e67d92c65153b",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-812ef833642e67d92c65153b",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-812ef833642e67d92c65153b"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-b3fc1326d50f92faeb8a28c8"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
+      },
+      "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r94",
+      "rule_version": "91a3e9dddb2ee44b5b4e571b146b73634f197f46f35b18aaaf4d4c61f3a76747",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-5425afcd5c3fa87098140f43",
+        "amount_kind": "purchase_price",
+        "conditions": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "representing aggregate merger consideration of approximately $3.7 billion",
+        "payee_company_ids": [
+          "co-chemocentryx-inc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "approximately",
+        "scope": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+        "value": "3700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2022-10-20",
+    "conditions": "",
+    "deal_id": "deal-24a48fd7afca54f66cedd2a6",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-24a48fd7afca54f66cedd2a6",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-24a48fd7afca54f66cedd2a6"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-6e29a334c9b72cf785de62a8"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
+      },
+      "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r95",
+      "rule_version": "39cbadf2f5336b6a5bd8a86bc2381d0954daf791d4a56c30cb90fd2c6484a577",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-236d2379b123bdfde824c1c8",
+        "amount_kind": "purchase_price",
+        "conditions": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$900 million upfront cash payment",
+        "payee_company_ids": [
+          "co-teneobio-inc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "exact",
+        "scope": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
+        "value": "900000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-64765d53f0003940db3c361d",
+        "amount_kind": "purchase_price",
+        "conditions": "旧Teneobio株主への将来の条件付きマイルストーン支払。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "max_value": "1600000000",
+        "min_value": null,
+        "original_text": "up to an additional $1.6 billion in cash",
+        "payee_company_ids": [
+          "co-teneobio-inc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "up_to",
+        "scope": "旧Teneobio株主への将来の条件付きマイルストーン支払の上限。前払額へ加算せず、原文通貨コードは未確認。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2021-10-19",
+    "conditions": "",
+    "deal_id": "deal-dbe1375b2216941071e89726",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-dbe1375b2216941071e89726",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-dbe1375b2216941071e89726"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-dbe1375b2216941071e89726"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bb67dda3496d8e5ff52b017f"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1bf04cb307e50b46e25b3f70": "dcaf057f6374544c9ea6aaec5014f5d00cdddc4c9f4d4ecd4be3252344d7cf4f"
+      },
+      "reason": "Primary-source review of merged research record r96; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r96",
+      "rule_version": "14924482206f441037bb4553ffb9a2335e125e98d0866bdadc8edcf87be8f063",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-017aeef28f780ccf03bfef32",
+        "amount_kind": "purchase_price",
+        "conditions": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "representing a total implied equity value of approximately $7.8 billion at the time of closing",
+        "payee_company_ids": [
+          "co-arcellx-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+        "value": "7800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2026-04-28",
+    "conditions": "現金$115／株に加え、非譲渡の条件付きCVR $5／株を含む。",
+    "deal_id": "deal-278ff07b6fb8849f31cf08af",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-278ff07b6fb8849f31cf08af",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-278ff07b6fb8849f31cf08af"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-0dd6dfcd6216ee5ccccbd531"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
+      },
+      "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r97",
+      "rule_version": "359693c3abfea26ad89d6b15abcefa7607a5ea5e9b86b076d375c838a7d7e02f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-5b556bbf7af3314b7363a3cb",
+        "amount_kind": "purchase_price",
+        "conditions": "買収の総対価として開示された概算額。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "for approximately $21 billion in the aggregate",
+        "payee_company_ids": [
+          "co-immunomedics-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "買収の総対価として開示された概算額。原文通貨コード不明。",
+        "value": "21000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2020-10-23",
+    "conditions": "",
+    "deal_id": "deal-7acd14666af3ca64d1f87326",
+    "detected_at": "2026-09-26T13:26:56+00:00",
+    "effective_date": null,
+    "event_id": "event-7acd14666af3ca64d1f87326",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-7acd14666af3ca64d1f87326"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-834a22411368a7cb4e68d27c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
+      },
+      "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r99",
+      "rule_version": "bfdaf8a257c698e9fa2d0d54c627c072b9e25e747d021054aba6af29d381fb2a",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-bc366e07f9c8299b5de6a974",
+        "amount_kind": "purchase_price",
+        "conditions": "表の単位はthousands。株式対価と取得前保有持分の公正価値を含む。通貨コードは未確認。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 1,004,246",
+        "payee_company_ids": [
+          "co-innovium-inc"
+        ],
+        "payer_company_ids": [
+          "co-marvell-technology-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "表の単位はthousands。株式対価と取得前保有持分の公正価値を含む。通貨コードは未確認。",
+        "value": "1004246000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2022-03-10",
+    "conditions": "買収完了日は2021-10-05。 取引はall-stock。 10-K表のtotal merger considerationは1,004,246（in thousands）。",
+    "deal_id": "deal-566fc4ed2dd70795e6774ff2",
+    "detected_at": "2026-09-26T13:26:58+00:00",
+    "effective_date": null,
+    "event_id": "event-566fc4ed2dd70795e6774ff2",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-566fc4ed2dd70795e6774ff2",
+      "evidence-189f65cadba3dbf64e5a6246",
+      "evidence-a7dfcbf61d56ebc8b24ee003"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-566fc4ed2dd70795e6774ff2",
+          "evidence-189f65cadba3dbf64e5a6246",
+          "evidence-a7dfcbf61d56ebc8b24ee003"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-981a4b02d05f0f2abac80aef"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+      },
+      "reason": "Primary-source review of merged research record r14; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r14",
+      "rule_version": "8cc6dc00232750ce8ce45f769ba6293c2a4f2f277d9198aae424a091079d0add",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-74ebe9dc4550fc7993ee1fac",
+        "amount_kind": "purchase_price",
+        "conditions": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 9,917,529",
+        "payee_company_ids": [
+          "co-inphi-corporation"
+        ],
+        "payer_company_ids": [
+          "co-marvell-technology-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+        "value": "9917529000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2022-03-10",
+    "conditions": "買収完了日は2021-04-20。 取引はcash and stock。",
+    "deal_id": "deal-009df4431895104913691658",
+    "detected_at": "2026-09-26T13:26:58+00:00",
+    "effective_date": null,
+    "event_id": "event-009df4431895104913691658",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-009df4431895104913691658",
+      "evidence-53e86c580dc4287037c3cd4f"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-d5fc92e82f48fd3deaeb77b0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+      },
+      "reason": "Primary-source review of merged research record r15; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r15",
+      "rule_version": "2c2ba8491c9fcb90707d29156c0c9d21dd5553bd8bceb3bc9cf4f0574ba2de44",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-26b5cb8719ef5be072c5e3bb",
+        "amount_kind": "purchase_price",
+        "conditions": "発表時の総株式価値。CAD原額を保持し、米ドル換算しない。",
+        "contingent": false,
+        "currency": "CAD",
+        "currency_basis": "CAD",
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately CAD 1.1 billion",
+        "payee_company_ids": [
+          "co-solium-capital-inc"
+        ],
+        "payer_company_ids": [
+          "co-morgan-stanley"
+        ],
+        "qualifier": "approximately",
+        "scope": "発表時の総株式価値。CAD原額を保持し、米ドル換算しない。",
+        "value": "1100000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2019-02-11",
+    "conditions": "1株CAD 19.15の現金対価。 通常の裁判所・株主・規制承認等を条件に2019年第2四半期完了予定と発表。",
+    "deal_id": "deal-db97f614ca9122369146f87a",
+    "detected_at": "2026-09-26T13:26:58+00:00",
+    "effective_date": null,
+    "event_id": "event-db97f614ca9122369146f87a",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-db97f614ca9122369146f87a",
+      "evidence-e0661a54ef4d95ae553dad3e"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-db97f614ca9122369146f87a",
+          "evidence-e0661a54ef4d95ae553dad3e"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-979519b461ccef0644a11927"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-539b63489a2fbca88be2910a": "4c52cd4bdbdd85284f16aff8540f3ad02ed55ab17bfa85d01979ae28616b9521"
+      },
+      "reason": "Primary-source review of merged research record r55; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r55",
+      "rule_version": "c24e5309347c1cb477ef074993f35ac6ffe8c58e65e245b382ff16b830ab2976",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-0e552797c92375d0b0c5f124",
+        "amount_kind": "purchase_price",
+        "conditions": "Computershareの株主向け資料に記載されたWells Fargo CTS資産取得の契約対価。完了後の調整額は未確認。",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "US$",
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "US$750 million",
+        "payee_company_ids": [
+          "co-computershare-limited"
+        ],
+        "payer_company_ids": [
+          "co-wells-fargo-corporate-trust-services"
+        ],
+        "qualifier": "exact",
+        "scope": "Computershareの株主向け資料に記載されたWells Fargo CTS資産取得の契約対価。完了後の調整額は未確認。",
+        "value": "750000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2021-11-01",
+    "conditions": "取得対象はWells Fargo全社ではなくCorporate Trust Services事業の資産。 買収は2021-11-01に完了。2021-03-24の発表時点では規制承認その他通常のクロージング条件に従っていた。",
+    "deal_id": "deal-cb2093417892261a4531cc1d",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-cb2093417892261a4531cc1d",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-cb2093417892261a4531cc1d",
+      "evidence-4e4a6c46543d42c940786054"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-cb2093417892261a4531cc1d",
+          "evidence-4e4a6c46543d42c940786054"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-a8dda407caa0922f32977214"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-51e68390ea04d8136b704359": "1c75c4b55988f5f0ef681c9e962866965c25872d43bebb5bfab17e01d1c9d1b1",
+        "source-85418f5554a350d7b72bca8c": "0312d25f2a627fd9ba63c157f87b225ea452bd4882b24c38ec568ae6fa687110"
+      },
+      "reason": "Primary-source review of merged research record r58; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r58",
+      "rule_version": "b7929eef55004d0262ed53bb9ded7aba75f24996bf7048178c02d52c0585fbc4",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-06-01",
+    "conditions": "Capital OneはVelocity Blackの独自技術とコンシェルジュ機能を自社の消費者向け体験強化に活用すると説明。",
+    "deal_id": "deal-a01c6be400303087d115087a",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-a01c6be400303087d115087a",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-a01c6be400303087d115087a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a01c6be400303087d115087a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-30eede1b51614c353ecb82fb"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8ce8168f61789a97714772f8": "40ced28936b7836a6088ee89ff59de34e16523e6f803426d76d8d98b2661785a"
+      },
+      "reason": "Primary-source review of merged research record r80; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r80",
+      "rule_version": "3a7af375f918140d884cc0c8e3d76f4bdc71ada22d98f782ce2324c9b243f7d5",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-99ad79edc32cbb26474c308d",
+        "amount_kind": "purchase_price",
+        "conditions": "買収発表時のクロージング現金対価上限。慣例的調整の対象で、完了後の確定支払額ではない。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "max_value": "2100000000",
+        "min_value": null,
+        "original_text": "up to $2.1 billion",
+        "payee_company_ids": [
+          "co-capstan-therapeutics-inc"
+        ],
+        "payer_company_ids": [
+          "co-abbvie"
+        ],
+        "qualifier": "up_to",
+        "scope": "買収発表時のクロージング現金対価上限。慣例的調整の対象で、完了後の確定支払額ではない。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2025-08-19",
+    "conditions": "買収発表時の現金対価は最大21億ドルで慣例的調整の対象。完了発表には最終調整後の金額記載なし。",
+    "deal_id": "deal-33e388c6fe4ba5085e7e5fea",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-33e388c6fe4ba5085e7e5fea",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-33e388c6fe4ba5085e7e5fea",
+      "evidence-8fccde85051478fdf45060fa"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-33e388c6fe4ba5085e7e5fea",
+          "evidence-8fccde85051478fdf45060fa"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-92109d86b7f144a48593e708"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2b3fab4cc6818e18255dc91b": "53b049331aab74b10a25a059436b1eb88867a0006e1b8525295ebe4fe2eec48b",
+        "source-7e76753563f25bc4214d433d": "ed273e59d113d4c57097801fb25f0f2566176dda6c13ce41cdc5b03b58315398"
+      },
+      "reason": "Primary-source review of merged research record r86; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r86",
+      "rule_version": "c2b951dd1ac1b938fea9ac240fd0b3f10972c0f3183ff288eca40538ae05ad7d",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-08-01",
+    "conditions": "",
+    "deal_id": "deal-d0df0ffaf355845b1c2d60c8",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-d0df0ffaf355845b1c2d60c8",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-d0df0ffaf355845b1c2d60c8"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-d0df0ffaf355845b1c2d60c8"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-382dd2ec6cd155c9a673af4c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-43f64c933167807c5d7e1145": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3"
+      },
+      "reason": "Primary-source review of merged research record r87; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r87",
+      "rule_version": "9d520e5e8759e8604200204339a483eca8b4c549ff8c679b43df01eef255db1b",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-02-12",
+    "conditions": "",
+    "deal_id": "deal-58cf20d6eca34b0ce7f4748c",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-58cf20d6eca34b0ce7f4748c",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-58cf20d6eca34b0ce7f4748c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-58cf20d6eca34b0ce7f4748c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-b9e3ccbd9119e84b9daac2e9"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-04329c75804a9c7bc10626a9": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696"
+      },
+      "reason": "Primary-source review of merged research record r88; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r88",
+      "rule_version": "6c74c1d29b3bcfbe847b3bba775bcfac3b4814f3e6683da1fc167254c7ab8b2d",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-4e157e0c435edaab6b56e7ad",
+        "amount_kind": "other",
+        "conditions": "契約完了時にArcusが受領する前払金。原文は$表記で通貨コード未確認。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$175 million",
+        "payee_company_ids": [
+          "co-arcus-biosciences-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "契約完了時にArcusが受領する前払金。原文は$表記で通貨コード未確認。",
+        "value": "175000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-88a21a54fdb3759b97c74c40",
+        "amount_kind": "investment_amount",
+        "conditions": "GileadからArcusへの株式投資。1株33.54ドル。前払金と別項目。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$200 million",
+        "payee_company_ids": [
+          "co-arcus-biosciences-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "GileadからArcusへの株式投資。1株33.54ドル。前払金と別項目。",
+        "value": "200000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-a030676cc4974184af1d51aa",
+        "amount_kind": "other",
+        "conditions": "現行臨床候補のオプトインおよびマイルストーン支払上限。条件付き。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "max_value": "1225000000",
+        "min_value": null,
+        "original_text": "up to $1.225 billion",
+        "payee_company_ids": [
+          "co-arcus-biosciences-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "up_to",
+        "scope": "現行臨床候補のオプトインおよびマイルストーン支払上限。条件付き。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-71f9ed1f7006075b0dd131fb",
+        "amount_kind": "other",
+        "conditions": "協業期間中の継続的研究開発支援の上限。条件付きで、オプトイン上限に加算しない。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "max_value": "400000000",
+        "min_value": null,
+        "original_text": "up to $400 million",
+        "payee_company_ids": [
+          "co-arcus-biosciences-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "up_to",
+        "scope": "協業期間中の継続的研究開発支援の上限。条件付きで、オプトイン上限に加算しない。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2020-05-27",
+    "conditions": "取引は2020年Q3のクロージング予定で、反トラスト承認その他の慣例的条件が付された。現行候補のオプトイン料は1プログラム2億〜2.75億ドル、将来プログラムは1.5億ドル/プログラム。米国では共同開発・利益折半、米国外はGilead独占商業化と段階的ロイヤルティ。追加株式購入権は5年間・Arcus議決権株式最大35%まで。",
+    "deal_id": "deal-a08a6238127b8df87e477a70",
+    "detected_at": "2026-09-26T13:27:00+00:00",
+    "effective_date": null,
+    "event_id": "event-a08a6238127b8df87e477a70",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-a08a6238127b8df87e477a70",
+      "evidence-810853c5094d9c37b44702a4",
+      "evidence-0a44c4601acacbb6d6c10a4a",
+      "evidence-7d4c582d1daf6e60191b920b"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a08a6238127b8df87e477a70",
+          "evidence-810853c5094d9c37b44702a4",
+          "evidence-0a44c4601acacbb6d6c10a4a",
+          "evidence-7d4c582d1daf6e60191b920b"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-81a9bee3a46160664ddcd39a"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-022b42ac311499beb0096e70": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407"
+      },
+      "reason": "Primary-source review of merged research record r100; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r100",
+      "rule_version": "6d6c6e53075aa8bd4f323caec034627f57646d8fea6dec5293a8fa3f96e0c029",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2009-01-13",
+    "conditions": "CitiはSmith Barney、Smith Barney Australia、Quilterを拠出し49%持分を取得。Morgan StanleyはGlobal Wealth Management事業を拠出し51%持分を取得。 3年後から両社にJV持分のpurchase/sale rightsが生じ、Citiは少なくとも5年目まで重要持分を維持する計画。 規制承認その他通常のクロージング条件に従う。",
+    "deal_id": "deal-a640a808a15b0f045049c4fd",
+    "detected_at": "2026-09-26T13:29:14+00:00",
+    "effective_date": null,
+    "event_id": "event-a640a808a15b0f045049c4fd",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-a640a808a15b0f045049c4fd"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a640a808a15b0f045049c4fd"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-d55d4e59970fa5d441457458"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3e03bd686ab5ed117f60c179": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b"
+      },
+      "reason": "Primary-source review of merged research record r56; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r56",
+      "rule_version": "b947906d259b188aa946f991769c3ffaa9c8ec2adc57bf105daaacdae2a2f3ad",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "Wachovia普通株1株につきWells Fargo普通株0.1991株を交付。 Wachovia株主承認および通常の規制承認が必要。 発表ではFDICその他政府機関の金融支援を必要としないwhole company transactionと説明。",
+    "deal_id": "deal-64a4c6fc21c5a427e05fa559",
+    "detected_at": "2026-09-26T13:29:14+00:00",
+    "effective_date": null,
+    "event_id": "event-64a4c6fc21c5a427e05fa559",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-64a4c6fc21c5a427e05fa559"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-64a4c6fc21c5a427e05fa559"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2008-10-03",
+    "relationship_ids": [
+      "rel-1a53556688a192ec472a5060"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3ab47b2bf581b85ad952556a": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d"
+      },
+      "reason": "Primary-source review of merged research record r57; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r57",
+      "rule_version": "89ef0a67dd1d30f2afb084491fe17a82227c155276f7cf101bb5fefa02313eea",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "取得資産には100万超のbrokerage / managed portfolio accountsが含まれた。 長期紹介契約によりSchwabがUSAA会員向けwealth management / investment brokerageのexclusive providerとなる。",
+    "deal_id": "deal-f6a80abb7d1485cc5331230d",
+    "detected_at": "2026-09-26T13:29:17+00:00",
+    "effective_date": null,
+    "event_id": "event-f6a80abb7d1485cc5331230d",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-f6a80abb7d1485cc5331230d",
+      "evidence-fad126af5b633120a3ca97f5"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-f6a80abb7d1485cc5331230d",
+          "evidence-fad126af5b633120a3ca97f5"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-dd81fd2f32b715d353d46e12"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5d9e6f74b3debe6f7317168d": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec"
+      },
+      "reason": "Primary-source review of merged research record r74; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r74",
+      "rule_version": "a09bf443ee9bfa1f31653c6f9cdcf5fdb6c96cbeacc1bec81d5a77d871572498",
+      "verified_at": "2026-09-26T13:29:17+00:00"
     }
   }
 ]

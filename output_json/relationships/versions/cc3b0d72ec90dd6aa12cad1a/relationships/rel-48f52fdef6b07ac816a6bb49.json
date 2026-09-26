@@ -1,0 +1,223 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-10-02",
+      "conditions": "",
+      "deal_id": "deal-552ad927f18fa6ab55bc972e",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-552ad927f18fa6ab55bc972e",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-552ad927f18fa6ab55bc972e",
+        "evidence-dcdae98ea621c32f9ddc653a"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-552ad927f18fa6ab55bc972e",
+            "evidence-dcdae98ea621c32f9ddc653a"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-48f52fdef6b07ac816a6bb49"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-56ab4107d3146e817658156a": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-56ab4107d3146e817658156a",
+        "rule_version": "2ae1ee8bbd4acf19f9b7b0e9351fb5f9d35198e1cd048abdcb6b734f3b4e5dc8",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-552ad927f18fa6ab55bc972e",
+      "excerpt": "expanded partnership",
+      "locator": "p:6",
+      "normalized_text_hash": "a78555a4584e681bcc7f295474aa1b90e206a3dba1df2c3d058c89a668bec0ae",
+      "section": "Official disclosure: business context",
+      "source_id": "source-56ab4107d3146e817658156a",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-dcdae98ea621c32f9ddc653a",
+      "excerpt": "AI Refinery",
+      "locator": "p:7",
+      "normalized_text_hash": "5491e7a43edcbf7e7a59e2a607da005d217de5f24243b9dee7b1141fe1e5cca6",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-56ab4107d3146e817658156a",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-552ad927f18fa6ab55bc972e",
+        "evidence-dcdae98ea621c32f9ddc653a"
+      ],
+      "geography": "",
+      "headline": "企業向けAI導入支援の協業拡張",
+      "products": [
+        "AI Refinery",
+        "NVIDIA AI Enterprise",
+        "Omniverse"
+      ],
+      "scale": "",
+      "source_role": "AI計算・ソフトウェア基盤",
+      "target_role": "業務設計・AI導入支援"
+    },
+    "deal_ids": [
+      "deal-552ad927f18fa6ab55bc972e"
+    ],
+    "description": "AccentureがNVIDIA Business Groupを設立し協業を拡張。NVIDIAのAIソフトウェアとAccenture AI Refineryを組み合わせ、企業の業務用AI導入を支援する。Accenture全体のAI受注額は二社の契約額ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-552ad927f18fa6ab55bc972e",
+      "evidence-dcdae98ea621c32f9ddc653a"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-552ad927f18fa6ab55bc972e"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-48f52fdef6b07ac816a6bb49",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-acn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-56ab4107d3146e817658156a": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-56ab4107d3146e817658156a",
+      "rule_version": "2ae1ee8bbd4acf19f9b7b0e9351fb5f9d35198e1cd048abdcb6b734f3b4e5dc8",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+      "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-10-02",
+      "publisher": "newsroom.accenture.com",
+      "retrieved_at": "2026-09-26T06:11:53+00:00",
+      "source_id": "source-56ab4107d3146e817658156a",
+      "source_type": "official_newsroom",
+      "title": "Accenture and NVIDIA Lead Enterprises into Era of AI"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-552ad927f18fa6ab55bc972e",
+        "evidence-dcdae98ea621c32f9ddc653a"
+      ],
+      "geography": "",
+      "headline": "企業向けAI導入支援の協業拡張",
+      "products": [
+        "AI Refinery",
+        "NVIDIA AI Enterprise",
+        "Omniverse"
+      ],
+      "scale": "",
+      "source_role": "AI計算・ソフトウェア基盤",
+      "target_role": "業務設計・AI導入支援"
+    },
+    "description": "AccentureがNVIDIA Business Groupを設立し協業を拡張。NVIDIAのAIソフトウェアとAccenture AI Refineryを組み合わせ、企業の業務用AI導入を支援する。Accenture全体のAI受注額は二社の契約額ではない。",
+    "direction": "undirected",
+    "event_date": "2024-10-02",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-48f52fdef6b07ac816a6bb49",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-acn",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

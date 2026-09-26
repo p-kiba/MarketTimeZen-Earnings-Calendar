@@ -1,0 +1,286 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-citi",
+      "country": null,
+      "display_name": "Citi",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-instacart",
+      "country": null,
+      "display_name": "Instacart",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-06-11",
+      "listing_status_source": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart",
+          "symbol": "CART",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-uber",
+      "country": null,
+      "display_name": "Uber Technologies, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-16",
+      "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+          "symbol": "UBER",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-visa",
+      "country": null,
+      "display_name": "Visa",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-05-06",
+      "listing_status_source": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+          "symbol": "V",
+          "valid_from": "2024-05-06",
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000909832",
+    "company_id": "co-cost",
+    "country": null,
+    "display_name": "COSTCO WHOLESALE CORP /NEW",
+    "entity_status": "resolved",
+    "legal_name": "COSTCO WHOLESALE CORP /NEW",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+        "symbol": "COST",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-244a3c4de0cb49740aadb506",
+          "evidence-d35f2fdd56d21925beb662d8"
+        ],
+        "geography": "",
+        "headline": "当日配送とECサイト基盤の提供",
+        "products": [
+          "当日配送",
+          "Instacart Storefront Pro"
+        ],
+        "scale": "",
+        "source_role": "配送・ECサイト基盤",
+        "target_role": "会員向け小売"
+      },
+      "description": "InstacartがCostcoの当日配送を支援し、配送サイトにもStorefront Proを提供。2017年からの提携を基にした2025年の発表。会員向け月額クレジットや注文額条件は二社の取引額ではない。",
+      "direction": "directed",
+      "event_date": "2025-06-11",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-2f45c4fa57583800e90111e8",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-instacart",
+      "status_as_of": "2025-06-11",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9df2a3f982016acad2c2c012"
+        ],
+        "geography": "米国",
+        "headline": "Uber Eats配送を米国47州へ拡大",
+        "products": [
+          "Uber Eats",
+          "即時・予約配送"
+        ],
+        "scale": "47州、約600拠点（発表時点）",
+        "source_role": "配送プラットフォーム",
+        "target_role": "倉庫型店舗・商品販売"
+      },
+      "description": "UberとCostcoがUber Eats経由の米国配送を17州から47州へ拡大。約600拠点から即時・予約配送を提供すると公表。提携収益や手数料率は非掲載。",
+      "direction": "directed",
+      "event_date": "2026-09-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-uber",
+      "status_as_of": "2026-09-16",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ce4f3f8e91d996c50d4b6fbe"
+        ],
+        "geography": "米国・プエルトリコ",
+        "headline": "Costco会員向け提携カード",
+        "products": [
+          "Costco Anywhere Visaカード"
+        ],
+        "scale": "",
+        "source_role": "提携カード提供",
+        "target_role": "会員・店舗基盤提供"
+      },
+      "description": "CitiとCostcoがCostco Anywhere Visaカードを2016年6月20日に提供開始。会員向けの共同ブランドカードで、還元率や取扱高を契約額にはしない。",
+      "direction": "directed",
+      "event_date": "2016-06-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-7b1c4e0b90dc4db4823f0b17",
+      "relationship_type": "partnership",
+      "source_company_id": "co-citi",
+      "status_as_of": "2016-06-20",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-4f7b7708953f0fceca671c3d"
+        ],
+        "geography": "米国・プエルトリコ",
+        "headline": "CostcoのVisaカード決済",
+        "products": [
+          "Visa決済ネットワーク"
+        ],
+        "scale": "",
+        "source_role": "決済ネットワーク提供",
+        "target_role": "会員・店舗基盤提供"
+      },
+      "description": "Costcoが米国・プエルトリコの倉庫店とガソリン施設でVisaブランドのクレジットカード受入を2016年6月20日に開始。クレジットカードの独占とデビット等の扱いは区別する。",
+      "direction": "directed",
+      "event_date": "2016-06-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-22af952a5d6e3f831640ff44",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-visa",
+      "status_as_of": "2016-06-20",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2016-06-20",
+    "2025-06-11",
+    "2026-09-16"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

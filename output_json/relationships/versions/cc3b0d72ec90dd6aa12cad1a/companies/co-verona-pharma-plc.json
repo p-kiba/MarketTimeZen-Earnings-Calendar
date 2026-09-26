@@ -1,0 +1,105 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-verona-pharma-plc",
+      "country": null,
+      "display_name": "Verona Pharma plc",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-verona-pharma-plc",
+    "country": null,
+    "display_name": "Verona Pharma plc",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7b44edbaf41e88bf12d93009",
+          "amount_kind": "purchase_price",
+          "conditions": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10 billion",
+          "payee_company_ids": [
+            "co-verona-pharma-plc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "value": "10000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。",
+      "direction": "directed",
+      "event_date": "2025-10-07",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-04561989f8326dfcb62a17df",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2025-10-07",
+      "target_company_id": "co-verona-pharma-plc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-10-07"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

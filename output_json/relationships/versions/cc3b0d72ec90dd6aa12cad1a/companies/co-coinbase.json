@@ -1,0 +1,183 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coinbase",
+      "country": null,
+      "display_name": "Coinbase",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-07-30",
+      "listing_status_source": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership",
+          "symbol": "COIN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000019617",
+      "company_id": "co-jpm",
+      "country": null,
+      "display_name": "JPMORGAN CHASE & CO",
+      "entity_status": "resolved",
+      "legal_name": "JPMORGAN CHASE & CO",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PC",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "AMJB",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PD",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PJ",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PK",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "VYLD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-coinbase",
+    "country": null,
+    "display_name": "Coinbase",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-07-30",
+    "listing_status_source": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership",
+        "symbol": "COIN",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8bd17c18e0fa2c9d79475e86",
+          "evidence-9c8e4504b013da9115dbfd84",
+          "evidence-9efc770b4149da3238f8b9f7",
+          "evidence-2c96eb5b72c9cbc29c4d74d4",
+          "evidence-0e1c9087ec38e7379996e6c3"
+        ],
+        "geography": "",
+        "headline": "口座・ポイント・カードの暗号資産サービス連携",
+        "products": [
+          "口座接続API",
+          "Ultimate Rewards",
+          "カード決済"
+        ],
+        "scale": "",
+        "source_role": "銀行口座・決済・ポイント",
+        "target_role": "ウォレット・取引基盤"
+      },
+      "description": "JPMorganChaseとCoinbaseが、Chase口座とウォレットのAPI接続、ポイント移行、カードによる資金追加の提携を発表。カード対応は2025年秋、口座接続とポイント移行は2026年の予定で、稼働完了を示す記録ではない。",
+      "direction": "undirected",
+      "event_date": "2025-07-30",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-27a5c829c2e1d629226b2991",
+      "relationship_type": "partnership",
+      "source_company_id": "co-jpm",
+      "status_as_of": "2025-07-30",
+      "target_company_id": "co-coinbase",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-07-30"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

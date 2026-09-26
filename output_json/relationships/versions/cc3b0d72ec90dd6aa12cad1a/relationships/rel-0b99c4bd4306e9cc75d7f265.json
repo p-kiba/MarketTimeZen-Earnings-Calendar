@@ -1,0 +1,288 @@
+{
+  "build_id": "cc3b0d72ec90dd6aa12cad1a",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-702b4078552f920b01ee8331",
+          "amount_kind": "purchase_price",
+          "conditions": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$11.6 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-pfe"
+          ],
+          "qualifier": "approximately",
+          "scope": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+          "value": "11600000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-10-03",
+      "conditions": "買収完了によりBiohavenはPfizerの完全子会社となった。 非CGRP開発資産はNew Biohaven側へ分離されたため、取得対象を混同しない。 非CGRP資産を保有する分離後のBiohaven Ltd.（BHVN）とは区別する。",
+      "deal_id": "deal-05c293d151ca987ac6c1a4c6",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": "2022-10-03",
+      "event_id": "event-05c293d151ca987ac6c1a4c6",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-05c293d151ca987ac6c1a4c6",
+        "evidence-a041b42469e1aad12020f30c",
+        "evidence-e41ee6ee717a2f2faf759178"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-05c293d151ca987ac6c1a4c6",
+            "evidence-a041b42469e1aad12020f30c",
+            "evidence-e41ee6ee717a2f2faf759178"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0b99c4bd4306e9cc75d7f265"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5f7108272c4c34cddd296780": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r6",
+        "rule_version": "616237e9a657f3742d35de0d0af1d2d6083ed283eb904444bbe3c1b14e9f4ebb",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-05c293d151ca987ac6c1a4c6",
+      "excerpt": "acquisition",
+      "locator": "p:6",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-5f7108272c4c34cddd296780",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a041b42469e1aad12020f30c",
+      "excerpt": "spin-off",
+      "locator": "p:16",
+      "normalized_text_hash": "dee6b0218781123f6e6966ab51d0fc00caabd93ebf8f8ab38ef0d6eca78e7617",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-5f7108272c4c34cddd296780",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e41ee6ee717a2f2faf759178",
+      "excerpt": "$11.6 billion",
+      "locator": "p:15",
+      "normalized_text_hash": "0fd5c823c49694738903c42480749729f2c2a06cfffdca90138ac52efc5f9bca",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-5f7108272c4c34cddd296780",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-05c293d151ca987ac6c1a4c6",
+        "evidence-a041b42469e1aad12020f30c",
+        "evidence-e41ee6ee717a2f2faf759178"
+      ],
+      "geography": "",
+      "headline": "片頭痛治療薬・CGRP事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-05c293d151ca987ac6c1a4c6"
+    ],
+    "description": "PfizerはBiohaven Pharmaceutical Holding Companyを買収し、NURTEC ODTを含むCGRP片頭痛治療ポートフォリオを取得した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-05c293d151ca987ac6c1a4c6",
+      "evidence-a041b42469e1aad12020f30c",
+      "evidence-e41ee6ee717a2f2faf759178"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-05c293d151ca987ac6c1a4c6"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0b99c4bd4306e9cc75d7f265",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2022-10-03",
+    "target_company_id": "co-biohaven-acquired",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5f7108272c4c34cddd296780": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r6",
+      "rule_version": "616237e9a657f3742d35de0d0af1d2d6083ed283eb904444bbe3c1b14e9f4ebb",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceuticals",
+      "content_hash": "4a97b009d80c6f19048e3624816d4f65fd468ee2725015e93af7d937be8a5277",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-10-03",
+      "publisher": "Pfizer",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-5f7108272c4c34cddd296780",
+      "source_type": "official_newsroom",
+      "title": "Pfizer Completes Acquisition of Biohaven Pharmaceuticals | Pfizer"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-702b4078552f920b01ee8331",
+        "amount_kind": "purchase_price",
+        "conditions": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-05c293d151ca987ac6c1a4c6",
+          "evidence-a041b42469e1aad12020f30c",
+          "evidence-e41ee6ee717a2f2faf759178"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$11.6 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-pfe"
+        ],
+        "qualifier": "approximately",
+        "scope": "Pfizerが保有済み分を除くBiohaven株式の取得に係る取引対価。1株148.50ドルの現金対価。",
+        "value": "11600000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-05c293d151ca987ac6c1a4c6",
+        "evidence-a041b42469e1aad12020f30c",
+        "evidence-e41ee6ee717a2f2faf759178"
+      ],
+      "geography": "",
+      "headline": "片頭痛治療薬・CGRP事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "PfizerはBiohaven Pharmaceutical Holding Companyを買収し、NURTEC ODTを含むCGRP片頭痛治療ポートフォリオを取得した。",
+    "direction": "directed",
+    "event_date": "2022-10-03",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0b99c4bd4306e9cc75d7f265",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2022-10-03",
+    "target_company_id": "co-biohaven-acquired",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}
