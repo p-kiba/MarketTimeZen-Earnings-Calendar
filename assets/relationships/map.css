@@ -26,3 +26,5 @@ body.map-mode{overflow:hidden}
 .mtz-exit-map-mode{position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));z-index:5;background:#fff;box-shadow:0 3px 14px #24314718}
 .map-mode .mtz-zoom{bottom:max(18px,env(safe-area-inset-bottom));right:max(12px,env(safe-area-inset-right))}
 .map-mode #mtz-message:not(:empty){position:absolute;top:max(64px,calc(env(safe-area-inset-top) + 52px));left:12px;right:12px;z-index:6;border-radius:8px}
+
+.mtz-results-button{width:100%;margin:12px 0;border-color:#9bbfdc;background:#f1f8fc;color:#285c80}.mtz-earnings-results{padding:14px 0;border-bottom:1px solid var(--border);margin-bottom:14px}.mtz-earnings-results table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}.mtz-earnings-results th,.mtz-earnings-results td{padding:9px 3px;border-bottom:1px solid var(--border);text-align:right}.mtz-earnings-results th:first-child{text-align:left}.mtz-earnings-results thead th{font-size:11px;color:#65738a}.mtz-earnings-results .muted{font-size:12px;margin:10px 0 0}

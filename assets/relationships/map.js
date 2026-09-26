@@ -1,11 +1,12 @@
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=84af1511610b';
-import {dealRows} from './deals.js?v=84af1511610b';
-import {graphPositions,edgeBend} from './layout.js?v=84af1511610b';
-import {DataClient} from './data-client.js?v=84af1511610b';
-import {CompanyView} from './company-view.js?v=84af1511610b';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=84af1511610b';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=84af1511610b';
-import {dictionary} from './i18n.js?v=84af1511610b';
+import {latestResults,resultRows} from './earnings-results.js?v=eba53ce57ea5';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=eba53ce57ea5';
+import {dealRows} from './deals.js?v=eba53ce57ea5';
+import {graphPositions,edgeBend} from './layout.js?v=eba53ce57ea5';
+import {DataClient} from './data-client.js?v=eba53ce57ea5';
+import {CompanyView} from './company-view.js?v=eba53ce57ea5';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=eba53ce57ea5';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=eba53ce57ea5';
+import {dictionary} from './i18n.js?v=eba53ce57ea5';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -241,6 +242,28 @@ async function showCompany(cid){
   selected=cid;highlightCompany();
   openDetail(c.display_name);const content=$('mtz-detail-content');
   if(logo(c)){const img=el('img',undefined,'company-logo');img.src=logo(c);img.alt=c.display_name;content.prepend(img);}
+  const results=el('section',undefined,'mtz-earnings-results');results.hidden=true;results.id='mtz-company-results';
+  let loaded=false;
+  const resultsButton=button(t('viewResults'),async()=>{
+    results.hidden=!results.hidden;resultsButton.setAttribute('aria-expanded',String(!results.hidden));
+    if(results.hidden||loaded)return;
+    resultsButton.disabled=true;results.setAttribute('aria-busy','true');results.replaceChildren(el('p',t('loading')));
+    try{
+      const report=await latestResults(c);if(!results.isConnected)return;
+      results.replaceChildren();loaded=true;
+      if(!report){results.append(el('p',t('resultsMissing')));return;}
+      const r=report.latest;
+      results.append(el('h3',t('latestResults')),el('p',report.companyName+' · '+report.symbol,'muted'));
+      results.append(el('p',state.lang==='ja'?`${r.fiscalYear}年度 第${r.fiscalQuarter}四半期`:`FY${r.fiscalYear} Q${r.fiscalQuarter}`));
+      const table=el('table'),head=el('thead'),header=el('tr');
+      for(const label of [t('resultMetric'),t('resultValue'),t('resultYoY')]){const th=el('th',label);th.scope='col';header.append(th);}head.append(header);table.append(head);
+      const body=el('tbody');for(const row of resultRows(report,state.lang)){const tr=el('tr'),th=el('th',row.label);th.scope='row';tr.append(th,el('td',row.value),el('td',row.change));body.append(tr);}table.append(body);results.append(table);
+      results.append(el('p',t('resultPeriod')+': '+(r.startDate||'—')+' — '+r.endDate,'muted'),el('p',t('resultFiled')+': '+(r.filedDate||'—')+' · '+(r.form||'—'),'muted'));
+      if(c.display_member_ids?.length>1)results.append(el('p',t('consolidatedResults'),'muted'));
+    }catch{if(results.isConnected)results.replaceChildren(el('p',t('resultsFailed')));}
+    finally{resultsButton.disabled=false;results.removeAttribute('aria-busy');}
+  },'mtz-results-button');
+  resultsButton.setAttribute('aria-expanded','false');resultsButton.setAttribute('aria-controls',results.id);content.append(resultsButton,results);
   paragraph(content,state.lang==='ja'?'国':'Country',c.country);
   paragraph(content,state.lang==='ja'?'収録範囲':'Coverage',client.coverage.universe);
   if(c.display_member_ids?.length>1)paragraph(content,state.lang==='ja'?'まとめて表示':'Displayed together',c.display_member_ids.map(id=>client.rawName(id)).join(' / '));
