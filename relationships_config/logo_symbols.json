@@ -178,5 +178,59 @@
     "source_record_hash": "499a8f3cbf0ccab59b9284836388492a33e761a8d6c7c6d3b45a5deac57aa4b2",
     "source_url": "https://www.sec.gov/files/company_tickers.json",
     "symbol": "VST"
+  },
+  "co-crm": {
+    "symbol": "CRM",
+    "issuer_name": "Salesforce, Inc.",
+    "cik": "0001108524",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "44379468081776bd4f27257fdb74683777549b8050d4c9866b2b22f0d7245f48"
+  },
+  "co-rivian": {
+    "symbol": "RIVN",
+    "issuer_name": "Rivian Automotive, Inc. / DE",
+    "cik": "0001874178",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "d7a05b48494966dee2aad87fb2c4ef8b28131e39f5ece02db59131f7ee23339f"
+  },
+  "co-gm": {
+    "symbol": "GM",
+    "issuer_name": "General Motors Co",
+    "cik": "0001467858",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "95fdb3d0871074e24b70b84aeab928c65e17ec0496ad37888a6b71e8980fd5ae"
+  },
+  "co-microchip": {
+    "symbol": "MCHP",
+    "issuer_name": "MICROCHIP TECHNOLOGY INC",
+    "cik": "0000827054",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "79698aec02a2a61539ac6beeec09f43d2efdc69b29a177e8fddf129fb6840fed"
+  },
+  "co-oxy": {
+    "symbol": "OXY",
+    "issuer_name": "OCCIDENTAL PETROLEUM CORP /DE/",
+    "cik": "0000797468",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "1783a14fe57aa04df1ea296f16c0f288c9a33fc89728e4230c255571cf7f894c"
+  },
+  "co-citi": {
+    "symbol": "C",
+    "issuer_name": "CITIGROUP INC",
+    "cik": "0000831001",
+    "source_url": "https://www.sec.gov/files/company_tickers.json",
+    "reviewed_at": "2026-09-26",
+    "scope": "Logo attribution only; does not add stock listings or move contracts to a parent company.",
+    "source_record_hash": "2711894c564d27b6a7cf186e89c2c78c492d53831ad9cd510eb694b292a79fe7"
   }
 }

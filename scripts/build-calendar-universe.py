@@ -11,4 +11,11 @@ mappings=root/'relationships_config/logo_symbols.json'
 if mappings.exists():
     for cid,entry in json.loads(mappings.read_text()).items():
         if entry['symbol'] in logos:logos[cid]=logos[entry['symbol']]
+assets=root/'relationships_config/logo_assets.json'
+if assets.exists():
+    for cid,entry in json.loads(assets.read_text()).items():
+        path=Path(entry['path'])
+        if path.parent!=Path('assets/logos/us') or path.suffix not in ('.png','.ico'):
+            raise ValueError('Invalid company logo path: '+str(path))
+        if (root/path).is_file():logos[cid]=path.as_posix()
 (root/'assets/relationships/logos.json').write_text(json.dumps(logos,indent=2)+'\n')
