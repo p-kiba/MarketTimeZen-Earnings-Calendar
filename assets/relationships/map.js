@@ -1,13 +1,13 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=7404176ffa36';
-import {latestResults,resultRows} from './earnings-results.js?v=7404176ffa36';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=7404176ffa36';
-import {dealRows} from './deals.js?v=7404176ffa36';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=7404176ffa36';
-import {DataClient} from './data-client.js?v=7404176ffa36';
-import {CompanyView} from './company-view.js?v=7404176ffa36';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=7404176ffa36';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=7404176ffa36';
-import {dictionary} from './i18n.js?v=7404176ffa36';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=40d4fc4d8687';
+import {latestResults,resultRows} from './earnings-results.js?v=40d4fc4d8687';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=40d4fc4d8687';
+import {dealRows} from './deals.js?v=40d4fc4d8687';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=40d4fc4d8687';
+import {DataClient} from './data-client.js?v=40d4fc4d8687';
+import {CompanyView} from './company-view.js?v=40d4fc4d8687';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=40d4fc4d8687';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=40d4fc4d8687';
+import {dictionary} from './i18n.js?v=40d4fc4d8687';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -29,6 +29,7 @@ function saveMapPreferences(){
 let autoExpansionTimer,autoExpansionBusy=false,autoAttemptStage=0;
 let automaticNeighborhoods=new Map();
 let zoomBasePositions=new Map(), zoomSpread=false;
+let overviewPriority=false;
 let expansionHistory=[], selectionVersion=0, selectionOpen=false, quickFilter="", selectionRows=10;
 const ux=(ja,en)=>state.lang==='ja'?ja:en;
 let layoutCenter=null,layoutKey='',layoutPositions=new Map();
@@ -147,7 +148,7 @@ function search(){
   if(!matches.length)$('mtz-results').append(el('p',t('searchEmpty')));
 }
 async function choose(cid,push=true){
-  clearTimeout(autoExpansionTimer);autoAttemptStage=0;automaticNeighborhoods.clear();zoomBasePositions.clear();zoomSpread=false;
+  clearTimeout(autoExpansionTimer);autoAttemptStage=0;automaticNeighborhoods.clear();zoomBasePositions.clear();zoomSpread=false;overviewPriority=false;
   cid=client.canonicalId(cid);
   detailGeneration++;const seq=++generation;request?.abort();request=new AbortController();message(t('loading'));
   try{const data=await client.company(cid,request.signal);if(seq!==generation)return;
@@ -246,6 +247,18 @@ function filtered(){
   const cutoff=state.days?new Date(Date.now()-Number(state.days)*86400000).toISOString().slice(0,10):null;
   return [...relationships.values()].filter(r=>(!state.type||r.relationship_type===state.type)&&(!state.status||r.lifecycle_status===state.status)&&(!state.amount||r.has_amount)&&(!cutoff||r.event_date&&r.event_date>=cutoff)).filter(r=>matchesQuickFilter(r)).sort((a,b)=>(b.event_date||'').localeCompare(a.event_date||'')||a.relationship_id.localeCompare(b.relationship_id));
 }
+// Count distinct counterparties: several contracts with one company are one connection.
+function connectionCounts(rows){
+  const neighbors=new Map();
+  for(const r of rows){
+    if(r.source_company_id===r.target_company_id)continue;
+    if(!neighbors.has(r.source_company_id))neighbors.set(r.source_company_id,new Set());
+    if(!neighbors.has(r.target_company_id))neighbors.set(r.target_company_id,new Set());
+    neighbors.get(r.source_company_id).add(r.target_company_id);
+    neighbors.get(r.target_company_id).add(r.source_company_id);
+  }
+  return new Map([...neighbors].map(([id,others])=>[id,others.size]));
+}
 function render(){
   const active=!!state.company&&companies.has(state.company);$('mtz-intro').hidden=active;$('mtz-workspace').hidden=!active;
   if(!active||state.view!=='map')setMapMode(false,false);
@@ -262,9 +275,14 @@ function render(){
   }));
   const rels=all.filter(r=>!collapsedGroups.has(category(r,state.company)));if(rels.length&&[t('empty'),t('collapsedEmpty')].includes($('mtz-message').textContent))message('');const relevant=new Set([state.company,...rels.flatMap(r=>[r.source_company_id,r.target_company_id])]);
   const direct=counterparties(neighborhoods.get(state.company)?.relationships||[],state.company);
+  const counts=connectionCounts(rels);
   const updated=id=>rels.filter(r=>[r.source_company_id,r.target_company_id].includes(id)).reduce((v,r)=>r.last_observed_at>v?r.last_observed_at:v,'');
   const fav=id=>companies.get(id)?.listings.some(l=>state.favorites.includes(l.symbol));
-  const ordered=[state.company,...[...relevant].filter(id=>id!==state.company).sort((a,b)=>Number(direct.has(b))-Number(direct.has(a))||Number(fav(b))-Number(fav(a))||updated(b).localeCompare(updated(a))||name(a).localeCompare(name(b)))];
+  const ordered=[state.company,...[...relevant].filter(id=>id!==state.company).sort((a,b)=>
+    Number(b===selected)-Number(a===selected)||
+    (overviewPriority?0:Number(direct.has(b))-Number(direct.has(a)))||
+    (overviewPriority?(counts.get(b)||0)-(counts.get(a)||0):0)||
+    Number(fav(b))-Number(fav(a))||updated(b).localeCompare(updated(a))||name(a).localeCompare(name(b)))];
   const cap=expanded.size>1?client.manifest.expanded_nodes:client.manifest.initial_nodes;const shown=ordered.slice(0,cap), visible=new Set(shown);
   const visibleRows=rels.filter(r=>visible.has(r.source_company_id)&&visible.has(r.target_company_id));
   const dates=visibleRows.map(r=>r.status_as_of).filter(Boolean).sort();
@@ -350,8 +368,10 @@ function scheduleNeighborExpansion(){
     const stage=zoomExpansionStage();if(stage<=autoAttemptStage)return;
     autoAttemptStage=stage;
     // Bound each batch and the total visible graph; advance only on further zoom-out.
+    const counts=connectionCounts(filtered());
     const ids=[...zoomDepths.keys()].filter(id=>id!==center&&!expanded.has(id))
-      .sort((a,b)=>Number(b===selected)-Number(a===selected)||(zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,[0,12,16,20,24,28][stage]);
+      .sort((a,b)=>Number(b===selected)-Number(a===selected)||(counts.get(b)||0)-(counts.get(a)||0)||
+        (zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,[0,12,16,20,24,28][stage]);
     if(!ids.length||companies.size>=client.manifest.expanded_nodes)return;
     autoExpansionBusy=true;
     try{
@@ -414,6 +434,8 @@ function spreadCrowdedLogos(){
 function updateZoomDisclosure(){
   if(!cy)return;
   if(autoConnections&&!keepExpandedOnZoomIn&&collapseAutomaticNeighborhoods(zoomExpansionStage()))return;
+  const overview=cy.zoom()<=cy.minZoom()+.001;
+  if(overview!==overviewPriority){overviewPriority=overview;render();return;}
   updateZoomSizes();
   if(autoConnections)zoomDepth=cy.zoom()<=cy.minZoom()+.001?3:disclosureDepth(cy.zoom()/zoomReference,zoomDepth);
   cy.batch(()=>{
