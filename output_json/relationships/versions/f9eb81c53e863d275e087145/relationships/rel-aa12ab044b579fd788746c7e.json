@@ -1,0 +1,268 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-8baedd7ce8c35449dbad64ec",
+          "amount_kind": "purchase_price",
+          "conditions": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL id3VybDovL2RvY3MudjEvZG9jOjZiNjYwOTQ3ZmFiNzQ4OGNiNGQzM2JhY2EyY2IzYTM3L3NlYzo2YjY2MDk0N2ZhYjc0ODhjYjRkMzNiYWNhMmNiM2EzN18yNjk5L2ZyYWc6ODU0ZjRiMGU0ZjkwNGM4YWIxYWI4MzE1NTVlYTdjZGUvdGV4dHJlZ2lvbjo4NTRmNGIwZTRmOTA0YzhhYjFhYjgzMTU1NWVhN2NkZV8zMjk4NTM0ODg5MTU3_bd79a0ba-5007-42db-b176-a56882e5baa7 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.9 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-unh"
+          ],
+          "qualifier": "exact",
+          "scope": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+          "value": "13900000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "同社はChangeの株式取得と負債・信用枠返済資金を合わせ総額139億ドルの現金を拠出した。 買収後、予定どおりClaimsXten等のclaims editing事業を別途売却したため、その売却額は買収対価に加算しない。",
+      "deal_id": "deal-027ac1bd1d39449f4f16625b",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": "2022-10-03",
+      "event_id": "event-027ac1bd1d39449f4f16625b",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-027ac1bd1d39449f4f16625b",
+        "evidence-4539d75ba0b93a6fc456d949"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-027ac1bd1d39449f4f16625b",
+            "evidence-4539d75ba0b93a6fc456d949"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2023-02-24",
+      "relationship_ids": [
+        "rel-aa12ab044b579fd788746c7e"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-69c773dcb84d55d4042f2798": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r9",
+        "rule_version": "c574c9be2c713882929c25f81777da3f205578189f6a2c6d524f4fc054974dc5",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-027ac1bd1d39449f4f16625b",
+      "excerpt": "acquired",
+      "locator": "sec-div:1250",
+      "normalized_text_hash": "4db626655b69c52ee06ac9c20a3932143aab12a192bc3c012eb5b1c48c843530",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-69c773dcb84d55d4042f2798",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-4539d75ba0b93a6fc456d949",
+      "excerpt": "UNITEDHEALTH GROUP INCORPORATED",
+      "locator": "tr:958",
+      "normalized_text_hash": "2fc759106a6e45e16e7dfdd7c0e270edbf8d048200cadf8221e75b89bc71a0ee",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-69c773dcb84d55d4042f2798",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-027ac1bd1d39449f4f16625b",
+        "evidence-4539d75ba0b93a6fc456d949"
+      ],
+      "geography": "",
+      "headline": "医療業務・決済技術事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-027ac1bd1d39449f4f16625b"
+    ],
+    "description": "UnitedHealth GroupはChange Healthcareの全発行済普通株式を取得し、医療提供者・保険者向けの臨床、管理、決済プロセスを接続・簡素化する技術と機能を取り込んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-027ac1bd1d39449f4f16625b",
+      "evidence-4539d75ba0b93a6fc456d949"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-027ac1bd1d39449f4f16625b"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-aa12ab044b579fd788746c7e",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2022-10-03",
+    "target_company_id": "co-change-healthcare",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-69c773dcb84d55d4042f2798": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r9",
+      "rule_version": "c574c9be2c713882929c25f81777da3f205578189f6a2c6d524f4fc054974dc5",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000731766-23-000008",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+      "content_hash": "6c12c15f20950f394a4105eb8b51c2e83ae7b1dcadf98cffac9f203a7c0c9d35",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": "2023-02-24",
+      "filing_cik": "0000731766",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-69c773dcb84d55d4042f2798",
+      "source_type": "sec_filing",
+      "title": "unh-20221231"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-8baedd7ce8c35449dbad64ec",
+        "amount_kind": "purchase_price",
+        "conditions": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL id3VybDovL2RvY3MudjEvZG9jOjZiNjYwOTQ3ZmFiNzQ4OGNiNGQzM2JhY2EyY2IzYTM3L3NlYzo2YjY2MDk0N2ZhYjc0ODhjYjRkMzNiYWNhMmNiM2EzN18yNjk5L2ZyYWc6ODU0ZjRiMGU0ZjkwNGM4YWIxYWI4MzE1NTVlYTdjZGUvdGV4dHJlZ2lvbjo4NTRmNGIwZTRmOTA0YzhhYjFhYjgzMTU1NWVhN2NkZV8zMjk4NTM0ODg5MTU3_bd79a0ba-5007-42db-b176-a56882e5baa7 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-027ac1bd1d39449f4f16625b",
+          "evidence-4539d75ba0b93a6fc456d949"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 13.9 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-unh"
+        ],
+        "qualifier": "exact",
+        "scope": "Changeの全普通株式取得と、Changeの未払債務・信用枠の返済資金を合わせた現金総額。",
+        "value": "13900000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-027ac1bd1d39449f4f16625b",
+        "evidence-4539d75ba0b93a6fc456d949"
+      ],
+      "geography": "",
+      "headline": "医療業務・決済技術事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "UnitedHealth GroupはChange Healthcareの全発行済普通株式を取得し、医療提供者・保険者向けの臨床、管理、決済プロセスを接続・簡素化する技術と機能を取り込んだ。",
+    "direction": "directed",
+    "event_date": "2023-02-24",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-aa12ab044b579fd788746c7e",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2022-10-03",
+    "target_company_id": "co-change-healthcare",
+    "tier": {
+      "amount_id": "amount-8baedd7ce8c35449dbad64ec",
+      "color": "#c49a24",
+      "currency": "USD",
+      "level": 4
+    },
+    "tier_reasons": []
+  }
+}

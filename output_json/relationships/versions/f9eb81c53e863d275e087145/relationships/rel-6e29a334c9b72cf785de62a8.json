@@ -1,0 +1,225 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5425afcd5c3fa87098140f43",
+          "amount_kind": "purchase_price",
+          "conditions": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "representing aggregate merger consideration of approximately $3.7 billion",
+          "payee_company_ids": [
+            "co-chemocentryx-inc"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "approximately",
+          "scope": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+          "value": "3700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-10-20",
+      "conditions": "",
+      "deal_id": "deal-24a48fd7afca54f66cedd2a6",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-24a48fd7afca54f66cedd2a6",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-24a48fd7afca54f66cedd2a6"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-24a48fd7afca54f66cedd2a6"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6e29a334c9b72cf785de62a8"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
+        },
+        "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r95",
+        "rule_version": "39cbadf2f5336b6a5bd8a86bc2381d0954daf791d4a56c30cb90fd2c6484a577",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-24a48fd7afca54f66cedd2a6",
+      "excerpt": "Amgen (NASDAQ: AMGN) today announced that it has successfully completed its previously announced acquisition of ChemoCentryx, Inc.",
+      "locator": "p:3",
+      "normalized_text_hash": "ad12bc21f52dd8a2736e81d4ba815bdf65a0cb1030f561c456b479d6f6686788",
+      "section": "Official company disclosure",
+      "source_id": "source-f4ccdfbfeefb7f23d85386c1",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-24a48fd7afca54f66cedd2a6"
+    ],
+    "description": "AmgenがChemoCentryxを買収し、ANCA関連血管炎治療薬TAVNEOSなどを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-24a48fd7afca54f66cedd2a6"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-24a48fd7afca54f66cedd2a6"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6e29a334c9b72cf785de62a8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2022-10-20",
+    "target_company_id": "co-chemocentryx-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f4ccdfbfeefb7f23d85386c1": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1"
+      },
+      "reason": "Primary-source review of merged research record r95; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r95",
+      "rule_version": "39cbadf2f5336b6a5bd8a86bc2381d0954daf791d4a56c30cb90fd2c6484a577",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.amgen.com/newsroom/press-releases/2022/10/amgen-successfully-completes-acquisition-of-chemocentryx",
+      "content_hash": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-10-20",
+      "publisher": "Amgen",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-f4ccdfbfeefb7f23d85386c1",
+      "source_type": "official_newsroom",
+      "title": "AMGEN SUCCESSFULLY COMPLETES ACQUISITION OF CHEMOCENTRYX| Amgen"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-5425afcd5c3fa87098140f43",
+        "amount_kind": "purchase_price",
+        "conditions": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-24a48fd7afca54f66cedd2a6"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "representing aggregate merger consideration of approximately $3.7 billion",
+        "payee_company_ids": [
+          "co-chemocentryx-inc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "approximately",
+        "scope": "株式1株あたり$52の現金対価による合併対価総額。原文通貨コード不明。",
+        "value": "3700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AmgenがChemoCentryxを買収し、ANCA関連血管炎治療薬TAVNEOSなどを取得。",
+    "direction": "directed",
+    "event_date": "2022-10-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6e29a334c9b72cf785de62a8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2022-10-20",
+    "target_company_id": "co-chemocentryx-inc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

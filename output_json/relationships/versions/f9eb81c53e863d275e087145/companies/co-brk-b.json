@@ -1,0 +1,236 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001067983",
+      "company_id": "co-brk-b",
+      "country": null,
+      "display_name": "BERKSHIRE HATHAWAY INC",
+      "entity_status": "resolved",
+      "legal_name": "BERKSHIRE HATHAWAY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-B",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+          "symbol": "BRK-A",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-oxychem",
+      "country": null,
+      "display_name": "OxyChem",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-taylor-morrison",
+      "country": null,
+      "display_name": "Taylor Morrison Home Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001067983",
+    "company_id": "co-brk-b",
+    "country": null,
+    "display_name": "BERKSHIRE HATHAWAY INC",
+    "entity_status": "resolved",
+    "legal_name": "BERKSHIRE HATHAWAY INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+        "symbol": "BRK-B",
+        "valid_from": null,
+        "valid_to": null
+      },
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001067983.json",
+        "symbol": "BRK-A",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-569d3f8e24580c3958f76110",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_e9c71479-93f8-4785-885a-34163ef0fdf6 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 9.4 billion",
+          "payee_company_ids": [
+            "co-oxy"
+          ],
+          "payer_company_ids": [
+            "co-brk-b"
+          ],
+          "qualifier": "approximately",
+          "scope": "OxyChem事業取得の現金対価。取得後調整を含む。受領者は売主で、対象事業への出資金ではない。",
+          "value": "9400000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-caf68e172092fd2d4aa54505"
+        ],
+        "geography": "",
+        "headline": "OxyChem化学品事業の取得完了",
+        "products": [
+          "基礎化学品事業"
+        ],
+        "scale": "",
+        "source_role": "事業取得者",
+        "target_role": "取得対象の化学品事業"
+      },
+      "description": "BerkshireがOccidentalの化学品事業OxyChemを2026年1月2日に取得。現金対価は取得後調整を含む約94億米ドル。Occidental全社の買収ではなく、従前の環境負債はOccidentalに残る。",
+      "direction": "directed",
+      "event_date": "2026-08-10",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-904040c303f1daf93003c990",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-brk-b",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-oxychem",
+      "tier": {
+        "amount_id": "amount-569d3f8e24580c3958f76110",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-3317a620753573af4a266127",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_35309f9c-844b-400c-a443-90cc4225d5e9 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-ab87d569c6dfb02dbe5274d9"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 6.8 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-brk-b"
+          ],
+          "qualifier": "approximately",
+          "scope": "全普通株取得の現金対価総額。買収対象企業の株主への支払であり、対象企業への払込ではない。",
+          "value": "6800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-ab87d569c6dfb02dbe5274d9"
+        ],
+        "geography": "",
+        "headline": "住宅建設会社Taylor Morrisonの買収完了",
+        "products": [
+          "住宅開発・建設事業"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "BerkshireがTaylor Morrisonの全普通株取得を2026年7月24日に完了。現金対価総額は約68億米ドル。1株当たり価格や企業価値を重ねて加算しない。",
+      "direction": "directed",
+      "event_date": "2026-08-10",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:27+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-ddf8bf47de5ba37f9e7c0c8b",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-brk-b",
+      "status_as_of": "2026-07-24",
+      "target_company_id": "co-taylor-morrison",
+      "tier": {
+        "amount_id": "amount-3317a620753573af4a266127",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-06-30",
+    "2026-07-24"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

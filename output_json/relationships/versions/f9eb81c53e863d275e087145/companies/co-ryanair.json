@@ -1,0 +1,79 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-boeing",
+      "country": null,
+      "display_name": "Boeing",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ryanair",
+      "country": null,
+      "display_name": "Ryanair",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ryanair",
+    "country": null,
+    "display_name": "Ryanair",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "BoeingとRyanairは737-10を最大300機購入する契約を発表し、確定150機とオプション150機で構成した。",
+      "direction": "directed",
+      "event_date": "2023-05-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-af80fad8b38e828b72c66b74",
+      "relationship_type": "supplier",
+      "source_company_id": "co-boeing",
+      "status_as_of": "2023-05-09",
+      "target_company_id": "co-ryanair",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-05-09"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

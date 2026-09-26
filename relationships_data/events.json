@@ -40163,5 +40163,1418 @@
       "rule_version": "f2d198e9f71c64ae141000dbd619aa5cfa724821784c2c96e82804750fe3e723",
       "verified_at": "2026-09-26T14:26:46+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2026-01-15",
+    "conditions": "地域別の既存ライセンス終了に応じて段階展開。",
+    "deal_id": "deal-7c7adfa45408d7b0e7ed2bcf",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-7c7adfa45408d7b0e7ed2bcf",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-7c7adfa45408d7b0e7ed2bcf"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-4f221fd5b39d8e4295f4eced"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-be7dbd6f8ef4d6bbc70e9cb7": "e6d9afdcda842f7814dceb62c4713182bc50de6aa8fcabbf5f986fda1f8f66f4"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-sony",
+      "rule_version": "895c24a54a9a0a67a07b9ed342bca1ce68330bd50fe6a173cec11e52c0a07fe0",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-01-23",
+    "conditions": "他番組・地域の権利は利用可能となる範囲。",
+    "deal_id": "deal-48ea6ee7f30896dd8f8b5b22",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-48ea6ee7f30896dd8f8b5b22",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-48ea6ee7f30896dd8f8b5b22",
+      "evidence-594fe72450aa1a2b061b42f8"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-48ea6ee7f30896dd8f8b5b22",
+          "evidence-594fe72450aa1a2b061b42f8"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-ed5ba08383370100dec2a0e7"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-50ddac504d30020e75938565": "2a16ae42e9e7be71a522dfc172ad36554a2e77201bf7464ac7eff556a2997521"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-wwe",
+      "rule_version": "918015ea9a80b0d2e58422c2063770e9e015770330e038115922729738d2ee8d",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-07-13",
+    "conditions": "",
+    "deal_id": "deal-19ff5b95eacf40f17dad84c1",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-19ff5b95eacf40f17dad84c1",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-19ff5b95eacf40f17dad84c1",
+      "evidence-15ed78f74d9add30ffe212c0"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bfda5a99d83ecf25669cbefc"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e4350f6c0007df7dc249f8ba": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-msft",
+      "rule_version": "b7dec85da8ae9cda6c5ea505f41e5a68cbc0d8f680625ec5e8bf9c7c79aff4d8",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-06-07",
+    "conditions": "",
+    "deal_id": "deal-c9d72cde7c7dfdd2c41e5b18",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-c9d72cde7c7dfdd2c41e5b18",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-26b5352a76386dc865cf2155"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-aacf651e97f209530b922922": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-panasonic",
+      "rule_version": "e0c010cc86aa72bf8582be2dba6be0fff8e98380265280d7b34ef7c132dd8f0a",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-12-16",
+    "conditions": "",
+    "deal_id": "deal-750fa9027e520c472efc1233",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-750fa9027e520c472efc1233",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-750fa9027e520c472efc1233",
+      "evidence-a24af75247d8f9f332df4459",
+      "evidence-ae5e409b501dd2b9d32188cc"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-ff599da661651ecd7e43fa0f"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2ee01be7c841544d44d9ced5": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-accenture",
+      "rule_version": "78f668d50fc0811b76d9316e1e9ad593a91be4bd6fb86b97c9b631b54bd1a845",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2026-01-21",
+    "conditions": "",
+    "deal_id": "deal-9711e6d6f7ee524748653d18",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-9711e6d6f7ee524748653d18",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-9711e6d6f7ee524748653d18",
+      "evidence-64b953595985a5aa4e67543f",
+      "evidence-acd51127e1fd0554ec74b815"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-8cc6e4312d83af08b0b39611"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f02c0d35abc4f5b680305654": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-sovereign",
+      "rule_version": "6a375850b07265a2b8f0f86215f98b7a9ae2c42a17ef726b1cdb295c49ffbe4f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-03-27",
+    "conditions": "",
+    "deal_id": "deal-c284b1ad356d5b80f43d2cf1",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-c284b1ad356d5b80f43d2cf1",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-c284b1ad356d5b80f43d2cf1"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-1a28cde258751e065731477b"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-34d19c5000e21f3a4c7c721d": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-msft",
+      "rule_version": "900176d3eef73620058c4ed4d7cd53733c78de601fef9cf1394e3d5e89d595cb",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-01-30",
+    "conditions": "",
+    "deal_id": "deal-bc1323a2159758dcb3d7afd2",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-bc1323a2159758dcb3d7afd2",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-bc1323a2159758dcb3d7afd2",
+      "evidence-7f5284303361b0d116a2df94"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-a51950fcf48ba60caacb000c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-67a2bf602577bf75208bfc82": "c3177bce6f57bacc535c8c9e2e9413396e438e818cbcdcddedbfdfb207b0aadc"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-samsung",
+      "rule_version": "1c6ccf31c9e66e070fc23922f69f9aa084ebc93e2fda01f5122b2bb7bfe4a81d",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-11-19",
+    "conditions": "合弁設立・将来の事業開始と展開計画。個社別の投資額・購入額は記載なし。",
+    "deal_id": "deal-0633fe2096c35540c26d5e37",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-0633fe2096c35540c26d5e37",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-0633fe2096c35540c26d5e37",
+      "evidence-c637a51b5fe0e48e701e7d55",
+      "evidence-5d8c610ba3673eb7b0e5c546"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-ed5dab3bf425194454424137"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-amd",
+      "rule_version": "a3d6ea57baa6f05c57fef738f9897e6f31c50e0a56ae468a46911d3bc2644e87",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-11-19",
+    "conditions": "合弁設立・将来の事業開始と展開計画。個社別の投資額・購入額は記載なし。",
+    "deal_id": "deal-e072b0ca840594b6099ef13a",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-e072b0ca840594b6099ef13a",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-e072b0ca840594b6099ef13a",
+      "evidence-6d6f63212131f7bb534b27cd",
+      "evidence-d3e9b37aa3a18f1e3ddaba75"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-77297d28f404b41d4407efaf"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-humain",
+      "rule_version": "17c55e2ea8bc73650c3a468f375a781a1f327808239f5299b02980b3ef0cdfff",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-6595ddd2ec91c4721598100a",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-6595ddd2ec91c4721598100a",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-6595ddd2ec91c4721598100a",
+      "evidence-063458c215fa39cad916eb6a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-12-20",
+    "relationship_ids": [
+      "rel-668c3757f1fe4e2e2651e365"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-tsmc",
+      "rule_version": "22887eb2fe2fde40eaeb68e433b2dacb48ba8eb0e0c47cb29401895c589da2db",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-368700d772062daf71aa62e3",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-368700d772062daf71aa62e3",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-368700d772062daf71aa62e3",
+      "evidence-a5839ab085bd2dfa9460e563"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-12-20",
+    "relationship_ids": [
+      "rel-09fe3d64df0a89c5aed36d13"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-amkor",
+      "rule_version": "39ae41d3a7899c30ff68a09c4a111fa82278c3b62f56b9f5f3234f81d2fd861d",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-25562e6664ced23f96aa9555",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-25562e6664ced23f96aa9555",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-25562e6664ced23f96aa9555",
+      "evidence-e1bdb4de8b4883f0cef40841"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-12-20",
+    "relationship_ids": [
+      "rel-89e323e26e5b0b508ed85229"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-ase",
+      "rule_version": "d5799b0945cf4a0661a1d1ddf5e680d50e4301da2dc7cf97fe1abe9b780d932f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-7ede6cf87cdfb20ae83a3423",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-7ede6cf87cdfb20ae83a3423",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-7ede6cf87cdfb20ae83a3423",
+      "evidence-7fa9fd3a57bfa3ff30df4aa3"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-12-20",
+    "relationship_ids": [
+      "rel-4d60feaca70e1d8e740ca847"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-foxconn",
+      "rule_version": "aac743616a3ae88dd664b4b41d5a7b690b6cea42eeb646149d639d22d4c91183",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-8ca19fc3b88e4d9ac12ccda4",
+    "detected_at": "2026-09-26T15:07:58+00:00",
+    "effective_date": null,
+    "event_id": "event-8ca19fc3b88e4d9ac12ccda4",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-8ca19fc3b88e4d9ac12ccda4",
+      "evidence-c1947bd7bbcdab5d49eeb3e7"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-12-20",
+    "relationship_ids": [
+      "rel-89f149adac793294bb2ce7b0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-siliconware",
+      "rule_version": "7116ca869df7ba6694ff1de059ea067ae1cfacdb653dabe6c85c06822e2c172f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-e21334949f4812d6280bdcdb",
+        "amount_kind": "contract_value",
+        "conditions": "Netflixに初期5年後の離脱権あり。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "max_value": null,
+        "min_value": "5000000000",
+        "original_text": "in excess of $5 billion",
+        "payee_company_ids": [
+          "co-tko"
+        ],
+        "payer_company_ids": [
+          "co-nflx"
+        ],
+        "qualifier": "more_than",
+        "scope": "初期10年間の総権利料。追加10年延長分は含めない。",
+        "value": null,
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "Netflixは初期5年後に離脱可能。追加10年の延長は選択権。追加地域・番組は権利が利用可能となる範囲。",
+    "deal_id": "deal-48ea6ee7f30896dd8f8b5b22",
+    "detected_at": "2026-09-26T15:11:47+00:00",
+    "effective_date": null,
+    "event_id": "event-982d70518c020246967db188",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-45aafc16a29dac9d2cfb67f1",
+      "evidence-7d43381af2342124a1b6bbe2"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2024-01-23",
+    "relationship_ids": [
+      "rel-ed5ba08383370100dec2a0e7"
+    ],
+    "supersedes_event_id": "event-48ea6ee7f30896dd8f8b5b22",
+    "term": {
+      "duration_unit": "year",
+      "duration_value": 10,
+      "end_date": null,
+      "evidence_ids": [
+        "evidence-45aafc16a29dac9d2cfb67f1",
+        "evidence-7d43381af2342124a1b6bbe2"
+      ],
+      "renewal": "Netflixが追加10年延長を選択可能",
+      "start_basis": "番組配信は2025年1月開始予定。正確な契約開始日は本資料に記載なし。",
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-06f6adca67247d2cb2a6144c": "adb442452294f8b4c5101aea4be1e4c7953c53e9f58e4c547efb552105276fe7"
+      },
+      "reason": "SEC 8-K cross-check of the WWE release: lower-bound fee for initial ten years, five-year opt-out and additional ten-year option. Dollar symbol is retained without inferring USD; contractual opt-out prevents unconditional-total tier classification. Original relationship and event preserved.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-wwe-sec",
+      "rule_version": "ebc678ada03c71e04792b6ce09b019bde80b718562c3f255ab0a5334eccc9166",
+      "verified_at": "2026-09-26T15:11:47+00:00"
+    }
   }
 ]

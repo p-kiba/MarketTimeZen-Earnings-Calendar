@@ -1,0 +1,221 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-06-12",
+      "conditions": "",
+      "deal_id": "deal-ee85db5bc805656d1bbb86ae",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-ee85db5bc805656d1bbb86ae",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ee85db5bc805656d1bbb86ae",
+        "evidence-a5ad4a6711829db02f00f748"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ee85db5bc805656d1bbb86ae",
+            "evidence-a5ad4a6711829db02f00f748"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-8b214788326480d747629f53"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-ee012bbdda9ec95b37ff6810": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-ee012bbdda9ec95b37ff6810",
+        "rule_version": "af68924f9f4247538b97be9f1287dea583ab11afe578228ae8137c8f2830eb10",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-a5ad4a6711829db02f00f748",
+      "excerpt": "joint engineering",
+      "locator": "p:8",
+      "normalized_text_hash": "843473a9c6d3a9138fba71797f942c8f8ec06005201d16cd98dfdf045a05935c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-ee012bbdda9ec95b37ff6810",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ee85db5bc805656d1bbb86ae",
+      "excerpt": "HBM3E",
+      "locator": "p:6",
+      "normalized_text_hash": "f7d916fa1b40ff70bbfa6e5d5a8a7c25be9e066a7f9cb12d84b8d89618185ed1",
+      "section": "Official disclosure: business context",
+      "source_id": "source-ee012bbdda9ec95b37ff6810",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ee85db5bc805656d1bbb86ae",
+        "evidence-a5ad4a6711829db02f00f748"
+      ],
+      "geography": "",
+      "headline": "Instinct MI350向けHBM3Eの採用",
+      "products": [
+        "HBM3E 36GB 12-high",
+        "AMD Instinct MI350"
+      ],
+      "scale": "",
+      "source_role": "HBMメモリー",
+      "target_role": "GPUプラットフォーム"
+    },
+    "deal_ids": [
+      "deal-ee85db5bc805656d1bbb86ae"
+    ],
+    "description": "Micronの36GB・12段HBM3EがAMD Instinct MI350シリーズに設計採用。両社の共同エンジニアリングで適合性を高めた。発表時点で今後提供予定のGPU向けであり、納入数量・契約金額は非掲載。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ee85db5bc805656d1bbb86ae",
+      "evidence-a5ad4a6711829db02f00f748"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-ee85db5bc805656d1bbb86ae"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-8b214788326480d747629f53",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-06-12",
+    "target_company_id": "co-amd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ee012bbdda9ec95b37ff6810": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-ee012bbdda9ec95b37ff6810",
+      "rule_version": "af68924f9f4247538b97be9f1287dea583ab11afe578228ae8137c8f2830eb10",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx",
+      "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-06-12",
+      "publisher": "investors.micron.com",
+      "retrieved_at": "2026-09-26T06:12:25+00:00",
+      "source_id": "source-ee012bbdda9ec95b37ff6810",
+      "source_type": "official_newsroom",
+      "title": "Micron Technology, Inc. - Micron HBM Designed into Leading AMD AI Platform"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ee85db5bc805656d1bbb86ae",
+        "evidence-a5ad4a6711829db02f00f748"
+      ],
+      "geography": "",
+      "headline": "Instinct MI350向けHBM3Eの採用",
+      "products": [
+        "HBM3E 36GB 12-high",
+        "AMD Instinct MI350"
+      ],
+      "scale": "",
+      "source_role": "HBMメモリー",
+      "target_role": "GPUプラットフォーム"
+    },
+    "description": "Micronの36GB・12段HBM3EがAMD Instinct MI350シリーズに設計採用。両社の共同エンジニアリングで適合性を高めた。発表時点で今後提供予定のGPU向けであり、納入数量・契約金額は非掲載。",
+    "direction": "directed",
+    "event_date": "2025-06-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-8b214788326480d747629f53",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-06-12",
+    "target_company_id": "co-amd",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-fc0cb1d4e5285d6f1a90afd6",
+          "amount_kind": "purchase_price",
+          "conditions": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 458.6 million",
+          "payee_company_ids": [
+            "co-talon-cyber-security-ltd"
+          ],
+          "payer_company_ids": [
+            "co-palo-alto-networks-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+          "value": "458600000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-12-28",
+      "conditions": "",
+      "deal_id": "deal-b841f352570a0a5d077cff6c",
+      "detected_at": "2026-09-26T12:59:55+00:00",
+      "effective_date": null,
+      "event_id": "event-b841f352570a0a5d077cff6c",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-b841f352570a0a5d077cff6c",
+        "evidence-a0c8b7e46a320e5f2c234b4c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ad5f7ebbe6c9af85db9f00a0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-7a0505432b602b3c6171e7a3": "0e872ebeca40589278bfa9f8f9bef6542e2e93e18b60d4c08149327a3fd779e4",
+          "source-a5af3ce49d92db848b5f9c1c": "f28d391c2b428bc1162f00fac063a13483bf220b7c64faf9ae4ab7b69706f2b0"
+        },
+        "reason": "Primary-source review of merged research record r32; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r32",
+        "rule_version": "f74b94f1ece9a6f1b4f42066d6bc8b00f68785221e45c2c02bbda1271945d1e2",
+        "verified_at": "2026-09-26T12:59:55+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-a0c8b7e46a320e5f2c234b4c",
+      "excerpt": "$ 458.6 million",
+      "locator": "sec-div:320",
+      "normalized_text_hash": "5f16c5e4d48749ae14b685ad04e1d48c112e78492a62f66f534b22cb1cca0c1c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-a5af3ce49d92db848b5f9c1c",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b841f352570a0a5d077cff6c",
+      "excerpt": "Palo Alto Networks (NASDAQ: PANW), the global cybersecurity leader, today announced that it has completed the acquisition of Talon Cyber Security",
+      "locator": "p:3",
+      "normalized_text_hash": "1432edbe7aa95076e51e929de805b5e0e27116a3254689cc2609ee36878c3526",
+      "section": "Official issuer disclosure",
+      "source_id": "source-7a0505432b602b3c6171e7a3",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-b841f352570a0a5d077cff6c"
+    ],
+    "description": "Palo Alto NetworksがTalon Cyber Securityの買収を完了し、enterprise browser技術を取得。個人端末・非管理端末から企業アプリへ安全にアクセスする機能をPrisma SASEへ加える。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b841f352570a0a5d077cff6c",
+      "evidence-a0c8b7e46a320e5f2c234b4c"
+    ],
+    "first_observed_at": "2026-09-26T12:59:55+00:00",
+    "last_observed_at": "2026-09-26T12:59:55+00:00",
+    "latest_event_ids": [
+      "event-b841f352570a0a5d077cff6c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ad5f7ebbe6c9af85db9f00a0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-palo-alto-networks-inc",
+    "status_as_of": "2023-12-28",
+    "target_company_id": "co-talon-cyber-security-ltd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7a0505432b602b3c6171e7a3": "0e872ebeca40589278bfa9f8f9bef6542e2e93e18b60d4c08149327a3fd779e4",
+        "source-a5af3ce49d92db848b5f9c1c": "f28d391c2b428bc1162f00fac063a13483bf220b7c64faf9ae4ab7b69706f2b0"
+      },
+      "reason": "Primary-source review of merged research record r32; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r32",
+      "rule_version": "f74b94f1ece9a6f1b4f42066d6bc8b00f68785221e45c2c02bbda1271945d1e2",
+      "verified_at": "2026-09-26T12:59:55+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.paloaltonetworks.com/company/press/2023/palo-alto-networks--closes-talon-cyber-security-acquisition-and-will-offer-complimentary-enterprise-browser-to-qualified-sase-ai-customers",
+      "content_hash": "0e872ebeca40589278bfa9f8f9bef6542e2e93e18b60d4c08149327a3fd779e4",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-12-28",
+      "publisher": "Palo Alto Networks",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-7a0505432b602b3c6171e7a3",
+      "source_type": "official_newsroom",
+      "title": "Palo Alto Networks® Closes Talon Cyber Security Acquisition and Will Offer Complimentary Enterprise Browser to Qualified SASE AI Customers - Palo Alto Networks"
+    },
+    {
+      "accession_number": "0001327567-24-000017",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000017/panw-20240430.htm",
+      "content_hash": "f28d391c2b428bc1162f00fac063a13483bf220b7c64faf9ae4ab7b69706f2b0",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": "0001327567",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-a5af3ce49d92db848b5f9c1c",
+      "source_type": "sec_filing",
+      "title": "panw-20240430"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-fc0cb1d4e5285d6f1a90afd6",
+        "amount_kind": "purchase_price",
+        "conditions": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 458.6 million",
+        "payee_company_ids": [
+          "co-talon-cyber-security-ltd"
+        ],
+        "payer_company_ids": [
+          "co-palo-alto-networks-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+        "value": "458600000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Palo Alto NetworksがTalon Cyber Securityの買収を完了し、enterprise browser技術を取得。個人端末・非管理端末から企業アプリへ安全にアクセスする機能をPrisma SASEへ加える。",
+    "direction": "directed",
+    "event_date": "2023-12-28",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:59:55+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ad5f7ebbe6c9af85db9f00a0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-palo-alto-networks-inc",
+    "status_as_of": "2023-12-28",
+    "target_company_id": "co-talon-cyber-security-ltd",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

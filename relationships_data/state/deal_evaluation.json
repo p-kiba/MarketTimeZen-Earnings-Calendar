@@ -1160,5 +1160,117 @@
     "human_reviewed": false,
     "rule_id": "research-batch-08-r20",
     "source_id": "source-8d5717f2015bc8969c669e87"
+  },
+  {
+    "assertions_hash": "895c24a54a9a0a67a07b9ed342bca1ce68330bd50fe6a173cec11e52c0a07fe0",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-netflix-sony",
+    "source_id": "source-be7dbd6f8ef4d6bbc70e9cb7"
+  },
+  {
+    "assertions_hash": "918015ea9a80b0d2e58422c2063770e9e015770330e038115922729738d2ee8d",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-netflix-wwe",
+    "source_id": "source-50ddac504d30020e75938565"
+  },
+  {
+    "assertions_hash": "b7dec85da8ae9cda6c5ea505f41e5a68cbc0d8f680625ec5e8bf9c7c79aff4d8",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-netflix-msft",
+    "source_id": "source-e4350f6c0007df7dc249f8ba"
+  },
+  {
+    "assertions_hash": "e0c010cc86aa72bf8582be2dba6be0fff8e98380265280d7b34ef7c132dd8f0a",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-palantir-panasonic",
+    "source_id": "source-aacf651e97f209530b922922"
+  },
+  {
+    "assertions_hash": "78f668d50fc0811b76d9316e1e9ad593a91be4bd6fb86b97c9b631b54bd1a845",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-palantir-accenture",
+    "source_id": "source-2ee01be7c841544d44d9ced5"
+  },
+  {
+    "assertions_hash": "6a375850b07265a2b8f0f86215f98b7a9ae2c42a17ef726b1cdb295c49ffbe4f",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-palantir-sovereign",
+    "source_id": "source-f02c0d35abc4f5b680305654"
+  },
+  {
+    "assertions_hash": "900176d3eef73620058c4ed4d7cd53733c78de601fef9cf1394e3d5e89d595cb",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-cisco-msft",
+    "source_id": "source-34d19c5000e21f3a4c7c721d"
+  },
+  {
+    "assertions_hash": "1c6ccf31c9e66e070fc23922f69f9aa084ebc93e2fda01f5122b2bb7bfe4a81d",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-cisco-samsung",
+    "source_id": "source-67a2bf602577bf75208bfc82"
+  },
+  {
+    "assertions_hash": "a3d6ea57baa6f05c57fef738f9897e6f31c50e0a56ae468a46911d3bc2644e87",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-cisco-amd",
+    "source_id": "source-d3bab3b4fe0c0a4238d65460"
+  },
+  {
+    "assertions_hash": "17c55e2ea8bc73650c3a468f375a781a1f327808239f5299b02980b3ef0cdfff",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-cisco-humain",
+    "source_id": "source-d3bab3b4fe0c0a4238d65460"
+  },
+  {
+    "assertions_hash": "22887eb2fe2fde40eaeb68e433b2dacb48ba8eb0e0c47cb29401895c589da2db",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-avgo-co-tsmc",
+    "source_id": "source-82597d4f3c8c5e4601988602"
+  },
+  {
+    "assertions_hash": "39ae41d3a7899c30ff68a09c4a111fa82278c3b62f56b9f5f3234f81d2fd861d",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-avgo-co-amkor",
+    "source_id": "source-82597d4f3c8c5e4601988602"
+  },
+  {
+    "assertions_hash": "d5799b0945cf4a0661a1d1ddf5e680d50e4301da2dc7cf97fe1abe9b780d932f",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-avgo-co-ase",
+    "source_id": "source-82597d4f3c8c5e4601988602"
+  },
+  {
+    "assertions_hash": "aac743616a3ae88dd664b4b41d5a7b690b6cea42eeb646149d639d22d4c91183",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-avgo-co-foxconn",
+    "source_id": "source-82597d4f3c8c5e4601988602"
+  },
+  {
+    "assertions_hash": "7116ca869df7ba6694ff1de059ea067ae1cfacdb653dabe6c85c06822e2c172f",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-avgo-co-siliconware",
+    "source_id": "source-82597d4f3c8c5e4601988602"
+  },
+  {
+    "assertions_hash": "ebc678ada03c71e04792b6ce09b019bde80b718562c3f255ab0a5334eccc9166",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-20260927-netflix-wwe-sec",
+    "source_id": "source-06f6adca67247d2cb2a6144c"
   }
 ]

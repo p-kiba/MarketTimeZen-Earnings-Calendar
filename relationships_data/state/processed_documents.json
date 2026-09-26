@@ -266,6 +266,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028728/form424b2.htm"
     },
+    "source-06f6adca67247d2cb2a6144c": {
+      "content_hash": "adb442452294f8b4c5101aea4be1e4c7953c53e9f58e4c547efb552105276fe7",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:08:44+00:00",
+      "meta": {
+        "accession_number": "0001193125-24-012600",
+        "filed_date": "2024-01-23",
+        "filing_cik": "0001973266",
+        "form": "8-K",
+        "publisher": "TKO Group Holdings",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973266/000119312524012600/d715345d8k.htm"
+    },
     "source-07005696f133dfff78637a37": {
       "meta": {
         "publisher": "co-msft",
@@ -1896,6 +1912,18 @@
       "status": "discovered",
       "url": "https://group.softbank/en/news/press/20260902"
     },
+    "source-2ee01be7c841544d44d9ced5": {
+      "content_hash": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:03:14+00:00",
+      "meta": {
+        "publisher": "newsroom.accenture.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.accenture.com/news/2025/accenture-and-palantir-expand-global-strategic-partnership-to-drive-ai-reinvention"
+    },
     "source-2f0c08f8a56bb8423ac89fd5": {
       "meta": {
         "accession_number": "0001213900-26-102188",
@@ -2181,6 +2209,18 @@
       "status": "discovered",
       "url": "https://group.softbank/en/news/press/20260401"
     },
+    "source-34d19c5000e21f3a4c7c721d": {
+      "content_hash": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:31+00:00",
+      "meta": {
+        "publisher": "newsroom.cisco.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2023/m03/cisco-and-microsoft-advance-interoperability-with-microsoft-teams-certifications-for-cisco-board-pro-and-webex-contact-center.html"
+    },
     "source-35153d51df6f7aff06e1b439": {
       "content_hash": "c5c5ce6791e12c7a471e9ecaa57e9c9f016f29d5ddf67814bcd401480f588677",
       "error": null,
@@ -2269,6 +2309,16 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028641/form424b2.htm"
+    },
+    "source-378aedb7868817c9418308fd": {
+      "error": "Empty or blocked document",
+      "last_checked_at": "2026-09-26T15:00:10+00:00",
+      "meta": {
+        "publisher": "about.netflix.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://about.netflix.com/en/news/netflix-and-sony-pictures-entertainment-enter-new-global-pay-1-deal"
     },
     "source-37c0d10fd7a6a3ede466358b": {
       "meta": {
@@ -3361,6 +3411,18 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
     },
+    "source-50ddac504d30020e75938565": {
+      "content_hash": "2a16ae42e9e7be71a522dfc172ad36554a2e77201bf7464ac7eff556a2997521",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:17+00:00",
+      "meta": {
+        "publisher": "corporate.wwe.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.wwe.com/about/news/2024/01-23-2024"
+    },
     "source-5101e4a01b97328d63a6daae": {
       "attachments_discovered": true,
       "content_hash": "e58660f7c61b5c193d0cef7004c6b80feb956bfeb49b6db3aa9ab859ee5adb72",
@@ -4333,6 +4395,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028379/form424b2.htm"
     },
+    "source-67a2bf602577bf75208bfc82": {
+      "content_hash": "c3177bce6f57bacc535c8c9e2e9413396e438e818cbcdcddedbfdfb207b0aadc",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:39+00:00",
+      "meta": {
+        "publisher": "newsroom.cisco.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2023/m01/cisco-microsoft-and-samsung-partner-to-deliver-superior-meeting-room-experiences.html"
+    },
     "source-67baea77974d38082c68a513": {
       "meta": {
         "accession_number": "0001918704-26-028313",
@@ -4575,6 +4649,16 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102054/ea0306239-01_424b3.htm"
+    },
+    "source-70f5acf7d1d233f64878be24": {
+      "error": "Host is not configured as an official source",
+      "last_checked_at": "2026-09-26T15:03:38+00:00",
+      "meta": {
+        "publisher": "investors.palantir.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://investors.palantir.com/news-details/2024/Palantir-and-Rio-Tinto-Renew-Enterprise-Contract-and-Extend-Access-to-Palantirs-AI-Platform/default.aspx"
     },
     "source-7125f14669d91bdda6964081": {
       "meta": {
@@ -7215,6 +7299,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028701/form424b2.htm"
     },
+    "source-aacf651e97f209530b922922": {
+      "content_hash": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:29+00:00",
+      "meta": {
+        "publisher": "na.panasonic.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://na.panasonic.com/news/palantir-and-panasonic-energy-of-north-america-sign-multi-year-agreement"
+    },
     "source-aae1d8baa6f2d4db4bed2cbb": {
       "meta": {
         "accession_number": "0001918704-26-028323",
@@ -7518,6 +7614,16 @@
       },
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-achieves-1-ranking-for-inference-speed-and-price-performance-for-moonshot-ais-kimi-k2-6-model-in-independent-benchmark"
+    },
+    "source-b2db21ede817dc6da5c6208a": {
+      "error": "Empty or blocked document",
+      "last_checked_at": "2026-09-26T15:00:26+00:00",
+      "meta": {
+        "publisher": "palantir2020ipo.q4web.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://palantir2020ipo.q4web.com/news-details/2024/Palantir-and-Rio-Tinto-Renew-Enterprise-Contract-and-Extend-Access-to-Palantirs-AI-Platform/default.aspx"
     },
     "source-b3045b7e8bfc933ac7795f06": {
       "meta": {
@@ -7980,6 +8086,18 @@
       },
       "status": "downloaded",
       "url": "https://investors.boeing.com/investors/news/press-release-details/2022/Boeing-United-Airlines-Finalize-737-MAX-and-787-Order-Including-Record-Purchase-for-100-Dreamliners/default.aspx"
+    },
+    "source-be7dbd6f8ef4d6bbc70e9cb7": {
+      "content_hash": "e6d9afdcda842f7814dceb62c4713182bc50de6aa8fcabbf5f986fda1f8f66f4",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:03:12+00:00",
+      "meta": {
+        "publisher": "www.sonypictures.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.sonypictures.com/corp/press_releases/2026/0115"
     },
     "source-be7ebbf4d82945891286ffdb": {
       "meta": {
@@ -8635,6 +8753,16 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028228/form424b2.htm"
     },
+    "source-d04a45fa79fcdba7055d2f9e": {
+      "error": "Empty or blocked document",
+      "last_checked_at": "2026-09-26T15:00:14+00:00",
+      "meta": {
+        "publisher": "about.netflix.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://about.netflix.com/en/news/netflix-and-universal-filmed-entertainment-group-expand-u-s-licensing-deal"
+    },
     "source-d04b0b55aff46c5355cf1eee": {
       "meta": {
         "accession_number": "0001918704-26-028797",
@@ -8710,6 +8838,18 @@
       },
       "status": "discovered",
       "url": "https://www.ibm.com/investor/news/ibm-completes-separation-of-kyndryl"
+    },
+    "source-d3bab3b4fe0c0a4238d65460": {
+      "content_hash": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:35+00:00",
+      "meta": {
+        "publisher": "newsroom.cisco.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m11/amd-cisco-and-humain-to-form-joint-venture-to-deliver-world-leading-ai-infrastructure.html"
     },
     "source-d4104c45c70ae1f9a86206a2": {
       "meta": {
@@ -9046,6 +9186,16 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000183988226046653/jpm7707_424b2-31677.htm"
     },
+    "source-dbb55670aa1fdb7dbd38d970": {
+      "error": "Empty or blocked document",
+      "last_checked_at": "2026-09-26T15:00:22+00:00",
+      "meta": {
+        "publisher": "palantir2020ipo.q4web.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://palantir2020ipo.q4web.com/news-details/2024/Palantir-and-bp-Agree-to-5-Year-Strategic-Relationship-With-New-AI-Capabilities/default.aspx"
+    },
     "source-dbedfd0aa15778eb836a9f1e": {
       "meta": {
         "accession_number": "0001918704-26-028760",
@@ -9097,6 +9247,16 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026101790/ea0306101-01_424b2.htm"
+    },
+    "source-dcad4c3cde9281b0fbf8f06f": {
+      "error": "Host is not configured as an official source",
+      "last_checked_at": "2026-09-26T15:03:34+00:00",
+      "meta": {
+        "publisher": "investors.palantir.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "retryable_error",
+      "url": "https://investors.palantir.com/news-details/2024/Palantir-and-bp-Agree-to-5-Year-Strategic-Relationship-With-New-AI-Capabilities/default.aspx"
     },
     "source-dcb7b306dffaedb5223f8dc1": {
       "content_hash": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972",
@@ -9473,6 +9633,18 @@
       },
       "status": "candidate_created",
       "url": "https://www.aboutamazon.com/news/aws/bedrock-openai-models"
+    },
+    "source-e4350f6c0007df7dc249f8ba": {
+      "content_hash": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:00:19+00:00",
+      "meta": {
+        "publisher": "blogs.microsoft.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://blogs.microsoft.com/blog/2022/07/13/netflix-names-microsoft-as-partner-for-new-consumer-subscription-plan/"
     },
     "source-e48782686d98ca747fc88816": {
       "meta": {
@@ -10070,6 +10242,18 @@
       },
       "status": "candidate_created",
       "url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b"
+    },
+    "source-f02c0d35abc4f5b680305654": {
+      "content_hash": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:03:18+00:00",
+      "meta": {
+        "publisher": "newsroom.accenture.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.accenture.com/news/2026/sovereign-ai-selects-accenture-and-palantir-to-help-build-next-generation-ai-infrastructure-across-emea"
     },
     "source-f1b2612779f01453e426eb4b": {
       "content_hash": "5cab65a7cba3d7f81dba0c6ac16687a13157678f9b78d4cc5ec64d44a698d5ad",

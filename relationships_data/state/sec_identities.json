@@ -116,7 +116,7 @@
       "entity_status": "resolved",
       "legal_name": "Broadcom Inc.",
       "listing_status": "listed",
-      "listing_status_as_of": "2026-09-26",
+      "listing_status_as_of": "2026-09-27",
       "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
       "listings": [
         {
@@ -133,12 +133,17 @@
           "as_of": "2026-09-26",
           "source_url": "https://stockanalysis.com/list/biggest-companies/",
           "universe": "large_cap_focus"
+        },
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
         }
       ]
     },
-    "source_hash": "1fae3fa390ecb3426397b77755f8220c54d2360d27ce7f1c0cceb15078f5c236",
+    "source_hash": "57b5829cb3d3156e3d76d75b4810d76ee3a67e162168e9e9750514050617c4e9",
     "url": "https://data.sec.gov/submissions/CIK0001730168.json",
-    "verified_at": "2026-09-26T04:44:26+00:00"
+    "verified_at": "2026-09-26T15:02:17+00:00"
   },
   "co-brk-b": {
     "company": {
@@ -214,6 +219,40 @@
     "source_hash": "4adb0612389f9106dba1b6d9f9ffe1f0a538e4b1fd04dff75c42a26d8f994a71",
     "url": "https://data.sec.gov/submissions/CIK0000909832.json",
     "verified_at": "2026-09-26T04:44:30+00:00"
+  },
+  "co-csco": {
+    "company": {
+      "aliases": [],
+      "cik": "0000858877",
+      "company_id": "co-csco",
+      "country": null,
+      "display_name": "Cisco",
+      "entity_status": "resolved",
+      "legal_name": "CISCO SYSTEMS, INC.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+          "symbol": "CSCO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "cee5b1e25091729c6eb3a139ad62995a57c00d85daa7ae633de91ced6991152d",
+    "url": "https://data.sec.gov/submissions/CIK0000858877.json",
+    "verified_at": "2026-09-26T15:02:17+00:00"
   },
   "co-googl": {
     "company": {
@@ -501,6 +540,40 @@
     "url": "https://data.sec.gov/submissions/CIK0000723125.json",
     "verified_at": "2026-09-26T04:44:27+00:00"
   },
+  "co-nflx": {
+    "company": {
+      "aliases": [],
+      "cik": "0001065280",
+      "company_id": "co-nflx",
+      "country": null,
+      "display_name": "NETFLIX INC",
+      "entity_status": "resolved",
+      "legal_name": "NETFLIX INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+          "symbol": "NFLX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "e49f0092c78cc3f0aac8ea3ba06dd7ea8476b94add9f744b7781fe882be2a9d8",
+    "url": "https://data.sec.gov/submissions/CIK0001065280.json",
+    "verified_at": "2026-09-26T15:02:16+00:00"
+  },
   "co-nvda": {
     "company": {
       "aliases": [],
@@ -539,6 +612,40 @@
     "source_hash": "e220b9939d680e34f3a59655b5134a8f1a44e6a4d9292426093c8a899d3020a8",
     "url": "https://data.sec.gov/submissions/CIK0001045810.json",
     "verified_at": "2026-09-26T04:44:23+00:00"
+  },
+  "co-palantir": {
+    "company": {
+      "aliases": [],
+      "cik": "0001321655",
+      "company_id": "co-palantir",
+      "country": null,
+      "display_name": "Palantir Technologies Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Palantir Technologies Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001321655.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+          "symbol": "PLTR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "c524083c491e7ed64c60d41096601f7a2ac1b06653cfdbe44f8d4c5a44f03a68",
+    "url": "https://data.sec.gov/submissions/CIK0001321655.json",
+    "verified_at": "2026-09-26T15:02:16+00:00"
   },
   "co-tsla": {
     "company": {

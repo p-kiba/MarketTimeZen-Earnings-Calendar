@@ -1,0 +1,114 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lam-research",
+      "country": null,
+      "display_name": "Lam Research Corp.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-semsysco",
+      "country": null,
+      "display_name": "SEMSYSCO GmbH",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sk-hynix",
+      "country": null,
+      "display_name": "SK hynix Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-lam-research",
+    "country": null,
+    "display_name": "Lam Research Corp.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+      "direction": "directed",
+      "event_date": "2022-11-15",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-832328c6401f9ce728708a8c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lam-research",
+      "status_as_of": "2022-11-15",
+      "target_company_id": "co-semsysco",
+      "tier": null,
+      "tier_reasons": [
+        "explicitly_undisclosed"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+      "direction": "directed",
+      "event_date": "2022-06-14",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-2e9c5666585943783841c695",
+      "relationship_type": "supplier",
+      "source_company_id": "co-lam-research",
+      "status_as_of": "2022-06-14",
+      "target_company_id": "co-sk-hynix",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-06-14",
+    "2022-11-15"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

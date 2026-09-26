@@ -1,0 +1,225 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-661bf9e6a6929776a8ae7411",
+          "amount_kind": "purchase_price",
+          "conditions": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$116.50 per share in cash, representing a transaction equity value of approximately $27.8 billion",
+          "payee_company_ids": [
+            "co-horizon-therapeutics-plc"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "approximately",
+          "scope": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+          "value": "27800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-10-06",
+      "conditions": "",
+      "deal_id": "deal-812ef833642e67d92c65153b",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-812ef833642e67d92c65153b",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-812ef833642e67d92c65153b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b3fc1326d50f92faeb8a28c8"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
+        },
+        "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r94",
+        "rule_version": "91a3e9dddb2ee44b5b4e571b146b73634f197f46f35b18aaaf4d4c61f3a76747",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-812ef833642e67d92c65153b",
+      "excerpt": "Amgen (NASDAQ: AMGN) today announced that it has completed its acquisition of Horizon Therapeutics plc",
+      "locator": "p:3",
+      "normalized_text_hash": "a5374a3022ddd097c675b4006ff78cab175f8a7b8a768036c918a167046ccfdd",
+      "section": "Official company disclosure",
+      "source_id": "source-294df4ca406480d535779d2c",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-812ef833642e67d92c65153b"
+    ],
+    "description": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-812ef833642e67d92c65153b"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-812ef833642e67d92c65153b"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b3fc1326d50f92faeb8a28c8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2023-10-06",
+    "target_company_id": "co-horizon-therapeutics-plc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-294df4ca406480d535779d2c": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917"
+      },
+      "reason": "Primary-source review of merged research record r94; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r94",
+      "rule_version": "91a3e9dddb2ee44b5b4e571b146b73634f197f46f35b18aaaf4d4c61f3a76747",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.amgen.com/newsroom/press-releases/2023/10/amgen-completes-acquisition-of-horizon-therapeutics-plc",
+      "content_hash": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-10-06",
+      "publisher": "Amgen",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-294df4ca406480d535779d2c",
+      "source_type": "official_newsroom",
+      "title": "AMGEN COMPLETES ACQUISITION OF HORIZON THERAPEUTICS PLC| Amgen"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-661bf9e6a6929776a8ae7411",
+        "amount_kind": "purchase_price",
+        "conditions": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-812ef833642e67d92c65153b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$116.50 per share in cash, representing a transaction equity value of approximately $27.8 billion",
+        "payee_company_ids": [
+          "co-horizon-therapeutics-plc"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "approximately",
+        "scope": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+        "value": "27800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。",
+    "direction": "directed",
+    "event_date": "2023-10-06",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b3fc1326d50f92faeb8a28c8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2023-10-06",
+    "target_company_id": "co-horizon-therapeutics-plc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

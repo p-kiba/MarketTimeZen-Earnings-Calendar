@@ -126,12 +126,42 @@
       }
     ]
   },
-  "custom": null,
+  "custom": {
+    "as_of": "2026-09-27",
+    "source_url": "https://www.sec.gov/edgar/search/",
+    "license_note": "User-selected research priorities, not an index membership claim.",
+    "securities": [
+      {
+        "symbol": "NFLX",
+        "company_id": "co-nflx",
+        "cik": "0001065280",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      },
+      {
+        "symbol": "PLTR",
+        "company_id": "co-palantir",
+        "cik": "0001321655",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      },
+      {
+        "symbol": "CSCO",
+        "company_id": "co-csco",
+        "cik": "0000858877",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      },
+      {
+        "symbol": "AVGO",
+        "company_id": "co-avgo",
+        "cik": "0001730168",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      }
+    ]
+  },
   "sp500": null,
   "large_cap_focus": {
-    "as_of": "2026-09-26",
+    "as_of": "2026-09-27",
     "source_url": "https://stockanalysis.com/list/biggest-companies/",
-    "license_note": "Dated market-cap-priority research watchlist based on a public market-cap ranking reviewed 2026-09-26, not an index constituent list. Selection is a collection priority only; market-cap values and ranks are not stored or published. Verify CIK/ticker identity from SEC submissions before collection.",
+    "license_note": "Dated market-cap-priority research watchlist based on a public market-cap ranking reviewed 2026-09-26, not an index constituent list. Selection is a collection priority only; market-cap values and ranks are not stored or published. Verify CIK/ticker identity from SEC submissions before collection. NFLX, PLTR and CSCO were added on 2026-09-27 at the user's request; their inclusion is not a claim of position in the cited ranking. The custom universe records the four current research priorities, including AVGO.",
     "securities": [
       {
         "symbol": "NVDA",
@@ -222,6 +252,24 @@
         "company_id": "co-cost",
         "cik": "0000909832",
         "cik_basis": "Existing project earnings universe generated from SEC company tickers; refresh and verify through official SEC submissions before collection"
+      },
+      {
+        "symbol": "NFLX",
+        "company_id": "co-nflx",
+        "cik": "0001065280",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      },
+      {
+        "symbol": "PLTR",
+        "company_id": "co-palantir",
+        "cik": "0001321655",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
+      },
+      {
+        "symbol": "CSCO",
+        "company_id": "co-csco",
+        "cik": "0000858877",
+        "cik_basis": "Existing earnings universe; verified against SEC submissions before use"
       }
     ]
   }

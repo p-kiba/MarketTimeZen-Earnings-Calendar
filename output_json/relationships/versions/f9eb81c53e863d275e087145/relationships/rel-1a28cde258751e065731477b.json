@@ -1,0 +1,202 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-03-27",
+      "conditions": "",
+      "deal_id": "deal-c284b1ad356d5b80f43d2cf1",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-c284b1ad356d5b80f43d2cf1",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c284b1ad356d5b80f43d2cf1"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c284b1ad356d5b80f43d2cf1"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1a28cde258751e065731477b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-34d19c5000e21f3a4c7c721d": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-cisco-msft",
+        "rule_version": "900176d3eef73620058c4ed4d7cd53733c78de601fef9cf1394e3d5e89d595cb",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-c284b1ad356d5b80f43d2cf1",
+      "excerpt": "SAN JOSE, Calif.,",
+      "locator": "p:4",
+      "normalized_text_hash": "314ea42b6814c02e75775c924af347969e211c4cab743d6ef1888ee8b7e9fadb",
+      "section": "Primary disclosure: p:4",
+      "source_id": "source-34d19c5000e21f3a4c7c721d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-c284b1ad356d5b80f43d2cf1"
+      ],
+      "geography": "",
+      "headline": "会議端末をTeamsと連携",
+      "products": [
+        "Cisco Board Pro",
+        "Microsoft Teams Rooms",
+        "Webex Contact Center"
+      ],
+      "scale": "",
+      "source_role": "Ciscoが会議端末・コンタクトセンターを提供",
+      "target_role": "Microsoft Teamsとの接続・認証を提供"
+    },
+    "deal_ids": [
+      "deal-c284b1ad356d5b80f43d2cf1"
+    ],
+    "description": "Cisco Board ProがMicrosoft Teams Roomsの認証を取得し、Webex Contact CenterもTeamsと統合。企業の会議機器とコンタクトセンターの相互運用を実現した2023年の公表内容。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c284b1ad356d5b80f43d2cf1"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-c284b1ad356d5b80f43d2cf1"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-1a28cde258751e065731477b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2023-03-27",
+    "target_company_id": "co-msft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-34d19c5000e21f3a4c7c721d": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-msft",
+      "rule_version": "900176d3eef73620058c4ed4d7cd53733c78de601fef9cf1394e3d5e89d595cb",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2023/m03/cisco-and-microsoft-advance-interoperability-with-microsoft-teams-certifications-for-cisco-board-pro-and-webex-contact-center.html",
+      "content_hash": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-03-27",
+      "publisher": "newsroom.cisco.com",
+      "retrieved_at": "2026-09-26T15:00:31+00:00",
+      "source_id": "source-34d19c5000e21f3a4c7c721d",
+      "source_type": "official_newsroom",
+      "title": "Cisco Advances Interoperability with Microsoft Teams Certifications for Cisco Board Pro and Webex Contact Center"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-c284b1ad356d5b80f43d2cf1"
+      ],
+      "geography": "",
+      "headline": "会議端末をTeamsと連携",
+      "products": [
+        "Cisco Board Pro",
+        "Microsoft Teams Rooms",
+        "Webex Contact Center"
+      ],
+      "scale": "",
+      "source_role": "Ciscoが会議端末・コンタクトセンターを提供",
+      "target_role": "Microsoft Teamsとの接続・認証を提供"
+    },
+    "description": "Cisco Board ProがMicrosoft Teams Roomsの認証を取得し、Webex Contact CenterもTeamsと統合。企業の会議機器とコンタクトセンターの相互運用を実現した2023年の公表内容。",
+    "direction": "undirected",
+    "event_date": "2023-03-27",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-1a28cde258751e065731477b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2023-03-27",
+    "target_company_id": "co-msft",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

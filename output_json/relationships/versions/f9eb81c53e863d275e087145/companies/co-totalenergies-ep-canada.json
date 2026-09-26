@@ -1,0 +1,136 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cop",
+      "country": null,
+      "display_name": "ConocoPhillips",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-totalenergies-ep-canada",
+      "country": null,
+      "display_name": "TotalEnergies EP Canada Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-totalenergies-ep-canada",
+    "country": null,
+    "display_name": "TotalEnergies EP Canada Ltd.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7e7bd460b91a668d25aa3340",
+          "amount_kind": "other",
+          "conditions": "クロージング調整後の現金額。原文は同じ金額のCAD換算としてCAD$3.7 billionも併記。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "approximately $2.7 billion cash (CAD$3.7 billion) after closing adjustments",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "2700000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-8437818e71177062ba2e4935",
+          "amount_kind": "other",
+          "conditions": "5年間の将来条件付支払。原油価格・生産等の条件に基づく。原文はCAD$0.4 billionも併記。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "future contingent payments of up to approximately $0.3 billion (CAD$0.4 billion)",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "up_to",
+          "scope": "bilateral",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはTotalEnergies EP CanadaからSurmontオイルサンド事業の残余50%持分を取得し、同事業を100%保有する体制に移行した。",
+      "direction": "directed",
+      "event_date": "2023-10-04",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-f3934e147c2adcd7657378fc",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2023-10-04",
+      "target_company_id": "co-totalenergies-ep-canada",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-10-04"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

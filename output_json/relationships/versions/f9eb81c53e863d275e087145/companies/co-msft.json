@@ -1,0 +1,1046 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-anthropic",
+      "country": null,
+      "display_name": "Anthropic",
+      "entity_status": "resolved",
+      "legal_name": "Anthropic",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000858877",
+      "company_id": "co-csco",
+      "country": null,
+      "display_name": "Cisco",
+      "entity_status": "resolved",
+      "legal_name": "CISCO SYSTEMS, INC.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+          "symbol": "CSCO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lseg",
+      "country": null,
+      "display_name": "LSEG",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mistral",
+      "country": null,
+      "display_name": "Mistral AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nebius-inc",
+      "country": null,
+      "display_name": "Nebius, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001065280",
+      "company_id": "co-nflx",
+      "country": null,
+      "display_name": "NETFLIX INC",
+      "entity_status": "resolved",
+      "legal_name": "NETFLIX INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+          "symbol": "NFLX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000789019",
+    "company_id": "co-msft",
+    "country": null,
+    "display_name": "Microsoft",
+    "entity_status": "resolved",
+    "legal_name": "MICROSOFT CORP",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+        "symbol": "MSFT",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-25",
+        "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+        "universe": "pilot"
+      },
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "NVIDIA and Anthropic announced a technology partnership involving engineering and model optimisation.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-13a995805e1bac42cbeedcee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-f5848e4e0d76ef001072e534",
+          "evidence-9e28ae2ecf7bcbee0ccb61ce"
+        ],
+        "geography": "",
+        "headline": "Blackwell搭載サーバーの製品展開",
+        "products": [
+          "Blackwellサーバー"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "サーバー製品の提供予定"
+      },
+      "description": "CiscoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-96244cb894231a8327a29d15",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-csco",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-428b397c67afda0d9253addc",
+          "evidence-eb33d1334bfe87c02cc35d13"
+        ],
+        "geography": "",
+        "headline": "従業員向けAI認定・研修プログラム",
+        "products": [
+          "OpenAI Certifications",
+          "AI研修"
+        ],
+        "scale": "",
+        "source_role": "従業員研修の設計・展開",
+        "target_role": "AI研修・認定プログラム"
+      },
+      "description": "WalmartがOpenAIと従業員向けAI研修で協業。米国の現場・オフィス従業員向けに認定プログラムをカスタマイズし、2026年からの提供を計画。Walmart全体の技能研修予算をOpenAIへの支払額に転用しない。",
+      "direction": "undirected",
+      "event_date": "2025-09-04",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f0227fe08b108fbea5840b67",
+      "relationship_type": "partnership",
+      "source_company_id": "co-wmt",
+      "status_as_of": "2025-09-04",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4dcf8603d928941962613340",
+          "amount_kind": "investment_amount",
+          "conditions": "発表額。払込完了・実行条件は未確認。通貨は同じ公式発表の各言語版を照合。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-49d5c61b81bdcf05afeefccf",
+            "evidence-97592c134fd373087c0d5137",
+            "evidence-5e3852f06e426c50ca7dab7b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "NVIDIAがOpenAIの今回資金調達ラウンドに300億米ドルを出資すると発表。OpenAI公式の英語発表とポルトガル語版のUS$表記を照合。払込完了・実行条件はこの記録では未確認。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:04:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-0ed6f1685fd0f067e833c2eb",
+          "amount_kind": "investment_amount",
+          "conditions": "出資上限の発表。払込完了・具体的条件は未確認。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-ae3b6d3a103b4c1148a8fae4",
+            "evidence-e03c91652439763ec80de9d0"
+          ],
+          "max_value": "10000000000",
+          "min_value": null,
+          "original_text": "up to $10 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "up_to",
+          "scope": "NVIDIA単独の出資コミットメント上限。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-ae3b6d3a103b4c1148a8fae4",
+          "evidence-e03c91652439763ec80de9d0"
+        ],
+        "geography": "",
+        "headline": "Anthropicへの出資コミットメント",
+        "products": [
+          "AIモデル開発への出資"
+        ],
+        "scale": "",
+        "source_role": "出資コミットメントを発表",
+        "target_role": "資金調達先"
+      },
+      "description": "NVIDIAがAnthropicに最大100億米ドルの出資を約束すると発表。NVIDIA公式中国語版の金額・美元表記とAnthropic公式英語版の各社上限を照合。払込完了ではない。",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:02+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6575e2a22fa91487946a85f8",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Microsoft and Anthropic described expansion of their existing partnership.",
+      "direction": "undirected",
+      "event_date": "2025-11-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T14:57:31+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-6d961c24ce89eaf990cbc1ce",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3c668aa2b4b224ef43c84c8b"
+        ],
+        "geography": "",
+        "headline": "Azure基盤へのGB200導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-97df4097d9e031d99b91203b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ae8ab4a3235f695c92171898"
+        ],
+        "geography": "",
+        "headline": "AzureによるAIモデル学習・推論支援",
+        "products": [
+          "Azure AIスーパーコンピューティング"
+        ],
+        "scale": "",
+        "source_role": "計算基盤の提供",
+        "target_role": "AIモデル開発・運用"
+      },
+      "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+      "direction": "directed",
+      "event_date": "2024-02-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-4a336e7623b5deed03fe6cba",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2024-02-26",
+      "target_company_id": "co-mistral",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-400cd4735ae46af3c63f6fdf"
+        ],
+        "geography": "",
+        "headline": "Azure経由のMistralモデル販売・提供",
+        "products": [
+          "Models as a Service",
+          "Azure AI Studio"
+        ],
+        "scale": "",
+        "source_role": "販売・配布プラットフォーム",
+        "target_role": "AIモデルの提供"
+      },
+      "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+      "direction": "undirected",
+      "event_date": "2024-02-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e4aeb3770a0ec947e2269328",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2024-02-26",
+      "target_company_id": "co-mistral",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-eaf97ec5ec79ccf17af189f6"
+        ],
+        "geography": "",
+        "headline": "モデル・基盤のIP利用と収益分配",
+        "products": [
+          "モデル・基盤の知的財産",
+          "収益分配"
+        ],
+        "scale": "",
+        "source_role": "IP利用・製品統合",
+        "target_role": "モデル・基盤技術提供"
+      },
+      "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+      "direction": "undirected",
+      "event_date": "2026-07-29",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-4330bb60569e930aab9db1bd",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-07-29",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4bd84d0619902fd319fffe9f",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a8fb47a-6fbe-4336-9a3c-c952489d3025 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "出資に関する累計資金コミットメント。契約対価・年度売上とは異なる。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-481e37c169a589476d924a43",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a19381b-b0bb-404e-aa8f-8a1f44d4dd41 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 11.9 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年6月30日までの累計払込額。130億米ドルの内数であり加算しない。",
+          "value": "11900000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-e995fc47cf71b1312937019c",
+          "evidence-145ce7fed53a37d180b7ef97"
+        ],
+        "geography": "",
+        "headline": "OpenAIへの資金コミットメントと払込状況",
+        "products": [
+          "持分法投資"
+        ],
+        "scale": "",
+        "source_role": "投資者",
+        "target_role": "投資先"
+      },
+      "description": "Microsoftの出資コミットメントは130億米ドル、6月末までの払込は119億米ドル。転換後換算の持分は約25%。当期売上241億米ドル・売掛金60億米ドルは投資額に含めない。",
+      "direction": "directed",
+      "event_date": "2026-07-29",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-c716a112ddca6d34cb9e4a09",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-ad58ef493510cc0c261f6672",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$17.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "GPUの展開・利用可能性の条件を満たした場合の基本契約額",
+          "value": "17400000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-dafa60489935a399dfe66656",
+          "amount_kind": "potential_expansion",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$19.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "追加サービス・容量を購入した場合の総額。基本額と足し合わせない。",
+          "value": "19400000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-f49bee8d697f19fbb063aa5b",
+          "evidence-6ca9b4b38d8a795ae1316c39",
+          "evidence-f54260078c8a9d4bf2d1ef82",
+          "evidence-fde4f68b3658649eb858d4a2",
+          "evidence-565eb49bcd3091e4475154e6",
+          "evidence-0d9bb5ccd1fc65bf3b25e412",
+          "evidence-a6e0f1e34a6be7b21ad27b24",
+          "evidence-49ec40f48cdc9a70ee2094d0",
+          "evidence-d4643519e744b27c41500f6f",
+          "evidence-dec80a373decd2246692fb57"
+        ],
+        "geography": "米国・New Jersey",
+        "headline": "GPU基盤の5年契約・段階的引渡し",
+        "products": [
+          "専用GPU基盤"
+        ],
+        "scale": "",
+        "source_role": "GPUサービス提供",
+        "target_role": "計算能力購入"
+      },
+      "description": "Nebius, Inc.がMicrosoft向けGPU基盤をNew Jerseyで提供する5年契約。基本約174億米ドル、追加容量を購入した場合は総額約194億米ドル。2031年までの提供予定で、引渡し・利用可能性などの条件付き。",
+      "direction": "directed",
+      "event_date": "2025-09-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-91f0a3e2eaf94ec9c9d636b7",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-nebius-inc",
+      "status_as_of": "2025-09-08",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "conditional",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-6eb598e0a621bdb5528e5490",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "max_value": null,
+          "min_value": "2800000000",
+          "original_text": "$2.8 billion",
+          "payee_company_ids": [
+            "co-msft"
+          ],
+          "payer_company_ids": [
+            "co-lseg"
+          ],
+          "qualifier": "at_least",
+          "scope": "契約期間中の最低クラウド関連支出。上限・確定総額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-cbf00286cfb6f009ad0a0b1e",
+          "evidence-6b63c148bb11ebc586d24ccb",
+          "evidence-176d5d66b63e48f05ecd342b"
+        ],
+        "geography": "",
+        "headline": "金融データ基盤の10年クラウド契約",
+        "products": [
+          "Microsoft Cloud",
+          "Azure",
+          "金融データ基盤"
+        ],
+        "scale": "",
+        "source_role": "クラウド基盤提供",
+        "target_role": "金融データ・分析基盤の移行"
+      },
+      "description": "LSEGがデータ基盤等をMicrosoft Cloudへ移行する10年間の商業契約。最低クラウド関連支出は28億米ドル。公式2022年決算資料の注記17でUS$表記を確認。最終総額や上限ではない。",
+      "direction": "directed",
+      "event_date": "2022-12-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:00+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-001b2b64cdceb319303838a7",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2022-12-12",
+      "target_company_id": "co-lseg",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-da9c4b9e0176450a10e3f3a4",
+          "amount_kind": "investment_amount",
+          "conditions": "出資上限の発表。払込完了・具体的条件は未確認。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "max_value": "5000000000",
+          "min_value": null,
+          "original_text": "up to $5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "up_to",
+          "scope": "Microsoft単独の出資コミットメント上限。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-b10672dc1d36c53f2fed6ee4",
+          "evidence-1102d76adde28f24970580a9"
+        ],
+        "geography": "",
+        "headline": "Anthropicへの出資コミットメント",
+        "products": [
+          "AIモデル開発への出資"
+        ],
+        "scale": "",
+        "source_role": "出資コミットメントを発表",
+        "target_role": "資金調達先"
+      },
+      "description": "MicrosoftがAnthropicに最大50億米ドルの出資を約束すると発表。NVIDIA公式中国語版の金額・美元表記とAnthropic公式英語版の各社上限を照合。払込完了ではない。",
+      "direction": "directed",
+      "event_date": "2025-11-18",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:02+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2025-11-18",
+      "target_company_id": "co-anthropic",
+      "tier": null,
+      "tier_reasons": [
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e4e0f2a2c021d776c8effe37"
+        ],
+        "geography": "",
+        "headline": "Azure・Microsoft 365導入",
+        "products": [
+          "Microsoft Azure",
+          "Microsoft 365"
+        ],
+        "scale": "",
+        "source_role": "クラウド提供",
+        "target_role": "全社利用・移行"
+      },
+      "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+      "direction": "directed",
+      "event_date": "2018-07-17",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-e034040a21765633a2b51199",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2018-07-17",
+      "target_company_id": "co-wmt",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "geography": "",
+        "headline": "広告配信技術・広告販売を提供",
+        "products": [
+          "広告配信基盤",
+          "広告販売"
+        ],
+        "scale": "",
+        "source_role": "Microsoftが広告技術と販売を担当",
+        "target_role": "Netflixが広告付き動画配信に採用"
+      },
+      "description": "2022年の広告付きプラン立ち上げに向け、NetflixがMicrosoftを広告技術・販売パートナーに選定。当時の発表では広告をMicrosoft基盤経由で提供すると説明。現在も独占関係が続くことを示す記録ではない。",
+      "direction": "directed",
+      "event_date": "2022-07-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-bfda5a99d83ecf25669cbefc",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2022-07-13",
+      "target_company_id": "co-nflx",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "geography": "",
+        "headline": "会議端末をTeamsと連携",
+        "products": [
+          "Cisco Board Pro",
+          "Microsoft Teams Rooms",
+          "Webex Contact Center"
+        ],
+        "scale": "",
+        "source_role": "Ciscoが会議端末・コンタクトセンターを提供",
+        "target_role": "Microsoft Teamsとの接続・認証を提供"
+      },
+      "description": "Cisco Board ProがMicrosoft Teams Roomsの認証を取得し、Webex Contact CenterもTeamsと統合。企業の会議機器とコンタクトセンターの相互運用を実現した2023年の公表内容。",
+      "direction": "undirected",
+      "event_date": "2023-03-27",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-1a28cde258751e065731477b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2023-03-27",
+      "target_company_id": "co-msft",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2018-07-17",
+    "2022-07-13",
+    "2022-12-12",
+    "2023-03-27",
+    "2024-02-26",
+    "2024-03-18",
+    "2025-09-08",
+    "2025-11-18",
+    "2026-06-30",
+    "2026-07-29"
+  ],
+  "total_counterparties": 9,
+  "total_peer_relationships": 5,
+  "total_relationships": 12
+}

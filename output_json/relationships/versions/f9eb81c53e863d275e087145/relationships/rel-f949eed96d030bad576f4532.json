@@ -1,0 +1,173 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-04-24",
+      "conditions": "最大11基の7HAガスタービンと関連機器の調達経路を確保。 この枠組みとは別にDuke Energyは直近で8基を確保済みと発表。",
+      "deal_id": "deal-6aba382297bcbd1689755d46",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-6aba382297bcbd1689755d46",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-6aba382297bcbd1689755d46"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-6aba382297bcbd1689755d46"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f949eed96d030bad576f4532"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-75edc49d2db56059f02fcc48": "7d5582135a4befe45d13f2ebad85c4b88693646ed2b6213504d64923c6bd7c6f"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r20",
+        "rule_version": "44c8cabff926aa8fc017b0855b0e96da3ef0bf06a3c1659d3c4a84cb21bdc5fd",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-6aba382297bcbd1689755d46",
+      "excerpt": "CHARLOTTE, N.C. and",
+      "locator": "p:3",
+      "normalized_text_hash": "c06bfcfedfd39ec6b456d25ff9d95a575d7bc855292550d9dd5d96de17bc5e1e",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-75edc49d2db56059f02fcc48",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-6aba382297bcbd1689755d46"
+    ],
+    "description": "GE VernovaとDuke Energyは、Dukeが最大11基のGE Vernova製7HAガスタービンと関連機器を調達できる枠組みを発表した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6aba382297bcbd1689755d46"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-6aba382297bcbd1689755d46"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-f949eed96d030bad576f4532",
+    "relationship_type": "supplier",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-04-24",
+    "target_company_id": "co-duke-energy",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-75edc49d2db56059f02fcc48": "7d5582135a4befe45d13f2ebad85c4b88693646ed2b6213504d64923c6bd7c6f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r20",
+      "rule_version": "44c8cabff926aa8fc017b0855b0e96da3ef0bf06a3c1659d3c4a84cb21bdc5fd",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gevernova.com/news/press-releases/duke-energy-ge-vernova-announce-significant-arrangement-gas-turbines-associated",
+      "content_hash": "7d5582135a4befe45d13f2ebad85c4b88693646ed2b6213504d64923c6bd7c6f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-04-24",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-04-24",
+      "publisher": "GE Vernova",
+      "retrieved_at": "2026-09-26T13:45:00+00:00",
+      "source_id": "source-75edc49d2db56059f02fcc48",
+      "source_type": "official_newsroom",
+      "title": "Duke Energy and GE Vernova announce significant arrangement for gas turbines and associated equipment | GE Vernova News"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "GE VernovaとDuke Energyは、Dukeが最大11基のGE Vernova製7HAガスタービンと関連機器を調達できる枠組みを発表した。",
+    "direction": "directed",
+    "event_date": "2025-04-24",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-f949eed96d030bad576f4532",
+    "relationship_type": "supplier",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-04-24",
+    "target_company_id": "co-duke-energy",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

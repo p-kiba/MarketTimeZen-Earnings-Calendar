@@ -445,21 +445,6 @@
   {
     "aliases": [],
     "cik": null,
-    "company_id": "co-csco",
-    "country": null,
-    "display_name": "Cisco",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
     "company_id": "co-hpe",
     "country": null,
     "display_name": "Hewlett Packard Enterprise",
@@ -879,35 +864,6 @@
         "exchange": "Nasdaq",
         "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
         "symbol": "META",
-        "valid_from": null,
-        "valid_to": null
-      }
-    ],
-    "merged_into": null,
-    "universe_memberships": [
-      {
-        "as_of": "2026-09-26",
-        "source_url": "https://stockanalysis.com/list/biggest-companies/",
-        "universe": "large_cap_focus"
-      }
-    ]
-  },
-  {
-    "aliases": [],
-    "cik": "0001730168",
-    "company_id": "co-avgo",
-    "country": null,
-    "display_name": "Broadcom",
-    "entity_status": "resolved",
-    "legal_name": "Broadcom Inc.",
-    "listing_status": "listed",
-    "listing_status_as_of": "2026-09-26",
-    "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
-    "listings": [
-      {
-        "exchange": "Nasdaq",
-        "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
-        "symbol": "AVGO",
         "valid_from": null,
         "valid_to": null
       }
@@ -2166,21 +2122,6 @@
     "company_id": "co-sk-hynix",
     "country": null,
     "display_name": "SK hynix Inc.",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-palantir",
-    "country": null,
-    "display_name": "Palantir Technologies Inc.",
     "entity_status": "resolved",
     "legal_name": null,
     "listing_status": "unknown",
@@ -3501,6 +3442,240 @@
     "company_id": "co-sikorsky-aircraft",
     "country": null,
     "display_name": "Sikorsky Aircraft",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": "0001065280",
+    "company_id": "co-nflx",
+    "country": null,
+    "display_name": "NETFLIX INC",
+    "entity_status": "resolved",
+    "legal_name": "NETFLIX INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+        "symbol": "NFLX",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0001321655",
+    "company_id": "co-palantir",
+    "country": null,
+    "display_name": "Palantir Technologies Inc.",
+    "entity_status": "resolved",
+    "legal_name": "Palantir Technologies Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001321655.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+        "symbol": "PLTR",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0000858877",
+    "company_id": "co-csco",
+    "country": null,
+    "display_name": "Cisco",
+    "entity_status": "resolved",
+    "legal_name": "CISCO SYSTEMS, INC.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+        "symbol": "CSCO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0001730168",
+    "company_id": "co-avgo",
+    "country": null,
+    "display_name": "Broadcom",
+    "entity_status": "resolved",
+    "legal_name": "Broadcom Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+        "symbol": "AVGO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      },
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sony-pictures",
+    "country": null,
+    "display_name": "Sony Pictures Entertainment",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-tko",
+    "country": null,
+    "display_name": "TKO Group Holdings",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-01-23",
+    "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+        "symbol": "TKO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-humain",
+    "country": null,
+    "display_name": "HUMAIN",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sovereign-ai",
+    "country": null,
+    "display_name": "Sovereign AI",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ase",
+    "country": null,
+    "display_name": "Advanced Semiconductor Engineering, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-foxconn",
+    "country": null,
+    "display_name": "Foxconn Technology Group",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-siliconware",
+    "country": null,
+    "display_name": "Siliconware Precision Industries Co., Ltd.",
     "entity_status": "resolved",
     "legal_name": null,
     "listing_status": "unknown",

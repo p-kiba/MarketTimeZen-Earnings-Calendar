@@ -1,0 +1,242 @@
+{
+  "build_id": "f9eb81c53e863d275e087145",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-12-16",
+      "conditions": "",
+      "deal_id": "deal-750fa9027e520c472efc1233",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-750fa9027e520c472efc1233",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-750fa9027e520c472efc1233",
+        "evidence-a24af75247d8f9f332df4459",
+        "evidence-ae5e409b501dd2b9d32188cc"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-750fa9027e520c472efc1233",
+            "evidence-a24af75247d8f9f332df4459",
+            "evidence-ae5e409b501dd2b9d32188cc"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-ff599da661651ecd7e43fa0f"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2ee01be7c841544d44d9ced5": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-palantir-accenture",
+        "rule_version": "78f668d50fc0811b76d9316e1e9ad593a91be4bd6fb86b97c9b631b54bd1a845",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-750fa9027e520c472efc1233",
+      "excerpt": "NEW YORK; Dec. 16,",
+      "locator": "p:4",
+      "normalized_text_hash": "942910015ed40c0c4f8c4696fc556cbb819565960b8e3888f17278b03c3542f1",
+      "section": "Primary disclosure: p:4",
+      "source_id": "source-2ee01be7c841544d44d9ced5",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a24af75247d8f9f332df4459",
+      "excerpt": "The Accent",
+      "locator": "p:7",
+      "normalized_text_hash": "554314e7dd711a43ca58f00e77d4d30e80d936251b8ac1e9e37c84d0402b6727",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2ee01be7c841544d44d9ced5",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ae5e409b501dd2b9d32188cc",
+      "excerpt": "The group ",
+      "locator": "p:8",
+      "normalized_text_hash": "e1ae9fdda0a99819aba474e78feb41dcfad6f74e0939a8af79ed56bbb8b161b3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2ee01be7c841544d44d9ced5",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-750fa9027e520c472efc1233",
+        "evidence-a24af75247d8f9f332df4459",
+        "evidence-ae5e409b501dd2b9d32188cc"
+      ],
+      "geography": "グローバル",
+      "headline": "企業向けAI導入を共同支援",
+      "products": [
+        "Palantir Foundry",
+        "Artificial Intelligence Platform"
+      ],
+      "scale": "AccentureのPalantir技能保有者2,000人超",
+      "source_role": "AI・データ基盤と技術者を提供",
+      "target_role": "Accentureが業界知識・導入支援を提供"
+    },
+    "deal_ids": [
+      "deal-750fa9027e520c472efc1233"
+    ],
+    "description": "PalantirとAccentureが共同のBusiness Groupを設立し、FoundryとAIPによる企業のデータ統合・業務改革を支援。Palantirのエンジニアと2,000人超のPalantir技能を持つAccenture人材等が支援する体制を公表。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-750fa9027e520c472efc1233",
+      "evidence-a24af75247d8f9f332df4459",
+      "evidence-ae5e409b501dd2b9d32188cc"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-750fa9027e520c472efc1233"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-ff599da661651ecd7e43fa0f",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2025-12-16",
+    "target_company_id": "co-acn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2ee01be7c841544d44d9ced5": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-accenture",
+      "rule_version": "78f668d50fc0811b76d9316e1e9ad593a91be4bd6fb86b97c9b631b54bd1a845",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.accenture.com/news/2025/accenture-and-palantir-expand-global-strategic-partnership-to-drive-ai-reinvention",
+      "content_hash": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-12-16",
+      "publisher": "newsroom.accenture.com",
+      "retrieved_at": "2026-09-26T15:03:14+00:00",
+      "source_id": "source-2ee01be7c841544d44d9ced5",
+      "source_type": "official_newsroom",
+      "title": "Accenture and Palantir Expand Global Strategic Partnership to Drive AI Reinvention"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-750fa9027e520c472efc1233",
+        "evidence-a24af75247d8f9f332df4459",
+        "evidence-ae5e409b501dd2b9d32188cc"
+      ],
+      "geography": "グローバル",
+      "headline": "企業向けAI導入を共同支援",
+      "products": [
+        "Palantir Foundry",
+        "Artificial Intelligence Platform"
+      ],
+      "scale": "AccentureのPalantir技能保有者2,000人超",
+      "source_role": "AI・データ基盤と技術者を提供",
+      "target_role": "Accentureが業界知識・導入支援を提供"
+    },
+    "description": "PalantirとAccentureが共同のBusiness Groupを設立し、FoundryとAIPによる企業のデータ統合・業務改革を支援。Palantirのエンジニアと2,000人超のPalantir技能を持つAccenture人材等が支援する体制を公表。",
+    "direction": "undirected",
+    "event_date": "2025-12-16",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-ff599da661651ecd7e43fa0f",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2025-12-16",
+    "target_company_id": "co-acn",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

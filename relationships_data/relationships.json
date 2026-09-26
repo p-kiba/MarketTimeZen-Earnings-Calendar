@@ -14422,5 +14422,732 @@
       "rule_version": "f2d198e9f71c64ae141000dbd619aa5cfa724821784c2c96e82804750fe3e723",
       "verified_at": "2026-09-26T14:26:46+00:00"
     }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-7c7adfa45408d7b0e7ed2bcf"
+      ],
+      "geography": "世界各地",
+      "headline": "映画の独占配信権を提供",
+      "products": [
+        "映画のPay-1配信権",
+        "一部の旧作映画・テレビ作品"
+      ],
+      "scale": "",
+      "source_role": "映画・番組の権利提供元",
+      "target_role": "独占配信先"
+    },
+    "deal_ids": [
+      "deal-7c7adfa45408d7b0e7ed2bcf"
+    ],
+    "description": "Sony Pictures Entertainmentが劇場・家庭向け販売後の映画について、Netflixへ世界規模の独占Pay-1配信権を供与する複数年契約。地域の既存権利が空き次第2026年から段階的に開始し、2029年初頭の全世界展開を予定。契約総額はこの発表に記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7c7adfa45408d7b0e7ed2bcf"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-7c7adfa45408d7b0e7ed2bcf"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-4f221fd5b39d8e4295f4eced",
+    "relationship_type": "supplier",
+    "source_company_id": "co-sony-pictures",
+    "status_as_of": "2026-01-15",
+    "target_company_id": "co-nflx",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-be7dbd6f8ef4d6bbc70e9cb7": "e6d9afdcda842f7814dceb62c4713182bc50de6aa8fcabbf5f986fda1f8f66f4"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-sony",
+      "rule_version": "895c24a54a9a0a67a07b9ed342bca1ce68330bd50fe6a173cec11e52c0a07fe0",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-19ff5b95eacf40f17dad84c1",
+        "evidence-15ed78f74d9add30ffe212c0"
+      ],
+      "geography": "",
+      "headline": "広告配信技術・広告販売を提供",
+      "products": [
+        "広告配信基盤",
+        "広告販売"
+      ],
+      "scale": "",
+      "source_role": "Microsoftが広告技術と販売を担当",
+      "target_role": "Netflixが広告付き動画配信に採用"
+    },
+    "deal_ids": [
+      "deal-19ff5b95eacf40f17dad84c1"
+    ],
+    "description": "2022年の広告付きプラン立ち上げに向け、NetflixがMicrosoftを広告技術・販売パートナーに選定。当時の発表では広告をMicrosoft基盤経由で提供すると説明。現在も独占関係が続くことを示す記録ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-19ff5b95eacf40f17dad84c1",
+      "evidence-15ed78f74d9add30ffe212c0"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-19ff5b95eacf40f17dad84c1"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-bfda5a99d83ecf25669cbefc",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-07-13",
+    "target_company_id": "co-nflx",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e4350f6c0007df7dc249f8ba": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-msft",
+      "rule_version": "b7dec85da8ae9cda6c5ea505f41e5a68cbc0d8f680625ec5e8bf9c7c79aff4d8",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-c9d72cde7c7dfdd2c41e5b18"
+      ],
+      "geography": "米国Nevada州Sparks",
+      "headline": "電池工場へFoundryを提供",
+      "products": [
+        "Palantir Foundry",
+        "工場センサーデータ統合"
+      ],
+      "scale": "",
+      "source_role": "製造データ統合・AI基盤を提供",
+      "target_role": "Panasonic Energyが電池工場で利用"
+    },
+    "deal_ids": [
+      "deal-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "description": "Panasonic Energyが北米Nevada州Sparksの電池工場のSmart Factory化にPalantir Foundryを採用する複数年契約。製造ラインのセンサーデータ統合と業務自動化に活用する。Panasonicグループとして表示し、資料上の当事者はPanasonic Energy。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-26b5352a76386dc865cf2155",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2023-06-07",
+    "target_company_id": "co-panasonic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-aacf651e97f209530b922922": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-panasonic",
+      "rule_version": "e0c010cc86aa72bf8582be2dba6be0fff8e98380265280d7b34ef7c132dd8f0a",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-750fa9027e520c472efc1233",
+        "evidence-a24af75247d8f9f332df4459",
+        "evidence-ae5e409b501dd2b9d32188cc"
+      ],
+      "geography": "グローバル",
+      "headline": "企業向けAI導入を共同支援",
+      "products": [
+        "Palantir Foundry",
+        "Artificial Intelligence Platform"
+      ],
+      "scale": "AccentureのPalantir技能保有者2,000人超",
+      "source_role": "AI・データ基盤と技術者を提供",
+      "target_role": "Accentureが業界知識・導入支援を提供"
+    },
+    "deal_ids": [
+      "deal-750fa9027e520c472efc1233"
+    ],
+    "description": "PalantirとAccentureが共同のBusiness Groupを設立し、FoundryとAIPによる企業のデータ統合・業務改革を支援。Palantirのエンジニアと2,000人超のPalantir技能を持つAccenture人材等が支援する体制を公表。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-750fa9027e520c472efc1233",
+      "evidence-a24af75247d8f9f332df4459",
+      "evidence-ae5e409b501dd2b9d32188cc"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-750fa9027e520c472efc1233"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-ff599da661651ecd7e43fa0f",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2025-12-16",
+    "target_company_id": "co-acn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2ee01be7c841544d44d9ced5": "a8620728f24f9f3eec60b559a49be159ae06c8b0e3be256e46ad57fff0b022ae"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-accenture",
+      "rule_version": "78f668d50fc0811b76d9316e1e9ad593a91be4bd6fb86b97c9b631b54bd1a845",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-9711e6d6f7ee524748653d18",
+        "evidence-64b953595985a5aa4e67543f",
+        "evidence-acd51127e1fd0554ec74b815"
+      ],
+      "geography": "欧州・中東・アフリカ",
+      "headline": "AIデータセンター運用ソフトを提供",
+      "products": [
+        "Palantir Chain Reaction",
+        "AIインフラ運用管理"
+      ],
+      "scale": "",
+      "source_role": "PalantirがAIインフラ運用ソフトを提供",
+      "target_role": "Sovereign AIがデータセンター構築に採用"
+    },
+    "deal_ids": [
+      "deal-9711e6d6f7ee524748653d18"
+    ],
+    "description": "Sovereign AIがEMEAのAIデータセンター構築・拡張にPalantirとAccentureを選定。PalantirはChain Reactionで電力から計算基盤までの展開を支え、重要インフラを運用・管理するソフトウェアを提供する計画。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9711e6d6f7ee524748653d18",
+      "evidence-64b953595985a5aa4e67543f",
+      "evidence-acd51127e1fd0554ec74b815"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-9711e6d6f7ee524748653d18"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-8cc6e4312d83af08b0b39611",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2026-01-21",
+    "target_company_id": "co-sovereign-ai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f02c0d35abc4f5b680305654": "04f4033a2ba6dfad309692893b3f1564e3ce5973ebb4d01448e4137eee2cc45f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-sovereign",
+      "rule_version": "6a375850b07265a2b8f0f86215f98b7a9ae2c42a17ef726b1cdb295c49ffbe4f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-c284b1ad356d5b80f43d2cf1"
+      ],
+      "geography": "",
+      "headline": "会議端末をTeamsと連携",
+      "products": [
+        "Cisco Board Pro",
+        "Microsoft Teams Rooms",
+        "Webex Contact Center"
+      ],
+      "scale": "",
+      "source_role": "Ciscoが会議端末・コンタクトセンターを提供",
+      "target_role": "Microsoft Teamsとの接続・認証を提供"
+    },
+    "deal_ids": [
+      "deal-c284b1ad356d5b80f43d2cf1"
+    ],
+    "description": "Cisco Board ProがMicrosoft Teams Roomsの認証を取得し、Webex Contact CenterもTeamsと統合。企業の会議機器とコンタクトセンターの相互運用を実現した2023年の公表内容。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c284b1ad356d5b80f43d2cf1"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-c284b1ad356d5b80f43d2cf1"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-1a28cde258751e065731477b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2023-03-27",
+    "target_company_id": "co-msft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-34d19c5000e21f3a4c7c721d": "718b2bde9eaa1f338c7bd7fd44e8335c5130a7ecb95d950fba31654e788c851e"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-msft",
+      "rule_version": "900176d3eef73620058c4ed4d7cd53733c78de601fef9cf1394e3d5e89d595cb",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-bc1323a2159758dcb3d7afd2",
+        "evidence-7f5284303361b0d116a2df94"
+      ],
+      "geography": "",
+      "headline": "会議端末と大型ディスプレイを統合",
+      "products": [
+        "Cisco Room Series",
+        "Samsung Smart Signage",
+        "Microsoft Teams Rooms"
+      ],
+      "scale": "",
+      "source_role": "Ciscoが会議端末を提供",
+      "target_role": "Samsungが大型ディスプレイを提供"
+    },
+    "deal_ids": [
+      "deal-bc1323a2159758dcb3d7afd2"
+    ],
+    "description": "CiscoのRoom SeriesとSamsungのSmart Signageを組み合わせ、Microsoft Teams RoomsのFront Row表示に対応する会議室ソリューションを共同提供。2024年1月発表時点では21:9表示対応は同年3月を予定。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-bc1323a2159758dcb3d7afd2",
+      "evidence-7f5284303361b0d116a2df94"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-bc1323a2159758dcb3d7afd2"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-a51950fcf48ba60caacb000c",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2024-01-30",
+    "target_company_id": "co-samsung",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-67a2bf602577bf75208bfc82": "c3177bce6f57bacc535c8c9e2e9413396e438e818cbcdcddedbfdfb207b0aadc"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-samsung",
+      "rule_version": "1c6ccf31c9e66e070fc23922f69f9aa084ebc93e2fda01f5122b2bb7bfe4a81d",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-0633fe2096c35540c26d5e37",
+        "evidence-c637a51b5fe0e48e701e7d55",
+        "evidence-5d8c610ba3673eb7b0e5c546"
+      ],
+      "geography": "Saudi Arabia",
+      "headline": "GPU・ネットワークでAI基盤を共同構築",
+      "products": [
+        "AMD Instinct MI450",
+        "Cisco critical infrastructure",
+        "AIデータセンター"
+      ],
+      "scale": "初期100MW、2030年まで最大1GWの計画",
+      "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+      "target_role": "AMDがGPUを担当"
+    },
+    "deal_ids": [
+      "deal-0633fe2096c35540c26d5e37"
+    ],
+    "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-0633fe2096c35540c26d5e37",
+      "evidence-c637a51b5fe0e48e701e7d55",
+      "evidence-5d8c610ba3673eb7b0e5c546"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-0633fe2096c35540c26d5e37"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-ed5dab3bf425194454424137",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2025-11-19",
+    "target_company_id": "co-amd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-amd",
+      "rule_version": "a3d6ea57baa6f05c57fef738f9897e6f31c50e0a56ae468a46911d3bc2644e87",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-e072b0ca840594b6099ef13a",
+        "evidence-6d6f63212131f7bb534b27cd",
+        "evidence-d3e9b37aa3a18f1e3ddaba75"
+      ],
+      "geography": "Saudi Arabia",
+      "headline": "GPU・ネットワークでAI基盤を共同構築",
+      "products": [
+        "AMD Instinct MI450",
+        "Cisco critical infrastructure",
+        "AIデータセンター"
+      ],
+      "scale": "初期100MW、2030年まで最大1GWの計画",
+      "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+      "target_role": "HUMAINがデータセンターを担当"
+    },
+    "deal_ids": [
+      "deal-e072b0ca840594b6099ef13a"
+    ],
+    "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e072b0ca840594b6099ef13a",
+      "evidence-6d6f63212131f7bb534b27cd",
+      "evidence-d3e9b37aa3a18f1e3ddaba75"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-e072b0ca840594b6099ef13a"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-77297d28f404b41d4407efaf",
+    "relationship_type": "partnership",
+    "source_company_id": "co-csco",
+    "status_as_of": "2025-11-19",
+    "target_company_id": "co-humain",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d3bab3b4fe0c0a4238d65460": "1032a1c538d75652212f76b6987173bff68c63003e93ecd09185e3f53a11169d"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-cisco-humain",
+      "rule_version": "17c55e2ea8bc73650c3a468f375a781a1f327808239f5299b02980b3ef0cdfff",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-6595ddd2ec91c4721598100a",
+        "evidence-063458c215fa39cad916eb6a"
+      ],
+      "geography": "",
+      "headline": "半導体ウエハ・組立試験を受託",
+      "products": [
+        "半導体ウエハ",
+        "組立・テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-6595ddd2ec91c4721598100a"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてTSMCを明記。前工程のウエハ製造先にも明記されている。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6595ddd2ec91c4721598100a",
+      "evidence-063458c215fa39cad916eb6a"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-6595ddd2ec91c4721598100a"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-668c3757f1fe4e2e2651e365",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-tsmc",
+      "rule_version": "22887eb2fe2fde40eaeb68e433b2dacb48ba8eb0e0c47cb29401895c589da2db",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-368700d772062daf71aa62e3",
+        "evidence-a5839ab085bd2dfa9460e563"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-368700d772062daf71aa62e3"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてAmkorを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-368700d772062daf71aa62e3",
+      "evidence-a5839ab085bd2dfa9460e563"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-368700d772062daf71aa62e3"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-09fe3d64df0a89c5aed36d13",
+    "relationship_type": "supplier",
+    "source_company_id": "co-amkor",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-amkor",
+      "rule_version": "39ae41d3a7899c30ff68a09c4a111fa82278c3b62f56b9f5f3234f81d2fd861d",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-25562e6664ced23f96aa9555",
+        "evidence-e1bdb4de8b4883f0cef40841"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-25562e6664ced23f96aa9555"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてAdvanced Semiconductor Engineeringを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-25562e6664ced23f96aa9555",
+      "evidence-e1bdb4de8b4883f0cef40841"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-25562e6664ced23f96aa9555"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-89e323e26e5b0b508ed85229",
+    "relationship_type": "supplier",
+    "source_company_id": "co-ase",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-ase",
+      "rule_version": "d5799b0945cf4a0661a1d1ddf5e680d50e4301da2dc7cf97fe1abe9b780d932f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-7ede6cf87cdfb20ae83a3423",
+        "evidence-7fa9fd3a57bfa3ff30df4aa3"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-7ede6cf87cdfb20ae83a3423"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてFoxconnを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7ede6cf87cdfb20ae83a3423",
+      "evidence-7fa9fd3a57bfa3ff30df4aa3"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-7ede6cf87cdfb20ae83a3423"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-4d60feaca70e1d8e740ca847",
+    "relationship_type": "supplier",
+    "source_company_id": "co-foxconn",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-foxconn",
+      "rule_version": "aac743616a3ae88dd664b4b41d5a7b690b6cea42eeb646149d639d22d4c91183",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-8ca19fc3b88e4d9ac12ccda4",
+        "evidence-c1947bd7bbcdab5d49eeb3e7"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-8ca19fc3b88e4d9ac12ccda4"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてSiliconwareを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8ca19fc3b88e4d9ac12ccda4",
+      "evidence-c1947bd7bbcdab5d49eeb3e7"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-8ca19fc3b88e4d9ac12ccda4"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-89f149adac793294bb2ce7b0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-siliconware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-siliconware",
+      "rule_version": "7116ca869df7ba6694ff1de059ea067ae1cfacdb653dabe6c85c06822e2c172f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-45aafc16a29dac9d2cfb67f1",
+        "evidence-7d43381af2342124a1b6bbe2"
+      ],
+      "geography": "米国・カナダ・英国・中南米等",
+      "headline": "WWE Rawの独占配信権を提供",
+      "products": [
+        "WWE Raw",
+        "SmackDown・NXT",
+        "WWE大型イベント"
+      ],
+      "scale": "",
+      "source_role": "TKO傘下WWEが番組配信権を提供",
+      "target_role": "Netflixが対象地域で番組を配信"
+    },
+    "deal_ids": [
+      "deal-48ea6ee7f30896dd8f8b5b22"
+    ],
+    "description": "TKOの完全子会社WWEがNetflixへRaw等の配信権を供与。SEC 8-Kは当初10年の総権利料を原文$50億超と開示。Netflixは最初の5年後に離脱でき、さらに10年延長する選択権を持つ。米国等のRawと、利用可能な米国外地域のWWE番組が対象。USDの明示と全期間支払の確実性はこの資料だけでは確認できない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-45aafc16a29dac9d2cfb67f1",
+      "evidence-7d43381af2342124a1b6bbe2"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:11:47+00:00",
+    "latest_event_ids": [
+      "event-982d70518c020246967db188"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-ed5ba08383370100dec2a0e7",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tko",
+    "status_as_of": "2024-01-23",
+    "target_company_id": "co-nflx",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-06f6adca67247d2cb2a6144c": "adb442452294f8b4c5101aea4be1e4c7953c53e9f58e4c547efb552105276fe7"
+      },
+      "reason": "SEC 8-K cross-check of the WWE release: lower-bound fee for initial ten years, five-year opt-out and additional ten-year option. Dollar symbol is retained without inferring USD; contractual opt-out prevents unconditional-total tier classification. Original relationship and event preserved.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-wwe-sec",
+      "rule_version": "ebc678ada03c71e04792b6ce09b019bde80b718562c3f255ab0a5334eccc9166",
+      "verified_at": "2026-09-26T15:11:47+00:00"
+    }
   }
 ]
