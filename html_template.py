@@ -2,19 +2,7 @@
 # generate_html.py と generate_html_jp.py で共有する HTML テンプレート部品
 # CSS・ヘッダー・共通JS を1箇所で管理する
 
-COMMON_CSS = """
-* {
-  box-sizing: border-box;
-}
-html, body {
-  touch-action: manipulation;
-}
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-}
+HEADER_CSS = """
 header {
   background-color: #31343C;
   color: white;
@@ -63,6 +51,22 @@ header {
     display: none;
   }
 }
+"""
+
+COMMON_CSS = """
+* {
+  box-sizing: border-box;
+}
+html, body {
+  touch-action: manipulation;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+""" + HEADER_CSS + """
 .mtz-feature-nav { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
 .mtz-feature-link { min-height: 44px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; color: #31343C; text-decoration: none; font-size: 14px; }
 .mtz-feature-link[aria-current] { background: #31343C; color: white; }

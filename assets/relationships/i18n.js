@@ -12,12 +12,12 @@ dictionary.ja.collapsedEmpty='分類を折りたたんでいます。＋で再�
 dictionary.en.collapsedEmpty='Categories are collapsed. Use + to show their connections.';
 
 Object.assign(dictionary.ja,{
-  colorReason:'線の色の判定',colorPolicy:'色は確認済みの米ドル建て総額を示します。金額未記載・上限・条件付き・追加額は分類対象外です。複数の関係を束ねた線も灰色で表示します。',aggregateReason:'この線には複数の関係が含まれています。金額を合算せず、灰色で表示しています。個々の金額・判定理由は各項目で確認できます。',
+  colorReason:'線の色の判定',colorPolicy:'線の色は関係の種類を示します。金額と条件は個々の取引で確認できます。',aggregateReason:'この線には複数の関係が含まれています。同じ種類はその種類の色、異なる種類は茶色で表示します。金額は合算せず、各項目で確認できます。',
   reason_unverified:'金額の検証待ち',reason_currency_unknown:'通貨の種類が未確認',reason_currency_unsupported:'米ドル以外（換算なし）',reason_bounded_or_unspecified:'上限・下限・範囲などの金額',reason_conditional:'条件付きの金額',reason_contingency_unknown:'条件の有無が未確認',reason_not_total:'追加額・年額など（総額と区別）',reason_unsupported_kind:'分類対象外の金額種別',reason_value_unknown:'総額の値が未確認',reason_multiple_amounts:'対象範囲が異なる複数の金額',group_extended:'周辺企業同士',
   expandHint:'周辺企業同士の確認済みの関係も表示しています。分類の±で表示を切り替え、企業を選んでさらに展開できます。'
 });
 Object.assign(dictionary.en,{
-  colorReason:'Line color',colorPolicy:'Colors show verified USD totals. Unstated, bounded, conditional and additional amounts remain unrated. Lines combining multiple relationships are also grey.',aggregateReason:'This line combines multiple relationships. Amounts are not added together, so it is grey. Open each item for its amount and rating explanation.',
+  colorReason:'Line color',colorPolicy:'Line colors show relationship types. See each connection for amounts and conditions.',aggregateReason:'This line combines multiple relationships. One type retains its color; mixed types are brown. Amounts are not added together. Open each item for amounts and conditions.',
   reason_unverified:'Amount awaiting verification',reason_currency_unknown:'Currency not confirmed',reason_currency_unsupported:'Non-USD amount (no conversion)',reason_bounded_or_unspecified:'Upper/lower bound, range or unspecified value',reason_conditional:'Conditional amount',reason_contingency_unknown:'Contingency not confirmed',reason_not_total:'Increment or periodic amount, not a total',reason_unsupported_kind:'Amount kind outside rating policy',reason_value_unknown:'Total value not confirmed',reason_multiple_amounts:'Multiple amounts with different scopes',group_extended:'Between surrounding companies',
   expandHint:'Verified connections between surrounding companies are also shown. Use ± to show or hide categories; select a company to expand further.'
 });

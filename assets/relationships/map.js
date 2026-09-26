@@ -1,12 +1,12 @@
-import {latestResults,resultRows} from './earnings-results.js?v=112585db3f94';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=112585db3f94';
-import {dealRows} from './deals.js?v=112585db3f94';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=112585db3f94';
-import {DataClient} from './data-client.js?v=112585db3f94';
-import {CompanyView} from './company-view.js?v=112585db3f94';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=112585db3f94';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=112585db3f94';
-import {dictionary} from './i18n.js?v=112585db3f94';
+import {latestResults,resultRows} from './earnings-results.js?v=984f3a930550';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=984f3a930550';
+import {dealRows} from './deals.js?v=984f3a930550';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=984f3a930550';
+import {DataClient} from './data-client.js?v=984f3a930550';
+import {CompanyView} from './company-view.js?v=984f3a930550';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=984f3a930550';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=984f3a930550';
+import {dictionary} from './i18n.js?v=984f3a930550';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -20,13 +20,17 @@ const $=id=>document.getElementById(id), t=key=>dictionary[state.lang][key]||key
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(text,action,cls='')=>{const b=el('button',text,cls);b.type='button';b.addEventListener('click',action);return b;};
 const link=(text,url)=>{const a=el('a',text);a.href=url;return a;};
+const connectionColors={supply:'#2884bd',partnership:'#238569',capital:'#8956b3',group:'#68758a',mixed:'#a36b33'};
+const connectionKind=r=>({supplier:'supply',service_provider:'supply',partnership:'partnership',investment:'capital',acquisition:'capital',equity_right:'capital',subsidiary:'group',group_member:'group'}[r.relationship_type]||'group');
+const connectionTypeLabel=key=>({supply:ux('供給・サービス','Supply / services'),partnership:ux('提携','Partnership'),capital:ux('出資・買収','Investment / acquisition'),group:ux('グループ関係','Group relationships'),mixed:ux('複数種類の関係','Mixed relationship types')}[key]);
+const connectionColor=rows=>{const kinds=new Set(rows.map(connectionKind));return connectionColors[kinds.size===1?[...kinds][0]:'mixed'];};
 const bands=()=>amountBands(client?.manifest.tiers.USD.minimums||['0','100000000','1000000000','10000000000','50000000000'],state.lang);
 const logo=c=>logoPaths[c?.company_id]||c?.listings.map(l=>logoPaths[l.symbol]).find(Boolean)||'';
 const name=id=>{const key=client?.canonicalId(id)||id;return companies.get(key)?.display_name || client?.companies.find(c=>c.company_id===key)?.display_name || id;};
 function message(text,error=false){$('mtz-message').textContent=text;$('mtz-message').className=error?'notice error':'notice';}
 function shell(){
   $('mtz-map-app').innerHTML=`
-    <header class="mtz-header"><a class="brand" href="index.html">Market Time Zen</a><span id="mtz-market" class="muted"></span><nav class="mtz-feature"><a id="mtz-calendar"></a><a id="mtz-connections" href="map.html" aria-current="page"></a><button id="mtz-deals" type="button"></button></nav><button id="mtz-lang" type="button"></button></header>
+    ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><span id="mtz-market" class="muted"></span><nav class="mtz-feature"><a id="mtz-calendar"></a><a id="mtz-connections" href="map.html" aria-current="page"></a><button id="mtz-deals" type="button"></button></nav><button id="mtz-lang" type="button"></button></div>
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
@@ -54,7 +58,8 @@ function shell(){
   translate();
 }
 function translate(){
-  document.documentElement.lang=state.lang;document.title=t('title')+' — Market Time Zen';
+  document.documentElement.lang=state.lang;
+  document.querySelector('.header-title').textContent=t('title');document.title=t('title')+' — Market Time Zen';
   const texts={'mtz-deals':'deals','mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-close':'close','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
@@ -65,9 +70,9 @@ function translate(){
   options('mtz-status',[['',t('allStatus')],...['announced','signed','active','completed','terminated','historical','unknown'].map(k=>[k,t(k)])],state.status);
   options('mtz-days',[['',t('anyDate')],['30',state.lang==='ja'?'30日以内':'Past 30 days'],['90',state.lang==='ja'?'90日以内':'Past 90 days'],['365',state.lang==='ja'?'1年以内':'Past year']],state.days);
   $('mtz-amount').checked=state.amount;
-  const legend=$('mtz-legend');legend.replaceChildren(el('strong',t('amountLegend')));
-  const colors=client?.manifest.tiers.USD.colors||['#8a919e','#38bdf8','#9b5de5','#c49a24','#e34b55'];
-  bands().forEach((band,i)=>{const span=el('span',band,'mtz-band');span.style.setProperty('--band-color',colors[i]);legend.append(span);});legend.append(el('span',t('unrated'),'mtz-unrated'));
+  const legend=$('mtz-legend');legend.replaceChildren(el('strong',ux('関係の種類','Relationship types')));
+  for(const [key,color] of Object.entries(connectionColors)){const span=el('span',connectionTypeLabel(key),'mtz-band');span.style.setProperty('--band-color',color);legend.append(span);}
+
 }
 function fitView(){if(!cy)return;cy.resize();cy.fit(undefined,45);if(cy.zoom()>1.25){cy.zoom(1.25);cy.center();}}
 function rememberPositions(){
@@ -206,13 +211,13 @@ function connectionLabel(row){
 }
 function relationCard(r){
   const row=button('',()=>showRelation(r.relationship_id),'mtz-relation-row');
-  row.style.setProperty('--edge-color',r.tier?.color||'#68758a');
+  row.style.setProperty('--edge-color',connectionColor([r]));
   row.append(el('strong',name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id)));
   if(r.business?.headline)row.append(el('span',r.business.headline,'mtz-relation-headline'));
   if(r.description)row.append(el('span',r.description,'mtz-relation-description'));
   row.append(el('span',t(r.relationship_type)+' · '+t(r.lifecycle_status)+' · '+(r.status_as_of||'—'),'muted'));
   row.append(el('span',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)+' · '+t(a.value_semantics)).join(' / '):t('unknownAmount')));
-  row.append(el('span',t('colorReason')+': '+ratingText(r),'mtz-rating-note'));
+  row.append(el('span',ux('金額の分類', 'Amount classification')+': '+ratingText(r),'mtz-rating-note'));
   return row;
 }
 function filtered(){
@@ -266,9 +271,9 @@ function render(){
   const nodes=shown.map((id,i)=>({data:{id,label:name(id),favorite:!!fav(id),logo:logo(companies.get(id)),center:id===state.company},position:positions[i]}));
   const positionById=new Map(shown.map((id,i)=>[id,positions[i]]));
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
-  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:multi?'#68758a':r.tier?.color||'#68758a',bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b)}};});
+  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b)}};});
   cy?.destroy();
-  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':.8,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?rated]',style:{'width':3}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4','opacity':1,'z-index':10}}]});
+  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':.8,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}}]});
   if(!viewport&&cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
   cy.on('mouseover','edge',e=>{e.target.addClass('inspect');markSelectionRows(e.target.data('relations'),true);});cy.on('mouseout','edge',e=>{e.target.removeClass('inspect');markSelectionRows(e.target.data('relations'),false);});
   cy.on('tap','node',e=>selectCompany(e.target.id()));
@@ -295,7 +300,7 @@ function renderMapTools(){
   const filter=el('select');filter.setAttribute('aria-label',ux('取引を絞り込む','Filter connections'));
   for(const [value,ja,en] of [['','すべての取引','All connections'],['recent','公表90日以内','Announced in 90 days'],['amount','金額あり','Amount disclosed'],['suppliers','選択企業の供給元','Selected company suppliers'],['customers','選択企業の顧客','Selected company customers'],['partnership','提携','Partnerships'],['capital','出資・買収','Investments / acquisitions']]){const o=el('option',ux(ja,en));o.value=value;filter.append(o);}
   filter.value=quickFilter;filter.onchange=()=>{quickFilter=filter.value;render();};tools.append(filter);
-  const undo=button(ux('展開を戻す','Undo expansion'),()=>{
+  const undo=button(ux('つながりの展開を戻す','Undo expansion'),()=>{
     const previous=expansionHistory.pop();if(!previous)return;
     generation++;request?.abort();$('mtz-cancel').hidden=true;message('');
     neighborhoods=previous.neighborhoods;expanded=previous.expanded;
@@ -328,15 +333,15 @@ async function renderSelection(){
   const title=el('div');title.append(el('strong',name(cid)),el('small',c.listings.map(l=>l.symbol).join(' · ')));heading.append(title);
   heading.append(button('×',()=>{selectionOpen=false;selectionVersion++;panel.hidden=true;}));heading.lastChild.setAttribute('aria-label',t('close'));panel.append(heading);
   const actions=el('div',undefined,'mtz-selection-actions');
-  const expand=button(t('loading'),()=>expandCompany(cid));expand.disabled=true;
+  const expand=button(t('loading'),()=>expandCompany(cid));expand.disabled=true;expand.classList.add('primary');
   actions.append(expand,button(ux('詳細・決算','Details / earnings'),()=>showCompany(cid)),button(t('center'),()=>choose(cid)));panel.append(actions);
   const rows=filtered().filter(r=>[r.source_company_id,r.target_company_id].includes(cid));
   const details=el('details'),summary=el('summary',ux(`取引一覧（${rows.length}件）`,`Connections (${rows.length})`));
   details.open=wasOpen??!matchMedia('(max-width: 760px)').matches;details.append(summary);
   const list=el('div',undefined,'mtz-selection-list');
   for(const r of rows.slice(0,selectionRows)){
-    const row=button('',()=>showRelation(r.relationship_id),'mtz-selection-row');row.dataset.relationId=r.relationship_id;
-    row.append(el('strong',name(r.source_company_id===cid?r.target_company_id:r.source_company_id)),el('span',connectionLabel(r)),el('small',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)).join(' / '):t('unknownAmount')),el('small',r.event_date||'—'));
+    const row=button('',()=>showRelation(r.relationship_id),'mtz-selection-row');row.dataset.relationId=r.relationship_id;row.style.setProperty('--edge-color',connectionColor([r]));
+    row.append(el('strong',name(r.source_company_id===cid?r.target_company_id:r.source_company_id)),el('span',connectionLabel(r)),el('small',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)+' · '+t(a.value_semantics)).join(' / '):t('unknownAmount')),el('small',r.event_date||'—'));
     row.onmouseenter=()=>inspectRelation(r.relationship_id,true);row.onmouseleave=()=>inspectRelation(r.relationship_id,false);
     row.onfocus=()=>inspectRelation(r.relationship_id,true);row.onblur=()=>inspectRelation(r.relationship_id,false);list.append(row);
   }
@@ -348,10 +353,10 @@ async function renderSelection(){
     const data=await client.company(cid);if(version!==selectionVersion)return;
     const newCompanies=data.companies.filter(c=>!companies.has(c.company_id)).length;
     const added=[...data.relationships,...(data.peer_relationships||[])].filter(r=>!relationships.has(r.relationship_id)).length;
-    expand.textContent=ux(`展開 ＋${newCompanies}社 / ${added}件`,`Expand +${newCompanies} companies / ${added} connections`);
+    expand.textContent=ux(`つながりを展開 ＋${newCompanies}社 / ${added}件`,`Expand +${newCompanies} companies / ${added} connections`);
     expand.disabled=added===0;
     expand.title=ux('絞り込みと表示上限により、一部が表示されない場合があります','Filters and the display limit may hide some additions');
-  }catch{if(version===selectionVersion){expand.textContent=ux('展開を再試行','Retry expansion');expand.disabled=false;}}
+  }catch{if(version===selectionVersion){expand.textContent=ux('つながりの展開を再試行','Retry expansion');expand.disabled=false;}}
 }
 function openDetail(title){
   const panel=$('mtz-detail');if(panel.hidden)lastFocus=document.activeElement;
@@ -422,7 +427,7 @@ async function showRelation(rid){
     if([r.source_company_id,r.target_company_id].some(id=>client.groups.has(client.canonicalId(id))))paragraph(content,state.lang==='ja'?'資料上の当事者':'Parties in the source',client.rawName(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+client.rawName(r.target_company_id));
     const latest=d.events.filter(e=>r.latest_event_ids.includes(e.event_id)).sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''))[0];
     if(latest?.amounts.length){const summary=el('section',undefined,'mtz-amount-detail');summary.append(el('h3',state.lang==='ja'?'公表された金額':'Disclosed amount'));for(const a of latest.amounts)summary.append(el('strong',amountText(a,state.lang)),el('p',t(a.amount_kind)+' · '+t(a.value_semantics)));content.append(summary);}
-    paragraph(content,t('colorReason'),ratingText(d.summary||relationships.get(rid)));
+    paragraph(content,ux('金額の分類','Amount classification'),ratingText(d.summary||relationships.get(rid)));
     paragraph(content,t('details'),t(r.relationship_type));paragraph(content,t('statusAsOf'),t(r.lifecycle_status)+' · '+(r.status_as_of||'—'));paragraph(content,'',r.description);
     if(r.business){const b=r.business;paragraph(content,t('businessContent'),b.headline);paragraph(content,t('products'),b.products.join(' / '));paragraph(content,client.rawName(r.source_company_id),b.source_role);paragraph(content,client.rawName(r.target_company_id),b.target_role);paragraph(content,t('scale'),b.scale);paragraph(content,t('geography'),b.geography);}
     if(r.status_as_of&&r.status_as_of<new Date(Date.now()-365*86400000).toISOString().slice(0,10))content.append(el('p',t('stale'),'notice'));

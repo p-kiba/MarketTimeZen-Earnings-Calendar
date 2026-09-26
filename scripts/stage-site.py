@@ -2,6 +2,7 @@
 import shutil
 import importlib.util
 import sys
+import re
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from relationships_py.state import ROOT,read
@@ -9,6 +10,18 @@ from relationships_py.exporter import validate_public
 
 def stage(root=ROOT):
     root=Path(root);validate_public(root)
+    from html_template import HEADER_CSS, build_header
+    (root/'assets/relationships/site-header.css').write_text(HEADER_CSS)
+    page=root/'map.html'
+    markup=build_header('Company connections','').replace('<header>', '<header class="mtz-site-header">')
+    template='<template id="mtz-shared-header">'+markup+'</template>'
+    html=page.read_text()
+    if '<template id="mtz-shared-header">' in html:
+        html=re.sub(r'<template id="mtz-shared-header">.*?</template>',lambda _:template,html,flags=re.S)
+    else:html=html.replace('<body>','<body>'+template)
+    if 'assets/relationships/site-header.css' not in html:
+        html=html.replace('</head>','<link rel="stylesheet" href="assets/relationships/site-header.css"></head>')
+    page.write_text(html)
     spec=importlib.util.spec_from_file_location('version_map_assets',root/'scripts/version-map-assets.py')
     module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);module.version(root)
     out=root/'.site-build'
