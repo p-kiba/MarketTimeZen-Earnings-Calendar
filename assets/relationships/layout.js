@@ -106,3 +106,11 @@ export function edgeBend(a,b,positions) {
   }
   return best;
 }
+
+// Keep opaque, single-line labels off their strokes and away from endpoint logos.
+// A label centered on a short horizontal edge can otherwise conceal it entirely.
+export function edgeLabelPlacement(a,b) {
+  const dx=Math.abs(b.x-a.x),dy=Math.abs(b.y-a.y),vertical=dy>dx;
+  const labelWidth=vertical?220:Math.max(64,Math.min(300,dx-110));
+  return {labelWidth,labelX:vertical?labelWidth/2+14:0,labelY:vertical?0:-22};
+}
