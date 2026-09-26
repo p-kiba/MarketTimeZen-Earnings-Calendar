@@ -85,6 +85,23 @@ export function fanPositions(count,width,height){
   return graphPositions(ids,ids.slice(1).map(id=>({source_company_id:ids[0],target_company_id:id})),width,height,ids[0]);
 }
 
+// At overview zoom, use the available horizontal space while keeping each
+// neighborhood's relative positions and the current camera/pan unchanged.
+export function overviewHorizontalPositions(base,width,zoom,panX){
+  if(base.size<2||width<900||zoom>=.32)return base;
+  const xs=[...base.values()].map(p=>p.x),left=Math.min(...xs),right=Math.max(...xs);
+  if(right-left<1)return base;
+  const middle=(left+right)/2,screenMiddle=middle*zoom+panX;
+  const margin=Math.min(140,Math.max(48,width*.07));
+  const leftSpace=(middle-left)*zoom,rightSpace=(right-middle)*zoom;
+  const factor=Math.max(1,Math.min(4.5,
+    leftSpace?(screenMiddle-margin)/leftSpace:4.5,
+    rightSpace?(width-margin-screenMiddle)/rightSpace:4.5));
+  const progress=Math.max(0,Math.min(1,(.32-zoom)/.17));
+  const eased=progress*progress*(3-2*progress),stretch=1+(factor-1)*eased;
+  return new Map([...base].map(([id,p])=>[id,{x:middle+(p.x-middle)*stretch,y:p.y}]));
+}
+
 // Prefer a short curve that misses unrelated company cards. A straight line
 // through another company can falsely suggest a relationship to that company.
 export function edgeBend(a,b,positions) {

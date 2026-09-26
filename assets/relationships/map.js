@@ -1,13 +1,13 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=40d4fc4d8687';
-import {latestResults,resultRows} from './earnings-results.js?v=40d4fc4d8687';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=40d4fc4d8687';
-import {dealRows} from './deals.js?v=40d4fc4d8687';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=40d4fc4d8687';
-import {DataClient} from './data-client.js?v=40d4fc4d8687';
-import {CompanyView} from './company-view.js?v=40d4fc4d8687';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=40d4fc4d8687';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=40d4fc4d8687';
-import {dictionary} from './i18n.js?v=40d4fc4d8687';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=c6591d53710e';
+import {latestResults,resultRows} from './earnings-results.js?v=c6591d53710e';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=c6591d53710e';
+import {dealRows} from './deals.js?v=c6591d53710e';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=c6591d53710e';
+import {DataClient} from './data-client.js?v=c6591d53710e';
+import {CompanyView} from './company-view.js?v=c6591d53710e';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=c6591d53710e';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=c6591d53710e';
+import {dictionary} from './i18n.js?v=c6591d53710e';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -414,9 +414,11 @@ function spreadCrowdedLogos(){
   const nodes=cy.nodes().filter(node=>!node.hasClass('zoom-hidden'))
     .sort((a,b)=>Number(b.id()===state.company)-Number(a.id()===state.company)||
       Number(b.id()===selected)-Number(a.id()===selected)||b.degree()-a.degree()||a.id().localeCompare(b.id()));
+  const visibleBase=new Map(nodes.map(node=>[node.id(),zoomBasePositions.get(node.id())||node.position()]));
+  const overviewBase=overviewHorizontalPositions(visibleBase,cy.width(),zoom,cy.pan().x);
   const placed=[],next=new Map(),angle=Math.PI*(3-Math.sqrt(5));
   for(const node of nodes){
-    const base=zoomBasePositions.get(node.id())||node.position();
+    const base=overviewBase.get(node.id());
     const width=node.width()*zoom,height=node.height()*zoom;
     let point={...base};
     const overlaps=other=>Math.abs((point.x-other.point.x)*zoom)<(width+other.width)/2+8&&
