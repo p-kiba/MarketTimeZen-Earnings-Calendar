@@ -2589,10 +2589,18 @@
     "display_name": "Marvell Technology, Inc.",
     "entity_status": "resolved",
     "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001628280-26-045564/mrvl-20260625.htm",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001628280-26-045564/mrvl-20260625.htm",
+        "symbol": "MRVL",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
     "merged_into": null,
     "universe_memberships": []
   },
