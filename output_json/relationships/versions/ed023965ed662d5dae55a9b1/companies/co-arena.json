@@ -1,0 +1,123 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-arena",
+      "country": null,
+      "display_name": "Arena Pharmaceuticals",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pfe",
+      "country": null,
+      "display_name": "Pfizer Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-12-14",
+      "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+          "symbol": "PFE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-arena",
+    "country": null,
+    "display_name": "Arena Pharmaceuticals",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-9239eeb33ee32d7dd8b7b774",
+          "amount_kind": "purchase_price",
+          "conditions": "全株式・オプション・RSUを1株100ドルの現金対価で取得した際の総株式価値。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-df89a45e3295409070cbadeb",
+            "evidence-74ff0096e5caa5629c259e6d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$6.7 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-pfe"
+          ],
+          "qualifier": "approximately",
+          "scope": "全株式・オプション・RSUを1株100ドルの現金対価で取得した際の総株式価値。",
+          "value": "6700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-df89a45e3295409070cbadeb",
+          "evidence-74ff0096e5caa5629c259e6d"
+        ],
+        "geography": "",
+        "headline": "免疫炎症疾患向け開発薬の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "PfizerはArena Pharmaceuticalsを買収し、潰瘍性大腸炎などを対象とするetrasimodを含む免疫炎症領域の開発パイプラインを取得した。",
+      "direction": "directed",
+      "event_date": "2022-03-11",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-f965278a9701b5e9fb0dd9fa",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2022-03-11",
+      "target_company_id": "co-arena",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-03-11"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

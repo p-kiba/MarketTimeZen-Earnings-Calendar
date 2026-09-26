@@ -1,0 +1,134 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cop",
+      "country": null,
+      "display_name": "ConocoPhillips",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-shell-enterprises-llc",
+      "country": null,
+      "display_name": "Shell Enterprises LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-shell-enterprises-llc",
+    "country": null,
+    "display_name": "Shell Enterprises LLC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f11404b4149507b92f33d0c1",
+          "amount_kind": "purchase_price",
+          "conditions": "発表された現金購入価格。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b41ed17a243821844780604e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.5 billion",
+          "payee_company_ids": [
+            "co-shell-enterprises-llc"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-8c2ce0e591bd08988eee7a52",
+          "amount_kind": "other",
+          "conditions": "通常のクロージング調整後に実際に支払ったと公表された金額。95億ドルへ加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b41ed17a243821844780604e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$8.6 billion",
+          "payee_company_ids": [
+            "co-shell-enterprises-llc"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "8600000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはShell Enterprises LLCからDelaware BasinのPermian資産を現金で取得し、ConocoPhillipsのPermian事業を拡大した。",
+      "direction": "directed",
+      "event_date": "2021-12-01",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-28afffd26328a48e9fe9f4d1",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2021-12-01",
+      "target_company_id": "co-shell-enterprises-llc",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-12-01"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

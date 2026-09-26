@@ -1,0 +1,109 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-computershare-limited",
+      "country": null,
+      "display_name": "Computershare Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-wells-fargo-corporate-trust-services",
+      "country": null,
+      "display_name": "Wells Fargo Corporate Trust Services",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-wells-fargo-corporate-trust-services",
+    "country": null,
+    "display_name": "Wells Fargo Corporate Trust Services",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-0e552797c92375d0b0c5f124",
+          "amount_kind": "purchase_price",
+          "conditions": "Computershareの株主向け資料に記載されたWells Fargo CTS資産取得の契約対価。完了後の調整額は未確認。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-cb2093417892261a4531cc1d",
+            "evidence-4e4a6c46543d42c940786054"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "US$750 million",
+          "payee_company_ids": [
+            "co-computershare-limited"
+          ],
+          "payer_company_ids": [
+            "co-wells-fargo-corporate-trust-services"
+          ],
+          "qualifier": "exact",
+          "scope": "Computershareの株主向け資料に記載されたWells Fargo CTS資産取得の契約対価。完了後の調整額は未確認。",
+          "value": "750000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ComputershareがWells Fargo Corporate Trust Servicesの資産を取得し、米国のコーポレートトラスト事業と約2,000人の従業員を引き継いだ。取得対象はWells Fargo全社ではない。",
+      "direction": "directed",
+      "event_date": "2021-11-01",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:27:00+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-a8dda407caa0922f32977214",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-computershare-limited",
+      "status_as_of": "2021-11-01",
+      "target_company_id": "co-wells-fargo-corporate-trust-services",
+      "tier": {
+        "amount_id": "amount-0e552797c92375d0b0c5f124",
+        "color": "#38bdf8",
+        "currency": "USD",
+        "level": 2
+      },
+      "tier_reasons": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-11-01"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

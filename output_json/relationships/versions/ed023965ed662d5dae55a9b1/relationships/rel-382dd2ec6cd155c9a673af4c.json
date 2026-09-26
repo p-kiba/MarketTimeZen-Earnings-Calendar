@@ -1,0 +1,173 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-08-01",
+      "conditions": "",
+      "deal_id": "deal-d0df0ffaf355845b1c2d60c8",
+      "detected_at": "2026-09-26T13:27:00+00:00",
+      "effective_date": null,
+      "event_id": "event-d0df0ffaf355845b1c2d60c8",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-d0df0ffaf355845b1c2d60c8"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d0df0ffaf355845b1c2d60c8"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-382dd2ec6cd155c9a673af4c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-43f64c933167807c5d7e1145": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3"
+        },
+        "reason": "Primary-source review of merged research record r87; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r87",
+        "rule_version": "9d520e5e8759e8604200204339a483eca8b4c549ff8c679b43df01eef255db1b",
+        "verified_at": "2026-09-26T13:27:00+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d0df0ffaf355845b1c2d60c8",
+      "excerpt": "AbbVie (NYSE: ABBV) today announced that it has completed its acquisition of Cerevel Therapeutics",
+      "locator": "p:10",
+      "normalized_text_hash": "269641018cb849553698eb58f7592045a66e44eec53232e477341e6e54f0b860",
+      "section": "Official issuer disclosure",
+      "source_id": "source-43f64c933167807c5d7e1145",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-d0df0ffaf355845b1c2d60c8"
+    ],
+    "description": "AbbVieがCerevel Therapeuticsの全発行済株式を取得。emraclidine、tavapadon等の神経・精神疾患向け臨床パイプラインを神経科学事業に加えた。完了発表では最終総額を示していない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d0df0ffaf355845b1c2d60c8"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-d0df0ffaf355845b1c2d60c8"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-382dd2ec6cd155c9a673af4c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-08-01",
+    "target_company_id": "co-cerevel-therapeutics",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-43f64c933167807c5d7e1145": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3"
+      },
+      "reason": "Primary-source review of merged research record r87; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r87",
+      "rule_version": "9d520e5e8759e8604200204339a483eca8b4c549ff8c679b43df01eef255db1b",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.abbvie.com/2024-08-01-AbbVie-Completes-Acquisition-of-Cerevel-Therapeutics",
+      "content_hash": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-08-01",
+      "publisher": "AbbVie",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-43f64c933167807c5d7e1145",
+      "source_type": "official_newsroom",
+      "title": "AbbVie Completes Acquisition of Cerevel Therapeutics - Aug 1, 2024"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "AbbVieがCerevel Therapeuticsの全発行済株式を取得。emraclidine、tavapadon等の神経・精神疾患向け臨床パイプラインを神経科学事業に加えた。完了発表では最終総額を示していない。",
+    "direction": "directed",
+    "event_date": "2024-08-01",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-382dd2ec6cd155c9a673af4c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-08-01",
+    "target_company_id": "co-cerevel-therapeutics",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

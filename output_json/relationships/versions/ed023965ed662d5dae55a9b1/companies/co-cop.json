@@ -1,0 +1,353 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-concho-resources",
+      "country": null,
+      "display_name": "Concho Resources",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cop",
+      "country": null,
+      "display_name": "ConocoPhillips",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-marathon-oil",
+      "country": null,
+      "display_name": "Marathon Oil Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-shell-enterprises-llc",
+      "country": null,
+      "display_name": "Shell Enterprises LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-totalenergies-ep-canada",
+      "country": null,
+      "display_name": "TotalEnergies EP Canada Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-cop",
+    "country": null,
+    "display_name": "ConocoPhillips",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a1a66f2064b5efdcc6dd693b",
+          "amount_kind": "other",
+          "conditions": "純有利子負債54億ドルを含む企業価値。現金支払額ではない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+          "payee_company_ids": [
+            "co-marathon-oil"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "22500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはMarathon Oilを全株式取引で買収し、米国内の低コスト供給資源とLNG事業に関係する資産を拡充した。",
+      "direction": "directed",
+      "event_date": "2024-11-22",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-99e370033be8aedbfaecc8a1",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2024-11-22",
+      "target_company_id": "co-marathon-oil",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-89e814cad22708f9208fa58c",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の取引価値。Concho株1株につきConocoPhillips株1.46株。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "All-Stock Transaction Valued at $9.7 Billion",
+          "payee_company_ids": [
+            "co-concho-resources"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはConcho Resourcesを全株式取引で買収し、Permian Basinの資産規模と生産基盤を拡大した。",
+      "direction": "directed",
+      "event_date": "2021-01-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-5ef4aef406c9a0e22fe5f077",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2021-01-15",
+      "target_company_id": "co-concho-resources",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f11404b4149507b92f33d0c1",
+          "amount_kind": "purchase_price",
+          "conditions": "発表された現金購入価格。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b41ed17a243821844780604e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.5 billion",
+          "payee_company_ids": [
+            "co-shell-enterprises-llc"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-8c2ce0e591bd08988eee7a52",
+          "amount_kind": "other",
+          "conditions": "通常のクロージング調整後に実際に支払ったと公表された金額。95億ドルへ加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b41ed17a243821844780604e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$8.6 billion",
+          "payee_company_ids": [
+            "co-shell-enterprises-llc"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "8600000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはShell Enterprises LLCからDelaware BasinのPermian資産を現金で取得し、ConocoPhillipsのPermian事業を拡大した。",
+      "direction": "directed",
+      "event_date": "2021-12-01",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-28afffd26328a48e9fe9f4d1",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2021-12-01",
+      "target_company_id": "co-shell-enterprises-llc",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7e7bd460b91a668d25aa3340",
+          "amount_kind": "other",
+          "conditions": "クロージング調整後の現金額。原文は同じ金額のCAD換算としてCAD$3.7 billionも併記。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "approximately $2.7 billion cash (CAD$3.7 billion) after closing adjustments",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "2700000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-8437818e71177062ba2e4935",
+          "amount_kind": "other",
+          "conditions": "5年間の将来条件付支払。原油価格・生産等の条件に基づく。原文はCAD$0.4 billionも併記。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "future contingent payments of up to approximately $0.3 billion (CAD$0.4 billion)",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "up_to",
+          "scope": "bilateral",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはTotalEnergies EP CanadaからSurmontオイルサンド事業の残余50%持分を取得し、同事業を100%保有する体制に移行した。",
+      "direction": "directed",
+      "event_date": "2023-10-04",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-f3934e147c2adcd7657378fc",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2023-10-04",
+      "target_company_id": "co-totalenergies-ep-canada",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-01-15",
+    "2021-12-01",
+    "2023-10-04",
+    "2024-11-22"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

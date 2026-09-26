@@ -1,0 +1,219 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-01-09",
+      "conditions": "",
+      "deal_id": "deal-e6b20533ea615df64558ef88",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-e6b20533ea615df64558ef88",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e6b20533ea615df64558ef88",
+        "evidence-4f9210ce13650bc633e27aa9"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e6b20533ea615df64558ef88",
+            "evidence-4f9210ce13650bc633e27aa9"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-10f75830f2d48d7285779605"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-1d8d40a462d948ef66361776",
+        "rule_version": "6c42953325c55ba87752472c22d4af2b823ee771338f59e550139bd7c6a60107",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4f9210ce13650bc633e27aa9",
+      "excerpt": "Meta",
+      "locator": "p:16",
+      "normalized_text_hash": "2b9c5390b9cd937f3720676671c7a8a7b5af492373228955ed1d342b4291a8d3",
+      "section": "Issuer context",
+      "source_id": "source-1d8d40a462d948ef66361776",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e6b20533ea615df64558ef88",
+      "excerpt": "1.2 GW",
+      "locator": "p:14",
+      "normalized_text_hash": "c79704c7b96d9d5ba74f3126ef3b1e564dd11f3e42a8a3862aaa81eb4eec0bfd",
+      "section": "Official disclosure: business context",
+      "source_id": "source-1d8d40a462d948ef66361776",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-e6b20533ea615df64558ef88",
+        "evidence-4f9210ce13650bc633e27aa9"
+      ],
+      "geography": "米国・Ohio州",
+      "headline": "Ohio原子力キャンパスの開発支援",
+      "products": [
+        "原子力発電キャンパス"
+      ],
+      "scale": "最大1.2GW、最速2030年",
+      "source_role": "発電設備の開発",
+      "target_role": "地域事業を支える開発支援"
+    },
+    "deal_ids": [
+      "deal-e6b20533ea615df64558ef88"
+    ],
+    "description": "Ohio州の新設原子力キャンパス開発を支援する提携。最大1.2GWを計画し、最速2030年の稼働を想定。未稼働の開発計画として表示。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e6b20533ea615df64558ef88",
+      "evidence-4f9210ce13650bc633e27aa9"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-e6b20533ea615df64558ef88"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-10f75830f2d48d7285779605",
+    "relationship_type": "partnership",
+    "source_company_id": "co-oklo",
+    "status_as_of": "2026-01-09",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-1d8d40a462d948ef66361776",
+      "rule_version": "6c42953325c55ba87752472c22d4af2b823ee771338f59e550139bd7c6a60107",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "content_hash": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-09",
+      "publisher": "co-meta",
+      "retrieved_at": "2026-09-26T04:03:00+00:00",
+      "source_id": "source-1d8d40a462d948ef66361776",
+      "source_type": "official_newsroom",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-e6b20533ea615df64558ef88",
+        "evidence-4f9210ce13650bc633e27aa9"
+      ],
+      "geography": "米国・Ohio州",
+      "headline": "Ohio原子力キャンパスの開発支援",
+      "products": [
+        "原子力発電キャンパス"
+      ],
+      "scale": "最大1.2GW、最速2030年",
+      "source_role": "発電設備の開発",
+      "target_role": "地域事業を支える開発支援"
+    },
+    "description": "Ohio州の新設原子力キャンパス開発を支援する提携。最大1.2GWを計画し、最速2030年の稼働を想定。未稼働の開発計画として表示。",
+    "direction": "undirected",
+    "event_date": "2026-01-09",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-10f75830f2d48d7285779605",
+    "relationship_type": "partnership",
+    "source_company_id": "co-oklo",
+    "status_as_of": "2026-01-09",
+    "target_company_id": "co-meta",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

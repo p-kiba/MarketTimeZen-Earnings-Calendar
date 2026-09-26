@@ -1,0 +1,109 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-collins-aerospace-flight-control-actuation-business",
+      "country": null,
+      "display_name": "Collins Aerospace's actuation and flight control business",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-safran",
+      "country": null,
+      "display_name": "Safran",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-safran",
+    "country": null,
+    "display_name": "Safran",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-d9a37a96a25764a0fc03262b",
+          "amount_kind": "other",
+          "conditions": "取得事業の企業価値。現金支払額と同義とは断定しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "enterprise value of the acquired business amounts to $1.8 billion",
+          "payee_company_ids": [
+            "co-collins-aerospace-flight-control-actuation-business"
+          ],
+          "payer_company_ids": [
+            "co-safran"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "1800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "SafranはRTX傘下Collins Aerospaceのフライトコントロール・アクチュエーション事業を買収し、Safran Electronics & Defenseへ統合した。",
+      "direction": "directed",
+      "event_date": "2025-07-21",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-c22cd889ab03f2667df2868e",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-safran",
+      "status_as_of": "2025-07-21",
+      "target_company_id": "co-collins-aerospace-flight-control-actuation-business",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-07-21"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

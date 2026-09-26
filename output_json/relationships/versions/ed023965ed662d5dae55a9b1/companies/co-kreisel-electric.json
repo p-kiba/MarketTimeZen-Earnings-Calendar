@@ -1,0 +1,108 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-deere",
+      "country": null,
+      "display_name": "Deere",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-kreisel-electric",
+      "country": null,
+      "display_name": "Kreisel Electric Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-kreisel-electric",
+    "country": null,
+    "display_name": "Kreisel Electric Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-418fd5c9ef1390d0e76c45db",
+          "amount_kind": "purchase_price",
+          "conditions": "取得現金控除後の総現金購入価格。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "The total cash purchase price, net of cash acquired, was $276 million",
+          "payee_company_ids": [
+            "co-kreisel-electric"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "276000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Deere & Companyは高密度バッテリー技術を開発するKreisel Electricの過半持分を取得し、残余持分について2027年のコール・プットオプションを設定した。",
+      "direction": "directed",
+      "event_date": "2022-05-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-a310372f9f34e67c96742c4c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-deere",
+      "status_as_of": "2022-05-20",
+      "target_company_id": "co-kreisel-electric",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-05-20"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

@@ -37181,5 +37181,2987 @@
       "rule_version": "a09bf443ee9bfa1f31653c6f9cdcf5fdb6c96cbeacc1bec81d5a77d871572498",
       "verified_at": "2026-09-26T13:29:17+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-05-03",
+    "conditions": "2024-05-03に買収完了を発表。 取引対価は全株式で、Pioneer株1株につきExxonMobil株2.3234株。",
+    "deal_id": "deal-bbe74afc2a387cec4edfdd4c",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-bbe74afc2a387cec4edfdd4c",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-bbe74afc2a387cec4edfdd4c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-bbe74afc2a387cec4edfdd4c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-a73c10631f38b2b8932d8f76"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2e62748512c7c700285b8892": "e68e8ecc7a107bf6a4ace3eccc9415577394f7b2b7bfa874f8be736419503244"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r1; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r1",
+      "rule_version": "6fca5f3a4a5432bc43c60fc5f02efb981fb02ae55a3385e540fedf645aaa956d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-11-02",
+    "conditions": "2023-11-02に買収完了。 全株式取引でDenbury株1株につきExxonMobil株0.84株。",
+    "deal_id": "deal-513c4a5b49916a2e5e453808",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-513c4a5b49916a2e5e453808",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-513c4a5b49916a2e5e453808"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-513c4a5b49916a2e5e453808"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-e61dc127ed9040a1862a634c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-023c2b32af19b500000895de": "82983b559c8024f80f0b16d0bcff440ea2aa2c8f0cff58f71235d054186da53f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r2; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r2",
+      "rule_version": "6fe4af79e9dd99fc6f5a2a75d21a91f5f3e5998f3ad92f6c1d56d9cb6d72c0e1",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-11-20",
+    "conditions": "拘束力のないMOU。 最大100,000メートルトンのリチウムカーボネートを複数年で供給する想定。 ExxonMobilの計画生産は支援的な規制枠組み等を条件とする。",
+    "deal_id": "deal-70ee245d4c5ee8ef17bc9e9e",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-70ee245d4c5ee8ef17bc9e9e",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-70ee245d4c5ee8ef17bc9e9e"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-70ee245d4c5ee8ef17bc9e9e"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-12d60157c40214b0abb04a3c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-fd1a95cdbbfe07377b2a87e7": "c7bc775119439e8339fc3be9bec33f499f2fd0f3905c4451b78f7c3bd2b1edd6"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r3; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r3",
+      "rule_version": "6ab73b5ee9358b22fc3b15f6944d5ad1d47b9c549cc49636ca0bbe487f319ba5",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-10-12",
+    "conditions": "年間最大200万メートルトンのCO2を対象とする計画。 開始は発表時点で2025年初頭を予定。 同じ発表にあるCF Industriesの約2億ドル投資は自社の脱水・圧縮設備向けであり、ExxonMobilへの契約金額として扱わない。",
+    "deal_id": "deal-958cd991d664ca23c200ca77",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-958cd991d664ca23c200ca77",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-958cd991d664ca23c200ca77"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-958cd991d664ca23c200ca77"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-0f38047954349ad568bf0366"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9d5948ee85c10ea78ab68c2f": "93e6ab4d10ab884996c12d9fcd8230eee84b6cfeac6e36ef8a7c45571b996422"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r4; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r4",
+      "rule_version": "025e79bddd291adfcfdf49b122d9ee967e82e78287b19578c4309fdcb131e0f8",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-a1a66f2064b5efdcc6dd693b",
+        "amount_kind": "other",
+        "conditions": "純有利子負債54億ドルを含む企業価値。現金支払額ではない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+        "payee_company_ids": [
+          "co-marathon-oil"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "22500000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2024-11-22",
+    "conditions": "Marathon Oil株1株につきConocoPhillips株0.2550株の交換条件。 2024-11-22に買収完了を発表。",
+    "deal_id": "deal-ff48c54c7f248c925f78002d",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-ff48c54c7f248c925f78002d",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-ff48c54c7f248c925f78002d",
+      "evidence-c59ce00fbfbe8eff900eae95"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-ff48c54c7f248c925f78002d",
+          "evidence-c59ce00fbfbe8eff900eae95"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-99e370033be8aedbfaecc8a1"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-282f9f96d0b2a4c028f62d22": "b89cbaf3ddc035c68bb145180faa364e15b55aa75e5a5240006cede0eabe661d",
+        "source-4f54d1e5d9f7403a6d4efb0d": "febd68650a022efe721dd0886283a380dc6dee1a9d1a9c14098b32a47992cfd6"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r9",
+      "rule_version": "50a7306d99b3b770b079ffc34831b1a5f1746d57ecc0f61b486e168edaf0c46b",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-89e814cad22708f9208fa58c",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時の取引価値。Concho株1株につきConocoPhillips株1.46株。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "All-Stock Transaction Valued at $9.7 Billion",
+        "payee_company_ids": [
+          "co-concho-resources"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "9700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2021-01-15",
+    "conditions": "2021-01-15に買収完了。 交換比率はConcho株1株につきConocoPhillips株1.46株。",
+    "deal_id": "deal-110ceeedbed0bce386b4d1cd",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-110ceeedbed0bce386b4d1cd",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-110ceeedbed0bce386b4d1cd",
+      "evidence-b89f3542e31a6bf9ee758c17"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-5ef4aef406c9a0e22fe5f077"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7f3aa8d78e21db200a1cd9fc": "8ffe54843422d9ed2f725c4c27e0b43bad4e8b4fb39d6cf1be76ee1d9625493b",
+        "source-b3a7d429b01b1564a17f3540": "5b03a19316d78cb2b162e988ef0feb87ccb8085a24d6724ed431dde78d50d2d6"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r10; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r10",
+      "rule_version": "e2dc050a841964b4d7b39933dc0306474adec468663428898780263200c46778",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-f11404b4149507b92f33d0c1",
+        "amount_kind": "purchase_price",
+        "conditions": "発表された現金購入価格。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$9.5 billion",
+        "payee_company_ids": [
+          "co-shell-enterprises-llc"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "9500000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-8c2ce0e591bd08988eee7a52",
+        "amount_kind": "other",
+        "conditions": "通常のクロージング調整後に実際に支払ったと公表された金額。95億ドルへ加算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$8.6 billion",
+        "payee_company_ids": [
+          "co-shell-enterprises-llc"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "8600000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2021-12-01",
+    "conditions": "取得の経済上の有効日は2021-07-01。 約86億ドルはクロージング調整後支払額であり、当初購入価格95億ドルの別表現。",
+    "deal_id": "deal-b41ed17a243821844780604e",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-b41ed17a243821844780604e",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-b41ed17a243821844780604e"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b41ed17a243821844780604e"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-28afffd26328a48e9fe9f4d1"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-fcdb1d8204be48bd7973fe4c": "f615906531297609bbf78a4b6470eeab8b2e97e63ef3492051826fa216df73ff"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r11; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r11",
+      "rule_version": "5849b8a6fd6f16e8be809ed95e2d0a5cd563aa89de5ed631c90687af3073c269",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-7e7bd460b91a668d25aa3340",
+        "amount_kind": "other",
+        "conditions": "クロージング調整後の現金額。原文は同じ金額のCAD換算としてCAD$3.7 billionも併記。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately $2.7 billion cash (CAD$3.7 billion) after closing adjustments",
+        "payee_company_ids": [
+          "co-totalenergies-ep-canada"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "2700000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-8437818e71177062ba2e4935",
+        "amount_kind": "other",
+        "conditions": "5年間の将来条件付支払。原油価格・生産等の条件に基づく。原文はCAD$0.4 billionも併記。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "max_value": "300000000",
+        "min_value": null,
+        "original_text": "future contingent payments of up to approximately $0.3 billion (CAD$0.4 billion)",
+        "payee_company_ids": [
+          "co-totalenergies-ep-canada"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "up_to",
+        "scope": "bilateral",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2023-10-04",
+    "conditions": "TotalEnergies EP CanadaのSurmont 50%持分を取得。 将来条件付支払は5年間で最大約3億ドル。",
+    "deal_id": "deal-e3f726a44cad86ac53346a47",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-e3f726a44cad86ac53346a47",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-e3f726a44cad86ac53346a47"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-f3934e147c2adcd7657378fc"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-37dd2cd56b3855a61d008db2": "74b555cd0bef81abafc4c4e3030b40c8eb5225a50282b209009cac40de4b26e7"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r12; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r12",
+      "rule_version": "e99672d53a7dcf3b76425baa59218cc096696d550e31faaf90004f5381d836ce",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-8688830ec4db193e156bc2f5",
+        "amount_kind": "other",
+        "conditions": "取得案件全体の取引価値で、Gulf Powerの負債約14億ドルの引受を含む。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$6.475 billion",
+        "payee_company_ids": [
+          "co-southern-company"
+        ],
+        "payer_company_ids": [
+          "co-nextera-energy"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "6475000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-6570ceb055167efe46fe7246",
+        "amount_kind": "purchase_price",
+        "conditions": "会社が購入価格として示した値。上記64.75億ドルの取引価値とは別の意味で、合算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately $5.1 billion purchase price",
+        "payee_company_ids": [
+          "co-southern-company"
+        ],
+        "payer_company_ids": [
+          "co-nextera-energy"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "5100000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2018-05-21",
+    "conditions": "取得対象はGulf Power、Florida City Gas、Oleanderの100%持分、Stantonの65%持分等。 取引は規制承認等を条件としていた。",
+    "deal_id": "deal-60e172ab6749507f2b5f5128",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-60e172ab6749507f2b5f5128",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-60e172ab6749507f2b5f5128",
+      "evidence-4241396b2261f77fa8f16e59"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-60e172ab6749507f2b5f5128",
+          "evidence-4241396b2261f77fa8f16e59"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-69de96fb84bed19d38e90fc4"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-fc59e40cb3e4f446f7fe7522": "490b4325e0f44e0811810e296766187288cc43bfb05ff65ebd49f44e1c8c1151"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r13; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r13",
+      "rule_version": "786f3b9d9dc267725a92cc0db393f83601e55bba77f5b51bf93126ae676a9e67",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-06-07",
+    "conditions": "最大4.5GWの新規太陽光・蓄電開発を対象。 既に進行中の1.7GW超のプロジェクトに追加される枠組み。",
+    "deal_id": "deal-e0872e60ecd7119545a108a5",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-e0872e60ecd7119545a108a5",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-e0872e60ecd7119545a108a5"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-e0872e60ecd7119545a108a5"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-46bfe6dbbdf03321ba861614"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-977d5dbf9596d9148e6ae938": "7729fca4d5d8674017ccfb22bceb8b5cf69934cb284b448fab5ebe5014d9fa29"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r14; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r14",
+      "rule_version": "fec78e9082c55f12929eb41dc082d7d8bdc494f5fbd8cc238dc66a4a4707da88",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-10-27",
+    "conditions": "GoogleはDuane Arnoldの615MW原子力発電所から電力を購入予定。 発電所は規制承認を条件に2029年第1四半期までの運転再開を目標。 発表の『アイオワ州に90億ドル超の経済効果』は二社間契約金額ではないためamountsに入れない。",
+    "deal_id": "deal-ac78b24b70e1df325b72025c",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-ac78b24b70e1df325b72025c",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-ac78b24b70e1df325b72025c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-ac78b24b70e1df325b72025c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-34a89eb06119182584fa1596"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e9969bd10dc9090d0d806217": "3d3964fdc75c5a4cbe574612e841596079c717e8a70d773eb87877f9e18bb33f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r15",
+      "rule_version": "a85915a7f1af1e4ece36174cace5592f3486f92202607a367ee4d91ff1467229",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-12-08",
+    "conditions": "WPPI EnergyはPoint Beachの出力から168MWを引き続き受け取る。 契約は2050年代までの供給継続を定める。",
+    "deal_id": "deal-0d47665f191cd46fff8d970e",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-0d47665f191cd46fff8d970e",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-0d47665f191cd46fff8d970e"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0d47665f191cd46fff8d970e"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-378baa1871f5bdb9869a34e3"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-be04389fd98561e818039d60": "90398181add02bc0cf82ea0ab84844f92bed14462bab2736c2f29373f2c177b7"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r16; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r16",
+      "rule_version": "29737c34485c85f14c8bd818d2972e6d878990fee247f370f4549367efff411f",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-ebcbc6c35597b05bfb9e3ad1",
+        "amount_kind": "purchase_price",
+        "conditions": "残余50%持分の購入価格。GE Vernovaは現金と負債を同額ずつ組み合わせて資金調達したと公表。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "purchase price of $5.275 billion",
+        "payee_company_ids": [
+          "co-prolec-ge"
+        ],
+        "payer_company_ids": [
+          "co-ge-vernova"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "5275000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2026-02-02",
+    "conditions": "取得対象はProlec GEの残余50%持分。 売り手側の旧合弁パートナーはXignux。",
+    "deal_id": "deal-30bc5b72d500959bb1d5ead3",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-30bc5b72d500959bb1d5ead3",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-30bc5b72d500959bb1d5ead3"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-30bc5b72d500959bb1d5ead3"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-9b3dcc0632852bcbbf3fcd8e"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0d90196a44582eab723d29ba": "3e56b2d0696105b47651be6f468c49bbed2380255cadf566426b273ca5442dad"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r17; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r17",
+      "rule_version": "e01654a5531b38fc2a758d5ea40aa9d9713f1523a61cae7622787bea2cfd48e7",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-03-03",
+    "conditions": "取得対象はWoodwardのGreenville siteに関連する全資産。 一次資料はfinancial terms of the acquisition are not being disclosedと明示。",
+    "deal_id": "deal-82a096bfc976bbcdd825dab3",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-82a096bfc976bbcdd825dab3",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-82a096bfc976bbcdd825dab3"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-82a096bfc976bbcdd825dab3"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bb3b2db574214c2911e0b475"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d784dafec4b1c8f268582861": "aca0475ae55a006c42fc789a9063b5ad01c05e3a98ae7aaef9c747c69db0090c"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r18",
+      "rule_version": "0cbbf2b83a785e210cf071297a50067618f860129fddaa47782fc3bbbe02358f",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-03-04",
+    "conditions": "GE VernovaはAWSのデータセンター向けにエネルギー技術・サービスを提供する枠組み。 AWSはGE Vernovaのクラウド移行・デジタル革新を支援する。",
+    "deal_id": "deal-d871d7782dd2bf0afcc0605e",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-d871d7782dd2bf0afcc0605e",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-d871d7782dd2bf0afcc0605e"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-d871d7782dd2bf0afcc0605e"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-c5717ff3279ebb3a208bb65c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-cd7b2fb87c2a8bda9d4abcd2": "a891f2fea9de56e1f4112d842b226b399728fe2aabfaba4b4077d4c649bb044e"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r19; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r19",
+      "rule_version": "fbf8b6e0b41ba6c292a9fc595eeb3f8998f7e6de93c710fcb0b22f4d067fd9fa",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-24",
+    "conditions": "最大11基の7HAガスタービンと関連機器の調達経路を確保。 この枠組みとは別にDuke Energyは直近で8基を確保済みと発表。",
+    "deal_id": "deal-6aba382297bcbd1689755d46",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-6aba382297bcbd1689755d46",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-6aba382297bcbd1689755d46"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-6aba382297bcbd1689755d46"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-f949eed96d030bad576f4532"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-75edc49d2db56059f02fcc48": "7d5582135a4befe45d13f2ebad85c4b88693646ed2b6213504d64923c6bd7c6f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r20",
+      "rule_version": "44c8cabff926aa8fc017b0855b0e96da3ef0bf06a3c1659d3c4a84cb21bdc5fd",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-488275d80a0ffb3d63a4e1b4",
+        "amount_kind": "purchase_price",
+        "conditions": "2021-08-26提出の10-Qに記載された総現金対価。取得日は2021-08-05。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "The total cash consideration was $250 million",
+        "payee_company_ids": [
+          "co-bear-flag-robotics"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "250000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "買収自体は2021-08-05に完了。 10-Q開示時点で総現金対価2.5億ドル、手元資金で調達と記載。",
+    "deal_id": "deal-be863dcf31d65f16f546b877",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-be863dcf31d65f16f546b877",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-be863dcf31d65f16f546b877"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-08-26",
+    "relationship_ids": [
+      "rel-db4aca7911ae681f297a394c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r5; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r5",
+      "rule_version": "f1d4ba7fea0e7e9b64a8330944c6103120751e9936ff5532b1251e752a7bf004",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-418fd5c9ef1390d0e76c45db",
+        "amount_kind": "purchase_price",
+        "conditions": "取得現金控除後の総現金購入価格。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "The total cash purchase price, net of cash acquired, was $276 million",
+        "payee_company_ids": [
+          "co-kreisel-electric"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "276000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "取得日は2022-02-07。 残余持分について2027年にDeereのコールオプションと少数株主側のプットオプションがある。",
+    "deal_id": "deal-52767d897b4eacb8da334ba2",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-52767d897b4eacb8da334ba2",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-52767d897b4eacb8da334ba2",
+      "evidence-c4c96c77cfc0e576d7ab4d38"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2022-05-20",
+    "relationship_ids": [
+      "rel-a310372f9f34e67c96742c4c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+        "source-9acfe6480245b1779eff2336": "be48f9e2a635c2da32b8046a475d77cac8c953662285a9e611253a20ff5ecea5"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r6; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r6",
+      "rule_version": "41bffc2f0e0da6f7a1fef2c5e646c59989d824e1359ff63f88e263e17346eef2",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-9a467b38121e6b732e59e1c7",
+        "amount_kind": "purchase_price",
+        "conditions": "DeereがHitachiの合弁持分と一定の知的財産ライセンスを取得する初期現金対価。契約上の相殺・調整の対象。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$275 million",
+        "payee_company_ids": [
+          "co-deere"
+        ],
+        "payer_company_ids": [
+          "co-hitachi-construction-machinery"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "275000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "Deereは3つの合弁工場のHitachi持分を取得する予定。 両社は合弁製造・販売契約を終了し、新たなライセンス・供給契約へ移行。 供給契約の期間は品目等により5年から30年。",
+    "deal_id": "deal-9743339ee70b624398921cea",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-9743339ee70b624398921cea",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-9743339ee70b624398921cea",
+      "evidence-51532af1f3f4637b9a4b8365"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-08-19",
+    "relationship_ids": [
+      "rel-1fbf668edf6e2c3d522a473a"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0ebdb79bed6a0a54d4321217": "104f387863f440380986103832ac115ff633ab35b9777d6c5b6c5af0f8881ad2"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r7; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r7",
+      "rule_version": "0a77c19899bca36d3db49248550d8e3334a0713740aaf62007f59b2261924037",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-623f9e95af68ffb183431649",
+        "amount_kind": "purchase_price",
+        "conditions": "2017年年次報告書本文に記載された現金購入価格。別箇所では取得現金等を考慮したacquisition costをapproximately $284 millionとも記載。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$284 million",
+        "payee_company_ids": [
+          "co-blue-river-technology"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "284000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "買収は2017年9月に完了。 日付までは年次報告書の当該記載から確認できない。",
+    "deal_id": "deal-76a78c297b113be7b149d5fe",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-76a78c297b113be7b149d5fe",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-76a78c297b113be7b149d5fe",
+      "evidence-1aef4557f53a72e6317904e5",
+      "evidence-50fb0fa47bd7b5f77b8f3921"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2017-12-18",
+    "relationship_ids": [
+      "rel-de7d4d313ec9c3b76d65f5f0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-43a53f135f139650a3f5683f": "c73d3d0e85f1501d25ec58267e9e257927dae6caf58f81c9cc4488da63de07cc"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r8; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r8",
+      "rule_version": "28665d4a1137cb90dfe6fcd0393551e45f8cb0a6e081846fd718c78c9101740d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-461902e5eccc806099f41d64",
+        "amount_kind": "purchase_price",
+        "conditions": "2024-07-01の契約発表時の株式価値。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "equity value of approximately $4.7 billion, or $37.25 per share",
+        "payee_company_ids": [
+          "co-spirit-aerosystems"
+        ],
+        "payer_company_ids": [
+          "co-boeing"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "4700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-ddcade4a471d445cd5d37dd9",
+        "amount_kind": "other",
+        "conditions": "Spiritの直近報告純有利子負債を含む総取引価値。47億ドルに加算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$8.3 billion",
+        "payee_company_ids": [
+          "co-spirit-aerosystems"
+        ],
+        "payer_company_ids": [
+          "co-boeing"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "8300000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2025-12-08",
+    "conditions": "2025-12-08に買収完了。 契約発表時はBoeing株との交換比率が0.18～0.25の範囲でBoeing株価に連動する方式。",
+    "deal_id": "deal-753caeabc234af0e3595e4f0",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-753caeabc234af0e3595e4f0",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-753caeabc234af0e3595e4f0",
+      "evidence-4897721038ecd9873468c6e1",
+      "evidence-40f79f94566b434570e27912"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bf21d9ab114700d0ea7387c2"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2d60d79199eb20761916c838": "8e8fa7810ab488d12a6f1a124bdd6f20b21b62e991de3de13a045f93313f74ca",
+        "source-70404ee337cf3a2f1030f709": "8acdc04d1a12abcb99c18955b93b2de510a78d7309f8598f9b90a633ba832d93"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r9",
+      "rule_version": "0c7630438d4027334ef015bb2f096c20cc307ec772a3a31c5d040873f6231e93",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-12-13",
+    "conditions": "787を100機確定注文し、さらに100機のオプション。 737 MAXは100機で、既存オプション行使44機と新規注文56機を含む。",
+    "deal_id": "deal-b063dae5185dde67a211d277",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-b063dae5185dde67a211d277",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-b063dae5185dde67a211d277"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b063dae5185dde67a211d277"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-4edf069805a15451ed827374"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-be60f44a389f1ffee7aab0f4": "a2fa7fa93c5761b865b96e9fc60c7eeda023002dd78ae4d5b7a57d955427c66e"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r10; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r10",
+      "rule_version": "5724ab76032325fcd531a166c30cf3e80dbc032ab732cc8b4c2462b742591fd1",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-06-20",
+    "conditions": "確定注文は737 MAX 190機、787 Dreamliner 20機、777X 10機。 オプションは737 MAX最大50機と787最大20機で、最大290機。",
+    "deal_id": "deal-3d9491bab61bff57b6303f43",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-3d9491bab61bff57b6303f43",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-3d9491bab61bff57b6303f43"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-3d9491bab61bff57b6303f43"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-56ffce1e9b11e149c3ed50c0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-62e7d5556b1f0a2f94ddcead": "2b7063ee7839efd163bb18e525d6d8027540cc3a9ba524931e2b6d92eca57002"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r11; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r11",
+      "rule_version": "2a1712bbde271312b7e7836cd9e578ce75a1064d3fa41dbf9423f486f0c6a57d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-05-09",
+    "conditions": "確定注文150機、オプション150機、合計最大300機の737-10。",
+    "deal_id": "deal-cf4221a34ffa8964dac16cce",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-cf4221a34ffa8964dac16cce",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-cf4221a34ffa8964dac16cce"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-cf4221a34ffa8964dac16cce"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-af80fad8b38e828b72c66b74"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8544b6385bce2d9cf355980d": "67825bacf2b476a089657a8db37491e7bb5207582b5d5c16c9e2e06645c33647"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r12; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r12",
+      "rule_version": "d031960ad2991ed2c3dbd1e7e77510438e4edf3716ea65c685403fd79ceba066",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-b2c390a3d8f88407299d1c95",
+        "amount_kind": "purchase_price",
+        "conditions": "取得現金控除後の買収額として2020年10-Kに記載。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$426 million, net of cash received",
+        "payee_company_ids": [
+          "co-blue-canyon-technologies"
+        ],
+        "payer_company_ids": [
+          "co-rtx"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "426000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "買収は2020年12月に完了。 Blue Canyon TechnologiesはRaytheon Intelligence & Spaceセグメントに計上。",
+    "deal_id": "deal-0bf1720d802248ca5071454c",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-0bf1720d802248ca5071454c",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-0bf1720d802248ca5071454c",
+      "evidence-726054801e588b25a2f9a8b1"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0bf1720d802248ca5071454c",
+          "evidence-726054801e588b25a2f9a8b1"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-02-08",
+    "relationship_ids": [
+      "rel-af59954a1c35c9beb8bb51a6"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-60a28307a551c64b4c3d0d94": "b826e60f83c8f645fdd0d98a8bf24a8d1640d7ebabfcdab1c75d4f6d6e2f8300"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r13; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r13",
+      "rule_version": "2cb503e664bf901b5374887c20afd9011c943c9e95bccdbc908712d908d3aa88",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-d9a37a96a25764a0fc03262b",
+        "amount_kind": "other",
+        "conditions": "取得事業の企業価値。現金支払額と同義とは断定しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "enterprise value of the acquired business amounts to $1.8 billion",
+        "payee_company_ids": [
+          "co-collins-aerospace-flight-control-actuation-business"
+        ],
+        "payer_company_ids": [
+          "co-safran"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "1800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2025-07-21",
+    "conditions": "2025-07-21に買収完了。 取得事業は2025-08-01からSafran Electronics & Defenseに連結予定と発表。",
+    "deal_id": "deal-a79820ced4f22c43fbd30869",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-a79820ced4f22c43fbd30869",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-a79820ced4f22c43fbd30869",
+      "evidence-751a7ebbb946bc8b7cf0aabd",
+      "evidence-e6fb5a7e4702810f6d57c5bd"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-c22cd889ab03f2667df2868e"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1e0a6ee1ef0b69620dbbf350": "2c8eace006eac75d3176082096ab17b2eb69a61b523f106db5be38b11a6d0122",
+        "source-9ca7830fe8ffde389fdaf632": "85e1656c68d11b61baa3c47cc78eb9a812c1e0f73d4828773602b574080222e0"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r14; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r14",
+      "rule_version": "80f16c3ce7e44265b520d96fbc4a8782baa3b27da1d4e1664e10cd35c5fef027",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-08",
+    "conditions": "Delta TechOpsの年間能力を30%以上増やし、最大450基のエンジンを年次オーバーホール可能とする計画。 Delta TechOpsはPratt & Whitney GTF MROネットワークのサービス提供拠点。",
+    "deal_id": "deal-0a9060a6fac9505269a3a13b",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-0a9060a6fac9505269a3a13b",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-0a9060a6fac9505269a3a13b"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0a9060a6fac9505269a3a13b"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-d9e09b6257a63988131211be"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-908a41c7d436779b8e92cc2b": "ecffbbafd6c30163e0a09e23ce64260b96b399abd5ee787d96e5e193d0c04a24"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r15",
+      "rule_version": "cb7359c4cb977c10ef3bd65bf53990c21d2cf98c73e0acc5de53a4b4d9eba867",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-06-03",
+    "conditions": "対象はAviancaの新規A320neo 103機。 車輪・ブレーキの供給とフルライフサイクルサポートを含む。",
+    "deal_id": "deal-ea0e9843c6af29b523d49685",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-ea0e9843c6af29b523d49685",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-ea0e9843c6af29b523d49685"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-ea0e9843c6af29b523d49685"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-acf561f7e5d4d36320850559"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0016121803617e1ff69c274d": "20c30494c8ee0a1abd4aa65509c095bea40850188e03c1a4dfaed92683f49923"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r16; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r16",
+      "rule_version": "39acc370ccee26b5f19f3b4aa5a3441bc6e98449d31a7cc8ee06a63497ebb3e1",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-73cdc200ae034d0b76408289",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時の買収価格。後続業績発表では取得現金控除後の買収額としても90億ドルと説明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$9.0 billion",
+        "payee_company_ids": [
+          "co-sikorsky-aircraft"
+        ],
+        "payer_company_ids": [
+          "co-lockheed-martin"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "9000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-3b2f6c05417ad51b9f31eace",
+        "amount_kind": "other",
+        "conditions": "税効果を考慮した実質的な会社説明上の値であり、90億ドルへ加算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$7.1 billion",
+        "payee_company_ids": [
+          "co-sikorsky-aircraft"
+        ],
+        "payer_company_ids": [
+          "co-lockheed-martin"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "7100000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2015-11-06",
+    "conditions": "2015-11-06に買収完了。 契約発表では税務上の便益を考慮すると実質約71億ドルと説明。",
+    "deal_id": "deal-a65a65f39768d12b80151fa2",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-a65a65f39768d12b80151fa2",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-a65a65f39768d12b80151fa2",
+      "evidence-1fcfd03039e046eaad91d3f0",
+      "evidence-67f67b0907c4571e7c3a7346"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a65a65f39768d12b80151fa2",
+          "evidence-1fcfd03039e046eaad91d3f0",
+          "evidence-67f67b0907c4571e7c3a7346"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-934d1c78a49763b55077c9b5"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0d64b1d9986e089f8ffc80a2": "ffe6192c9a98cbd09a550705c2f0693bcbbd88cd47f1a7c2d549f677ff833381",
+        "source-239c040e683df3f331a5589a": "173ee2690b921ba6aeb5c9cd3fe832ac33bc63c1763c43373afc95a22cd119e7"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r18",
+      "rule_version": "d6ca53edf1361e588a8bd465f42a7cdc2d53b2483348fb87cfa6d4165006d683",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-06-12",
+    "conditions": "米国内半導体製造・技術革新の推進と、国家安全保障向け供給網の強化を対象。",
+    "deal_id": "deal-0a4bf59c833efe6cea3f6d98",
+    "detected_at": "2026-09-26T14:26:46+00:00",
+    "effective_date": null,
+    "event_id": "event-0a4bf59c833efe6cea3f6d98",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-0a4bf59c833efe6cea3f6d98"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0a4bf59c833efe6cea3f6d98"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-0d5d597a4abac2e05df15699"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8d5717f2015bc8969c669e87": "0983d2d27ca6d2c74f32e358f241d6a4d2f1097761d6a66271f84c772d538458"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r20",
+      "rule_version": "f2d198e9f71c64ae141000dbd619aa5cfa724821784c2c96e82804750fe3e723",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
   }
 ]

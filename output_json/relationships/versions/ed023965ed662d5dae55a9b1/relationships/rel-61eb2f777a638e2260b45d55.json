@@ -1,0 +1,285 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-812a173d69e6660724278361",
+          "amount_kind": "purchase_price",
+          "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.9 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2026-02-17の契約発表時点の金額。発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。 完了時点の調整後対価は未確認。",
+          "value": "9900000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-06-10",
+      "conditions": "2026-06-10に買収完了し、MasimoはDanaherの完全子会社となった。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+      "deal_id": "deal-8b2f0fd5068d82268a364bf7",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2026-06-10",
+      "event_id": "event-8b2f0fd5068d82268a364bf7",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-8b2f0fd5068d82268a364bf7",
+        "evidence-4f3d6c320a7e6f97c366cee3"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8b2f0fd5068d82268a364bf7",
+            "evidence-4f3d6c320a7e6f97c366cee3"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-61eb2f777a638e2260b45d55"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-048157a1052c95d63011fbcf": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+          "source-980228e795ee4570c7f71337": "dc618d3c3c7536275bd7d58fe3dba38577748feeacd6c93ff894c752324b8ed0"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r17",
+        "rule_version": "1ac0a7444b2023423aa5083c45bb49276b844a5cced3bb7aa0928a2da7d73ed0",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4f3d6c320a7e6f97c366cee3",
+      "excerpt": "$9.9 billion",
+      "locator": "p:6",
+      "normalized_text_hash": "d2814054d13dde0cb80ca71c870a2870240aa2bf1caa9a77e2b5f82b0ff55715",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-980228e795ee4570c7f71337",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8b2f0fd5068d82268a364bf7",
+      "excerpt": "acquisition",
+      "locator": "p:6",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-048157a1052c95d63011fbcf",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-8b2f0fd5068d82268a364bf7",
+        "evidence-4f3d6c320a7e6f97c366cee3"
+      ],
+      "geography": "",
+      "headline": "パルスオキシメトリ・患者監視事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-8b2f0fd5068d82268a364bf7"
+    ],
+    "description": "DanaherはMasimoを買収し、パルスオキシメトリ、先進センサー、AI対応患者モニタリングを診断事業へ取り込んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8b2f0fd5068d82268a364bf7",
+      "evidence-4f3d6c320a7e6f97c366cee3"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-8b2f0fd5068d82268a364bf7"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-61eb2f777a638e2260b45d55",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2026-06-10",
+    "target_company_id": "co-masimo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-048157a1052c95d63011fbcf": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+        "source-980228e795ee4570c7f71337": "dc618d3c3c7536275bd7d58fe3dba38577748feeacd6c93ff894c752324b8ed0"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r17",
+      "rule_version": "1ac0a7444b2023423aa5083c45bb49276b844a5cced3bb7aa0928a2da7d73ed0",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+      "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-10",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-048157a1052c95d63011fbcf",
+      "source_type": "official_newsroom",
+      "title": "Danaher Completes Acquisition of Masimo Corporation - Jun 10, 2026"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2026-02-17-Danaher-To-Acquire-Masimo-Corporation",
+      "content_hash": "dc618d3c3c7536275bd7d58fe3dba38577748feeacd6c93ff894c752324b8ed0",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-17",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-980228e795ee4570c7f71337",
+      "source_type": "official_newsroom",
+      "title": "Danaher To Acquire Masimo Corporation - Feb 17, 2026"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-812a173d69e6660724278361",
+        "amount_kind": "purchase_price",
+        "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-8b2f0fd5068d82268a364bf7",
+          "evidence-4f3d6c320a7e6f97c366cee3"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$9.9 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-dhr"
+        ],
+        "qualifier": "approximately",
+        "scope": "2026-02-17の契約発表時点の金額。発表時の総企業価値。引受債務を含み、取得現金を控除。1株180ドルの現金対価。 完了時点の調整後対価は未確認。",
+        "value": "9900000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-8b2f0fd5068d82268a364bf7",
+        "evidence-4f3d6c320a7e6f97c366cee3"
+      ],
+      "geography": "",
+      "headline": "パルスオキシメトリ・患者監視事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "DanaherはMasimoを買収し、パルスオキシメトリ、先進センサー、AI対応患者モニタリングを診断事業へ取り込んだ。",
+    "direction": "directed",
+    "event_date": "2026-06-10",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-61eb2f777a638e2260b45d55",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2026-06-10",
+    "target_company_id": "co-masimo",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "not_total"
+    ]
+  }
+}

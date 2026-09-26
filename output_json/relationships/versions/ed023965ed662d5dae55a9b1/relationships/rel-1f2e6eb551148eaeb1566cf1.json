@@ -1,0 +1,654 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d9a320f6ff61f889add18491",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-07-15",
+      "conditions": "",
+      "deal_id": "deal-e9b94e85e90507c290f01518",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-e9b94e85e90507c290f01518",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e9b94e85e90507c290f01518"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e9b94e85e90507c290f01518"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-b5e25a8637f800532ae0d4ab",
+        "rule_version": "a6a847fb40d508ea28b42ef40c4909d3455bdbda5ba34f9f1b6935e41ba67eb1",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-50b991d584121b79a77a56ff",
+          "amount_kind": "committed_total",
+          "conditions": "調達総額の通貨は未確認。前払条件・受領状況は別のSEC財務注記で補足し、総額に合算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-07-15",
+      "conditions": "調達・協業の公表総額は原文$5億でドル種類は未確定。2025年10-K注記16では、所定マイルストーン達成に応じた前払金合計2億米ドル、2025年9月の4,000万米ドル受領、同年12月の3,200万米ドル追加請求権を確認。前払金・受領額・請求権は別途総額へ加算しない。財務注記の米ドル表示を元の$5億へ機械的に転用しない。",
+      "deal_id": "deal-e9b94e85e90507c290f01518",
+      "detected_at": "2026-09-26T07:05:01+00:00",
+      "effective_date": null,
+      "event_id": "event-785a3f46593149e4efab1288",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-48816b0c6d5fd4e392a59275",
+        "evidence-76f607a62baa88381eba1b76",
+        "evidence-d0b3289764083123a109e54d",
+        "evidence-2fed0ac409bda8162c2a650b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-48816b0c6d5fd4e392a59275",
+            "evidence-76f607a62baa88381eba1b76",
+            "evidence-d0b3289764083123a109e54d",
+            "evidence-2fed0ac409bda8162c2a650b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "supersedes_event_id": "event-e9b94e85e90507c290f01518",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-587e14746647647685fb62e8": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+          "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+        },
+        "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-mp-apple-prepayment",
+        "rule_version": "d4924a43ad67a21c013001d318286995324bb5bfecf0159190b8a8b36e90df48",
+        "verified_at": "2026-09-26T07:05:01+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-da1d843ca71fa9c6f642de0a",
+          "amount_kind": "committed_total",
+          "conditions": "Apple公式供給網レポート2026簡体字版11ページで契約総額5億米ドルを確認。前払金・受領額・請求権を総額へ加算しない。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-07-15",
+      "conditions": "調達・協業の公表総額は5億USD。Apple公式レポートで2025年に締結した長期協業契約の通貨を確認。2025年10-K注記16では、所定マイルストーン達成に応じた前払金合計2億USD、2025年9月の4,000万USD受領、同年12月の3,200万USD追加請求権を確認。前払金・受領額・請求権を総額へ加算しない。総額すべての支払完了を意味しない。",
+      "deal_id": "deal-e9b94e85e90507c290f01518",
+      "detected_at": "2026-09-26T07:31:24+00:00",
+      "effective_date": null,
+      "event_id": "event-8336bbfacfc18ab21132b364",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-5680da31c2062f377b5556db",
+        "evidence-d14e0e18610927c2573696f8",
+        "evidence-cbccdd2ff07ec34ac7a25b5c",
+        "evidence-9217b0146660203287706d0d",
+        "evidence-82270006a3eee6951dca52d0"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1f2e6eb551148eaeb1566cf1"
+      ],
+      "supersedes_event_id": "event-785a3f46593149e4efab1288",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-587e14746647647685fb62e8": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+          "source-b21c6157a251f4ccaed5f09e": "cd6ee94bdd0aff8dd484e9e46b63fe72cb9a7f279eddd65bd2b5163522b6e280",
+          "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+        },
+        "reason": "Codex primary-source continuation review. Original disclosure, SEC contract and context hashes pinned; legal payee distinguished from the displayed business group. No human or independent-agent review claimed. No currency inference, FX or aggregation of separate transactions.",
+        "reviewer": null,
+        "rule_id": "amount-followup-20260926-mp-apple-currency",
+        "rule_version": "4e1fc14e545592139ff3fe7a31c88143d1358e45c02c8c929dfc09cc4c1d4ad5",
+        "verified_at": "2026-09-26T07:31:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2fed0ac409bda8162c2a650b",
+      "excerpt": "U.S. dollars",
+      "locator": "sec-div:1474",
+      "normalized_text_hash": "46c44d7800a3cfd1685b2ea4ba6a3c102074009e98d22a0181d9fa29ce381364",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-48816b0c6d5fd4e392a59275",
+      "excerpt": "commitment of $500 million with MP Materials",
+      "locator": "p:8",
+      "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+      "section": "Official deal announcement",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-5680da31c2062f377b5556db",
+      "excerpt": "commitment of $500 million with MP Materials",
+      "locator": "p:8",
+      "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+      "section": "Official deal announcement",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-76f607a62baa88381eba1b76",
+      "excerpt": "specified milestones",
+      "locator": "sec-div:1975",
+      "normalized_text_hash": "07025ad948ecb4d9ec6f15bf8a9633e932c3e57990658f9c1206eed242b2b693",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-82270006a3eee6951dca52d0",
+      "excerpt": "5 亿美元",
+      "locator": "pdf-page:11",
+      "normalized_text_hash": "e970ac91988f3187a276f50ea7cdb4b33c710912402e2ed065fb3ab2de1afc2e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b21c6157a251f4ccaed5f09e",
+      "supports_fields": [
+        "parties",
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9217b0146660203287706d0d",
+      "excerpt": "U.S. dollars",
+      "locator": "sec-div:1474",
+      "normalized_text_hash": "46c44d7800a3cfd1685b2ea4ba6a3c102074009e98d22a0181d9fa29ce381364",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cbccdd2ff07ec34ac7a25b5c",
+      "excerpt": "initial prepayment",
+      "locator": "sec-div:1976",
+      "normalized_text_hash": "5a9efcd97950612ad6a2a6873a11eb100b57ed07bec1d5d8e92029a5f2409274",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d0b3289764083123a109e54d",
+      "excerpt": "initial prepayment",
+      "locator": "sec-div:1976",
+      "normalized_text_hash": "5a9efcd97950612ad6a2a6873a11eb100b57ed07bec1d5d8e92029a5f2409274",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d14e0e18610927c2573696f8",
+      "excerpt": "specified milestones",
+      "locator": "sec-div:1975",
+      "normalized_text_hash": "07025ad948ecb4d9ec6f15bf8a9633e932c3e57990658f9c1206eed242b2b693",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-587e14746647647685fb62e8",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e9b94e85e90507c290f01518",
+      "excerpt": "commitment of $500 million with MP Materials",
+      "locator": "p:8",
+      "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
+      "section": "Official deal announcement",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-e9b94e85e90507c290f01518"
+    ],
+    "description": "Appleによる希土類磁石の購入とリサイクル事業に関する5億米ドルの複数年コミットメント。Apple公式2026年供給網レポート11ページの美元表記を元の英語発表と照合。全社投資計画とは区別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-5680da31c2062f377b5556db",
+      "evidence-d14e0e18610927c2573696f8",
+      "evidence-cbccdd2ff07ec34ac7a25b5c",
+      "evidence-9217b0146660203287706d0d",
+      "evidence-82270006a3eee6951dca52d0"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T07:31:24+00:00",
+    "latest_event_ids": [
+      "event-8336bbfacfc18ab21132b364"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mp",
+    "status_as_of": "2025-07-15",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-587e14746647647685fb62e8": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+        "source-b21c6157a251f4ccaed5f09e": "cd6ee94bdd0aff8dd484e9e46b63fe72cb9a7f279eddd65bd2b5163522b6e280",
+        "source-b5e25a8637f800532ae0d4ab": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668"
+      },
+      "reason": "Codex primary-source continuation review. Original disclosure, SEC contract and context hashes pinned; legal payee distinguished from the displayed business group. No human or independent-agent review claimed. No currency inference, FX or aggregation of separate transactions.",
+      "reviewer": null,
+      "rule_id": "amount-followup-20260926-mp-apple-currency",
+      "rule_version": "4e1fc14e545592139ff3fe7a31c88143d1358e45c02c8c929dfc09cc4c1d4ad5",
+      "verified_at": "2026-09-26T07:31:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001801368-26-000008",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "content_hash": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2026-02-26",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T06:55:16+00:00",
+      "source_id": "source-587e14746647647685fb62e8",
+      "source_type": "sec_filing",
+      "title": "mp-20251231"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf",
+      "content_hash": "cd6ee94bdd0aff8dd484e9e46b63fe72cb9a7f279eddd65bd2b5163522b6e280",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.7",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "Apple",
+      "retrieved_at": "2026-09-26T07:30:06+00:00",
+      "source_id": "source-b21c6157a251f4ccaed5f09e",
+      "source_type": "official_ir",
+      "title": "People and Environment in our Supply Chain"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+      "content_hash": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-07-15",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:52+00:00",
+      "source_id": "source-b5e25a8637f800532ae0d4ab",
+      "source_type": "official_newsroom",
+      "title": "Apple expands U.S. supply chain with $500 million commitment - Apple"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-da1d843ca71fa9c6f642de0a",
+        "amount_kind": "committed_total",
+        "conditions": "Apple公式供給網レポート2026簡体字版11ページで契約総額5億米ドルを確認。前払金・受領額・請求権を総額へ加算しない。",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "美元",
+        "evidence_ids": [
+          "evidence-5680da31c2062f377b5556db",
+          "evidence-d14e0e18610927c2573696f8",
+          "evidence-cbccdd2ff07ec34ac7a25b5c",
+          "evidence-9217b0146660203287706d0d",
+          "evidence-82270006a3eee6951dca52d0"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$500 million",
+        "payee_company_ids": [
+          "co-mp"
+        ],
+        "payer_company_ids": [
+          "co-aapl"
+        ],
+        "qualifier": "exact",
+        "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+        "value": "500000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Appleによる希土類磁石の購入とリサイクル事業に関する5億米ドルの複数年コミットメント。Apple公式2026年供給網レポート11ページの美元表記を元の英語発表と照合。全社投資計画とは区別。",
+    "direction": "directed",
+    "event_date": "2025-07-15",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:31:24+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mp",
+    "status_as_of": "2025-07-15",
+    "target_company_id": "co-aapl",
+    "tier": null,
+    "tier_reasons": [
+      "contingency_unknown"
+    ]
+  }
+}

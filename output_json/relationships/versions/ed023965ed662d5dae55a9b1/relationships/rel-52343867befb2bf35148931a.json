@@ -1,0 +1,198 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "当該買収の助言業務。報酬額は資料に記載なし。",
+      "deal_id": "deal-d13c9af46987e41735bcad40",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": null,
+      "event_id": "event-d13c9af46987e41735bcad40",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-d13c9af46987e41735bcad40"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d13c9af46987e41735bcad40"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2024-08-16",
+      "relationship_ids": [
+        "rel-52343867befb2bf35148931a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-citi-co-lly-service_provider",
+        "rule_version": "798ae11ea843679a0f9f98bc93bd4f0629c34d940b4f527215ae81b25ae47fd2",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d13c9af46987e41735bcad40",
+      "excerpt": "exclusive financial advisor",
+      "locator": "p:14",
+      "normalized_text_hash": "97a535eb30741c31ed77aafe1ef42f0538a78d06ab12a89c11c98a6ae56f4e6f",
+      "section": "Verified contract and business scope",
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-d13c9af46987e41735bcad40"
+      ],
+      "geography": "",
+      "headline": "Morphic買収の財務助言",
+      "products": [
+        "買収に伴う財務助言"
+      ],
+      "scale": "",
+      "source_role": "専任財務アドバイザー",
+      "target_role": "助言を受ける買収者"
+    },
+    "deal_ids": [
+      "deal-d13c9af46987e41735bcad40"
+    ],
+    "description": "CitiがLillyのMorphic買収で専任の財務アドバイザーを担当。買収対価をCitiへの助言報酬として転用しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d13c9af46987e41735bcad40"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-d13c9af46987e41735bcad40"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-52343867befb2bf35148931a",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-citi",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-lly",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-citi-co-lly-service_provider",
+      "rule_version": "798ae11ea843679a0f9f98bc93bd4f0629c34d940b4f527215ae81b25ae47fd2",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-24-201684",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm",
+      "content_hash": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2024-08-16",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:05:16+00:00",
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+      "source_type": "sec_filing",
+      "title": "EX-99.(a)(5)(B)"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-d13c9af46987e41735bcad40"
+      ],
+      "geography": "",
+      "headline": "Morphic買収の財務助言",
+      "products": [
+        "買収に伴う財務助言"
+      ],
+      "scale": "",
+      "source_role": "専任財務アドバイザー",
+      "target_role": "助言を受ける買収者"
+    },
+    "description": "CitiがLillyのMorphic買収で専任の財務アドバイザーを担当。買収対価をCitiへの助言報酬として転用しない。",
+    "direction": "directed",
+    "event_date": "2024-08-16",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-52343867befb2bf35148931a",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-citi",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-lly",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

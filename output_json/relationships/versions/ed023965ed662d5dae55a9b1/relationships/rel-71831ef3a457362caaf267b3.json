@@ -1,0 +1,173 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-fb03348e32c9029c561c5711",
+      "detected_at": "2026-09-26T13:07:05+00:00",
+      "effective_date": null,
+      "event_id": "event-fb03348e32c9029c561c5711",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fb03348e32c9029c561c5711"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fb03348e32c9029c561c5711"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2021-02-19",
+      "relationship_ids": [
+        "rel-71831ef3a457362caaf267b3"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+        },
+        "reason": "Primary-source review of merged research record r23; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r23",
+        "rule_version": "078719fce9355727fcc8c3443b74c0c2cd6390c0394be8bf801eaaafd1328898",
+        "verified_at": "2026-09-26T13:07:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-fb03348e32c9029c561c5711",
+      "excerpt": "completed its acquisition of Big Switch Networks, Inc.",
+      "locator": "sec-div:1565",
+      "normalized_text_hash": "affb3c47e6226f0f80762f53588905565dbd0d8c7c6f9222ca47234446b91c74",
+      "section": "Official issuer disclosure",
+      "source_id": "source-1fd65a34dc432bc0a5bfb8cd",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-fb03348e32c9029c561c5711"
+    ],
+    "description": "AristaがBig Switch Networksを取得し、CloudVisionとDANZを通じたデータセンター向けネットワーク監視、SDN、可観測性機能を強化。金額は取得可能な一次資料では確認できなかったため登録しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fb03348e32c9029c561c5711"
+    ],
+    "first_observed_at": "2026-09-26T13:07:05+00:00",
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "latest_event_ids": [
+      "event-fb03348e32c9029c561c5711"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-71831ef3a457362caaf267b3",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-arista-networks-inc",
+    "status_as_of": "2021-02-19",
+    "target_company_id": "co-big-switch-networks-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+      },
+      "reason": "Primary-source review of merged research record r23; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r23",
+      "rule_version": "078719fce9355727fcc8c3443b74c0c2cd6390c0394be8bf801eaaafd1328898",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001596532-21-000049",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653221000049/anet-20201231.htm",
+      "content_hash": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": "2021-02-19",
+      "filing_cik": "0001596532",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-1fd65a34dc432bc0a5bfb8cd",
+      "source_type": "sec_filing",
+      "title": "anet-20201231"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "AristaがBig Switch Networksを取得し、CloudVisionとDANZを通じたデータセンター向けネットワーク監視、SDN、可観測性機能を強化。金額は取得可能な一次資料では確認できなかったため登録しない。",
+    "direction": "directed",
+    "event_date": "2021-02-19",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-71831ef3a457362caaf267b3",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-arista-networks-inc",
+    "status_as_of": "2021-02-19",
+    "target_company_id": "co-big-switch-networks-inc",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

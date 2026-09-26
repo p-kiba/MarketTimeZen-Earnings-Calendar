@@ -1,0 +1,79 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-capital-one-financial-corporation",
+      "country": null,
+      "display_name": "Capital One Financial Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-velocity-mobile-limited-velocity-black",
+      "country": null,
+      "display_name": "Velocity Mobile Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-velocity-mobile-limited-velocity-black",
+    "country": null,
+    "display_name": "Velocity Mobile Limited",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Capital OneがVelocity Blackのデジタルコンシェルジュ事業を取得。旅行・エンターテインメント・買物・飲食の予約提案と手配を独自技術と人によるサービスで提供する。買収金額は発表資料にない。",
+      "direction": "directed",
+      "event_date": "2023-06-01",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:27:00+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-30eede1b51614c353ecb82fb",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-capital-one-financial-corporation",
+      "status_as_of": "2023-06-01",
+      "target_company_id": "co-velocity-mobile-limited-velocity-black",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-06-01"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

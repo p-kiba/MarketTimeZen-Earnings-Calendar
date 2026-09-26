@@ -8,6 +8,22 @@
       "status": "discovered",
       "url": "https://group.softbank/en/news/press/20260312"
     },
+    "source-0016121803617e1ff69c274d": {
+      "content_hash": "20c30494c8ee0a1abd4aa65509c095bea40850188e03c1a4dfaed92683f49923",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T13:47:23+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-06-03",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "RTX",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.rtx.com/news/news-center/2024/06/03/avianca-chooses-rtxs-collins-aerospace-for-wheel-and-brake-solutions"
+    },
     "source-0048a90def5ba654aabd0329": {
       "meta": {
         "accession_number": "0001918704-26-028846",
@@ -55,6 +71,38 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102256/ea0306310-01_424b2.htm"
+    },
+    "source-022b42ac311499beb0096e70": {
+      "content_hash": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Gilead Sciences",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-and-arcus-biosciences-establish-10-year-partnership-to-co-develop-and-co-commercialize-next-generation-cancer-immunotherapies"
+    },
+    "source-023c2b32af19b500000895de": {
+      "content_hash": "82983b559c8024f80f0b16d0bcff440ea2aa2c8f0cff58f71235d054186da53f",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:43:51+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-11-02",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ExxonMobil",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2023/1102_exxonmobil-completes-acquisition-of-denbury"
     },
     "source-0278982fa54de34c17780f92": {
       "meta": {
@@ -135,6 +183,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102747/ea0306484-01_424b2.htm"
+    },
+    "source-04329c75804a9c7bc10626a9": {
+      "content_hash": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2024-02-12-AbbVie-Completes-Acquisition-of-ImmunoGen"
     },
     "source-048157a1052c95d63011fbcf": {
       "content_hash": "31052c712c09f02add66299910f895f1147195739fc4a45d359a94d231e00757",
@@ -415,6 +479,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102471/ea0306242-01_424b2.htm"
     },
+    "source-0d64b1d9986e089f8ffc80a2": {
+      "content_hash": "ffe6192c9a98cbd09a550705c2f0693bcbbd88cd47f1a7c2d549f677ff833381",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:48:27+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2015-07-20",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Lockheed Martin",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.lockheedmartin.com/2015-07-20-Lockheed-Martin-to-Acquire-Sikorsky-Aircraft-and-Conduct-Strategic-Review-of-IT-and-Technical-Services-Businesses"
+    },
     "source-0d6964cecf8573f9be050c25": {
       "meta": {
         "accession_number": "0001213900-26-102005",
@@ -439,6 +519,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028339/form424b2.htm"
     },
+    "source-0d90196a44582eab723d29ba": {
+      "content_hash": "3e56b2d0696105b47651be6f468c49bbed2380255cadf566426b273ca5442dad",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:48+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2026-02-02",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "GE Vernova",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-completes-prolec-ge-acquisition"
+    },
     "source-0e658cd1def11611479e389f": {
       "meta": {
         "accession_number": "0001918704-26-028727",
@@ -462,6 +558,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026103184/ea0306557-01_fwp.htm"
+    },
+    "source-0ebdb79bed6a0a54d4321217": {
+      "content_hash": "104f387863f440380986103832ac115ff633ab35b9777d6c5b6c5af0f8881ad2",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:40+00:00",
+      "meta": {
+        "accession_number": "000155837021011945",
+        "filed_date": "2021-08-19",
+        "filing_cik": "0000315189",
+        "form": "8-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000155837021011945/de-20210819x8k.htm"
     },
     "source-0f38ed6d7d4d85dc37b65f2a": {
       "meta": {
@@ -1094,6 +1206,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102268/ea0306329-01_424b2.htm"
     },
+    "source-1e0a6ee1ef0b69620dbbf350": {
+      "content_hash": "2c8eace006eac75d3176082096ab17b2eb69a61b523f106db5be38b11a6d0122",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:47:15+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-07-21",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Safran",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.safran-group.com/pressroom/safran-acquire-collins-aerospace-s-actuation-and-flight-control-business-2023-07-21"
+    },
     "source-1e1f63dccc065e10d3b0e378": {
       "meta": {
         "publisher": "co-ibm",
@@ -1325,6 +1453,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028842/form424b2.htm"
     },
+    "source-239c040e683df3f331a5589a": {
+      "content_hash": "173ee2690b921ba6aeb5c9cd3fe832ac33bc63c1763c43373afc95a22cd119e7",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:48:31+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2015-11-06",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Lockheed Martin",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.lockheedmartin.com/2015-11-06-Lockheed-Martin-Completes-Acquisition-of-Sikorsky-Aircraft"
+    },
     "source-2466b28a67689964911160f1": {
       "meta": {
         "accession_number": "0001918704-26-028485",
@@ -1477,6 +1621,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028557/form424b2.htm"
     },
+    "source-282f9f96d0b2a4c028f62d22": {
+      "content_hash": "b89cbaf3ddc035c68bb145180faa364e15b55aa75e5a5240006cede0eabe661d",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:10+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-05-29",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-to-acquire-marathon-oil-corporation-in-all-stock-transaction-provides-shareholder-distribution-update/"
+    },
     "source-287140866c00040c70f3b12c": {
       "meta": {
         "accession_number": "0001354457-26-000910",
@@ -1573,6 +1733,22 @@
       "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
     },
+    "source-2b3fab4cc6818e18255dc91b": {
+      "content_hash": "53b049331aab74b10a25a059436b1eb88867a0006e1b8525295ebe4fe2eec48b",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics"
+    },
     "source-2b43ea740ea0d44db6d02d1e": {
       "meta": {
         "accession_number": "0001213900-26-102564",
@@ -1651,6 +1827,22 @@
       "status": "candidate_created",
       "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
     },
+    "source-2d60d79199eb20761916c838": {
+      "content_hash": "8e8fa7810ab488d12a6f1a124bdd6f20b21b62e991de3de13a045f93313f74ca",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:48+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-07-01",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Boeing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2024/Boeing-to-Acquire-Spirit-AeroSystems/"
+    },
     "source-2dd1abe4ed114b7ccd532ef4": {
       "meta": {
         "accession_number": "0001213900-26-102707",
@@ -1679,6 +1871,22 @@
       },
       "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+    },
+    "source-2e62748512c7c700285b8892": {
+      "content_hash": "e68e8ecc7a107bf6a4ace3eccc9415577394f7b2b7bfa874f8be736419503244",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:43:43+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-05-03",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ExxonMobil",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0503_exxonmobil-completes-acquisition-of-pioneer-natural-resources"
     },
     "source-2eceaf71faffbf7209cad3f0": {
       "meta": {
@@ -2094,6 +2302,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028316/form424b2.htm"
     },
+    "source-37dd2cd56b3855a61d008db2": {
+      "content_hash": "74b555cd0bef81abafc4c4e3030b40c8eb5225a50282b209009cac40de4b26e7",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:30+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-10-04",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-purchase-of-remaining-50-interest-in-surmont/"
+    },
     "source-380481d9854f695809f85e51": {
       "meta": {
         "publisher": "co-msft",
@@ -2257,6 +2481,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
     },
+    "source-3ab47b2bf581b85ad952556a": {
+      "content_hash": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0000898822-08-000943",
+        "filed_date": "2008-10-03",
+        "filing_cik": "0000072971",
+        "form": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000089882208000943/exhibit991.htm"
+    },
     "source-3b0069a20a29aa84e7f64387": {
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "error": null,
@@ -2333,6 +2573,22 @@
       },
       "status": "discovered",
       "url": "https://news.microsoft.com/source/emea/features/building-the-future-how-datacenters-are-innovating-with-sustainability-in-mind/"
+    },
+    "source-3e03bd686ab5ed117f60c179": {
+      "content_hash": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Morgan Stanley",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-citi-to-form-industry-leading-wealth-management-business-through-joint-venture_af3e409a-e1b7-11dd-84e6-b390c77322d3"
     },
     "source-3e472d3f33227689100f98c2": {
       "content_hash": "f460793b26a82071df28e27c6fd8e7b33f72b933b06dee95333254db15b0dccc",
@@ -2575,6 +2831,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028270/form424b2.htm"
     },
+    "source-43a53f135f139650a3f5683f": {
+      "content_hash": "c73d3d0e85f1501d25ec58267e9e257927dae6caf58f81c9cc4488da63de07cc",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:44+00:00",
+      "meta": {
+        "accession_number": "000104746917007719",
+        "filed_date": "2017-12-18",
+        "filing_cik": "0000315189",
+        "form": "8-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000104746917007719/a2233505z10-k.htm"
+    },
     "source-43a619af7b1d723f649eaebb": {
       "content_hash": "28434bfd053eee9e9065a8b402acdd81b68823989e936196f5de2ae87565dc8f",
       "error": null,
@@ -2586,6 +2858,22 @@
       },
       "status": "parsed",
       "url": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock"
+    },
+    "source-43f64c933167807c5d7e1145": {
+      "content_hash": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2024-08-01-AbbVie-Completes-Acquisition-of-Cerevel-Therapeutics"
     },
     "source-44560b58715a26cc5269700d": {
       "meta": {
@@ -3028,6 +3316,22 @@
       "status": "discovered",
       "url": "https://news.microsoft.com/source/topics/ai/"
     },
+    "source-4f54d1e5d9f7403a6d4efb0d": {
+      "content_hash": "febd68650a022efe721dd0886283a380dc6dee1a9d1a9c14098b32a47992cfd6",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:14+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-11-22",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-marathon-oil-corporation/"
+    },
     "source-5027d4e054aad14283895aa6": {
       "meta": {
         "accession_number": "0001918704-26-028598",
@@ -3074,6 +3378,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm"
     },
+    "source-51e68390ea04d8136b704359": {
+      "content_hash": "1c75c4b55988f5f0ef681c9e962866965c25872d43bebb5bfab17e01d1c9d1b1",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Computershare",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://content-assets.computershare.com/eh96rkuu9740/58338d2bf9c0485b9a0f4d313bffa8f0/d8be87f034145ced6fbf66b06955c9e8/Retail_Entitlement_Offer_and_Retail_Offer_Booklet.pdf"
+    },
     "source-525b7b0563992c64b5727eed": {
       "meta": {
         "accession_number": "0001918704-26-028189",
@@ -3105,6 +3425,22 @@
       },
       "status": "discovered",
       "url": "https://news.microsoft.com/source/features/digital-transformation/every-child-applies-data-digital-marketing-and-most-of-all-empathy-to-recruit-and-support-foster-families/"
+    },
+    "source-539b63489a2fbca88be2910a": {
+      "content_hash": "4c52cd4bdbdd85284f16aff8540f3ad02ed55ab17bfa85d01979ae28616b9521",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Morgan Stanley",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-solium--creating-a-leading-provider-of"
     },
     "source-53a308d14df13a9d0eb0b110": {
       "content_hash": "bcf10ea0f78879f54b1d93ade7269ad6add8f0afbac551e709695175e9b68aec",
@@ -3581,6 +3917,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm"
     },
+    "source-5d9e6f74b3debe6f7317168d": {
+      "content_hash": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0000316709-22-000009",
+        "filed_date": null,
+        "filing_cik": "0000316709",
+        "form": "10-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670922000009/schw-20211231.htm"
+    },
     "source-5dd316072ce72ff8763f4344": {
       "content_hash": "339fe03b4c6e21f010c20ca2dd5fdacf83979fdad018ea9ffe84e527b783eb84",
       "error": null,
@@ -3721,6 +4073,22 @@
       "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965dex991.htm"
     },
+    "source-60a28307a551c64b4c3d0d94": {
+      "content_hash": "b826e60f83c8f645fdd0d98a8bf24a8d1640d7ebabfcdab1c75d4f6d6e2f8300",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:47:06+00:00",
+      "meta": {
+        "accession_number": "000010182921000008",
+        "filed_date": "2021-02-08",
+        "filing_cik": "0000101829",
+        "form": "8-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182921000008/rtx-20201231.htm"
+    },
     "source-60eca7391c13a0462308629c": {
       "meta": {
         "accession_number": "0001918704-26-028338",
@@ -3776,6 +4144,22 @@
       },
       "status": "candidate_created",
       "url": "https://www.lseg.com/en/media-centre/press-releases/2022/lseg-and-microsoft-launch-strategic-partnership"
+    },
+    "source-62e7d5556b1f0a2f94ddcead": {
+      "content_hash": "2b7063ee7839efd163bb18e525d6d8027540cc3a9ba524931e2b6d92eca57002",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:59+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-06-20",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Boeing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Air-India-Finalizes-Order-for-Up-to-290-Boeing-Single-Aisle-and-Widebody-Jets/default.aspx"
     },
     "source-64c042c1edf214e12cddd972": {
       "content_hash": "800223fcc47742eb14c3942b8550aba157f9d97bb3ddaf10d1e291542eac2a20",
@@ -4164,6 +4548,22 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-becomes-the-first-ai-cloud-provider-to-offer-nvidia-rtx-pro-6000-blackwell-gpu-at-scale"
     },
+    "source-70404ee337cf3a2f1030f709": {
+      "content_hash": "8acdc04d1a12abcb99c18955b93b2de510a78d7309f8598f9b90a633ba832d93",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:51+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-12-08",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Boeing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Completes-Acquisition-of-Spirit-AeroSystems/default.aspx"
+    },
     "source-70c8a0c5f22f3bf4cea6bf77": {
       "meta": {
         "accession_number": "0001213900-26-102054",
@@ -4337,6 +4737,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028391/form424b2.htm"
+    },
+    "source-75edc49d2db56059f02fcc48": {
+      "content_hash": "7d5582135a4befe45d13f2ebad85c4b88693646ed2b6213504d64923c6bd7c6f",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:45:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-04-24",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "GE Vernova",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gevernova.com/news/press-releases/duke-energy-ge-vernova-announce-significant-arrangement-gas-turbines-associated"
     },
     "source-764819cbb617a0cd7f152fc2": {
       "attachments_discovered": true,
@@ -4688,6 +5104,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-ex21.htm"
     },
+    "source-7e76753563f25bc4214d433d": {
+      "content_hash": "ed273e59d113d4c57097801fb25f0f2566176dda6c13ce41cdc5b03b58315398",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics,-Further-Strengthening-Commitment-to-Transforming-Patient-Care-in-Immunology"
+    },
     "source-7e8f0ec9eacdde53b00f9461": {
       "meta": {
         "publisher": "co-softbank-group",
@@ -4742,6 +5174,22 @@
       },
       "status": "discovered",
       "url": "https://news.microsoft.com/source/resources/"
+    },
+    "source-7f3aa8d78e21db200a1cd9fc": {
+      "content_hash": "8ffe54843422d9ed2f725c4c27e0b43bad4e8b4fb39d6cf1be76ee1d9625493b",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:22+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2021-01-15",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-concho-resources/"
     },
     "source-7f8888160d823042899a903a": {
       "meta": {
@@ -5006,6 +5454,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026103041/ea0306605-01_424b2.htm"
     },
+    "source-85418f5554a350d7b72bca8c": {
+      "content_hash": "0312d25f2a627fd9ba63c157f87b225ea452bd4882b24c38ec568ae6fa687110",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Computershare",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.computershare.com/us/news/corporate-trust/computershare-acquires-wells-fargo-corporate-trust"
+    },
     "source-854428f4f2daf975831e6089": {
       "attachments_discovered": true,
       "content_hash": "9fcf384f33492b231b6ad097eb5ec65c06d2122193e82d5a2364d949cec26940",
@@ -5022,6 +5486,22 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000060/cost-20260707.htm"
+    },
+    "source-8544b6385bce2d9cf355980d": {
+      "content_hash": "67825bacf2b476a089657a8db37491e7bb5207582b5d5c16c9e2e06645c33647",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:47:04+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-05-09",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Boeing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Ryanair-Places-Its-Biggest-Boeing-Order-for-up-to-300-737-MAX-Jets/default.aspx"
     },
     "source-85f3c5ecbfeb3f57602e48d8": {
       "attachments_discovered": true,
@@ -5174,6 +5654,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102584/ea0306259-01_424b2.htm"
     },
+    "source-8a02acad15a49b6fed167030": {
+      "content_hash": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:37+00:00",
+      "meta": {
+        "accession_number": "000155837021012088",
+        "filed_date": "2021-08-26",
+        "filing_cik": "0000315189",
+        "form": "10-Q",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000155837021012088/de-20210801x10q.htm"
+    },
     "source-8a370485647279c078b2eaf0": {
       "attachments_discovered": true,
       "content_hash": "eeae8c6400c1da0deb6943e3201ecdaeb7e7afcc41c1100a14474b64588c6b1d",
@@ -5320,6 +5816,22 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-unveils-ai-object-storage-redefining-how-ai-workloads-access-and-scale-data"
     },
+    "source-8ce8168f61789a97714772f8": {
+      "content_hash": "40ced28936b7836a6088ee89ff59de34e16523e6f803426d76d8d98b2661785a",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Capital One",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.capitalone.com/about/newsroom/velocity-black-acquisition/"
+    },
     "source-8d499d4c49cb313846239ac5": {
       "meta": {
         "accession_number": "0001918704-26-028819",
@@ -5331,6 +5843,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028819/form424b2.htm"
+    },
+    "source-8d5717f2015bc8969c669e87": {
+      "content_hash": "0983d2d27ca6d2c74f32e358f241d6a4d2f1097761d6a66271f84c772d538458",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:49:04+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-06-12",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Lockheed Martin",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.lockheedmartin.com/2023-06-12-Lockheed-Martin-GlobalFoundries-Collaborate-Advance-Innovation-Resiliency-Chips-National-Security"
     },
     "source-8e88b06e8ba265d4400c92ce": {
       "content_hash": "116335f8d5315bc58706999ea9178b6c467aab952a57daeb9ff0266e9bfaba03",
@@ -5479,6 +6007,22 @@
       },
       "status": "parsed",
       "url": "https://corporate.walmart.com/news/2024/12/03/walmart-completes-acquisition-of-vizio"
+    },
+    "source-908a41c7d436779b8e92cc2b": {
+      "content_hash": "ecffbbafd6c30163e0a09e23ce64260b96b399abd5ee787d96e5e193d0c04a24",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T13:47:20+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-04-08",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "RTX",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.rtx.com/news/news-center/2025/04/08/rtxs-pratt-whitney-inks-agreement-for-delta-tech-ops-to-increase-gtf-mro-capac"
     },
     "source-926e1b6ef55d11090d257f5d": {
       "meta": {
@@ -5706,6 +6250,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028314/form424b2.htm"
     },
+    "source-977d5dbf9596d9148e6ae938": {
+      "content_hash": "7729fca4d5d8674017ccfb22bceb8b5cf69934cb284b448fab5ebe5014d9fa29",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:38+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-06-07",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "NextEra Energy Resources",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.nexteraenergy.com/2024-06-07-Entergy-and-NextEra-Energy-Resources-announce-agreement-to-develop-up-to-4-5-GW-of-new-solar-and-energy-storage-projects"
+    },
     "source-9796943531227ec88e80ebc6": {
       "meta": {
         "accession_number": "0001213900-26-102674",
@@ -5869,6 +6429,22 @@
       "status": "discovered",
       "url": "https://nebius.com/newsroom/nebius-expands-in-uk-with-more-nvidia-powered-infrastructure-more-customers-and-more-cloud-capabilities-for-agentic-and-enterprise-ai"
     },
+    "source-9acfe6480245b1779eff2336": {
+      "content_hash": "be48f9e2a635c2da32b8046a475d77cac8c953662285a9e611253a20ff5ecea5",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:39+00:00",
+      "meta": {
+        "accession_number": "000155837022009205",
+        "filed_date": "2022-05-20",
+        "filing_cik": "0000315189",
+        "form": "8-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000155837022009205/de-20220520xex99d1.htm"
+    },
     "source-9af0e20f43fa11ad39a56456": {
       "meta": {
         "publisher": "co-coreweave",
@@ -5986,6 +6562,38 @@
       },
       "status": "discovered",
       "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave"
+    },
+    "source-9ca7830fe8ffde389fdaf632": {
+      "content_hash": "85e1656c68d11b61baa3c47cc78eb9a812c1e0f73d4828773602b574080222e0",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:47:11+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-07-21",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Safran",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.safran-group.com/pressroom/safran-announces-acquisition-flight-control-and-actuation-activities-collins-aerospace-2025-07-21"
+    },
+    "source-9d5948ee85c10ea78ab68c2f": {
+      "content_hash": "93e6ab4d10ab884996c12d9fcd8230eee84b6cfeac6e36ef8a7c45571b996422",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:43:59+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2022-10-12",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ExxonMobil",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2022/1012_landmark-emissions-reduction-project-in-louisiana-announced"
     },
     "source-9d66e29c779c74fa69d112db": {
       "meta": {
@@ -6705,6 +7313,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
     },
+    "source-ac06e0c6a556686f3e7bae16": {
+      "content_hash": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Marvell Technology, Inc. / SEC filing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000016/mrvl-20220129.htm"
+    },
     "source-acc34f68f8ba9ee86e8615c3": {
       "meta": {
         "accession_number": "0001839882-26-046679",
@@ -6906,6 +7530,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028315/form424b2.htm"
+    },
+    "source-b3a7d429b01b1564a17f3540": {
+      "content_hash": "5b03a19316d78cb2b162e988ef0feb87ccb8085a24d6724ed431dde78d50d2d6",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:18+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2020-10-19",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-to-acquire-concho-resources-in-all-stock-transaction/"
     },
     "source-b3ba4c478b869f53bc5db300": {
       "content_hash": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701",
@@ -7285,6 +7925,22 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-achieves-new-record-breaking-ai-inferencing-benchmark-with-nvidia-gb200-grace-blackwell-superchips"
     },
+    "source-be04389fd98561e818039d60": {
+      "content_hash": "90398181add02bc0cf82ea0ab84844f92bed14462bab2736c2f29373f2c177b7",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:45+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-12-08",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "NextEra Energy",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2025/12-08-2025-123038547"
+    },
     "source-be4193a857352ee03211aa6f": {
       "meta": {
         "accession_number": "0001918704-26-028276",
@@ -7308,6 +7964,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028414/formfwp.htm"
+    },
+    "source-be60f44a389f1ffee7aab0f4": {
+      "content_hash": "a2fa7fa93c5761b865b96e9fc60c7eeda023002dd78ae4d5b7a57d955427c66e",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:46:56+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2022-12-13",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Boeing",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2022/Boeing-United-Airlines-Finalize-737-MAX-and-787-Order-Including-Record-Purchase-for-100-Dreamliners/default.aspx"
     },
     "source-be7ebbf4d82945891286ffdb": {
       "meta": {
@@ -7883,6 +8555,22 @@
       "status": "parsed",
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai"
     },
+    "source-cd7b2fb87c2a8bda9d4abcd2": {
+      "content_hash": "a891f2fea9de56e1f4112d842b226b399728fe2aabfaba4b4077d4c649bb044e",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:56+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-03-04",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "GE Vernova",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-aws-accelerate-global-energy-demand"
+    },
     "source-cdca7dabfc2c0236a91c6b2f": {
       "meta": {
         "accession_number": "0001918704-26-028494",
@@ -8194,6 +8882,22 @@
       },
       "status": "discovered",
       "url": "https://nebius.com/newsroom/nebius-reports-first-quarter-2026-financial-results"
+    },
+    "source-d784dafec4b1c8f268582861": {
+      "content_hash": "aca0475ae55a006c42fc789a9063b5ad01c05e3a98ae7aaef9c747c69db0090c",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:52+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-03-03",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "GE Vernova",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-completes-acquisition-gas-turbine-combustion-parts-business-woodward-inc"
     },
     "source-d8105e53e6e1c4997a0ac671": {
       "meta": {
@@ -9031,6 +9735,22 @@
       "status": "candidate_created",
       "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing"
     },
+    "source-e9969bd10dc9090d0d806217": {
+      "content_hash": "3d3964fdc75c5a4cbe574612e841596079c717e8a70d773eb87877f9e18bb33f",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:41+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2025-10-27",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "NextEra Energy",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2025/10-27-2025-203948689"
+    },
     "source-e9aab3329fcbb0da69522f12": {
       "content_hash": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066",
       "error": null,
@@ -9756,6 +10476,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028801/form424b2.htm"
     },
+    "source-fc59e40cb3e4f446f7fe7522": {
+      "content_hash": "490b4325e0f44e0811810e296766187288cc43bfb05ff65ebd49f44e1c8c1151",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:33+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2018-05-21",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "NextEra Energy",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2018/05-21-2018-123013163"
+    },
     "source-fc8c8b70adbace35fd7b60e2": {
       "attachments_discovered": true,
       "content_hash": "381f97c85b8eff83b8ab941a69139dffd7a929afc96a21dfa0d0ce8df603c252",
@@ -9798,6 +10534,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm"
     },
+    "source-fcdb1d8204be48bd7973fe4c": {
+      "content_hash": "f615906531297609bbf78a4b6470eeab8b2e97e63ef3492051826fa216df73ff",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:44:26+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2021-12-01",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ConocoPhillips",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-completion-of-all-cash-permian-asset-acquisition/"
+    },
     "source-fcfb60c6a4a319b983d6fadd": {
       "meta": {
         "publisher": "co-coreweave",
@@ -9805,6 +10557,22 @@
       },
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-files-registration-statement-for-proposed-initial-public-offering"
+    },
+    "source-fd1a95cdbbfe07377b2a87e7": {
+      "content_hash": "c7bc775119439e8339fc3be9bec33f499f2fd0f3905c4451b78f7c3bd2b1edd6",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:43:55+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2024-11-20",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ExxonMobil",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2024/1120_exxonmobil-and-lg-chem-sign-mou-for-lithium-offtake"
     },
     "source-fd35f7b664321fcc0b3e7a9f": {
       "meta": {
@@ -9858,6 +10626,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028284/form424b2.htm"
     },
+    "source-ff4ce719a60a7e10fac09daf": {
+      "content_hash": "86a2de0b8d803bd9c1a4a54af96a8b65285b354f0b5a56fb4944b863bbd99566",
+      "error": null,
+      "extraction_version": "rules-1.9",
+      "last_checked_at": "2026-09-26T13:43:47+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": "2023-10-11",
+        "filing_cik": null,
+        "form": null,
+        "publisher": "ExxonMobil",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2023/1011_exxonmobil-announces-merger-with-pioneer-natural-resources-in-an-all-stock-transaction"
+    },
     "source-ff7c731dab6e0520208c1bf6": {
       "meta": {
         "accession_number": "0001918704-26-028894",
@@ -9881,214 +10665,6 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028715/form424b2.htm"
-    },
-    "source-8ce8168f61789a97714772f8": {
-      "content_hash": "40ced28936b7836a6088ee89ff59de34e16523e6f803426d76d8d98b2661785a",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Capital One",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://www.capitalone.com/about/newsroom/velocity-black-acquisition/"
-    },
-    "source-2b3fab4cc6818e18255dc91b": {
-      "content_hash": "53b049331aab74b10a25a059436b1eb88867a0006e1b8525295ebe4fe2eec48b",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "AbbVie",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics"
-    },
-    "source-43f64c933167807c5d7e1145": {
-      "content_hash": "55bcd3425ce85840c1458202e7148a777f306235ceee3b2625ced7d8ad7863b3",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "AbbVie",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://news.abbvie.com/2024-08-01-AbbVie-Completes-Acquisition-of-Cerevel-Therapeutics"
-    },
-    "source-5d9e6f74b3debe6f7317168d": {
-      "content_hash": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": "0000316709-22-000009",
-        "filed_date": null,
-        "filing_cik": "0000316709",
-        "form": "10-K",
-        "publisher": "U.S. Securities and Exchange Commission",
-        "source_type": "sec_filing"
-      },
-      "status": "downloaded",
-      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670922000009/schw-20211231.htm"
-    },
-    "source-3e03bd686ab5ed117f60c179": {
-      "content_hash": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Morgan Stanley",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-citi-to-form-industry-leading-wealth-management-business-through-joint-venture_af3e409a-e1b7-11dd-84e6-b390c77322d3"
-    },
-    "source-022b42ac311499beb0096e70": {
-      "content_hash": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Gilead Sciences",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-and-arcus-biosciences-establish-10-year-partnership-to-co-develop-and-co-commercialize-next-generation-cancer-immunotherapies"
-    },
-    "source-539b63489a2fbca88be2910a": {
-      "content_hash": "4c52cd4bdbdd85284f16aff8540f3ad02ed55ab17bfa85d01979ae28616b9521",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Morgan Stanley",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-solium--creating-a-leading-provider-of"
-    },
-    "source-04329c75804a9c7bc10626a9": {
-      "content_hash": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "AbbVie",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://news.abbvie.com/2024-02-12-AbbVie-Completes-Acquisition-of-ImmunoGen"
-    },
-    "source-7e76753563f25bc4214d433d": {
-      "content_hash": "ed273e59d113d4c57097801fb25f0f2566176dda6c13ce41cdc5b03b58315398",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "AbbVie",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics,-Further-Strengthening-Commitment-to-Transforming-Patient-Care-in-Immunology"
-    },
-    "source-85418f5554a350d7b72bca8c": {
-      "content_hash": "0312d25f2a627fd9ba63c157f87b225ea452bd4882b24c38ec568ae6fa687110",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Computershare",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://www.computershare.com/us/news/corporate-trust/computershare-acquires-wells-fargo-corporate-trust"
-    },
-    "source-3ab47b2bf581b85ad952556a": {
-      "content_hash": "b82e7799b0a46ff4b37a09cbd181dd95aacf28eb4082d28f9433bb67ca988b6d",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": "0000898822-08-000943",
-        "filed_date": "2008-10-03",
-        "filing_cik": "0000072971",
-        "form": null,
-        "publisher": "U.S. Securities and Exchange Commission",
-        "source_type": "sec_filing"
-      },
-      "status": "downloaded",
-      "url": "https://www.sec.gov/Archives/edgar/data/72971/000089882208000943/exhibit991.htm"
-    },
-    "source-51e68390ea04d8136b704359": {
-      "content_hash": "1c75c4b55988f5f0ef681c9e962866965c25872d43bebb5bfab17e01d1c9d1b1",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Computershare",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://content-assets.computershare.com/eh96rkuu9740/58338d2bf9c0485b9a0f4d313bffa8f0/d8be87f034145ced6fbf66b06955c9e8/Retail_Entitlement_Offer_and_Retail_Offer_Booklet.pdf"
-    },
-    "source-ac06e0c6a556686f3e7bae16": {
-      "content_hash": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19",
-      "error": null,
-      "extraction_version": "rules-1.0",
-      "last_checked_at": "2026-09-26T00:00:00+00:00",
-      "meta": {
-        "accession_number": null,
-        "filed_date": null,
-        "filing_cik": null,
-        "form": null,
-        "publisher": "Marvell Technology, Inc. / SEC filing",
-        "source_type": "official_newsroom"
-      },
-      "status": "downloaded",
-      "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000016/mrvl-20220129.htm"
     }
   }
 }

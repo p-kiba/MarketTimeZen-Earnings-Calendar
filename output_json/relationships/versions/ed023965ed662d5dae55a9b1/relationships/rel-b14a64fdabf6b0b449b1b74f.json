@@ -1,0 +1,219 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-65dfb6e6fd176e1a9236d479",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-65dfb6e6fd176e1a9236d479",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-65dfb6e6fd176e1a9236d479",
+        "evidence-70d7c8d07f25fac7cc6772a2"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-65dfb6e6fd176e1a9236d479",
+            "evidence-70d7c8d07f25fac7cc6772a2"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-01-30",
+      "relationship_ids": [
+        "rel-b14a64fdabf6b0b449b1b74f"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2e2c4751a2cd43512ffd443d": "1881946c04a493460348310f162a20ee3f44a00b1ea091ae00523fb0d783c554"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-2e2c4751a2cd43512ffd443d",
+        "rule_version": "8b52a424de3859e72d43d1974f55f4a2f103e8051ac2b2b04de74c1876750cb0",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-65dfb6e6fd176e1a9236d479",
+      "excerpt": "Contemporary Amperex Technology Co. Limited",
+      "locator": "sec-div:426",
+      "normalized_text_hash": "22623f10075d5d8e5ca2ce9cc191816fa1a181ac5067069ac2d1e314968bf16c",
+      "section": "Official disclosure: business context",
+      "source_id": "source-2e2c4751a2cd43512ffd443d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-70d7c8d07f25fac7cc6772a2",
+      "excerpt": "Tesla, Inc.",
+      "locator": "tr:832",
+      "normalized_text_hash": "c8d4c759497a06700e568857834a3faa668698cdd3e66afa7a3eb64391f85e3a",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2e2c4751a2cd43512ffd443d",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-65dfb6e6fd176e1a9236d479",
+        "evidence-70d7c8d07f25fac7cc6772a2"
+      ],
+      "geography": "",
+      "headline": "CATLによるリチウムイオン電池セル供給",
+      "products": [
+        "リチウムイオン電池セル"
+      ],
+      "scale": "",
+      "source_role": "電池セル供給",
+      "target_role": "車両・蓄電製品への組込み"
+    },
+    "deal_ids": [
+      "deal-65dfb6e6fd176e1a9236d479"
+    ],
+    "description": "Teslaの2024年10-KはContemporary Amperex Technology Co. Limitedを車両・蓄電製品向けリチウムイオン電池セル供給者として明記。企業グループ名での開示で、個別契約子会社・最新購入額・現在の数量は未確認。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-65dfb6e6fd176e1a9236d479",
+      "evidence-70d7c8d07f25fac7cc6772a2"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-65dfb6e6fd176e1a9236d479"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b14a64fdabf6b0b449b1b74f",
+    "relationship_type": "supplier",
+    "source_company_id": "co-catl",
+    "status_as_of": "2024-12-31",
+    "target_company_id": "co-tsla",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2e2c4751a2cd43512ffd443d": "1881946c04a493460348310f162a20ee3f44a00b1ea091ae00523fb0d783c554"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-2e2c4751a2cd43512ffd443d",
+      "rule_version": "8b52a424de3859e72d43d1974f55f4a2f103e8051ac2b2b04de74c1876750cb0",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001628280-25-003063",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+      "content_hash": "1881946c04a493460348310f162a20ee3f44a00b1ea091ae00523fb0d783c554",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2025-01-30",
+      "filing_cik": "0001318605",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-tsla",
+      "retrieved_at": "2026-09-26T06:13:59+00:00",
+      "source_id": "source-2e2c4751a2cd43512ffd443d",
+      "source_type": "sec_filing",
+      "title": "tsla-20241231"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-65dfb6e6fd176e1a9236d479",
+        "evidence-70d7c8d07f25fac7cc6772a2"
+      ],
+      "geography": "",
+      "headline": "CATLによるリチウムイオン電池セル供給",
+      "products": [
+        "リチウムイオン電池セル"
+      ],
+      "scale": "",
+      "source_role": "電池セル供給",
+      "target_role": "車両・蓄電製品への組込み"
+    },
+    "description": "Teslaの2024年10-KはContemporary Amperex Technology Co. Limitedを車両・蓄電製品向けリチウムイオン電池セル供給者として明記。企業グループ名での開示で、個別契約子会社・最新購入額・現在の数量は未確認。",
+    "direction": "directed",
+    "event_date": "2025-01-30",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b14a64fdabf6b0b449b1b74f",
+    "relationship_type": "supplier",
+    "source_company_id": "co-catl",
+    "status_as_of": "2024-12-31",
+    "target_company_id": "co-tsla",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-02-26",
+      "conditions": "",
+      "deal_id": "deal-ae8ab4a3235f695c92171898",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-ae8ab4a3235f695c92171898",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ae8ab4a3235f695c92171898"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ae8ab4a3235f695c92171898"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-4a336e7623b5deed03fe6cba"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-902621c5139ad46e9da56c18",
+        "rule_version": "782e4b37f9b1d21d5bee236cf46c0a19a8983e2a54d8a818a857805c9ba16630",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ae8ab4a3235f695c92171898",
+      "excerpt": "Azure",
+      "locator": "li:7",
+      "normalized_text_hash": "b73a3f696754fed17eaaed47ee0e8a680969030394d9e0cd54a1de79760cd0d6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-902621c5139ad46e9da56c18",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ae8ab4a3235f695c92171898"
+      ],
+      "geography": "",
+      "headline": "AzureによるAIモデル学習・推論支援",
+      "products": [
+        "Azure AIスーパーコンピューティング"
+      ],
+      "scale": "",
+      "source_role": "計算基盤の提供",
+      "target_role": "AIモデル開発・運用"
+    },
+    "deal_ids": [
+      "deal-ae8ab4a3235f695c92171898"
+    ],
+    "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ae8ab4a3235f695c92171898"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-ae8ab4a3235f695c92171898"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-4a336e7623b5deed03fe6cba",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2024-02-26",
+    "target_company_id": "co-mistral",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-902621c5139ad46e9da56c18",
+      "rule_version": "782e4b37f9b1d21d5bee236cf46c0a19a8983e2a54d8a818a857805c9ba16630",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://azure.microsoft.com/en-us/blog/microsoft-and-mistral-ai-announce-new-partnership-to-accelerate-ai-innovation-and-introduce-mistral-large-first-on-azure/",
+      "content_hash": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-02-26",
+      "publisher": "co-msft",
+      "retrieved_at": "2026-09-26T04:04:17+00:00",
+      "source_id": "source-902621c5139ad46e9da56c18",
+      "source_type": "official_newsroom",
+      "title": "Introducing Mistral-Large on Azure in partnership with Mistral AI | Microsoft Azure Blog"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ae8ab4a3235f695c92171898"
+      ],
+      "geography": "",
+      "headline": "AzureによるAIモデル学習・推論支援",
+      "products": [
+        "Azure AIスーパーコンピューティング"
+      ],
+      "scale": "",
+      "source_role": "計算基盤の提供",
+      "target_role": "AIモデル開発・運用"
+    },
+    "description": "MicrosoftがMistral AIにAzureのAIスーパーコンピューティング基盤を提供し、モデルの学習・推論を支援する計画を発表。",
+    "direction": "directed",
+    "event_date": "2024-02-26",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-4a336e7623b5deed03fe6cba",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2024-02-26",
+    "target_company_id": "co-mistral",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

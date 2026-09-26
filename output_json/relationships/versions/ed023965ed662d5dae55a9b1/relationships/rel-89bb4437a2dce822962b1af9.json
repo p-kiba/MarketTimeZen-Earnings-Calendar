@@ -1,0 +1,225 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-f28e2e8ae8e9698543fbb765",
+          "amount_kind": "purchase_price",
+          "conditions": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$3.05 billion in cash",
+          "payee_company_ids": [
+            "co-halda-therapeutics-opco-inc"
+          ],
+          "payer_company_ids": [
+            "co-johnson-johnson"
+          ],
+          "qualifier": "exact",
+          "scope": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+          "value": "3050000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-12-29",
+      "conditions": "",
+      "deal_id": "deal-94cf4a3a2cc0470bb4e4252f",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-94cf4a3a2cc0470bb4e4252f",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-94cf4a3a2cc0470bb4e4252f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-94cf4a3a2cc0470bb4e4252f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-89bb4437a2dce822962b1af9"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
+        },
+        "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r81",
+        "rule_version": "aa905021237a1d6eda40ebdeddd8d3cc4ceeeb57a08d8757340cdd54c0e3264f",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-94cf4a3a2cc0470bb4e4252f",
+      "excerpt": "Johnson & Johnson (NYSE: JNJ) (the “Company”) today announced the successful completion of its acquisition of Halda Therapeutics OpCo, Inc.",
+      "locator": "p:3",
+      "normalized_text_hash": "19249d203b0acd3aa9c57f133d8b287711155b49dfd1c8bab135b998577ca1ee",
+      "section": "Official company disclosure",
+      "source_id": "source-9fae525922452c89c32693df",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "description": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-94cf4a3a2cc0470bb4e4252f"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89bb4437a2dce822962b1af9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-johnson-johnson",
+    "status_as_of": "2025-12-29",
+    "target_company_id": "co-halda-therapeutics-opco-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9fae525922452c89c32693df": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002"
+      },
+      "reason": "Primary-source review of merged research record r81; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r81",
+      "rule_version": "aa905021237a1d6eda40ebdeddd8d3cc4ceeeb57a08d8757340cdd54c0e3264f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.investor.jnj.com/investor-news/news-details/2025/Johnson--Johnson-completes-acquisition-of-Halda-Therapeutics-and-its-novel-platform-to-revolutionize-cancer-treatment-and-enable-next-generation-oral-therapies/default.aspx",
+      "content_hash": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-12-29",
+      "publisher": "Johnson & Johnson",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-9fae525922452c89c32693df",
+      "source_type": "official_newsroom",
+      "title": "Johnson & Johnson completes acquisition of Halda Therapeutics and its novel platform to revolutionize cancer treatment and enable next-generation oral therapies | Johnson & Johnson"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-f28e2e8ae8e9698543fbb765",
+        "amount_kind": "purchase_price",
+        "conditions": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-94cf4a3a2cc0470bb4e4252f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$3.05 billion in cash",
+        "payee_company_ids": [
+          "co-halda-therapeutics-opco-inc"
+        ],
+        "payer_company_ids": [
+          "co-johnson-johnson"
+        ],
+        "qualifier": "exact",
+        "scope": "完了した買収の現金対価。原文に通貨コードや定義はない。",
+        "value": "3050000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。",
+    "direction": "directed",
+    "event_date": "2025-12-29",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89bb4437a2dce822962b1af9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-johnson-johnson",
+    "status_as_of": "2025-12-29",
+    "target_company_id": "co-halda-therapeutics-opco-inc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

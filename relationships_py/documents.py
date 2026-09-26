@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from .state import digest
 from .http import Unsupported
 
-VERSION='rules-1.8'
+VERSION='rules-1.10'
 
 def parse_pdf(raw):
     """Text PDFs only; retain one-based page locators for manual evidence review."""
@@ -31,6 +31,16 @@ def parse_document(raw,content_type='text/html'):
     soup=BeautifulSoup(raw,'html.parser')
     for el in soup(['script','style','nav','footer','header','noscript']):el.decompose()
     root=soup.find('article') or soup.find('main') or soup
+    # ExxonMobil renders an otherwise empty <article class="stickyToc--content">
+    # beside the actual disclosure in <main>. Prefer the substantive main body
+    # for this wrapper so official press releases remain reviewable.
+    if (root.name == 'article' and 'stickyToc--content' in root.get('class', [])
+            and soup.find('main') and len(' '.join(root.stripped_strings)) < 80):
+        root=soup.find('main')
+    # RTX uses the first <article> for a related-news card while the requested
+    # disclosure lives in <main>.
+    if root.name == 'article' and 'equal-grid__item' in root.get('class', []) and soup.find('main'):
+        root=soup.find('main')
     # NVIDIA newsroom uses <article> for related-story teasers, while the
     # disclosure itself lives in .article-body. Never pin the teaser as evidence.
     if root.name == 'article' and 'index-item' in root.get('class', []) and soup.select_one('div.article-body'):

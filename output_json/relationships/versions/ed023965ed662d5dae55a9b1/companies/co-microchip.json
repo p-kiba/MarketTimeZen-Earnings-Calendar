@@ -1,0 +1,106 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-microchip",
+      "country": null,
+      "display_name": "Microchip Technology",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000723125",
+      "company_id": "co-mu",
+      "country": null,
+      "display_name": "Micron",
+      "entity_status": "resolved",
+      "legal_name": "MICRON TECHNOLOGY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000723125.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000723125.json",
+          "symbol": "MU",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-microchip",
+    "country": null,
+    "display_name": "Microchip Technology",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-726287ccca635fd8be50a753"
+        ],
+        "geography": "",
+        "headline": "CXLメモリー拡張モジュールの共同開発",
+        "products": [
+          "SMC2000",
+          "CXLメモリー拡張"
+        ],
+        "scale": "",
+        "source_role": "メモリー設計",
+        "target_role": "メモリー制御チップ"
+      },
+      "description": "Micronのメモリー技術とMicrochipのSMC2000コントローラーを組み合わせ、AI・データセンター向けCXLメモリー拡張製品を共同開発。単なる互換製品の列挙ではなく、両社による共同開発を明記。",
+      "direction": "undirected",
+      "event_date": "2023-08-07",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-eaa18edef9572085f2c69006",
+      "relationship_type": "partnership",
+      "source_company_id": "co-mu",
+      "status_as_of": "2023-08-07",
+      "target_company_id": "co-microchip",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-08-07"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

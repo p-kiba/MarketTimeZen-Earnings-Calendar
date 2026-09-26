@@ -1,0 +1,134 @@
+{
+  "build_id": "ed023965ed662d5dae55a9b1",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amgen",
+      "country": null,
+      "display_name": "Amgen",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-teneobio-inc",
+      "country": null,
+      "display_name": "Teneobio, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-teneobio-inc",
+    "country": null,
+    "display_name": "Teneobio, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-236d2379b123bdfde824c1c8",
+          "amount_kind": "purchase_price",
+          "conditions": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-dbe1375b2216941071e89726"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$900 million upfront cash payment",
+          "payee_company_ids": [
+            "co-teneobio-inc"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "exact",
+          "scope": "買収完了時に公表された前払い現金対価。原文通貨コード不明。",
+          "value": "900000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-64765d53f0003940db3c361d",
+          "amount_kind": "purchase_price",
+          "conditions": "旧Teneobio株主への将来の条件付きマイルストーン支払。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-dbe1375b2216941071e89726"
+          ],
+          "max_value": "1600000000",
+          "min_value": null,
+          "original_text": "up to an additional $1.6 billion in cash",
+          "payee_company_ids": [
+            "co-teneobio-inc"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "up_to",
+          "scope": "旧Teneobio株主への将来の条件付きマイルストーン支払の上限。前払額へ加算せず、原文通貨コードは未確認。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AmgenがTeneobioの全発行済株式を取得。二重・多重特異性抗体技術とTNB-585を含む医薬品パイプラインを取得。",
+      "direction": "directed",
+      "event_date": "2021-10-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-bb67dda3496d8e5ff52b017f",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-amgen",
+      "status_as_of": "2021-10-19",
+      "target_company_id": "co-teneobio-inc",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-10-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
