@@ -1,0 +1,639 @@
+{
+  "schema_version": "mtz-amount-research-input/1",
+  "purpose": "調査対象の入力用スナップショット。調査結果や公開データではありません。",
+  "snapshot_date": "2026-09-26",
+  "source_build_id": "99c23d66fd1f3b091a14a757",
+  "research_as_of": "2026-09-26",
+  "instructions": "共通の依頼文と金額補完専用依頼文に従い、先頭5件から調査してください。取引の発表前後から基準日までの一次資料を照合します。回答は mtz-research-candidates/1 形式です。",
+  "current_counts": {
+    "relationships": 122,
+    "unrated": 114,
+    "no_amount": 94,
+    "has_amount_but_unrated": 20,
+    "reason_counts_overlap": {
+      "bounded_or_unspecified": 9,
+      "contingency_unknown": 10,
+      "not_stated_in_source": 94,
+      "conditional": 8,
+      "not_total": 10,
+      "unsupported_kind": 5,
+      "multiple_amounts": 5,
+      "currency_unknown": 3
+    }
+  },
+  "tasks": [
+    {
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "company_a": "Broadcom",
+      "company_b": "Apple",
+      "relationship_type": "supplier",
+      "event_date": "2026-07-08",
+      "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "currency_unknown",
+          "description_ja": "金額の通貨が未確認"
+        },
+        {
+          "code": "bounded_or_unspecified",
+          "description_ja": "上限・下限・不定の金額表現"
+        },
+        {
+          "code": "conditional",
+          "description_ja": "条件付きの金額"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "expected to exceed $30 billion",
+          "value": null,
+          "min_value": "30000000000",
+          "max_value": null,
+          "currency": null,
+          "currency_basis": null,
+          "qualifier": "more_than",
+          "amount_kind": "contract_value",
+          "value_semantics": "original_total",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "contingent": true,
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "2031年までという協業期間を補完。正確な満了日は記載がないため日付フィールドへ年末日を補わない。個々の注文の期限や支払条件は未確認。Broadcomの設備投資$15億とApple全社投資計画を取引対価へ加算しない。",
+      "existing_sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+          "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips - Apple",
+          "published_date": "2026-07-08",
+          "filed_date": null
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+          "title": "8-K",
+          "published_date": null,
+          "filed_date": "2026-07-06"
+        }
+      ],
+      "research_questions": [
+        "元の金額に直接適用できる通貨定義、または当該XBRL factの通貨単位を確認する。",
+        "元の上限・下限・不定表現を保存し、別に開示された確定額・最低義務・完了時の金額がないか確認する。",
+        "条件の原文と対象額を確認し、その後の充足・完了が公表されていないか調べる。"
+      ]
+    },
+    {
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "company_a": "CoreWeave",
+      "company_b": "OpenAI",
+      "relationship_type": "service_provider",
+      "event_date": "2025-09-25",
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "currency_unknown",
+          "description_ja": "金額の通貨が未確認"
+        },
+        {
+          "code": "bounded_or_unspecified",
+          "description_ja": "上限・下限・不定の金額表現"
+        },
+        {
+          "code": "conditional",
+          "description_ja": "条件付きの金額"
+        },
+        {
+          "code": "not_total",
+          "description_ja": "総額として扱えない、または総額か不明"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "up to $6.5 billion",
+          "value": null,
+          "min_value": null,
+          "max_value": "6500000000",
+          "currency": null,
+          "currency_basis": null,
+          "qualifier": "up_to",
+          "amount_kind": "contract_value",
+          "value_semantics": "increment",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "contingent": true,
+          "conditions": "提供・利用可能性の要件充足および解除条項に従う追加注文の上限。概算であり確定総額ではない。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": "2031-05-31",
+        "renewal": null,
+        "start_basis": "2025年9月23日の追加注文に係る支払コミットメントの期限。MSA自体の一律満了日ではない。",
+        "start_date": null
+      },
+      "known_conditions": "追加注文の相手方はOpenAI OpCo, LLC。2025年5月8日付MSAに基づく2025年9月23日の追加注文で、最大約65億（原文$）。期限は2031年5月31日。提供・利用可能性の要件充足と解除条項に従う。MSAと注文には正当事由による解除が可能。ドル種類は未確認。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm",
+          "title": "8-K",
+          "published_date": null,
+          "filed_date": "2025-09-25"
+        },
+        {
+          "url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "title": "",
+          "published_date": "2025-09-25",
+          "filed_date": null
+        }
+      ],
+      "research_questions": [
+        "元の金額に直接適用できる通貨定義、または当該XBRL factの通貨単位を確認する。",
+        "元の上限・下限・不定表現を保存し、別に開示された確定額・最低義務・完了時の金額がないか確認する。",
+        "条件の原文と対象額を確認し、その後の充足・完了が公表されていないか調べる。",
+        "追加額・年額・取得現金控除後などの意味を確認し、同じ取引の総額が別途明示されていないか調べる。"
+      ]
+    },
+    {
+      "relationship_id": "rel-77e795db35c98a2e7dcc8958",
+      "company_a": "Corning",
+      "company_b": "Meta",
+      "relationship_type": "supplier",
+      "event_date": "2026-01-27",
+      "description": "CorningがMetaのデータセンターに光ファイバーを供給する複数年契約。最大$60億とされ、North Carolinaの生産能力拡大を支える。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "currency_unknown",
+          "description_ja": "金額の通貨が未確認"
+        },
+        {
+          "code": "bounded_or_unspecified",
+          "description_ja": "上限・下限・不定の金額表現"
+        },
+        {
+          "code": "contingency_unknown",
+          "description_ja": "金額の条件が未確認"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$6 billion",
+          "value": null,
+          "min_value": null,
+          "max_value": "6000000000",
+          "currency": null,
+          "currency_basis": null,
+          "qualifier": "up_to",
+          "amount_kind": "contract_value",
+          "value_semantics": "original_total",
+          "scope": "Metaのデータセンター向け光ファイバー供給の複数年契約上限",
+          "contingent": null,
+          "conditions": "上限額。年額ではない。原文$の通貨種類はこの記録では未確認。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "",
+      "existing_sources": [
+        {
+          "url": "https://about.fb.com/news/2026/01/meta-6-billion-agreement-corning-support-us-manufacturing/",
+          "title": "Meta Announces Up to $6 Billion Agreement With Corning to Support US Manufacturing",
+          "published_date": "2026-01-27",
+          "filed_date": null
+        }
+      ],
+      "research_questions": [
+        "元の金額に直接適用できる通貨定義、または当該XBRL factの通貨単位を確認する。",
+        "元の上限・下限・不定表現を保存し、別に開示された確定額・最低義務・完了時の金額がないか確認する。",
+        "金額に追加購入・成果条件・支払条件が適用されるか。存在しないと推測せず契約範囲を確認する。"
+      ]
+    },
+    {
+      "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+      "company_a": "ELI LILLY & Co",
+      "company_b": "Morphic Holding, Inc.",
+      "relationship_type": "acquisition",
+      "event_date": "2024-08-16",
+      "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+      "amount_disclosure": "not_stated_in_source",
+      "unrated_reasons": [
+        {
+          "code": "not_stated_in_source",
+          "description_ja": "参照資料に金額の記載なし"
+        }
+      ],
+      "known_amounts": [],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "1株57ドルを株数と掛けて独自の総額にしない。SEC注記の研究開発費25.49億は取得対価そのものではない。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+          "title": "lly-20251231",
+          "published_date": null,
+          "filed_date": "2026-02-12"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm",
+          "title": "EX-99.(a)(5)(B)",
+          "published_date": null,
+          "filed_date": "2024-08-16"
+        }
+      ],
+      "research_questions": [
+        "相手企業の発表、契約書、完了発表やSEC注記にこの取引の対価・契約総額が明示されているか。"
+      ]
+    },
+    {
+      "relationship_id": "rel-6c91d437575935bb6dd80400",
+      "company_a": "Amazon Web Services",
+      "company_b": "Pinterest",
+      "relationship_type": "service_provider",
+      "event_date": "2026-06-04",
+      "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "contingency_unknown",
+          "description_ja": "金額の条件が未確認"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$4 billion",
+          "value": "4000000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "qualifier": "exact",
+          "amount_kind": "contract_value",
+          "value_semantics": "original_total",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "contingent": null,
+          "conditions": "原文はplanned commitment。AWS公式顧客事例の韓国語表示で40億USD・2031年を確認。無条件・取消不能の支払義務は未確認。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "known_conditions": "2031年までの予定コミットメント。予定額と確定支払額を区別し、条件がないとは推定しない。公式事例の表示通貨はUSD。",
+      "existing_sources": [
+        {
+          "url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+          "title": "Pinterest Works with AWS to Power Next Chapter of AI-Driven Visual Search Discovery - US Press Center",
+          "published_date": "2026-06-04",
+          "filed_date": null
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
+          "title": "Pinterest signs $4 billion AWS deal to scale AI for 600 million users",
+          "published_date": "2026-06-04",
+          "filed_date": null
+        },
+        {
+          "url": "https://aws.amazon.com/ko/solutions/case-studies/",
+          "title": "고객 성공 사례: 사례 연구, 동영상, 팟캐스트, 혁신 사례",
+          "published_date": null,
+          "filed_date": null
+        }
+      ],
+      "research_questions": [
+        "金額に追加購入・成果条件・支払条件が適用されるか。存在しないと推測せず契約範囲を確認する。"
+      ]
+    },
+    {
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "company_a": "MP Materials",
+      "company_b": "Apple",
+      "relationship_type": "supplier",
+      "event_date": "2025-07-15",
+      "description": "Appleによる希土類磁石の購入とリサイクル事業に関する5億米ドルの複数年コミットメント。Apple公式2026年供給網レポート11ページの美元表記を元の英語発表と照合。全社投資計画とは区別。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "contingency_unknown",
+          "description_ja": "金額の条件が未確認"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$500 million",
+          "value": "500000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "qualifier": "exact",
+          "amount_kind": "committed_total",
+          "value_semantics": "original_total",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "contingent": null,
+          "conditions": "Apple公式供給網レポート2026簡体字版11ページで契約総額5億米ドルを確認。前払金・受領額・請求権を総額へ加算しない。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "調達・協業の公表総額は5億USD。Apple公式レポートで2025年に締結した長期協業契約の通貨を確認。2025年10-K注記16では、所定マイルストーン達成に応じた前払金合計2億USD、2025年9月の4,000万USD受領、同年12月の3,200万USD追加請求権を確認。前払金・受領額・請求権を総額へ加算しない。総額すべての支払完了を意味しない。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+          "title": "mp-20251231",
+          "published_date": null,
+          "filed_date": "2026-02-26"
+        },
+        {
+          "url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf",
+          "title": "People and Environment in our Supply Chain",
+          "published_date": null,
+          "filed_date": null
+        },
+        {
+          "url": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+          "title": "Apple expands U.S. supply chain with $500 million commitment - Apple",
+          "published_date": "2025-07-15",
+          "filed_date": null
+        }
+      ],
+      "research_questions": [
+        "金額に追加購入・成果条件・支払条件が適用されるか。存在しないと推測せず契約範囲を確認する。"
+      ]
+    },
+    {
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "company_a": "NVIDIA",
+      "company_b": "OpenAI",
+      "relationship_type": "investment",
+      "event_date": "2026-02-27",
+      "description": "NVIDIAがOpenAIの今回資金調達ラウンドに300億米ドルを出資すると発表。OpenAI公式の英語発表とポルトガル語版のUS$表記を照合。払込完了・実行条件はこの記録では未確認。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "contingency_unknown",
+          "description_ja": "金額の条件が未確認"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$30B",
+          "value": "30000000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "qualifier": "exact",
+          "amount_kind": "investment_amount",
+          "value_semantics": "original_total",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "contingent": null,
+          "conditions": "発表額。払込完了・実行条件は未確認。通貨は同じ公式発表の各言語版を照合。"
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "",
+      "existing_sources": [
+        {
+          "url": "https://openai.com/pt-BR/index/scaling-ai-for-everyone/",
+          "title": "Escalando a IA para todos | OpenAI",
+          "published_date": "2026-09-23",
+          "filed_date": null
+        },
+        {
+          "url": "https://openai.com/index/scaling-ai-for-everyone/",
+          "title": "Scaling AI for everyone | OpenAI",
+          "published_date": "2026-02-27",
+          "filed_date": null
+        }
+      ],
+      "research_questions": [
+        "金額に追加購入・成果条件・支払条件が適用されるか。存在しないと推測せず契約範囲を確認する。"
+      ]
+    },
+    {
+      "relationship_id": "rel-3855da368526c286527580ee",
+      "company_a": "Symbotic LLC",
+      "company_b": "Walmart Inc.",
+      "relationship_type": "supplier",
+      "event_date": "2025-11-24",
+      "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "contingency_unknown",
+          "description_ja": "金額の条件が未確認"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$520 million",
+          "value": "520000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "United States dollars",
+          "qualifier": "exact",
+          "amount_kind": "contract_value",
+          "value_semantics": "original_total",
+          "scope": "開発プログラムへの支払い総額。400拠点の導入総費用、保守、追加オプション、SymboticからWalmartへの別の支払とは区別。",
+          "contingent": null,
+          "conditions": ""
+        }
+      ],
+      "known_term": {
+        "duration_unit": "years",
+        "duration_value": 12,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": "2025 Walmart MAAの当初契約期間。各システムの保守期間とは別。",
+        "start_date": "2025-01-27"
+      },
+      "known_conditions": "開発費5.2億USDは契約締結時の2.3億、1周年1.65億、2周年1.25億を含む。残額の実際の受領は未確認。400拠点の購入は性能条件付き、追加200拠点は別オプション。各システムの保守は仮受入から最低15年。解除条件を含み、開発費を全導入価格とは扱わない。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+          "title": "sym-20250927",
+          "published_date": null,
+          "filed_date": "2025-11-24"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/d905462dex101.htm",
+          "title": "EX-10.1",
+          "published_date": null,
+          "filed_date": "2025-01-28"
+        }
+      ],
+      "research_questions": [
+        "金額に追加購入・成果条件・支払条件が適用されるか。存在しないと推測せず契約範囲を確認する。"
+      ]
+    },
+    {
+      "relationship_id": "rel-611a74a80ca6b2ecc6ff4ef2",
+      "company_a": "ELI LILLY & Co",
+      "company_b": "POINT Biopharma Global Inc.",
+      "relationship_type": "acquisition",
+      "event_date": "2026-02-12",
+      "description": "Lillyが2023年12月にPOINT全株式を取得。がん向け放射性医薬品の探索・開発・製造基盤と治療候補を取得。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "not_total",
+          "description_ja": "総額として扱えない、または総額か不明"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$ 1.0 billion",
+          "value": "1000000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-542 / iso4217:USD",
+          "qualifier": "approximately",
+          "amount_kind": "purchase_price",
+          "value_semantics": "unknown",
+          "scope": "取得現金控除後の概算現金対価。グロスの総取得対価ではない。",
+          "contingent": false,
+          "conditions": ""
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "2023年12月の取得完了を年次報告書で確認。正確な完了日はこの記録では未補完。金額は取得現金控除後であり、全額の買収総額として着色しない。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+          "title": "lly-20251231",
+          "published_date": null,
+          "filed_date": "2026-02-12"
+        }
+      ],
+      "research_questions": [
+        "追加額・年額・取得現金控除後などの意味を確認し、同じ取引の総額が別途明示されていないか調べる。"
+      ]
+    },
+    {
+      "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+      "company_a": "ELI LILLY & Co",
+      "company_b": "Verve Therapeutics, Inc.",
+      "relationship_type": "acquisition",
+      "event_date": "2026-04-30",
+      "description": "Lillyは心血管疾患向け遺伝子医薬を開発するVerveの全株式を2025年7月に取得。取得現金控除後の現金対価は5.49億米ドル。別途最大約3億米ドルの条件付き対価があり、確定総額に合算しない。",
+      "amount_disclosure": "disclosed",
+      "unrated_reasons": [
+        {
+          "code": "multiple_amounts",
+          "description_ja": "複数の金額があり単一総額に分類していない"
+        },
+        {
+          "code": "not_total",
+          "description_ja": "総額として扱えない、または総額か不明"
+        },
+        {
+          "code": "bounded_or_unspecified",
+          "description_ja": "上限・下限・不定の金額表現"
+        },
+        {
+          "code": "conditional",
+          "description_ja": "条件付きの金額"
+        }
+      ],
+      "known_amounts": [
+        {
+          "original_text": "$ 549 million",
+          "value": "549000000",
+          "min_value": null,
+          "max_value": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-345 / iso4217:USD",
+          "qualifier": "exact",
+          "amount_kind": "purchase_price",
+          "value_semantics": "unknown",
+          "scope": "取得現金控除後の現金対価。グロス取得総額ではない。",
+          "contingent": false,
+          "conditions": ""
+        },
+        {
+          "original_text": "$ 300 million",
+          "value": null,
+          "min_value": null,
+          "max_value": "300000000",
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-348 / iso4217:USD",
+          "qualifier": "up_to",
+          "amount_kind": "purchase_price",
+          "value_semantics": "contingent",
+          "scope": "非譲渡CVRの最大約追加対価。所定のマイルストーン達成が条件。",
+          "contingent": true,
+          "conditions": ""
+        }
+      ],
+      "known_term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "known_conditions": "買収完了月は2025年7月。この注記から正確な完了日は補わない。CVRは1株当たり最大$3.00、総額上限は約3億米ドル。具体的な達成条件は追加確認対象。",
+      "existing_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
+          "title": "lly-20260331",
+          "published_date": null,
+          "filed_date": "2026-04-30"
+        }
+      ],
+      "research_questions": [
+        "各金額の対象・時期・意味を確認する。足し算せず、同じ取引について別に明示された総額があるか確認する。",
+        "追加額・年額・取得現金控除後などの意味を確認し、同じ取引の総額が別途明示されていないか調べる。",
+        "元の上限・下限・不定表現を保存し、別に開示された確定額・最低義務・完了時の金額がないか確認する。",
+        "条件の原文と対象額を確認し、その後の充足・完了が公表されていないか調べる。"
+      ]
+    }
+  ]
+}

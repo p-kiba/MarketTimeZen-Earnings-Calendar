@@ -1,0 +1,78 @@
+{
+  "schema_version": "mtz-research-candidates/1",
+  "is_template": true,
+  "scope": {
+    "target_companies": [],
+    "disclosure_date_from": null,
+    "disclosure_date_to": null,
+    "as_of": null
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": null,
+      "title": null,
+      "publisher": null,
+      "published_date": null
+    }
+  ],
+  "records": [
+    {
+      "id": "r1",
+      "existing_relationship_id": null,
+      "company_a": null,
+      "company_b": null,
+      "relationship_type": null,
+      "direction": null,
+      "summary_ja": null,
+      "disclosed_on": null,
+      "event_type": null,
+      "status_as_disclosed": "unknown",
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [
+        {
+          "original_text": null,
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "currency": null,
+          "qualifier": "unspecified",
+          "kind": "other",
+          "scope": "unknown",
+          "value_semantics": "unknown",
+          "contingent": null,
+          "conditions": null
+        }
+      ],
+      "term": {
+        "start_date": null,
+        "end_date": null,
+        "duration_text": null
+      },
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "s1",
+          "locator": null,
+          "supports": ["company_a", "company_b", "summary_ja"],
+          "summary_ja": null
+        }
+      ],
+      "related_record_ids": [],
+      "amount_research": {
+        "findings": [],
+        "checked_source_ids": [],
+        "remaining_work": null
+      },
+      "unknowns": [],
+      "notes": null
+    }
+  ],
+  "coverage": [
+    {
+      "target_company": null,
+      "searched_source_ids": [],
+      "remaining_work": null
+    }
+  ]
+}
