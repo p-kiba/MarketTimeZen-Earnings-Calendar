@@ -1,20 +1,20 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=dd4904d6779c';
-import {latestResults,resultRows} from './earnings-results.js?v=dd4904d6779c';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=dd4904d6779c';
-import {dealRows} from './deals.js?v=dd4904d6779c';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=dd4904d6779c';
-import {DataClient} from './data-client.js?v=dd4904d6779c';
-import {CompanyView} from './company-view.js?v=dd4904d6779c';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=dd4904d6779c';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=dd4904d6779c';
-import {dictionary} from './i18n.js?v=dd4904d6779c';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=db1f136a9333';
+import {latestResults,resultRows} from './earnings-results.js?v=db1f136a9333';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=db1f136a9333';
+import {dealRows} from './deals.js?v=db1f136a9333';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=db1f136a9333';
+import {DataClient} from './data-client.js?v=db1f136a9333';
+import {CompanyView} from './company-view.js?v=db1f136a9333';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=db1f136a9333';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=db1f136a9333';
+import {dictionary} from './i18n.js?v=db1f136a9333';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
 let neighborhoods=new Map(), collapsedGroups=new Set();
 let mapMode=false;
 let autoConnections=true,zoomReference=null,zoomDepth=1,zoomDepths=new Map();
-let autoExpansionTimer,autoExpansionBusy=false,autoAttemptDepth=1;
+let autoExpansionTimer,autoExpansionBusy=false,autoAttemptStage=0;
 let expansionHistory=[], selectionVersion=0, selectionOpen=false, quickFilter="", selectionRows=10;
 const ux=(ja,en)=>state.lang==='ja'?ja:en;
 let layoutCenter=null,layoutKey='',layoutPositions=new Map();
@@ -132,7 +132,7 @@ function search(){
   if(!matches.length)$('mtz-results').append(el('p',t('searchEmpty')));
 }
 async function choose(cid,push=true){
-  clearTimeout(autoExpansionTimer);autoAttemptDepth=1;
+  clearTimeout(autoExpansionTimer);autoAttemptStage=0;
   cid=client.canonicalId(cid);
   detailGeneration++;const seq=++generation;request?.abort();request=new AbortController();message(t('loading'));
   try{const data=await client.company(cid,request.signal);if(seq!==generation)return;
@@ -298,23 +298,49 @@ function render(){
   $('mtz-graph').dataset.renderMs=(performance.now()-begin).toFixed(2);$('mtz-graph').dataset.nodes=String(nodes.length);$('mtz-graph').dataset.peerRelationships=String(peerCount);$('mtz-graph').dataset.edges=String(edges.length);
   const rendered=cy;requestAnimationFrame(()=>requestAnimationFrame(()=>{if(cy===rendered)$('mtz-graph').dataset.frameMs=(performance.now()-begin).toFixed(2);}));
 }
+function zoomExpansionStage(){
+  if(!cy||!zoomReference)return 0;
+  if(cy.zoom()<=cy.minZoom()+.001)return 5;
+  const ratio=cy.zoom()/zoomReference;
+  return [.72,.56,.44,.32,.23].filter(threshold=>ratio<=threshold).length;
+}
 function scheduleNeighborExpansion(){
   clearTimeout(autoExpansionTimer);
-  if(!autoConnections||autoExpansionBusy||state.view!=='map'||zoomDepth<=autoAttemptDepth)return;
+  if(!autoConnections||autoExpansionBusy||state.view!=='map'||zoomExpansionStage()<=autoAttemptStage)return;
   const center=state.company,seq=generation;
   autoExpansionTimer=setTimeout(async()=>{
     if(!autoConnections||autoExpansionBusy||center!==state.company||seq!==generation)return;
-    autoAttemptDepth=zoomDepth;
-    // One bounded batch per outward depth transition; never recursively fetch the whole graph.
-    const ids=[...zoomDepths.keys()].filter(id=>id!==center&&!expanded.has(id)&&(zoomDepths.get(id)||0)<zoomDepth)
-      .sort((a,b)=>Number(b===selected)-Number(a===selected)||(zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,6);
+    const stage=zoomExpansionStage();if(stage<=autoAttemptStage)return;
+    autoAttemptStage=stage;
+    // Bound each batch and the total visible graph; advance only on further zoom-out.
+    const ids=[...zoomDepths.keys()].filter(id=>id!==center&&!expanded.has(id))
+      .sort((a,b)=>Number(b===selected)-Number(a===selected)||(zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,[0,12,16,20,24,28][stage]);
     if(!ids.length||companies.size>=client.manifest.expanded_nodes)return;
     autoExpansionBusy=true;
-    try{await expandCompany(ids[0],ids);}finally{autoExpansionBusy=false;}
+    try{await expandCompany(ids[0],ids);}finally{autoExpansionBusy=false;if(center===state.company)scheduleNeighborExpansion();}
   },350);
+}
+function updateZoomSizes(){
+  if(!cy)return;
+  const zoom=cy.zoom();
+  // A bounded screen-size floor keeps the overview legible without moving nodes.
+  const scale=Math.min(3,Math.max(1,Math.sqrt(.85/zoom),26/(58*zoom)));
+  cy.batch(()=>{
+    cy.nodes().forEach(node=>{
+      const logo=!!node.data('logo');
+      node.style({'width':(logo?58:92)*scale,'height':(logo?58:48)*scale,'underlay-padding':10*scale,'text-margin-y':logo?9*scale:0});
+    });
+    cy.edges().forEach(edge=>{
+      const base=edge.data('peer')?1.4:1.8;
+      edge.style({'width':Math.min(7,Math.max(base,1/zoom)),
+        'arrow-scale':1.4*Math.min(1.8,Math.sqrt(scale)),
+        'source-distance-from-node':16*scale,'target-distance-from-node':16*scale});
+    });
+  });
 }
 function updateZoomDisclosure(){
   if(!cy)return;
+  updateZoomSizes();
   if(autoConnections)zoomDepth=cy.zoom()<=cy.minZoom()+.001?3:disclosureDepth(cy.zoom()/zoomReference,zoomDepth);
   cy.batch(()=>{
     cy.nodes().forEach(node=>{
@@ -352,9 +378,9 @@ function renderMapTools(){
     cy?.nodes().forEach(n=>{const p=previous.positions.get(n.id());if(p)n.position(p);});rerouteEdges();
   });undo.disabled=!expansionHistory.length;tools.append(undo);
   const toggle=el('label',undefined,'mtz-auto-connections'),input=el('input');input.type='checkbox';input.checked=autoConnections;
-  input.onchange=()=>{autoConnections=input.checked;if(autoConnections){zoomReference=cy?.zoom()||1;zoomDepth=1;autoAttemptDepth=1;}clearTimeout(autoExpansionTimer);updateZoomDisclosure();};
+  input.onchange=()=>{autoConnections=input.checked;if(autoConnections){zoomReference=cy?.zoom()||1;zoomDepth=1;autoAttemptStage=0;}clearTimeout(autoExpansionTimer);updateZoomDisclosure();};
   toggle.append(input,el('span',ux('縮小でつながりを自動展開','Expand connections on zoom out')));
-  toggle.title=ux('縮小すると周辺企業のつながりも取得します。各段階で最大6社、表示上限まで展開します。','Zoom out to load neighboring connections, up to six companies per stage within the display limit.');
+  toggle.title=ux('縮小すると周辺企業のつながりも取得します。縮小の5段階で最大12・16・20・24・28社の関係を取得し、表示上限まで展開します。','Zoom out to load neighboring connections, in five stages of up to 12, 16, 20, 24 and 28 companies within the display limit.');
   const status=el('small',undefined,'mtz-auto-status');status.id='mtz-auto-status';status.hidden=!autoConnections;
   const panel=settings.querySelector('.mtz-settings-panel');
   panel.querySelector('.mtz-auto-connections')?.remove();panel.querySelector('#mtz-auto-status')?.remove();
