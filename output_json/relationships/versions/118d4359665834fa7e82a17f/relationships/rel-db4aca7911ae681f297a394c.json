@@ -1,0 +1,226 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-488275d80a0ffb3d63a4e1b4",
+          "amount_kind": "purchase_price",
+          "conditions": "2021-08-26提出の10-Qに記載された総現金対価。取得日は2021-08-05。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "The total cash consideration was $250 million",
+          "payee_company_ids": [
+            "co-bear-flag-robotics"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "250000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "買収自体は2021-08-05に完了。 10-Q開示時点で総現金対価2.5億ドル、手元資金で調達と記載。",
+      "deal_id": "deal-be863dcf31d65f16f546b877",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-be863dcf31d65f16f546b877",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-be863dcf31d65f16f546b877"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2021-08-26",
+      "relationship_ids": [
+        "rel-db4aca7911ae681f297a394c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r5; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r5",
+        "rule_version": "f1d4ba7fea0e7e9b64a8330944c6103120751e9936ff5532b1251e752a7bf004",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-be863dcf31d65f16f546b877",
+      "excerpt": "On August 5,",
+      "locator": "p:9403",
+      "normalized_text_hash": "cdec0c4e57a6e3d2e52716170e3832286dd6c36dfcf021de305e47682e562cd1",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-8a02acad15a49b6fed167030",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-be863dcf31d65f16f546b877"
+    ],
+    "description": "Deere & Companyは自律走行トラクター技術を開発するBear Flag Roboticsを買収し、Production and Precision Agriculture部門へ組み込んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-be863dcf31d65f16f546b877"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-be863dcf31d65f16f546b877"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-db4aca7911ae681f297a394c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2021-08-26",
+    "target_company_id": "co-bear-flag-robotics",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r5; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r5",
+      "rule_version": "f1d4ba7fea0e7e9b64a8330944c6103120751e9936ff5532b1251e752a7bf004",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "000155837021012088",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837021012088/de-20210801x10q.htm",
+      "content_hash": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2021-08-26",
+      "filing_cik": "0000315189",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T13:46:37+00:00",
+      "source_id": "source-8a02acad15a49b6fed167030",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-488275d80a0ffb3d63a4e1b4",
+        "amount_kind": "purchase_price",
+        "conditions": "2021-08-26提出の10-Qに記載された総現金対価。取得日は2021-08-05。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-be863dcf31d65f16f546b877"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "The total cash consideration was $250 million",
+        "payee_company_ids": [
+          "co-bear-flag-robotics"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "250000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Deere & Companyは自律走行トラクター技術を開発するBear Flag Roboticsを買収し、Production and Precision Agriculture部門へ組み込んだ。",
+    "direction": "directed",
+    "event_date": "2021-08-26",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-db4aca7911ae681f297a394c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2021-08-26",
+    "target_company_id": "co-bear-flag-robotics",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

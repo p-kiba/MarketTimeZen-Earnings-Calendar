@@ -1,0 +1,286 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-06-10",
+      "conditions": "",
+      "deal_id": "deal-63894b170823b8d91d923f9b",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-63894b170823b8d91d923f9b",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-63894b170823b8d91d923f9b",
+        "evidence-bfeec1a0474e9e0ef2c73173",
+        "evidence-b2f8b7974e801b9d2d70bc37",
+        "evidence-735ed19d0886075fb2a165a0",
+        "evidence-9fa3cc38b21bb70a94f197a0"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-63894b170823b8d91d923f9b",
+            "evidence-bfeec1a0474e9e0ef2c73173",
+            "evidence-b2f8b7974e801b9d2d70bc37",
+            "evidence-735ed19d0886075fb2a165a0",
+            "evidence-9fa3cc38b21bb70a94f197a0"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f348beaac7b09852594df48b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e543cca254c9a9b311c82e0f": "7928bd0d419bae329fb649d92e30e1fe87d0ea1ce4fbe06f59f6d863e64beec9"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e543cca254c9a9b311c82e0f",
+        "rule_version": "5bcaaa3c53e2993134efe31283c339b94530778f93fc2810d1f5805965ddf1af",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-63894b170823b8d91d923f9b",
+      "excerpt": "ChatGPT",
+      "locator": "p:44",
+      "normalized_text_hash": "530f6d3a8577198784a27a81c5fa019f1548316f4bcaf715de9932f19f71f177",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-735ed19d0886075fb2a165a0",
+      "excerpt": "Writing Tools",
+      "locator": "p:46",
+      "normalized_text_hash": "4e0b451544b6adb4bbc5e77b9846ac48b8d537fa0f0b5cc0589e832aed46302c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9fa3cc38b21bb70a94f197a0",
+      "excerpt": "later this year",
+      "locator": "p:48",
+      "normalized_text_hash": "98e619a35e3be28d80c225f17305f118fe029bc848e3700f8bda318f6a89bc72",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b2f8b7974e801b9d2d70bc37",
+      "excerpt": "Siri",
+      "locator": "p:45",
+      "normalized_text_hash": "879dd9bef4ecca3310d97c4ae31521cea30e0c7a297ec1552f20b7e5f6b07001",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-bfeec1a0474e9e0ef2c73173",
+      "excerpt": "OpenAI",
+      "locator": "p:47",
+      "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-63894b170823b8d91d923f9b",
+        "evidence-bfeec1a0474e9e0ef2c73173",
+        "evidence-b2f8b7974e801b9d2d70bc37",
+        "evidence-735ed19d0886075fb2a165a0",
+        "evidence-9fa3cc38b21bb70a94f197a0"
+      ],
+      "geography": "",
+      "headline": "Siri・Writing ToolsへのChatGPT統合",
+      "products": [
+        "ChatGPT",
+        "Siri",
+        "Writing Tools"
+      ],
+      "scale": "",
+      "source_role": "OS・アプリへの統合",
+      "target_role": "AIモデル提供"
+    },
+    "deal_ids": [
+      "deal-63894b170823b8d91d923f9b"
+    ],
+    "description": "AppleがiOS 18・iPadOS 18・macOS SequoiaへのChatGPT統合を発表。SiriとWriting Toolsから利用できる計画で、2024年後半の提供予定。契約金額・収益分配率はこの発表では未確認。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-63894b170823b8d91d923f9b",
+      "evidence-bfeec1a0474e9e0ef2c73173",
+      "evidence-b2f8b7974e801b9d2d70bc37",
+      "evidence-735ed19d0886075fb2a165a0",
+      "evidence-9fa3cc38b21bb70a94f197a0"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-63894b170823b8d91d923f9b"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f348beaac7b09852594df48b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2024-06-10",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e543cca254c9a9b311c82e0f": "7928bd0d419bae329fb649d92e30e1fe87d0ea1ce4fbe06f59f6d863e64beec9"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e543cca254c9a9b311c82e0f",
+      "rule_version": "5bcaaa3c53e2993134efe31283c339b94530778f93fc2810d1f5805965ddf1af",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/",
+      "content_hash": "7928bd0d419bae329fb649d92e30e1fe87d0ea1ce4fbe06f59f6d863e64beec9",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-06-10",
+      "publisher": "www.apple.com",
+      "retrieved_at": "2026-09-26T06:09:50+00:00",
+      "source_id": "source-e543cca254c9a9b311c82e0f",
+      "source_type": "official_newsroom",
+      "title": "Introducing Apple Intelligence for iPhone, iPad, and Mac - Apple"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-63894b170823b8d91d923f9b",
+        "evidence-bfeec1a0474e9e0ef2c73173",
+        "evidence-b2f8b7974e801b9d2d70bc37",
+        "evidence-735ed19d0886075fb2a165a0",
+        "evidence-9fa3cc38b21bb70a94f197a0"
+      ],
+      "geography": "",
+      "headline": "Siri・Writing ToolsへのChatGPT統合",
+      "products": [
+        "ChatGPT",
+        "Siri",
+        "Writing Tools"
+      ],
+      "scale": "",
+      "source_role": "OS・アプリへの統合",
+      "target_role": "AIモデル提供"
+    },
+    "description": "AppleがiOS 18・iPadOS 18・macOS SequoiaへのChatGPT統合を発表。SiriとWriting Toolsから利用できる計画で、2024年後半の提供予定。契約金額・収益分配率はこの発表では未確認。",
+    "direction": "undirected",
+    "event_date": "2024-06-10",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f348beaac7b09852594df48b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2024-06-10",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

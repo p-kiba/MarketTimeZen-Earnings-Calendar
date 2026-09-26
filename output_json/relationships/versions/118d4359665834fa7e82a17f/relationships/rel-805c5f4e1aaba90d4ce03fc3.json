@@ -1,0 +1,198 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-04-28",
+      "conditions": "",
+      "deal_id": "deal-c643e5f7b48f934879177544",
+      "detected_at": "2026-09-26T05:23:02+00:00",
+      "effective_date": null,
+      "event_id": "event-c643e5f7b48f934879177544",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c643e5f7b48f934879177544"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c643e5f7b48f934879177544"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-805c5f4e1aaba90d4ce03fc3"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e399a056fe88552f19bc3f9a",
+        "rule_version": "4e31eeb61573bfdd71431cc4cb17afbcd3ba4a6fe69545b3529a7bc74bf5b36c",
+        "verified_at": "2026-09-26T05:23:02+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-c643e5f7b48f934879177544",
+      "excerpt": "OpenAI",
+      "locator": "p:18",
+      "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e399a056fe88552f19bc3f9a",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-c643e5f7b48f934879177544"
+      ],
+      "geography": "",
+      "headline": "Bedrock上でのモデル・エージェント提供",
+      "products": [
+        "Amazon Bedrock Managed Agents"
+      ],
+      "scale": "",
+      "source_role": "AIモデル・エージェント機能",
+      "target_role": "クラウド実行・販売基盤"
+    },
+    "deal_ids": [
+      "deal-c643e5f7b48f934879177544"
+    ],
+    "description": "AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c643e5f7b48f934879177544"
+    ],
+    "first_observed_at": "2026-09-26T05:23:02+00:00",
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "latest_event_ids": [
+      "event-c643e5f7b48f934879177544"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-805c5f4e1aaba90d4ce03fc3",
+    "relationship_type": "partnership",
+    "source_company_id": "co-openai",
+    "status_as_of": "2026-04-28",
+    "target_company_id": "co-aws",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e399a056fe88552f19bc3f9a": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e399a056fe88552f19bc3f9a",
+      "rule_version": "4e31eeb61573bfdd71431cc4cb17afbcd3ba4a6fe69545b3529a7bc74bf5b36c",
+      "verified_at": "2026-09-26T05:23:02+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/aws/bedrock-openai-models",
+      "content_hash": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-28",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:42:20+00:00",
+      "source_id": "source-e399a056fe88552f19bc3f9a",
+      "source_type": "official_newsroom",
+      "title": "OpenAI Models on Amazon Bedrock: GPT-6 Astra is now on Amazon Bedrock"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-c643e5f7b48f934879177544"
+      ],
+      "geography": "",
+      "headline": "Bedrock上でのモデル・エージェント提供",
+      "products": [
+        "Amazon Bedrock Managed Agents"
+      ],
+      "scale": "",
+      "source_role": "AIモデル・エージェント機能",
+      "target_role": "クラウド実行・販売基盤"
+    },
+    "description": "AWSとOpenAIは、Bedrock上でOpenAIモデルを使うManaged Agentsを提供。モデル・エージェント機能とAWSの実行・認証・監査基盤を組み合わせる。個別の分配率や契約額は記載されていない。",
+    "direction": "undirected",
+    "event_date": "2026-04-28",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-805c5f4e1aaba90d4ce03fc3",
+    "relationship_type": "partnership",
+    "source_company_id": "co-openai",
+    "status_as_of": "2026-04-28",
+    "target_company_id": "co-aws",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

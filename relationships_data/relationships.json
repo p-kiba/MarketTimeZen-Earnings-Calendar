@@ -9877,7 +9877,7 @@
     "deal_ids": [
       "deal-c7b23b1dab7b69f2211fbef4"
     ],
-    "description": "Candidate: Microsoft has agreed to purchase shares in LSEG that would result in Microsoft holding approximately a 4% equity stake in LSEG, such shares to be",
+    "description": "LSEG and Microsoft launch 10-year strategic partnership for next-generation data and analytics and cloud infrastructure solutions; Microsoft to make equity investment in LSEG through acquisition of shares | LSEG",
     "direction": "directed",
     "evidence_ids": [
       "evidence-8bfdf13ccdc23b78211b23de"
@@ -9887,14 +9887,23 @@
     "latest_event_ids": [
       "event-56639cd6df5342596c2f4d32"
     ],
-    "lifecycle_status": "unknown",
+    "lifecycle_status": "announced",
     "relationship_id": "rel-fcf208fb782c7b7c3136fe14",
     "relationship_type": "investment",
     "source_company_id": "co-msft",
     "status_as_of": "2022-12-12",
     "target_company_id": "co-lseg",
-    "verification": "needs_review",
-    "verification_metadata": null
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-61c6b764e9c70965003c43ed": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb"
+      },
+      "reason": "Automatically included from an explicit, complete official announcement; no manual source review.",
+      "reviewer": null,
+      "rule_id": "explicit_official_announcement",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:01:36+00:00"
+    }
   },
   {
     "deal_ids": [

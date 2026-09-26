@@ -1,0 +1,578 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5c2d87866f426070b8a96f2a",
+          "amount_kind": "contract_value",
+          "conditions": "原文の$について通貨の種類は未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-06-04",
+      "conditions": "",
+      "deal_id": "deal-8109bf6676d1ac9ea1c7ca7e",
+      "detected_at": "2026-09-26T04:47:23+00:00",
+      "effective_date": null,
+      "event_id": "event-8109bf6676d1ac9ea1c7ca7e",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-8109bf6676d1ac9ea1c7ca7e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8109bf6676d1ac9ea1c7ca7e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-8109bf6676d1ac9ea1c7ca7e"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-08880256638be8c4001e0a07": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd"
+        },
+        "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-source-08880256638be8c4001e0a07",
+        "rule_version": "88edd06869d6941f8e423c1a4ab3441d3f9f662a8ed96d9b93898def6a93a6a8",
+        "verified_at": "2026-09-26T04:47:23+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5ce323339f0a875b3bacccbf",
+          "amount_kind": "contract_value",
+          "conditions": "原文はplanned commitment。無条件・取消不能の支払義務は未確認。ドル種類も未確認。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-06-04",
+      "conditions": "2031年までの予定コミットメント。予定額と確定支払額を区別し、条件がないとは推定しない。",
+      "deal_id": "deal-8109bf6676d1ac9ea1c7ca7e",
+      "detected_at": "2026-09-26T06:22:28+00:00",
+      "effective_date": null,
+      "event_id": "event-a189997bdd3a0904222eb21a",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-7bb6ae02ee67570a622a1a45",
+        "evidence-d06cf2742409cfa195f56c41"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-7bb6ae02ee67570a622a1a45",
+            "evidence-d06cf2742409cfa195f56c41"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "supersedes_event_id": "event-8109bf6676d1ac9ea1c7ca7e",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-7bb6ae02ee67570a622a1a45",
+          "evidence-d06cf2742409cfa195f56c41"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-08880256638be8c4001e0a07": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
+          "source-6a992de5997e797293db2fd3": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185"
+        },
+        "reason": "Codex-curated claims pinned to exact official issuer disclosure and paragraph hashes. The amount scope, conditions and counterparty identity were evaluated individually; this rule does not claim human review or automatic approval of future documents.",
+        "reviewer": null,
+        "rule_id": "review-expansion-20260926-pinterest-planned",
+        "rule_version": "b13bda8903e09cd46d61f80d51db56709c3bd0ed72b88ab4631290892bc65246",
+        "verified_at": "2026-09-26T06:22:28+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-badf8b9e82116d108807e3eb",
+          "amount_kind": "contract_value",
+          "conditions": "原文はplanned commitment。AWS公式顧客事例の韓国語表示で40億USD・2031年を確認。無条件・取消不能の支払義務は未確認。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-pinterest"
+          ],
+          "qualifier": "exact",
+          "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+          "value": "4000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-06-04",
+      "conditions": "2031年までの予定コミットメント。予定額と確定支払額を区別し、条件がないとは推定しない。公式事例の表示通貨はUSD。",
+      "deal_id": "deal-8109bf6676d1ac9ea1c7ca7e",
+      "detected_at": "2026-09-26T07:05:00+00:00",
+      "effective_date": null,
+      "event_id": "event-88e4ee4b7c4c5dcaab7619c5",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-63f7112ae75089cd06b7c0cf",
+        "evidence-52d747a31e71183880c2736b",
+        "evidence-61cc82b31e07852b780f68b7"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-63f7112ae75089cd06b7c0cf",
+            "evidence-52d747a31e71183880c2736b",
+            "evidence-61cc82b31e07852b780f68b7"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6c91d437575935bb6dd80400"
+      ],
+      "supersedes_event_id": "event-a189997bdd3a0904222eb21a",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-63f7112ae75089cd06b7c0cf",
+          "evidence-52d747a31e71183880c2736b",
+          "evidence-61cc82b31e07852b780f68b7"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-08880256638be8c4001e0a07": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
+          "source-6a992de5997e797293db2fd3": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185",
+          "source-fd7567215edc904218e14829": "c30a737250a8df0f34bbb0cc6311ad5658ec68f25d8a587b1c9a423c204cdde2"
+        },
+        "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-pinterest-currency",
+        "rule_version": "ff4a5931a82a6d4edf0896ae34950020c4b0f6bfaad615b5b7eae8b97e6d2fd4",
+        "verified_at": "2026-09-26T07:05:00+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-52d747a31e71183880c2736b",
+      "excerpt": "planned",
+      "locator": "p:1",
+      "normalized_text_hash": "05ad072baae0b1e93afd052919622063b32b852dd55c9495c77a16487b1fa639",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-6a992de5997e797293db2fd3",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-61cc82b31e07852b780f68b7",
+      "excerpt": "2031년까지 AWS에 40억 USD를 투자하여 맞춤형 실리콘으로 월간 사용자 6억 명을 위한 AI 기반 시각적 검색을 지원하는 Pinterest",
+      "locator": "aws-card:2",
+      "normalized_text_hash": "5204d33a4544ed66707b4da510747c12f23e234834c6aa30063306a03cee3a25",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-fd7567215edc904218e14829",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-63f7112ae75089cd06b7c0cf",
+      "excerpt": "$4 billion commitment for cloud services through 2031",
+      "locator": "p:0",
+      "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+      "section": "Official primary disclosure",
+      "source_id": "source-08880256638be8c4001e0a07",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-7bb6ae02ee67570a622a1a45",
+      "excerpt": "$4 billion commitment for cloud services through 2031",
+      "locator": "p:0",
+      "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+      "section": "Official primary disclosure",
+      "source_id": "source-08880256638be8c4001e0a07",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8109bf6676d1ac9ea1c7ca7e",
+      "excerpt": "$4 billion commitment for cloud services through 2031",
+      "locator": "p:0",
+      "normalized_text_hash": "df647230c6a98f06f16968778b2c58845f544abfe97f0c05e8c95f47856e2639",
+      "section": "Official primary disclosure",
+      "source_id": "source-08880256638be8c4001e0a07",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d06cf2742409cfa195f56c41",
+      "excerpt": "planned",
+      "locator": "p:1",
+      "normalized_text_hash": "05ad072baae0b1e93afd052919622063b32b852dd55c9495c77a16487b1fa639",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-6a992de5997e797293db2fd3",
+      "supports_fields": [
+        "amounts",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-8109bf6676d1ac9ea1c7ca7e"
+    ],
+    "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-63f7112ae75089cd06b7c0cf",
+      "evidence-52d747a31e71183880c2736b",
+      "evidence-61cc82b31e07852b780f68b7"
+    ],
+    "first_observed_at": "2026-09-25T18:57:25+00:00",
+    "last_observed_at": "2026-09-26T07:05:00+00:00",
+    "latest_event_ids": [
+      "event-88e4ee4b7c4c5dcaab7619c5"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-6c91d437575935bb6dd80400",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-04",
+    "target_company_id": "co-pinterest",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-08880256638be8c4001e0a07": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
+        "source-6a992de5997e797293db2fd3": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185",
+        "source-fd7567215edc904218e14829": "c30a737250a8df0f34bbb0cc6311ad5658ec68f25d8a587b1c9a423c204cdde2"
+      },
+      "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+      "reviewer": null,
+      "rule_id": "amount-review-20260926-pinterest-currency",
+      "rule_version": "ff4a5931a82a6d4edf0896ae34950020c4b0f6bfaad615b5b7eae8b97e6d2fd4",
+      "verified_at": "2026-09-26T07:05:00+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery",
+      "content_hash": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-04",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:52:52+00:00",
+      "source_id": "source-08880256638be8c4001e0a07",
+      "source_type": "official_newsroom",
+      "title": "Pinterest Works with AWS to Power Next Chapter of AI-Driven Visual Search Discovery - US Press Center"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
+      "content_hash": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-04",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-25T18:51:24+00:00",
+      "source_id": "source-6a992de5997e797293db2fd3",
+      "source_type": "official_newsroom",
+      "title": "Pinterest signs $4 billion AWS deal to scale AI for 600 million users"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://aws.amazon.com/ko/solutions/case-studies/",
+      "content_hash": "c30a737250a8df0f34bbb0cc6311ad5658ec68f25d8a587b1c9a423c204cdde2",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.6",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "Amazon Web Services",
+      "retrieved_at": "2026-09-26T06:57:37+00:00",
+      "source_id": "source-fd7567215edc904218e14829",
+      "source_type": "official_newsroom",
+      "title": "고객 성공 사례: 사례 연구, 동영상, 팟캐스트, 혁신 사례"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-badf8b9e82116d108807e3eb",
+        "amount_kind": "contract_value",
+        "conditions": "原文はplanned commitment。AWS公式顧客事例の韓国語表示で40億USD・2031年を確認。無条件・取消不能の支払義務は未確認。",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "USD",
+        "evidence_ids": [
+          "evidence-63f7112ae75089cd06b7c0cf",
+          "evidence-52d747a31e71183880c2736b",
+          "evidence-61cc82b31e07852b780f68b7"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$4 billion",
+        "payee_company_ids": [
+          "co-aws"
+        ],
+        "payer_company_ids": [
+          "co-pinterest"
+        ],
+        "qualifier": "exact",
+        "scope": "PinterestがAWSクラウドサービスへ2031年までに予定するコミットメント。",
+        "value": "4000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AWSはPinterestへクラウドサービスを提供。Pinterestは2031年までの予定コミットメントを公表。金額は期間内の契約コミットメントで、AWSの売上認識時期とは区別。",
+    "direction": "directed",
+    "event_date": "2026-06-04",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:05:00+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-6c91d437575935bb6dd80400",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-04",
+    "target_company_id": "co-pinterest",
+    "tier": null,
+    "tier_reasons": [
+      "contingency_unknown"
+    ]
+  }
+}

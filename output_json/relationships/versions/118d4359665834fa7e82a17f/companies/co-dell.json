@@ -1,0 +1,286 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001571996",
+      "company_id": "co-dell",
+      "country": null,
+      "display_name": "Dell Technologies",
+      "entity_status": "resolved",
+      "legal_name": "Dell Technologies Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001571996.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001571996.json",
+          "symbol": "DELL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ericsson",
+      "country": null,
+      "display_name": "Ericsson",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-04-27",
+      "listing_status_source": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+          "symbol": "ERIC",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nokia",
+      "country": null,
+      "display_name": "Nokia",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-02-15",
+      "listing_status_source": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+          "symbol": "NOK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001571996",
+    "company_id": "co-dell",
+    "country": null,
+    "display_name": "Dell Technologies",
+    "entity_status": "resolved",
+    "legal_name": "Dell Technologies Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001571996.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001571996.json",
+        "symbol": "DELL",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ca164342243ad4ff60104510",
+          "evidence-ceeeb180fd31561f0ec9b4f3"
+        ],
+        "geography": "",
+        "headline": "Blackwell搭載サーバーの製品展開",
+        "products": [
+          "Blackwellサーバー"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "サーバー製品の提供予定"
+      },
+      "description": "DellをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f195c0a88113d682d625afa9",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-dell",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "geography": "",
+        "headline": "Cloud RAN向けサーバーを提供",
+        "products": [
+          "Dell PowerEdge XR8000",
+          "Dell PowerEdge XR5610",
+          "Ericsson Cloud RAN"
+        ],
+        "scale": "",
+        "source_role": "Dellが通信向けサーバーを提供",
+        "target_role": "EricssonがCloud RANソリューションに統合"
+      },
+      "description": "EricssonのCloud RAN向けにDell PowerEdgeサーバーを採用する協業。通信向けXR8000・XR5610を組み込み、基地局ネットワークのクラウド化を支援する2023年発表。",
+      "direction": "directed",
+      "event_date": "2023-04-27",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3a50b72c8c38171d4f70d7b7",
+      "relationship_type": "supplier",
+      "source_company_id": "co-dell",
+      "status_as_of": "2023-04-27",
+      "target_company_id": "co-ericsson",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "geography": "",
+        "headline": "通信クラウド向けサーバーへ移行",
+        "products": [
+          "Dell PowerEdge",
+          "Nokia AirFrame"
+        ],
+        "scale": "",
+        "source_role": "Dellが通信クラウド用インフラを提供",
+        "target_role": "Nokiaが既存AirFrame顧客の移行を共同支援"
+      },
+      "description": "Nokiaが既存AirFrame顧客向けの優先インフラパートナーとしてDellを採用。共同でDell PowerEdge等への移行を支援する計画。Nokia自身が全サーバーを直接購入するという記述ではない。",
+      "direction": "undirected",
+      "event_date": "2024-02-15",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-bfa33e2997da0509842ae255",
+      "relationship_type": "partnership",
+      "source_company_id": "co-dell",
+      "status_as_of": "2024-02-15",
+      "target_company_id": "co-nokia",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "geography": "",
+        "headline": "プライベート5GをNativeEdgeと統合",
+        "products": [
+          "Nokia Digital Automation Cloud",
+          "Dell NativeEdge",
+          "プライベート無線"
+        ],
+        "scale": "",
+        "source_role": "Nokiaが企業向けプライベート無線基盤を提供",
+        "target_role": "Dellがエッジ運用ソフトへ統合"
+      },
+      "description": "DellがNokia Digital Automation Cloudを企業向けエッジ用途の優先プライベート無線基盤として採用。Nokia NDACとDell NativeEdgeを統合する計画。サーバー移行支援とは別の協業内容として表示。",
+      "direction": "undirected",
+      "event_date": "2024-02-15",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-8a7de7110945b35cf39866dc",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nokia",
+      "status_as_of": "2024-02-15",
+      "target_company_id": "co-dell",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-04-27",
+    "2024-02-15",
+    "2024-03-18"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

@@ -1,0 +1,226 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-06-23",
+      "conditions": "単一PPAの中の二つの15年期間。30年契約や独立した2契約とは断定しない。将来供給であり供給開始済みとは扱わない。",
+      "deal_id": "deal-ea770c6bd6c5456283c88641",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-ea770c6bd6c5456283c88641",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ea770c6bd6c5456283c88641",
+        "evidence-d65aad92e35a2e6807eb104d"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ea770c6bd6c5456283c88641",
+            "evidence-d65aad92e35a2e6807eb104d"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-156ce4bb86e7492c5d95a571"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 15,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-ea770c6bd6c5456283c88641",
+          "evidence-d65aad92e35a2e6807eb104d"
+        ],
+        "renewal": null,
+        "start_basis": "2029年・2030年に開始する各供給期間。正確な月日未掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8c82b593c2eddb5518350269": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-8c82b593c2eddb5518350269",
+        "rule_version": "42ea7227a7b952494a9536a20acc1161353f85fd84883d4b318bf4c90e6e3566",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d65aad92e35a2e6807eb104d",
+      "excerpt": "two 15",
+      "locator": "p:12",
+      "normalized_text_hash": "9f9b253b34f5dd2216079e09be1ba7629c4b9407599128b3bef97083c219b859",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-8c82b593c2eddb5518350269",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ea770c6bd6c5456283c88641",
+      "excerpt": "power purchase agreement",
+      "locator": "p:11",
+      "normalized_text_hash": "8e85f596735c63e977c1c73fb5d9bb7f7e2b56cffdb53bae8a02d3e2d594d5c4",
+      "section": "Official disclosure: business context",
+      "source_id": "source-8c82b593c2eddb5518350269",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ea770c6bd6c5456283c88641",
+        "evidence-d65aad92e35a2e6807eb104d"
+      ],
+      "geography": "米国・Illinois",
+      "headline": "Dresden原発の長期電力購入契約",
+      "products": [
+        "電力",
+        "環境属性",
+        "発電容量"
+      ],
+      "scale": "約176MW（増強分30MWを含む）",
+      "source_role": "発電・卸供給",
+      "target_role": "電力購入"
+    },
+    "deal_ids": [
+      "deal-ea770c6bd6c5456283c88641"
+    ],
+    "description": "ConstellationのDresden原子力発電所からWalmartが電力・環境属性・容量を購入するPPA。約176MWに増強分30MWを含み、2029年・2030年開始の各15年間の供給期間を設ける。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ea770c6bd6c5456283c88641",
+      "evidence-d65aad92e35a2e6807eb104d"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-ea770c6bd6c5456283c88641"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-156ce4bb86e7492c5d95a571",
+    "relationship_type": "supplier",
+    "source_company_id": "co-ceg",
+    "status_as_of": "2026-06-23",
+    "target_company_id": "co-wmt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8c82b593c2eddb5518350269": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-8c82b593c2eddb5518350269",
+      "rule_version": "42ea7227a7b952494a9536a20acc1161353f85fd84883d4b318bf4c90e6e3566",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+      "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-23",
+      "publisher": "corporate.walmart.com",
+      "retrieved_at": "2026-09-26T06:09:57+00:00",
+      "source_id": "source-8c82b593c2eddb5518350269",
+      "source_type": "official_newsroom",
+      "title": "Constellation and Walmart Announce Long-Term Agreement to Support Reliable, Emissions-Free Nuclear Energy in Illinois"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ea770c6bd6c5456283c88641",
+        "evidence-d65aad92e35a2e6807eb104d"
+      ],
+      "geography": "米国・Illinois",
+      "headline": "Dresden原発の長期電力購入契約",
+      "products": [
+        "電力",
+        "環境属性",
+        "発電容量"
+      ],
+      "scale": "約176MW（増強分30MWを含む）",
+      "source_role": "発電・卸供給",
+      "target_role": "電力購入"
+    },
+    "description": "ConstellationのDresden原子力発電所からWalmartが電力・環境属性・容量を購入するPPA。約176MWに増強分30MWを含み、2029年・2030年開始の各15年間の供給期間を設ける。",
+    "direction": "directed",
+    "event_date": "2026-06-23",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-156ce4bb86e7492c5d95a571",
+    "relationship_type": "supplier",
+    "source_company_id": "co-ceg",
+    "status_as_of": "2026-06-23",
+    "target_company_id": "co-wmt",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

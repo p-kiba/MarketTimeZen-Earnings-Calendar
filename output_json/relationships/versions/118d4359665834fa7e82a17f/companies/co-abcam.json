@@ -1,0 +1,128 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-abcam",
+      "country": null,
+      "display_name": "Abcam plc",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-dhr",
+      "country": null,
+      "display_name": "Danaher Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-10",
+      "listing_status_source": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+          "symbol": "DHR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-abcam",
+    "country": null,
+    "display_name": "Abcam plc",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f572defa8ad0e1e7fb993642",
+          "amount_kind": "purchase_price",
+          "conditions": "発表時の総企業価値。引受債務を含み、取得現金を控除。1株24ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1594e4d721015519357e7dac",
+            "evidence-93e85e72ea5e6241a155ae77",
+            "evidence-9e03325d8cebabdaeafb7eb7",
+            "evidence-3a0fa80d3d1e986cb4360551"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5.7 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2023-08-28の契約発表時点の金額。発表時の総企業価値。引受債務を含み、取得現金を控除。1株24ドルの現金対価。 完了時点の調整後対価は未確認。",
+          "value": "5700000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-1594e4d721015519357e7dac",
+          "evidence-93e85e72ea5e6241a155ae77",
+          "evidence-9e03325d8cebabdaeafb7eb7",
+          "evidence-3a0fa80d3d1e986cb4360551"
+        ],
+        "geography": "",
+        "headline": "抗体・試薬・研究用消耗品事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Danaherは抗体・試薬・バイオマーカー・アッセイを提供するAbcamを買収し、Life Sciences部門の創薬・生命科学研究向け製品群を拡充した。",
+      "direction": "directed",
+      "event_date": "2023-12-06",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:29+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-d1ecb4a01b2a344bfcf674fb",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-dhr",
+      "status_as_of": "2023-12-06",
+      "target_company_id": "co-abcam",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-12-06"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

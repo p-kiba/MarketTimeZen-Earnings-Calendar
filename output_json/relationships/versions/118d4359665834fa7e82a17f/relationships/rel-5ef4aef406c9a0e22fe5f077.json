@@ -1,0 +1,266 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-89e814cad22708f9208fa58c",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の取引価値。Concho株1株につきConocoPhillips株1.46株。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "All-Stock Transaction Valued at $9.7 Billion",
+          "payee_company_ids": [
+            "co-concho-resources"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2021-01-15",
+      "conditions": "2021-01-15に買収完了。 交換比率はConcho株1株につきConocoPhillips株1.46株。",
+      "deal_id": "deal-110ceeedbed0bce386b4d1cd",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-110ceeedbed0bce386b4d1cd",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-110ceeedbed0bce386b4d1cd",
+        "evidence-b89f3542e31a6bf9ee758c17"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-5ef4aef406c9a0e22fe5f077"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-7f3aa8d78e21db200a1cd9fc": "8ffe54843422d9ed2f725c4c27e0b43bad4e8b4fb39d6cf1be76ee1d9625493b",
+          "source-b3a7d429b01b1564a17f3540": "5b03a19316d78cb2b162e988ef0feb87ccb8085a24d6724ed431dde78d50d2d6"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r10; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r10",
+        "rule_version": "e2dc050a841964b4d7b39933dc0306474adec468663428898780263200c46778",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-110ceeedbed0bce386b4d1cd",
+      "excerpt": "HOUSTON – ConocoPhillips",
+      "locator": "p:1",
+      "normalized_text_hash": "3a63379f8e32bbf6e7a8030934bcb3e89290a570f4dd146f23d077f3de96d5ff",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-7f3aa8d78e21db200a1cd9fc",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b89f3542e31a6bf9ee758c17",
+      "excerpt": "All-Stock Transaction Valued at $9.7 Billion",
+      "locator": "p:2",
+      "normalized_text_hash": "2cb9c6d89f96b343d1f7e5f719de36c651e47fca14c61a49c52ffcec67c54a6e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b3a7d429b01b1564a17f3540",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-110ceeedbed0bce386b4d1cd"
+    ],
+    "description": "ConocoPhillipsはConcho Resourcesを全株式取引で買収し、Permian Basinの資産規模と生産基盤を拡大した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-110ceeedbed0bce386b4d1cd",
+      "evidence-b89f3542e31a6bf9ee758c17"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-110ceeedbed0bce386b4d1cd"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-5ef4aef406c9a0e22fe5f077",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2021-01-15",
+    "target_company_id": "co-concho-resources",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7f3aa8d78e21db200a1cd9fc": "8ffe54843422d9ed2f725c4c27e0b43bad4e8b4fb39d6cf1be76ee1d9625493b",
+        "source-b3a7d429b01b1564a17f3540": "5b03a19316d78cb2b162e988ef0feb87ccb8085a24d6724ed431dde78d50d2d6"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r10; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r10",
+      "rule_version": "e2dc050a841964b4d7b39933dc0306474adec468663428898780263200c46778",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-concho-resources/",
+      "content_hash": "8ffe54843422d9ed2f725c4c27e0b43bad4e8b4fb39d6cf1be76ee1d9625493b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2021-01-15",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-01-15",
+      "publisher": "ConocoPhillips",
+      "retrieved_at": "2026-09-26T13:44:22+00:00",
+      "source_id": "source-7f3aa8d78e21db200a1cd9fc",
+      "source_type": "official_newsroom",
+      "title": "ConocoPhillips Completes Acquisition of Concho Resources | ConocoPhillips"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.conocophillips.com/news-media/story/conocophillips-to-acquire-concho-resources-in-all-stock-transaction/",
+      "content_hash": "5b03a19316d78cb2b162e988ef0feb87ccb8085a24d6724ed431dde78d50d2d6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2020-10-19",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "ConocoPhillips",
+      "retrieved_at": "2026-09-26T13:44:18+00:00",
+      "source_id": "source-b3a7d429b01b1564a17f3540",
+      "source_type": "official_newsroom",
+      "title": "ConocoPhillips to Acquire Concho Resources in All-Stock Transaction  | ConocoPhillips"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-89e814cad22708f9208fa58c",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時の取引価値。Concho株1株につきConocoPhillips株1.46株。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-110ceeedbed0bce386b4d1cd",
+          "evidence-b89f3542e31a6bf9ee758c17"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "All-Stock Transaction Valued at $9.7 Billion",
+        "payee_company_ids": [
+          "co-concho-resources"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "9700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "ConocoPhillipsはConcho Resourcesを全株式取引で買収し、Permian Basinの資産規模と生産基盤を拡大した。",
+    "direction": "directed",
+    "event_date": "2021-01-15",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-5ef4aef406c9a0e22fe5f077",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2021-01-15",
+    "target_company_id": "co-concho-resources",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

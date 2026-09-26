@@ -1,0 +1,390 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-49afa7407b3dc5eb932acbc6",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-07-08",
+      "conditions": "",
+      "deal_id": "deal-f9c588e54fdeb2ccdf6a3562",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-f9c588e54fdeb2ccdf6a3562",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-f9c588e54fdeb2ccdf6a3562"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-f9c588e54fdeb2ccdf6a3562"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-a081634e897c3a0bfbfbbd44",
+        "rule_version": "5b45688c226917ba0b5f93af9c63741ffb8dd99c5a2a3a75833fcb090ccbfe99",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-e45799e38b4915054a64a417",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-07-08",
+      "conditions": "2031年までという協業期間を補完。正確な満了日は記載がないため日付フィールドへ年末日を補わない。個々の注文の期限や支払条件は未確認。Broadcomの設備投資$15億とApple全社投資計画を取引対価へ加算しない。",
+      "deal_id": "deal-f9c588e54fdeb2ccdf6a3562",
+      "detected_at": "2026-09-26T07:30:23+00:00",
+      "effective_date": null,
+      "event_id": "event-72d74cccd61839bb9fe67ff9",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-0e646c04da6288aface08d55",
+        "evidence-a57cd14114379f5c7c6aa66d"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7893e3b8d0047339117cae8a"
+      ],
+      "supersedes_event_id": "event-f9c588e54fdeb2ccdf6a3562",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
+          "source-fb740c13b0c1090f4abfbb08": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de"
+        },
+        "reason": "Codex primary-source continuation review. Original disclosure, SEC contract and context hashes pinned; legal payee distinguished from the displayed business group. No human or independent-agent review claimed. No currency inference, FX or aggregation of separate transactions.",
+        "reviewer": null,
+        "rule_id": "amount-followup-20260926-broadcom-apple-term",
+        "rule_version": "7eb9e2fa592a53db8413291935ecc744e00656aa7527ea3003dbcbcf651bb00d",
+        "verified_at": "2026-09-26T07:30:23+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0e646c04da6288aface08d55",
+      "excerpt": "expected to exceed $30 billion",
+      "locator": "p:8",
+      "normalized_text_hash": "7cf41eef49ed25dfbb243fecf001fdcdda8b9aa19bb1c4ff3862818f428327cc",
+      "section": "Official deal announcement",
+      "source_id": "source-a081634e897c3a0bfbfbbd44",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a57cd14114379f5c7c6aa66d",
+      "excerpt": "through 2031",
+      "locator": "p:37",
+      "normalized_text_hash": "b71017bd2715e5fd926abbdb4451a014b45883f29901a0b3383180fad72f548f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-fb740c13b0c1090f4abfbb08",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "term"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f9c588e54fdeb2ccdf6a3562",
+      "excerpt": "expected to exceed $30 billion",
+      "locator": "p:8",
+      "normalized_text_hash": "7cf41eef49ed25dfbb243fecf001fdcdda8b9aa19bb1c4ff3862818f428327cc",
+      "section": "Official deal announcement",
+      "source_id": "source-a081634e897c3a0bfbfbbd44",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-f9c588e54fdeb2ccdf6a3562"
+    ],
+    "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-0e646c04da6288aface08d55",
+      "evidence-a57cd14114379f5c7c6aa66d"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T07:30:23+00:00",
+    "latest_event_ids": [
+      "event-72d74cccd61839bb9fe67ff9"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7893e3b8d0047339117cae8a",
+    "relationship_type": "supplier",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-07-08",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a081634e897c3a0bfbfbbd44": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
+        "source-fb740c13b0c1090f4abfbb08": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de"
+      },
+      "reason": "Codex primary-source continuation review. Original disclosure, SEC contract and context hashes pinned; legal payee distinguished from the displayed business group. No human or independent-agent review claimed. No currency inference, FX or aggregation of separate transactions.",
+      "reviewer": null,
+      "rule_id": "amount-followup-20260926-broadcom-apple-term",
+      "rule_version": "7eb9e2fa592a53db8413291935ecc744e00656aa7527ea3003dbcbcf651bb00d",
+      "verified_at": "2026-09-26T07:30:23+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "content_hash": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-07-08",
+      "publisher": "co-aapl",
+      "retrieved_at": "2026-09-25T16:03:05+00:00",
+      "source_id": "source-a081634e897c3a0bfbfbbd44",
+      "source_type": "official_newsroom",
+      "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips - Apple"
+    },
+    {
+      "accession_number": "0001193125-26-295589",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "content_hash": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": "2026-07-06",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T07:16:24+00:00",
+      "source_id": "source-fb740c13b0c1090f4abfbb08",
+      "source_type": "sec_filing",
+      "title": "8-K"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-e45799e38b4915054a64a417",
+        "amount_kind": "contract_value",
+        "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-0e646c04da6288aface08d55",
+          "evidence-a57cd14114379f5c7c6aa66d"
+        ],
+        "max_value": null,
+        "min_value": "30000000000",
+        "original_text": "expected to exceed $30 billion",
+        "payee_company_ids": [
+          "co-avgo"
+        ],
+        "payer_company_ids": [
+          "co-aapl"
+        ],
+        "qualifier": "more_than",
+        "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+        "value": null,
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+    "direction": "directed",
+    "event_date": "2026-07-08",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:30:23+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7893e3b8d0047339117cae8a",
+    "relationship_type": "supplier",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-07-08",
+    "target_company_id": "co-aapl",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "bounded_or_unspecified",
+      "conditional"
+    ]
+  }
+}

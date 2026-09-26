@@ -1,0 +1,109 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000858877",
+      "company_id": "co-csco",
+      "country": null,
+      "display_name": "Cisco",
+      "entity_status": "resolved",
+      "legal_name": "CISCO SYSTEMS, INC.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+          "symbol": "CSCO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-humain",
+      "country": null,
+      "display_name": "HUMAIN",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-humain",
+    "country": null,
+    "display_name": "HUMAIN",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "geography": "Saudi Arabia",
+        "headline": "GPU・ネットワークでAI基盤を共同構築",
+        "products": [
+          "AMD Instinct MI450",
+          "Cisco critical infrastructure",
+          "AIデータセンター"
+        ],
+        "scale": "初期100MW、2030年まで最大1GWの計画",
+        "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+        "target_role": "HUMAINがデータセンターを担当"
+      },
+      "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-11-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-77297d28f404b41d4407efaf",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2025-11-19",
+      "target_company_id": "co-humain",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-11-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

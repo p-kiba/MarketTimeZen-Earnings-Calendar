@@ -1,0 +1,265 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-067b2c798550fba2f273080f",
+          "amount_kind": "purchase_price",
+          "conditions": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$5.4 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-pfe"
+          ],
+          "qualifier": "approximately",
+          "scope": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+          "value": "5400000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-10-05",
+      "conditions": "買収完了後、GBTはPfizerの完全子会社となった。",
+      "deal_id": "deal-7c5864352ed924d8dd053a89",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": "2022-10-05",
+      "event_id": "event-7c5864352ed924d8dd053a89",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-7c5864352ed924d8dd053a89",
+        "evidence-e128b2430b7993b5224178f9"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-7c5864352ed924d8dd053a89",
+            "evidence-e128b2430b7993b5224178f9"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-2697be0f32dab02420688325"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-985c91384090103a85a0ed02": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r8",
+        "rule_version": "6992daa1f1be90481a9e7509e39c65164c065fb484134cddbd8ddb803bfe50db",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-7c5864352ed924d8dd053a89",
+      "excerpt": "acquisition",
+      "locator": "p:5",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-985c91384090103a85a0ed02",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e128b2430b7993b5224178f9",
+      "excerpt": "$5.4 billion",
+      "locator": "p:10",
+      "normalized_text_hash": "0b72bf34e0b2573eabcc3b2669a9a6daf6590596090ff6aadd3b015edf0c6cf3",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-985c91384090103a85a0ed02",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-7c5864352ed924d8dd053a89",
+        "evidence-e128b2430b7993b5224178f9"
+      ],
+      "geography": "",
+      "headline": "鎌状赤血球症治療薬事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-7c5864352ed924d8dd053a89"
+    ],
+    "description": "PfizerはGlobal Blood Therapeutics（GBT）を買収し、Oxbrytaや開発中資産を含む鎌状赤血球症の治療ポートフォリオと研究開発基盤を取得した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7c5864352ed924d8dd053a89",
+      "evidence-e128b2430b7993b5224178f9"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-7c5864352ed924d8dd053a89"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2697be0f32dab02420688325",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2022-10-05",
+    "target_company_id": "co-gbt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-985c91384090103a85a0ed02": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r8",
+      "rule_version": "6992daa1f1be90481a9e7509e39c65164c065fb484134cddbd8ddb803bfe50db",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics",
+      "content_hash": "d17aea5b7c9ac8934bcea298cd0bc1537ee2c2ad745477530ed24c36094b2bf5",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-10-05",
+      "publisher": "Pfizer",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-985c91384090103a85a0ed02",
+      "source_type": "official_newsroom",
+      "title": "Pfizer Completes Acquisition of Global Blood Therapeutics | Pfizer"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-067b2c798550fba2f273080f",
+        "amount_kind": "purchase_price",
+        "conditions": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-7c5864352ed924d8dd053a89",
+          "evidence-e128b2430b7993b5224178f9"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$5.4 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-pfe"
+        ],
+        "qualifier": "approximately",
+        "scope": "企業価値は負債を含み、取得現金を控除した値。1株68.50ドルの現金対価。",
+        "value": "5400000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-7c5864352ed924d8dd053a89",
+        "evidence-e128b2430b7993b5224178f9"
+      ],
+      "geography": "",
+      "headline": "鎌状赤血球症治療薬事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "PfizerはGlobal Blood Therapeutics（GBT）を買収し、Oxbrytaや開発中資産を含む鎌状赤血球症の治療ポートフォリオと研究開発基盤を取得した。",
+    "direction": "directed",
+    "event_date": "2022-10-05",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-2697be0f32dab02420688325",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2022-10-05",
+    "target_company_id": "co-gbt",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

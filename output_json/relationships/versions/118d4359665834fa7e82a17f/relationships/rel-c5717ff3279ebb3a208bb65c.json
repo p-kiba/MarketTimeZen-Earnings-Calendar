@@ -1,0 +1,173 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-04",
+      "conditions": "GE VernovaはAWSのデータセンター向けにエネルギー技術・サービスを提供する枠組み。 AWSはGE Vernovaのクラウド移行・デジタル革新を支援する。",
+      "deal_id": "deal-d871d7782dd2bf0afcc0605e",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-d871d7782dd2bf0afcc0605e",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-d871d7782dd2bf0afcc0605e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d871d7782dd2bf0afcc0605e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-c5717ff3279ebb3a208bb65c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-cd7b2fb87c2a8bda9d4abcd2": "a891f2fea9de56e1f4112d842b226b399728fe2aabfaba4b4077d4c649bb044e"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r19; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r19",
+        "rule_version": "fbf8b6e0b41ba6c292a9fc595eeb3f8998f7e6de93c710fcb0b22f4d067fd9fa",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-d871d7782dd2bf0afcc0605e",
+      "excerpt": "CAMBRIDGE, Mass. (March",
+      "locator": "p:4",
+      "normalized_text_hash": "532eff6c065fa2ed196972e13e4e00c3b5eaad47d24ea3857b422c83b30073bf",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-cd7b2fb87c2a8bda9d4abcd2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-d871d7782dd2bf0afcc0605e"
+    ],
+    "description": "GE VernovaとAmazon Web Servicesは、AWSのデータセンター拡張をGE Vernovaの発電・電化・コンサルティングで支援し、AWSがGE Vernovaのクラウド移行とデジタル・生成AI活用を支援する戦略的枠組み契約を締結した。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-d871d7782dd2bf0afcc0605e"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-d871d7782dd2bf0afcc0605e"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-c5717ff3279ebb3a208bb65c",
+    "relationship_type": "partnership",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-03-04",
+    "target_company_id": "co-amzn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-cd7b2fb87c2a8bda9d4abcd2": "a891f2fea9de56e1f4112d842b226b399728fe2aabfaba4b4077d4c649bb044e"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r19; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r19",
+      "rule_version": "fbf8b6e0b41ba6c292a9fc595eeb3f8998f7e6de93c710fcb0b22f4d067fd9fa",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gevernova.com/news/press-releases/ge-vernova-aws-accelerate-global-energy-demand",
+      "content_hash": "a891f2fea9de56e1f4112d842b226b399728fe2aabfaba4b4077d4c649bb044e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-03-04",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-04",
+      "publisher": "GE Vernova",
+      "retrieved_at": "2026-09-26T13:44:56+00:00",
+      "source_id": "source-cd7b2fb87c2a8bda9d4abcd2",
+      "source_type": "official_newsroom",
+      "title": "GE Vernova and AWS expand collaboration to address accelerating global energy demand through strategic framework agreement"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "GE VernovaとAmazon Web Servicesは、AWSのデータセンター拡張をGE Vernovaの発電・電化・コンサルティングで支援し、AWSがGE Vernovaのクラウド移行とデジタル・生成AI活用を支援する戦略的枠組み契約を締結した。",
+    "direction": "undirected",
+    "event_date": "2025-03-04",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-c5717ff3279ebb3a208bb65c",
+    "relationship_type": "partnership",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-03-04",
+    "target_company_id": "co-amzn",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

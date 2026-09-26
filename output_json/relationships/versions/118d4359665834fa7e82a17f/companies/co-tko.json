@@ -1,0 +1,153 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001065280",
+      "company_id": "co-nflx",
+      "country": null,
+      "display_name": "NETFLIX INC",
+      "entity_status": "resolved",
+      "legal_name": "NETFLIX INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+          "symbol": "NFLX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tko",
+      "country": null,
+      "display_name": "TKO Group Holdings",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-01-23",
+      "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+          "symbol": "TKO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-tko",
+    "country": null,
+    "display_name": "TKO Group Holdings",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-01-23",
+    "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+        "symbol": "TKO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e21334949f4812d6280bdcdb",
+          "amount_kind": "contract_value",
+          "conditions": "Netflixに初期5年後の離脱権あり。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-45aafc16a29dac9d2cfb67f1",
+            "evidence-7d43381af2342124a1b6bbe2"
+          ],
+          "max_value": null,
+          "min_value": "5000000000",
+          "original_text": "in excess of $5 billion",
+          "payee_company_ids": [
+            "co-tko"
+          ],
+          "payer_company_ids": [
+            "co-nflx"
+          ],
+          "qualifier": "more_than",
+          "scope": "初期10年間の総権利料。追加10年延長分は含めない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "geography": "米国・カナダ・英国・中南米等",
+        "headline": "WWE Rawの独占配信権を提供",
+        "products": [
+          "WWE Raw",
+          "SmackDown・NXT",
+          "WWE大型イベント"
+        ],
+        "scale": "",
+        "source_role": "TKO傘下WWEが番組配信権を提供",
+        "target_role": "Netflixが対象地域で番組を配信"
+      },
+      "description": "TKOの完全子会社WWEがNetflixへRaw等の配信権を供与。SEC 8-Kは当初10年の総権利料を原文$50億超と開示。Netflixは最初の5年後に離脱でき、さらに10年延長する選択権を持つ。米国等のRawと、利用可能な米国外地域のWWE番組が対象。USDの明示と全期間支払の確実性はこの資料だけでは確認できない。",
+      "direction": "directed",
+      "event_date": "2024-01-23",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T15:11:47+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-ed5ba08383370100dec2a0e7",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tko",
+      "status_as_of": "2024-01-23",
+      "target_company_id": "co-nflx",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-01-23"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

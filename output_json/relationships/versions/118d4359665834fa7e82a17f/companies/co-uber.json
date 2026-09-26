@@ -1,0 +1,251 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001341439",
+      "company_id": "co-orcl",
+      "country": null,
+      "display_name": "Oracle",
+      "entity_status": "resolved",
+      "legal_name": "ORACLE CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL-PD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-paypal",
+      "country": null,
+      "display_name": "PayPal Holdings, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-02-25",
+      "listing_status_source": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+          "symbol": "PYPL",
+          "valid_from": "2025-02-25",
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-uber",
+      "country": null,
+      "display_name": "Uber Technologies, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-16",
+      "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+          "symbol": "UBER",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-uber",
+    "country": null,
+    "display_name": "Uber Technologies, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-16",
+    "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+        "symbol": "UBER",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9df2a3f982016acad2c2c012"
+        ],
+        "geography": "米国",
+        "headline": "Uber Eats配送を米国47州へ拡大",
+        "products": [
+          "Uber Eats",
+          "即時・予約配送"
+        ],
+        "scale": "47州、約600拠点（発表時点）",
+        "source_role": "配送プラットフォーム",
+        "target_role": "倉庫型店舗・商品販売"
+      },
+      "description": "UberとCostcoがUber Eats経由の米国配送を17州から47州へ拡大。約600拠点から即時・予約配送を提供すると公表。提携収益や手数料率は非掲載。",
+      "direction": "directed",
+      "event_date": "2026-09-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-uber",
+      "status_as_of": "2026-09-16",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "geography": "",
+        "headline": "配車・AI基盤へOCIを提供",
+        "products": [
+          "Oracle Cloud Infrastructure",
+          "AI推論",
+          "データ・ストレージ基盤"
+        ],
+        "scale": "",
+        "source_role": "Oracleがクラウド計算・保存基盤を提供",
+        "target_role": "Uberが配車サービス等に利用"
+      },
+      "description": "Uberがアプリケーション、AI基盤、業務データとストリーミング基盤の一部をOracle Cloud Infrastructureへ移行。2024年9月発表時点の利用状況であり、Uberの全基盤の独占受託ではない。",
+      "direction": "directed",
+      "event_date": "2024-09-11",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-69052e6c7857fac2b37012e2",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-orcl",
+      "status_as_of": "2024-09-11",
+      "target_company_id": "co-uber",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "geography": "",
+        "headline": "配車決済・送金基盤を提供",
+        "products": [
+          "PayPal Braintree",
+          "PayPal Payouts",
+          "デビット回線ルーティング"
+        ],
+        "scale": "",
+        "source_role": "PayPalが決済処理・送金基盤を提供",
+        "target_role": "Uberが配車等の決済に利用"
+      },
+      "description": "PayPalとUberが複数年契約を拡張。Braintreeでカード処理・国内デビット回線ルーティングを支え、PayPal Payouts等も利用。2023年発表時点のサービス内容で、手数料率・契約総額は資料に記載なし。",
+      "direction": "directed",
+      "event_date": "2023-09-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-222d503bdbf468c2f7771935",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-paypal",
+      "status_as_of": "2023-09-12",
+      "target_company_id": "co-uber",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-09-12",
+    "2024-09-11",
+    "2026-09-16"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 0,
+  "total_relationships": 3
+}

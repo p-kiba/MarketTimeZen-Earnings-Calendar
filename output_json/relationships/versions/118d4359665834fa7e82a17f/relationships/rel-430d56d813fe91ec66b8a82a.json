@@ -1,0 +1,200 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-04-23",
+      "conditions": "",
+      "deal_id": "deal-8a36f4ec2325b5ddcd4eeedf",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-8a36f4ec2325b5ddcd4eeedf",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-8a36f4ec2325b5ddcd4eeedf"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8a36f4ec2325b5ddcd4eeedf"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-430d56d813fe91ec66b8a82a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-pfizer-merck",
+        "rule_version": "ec558d94800ab59a2ccfdcd56196bc522368c21bfa5e3f8b6e2d17c3e200a024",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-8a36f4ec2325b5ddcd4eeedf",
+      "excerpt": "*The BREAKWATER tria",
+      "locator": "p:91",
+      "normalized_text_hash": "1572ab7cd31cb4716fdff6f484bc4d2538137c260035e45bd37e17623b98e74e",
+      "section": "Primary disclosure: p:91",
+      "source_id": "source-f0ca4d1e06766e1fe1e48d04",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-8a36f4ec2325b5ddcd4eeedf"
+      ],
+      "geography": "",
+      "headline": "PADCEV・KEYTRUDA併用を共同試験",
+      "products": [
+        "PADCEV",
+        "KEYTRUDA"
+      ],
+      "scale": "",
+      "source_role": "共同開発・評価を担当",
+      "target_role": "共同開発・評価を担当"
+    },
+    "deal_ids": [
+      "deal-8a36f4ec2325b5ddcd4eeedf"
+    ],
+    "description": "Pfizer・Astellas・MerckがPADCEVとKEYTRUDAの併用を評価する臨床協業契約。未治療の転移性尿路上皮がんが対象。薬剤の供給購入契約や売上分配契約とは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-8a36f4ec2325b5ddcd4eeedf"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-8a36f4ec2325b5ddcd4eeedf"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-430d56d813fe91ec66b8a82a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2025-04-23",
+    "target_company_id": "co-merck",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-pfizer-merck",
+      "rule_version": "ec558d94800ab59a2ccfdcd56196bc522368c21bfa5e3f8b6e2d17c3e200a024",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-advances-bold-vision-future-cancer-care-asco-2025",
+      "content_hash": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-04-23",
+      "publisher": "www.pfizer.com",
+      "retrieved_at": "2026-09-26T16:03:05+00:00",
+      "source_id": "source-f0ca4d1e06766e1fe1e48d04",
+      "source_type": "official_newsroom",
+      "title": "Pfizer Advances Bold Vision for Future of Cancer Care at the ASCO 2025 Annual Meeting | Pfizer"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-8a36f4ec2325b5ddcd4eeedf"
+      ],
+      "geography": "",
+      "headline": "PADCEV・KEYTRUDA併用を共同試験",
+      "products": [
+        "PADCEV",
+        "KEYTRUDA"
+      ],
+      "scale": "",
+      "source_role": "共同開発・評価を担当",
+      "target_role": "共同開発・評価を担当"
+    },
+    "description": "Pfizer・Astellas・MerckがPADCEVとKEYTRUDAの併用を評価する臨床協業契約。未治療の転移性尿路上皮がんが対象。薬剤の供給購入契約や売上分配契約とは扱わない。",
+    "direction": "undirected",
+    "event_date": "2025-04-23",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-430d56d813fe91ec66b8a82a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-pfe",
+    "status_as_of": "2025-04-23",
+    "target_company_id": "co-merck",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

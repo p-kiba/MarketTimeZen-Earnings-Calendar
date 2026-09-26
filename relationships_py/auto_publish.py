@@ -4,7 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from .exporter import export, public_subset
-from .state import ROOT, load_master, now, save_master, write
+from .state import ROOT, digest, load_master, now, save_master, write
 from .config import settings
 from .tiers import APPROVED
 from .validation import validate_master
@@ -95,7 +95,8 @@ def auto_publish(root=ROOT):
             sid = idx['evidence'][eid]['source_id']
             grouped.add((sid, frozenset((rel['source_company_id'], rel['target_company_id'])), rel['relationship_type']))
     published = []
-    for rel in master['relationships']:
+    priority = {'investment': 0, 'partnership': 1}
+    for rel in sorted(master['relationships'], key=lambda item: (priority.get(item['relationship_type'], 2), item['relationship_id'])):
         if len(rel['latest_event_ids']) != 1 or len(rel['evidence_ids']) != 1:
             continue
         event = idx['events'].get(rel['latest_event_ids'][0])
@@ -107,8 +108,22 @@ def auto_publish(root=ROOT):
         if key in grouped or not eligible(rel, event, evidence, source, idx['companies']):
             continue
         source_excerpts = excerpts_by_source.setdefault(source['source_id'], set())
-        if sum(len(text.split()) for text in source_excerpts | {evidence['excerpt']}) > 25:
-            continue
+        available = 25 - sum(len(text.split()) for text in source_excerpts)
+        if evidence['excerpt'] not in source_excerpts and len(evidence['excerpt'].split()) > available:
+            original_excerpt = evidence['excerpt']
+            if available < 8:
+                continue
+            words = original_excerpt.split()[:available]
+            while words and words[-1].lower().strip(',;:') in {'such', 'the', 'a', 'an', 'and', 'or',
+                                                                'of', 'to', 'in', 'for', 'with', 'by',
+                                                                'that', 'which', 'as', 'from', 'at',
+                                                                'into', 'on', 'its'}:
+                words.pop()
+            evidence['excerpt'] = ' '.join(words)
+            if not eligible(rel, event, evidence, source, idx['companies']):
+                evidence['excerpt'] = original_excerpt
+                continue
+            evidence['normalized_text_hash'] = digest(evidence['excerpt'])
         grouped.add(key)
         source_excerpts.add(evidence['excerpt'])
         stamp = now()

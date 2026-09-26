@@ -1,0 +1,173 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-10-27",
+      "conditions": "GoogleはDuane Arnoldの615MW原子力発電所から電力を購入予定。 発電所は規制承認を条件に2029年第1四半期までの運転再開を目標。 発表の『アイオワ州に90億ドル超の経済効果』は二社間契約金額ではないためamountsに入れない。",
+      "deal_id": "deal-ac78b24b70e1df325b72025c",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-ac78b24b70e1df325b72025c",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-ac78b24b70e1df325b72025c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ac78b24b70e1df325b72025c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-34a89eb06119182584fa1596"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e9969bd10dc9090d0d806217": "3d3964fdc75c5a4cbe574612e841596079c717e8a70d773eb87877f9e18bb33f"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r15",
+        "rule_version": "a85915a7f1af1e4ece36174cace5592f3486f92202607a367ee4d91ff1467229",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ac78b24b70e1df325b72025c",
+      "excerpt": "JUNO BEACH, Fla.",
+      "locator": "p:48",
+      "normalized_text_hash": "31a0dfd3c0f9e96f1f9095b875f4031416db9ad917b735ff30a07b9d63e67646",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-e9969bd10dc9090d0d806217",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-ac78b24b70e1df325b72025c"
+    ],
+    "description": "NextEra EnergyとGoogleは、再稼働を計画するDuane Arnold Energy Centerの電力をGoogleが購入する25年間のPPAと、米国内での新規原子力開発を検討する別契約を締結した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ac78b24b70e1df325b72025c"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-ac78b24b70e1df325b72025c"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-34a89eb06119182584fa1596",
+    "relationship_type": "supplier",
+    "source_company_id": "co-nextera-energy",
+    "status_as_of": "2025-10-27",
+    "target_company_id": "co-google",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e9969bd10dc9090d0d806217": "3d3964fdc75c5a4cbe574612e841596079c717e8a70d773eb87877f9e18bb33f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r15",
+      "rule_version": "a85915a7f1af1e4ece36174cace5592f3486f92202607a367ee4d91ff1467229",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2025/10-27-2025-203948689",
+      "content_hash": "3d3964fdc75c5a4cbe574612e841596079c717e8a70d773eb87877f9e18bb33f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-10-27",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-10-27",
+      "publisher": "NextEra Energy",
+      "retrieved_at": "2026-09-26T13:44:41+00:00",
+      "source_id": "source-e9969bd10dc9090d0d806217",
+      "source_type": "official_newsroom",
+      "title": "NextEra Energy and Google Announce New Collaboration to Accelerate Nuclear Energy Deployment in the U.S. – NextEra Energy, Inc."
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "NextEra EnergyとGoogleは、再稼働を計画するDuane Arnold Energy Centerの電力をGoogleが購入する25年間のPPAと、米国内での新規原子力開発を検討する別契約を締結した。",
+    "direction": "directed",
+    "event_date": "2025-10-27",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-34a89eb06119182584fa1596",
+    "relationship_type": "supplier",
+    "source_company_id": "co-nextera-energy",
+    "status_as_of": "2025-10-27",
+    "target_company_id": "co-google",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

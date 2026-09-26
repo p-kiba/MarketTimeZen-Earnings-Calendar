@@ -1,0 +1,116 @@
+{
+  "build_id": "118d4359665834fa7e82a17f",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-collaborative-care",
+      "country": null,
+      "display_name": "Collaborative Care Holdings, LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-davita-medical",
+      "country": null,
+      "display_name": "DaVita Medical Holdings, LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-davita-medical",
+    "country": null,
+    "display_name": "DaVita Medical Holdings, LLC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-3654847e90c5a459be858dd1",
+          "amount_kind": "purchase_price",
+          "conditions": "契約上の一定の通常の購入価格調整の対象。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-943e64d0ce8adea76127bdf8",
+            "evidence-397110c63b46c53abd1ef617"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4,340,000,000",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-collaborative-care"
+          ],
+          "qualifier": "exact",
+          "scope": "契約上の一定の通常の購入価格調整の対象。",
+          "value": "4340000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-943e64d0ce8adea76127bdf8",
+          "evidence-397110c63b46c53abd1ef617"
+        ],
+        "geography": "",
+        "headline": "DaVita Medical Group事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Optum傘下のCollaborative Care Holdings, LLCはDaVita Medical Holdings, LLCの全持分を取得し、DaVita Medical Group事業を買収した。UnitedHealth Group Incorporatedは購入契約の特定条項について当事者として記載されている。",
+      "direction": "directed",
+      "event_date": "2019-06-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:29+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-d3e4d64cb3e206074b6b4dae",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-collaborative-care",
+      "status_as_of": "2019-06-19",
+      "target_company_id": "co-davita-medical",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2019-06-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
