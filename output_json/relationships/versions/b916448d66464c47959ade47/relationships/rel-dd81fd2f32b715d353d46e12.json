@@ -1,0 +1,192 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "取得資産には100万超のbrokerage / managed portfolio accountsが含まれた。 長期紹介契約によりSchwabがUSAA会員向けwealth management / investment brokerageのexclusive providerとなる。",
+      "deal_id": "deal-f6a80abb7d1485cc5331230d",
+      "detected_at": "2026-09-26T13:29:17+00:00",
+      "effective_date": null,
+      "event_id": "event-f6a80abb7d1485cc5331230d",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-f6a80abb7d1485cc5331230d",
+        "evidence-fad126af5b633120a3ca97f5"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-f6a80abb7d1485cc5331230d",
+            "evidence-fad126af5b633120a3ca97f5"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dd81fd2f32b715d353d46e12"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5d9e6f74b3debe6f7317168d": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec"
+        },
+        "reason": "Primary-source review of merged research record r74; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r74",
+        "rule_version": "a09bf443ee9bfa1f31653c6f9cdcf5fdb6c96cbeacc1bec81d5a77d871572498",
+        "verified_at": "2026-09-26T13:29:17+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-f6a80abb7d1485cc5331230d",
+      "excerpt": "On May 26, 2020, the Company completed its acquisition of the assets of USAA-IMCO",
+      "locator": "sec-div:1199",
+      "normalized_text_hash": "dfe09cc3381c72f4723e5ecde992bf6a8bf67b25f9220db897edb2b3b16e2252",
+      "section": "Official issuer disclosure",
+      "source_id": "source-5d9e6f74b3debe6f7317168d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fad126af5b633120a3ca97f5",
+      "excerpt": "The Charles Schwab Corporation",
+      "locator": "tr:77",
+      "normalized_text_hash": "da05469fe3f2038113f04016db75fe28500540b872542c4e564571b399e31772",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-5d9e6f74b3debe6f7317168d",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-f6a80abb7d1485cc5331230d"
+    ],
+    "description": "Charles SchwabがUSAA-IMCOの資産取得を完了し、USAA会員向けウェルスマネジメント・投資ブローカレッジの独占提供者となる長期紹介契約も結んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f6a80abb7d1485cc5331230d",
+      "evidence-fad126af5b633120a3ca97f5"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:29:17+00:00",
+    "latest_event_ids": [
+      "event-f6a80abb7d1485cc5331230d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-dd81fd2f32b715d353d46e12",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-charles-schwab-corporation",
+    "status_as_of": "2020-05-26",
+    "target_company_id": "co-usaa-investment-management-company",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5d9e6f74b3debe6f7317168d": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec"
+      },
+      "reason": "Primary-source review of merged research record r74; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r74",
+      "rule_version": "a09bf443ee9bfa1f31653c6f9cdcf5fdb6c96cbeacc1bec81d5a77d871572498",
+      "verified_at": "2026-09-26T13:29:17+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000316709-22-000009",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/316709/000031670922000009/schw-20211231.htm",
+      "content_hash": "b7999be5f2d891631a844033c17ab24b1b48c5277a9a6566ceb4a05b961317ec",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": "0000316709",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-5d9e6f74b3debe6f7317168d",
+      "source_type": "sec_filing",
+      "title": "schw-20211231"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Charles SchwabがUSAA-IMCOの資産取得を完了し、USAA会員向けウェルスマネジメント・投資ブローカレッジの独占提供者となる長期紹介契約も結んだ。",
+    "direction": "directed",
+    "event_date": null,
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:29:17+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-dd81fd2f32b715d353d46e12",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-charles-schwab-corporation",
+    "status_as_of": "2020-05-26",
+    "target_company_id": "co-usaa-investment-management-company",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

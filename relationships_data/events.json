@@ -23464,7 +23464,7 @@
     "detected_at": "2026-09-26T08:10:47+00:00",
     "effective_date": null,
     "event_id": "event-4f8169db85a40a9598ff420c",
-    "event_type": "newly_indexed",
+    "event_type": "new_agreement",
     "evidence_ids": [
       "evidence-5620d162c16fb8c4e49f62ea"
     ],
@@ -23485,19 +23485,19 @@
         "evidence_ids": [
           "evidence-5620d162c16fb8c4e49f62ea"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "relationship": {
         "evidence_ids": [
           "evidence-5620d162c16fb8c4e49f62ea"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "status": {
         "evidence_ids": [
           "evidence-5620d162c16fb8c4e49f62ea"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "term": {
         "evidence_ids": [
@@ -23520,8 +23520,17 @@
       "start_basis": null,
       "start_date": null
     },
-    "verification": "needs_review",
-    "verification_metadata": null
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+      },
+      "reason": "Micron official release identifies LPDDR5X integration on NVIDIA DRIVE AGX Orin; announcement date and primary URL are recorded.",
+      "reviewer": null,
+      "rule_id": "micron_nvidia_product_integration",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
   },
   {
     "agreement_date": null,
@@ -23619,13 +23628,13 @@
     "amount_disclosure": "not_stated_in_source",
     "amounts": [],
     "announced_at": null,
-    "announced_date": null,
-    "conditions": "",
+    "announced_date": "2026-09-18",
+    "conditions": "AnthropicとAccentureは各社が5年間で少なくとも10億ドルを投資する見込みと発表。金額は期待値であり、確定した契約額ではない。運用方法の詳細は未確定。",
     "deal_id": "deal-b535a8138d3c444443bc0e93",
     "detected_at": "2026-09-26T08:10:48+00:00",
     "effective_date": null,
     "event_id": "event-aa6e56dbe1b09a9bdc48eba2",
-    "event_type": "newly_indexed",
+    "event_type": "new_agreement",
     "evidence_ids": [
       "evidence-ec4f44804ca3312632e5c7ce"
     ],
@@ -23640,25 +23649,25 @@
         "evidence_ids": [
           "evidence-ec4f44804ca3312632e5c7ce"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "parties": {
         "evidence_ids": [
           "evidence-ec4f44804ca3312632e5c7ce"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "relationship": {
         "evidence_ids": [
           "evidence-ec4f44804ca3312632e5c7ce"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "status": {
         "evidence_ids": [
           "evidence-ec4f44804ca3312632e5c7ce"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "term": {
         "evidence_ids": [
@@ -23681,8 +23690,17 @@
       "start_basis": null,
       "start_date": null
     },
-    "verification": "needs_review",
-    "verification_metadata": null
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d1f1b3701797859e9b091da3": "215732301def58d59d402fb35f6d75535191a312067bfb77878b105cccb6f862"
+      },
+      "reason": "Anthropic primary announcement dated September 18, 2026 describes the Faculty-led evaluation work and its scope.",
+      "reviewer": null,
+      "rule_id": "anthropic_accenture_embedded_evaluation",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
   },
   {
     "agreement_date": null,
@@ -24697,13 +24715,13 @@
       }
     ],
     "announced_at": null,
-    "announced_date": null,
+    "announced_date": "2026-08-17",
     "conditions": "",
     "deal_id": "deal-2fcbf8cd91b81345b983db58",
     "detected_at": "2026-09-26T08:11:08+00:00",
     "effective_date": null,
     "event_id": "event-6ff8287b1911d34a8c57b4ae",
-    "event_type": "newly_indexed",
+    "event_type": "new_agreement",
     "evidence_ids": [
       "evidence-942b8c63a27d838c4b94e993"
     ],
@@ -24724,25 +24742,25 @@
         "evidence_ids": [
           "evidence-942b8c63a27d838c4b94e993"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "relationship": {
         "evidence_ids": [
           "evidence-942b8c63a27d838c4b94e993"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "status": {
         "evidence_ids": [
           "evidence-942b8c63a27d838c4b94e993"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "term": {
         "evidence_ids": [
           "evidence-942b8c63a27d838c4b94e993"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       }
     },
     "filed_date": "2026-08-17",
@@ -24751,16 +24769,27 @@
     ],
     "supersedes_event_id": null,
     "term": {
-      "duration_unit": null,
-      "duration_value": null,
+      "duration_unit": "year",
+      "duration_value": 20,
       "end_date": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "evidence-942b8c63a27d838c4b94e993"
+      ],
       "renewal": null,
-      "start_basis": null,
+      "start_basis": "unknown",
       "start_date": null
     },
-    "verification": "needs_review",
-    "verification_metadata": null
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-dcb7b306dffaedb5223f8dc1": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972"
+      },
+      "reason": "SEC Exhibit 99.1 dated August 17, 2026 states SB Energy will build, own and operate the data center under a 20-year lease to OpenAI, which is identified as customer.",
+      "reviewer": null,
+      "rule_id": "sb_energy_openai_data_center_lease",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
   },
   {
     "agreement_date": null,
@@ -27637,7 +27666,7 @@
     "verification_metadata": null
   },
   {
-    "agreement_date": null,
+    "agreement_date": "2023-02-22",
     "amount_disclosure": "not_stated_in_source",
     "amounts": [],
     "announced_at": null,
@@ -27668,19 +27697,19 @@
         "evidence_ids": [
           "evidence-dee04a377f89356d5a3bfcab"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "relationship": {
         "evidence_ids": [
           "evidence-dee04a377f89356d5a3bfcab"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "status": {
         "evidence_ids": [
           "evidence-dee04a377f89356d5a3bfcab"
         ],
-        "verification": "needs_review"
+        "verification": "approved_rule"
       },
       "term": {
         "evidence_ids": [
@@ -27703,8 +27732,17 @@
       "start_basis": null,
       "start_date": null
     },
-    "verification": "needs_review",
-    "verification_metadata": null
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a635398939d78d38bee180a": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0"
+      },
+      "reason": "SEC filing exhibit index identifies CoreWeave and Microsoft as parties to a Master Services Agreement dated February 22, 2023. Active status and order value are not stated in this excerpt.",
+      "reviewer": null,
+      "rule_id": "sec_exhibit_index_master_services_agreement",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:25:44+00:00"
+    }
   },
   {
     "agreement_date": null,

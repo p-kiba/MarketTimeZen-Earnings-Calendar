@@ -1,0 +1,173 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-06-03",
+      "conditions": "対象はAviancaの新規A320neo 103機。 車輪・ブレーキの供給とフルライフサイクルサポートを含む。",
+      "deal_id": "deal-ea0e9843c6af29b523d49685",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-ea0e9843c6af29b523d49685",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-ea0e9843c6af29b523d49685"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ea0e9843c6af29b523d49685"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-acf561f7e5d4d36320850559"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-0016121803617e1ff69c274d": "20c30494c8ee0a1abd4aa65509c095bea40850188e03c1a4dfaed92683f49923"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r16; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r16",
+        "rule_version": "39acc370ccee26b5f19f3b4aa5a3441bc6e98449d31a7cc8ee06a63497ebb3e1",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ea0e9843c6af29b523d49685",
+      "excerpt": "RIO DE JANEIRO",
+      "locator": "p:6",
+      "normalized_text_hash": "481aec83746781603ecc44e4bb4cf5badced6efbc278dea250ec786a24024034",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-0016121803617e1ff69c274d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-ea0e9843c6af29b523d49685"
+    ],
+    "description": "Collins AerospaceはAviancaの新規A320neo 103機向けに車輪・ブレーキを供給し、15年間のライフサイクルサポートを提供する契約を獲得した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ea0e9843c6af29b523d49685"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-ea0e9843c6af29b523d49685"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-acf561f7e5d4d36320850559",
+    "relationship_type": "supplier",
+    "source_company_id": "co-collins-aerospace",
+    "status_as_of": "2024-06-03",
+    "target_company_id": "co-avianca",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0016121803617e1ff69c274d": "20c30494c8ee0a1abd4aa65509c095bea40850188e03c1a4dfaed92683f49923"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r16; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r16",
+      "rule_version": "39acc370ccee26b5f19f3b4aa5a3441bc6e98449d31a7cc8ee06a63497ebb3e1",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.rtx.com/news/news-center/2024/06/03/avianca-chooses-rtxs-collins-aerospace-for-wheel-and-brake-solutions",
+      "content_hash": "20c30494c8ee0a1abd4aa65509c095bea40850188e03c1a4dfaed92683f49923",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": "2024-06-03",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-06-03",
+      "publisher": "RTX",
+      "retrieved_at": "2026-09-26T13:47:23+00:00",
+      "source_id": "source-0016121803617e1ff69c274d",
+      "source_type": "official_newsroom",
+      "title": "News | Avianca chooses RTXs Collins Aerospace for wheel and brake solutions | RTX"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Collins AerospaceはAviancaの新規A320neo 103機向けに車輪・ブレーキを供給し、15年間のライフサイクルサポートを提供する契約を獲得した。",
+    "direction": "directed",
+    "event_date": "2024-06-03",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-acf561f7e5d4d36320850559",
+    "relationship_type": "supplier",
+    "source_company_id": "co-collins-aerospace",
+    "status_as_of": "2024-06-03",
+    "target_company_id": "co-avianca",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-dhr",
+      "country": null,
+      "display_name": "Danaher Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-10",
+      "listing_status_source": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+          "symbol": "DHR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ge",
+      "country": null,
+      "display_name": "General Electric Company",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2020-03-31",
+      "listing_status_source": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+          "symbol": "GE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ge",
+    "country": null,
+    "display_name": "General Electric Company",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2020-03-31",
+    "listing_status_source": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+        "symbol": "GE",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4d2840b695dbd39f72c1dd13",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の現金購入価格。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$21.4 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2019-02-25の契約発表時点の金額。契約発表時の現金購入価格。 完了時点の調整後対価は未確認。",
+          "value": "21400000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-e098b0733d264c74c22c98d3",
+          "amount_kind": "other",
+          "conditions": "取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2019-02-25の契約発表時点の金額。取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。 完了時点の調整後対価は未確認。",
+          "value": "20000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-2962ed671a2e54d7ce07692d",
+          "evidence-7eb7094291f2247e15a48dd6"
+        ],
+        "geography": "",
+        "headline": "GEのBiopharma事業買収（Cytiva）",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "事業売却者"
+      },
+      "description": "DanaherはGeneral Electric CompanyからLife Sciences部門のBiopharma事業を買収し、Cytivaとして運営する。GE全社を取得したものではない。",
+      "direction": "directed",
+      "event_date": "2020-03-31",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:29+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-bcbf7c43661d2a75469ae4d4",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-dhr",
+      "status_as_of": "2020-03-31",
+      "target_company_id": "co-ge",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-03-31"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

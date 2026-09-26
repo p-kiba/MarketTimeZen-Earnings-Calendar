@@ -1,0 +1,226 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-9e69c3f1137269826ec6602c",
+          "amount_kind": "purchase_price",
+          "conditions": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "approximately $13 billion",
+          "payee_company_ids": [
+            "co-e-trade-financial-corporation"
+          ],
+          "payer_company_ids": [
+            "co-morgan-stanley"
+          ],
+          "qualifier": "approximately",
+          "scope": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2020-02-20",
+      "conditions": "",
+      "deal_id": "deal-6a350f68f3b3c5c106608867",
+      "detected_at": "2026-09-26T13:07:05+00:00",
+      "effective_date": null,
+      "event_id": "event-6a350f68f3b3c5c106608867",
+      "event_type": "acquisition_announced",
+      "evidence_ids": [
+        "evidence-6a350f68f3b3c5c106608867"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-fe2fd87b5d0755df1471feb9"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5b1f92b9429dcd74209de539": "8e0195c8e7ef6da367ec8c12dd6770286c008c71b2222fc09a67be4e9dd12890"
+        },
+        "reason": "Primary-source review of merged research record r53; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r53",
+        "rule_version": "4dbc47ab60febb192506fcc8c2360346eb4576a2e4f28f301129d43faa2da22c",
+        "verified_at": "2026-09-26T13:07:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-6a350f68f3b3c5c106608867",
+      "excerpt": "Morgan Stanley (NYSE: MS) and E*TRADE Financial Corporation (NASDAQ: ETFC) have entered into a definitive agreement under which Morgan Stanley will acquire E*TRADE",
+      "locator": "p:4",
+      "normalized_text_hash": "b776b9e7ba2bf083a4296fed7d7893a5b30612a8ad4c25c42932910911bef5ce",
+      "section": "Official issuer disclosure",
+      "source_id": "source-5b1f92b9429dcd74209de539",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-6a350f68f3b3c5c106608867"
+    ],
+    "description": "Morgan StanleyがE*TRADEの買収契約を締結し、オンライン証券、セルフディレクテッド投資、株式報酬プランをウェルスマネジメントへ統合する計画を発表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6a350f68f3b3c5c106608867"
+    ],
+    "first_observed_at": "2026-09-26T13:07:05+00:00",
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "latest_event_ids": [
+      "event-6a350f68f3b3c5c106608867"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-fe2fd87b5d0755df1471feb9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2020-02-20",
+    "target_company_id": "co-e-trade-financial-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5b1f92b9429dcd74209de539": "8e0195c8e7ef6da367ec8c12dd6770286c008c71b2222fc09a67be4e9dd12890"
+      },
+      "reason": "Primary-source review of merged research record r53; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r53",
+      "rule_version": "4dbc47ab60febb192506fcc8c2360346eb4576a2e4f28f301129d43faa2da22c",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-e-trade",
+      "content_hash": "8e0195c8e7ef6da367ec8c12dd6770286c008c71b2222fc09a67be4e9dd12890",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-02-20",
+      "publisher": "Morgan Stanley",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-5b1f92b9429dcd74209de539",
+      "source_type": "official_newsroom",
+      "title": "Morgan Stanley to Acquire E*TRADE | Morgan Stanley"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-9e69c3f1137269826ec6602c",
+        "amount_kind": "purchase_price",
+        "conditions": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately $13 billion",
+        "payee_company_ids": [
+          "co-e-trade-financial-corporation"
+        ],
+        "payer_company_ids": [
+          "co-morgan-stanley"
+        ],
+        "qualifier": "approximately",
+        "scope": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+        "value": "13000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Morgan StanleyがE*TRADEの買収契約を締結し、オンライン証券、セルフディレクテッド投資、株式報酬プランをウェルスマネジメントへ統合する計画を発表。",
+    "direction": "directed",
+    "event_date": "2020-02-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-fe2fd87b5d0755df1471feb9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2020-02-20",
+    "target_company_id": "co-e-trade-financial-corporation",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

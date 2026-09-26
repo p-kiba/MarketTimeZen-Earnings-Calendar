@@ -1,0 +1,516 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000858877",
+      "company_id": "co-csco",
+      "country": null,
+      "display_name": "Cisco",
+      "entity_status": "resolved",
+      "legal_name": "CISCO SYSTEMS, INC.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+          "symbol": "CSCO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000723125",
+      "company_id": "co-mu",
+      "country": null,
+      "display_name": "Micron",
+      "entity_status": "resolved",
+      "legal_name": "MICRON TECHNOLOGY INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000723125.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000723125.json",
+          "symbol": "MU",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai-opco",
+      "country": null,
+      "display_name": "OpenAI OpCo, LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-redhat",
+      "country": null,
+      "display_name": "Red Hat",
+      "entity_status": "resolved",
+      "legal_name": "Red Hat",
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-zt-systems",
+      "country": null,
+      "display_name": "ZT Systems",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000002488",
+    "company_id": "co-amd",
+    "country": null,
+    "display_name": "AMD",
+    "entity_status": "resolved",
+    "legal_name": "ADVANCED MICRO DEVICES INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+        "symbol": "AMD",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8739aeba0e0f89563d579e1d",
+          "evidence-69633402b6641a6f32e01d37"
+        ],
+        "geography": "",
+        "headline": "AMD Instinct GPUの複数年導入",
+        "products": [
+          "AMD Instinct GPU"
+        ],
+        "scale": "最大6GW",
+        "source_role": "GPU技術・供給側",
+        "target_role": "AI基盤への導入側"
+      },
+      "description": "MetaのAI基盤にAMD Instinct GPUを導入する複数年契約。最大6GWは計算基盤の規模を表し、契約金額ではない。",
+      "direction": "directed",
+      "event_date": "2026-02-24",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d4a0a3f5715c51a8d104be79",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-02-24",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-1bf847ba1504be2d08acc3c3"
+        ],
+        "geography": "",
+        "headline": "OpenShift AIのInstinct対応・AI推論検証",
+        "products": [
+          "AMD Instinct MI300X",
+          "Red Hat OpenShift AI",
+          "Red Hat Enterprise Linux AI"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "AIソフトウェア・仮想化基盤"
+      },
+      "description": "Red Hat OpenShift AIがAMD Instinct GPUに対応。両社はAzure ND MI300X v5上でRed Hat Enterprise Linux AIとInstinct MI300Xを使ったAI推論を検証したと公表。",
+      "direction": "undirected",
+      "event_date": "2025-05-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:47:24+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-b4481f1fa976d8bd5c68acf0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-amd",
+      "status_as_of": "2025-05-20",
+      "target_company_id": "co-redhat",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f509e4994277d1f5748e745e",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-512 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-2cb38b05b6e3274abdad86ad"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 4.4 billion",
+          "payee_company_ids": [
+            "co-zt-systems"
+          ],
+          "payer_company_ids": [
+            "co-amd"
+          ],
+          "qualifier": "exact",
+          "scope": "SEC注記の現金・株式・条件付対価を含む取得対価",
+          "value": "4400000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-2cb38b05b6e3274abdad86ad"
+        ],
+        "geography": "",
+        "headline": "ZT Systems買収の取得対価",
+        "products": [
+          "AI計算基盤設計"
+        ],
+        "scale": "",
+        "source_role": "買収側",
+        "target_role": "買収対象"
+      },
+      "description": "2025年3月に完了したZT Systems買収の取得対価は44億米ドル。現金・AMD株式・条件付対価を含み、条件付対価は2025年10月に条件を満たして決済済み。製造事業の後の売却対価とは別。",
+      "direction": "directed",
+      "event_date": "2026-08-05",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:09+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-2e0d983d5da17c8a1c3844e2",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-06-27",
+      "target_company_id": "co-zt-systems",
+      "tier": {
+        "amount_id": "amount-f509e4994277d1f5748e745e",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-61da7e5bbb0f9f405e3ea29d",
+          "evidence-0c3d3ee65d5c97e5435470f3",
+          "evidence-9dfeb3e936cf0e2704e49bd4"
+        ],
+        "geography": "",
+        "headline": "OpenAI向けInstinct GPUの6GW導入契約",
+        "products": [
+          "AMD Instinct MI450",
+          "AIラック基盤"
+        ],
+        "scale": "全体6GW、初期1GWの予定",
+        "source_role": "GPU・計算基盤供給",
+        "target_role": "AI計算能力の調達"
+      },
+      "description": "AMD Instinct GPUをOpenAIのAI基盤に複数年・複数世代で導入する6GWの契約。最初の1GWはMI450で2026年後半の展開開始を予定。6GWは容量であり契約金額ではない。",
+      "direction": "directed",
+      "event_date": "2025-10-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-77c8b0b821bdc0dd7d9c057d",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amd",
+      "status_as_of": "2025-10-06",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ee85db5bc805656d1bbb86ae",
+          "evidence-a5ad4a6711829db02f00f748"
+        ],
+        "geography": "",
+        "headline": "Instinct MI350向けHBM3Eの採用",
+        "products": [
+          "HBM3E 36GB 12-high",
+          "AMD Instinct MI350"
+        ],
+        "scale": "",
+        "source_role": "HBMメモリー",
+        "target_role": "GPUプラットフォーム"
+      },
+      "description": "Micronの36GB・12段HBM3EがAMD Instinct MI350シリーズに設計採用。両社の共同エンジニアリングで適合性を高めた。発表時点で今後提供予定のGPU向けであり、納入数量・契約金額は非掲載。",
+      "direction": "directed",
+      "event_date": "2025-06-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-8b214788326480d747629f53",
+      "relationship_type": "supplier",
+      "source_company_id": "co-mu",
+      "status_as_of": "2025-06-12",
+      "target_company_id": "co-amd",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0317f37cc976b0e2bef46aba",
+          "evidence-b779b5c39d46249096e4ddab"
+        ],
+        "geography": "",
+        "headline": "GPU購入等に連動する条件付きワラント",
+        "products": [
+          "AMD普通株の購入権"
+        ],
+        "scale": "",
+        "source_role": "購入権の発行者",
+        "target_role": "条件付き購入権の受領者"
+      },
+      "description": "AMDが2025年10月にOpenAI OpCo, LLCへ最大1.6億株の普通株を購入できるワラントを発行。GPU購入・株価・技術・商業条件に応じて段階的に権利確定する。2026年6月27日時点では権利確定・行使可能株はない。",
+      "direction": "directed",
+      "event_date": "2026-08-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-9c76e24118116ba56eecb571",
+      "relationship_type": "equity_right",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-06-27",
+      "target_company_id": "co-openai-opco",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-301321a5de7c0b9d72f8d646",
+          "evidence-b8f8dd3cc5f572747c5fb48e"
+        ],
+        "geography": "",
+        "headline": "GPU購入等に連動する条件付きワラント",
+        "products": [
+          "AMD普通株の購入権"
+        ],
+        "scale": "",
+        "source_role": "購入権の発行者",
+        "target_role": "条件付き購入権の受領者"
+      },
+      "description": "AMDが2026年2月にMeta Platforms, Inc.へ最大1.6億株の普通株を購入できるワラントを発行。GPU購入・株価・技術・商業条件に応じて段階的に権利確定する。2026年6月27日時点では権利確定・行使可能株はない。",
+      "direction": "directed",
+      "event_date": "2026-08-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-d280a1e9a8109e320fa8c1ef",
+      "relationship_type": "equity_right",
+      "source_company_id": "co-amd",
+      "status_as_of": "2026-06-27",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "geography": "Saudi Arabia",
+        "headline": "GPU・ネットワークでAI基盤を共同構築",
+        "products": [
+          "AMD Instinct MI450",
+          "Cisco critical infrastructure",
+          "AIデータセンター"
+        ],
+        "scale": "初期100MW、2030年まで最大1GWの計画",
+        "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+        "target_role": "AMDがGPUを担当"
+      },
+      "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-11-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-ed5dab3bf425194454424137",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2025-11-19",
+      "target_company_id": "co-amd",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-05-20",
+    "2025-06-12",
+    "2025-10-06",
+    "2025-11-19",
+    "2026-02-24",
+    "2026-06-27"
+  ],
+  "total_counterparties": 7,
+  "total_peer_relationships": 0,
+  "total_relationships": 8
+}

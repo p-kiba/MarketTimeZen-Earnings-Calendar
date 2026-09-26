@@ -1,0 +1,181 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000093410",
+      "company_id": "co-cvx",
+      "country": null,
+      "display_name": "Chevron",
+      "entity_status": "resolved",
+      "legal_name": "CHEVRON CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000093410.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000093410.json",
+          "symbol": "CVX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-engine-no-1",
+      "country": null,
+      "display_name": "Engine No. 1",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001996810",
+      "company_id": "co-ge-vernova",
+      "country": null,
+      "display_name": "GE Vernova",
+      "entity_status": "resolved",
+      "legal_name": "GE Vernova Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001996810.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001996810.json",
+          "symbol": "GEV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000093410",
+    "company_id": "co-cvx",
+    "country": null,
+    "display_name": "Chevron",
+    "entity_status": "resolved",
+    "legal_name": "CHEVRON CORP",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000093410.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000093410.json",
+        "symbol": "CVX",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "geography": "",
+        "headline": "データセンター併設発電を共同開発",
+        "products": [
+          "天然ガス発電",
+          "データセンター併設電源"
+        ],
+        "scale": "",
+        "source_role": "Chevron U.S.A.が発電事業の共同開発を担当",
+        "target_role": "Engine No.1が共同開発を担当"
+      },
+      "description": "Chevron傘下Chevron U.S.A.とEngine No.1が米国内データセンター向け天然ガス発電の新会社を共同開発する計画。最大4GW、初期稼働は2027年末を目標。容量を契約額や稼働実績としない。",
+      "direction": "undirected",
+      "event_date": "2025-01-28",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-90386165092f7ec23315b2a0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-cvx",
+      "status_as_of": "2025-01-28",
+      "target_company_id": "co-engine-no-1",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "geography": "",
+        "headline": "発電計画に7HAタービンを採用",
+        "products": [
+          "GE Vernova 7HA",
+          "タービン生産枠予約"
+        ],
+        "scale": "",
+        "source_role": "GE Vernovaがタービン生産枠を確保",
+        "target_role": "Chevron U.S.A.等が共同発電計画に採用"
+      },
+      "description": "Chevron U.S.A.とEngine No.1の共同発電計画はGE Vernovaと協業し、7HAガスタービン7基の生産枠を予約。確定納入・稼働済みやChevron本体への直接販売額とは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-01-28",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-5ea60087d05c5b7b8049e178",
+      "relationship_type": "partnership",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-01-28",
+      "target_company_id": "co-cvx",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-01-28"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

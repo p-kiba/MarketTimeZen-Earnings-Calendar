@@ -1,0 +1,112 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-rivian",
+      "country": null,
+      "display_name": "Rivian",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-rivian",
+    "country": null,
+    "display_name": "Rivian",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-d70e05dd6f348730f1b2fe86",
+          "evidence-5bb4f5e00b888a1d86aa3336",
+          "evidence-81ec3b88224fdf1dbdf01c0a"
+        ],
+        "geography": "",
+        "headline": "ラストマイル配送用EVの共同開発",
+        "products": [
+          "電動配送バン"
+        ],
+        "scale": "2030年まで10万台という2020年時点の計画",
+        "source_role": "配送要件・物流運用",
+        "target_role": "車両技術・製造"
+      },
+      "description": "AmazonとRivianが配送用電気自動車を共同設計・開発。2020年発表では2030年までの10万台導入を計画した。数量目標であり、現在の納入実績や取引金額ではない。",
+      "direction": "undirected",
+      "event_date": "2020-10-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e6632315ef3dbe91b18569ac",
+      "relationship_type": "partnership",
+      "source_company_id": "co-amzn",
+      "status_as_of": "2020-10-08",
+      "target_company_id": "co-rivian",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-10-08"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

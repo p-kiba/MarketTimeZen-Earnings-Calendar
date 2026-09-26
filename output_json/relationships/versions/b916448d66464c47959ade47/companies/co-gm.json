@@ -1,0 +1,107 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gm",
+      "country": null,
+      "display_name": "GM",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001318605",
+      "company_id": "co-tsla",
+      "country": null,
+      "display_name": "Tesla",
+      "entity_status": "resolved",
+      "legal_name": "Tesla, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001318605.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+          "symbol": "TSLA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-gm",
+    "country": null,
+    "display_name": "GM",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-181eb4e4961d048111348010",
+          "evidence-6ea027e5fd1f1dee64dcfae2"
+        ],
+        "geography": "",
+        "headline": "GM製EVへのSupercharger利用開放",
+        "products": [
+          "Supercharger",
+          "NACS充電"
+        ],
+        "scale": "17,800基超の接続対象（発表時点）",
+        "source_role": "充電網の提供",
+        "target_role": "車両・アダプター・アプリ連携"
+      },
+      "description": "GMが認定NACSアダプターによるTesla Supercharger利用を開始すると発表。2024年9月時点では米国から開始しカナダは年内の予定。アダプターの小売価格を二社間契約金額にしない。",
+      "direction": "undirected",
+      "event_date": "2024-09-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-309097bdb57d9db40da6abee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsla",
+      "status_as_of": "2024-09-18",
+      "target_company_id": "co-gm",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-09-18"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

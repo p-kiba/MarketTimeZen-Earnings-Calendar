@@ -1,0 +1,202 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-18",
+      "conditions": "",
+      "deal_id": "deal-184cf00a6c7c5240261fad35",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-184cf00a6c7c5240261fad35",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-184cf00a6c7c5240261fad35"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-184cf00a6c7c5240261fad35"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3d1097f90640e48dbad9e2ba"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-6b1498de2bb1640d71b431f2",
+        "rule_version": "839814681040e25fca0d884a6ad7d25ddffaec649fa452d221cff4c19b53e7df",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-184cf00a6c7c5240261fad35",
+      "excerpt": "HBM3E",
+      "locator": "p:6",
+      "normalized_text_hash": "f7d916fa1b40ff70bbfa6e5d5a8a7c25be9e066a7f9cb12d84b8d89618185ed1",
+      "section": "Official disclosure: business context",
+      "source_id": "source-6b1498de2bb1640d71b431f2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-184cf00a6c7c5240261fad35"
+      ],
+      "geography": "",
+      "headline": "Blackwell向けHBM3E・SOCAMM",
+      "products": [
+        "HBM3E 12H 36GB",
+        "HBM3E 8H 24GB",
+        "SOCAMM"
+      ],
+      "scale": "",
+      "source_role": "メモリー技術・製品",
+      "target_role": "GPU・サーバープラットフォーム"
+    },
+    "deal_ids": [
+      "deal-184cf00a6c7c5240261fad35"
+    ],
+    "description": "MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-184cf00a6c7c5240261fad35"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-184cf00a6c7c5240261fad35"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3d1097f90640e48dbad9e2ba",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-03-18",
+    "target_company_id": "co-nvda",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-6b1498de2bb1640d71b431f2",
+      "rule_version": "839814681040e25fca0d884a6ad7d25ddffaec649fa452d221cff4c19b53e7df",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.micron.com/news/press-release/2025/Micron-Innovates-From-the-Data-Center-to-the-Edge-With-NVIDIA-03-18-2025/default.aspx",
+      "content_hash": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-18",
+      "publisher": "co-mu",
+      "retrieved_at": "2026-09-26T04:03:06+00:00",
+      "source_id": "source-6b1498de2bb1640d71b431f2",
+      "source_type": "official_newsroom",
+      "title": "Micron Technology, Inc. - Micron Innovates From the Data Center to the Edge With NVIDIA"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-184cf00a6c7c5240261fad35"
+      ],
+      "geography": "",
+      "headline": "Blackwell向けHBM3E・SOCAMM",
+      "products": [
+        "HBM3E 12H 36GB",
+        "HBM3E 8H 24GB",
+        "SOCAMM"
+      ],
+      "scale": "",
+      "source_role": "メモリー技術・製品",
+      "target_role": "GPU・サーバープラットフォーム"
+    },
+    "description": "MicronのHBM3EをBlackwell基盤に採用。GB300向けSOCAMMもNVIDIAと共同開発したと公表。データセンター向けメモリーの具体的な採用関係。",
+    "direction": "directed",
+    "event_date": "2025-03-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3d1097f90640e48dbad9e2ba",
+    "relationship_type": "supplier",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-03-18",
+    "target_company_id": "co-nvda",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

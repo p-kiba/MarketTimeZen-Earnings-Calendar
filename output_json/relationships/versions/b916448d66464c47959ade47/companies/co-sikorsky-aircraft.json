@@ -1,0 +1,138 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lockheed-martin",
+      "country": null,
+      "display_name": "Lockheed Martin",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sikorsky-aircraft",
+      "country": null,
+      "display_name": "Sikorsky Aircraft",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sikorsky-aircraft",
+    "country": null,
+    "display_name": "Sikorsky Aircraft",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-73cdc200ae034d0b76408289",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の買収価格。後続業績発表では取得現金控除後の買収額としても90億ドルと説明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.0 billion",
+          "payee_company_ids": [
+            "co-sikorsky-aircraft"
+          ],
+          "payer_company_ids": [
+            "co-lockheed-martin"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-3b2f6c05417ad51b9f31eace",
+          "amount_kind": "other",
+          "conditions": "税効果を考慮した実質的な会社説明上の値であり、90億ドルへ加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a65a65f39768d12b80151fa2",
+            "evidence-1fcfd03039e046eaad91d3f0",
+            "evidence-67f67b0907c4571e7c3a7346"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$7.1 billion",
+          "payee_company_ids": [
+            "co-sikorsky-aircraft"
+          ],
+          "payer_company_ids": [
+            "co-lockheed-martin"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "7100000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Lockheed MartinはUnited TechnologiesからSikorsky Aircraftを買収し、軍用・民間ヘリコプター事業をLockheed Martinへ統合した。",
+      "direction": "directed",
+      "event_date": "2015-11-06",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-934d1c78a49763b55077c9b5",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lockheed-martin",
+      "status_as_of": "2015-11-06",
+      "target_company_id": "co-sikorsky-aircraft",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2015-11-06"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

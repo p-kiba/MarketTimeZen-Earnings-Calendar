@@ -1,0 +1,173 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2022-10-12",
+      "conditions": "年間最大200万メートルトンのCO2を対象とする計画。 開始は発表時点で2025年初頭を予定。 同じ発表にあるCF Industriesの約2億ドル投資は自社の脱水・圧縮設備向けであり、ExxonMobilへの契約金額として扱わない。",
+      "deal_id": "deal-958cd991d664ca23c200ca77",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-958cd991d664ca23c200ca77",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-958cd991d664ca23c200ca77"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-958cd991d664ca23c200ca77"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0f38047954349ad568bf0366"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9d5948ee85c10ea78ab68c2f": "93e6ab4d10ab884996c12d9fcd8230eee84b6cfeac6e36ef8a7c45571b996422"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r4; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r4",
+        "rule_version": "025e79bddd291adfcfdf49b122d9ee967e82e78287b19578c4309fdcb131e0f8",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-958cd991d664ca23c200ca77",
+      "excerpt": "As previously announced,",
+      "locator": "p:6",
+      "normalized_text_hash": "07744c022271a6cf443aaa560ee9df0e148c60fa6a5612d155033bc46a8e42ed",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-9d5948ee85c10ea78ab68c2f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-958cd991d664ca23c200ca77"
+    ],
+    "description": "CF IndustriesはExxonMobilと商業契約を締結し、ルイジアナ州Donaldsonville施設から回収されるCO2をExxonMobilが輸送・永久貯留する計画を進めた。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-958cd991d664ca23c200ca77"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-958cd991d664ca23c200ca77"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-0f38047954349ad568bf0366",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-xom",
+    "status_as_of": "2022-10-12",
+    "target_company_id": "co-cf-industries",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9d5948ee85c10ea78ab68c2f": "93e6ab4d10ab884996c12d9fcd8230eee84b6cfeac6e36ef8a7c45571b996422"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r4; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r4",
+      "rule_version": "025e79bddd291adfcfdf49b122d9ee967e82e78287b19578c4309fdcb131e0f8",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://corporate.exxonmobil.com/news/news-releases/2022/1012_landmark-emissions-reduction-project-in-louisiana-announced",
+      "content_hash": "93e6ab4d10ab884996c12d9fcd8230eee84b6cfeac6e36ef8a7c45571b996422",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2022-10-12",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-10-12",
+      "publisher": "ExxonMobil",
+      "retrieved_at": "2026-09-26T13:43:59+00:00",
+      "source_id": "source-9d5948ee85c10ea78ab68c2f",
+      "source_type": "official_newsroom",
+      "title": "Landmark emissions-reduction project in Louisiana announced; CF Industries, ExxonMobil, EnLink Midstream to collaborate | ExxonMobil"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "CF IndustriesはExxonMobilと商業契約を締結し、ルイジアナ州Donaldsonville施設から回収されるCO2をExxonMobilが輸送・永久貯留する計画を進めた。",
+    "direction": "directed",
+    "event_date": "2022-10-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-0f38047954349ad568bf0366",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-xom",
+    "status_as_of": "2022-10-12",
+    "target_company_id": "co-cf-industries",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

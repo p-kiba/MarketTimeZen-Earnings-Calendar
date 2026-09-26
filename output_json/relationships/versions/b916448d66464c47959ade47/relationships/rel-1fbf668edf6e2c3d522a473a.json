@@ -1,0 +1,248 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-9a467b38121e6b732e59e1c7",
+          "amount_kind": "purchase_price",
+          "conditions": "DeereがHitachiの合弁持分と一定の知的財産ライセンスを取得する初期現金対価。契約上の相殺・調整の対象。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$275 million",
+          "payee_company_ids": [
+            "co-deere"
+          ],
+          "payer_company_ids": [
+            "co-hitachi-construction-machinery"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "275000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "Deereは3つの合弁工場のHitachi持分を取得する予定。 両社は合弁製造・販売契約を終了し、新たなライセンス・供給契約へ移行。 供給契約の期間は品目等により5年から30年。",
+      "deal_id": "deal-9743339ee70b624398921cea",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-9743339ee70b624398921cea",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-9743339ee70b624398921cea",
+        "evidence-51532af1f3f4637b9a4b8365"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2021-08-19",
+      "relationship_ids": [
+        "rel-1fbf668edf6e2c3d522a473a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-0ebdb79bed6a0a54d4321217": "104f387863f440380986103832ac115ff633ab35b9777d6c5b6c5af0f8881ad2"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r7; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r7",
+        "rule_version": "0a77c19899bca36d3db49248550d8e3334a0713740aaf62007f59b2261924037",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-51532af1f3f4637b9a4b8365",
+      "excerpt": "$275 million",
+      "locator": "p:75",
+      "normalized_text_hash": "467cc7bb42ff02b50b875c1358fb141ba4a79e1206387e43711ac27ecaea1f7e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-0ebdb79bed6a0a54d4321217",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9743339ee70b624398921cea",
+      "excerpt": "On August 19,",
+      "locator": "p:74",
+      "normalized_text_hash": "0a13b96eeb999301e9e9e602b6982edf8ebfce1a900caee5e8d6853304552a51",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-0ebdb79bed6a0a54d4321217",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-9743339ee70b624398921cea"
+    ],
+    "description": "DeereとHitachi Construction Machineryは既存の建機合弁を解消し、Deereが合弁工場のHitachi持分を取得するとともに、Hitachiブランドの油圧ショベル等に関する新たなライセンス・供給関係へ移行する契約を締結した。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-9743339ee70b624398921cea",
+      "evidence-51532af1f3f4637b9a4b8365"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-9743339ee70b624398921cea"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-1fbf668edf6e2c3d522a473a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-deere",
+    "status_as_of": "2021-08-19",
+    "target_company_id": "co-hitachi-construction-machinery",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0ebdb79bed6a0a54d4321217": "104f387863f440380986103832ac115ff633ab35b9777d6c5b6c5af0f8881ad2"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r7; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r7",
+      "rule_version": "0a77c19899bca36d3db49248550d8e3334a0713740aaf62007f59b2261924037",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "000155837021011945",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837021011945/de-20210819x8k.htm",
+      "content_hash": "104f387863f440380986103832ac115ff633ab35b9777d6c5b6c5af0f8881ad2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2021-08-19",
+      "filing_cik": "0000315189",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T13:46:40+00:00",
+      "source_id": "source-0ebdb79bed6a0a54d4321217",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-9a467b38121e6b732e59e1c7",
+        "amount_kind": "purchase_price",
+        "conditions": "DeereがHitachiの合弁持分と一定の知的財産ライセンスを取得する初期現金対価。契約上の相殺・調整の対象。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-9743339ee70b624398921cea",
+          "evidence-51532af1f3f4637b9a4b8365"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$275 million",
+        "payee_company_ids": [
+          "co-deere"
+        ],
+        "payer_company_ids": [
+          "co-hitachi-construction-machinery"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "275000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "DeereとHitachi Construction Machineryは既存の建機合弁を解消し、Deereが合弁工場のHitachi持分を取得するとともに、Hitachiブランドの油圧ショベル等に関する新たなライセンス・供給関係へ移行する契約を締結した。",
+    "direction": "undirected",
+    "event_date": "2021-08-19",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-1fbf668edf6e2c3d522a473a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-deere",
+    "status_as_of": "2021-08-19",
+    "target_company_id": "co-hitachi-construction-machinery",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown",
+      "not_total"
+    ]
+  }
+}

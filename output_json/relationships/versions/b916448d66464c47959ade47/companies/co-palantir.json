@@ -1,0 +1,263 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-acn",
+      "country": null,
+      "display_name": "Accenture",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-10-02",
+      "listing_status_source": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+          "symbol": "ACN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-l3harris",
+      "country": null,
+      "display_name": "L3Harris Technologies",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001321655",
+      "company_id": "co-palantir",
+      "country": null,
+      "display_name": "Palantir Technologies Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Palantir Technologies Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001321655.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+          "symbol": "PLTR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-panasonic",
+      "country": null,
+      "display_name": "Panasonic",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sovereign-ai",
+      "country": null,
+      "display_name": "Sovereign AI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001321655",
+    "company_id": "co-palantir",
+    "country": null,
+    "display_name": "Palantir Technologies Inc.",
+    "entity_status": "resolved",
+    "legal_name": "Palantir Technologies Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001321655.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+        "symbol": "PLTR",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+      "direction": "undirected",
+      "event_date": "2024-10-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-d6862887c33e0533897cf789",
+      "relationship_type": "partnership",
+      "source_company_id": "co-palantir",
+      "status_as_of": "2024-10-23",
+      "target_company_id": "co-l3harris",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c9d72cde7c7dfdd2c41e5b18"
+        ],
+        "geography": "米国Nevada州Sparks",
+        "headline": "電池工場へFoundryを提供",
+        "products": [
+          "Palantir Foundry",
+          "工場センサーデータ統合"
+        ],
+        "scale": "",
+        "source_role": "製造データ統合・AI基盤を提供",
+        "target_role": "Panasonic Energyが電池工場で利用"
+      },
+      "description": "Panasonic Energyが北米Nevada州Sparksの電池工場のSmart Factory化にPalantir Foundryを採用する複数年契約。製造ラインのセンサーデータ統合と業務自動化に活用する。Panasonicグループとして表示し、資料上の当事者はPanasonic Energy。",
+      "direction": "directed",
+      "event_date": "2023-06-07",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-26b5352a76386dc865cf2155",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-palantir",
+      "status_as_of": "2023-06-07",
+      "target_company_id": "co-panasonic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "geography": "グローバル",
+        "headline": "企業向けAI導入を共同支援",
+        "products": [
+          "Palantir Foundry",
+          "Artificial Intelligence Platform"
+        ],
+        "scale": "AccentureのPalantir技能保有者2,000人超",
+        "source_role": "AI・データ基盤と技術者を提供",
+        "target_role": "Accentureが業界知識・導入支援を提供"
+      },
+      "description": "PalantirとAccentureが共同のBusiness Groupを設立し、FoundryとAIPによる企業のデータ統合・業務改革を支援。Palantirのエンジニアと2,000人超のPalantir技能を持つAccenture人材等が支援する体制を公表。",
+      "direction": "undirected",
+      "event_date": "2025-12-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-ff599da661651ecd7e43fa0f",
+      "relationship_type": "partnership",
+      "source_company_id": "co-palantir",
+      "status_as_of": "2025-12-16",
+      "target_company_id": "co-acn",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9711e6d6f7ee524748653d18",
+          "evidence-64b953595985a5aa4e67543f",
+          "evidence-acd51127e1fd0554ec74b815"
+        ],
+        "geography": "欧州・中東・アフリカ",
+        "headline": "AIデータセンター運用ソフトを提供",
+        "products": [
+          "Palantir Chain Reaction",
+          "AIインフラ運用管理"
+        ],
+        "scale": "",
+        "source_role": "PalantirがAIインフラ運用ソフトを提供",
+        "target_role": "Sovereign AIがデータセンター構築に採用"
+      },
+      "description": "Sovereign AIがEMEAのAIデータセンター構築・拡張にPalantirとAccentureを選定。PalantirはChain Reactionで電力から計算基盤までの展開を支え、重要インフラを運用・管理するソフトウェアを提供する計画。",
+      "direction": "directed",
+      "event_date": "2026-01-21",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-8cc6e4312d83af08b0b39611",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-palantir",
+      "status_as_of": "2026-01-21",
+      "target_company_id": "co-sovereign-ai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-06-07",
+    "2024-10-23",
+    "2025-12-16",
+    "2026-01-21"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

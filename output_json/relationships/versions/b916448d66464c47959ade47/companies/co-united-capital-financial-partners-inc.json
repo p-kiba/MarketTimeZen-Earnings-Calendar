@@ -1,0 +1,106 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-the-goldman-sachs-group-inc",
+      "country": null,
+      "display_name": "The Goldman Sachs Group, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-united-capital-financial-partners-inc",
+      "country": null,
+      "display_name": "United Capital Financial Partners, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-united-capital-financial-partners-inc",
+    "country": null,
+    "display_name": "United Capital Financial Partners, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-c172c77d5870b5929a525ffc",
+          "amount_kind": "purchase_price",
+          "conditions": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$750 million",
+          "payee_company_ids": [
+            "co-united-capital-financial-partners-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "value": "750000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Goldman Sachsが独立系RIA向けウェルスマネジメント会社United Capitalを現金で取得する契約を締結。顧客向け助言とオープンアーキテクチャの運用ソリューションを追加する計画。",
+      "direction": "directed",
+      "event_date": "2019-05-16",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-c0b6b342bb2b69a1ce56e655",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-goldman-sachs-group-inc",
+      "status_as_of": "2019-05-16",
+      "target_company_id": "co-united-capital-financial-partners-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2019-05-16"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

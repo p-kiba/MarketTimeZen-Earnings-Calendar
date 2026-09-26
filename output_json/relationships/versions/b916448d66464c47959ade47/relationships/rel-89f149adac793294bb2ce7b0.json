@@ -1,0 +1,221 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-8ca19fc3b88e4d9ac12ccda4",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-8ca19fc3b88e4d9ac12ccda4",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-8ca19fc3b88e4d9ac12ccda4",
+        "evidence-c1947bd7bbcdab5d49eeb3e7"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-8ca19fc3b88e4d9ac12ccda4",
+            "evidence-c1947bd7bbcdab5d49eeb3e7"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2024-12-20",
+      "relationship_ids": [
+        "rel-89f149adac793294bb2ce7b0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-avgo-co-siliconware",
+        "rule_version": "7116ca869df7ba6694ff1de059ea067ae1cfacdb653dabe6c85c06822e2c172f",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-8ca19fc3b88e4d9ac12ccda4",
+      "excerpt": "We focus on maintaining",
+      "locator": "sec-div:304",
+      "normalized_text_hash": "cf631e92c2f765141114d937ea0007fd64c5b3f6278a5cabd16a021401b6682b",
+      "section": "Primary disclosure: sec-div:304",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c1947bd7bbcdab5d49eeb3e7",
+      "excerpt": "Unless sta",
+      "locator": "sec-div:134",
+      "normalized_text_hash": "d81acaae06ac1d9dd246041d859376fa01c5a297735f96acf855a10d4e7daa27",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-8ca19fc3b88e4d9ac12ccda4",
+        "evidence-c1947bd7bbcdab5d49eeb3e7"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "deal_ids": [
+      "deal-8ca19fc3b88e4d9ac12ccda4"
+    ],
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてSiliconwareを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8ca19fc3b88e4d9ac12ccda4",
+      "evidence-c1947bd7bbcdab5d49eeb3e7"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-8ca19fc3b88e4d9ac12ccda4"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-89f149adac793294bb2ce7b0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-siliconware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-82597d4f3c8c5e4601988602": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-avgo-co-siliconware",
+      "rule_version": "7116ca869df7ba6694ff1de059ea067ae1cfacdb653dabe6c85c06822e2c172f",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001730168-24-000139",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+      "content_hash": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": "2024-12-20",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T06:58:19+00:00",
+      "source_id": "source-82597d4f3c8c5e4601988602",
+      "source_type": "sec_filing",
+      "title": "avgo-20241103"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-8ca19fc3b88e4d9ac12ccda4",
+        "evidence-c1947bd7bbcdab5d49eeb3e7"
+      ],
+      "geography": "",
+      "headline": "半導体の組立・テストを受託",
+      "products": [
+        "半導体組立",
+        "半導体テスト"
+      ],
+      "scale": "",
+      "source_role": "外部委託先として半導体製造工程を担当",
+      "target_role": "Broadcomが半導体の製造工程を委託"
+    },
+    "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてSiliconwareを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+    "direction": "directed",
+    "event_date": "2024-12-20",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-89f149adac793294bb2ce7b0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-siliconware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

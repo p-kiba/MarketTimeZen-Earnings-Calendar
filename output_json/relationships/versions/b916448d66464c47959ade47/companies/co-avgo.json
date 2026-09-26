@@ -1,0 +1,689 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amkor",
+      "country": null,
+      "display_name": "Amkor",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ase",
+      "country": null,
+      "display_name": "Advanced Semiconductor Engineering, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        },
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-foxconn",
+      "country": null,
+      "display_name": "Foxconn Technology Group",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-siliconware",
+      "country": null,
+      "display_name": "Siliconware Precision Industries Co., Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tsmc",
+      "country": null,
+      "display_name": "TSMC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vmware",
+      "country": null,
+      "display_name": "VMware",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001730168",
+    "company_id": "co-avgo",
+    "country": null,
+    "display_name": "Broadcom",
+    "entity_status": "resolved",
+    "legal_name": "Broadcom Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+        "symbol": "AVGO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      },
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e2898651f9dce1b13e467dc0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-amkor",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-63894b170823b8d91d923f9b",
+          "evidence-bfeec1a0474e9e0ef2c73173",
+          "evidence-b2f8b7974e801b9d2d70bc37",
+          "evidence-735ed19d0886075fb2a165a0",
+          "evidence-9fa3cc38b21bb70a94f197a0"
+        ],
+        "geography": "",
+        "headline": "Siri・Writing ToolsへのChatGPT統合",
+        "products": [
+          "ChatGPT",
+          "Siri",
+          "Writing Tools"
+        ],
+        "scale": "",
+        "source_role": "OS・アプリへの統合",
+        "target_role": "AIモデル提供"
+      },
+      "description": "AppleがiOS 18・iPadOS 18・macOS SequoiaへのChatGPT統合を発表。SiriとWriting Toolsから利用できる計画で、2024年後半の提供予定。契約金額・収益分配率はこの発表では未確認。",
+      "direction": "undirected",
+      "event_date": "2024-06-10",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f348beaac7b09852594df48b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2024-06-10",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-cfd18cf92f081195140a429a",
+          "evidence-f66dbd9a11407cff6293c321",
+          "evidence-8de2474671dfafbf05178542"
+        ],
+        "geography": "",
+        "headline": "MTIAカスタムAI半導体の共同開発",
+        "products": [
+          "MTIA",
+          "XPU",
+          "Ethernet"
+        ],
+        "scale": "初期1GW超、複数GWへ展開予定",
+        "source_role": "半導体設計・実装・ネットワーク技術",
+        "target_role": "自社AI基盤への導入"
+      },
+      "description": "Metaの独自AI半導体MTIA向けに、Broadcomが設計・先端パッケージング・ネットワークで協力。初期段階は1GW超で、その後の複数GW展開を計画。",
+      "direction": "undirected",
+      "event_date": "2026-04-14",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-04262cbf72168254eb6aa408",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-04-14",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e70fb1abda4ee3eb0021abe4"
+        ],
+        "geography": "",
+        "headline": "2031年までのカスタムASIC開発・供給",
+        "products": [
+          "カスタムASIC"
+        ],
+        "scale": "2031年まで（具体的な満了日なし）",
+        "source_role": "設計・供給",
+        "target_role": "製品への採用"
+      },
+      "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "direction": "undirected",
+      "event_date": "2026-07-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-729343557b3c5f5e431b4854",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-d7156390211ae778d048efbf",
+          "amount_kind": "purchase_price",
+          "conditions": "完了済み買収の会計上の取得対価総額。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "U.S. dollars",
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "86,290",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-avgo"
+          ],
+          "qualifier": "exact",
+          "scope": "SEC 2024年10-K注記4の取得対価総額（現金・株式公正価値等、取得現金控除前）。全額現金ではない。",
+          "value": "86290000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-d34b4ee9f88824615bc20324",
+          "evidence-5d6039153c28f512d7d90dcf",
+          "evidence-9f84f3aa97ab1b71439dc0bc",
+          "evidence-b9af734b05a323259a5d208b"
+        ],
+        "geography": "",
+        "headline": "VMware買収の完了",
+        "products": [
+          "VMware事業"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "BroadcomによるVMware買収は2023年11月22日に完了。2024年10-K注記4の取得対価総額は862.90億米ドル。現金と株式公正価値等を含む会計上の総対価で、全額現金支払ではない。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:02+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2023-11-22",
+      "target_company_id": "co-vmware",
+      "tier": {
+        "amount_id": "amount-d7156390211ae778d048efbf",
+        "color": "#e34b55",
+        "currency": "USD",
+        "level": 5
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e45799e38b4915054a64a417",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:30:23+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "geography": "",
+        "headline": "半導体ウエハ・組立試験を受託",
+        "products": [
+          "半導体ウエハ",
+          "組立・テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてTSMCを明記。前工程のウエハ製造先にも明記されている。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-668c3757f1fe4e2e2651e365",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "geography": "",
+        "headline": "半導体の組立・テストを受託",
+        "products": [
+          "半導体組立",
+          "半導体テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてAmkorを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-09fe3d64df0a89c5aed36d13",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amkor",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-25562e6664ced23f96aa9555",
+          "evidence-e1bdb4de8b4883f0cef40841"
+        ],
+        "geography": "",
+        "headline": "半導体の組立・テストを受託",
+        "products": [
+          "半導体組立",
+          "半導体テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてAdvanced Semiconductor Engineeringを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-89e323e26e5b0b508ed85229",
+      "relationship_type": "supplier",
+      "source_company_id": "co-ase",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-7ede6cf87cdfb20ae83a3423",
+          "evidence-7fa9fd3a57bfa3ff30df4aa3"
+        ],
+        "geography": "",
+        "headline": "半導体の組立・テストを受託",
+        "products": [
+          "半導体組立",
+          "半導体テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてFoxconnを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-4d60feaca70e1d8e740ca847",
+      "relationship_type": "supplier",
+      "source_company_id": "co-foxconn",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8ca19fc3b88e4d9ac12ccda4",
+          "evidence-c1947bd7bbcdab5d49eeb3e7"
+        ],
+        "geography": "",
+        "headline": "半導体の組立・テストを受託",
+        "products": [
+          "半導体組立",
+          "半導体テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてSiliconwareを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-89f149adac793294bb2ce7b0",
+      "relationship_type": "supplier",
+      "source_company_id": "co-siliconware",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-11-22",
+    "2024-12-20",
+    "2025-10-13",
+    "2026-04-14",
+    "2026-07-06",
+    "2026-07-08"
+  ],
+  "total_counterparties": 9,
+  "total_peer_relationships": 3,
+  "total_relationships": 10
+}

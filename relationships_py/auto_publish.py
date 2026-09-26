@@ -12,13 +12,13 @@ from .validation import validate_master
 RULE_ID = 'explicit_official_announcement'
 RULE_VERSION = '1'
 VERBS = {
-    'partnership': r'\b(partner(?:ship|ed|ing)?|collaborat\w*|joint venture)\b',
+    'partnership': r'\b(partner(?:ship|ed|ing)?|collaborat\w*|integrat\w*|joint venture)\b',
     'investment': r'\b(invest(?:ed|ment)?|equity stake|purchase shares)\b',
     'acquisition': r'\b(acquir\w*|acquisition|buyout)\b',
     'supplier': r'\b(supply|supplies|supplier)\b',
     'service_provider': r'\b(provid\w*|services contract)\b',
 }
-NEGATION = re.compile(r'\b(?:not|no|never|without|potential|could|may|example|illustrat\w*|expect\w*)\b', re.I)
+NEGATION = re.compile(r'\b(?:not|no|never|without|potential|could|may|illustrat\w*|expect\w*)\b', re.I)
 GENERIC_TITLE_WORDS = {'announce', 'announces', 'announced', 'agreement', 'strategic', 'partnership',
                        'partners', 'partner', 'collaboration', 'collaborate', 'investment',
                        'invests', 'invest', 'major', 'new', 'expansion', 'expand', 'company',
@@ -60,7 +60,9 @@ def eligible(rel, event, evidence, source, companies):
     if len(descriptive) < 2:
         return False
     verb = VERBS[rel['relationship_type']]
-    if not re.search(verb, title, re.I) or not re.search(verb, excerpt, re.I) or NEGATION.search(excerpt):
+    title_action = bool(re.search(verb, title, re.I))
+    explicit_integration = rel['relationship_type'] == 'partnership' and bool(re.search(r'\bintegrat\w*|\bcollaborat\w*', excerpt, re.I)) and bool(re.search(r'\bwith\b', title, re.I))
+    if not (title_action or explicit_integration) or not re.search(verb, excerpt, re.I) or NEGATION.search(excerpt):
         return False
     if rel['relationship_type'] == 'investment':
         actor = re.search(r'(?<!\w)' + re.escape(names[0]) + r'(?!\w)', excerpt, re.I)
@@ -88,9 +90,11 @@ def auto_publish(root=ROOT):
     for item in public_evidence.values():
         excerpts_by_source.setdefault(item['source_id'], set()).add(item['excerpt'])
     grouped = set()
+    approved_pair_types = set()
     for rel in master['relationships']:
         if rel['verification'] not in APPROVED:
             continue
+        approved_pair_types.add((frozenset((rel['source_company_id'], rel['target_company_id'])), rel['relationship_type']))
         for eid in rel['evidence_ids']:
             sid = idx['evidence'][eid]['source_id']
             grouped.add((sid, frozenset((rel['source_company_id'], rel['target_company_id'])), rel['relationship_type']))
@@ -105,7 +109,8 @@ def auto_publish(root=ROOT):
             continue
         source = idx['sources'][evidence['source_id']]
         key = (source['source_id'], frozenset((rel['source_company_id'], rel['target_company_id'])), rel['relationship_type'])
-        if key in grouped or not eligible(rel, event, evidence, source, idx['companies']):
+        pair_type = (key[1], rel['relationship_type'])
+        if key in grouped or pair_type in approved_pair_types or not eligible(rel, event, evidence, source, idx['companies']):
             continue
         source_excerpts = excerpts_by_source.setdefault(source['source_id'], set())
         available = 25 - sum(len(text.split()) for text in source_excerpts)

@@ -1,17 +1,20 @@
 {
   "publication_rule": "explicit_official_announcement",
-  "published_count": 1,
+  "published_count": 4,
   "published_ids": [
-    "rel-fcf208fb782c7b7c3136fe14"
+    "rel-841d512b85fddf05deec3723",
+    "rel-6924f10cf3c5b728f3757a2e",
+    "rel-9dbdfa83d85f04c8aaccc508",
+    "rel-0059e0ff4920520f611891ba"
   ],
   "release": {
-    "build_id": "118d4359665834fa7e82a17f",
-    "manifest": "versions/118d4359665834fa7e82a17f/manifest.json",
-    "manifest_hash": "73b3a224ec35490ad13639dddeb537fe3af5d0fdccfd5e28918c3c5ea0c12753",
+    "build_id": "b916448d66464c47959ade47",
+    "manifest": "versions/b916448d66464c47959ade47/manifest.json",
+    "manifest_hash": "c88ad6f4b3bdc532df00eef9bf16b515943c20be10d39c6f30f160da6df6d746",
     "previous": {
-      "build_id": "16e8cff1ab83b2d56339e9c4",
-      "manifest": "versions/16e8cff1ab83b2d56339e9c4/manifest.json",
-      "manifest_hash": "d71ee8492e7fd32a9180781aa9801387173b07b28fb43c932c8cb21caf03f801"
+      "build_id": "118d4359665834fa7e82a17f",
+      "manifest": "versions/118d4359665834fa7e82a17f/manifest.json",
+      "manifest_hash": "73b3a224ec35490ad13639dddeb537fe3af5d0fdccfd5e28918c3c5ea0c12753"
     },
     "schema_version": "1.0"
   }

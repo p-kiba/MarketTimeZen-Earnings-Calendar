@@ -1,0 +1,173 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-06-12",
+      "conditions": "米国内半導体製造・技術革新の推進と、国家安全保障向け供給網の強化を対象。",
+      "deal_id": "deal-0a4bf59c833efe6cea3f6d98",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-0a4bf59c833efe6cea3f6d98",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-0a4bf59c833efe6cea3f6d98"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0a4bf59c833efe6cea3f6d98"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0d5d597a4abac2e05df15699"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8d5717f2015bc8969c669e87": "0983d2d27ca6d2c74f32e358f241d6a4d2f1097761d6a66271f84c772d538458"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r20",
+        "rule_version": "f2d198e9f71c64ae141000dbd619aa5cfa724821784c2c96e82804750fe3e723",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0a4bf59c833efe6cea3f6d98",
+      "excerpt": "MALTA, N.Y., June",
+      "locator": "p:2",
+      "normalized_text_hash": "f9ec33b9fa4622a616b6179ff39d45d33b740d4a5ab3e439b3f694d2a9d75676",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-8d5717f2015bc8969c669e87",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-0a4bf59c833efe6cea3f6d98"
+    ],
+    "description": "Lockheed MartinとGlobalFoundriesは、国家安全保障システム向け半導体の米国内製造・技術革新と、供給網の安全性・信頼性・レジリエンスを高める戦略的協業を発表した。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-0a4bf59c833efe6cea3f6d98"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-0a4bf59c833efe6cea3f6d98"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-0d5d597a4abac2e05df15699",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lockheed-martin",
+    "status_as_of": "2023-06-12",
+    "target_company_id": "co-gfs",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8d5717f2015bc8969c669e87": "0983d2d27ca6d2c74f32e358f241d6a4d2f1097761d6a66271f84c772d538458"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r20; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r20",
+      "rule_version": "f2d198e9f71c64ae141000dbd619aa5cfa724821784c2c96e82804750fe3e723",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.lockheedmartin.com/2023-06-12-Lockheed-Martin-GlobalFoundries-Collaborate-Advance-Innovation-Resiliency-Chips-National-Security",
+      "content_hash": "0983d2d27ca6d2c74f32e358f241d6a4d2f1097761d6a66271f84c772d538458",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2023-06-12",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-06-12",
+      "publisher": "Lockheed Martin",
+      "retrieved_at": "2026-09-26T13:49:04+00:00",
+      "source_id": "source-8d5717f2015bc8969c669e87",
+      "source_type": "official_newsroom",
+      "title": "Lockheed Martin Corporation | Lockheed Martin"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Lockheed MartinとGlobalFoundriesは、国家安全保障システム向け半導体の米国内製造・技術革新と、供給網の安全性・信頼性・レジリエンスを高める戦略的協業を発表した。",
+    "direction": "undirected",
+    "event_date": "2023-06-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-0d5d597a4abac2e05df15699",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lockheed-martin",
+    "status_as_of": "2023-06-12",
+    "target_company_id": "co-gfs",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

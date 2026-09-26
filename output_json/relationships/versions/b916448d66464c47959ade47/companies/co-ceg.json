@@ -1,0 +1,124 @@
+{
+  "build_id": "b916448d66464c47959ade47",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ceg",
+      "country": null,
+      "display_name": "Constellation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-23",
+      "listing_status_source": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+          "symbol": "CEG",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ceg",
+    "country": null,
+    "display_name": "Constellation",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-06-23",
+    "listing_status_source": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+        "symbol": "CEG",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ea770c6bd6c5456283c88641",
+          "evidence-d65aad92e35a2e6807eb104d"
+        ],
+        "geography": "米国・Illinois",
+        "headline": "Dresden原発の長期電力購入契約",
+        "products": [
+          "電力",
+          "環境属性",
+          "発電容量"
+        ],
+        "scale": "約176MW（増強分30MWを含む）",
+        "source_role": "発電・卸供給",
+        "target_role": "電力購入"
+      },
+      "description": "ConstellationのDresden原子力発電所からWalmartが電力・環境属性・容量を購入するPPA。約176MWに増強分30MWを含み、2029年・2030年開始の各15年間の供給期間を設ける。",
+      "direction": "directed",
+      "event_date": "2026-06-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-156ce4bb86e7492c5d95a571",
+      "relationship_type": "supplier",
+      "source_company_id": "co-ceg",
+      "status_as_of": "2026-06-23",
+      "target_company_id": "co-wmt",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-06-23"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
