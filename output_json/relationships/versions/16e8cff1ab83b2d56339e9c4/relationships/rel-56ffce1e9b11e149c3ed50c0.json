@@ -1,0 +1,173 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-06-20",
+      "conditions": "確定注文は737 MAX 190機、787 Dreamliner 20機、777X 10機。 オプションは737 MAX最大50機と787最大20機で、最大290機。",
+      "deal_id": "deal-3d9491bab61bff57b6303f43",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-3d9491bab61bff57b6303f43",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-3d9491bab61bff57b6303f43"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-3d9491bab61bff57b6303f43"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-56ffce1e9b11e149c3ed50c0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-62e7d5556b1f0a2f94ddcead": "2b7063ee7839efd163bb18e525d6d8027540cc3a9ba524931e2b6d92eca57002"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r11; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r11",
+        "rule_version": "2a1712bbde271312b7e7836cd9e578ce75a1064d3fa41dbf9423f486f0c6a57d",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-3d9491bab61bff57b6303f43",
+      "excerpt": "LE BOURGET, France",
+      "locator": "p:17",
+      "normalized_text_hash": "09b3659125c71fbe5585731981fa586f45717ee2e93b5acd41f16456ade66c60",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-62e7d5556b1f0a2f94ddcead",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-3d9491bab61bff57b6303f43"
+    ],
+    "description": "BoeingとAir Indiaは737 MAX、787 Dreamliner、777Xを合わせ最大290機と関連サービスの注文を確定した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3d9491bab61bff57b6303f43"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-3d9491bab61bff57b6303f43"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-56ffce1e9b11e149c3ed50c0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-boeing",
+    "status_as_of": "2023-06-20",
+    "target_company_id": "co-air-india",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-62e7d5556b1f0a2f94ddcead": "2b7063ee7839efd163bb18e525d6d8027540cc3a9ba524931e2b6d92eca57002"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r11; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r11",
+      "rule_version": "2a1712bbde271312b7e7836cd9e578ce75a1064d3fa41dbf9423f486f0c6a57d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.boeing.com/investors/news/press-release-details/2023/Air-India-Finalizes-Order-for-Up-to-290-Boeing-Single-Aisle-and-Widebody-Jets/default.aspx",
+      "content_hash": "2b7063ee7839efd163bb18e525d6d8027540cc3a9ba524931e2b6d92eca57002",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2023-06-20",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-06-20",
+      "publisher": "Boeing",
+      "retrieved_at": "2026-09-26T13:46:59+00:00",
+      "source_id": "source-62e7d5556b1f0a2f94ddcead",
+      "source_type": "official_newsroom",
+      "title": "Boeing Company - Air India Finalizes Order for Up to 290 Boeing Single-Aisle and Widebody Jets"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "BoeingとAir Indiaは737 MAX、787 Dreamliner、777Xを合わせ最大290機と関連サービスの注文を確定した。",
+    "direction": "directed",
+    "event_date": "2023-06-20",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-56ffce1e9b11e149c3ed50c0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-boeing",
+    "status_as_of": "2023-06-20",
+    "target_company_id": "co-air-india",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

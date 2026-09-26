@@ -1,0 +1,265 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-glw",
+      "country": null,
+      "display_name": "Corning",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-glw",
+    "country": null,
+    "display_name": "Corning",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-1943531cca9a567b4f6ad99f",
+          "amount_kind": "contract_value",
+          "conditions": "上限額。年額ではない。原文$の通貨種類はこの記録では未確認。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7312fd52813f947b8a4a701f",
+            "evidence-41a7bfee1b6530bb83077e61"
+          ],
+          "max_value": "6000000000",
+          "min_value": null,
+          "original_text": "$6 billion",
+          "payee_company_ids": [
+            "co-glw"
+          ],
+          "payer_company_ids": [
+            "co-meta"
+          ],
+          "qualifier": "up_to",
+          "scope": "Metaのデータセンター向け光ファイバー供給の複数年契約上限",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-7312fd52813f947b8a4a701f",
+          "evidence-41a7bfee1b6530bb83077e61"
+        ],
+        "geography": "米国・North Carolina",
+        "headline": "データセンター向け光ファイバー供給",
+        "products": [
+          "光ファイバーケーブル"
+        ],
+        "scale": "",
+        "source_role": "光ファイバーの製造・供給",
+        "target_role": "データセンター向け調達"
+      },
+      "description": "CorningがMetaのデータセンターに光ファイバーを供給する複数年契約。最大$60億とされ、North Carolinaの生産能力拡大を支える。",
+      "direction": "directed",
+      "event_date": "2026-01-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-77e795db35c98a2e7dcc8958",
+      "relationship_type": "supplier",
+      "source_company_id": "co-glw",
+      "status_as_of": "2026-01-27",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-011fe94ce375f7f524e50e52"
+        ],
+        "geography": "米国・Kentucky",
+        "headline": "iPhone・Watch向けガラス製造と共同研究",
+        "products": [
+          "カバーガラス",
+          "Apple-Corning Innovation Center"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "Corningとの提携を拡張し、Kentuckyの工場にスマートフォン用カバーガラスの製造ラインと共同イノベーションセンターを設ける計画。iPhone・Apple Watch向け。個社契約額は非掲載。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e1a79bc20a2ca2dd7f2b3d5d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-glw",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-506b5146054b77e62239c494"
+        ],
+        "geography": "米国",
+        "headline": "米国データセンター向け光接続製品の供給",
+        "products": [
+          "光ファイバー",
+          "ケーブル",
+          "接続製品"
+        ],
+        "scale": "",
+        "source_role": "製造・供給",
+        "target_role": "データセンター向け調達"
+      },
+      "description": "CorningがAmazonの米国データセンター向けに光ファイバー・ケーブル・接続製品を供給する契約。数十億ドル規模との表現のみで、具体的な数値は公表されていない。地域全体への投資額を契約額に転用しない。",
+      "direction": "directed",
+      "event_date": "2026-06-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0a038d06b3d5e568824b197b",
+      "relationship_type": "supplier",
+      "source_company_id": "co-glw",
+      "status_as_of": "2026-06-08",
+      "target_company_id": "co-amzn",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-08-06",
+    "2026-01-27",
+    "2026-06-08"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 0,
+  "total_relationships": 3
+}

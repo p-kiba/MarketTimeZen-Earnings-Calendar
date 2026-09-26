@@ -1,0 +1,137 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-finicity-corporation",
+      "country": null,
+      "display_name": "Finicity Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mastercard",
+      "country": null,
+      "display_name": "Mastercard",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-mastercard",
+    "country": null,
+    "display_name": "Mastercard",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-bbeb55f50005c4ba32d35e97",
+          "amount_kind": "purchase_price",
+          "conditions": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 809 million",
+          "payee_company_ids": [
+            "co-finicity-corporation"
+          ],
+          "payer_company_ids": [
+            "co-mastercard"
+          ],
+          "qualifier": "exact",
+          "scope": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+          "value": "809000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-0c3cc8536674948faaa02f97",
+          "amount_kind": "purchase_price",
+          "conditions": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 64 million",
+          "payee_company_ids": [
+            "co-finicity-corporation"
+          ],
+          "payer_company_ids": [
+            "co-mastercard"
+          ],
+          "qualifier": "exact",
+          "scope": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+          "value": "64000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Mastercardがオープンバンキング事業者Finicityを買収し、銀行・融資・資産管理向けのリアルタイム金融データ接続とAPI機能を取得。年次報告書は現金対価と売上目標達成後の追加対価を分けて記載。",
+      "direction": "directed",
+      "event_date": "2020-11-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:59:55+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-c580f43a1827099e62dc4a51",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-mastercard",
+      "status_as_of": "2020-11-19",
+      "target_company_id": "co-finicity-corporation",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "conditional",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-11-19"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

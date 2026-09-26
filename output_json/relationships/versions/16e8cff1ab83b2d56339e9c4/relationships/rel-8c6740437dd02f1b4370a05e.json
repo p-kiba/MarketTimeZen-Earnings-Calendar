@@ -1,0 +1,221 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2021-06-24",
+      "conditions": "",
+      "deal_id": "deal-67b09f9d5055993ded068cd4",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-67b09f9d5055993ded068cd4",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-67b09f9d5055993ded068cd4",
+        "evidence-5ffc88b5eabe9ead0bf92256"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-67b09f9d5055993ded068cd4",
+            "evidence-5ffc88b5eabe9ead0bf92256"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-8c6740437dd02f1b4370a05e"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-bf39192cc1f75260c8be0048": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-oracle-deutsche-bank",
+        "rule_version": "6b94445ba4e92995f794e9224dd95ea8d9c31f6ad1f2c54f8d45a817a97fb6e2",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5ffc88b5eabe9ead0bf92256",
+      "excerpt": "Deutsche B",
+      "locator": "p:5",
+      "normalized_text_hash": "f5a7c5b6d703f238e745b462135bf7b0d2eed486a6e2181a87f476b5e501e3b6",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-bf39192cc1f75260c8be0048",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-67b09f9d5055993ded068cd4",
+      "excerpt": "The agreement will s",
+      "locator": "p:6",
+      "normalized_text_hash": "8452423f8db35f484f8d3f81565f7c18eb9135273df2a349e30c5ba499c50e03",
+      "section": "Primary disclosure: p:6",
+      "source_id": "source-bf39192cc1f75260c8be0048",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-67b09f9d5055993ded068cd4",
+        "evidence-5ffc88b5eabe9ead0bf92256"
+      ],
+      "geography": "",
+      "headline": "銀行の基幹DBをクラウド化",
+      "products": [
+        "Oracle Exadata Cloud@Customer",
+        "基幹データベース"
+      ],
+      "scale": "",
+      "source_role": "Oracleが銀行内設置型DB基盤を提供",
+      "target_role": "Deutsche Bankが基幹システムを移行"
+    },
+    "deal_ids": [
+      "deal-67b09f9d5055993ded068cd4"
+    ],
+    "description": "Deutsche Bankが基幹データベースをOracle Exadata Cloud@Customerへ移行する複数年協業。取引・決済処理・リスク管理・資本計画等を支える銀行内設置型の基盤。2021年合意の記録で、現在の継続を新たに確認したものではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-67b09f9d5055993ded068cd4",
+      "evidence-5ffc88b5eabe9ead0bf92256"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-67b09f9d5055993ded068cd4"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-8c6740437dd02f1b4370a05e",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-orcl",
+    "status_as_of": "2021-06-24",
+    "target_company_id": "co-deutsche-bank",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-bf39192cc1f75260c8be0048": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-oracle-deutsche-bank",
+      "rule_version": "6b94445ba4e92995f794e9224dd95ea8d9c31f6ad1f2c54f8d45a817a97fb6e2",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.db.com/news/detail/20210624-deutsche-bank-partners-with-oracle-to-accelerate-technology-modernization?language_id=1",
+      "content_hash": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-06-24",
+      "publisher": "www.db.com",
+      "retrieved_at": "2026-09-26T15:53:58+00:00",
+      "source_id": "source-bf39192cc1f75260c8be0048",
+      "source_type": "official_newsroom",
+      "title": "Deutsche Bank Partners with Oracle to Accelerate Technology Modernisation"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-67b09f9d5055993ded068cd4",
+        "evidence-5ffc88b5eabe9ead0bf92256"
+      ],
+      "geography": "",
+      "headline": "銀行の基幹DBをクラウド化",
+      "products": [
+        "Oracle Exadata Cloud@Customer",
+        "基幹データベース"
+      ],
+      "scale": "",
+      "source_role": "Oracleが銀行内設置型DB基盤を提供",
+      "target_role": "Deutsche Bankが基幹システムを移行"
+    },
+    "description": "Deutsche Bankが基幹データベースをOracle Exadata Cloud@Customerへ移行する複数年協業。取引・決済処理・リスク管理・資本計画等を支える銀行内設置型の基盤。2021年合意の記録で、現在の継続を新たに確認したものではない。",
+    "direction": "directed",
+    "event_date": "2021-06-24",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-8c6740437dd02f1b4370a05e",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-orcl",
+    "status_as_of": "2021-06-24",
+    "target_company_id": "co-deutsche-bank",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

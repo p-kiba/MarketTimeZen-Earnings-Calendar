@@ -1,0 +1,158 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-verve",
+      "country": null,
+      "display_name": "Verve Therapeutics, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-verve",
+    "country": null,
+    "display_name": "Verve Therapeutics, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f73f978f2bd9016aeffecc5f",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-345 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 549 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "exact",
+          "scope": "取得現金控除後の現金対価。グロス取得総額ではない。",
+          "value": "549000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-d3474e31a1f27b9050b568cb",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-348 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "$ 300 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "up_to",
+          "scope": "非譲渡CVRの最大約追加対価。所定のマイルストーン達成が条件。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-fc1d61bdd745864237dcf88d",
+          "evidence-7bfe6dc1e05d18831639aff0"
+        ],
+        "geography": "",
+        "headline": "Verve買収の現金対価と条件付き追加対価",
+        "products": [
+          "心血管疾患向け遺伝子医薬"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Lillyは心血管疾患向け遺伝子医薬を開発するVerveの全株式を2025年7月に取得。取得現金控除後の現金対価は5.49億米ドル。別途最大約3億米ドルの条件付き対価があり、確定総額に合算しない。",
+      "direction": "directed",
+      "event_date": "2026-04-30",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2026-03-31",
+      "target_company_id": "co-verve",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "not_total",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-03-31"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

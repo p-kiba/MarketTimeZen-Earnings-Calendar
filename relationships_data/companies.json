@@ -2299,21 +2299,6 @@
   {
     "aliases": [],
     "cik": null,
-    "company_id": "co-merck",
-    "country": null,
-    "display_name": "Merck",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
     "company_id": "co-verona-pharma-plc",
     "country": null,
     "display_name": "Verona Pharma plc",
@@ -3064,21 +3049,6 @@
   {
     "aliases": [],
     "cik": null,
-    "company_id": "co-ge-vernova",
-    "country": null,
-    "display_name": "GE Vernova",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
     "company_id": "co-prolec-ge",
     "country": null,
     "display_name": "Prolec GE",
@@ -3612,6 +3582,81 @@
   },
   {
     "aliases": [],
+    "cik": null,
+    "company_id": "co-daiichi-sankyo",
+    "country": null,
+    "display_name": "Daiichi Sankyo",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-astellas",
+    "country": null,
+    "display_name": "Astellas",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-arvinas",
+    "country": null,
+    "display_name": "Arvinas",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-uniper",
+    "country": null,
+    "display_name": "Uniper",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-engine-no-1",
+    "country": null,
+    "display_name": "Engine No. 1",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
     "cik": "0001065280",
     "company_id": "co-nflx",
     "country": null,
@@ -3783,6 +3828,122 @@
         "exchange": "NYSE",
         "source_url": "https://data.sec.gov/submissions/CIK0001571996.json",
         "symbol": "DELL",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0000310158",
+    "company_id": "co-merck",
+    "country": null,
+    "display_name": "Merck",
+    "entity_status": "resolved",
+    "legal_name": "Merck & Co., Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+        "symbol": "MRK",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0001996810",
+    "company_id": "co-ge-vernova",
+    "country": null,
+    "display_name": "GE Vernova",
+    "entity_status": "resolved",
+    "legal_name": "GE Vernova Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001996810.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001996810.json",
+        "symbol": "GEV",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0000093410",
+    "company_id": "co-cvx",
+    "country": null,
+    "display_name": "Chevron",
+    "entity_status": "resolved",
+    "legal_name": "CHEVRON CORP",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000093410.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000093410.json",
+        "symbol": "CVX",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "0000901832",
+    "company_id": "co-astrazeneca",
+    "country": null,
+    "display_name": "AstraZeneca",
+    "entity_status": "resolved",
+    "legal_name": "ASTRAZENECA PLC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000901832.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000901832.json",
+        "symbol": "AZN",
         "valid_from": null,
         "valid_to": null
       }

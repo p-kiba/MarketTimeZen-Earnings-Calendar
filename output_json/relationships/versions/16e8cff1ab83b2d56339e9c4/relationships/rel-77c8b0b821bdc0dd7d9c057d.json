@@ -1,0 +1,242 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-10-06",
+      "conditions": "別途最大1.6億株の条件付きワラントを発行。GPU購入、株価、技術・商業面のマイルストーンがあり、出資済み・保有済み株式と扱わない。将来売上予想を契約対価に転用しない。",
+      "deal_id": "deal-61da7e5bbb0f9f405e3ea29d",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-61da7e5bbb0f9f405e3ea29d",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-61da7e5bbb0f9f405e3ea29d",
+        "evidence-0c3d3ee65d5c97e5435470f3",
+        "evidence-9dfeb3e936cf0e2704e49bd4"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-61da7e5bbb0f9f405e3ea29d",
+            "evidence-0c3d3ee65d5c97e5435470f3",
+            "evidence-9dfeb3e936cf0e2704e49bd4"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-77c8b0b821bdc0dd7d9c057d"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-749efa2de6972ac888c69fc5": "8ae11c22dd5094c026423da459f6979883d0d72a3c93dc4279d35e547279c59b"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-749efa2de6972ac888c69fc5",
+        "rule_version": "281c58dbb4fdc38ecce42035a8bf035057060e6e155d6aeaf53a46b629554336",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0c3d3ee65d5c97e5435470f3",
+      "excerpt": "definitive agreement",
+      "locator": "p:15",
+      "normalized_text_hash": "aad6de0f90ee3600b43616706251643f487581b3c065a35e8e2152facbd6a099",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-749efa2de6972ac888c69fc5",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-61da7e5bbb0f9f405e3ea29d",
+      "excerpt": "6 gigawatt",
+      "locator": "p:13",
+      "normalized_text_hash": "1a34560f31f96492b36f78431042bd8401bbd3c7b62fa3428d9dd805e8739ed8",
+      "section": "Official disclosure: business context",
+      "source_id": "source-749efa2de6972ac888c69fc5",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9dfeb3e936cf0e2704e49bd4",
+      "excerpt": "warrant",
+      "locator": "p:16",
+      "normalized_text_hash": "43f9cfa0fd78b80a7d763fadcef0cf2781f1ba2c79e4b5d93fd80113e02a24fb",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-749efa2de6972ac888c69fc5",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-61da7e5bbb0f9f405e3ea29d",
+        "evidence-0c3d3ee65d5c97e5435470f3",
+        "evidence-9dfeb3e936cf0e2704e49bd4"
+      ],
+      "geography": "",
+      "headline": "OpenAI向けInstinct GPUの6GW導入契約",
+      "products": [
+        "AMD Instinct MI450",
+        "AIラック基盤"
+      ],
+      "scale": "全体6GW、初期1GWの予定",
+      "source_role": "GPU・計算基盤供給",
+      "target_role": "AI計算能力の調達"
+    },
+    "deal_ids": [
+      "deal-61da7e5bbb0f9f405e3ea29d"
+    ],
+    "description": "AMD Instinct GPUをOpenAIのAI基盤に複数年・複数世代で導入する6GWの契約。最初の1GWはMI450で2026年後半の展開開始を予定。6GWは容量であり契約金額ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-61da7e5bbb0f9f405e3ea29d",
+      "evidence-0c3d3ee65d5c97e5435470f3",
+      "evidence-9dfeb3e936cf0e2704e49bd4"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-61da7e5bbb0f9f405e3ea29d"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-77c8b0b821bdc0dd7d9c057d",
+    "relationship_type": "supplier",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-10-06",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-749efa2de6972ac888c69fc5": "8ae11c22dd5094c026423da459f6979883d0d72a3c93dc4279d35e547279c59b"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-749efa2de6972ac888c69fc5",
+      "rule_version": "281c58dbb4fdc38ecce42035a8bf035057060e6e155d6aeaf53a46b629554336",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d/",
+      "content_hash": "8ae11c22dd5094c026423da459f6979883d0d72a3c93dc4279d35e547279c59b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-10-06",
+      "publisher": "newsroom.amd.com",
+      "retrieved_at": "2026-09-26T06:09:44+00:00",
+      "source_id": "source-749efa2de6972ac888c69fc5",
+      "source_type": "official_newsroom",
+      "title": "AMD and OpenAI Announce Partnership to Deploy 6 Gigawatts of AMD GPUs - AMD Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-61da7e5bbb0f9f405e3ea29d",
+        "evidence-0c3d3ee65d5c97e5435470f3",
+        "evidence-9dfeb3e936cf0e2704e49bd4"
+      ],
+      "geography": "",
+      "headline": "OpenAI向けInstinct GPUの6GW導入契約",
+      "products": [
+        "AMD Instinct MI450",
+        "AIラック基盤"
+      ],
+      "scale": "全体6GW、初期1GWの予定",
+      "source_role": "GPU・計算基盤供給",
+      "target_role": "AI計算能力の調達"
+    },
+    "description": "AMD Instinct GPUをOpenAIのAI基盤に複数年・複数世代で導入する6GWの契約。最初の1GWはMI450で2026年後半の展開開始を予定。6GWは容量であり契約金額ではない。",
+    "direction": "directed",
+    "event_date": "2025-10-06",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-77c8b0b821bdc0dd7d9c057d",
+    "relationship_type": "supplier",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-10-06",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

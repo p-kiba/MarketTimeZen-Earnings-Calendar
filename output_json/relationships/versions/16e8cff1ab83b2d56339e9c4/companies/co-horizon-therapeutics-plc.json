@@ -1,0 +1,105 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amgen",
+      "country": null,
+      "display_name": "Amgen",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-horizon-therapeutics-plc",
+      "country": null,
+      "display_name": "Horizon Therapeutics plc",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-horizon-therapeutics-plc",
+    "country": null,
+    "display_name": "Horizon Therapeutics plc",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-661bf9e6a6929776a8ae7411",
+          "amount_kind": "purchase_price",
+          "conditions": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-812ef833642e67d92c65153b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$116.50 per share in cash, representing a transaction equity value of approximately $27.8 billion",
+          "payee_company_ids": [
+            "co-horizon-therapeutics-plc"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "approximately",
+          "scope": "1株$116.50の現金対価による取引株式価値。原文通貨コード不明。",
+          "value": "27800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。",
+      "direction": "directed",
+      "event_date": "2023-10-06",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-b3fc1326d50f92faeb8a28c8",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-amgen",
+      "status_as_of": "2023-10-06",
+      "target_company_id": "co-horizon-therapeutics-plc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-10-06"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

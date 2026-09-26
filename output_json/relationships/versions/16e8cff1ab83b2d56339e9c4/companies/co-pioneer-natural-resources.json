@@ -1,0 +1,79 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pioneer-natural-resources",
+      "country": null,
+      "display_name": "Pioneer Natural Resources",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-xom",
+      "country": null,
+      "display_name": "ExxonMobil",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-pioneer-natural-resources",
+    "country": null,
+    "display_name": "Pioneer Natural Resources",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "ExxonMobilはPioneer Natural Resourcesを株式交換で買収し、Permian Basinを中心とするPioneerの上流資産をExxonMobilの事業へ統合した。",
+      "direction": "directed",
+      "event_date": "2024-05-03",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-a73c10631f38b2b8932d8f76",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-xom",
+      "status_as_of": "2024-05-03",
+      "target_company_id": "co-pioneer-natural-resources",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-05-03"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

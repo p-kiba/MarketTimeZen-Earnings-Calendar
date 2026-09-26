@@ -42171,5 +42171,918 @@
       "rule_version": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
       "verified_at": "2026-09-26T15:58:22+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-c255aafba1199fa3983fab39",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$4 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "exact",
+        "scope": "前払金40億。うち10億は一部返還可能。契約総額ではない。",
+        "value": "4000000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-f54765e328504da0725a899c",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$1.5 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "exact",
+        "scope": "12か月後・24か月後の継続支払各7.5億。離脱権あり。",
+        "value": "1500000000",
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-55d9c7903c1398e99a168bfd",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": "16500000000",
+        "min_value": null,
+        "original_text": "$16.5 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "up_to",
+        "scope": "3プログラムの販売マイルストーン上限。確約額ではない。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2023-10-19",
+    "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+    "deal_id": "deal-1239e730fe659070a90ee8e0",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-1239e730fe659070a90ee8e0",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-1239e730fe659070a90ee8e0",
+      "evidence-e12a439ce6d41f6b7aae6fce",
+      "evidence-ccccd26c32a8ddce40ae0bf9",
+      "evidence-f033b43407e24a81852c14bd",
+      "evidence-5e71484b71a7b529353b8846"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-4238acaeb95a4e25f786dd76"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-merck-daiichi",
+      "rule_version": "4362259e0d912c8fa5f5981ee29eb43913d695b8e6699c6510feab389cea0ab0",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-10-19",
+    "conditions": "",
+    "deal_id": "deal-46684e058ed789ff62b835dc",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-46684e058ed789ff62b835dc",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-46684e058ed789ff62b835dc"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bee78c918bf368c41490d508"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-daiichi-astrazeneca",
+      "rule_version": "43a8703d7d8bdf26483eb970ebb5dfb2783ad68ef1a4d91fa17970ba2ea7b73b",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-23",
+    "conditions": "",
+    "deal_id": "deal-1e718bc9a97a9e3fa320e70a",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-1e718bc9a97a9e3fa320e70a",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-1e718bc9a97a9e3fa320e70a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-1e718bc9a97a9e3fa320e70a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-9b4c87d4c090edb714aada7d"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-pfizer-arvinas",
+      "rule_version": "c0ec73ca1a08e3771cb8acc554388abf9ac7ae4a97b9e063b07b47de0417897e",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-23",
+    "conditions": "",
+    "deal_id": "deal-a52891cd19d1709ab27aa485",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-a52891cd19d1709ab27aa485",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-a52891cd19d1709ab27aa485"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-5064bbfb7389efd99cb01480"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-pfizer-astellas",
+      "rule_version": "f365ef248f0fcfb252f7e2c209b677d81d7437242eb524433582b7612bdd55b6",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-23",
+    "conditions": "",
+    "deal_id": "deal-8a36f4ec2325b5ddcd4eeedf",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-8a36f4ec2325b5ddcd4eeedf",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-8a36f4ec2325b5ddcd4eeedf"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-430d56d813fe91ec66b8a82a"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-pfizer-merck",
+      "rule_version": "ec558d94800ab59a2ccfdcd56196bc522368c21bfa5e3f8b6e2d17c3e200a024",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-04-23",
+    "conditions": "",
+    "deal_id": "deal-5b1c05111c92afe138bf6f3c",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-5b1c05111c92afe138bf6f3c",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-5b1c05111c92afe138bf6f3c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-7129a77477fc5518d980f684"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f0ca4d1e06766e1fe1e48d04": "01e2f4d61941e87ba94dc8d7b011b7c78695a9f256f77551ae95c5cd1519c5ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-astellas-merck",
+      "rule_version": "b807c8fd0bb4657d3611ff5794da7a673624ac8daf22d531feeea40a9f2e59a3",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-06-05",
+    "conditions": "",
+    "deal_id": "deal-7f4a0a67d4a30434fecbc7dd",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-7f4a0a67d4a30434fecbc7dd",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-7f4a0a67d4a30434fecbc7dd"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-90be8f403b1ef23fff83a3f4"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-570dcb225843c080dd117ed5": "434ce6662acac73ad2038b10c2610bf01c6cc8e1e175ab1c3734df1cffa793a3"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-ge-uniper",
+      "rule_version": "d5dca788740ab85570c15811776b13fc69c01a910a7e03159275afa1bc25ac39",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-01-28",
+    "conditions": "",
+    "deal_id": "deal-ab66457303838069aeefe099",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-ab66457303838069aeefe099",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-ab66457303838069aeefe099"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-ab66457303838069aeefe099"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-90386165092f7ec23315b2a0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-chevron-engine",
+      "rule_version": "0eef5f18d37924bcf78a049de6a72147cd21194e2840d234172ece031ca4caba",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-01-28",
+    "conditions": "",
+    "deal_id": "deal-b2694ecabe731cac94ba57fd",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-b2694ecabe731cac94ba57fd",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-b2694ecabe731cac94ba57fd"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-5ea60087d05c5b7b8049e178"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-ge-chevron",
+      "rule_version": "43df92af5135019aa607bea199816a7536693b49e67a156d6bb1d3e7d7d3ab73",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-09-12",
+    "conditions": "",
+    "deal_id": "deal-5cfacd943e7c79f8e9af2285",
+    "detected_at": "2026-09-26T16:06:54+00:00",
+    "effective_date": null,
+    "event_id": "event-5cfacd943e7c79f8e9af2285",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-5cfacd943e7c79f8e9af2285",
+      "evidence-8731877b6cefd9dbcdb66201"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-222d503bdbf468c2f7771935"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-0a9aea62715c86cab15507c2": "f9a0c6f9ca354b0dfa91207fd240c57b7298a774577a79bc60696d2d85a478ce"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-paypal-uber",
+      "rule_version": "e4896f87c98c81a7511ffa3f0997e97b8aa7e8f9e4913484e6d1b357bf09861a",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
   }
 ]

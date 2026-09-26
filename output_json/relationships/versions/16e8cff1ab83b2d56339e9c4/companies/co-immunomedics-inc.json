@@ -1,0 +1,105 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gilead-sciences-inc",
+      "country": null,
+      "display_name": "Gilead Sciences, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-immunomedics-inc",
+      "country": null,
+      "display_name": "Immunomedics, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-immunomedics-inc",
+    "country": null,
+    "display_name": "Immunomedics, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-5b556bbf7af3314b7363a3cb",
+          "amount_kind": "purchase_price",
+          "conditions": "買収の総対価として開示された概算額。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "for approximately $21 billion in the aggregate",
+          "payee_company_ids": [
+            "co-immunomedics-inc"
+          ],
+          "payer_company_ids": [
+            "co-gilead-sciences-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "買収の総対価として開示された概算額。原文通貨コード不明。",
+          "value": "21000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。",
+      "direction": "directed",
+      "event_date": "2020-10-23",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-834a22411368a7cb4e68d27c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-gilead-sciences-inc",
+      "status_as_of": "2020-10-23",
+      "target_company_id": "co-immunomedics-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-10-23"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

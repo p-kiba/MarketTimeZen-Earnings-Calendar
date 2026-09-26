@@ -1,0 +1,79 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-delta-air-lines",
+      "country": null,
+      "display_name": "Delta Air Lines",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pratt-whitney",
+      "country": null,
+      "display_name": "Pratt & Whitney",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-delta-air-lines",
+    "country": null,
+    "display_name": "Delta Air Lines",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Pratt & WhitneyとDelta Air Linesは、Delta TechOpsのAtlanta拠点でGTFエンジンのオーバーホール能力を拡大する契約を締結した。",
+      "direction": "directed",
+      "event_date": "2025-04-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-d9e09b6257a63988131211be",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-delta-air-lines",
+      "status_as_of": "2025-04-08",
+      "target_company_id": "co-pratt-whitney",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-04-08"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

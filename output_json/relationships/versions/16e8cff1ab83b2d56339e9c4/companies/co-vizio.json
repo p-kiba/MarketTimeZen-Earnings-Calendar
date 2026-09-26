@@ -1,0 +1,140 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vizio",
+      "country": null,
+      "display_name": "VIZIO",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-vizio",
+    "country": null,
+    "display_name": "VIZIO",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a1548a2572e76ed442efe78b",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "United States Dollars",
+          "evidence_ids": [
+            "evidence-a4eb95bb13828001a267c232",
+            "evidence-2cbaefb79809a7df847932a4",
+            "evidence-25927d5f1622755e248a5cf3",
+            "evidence-9de9929ddf6f0cdafef96e43"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$2.3 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-wmt"
+          ],
+          "qualifier": "approximately",
+          "scope": "契約時に公表した希薄化後株式取得価値。1株11.50USDの現金対価に基づく概算。最終的な会計取得対価や取得現金控除後金額ではない。",
+          "value": "2300000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-a4eb95bb13828001a267c232",
+          "evidence-2cbaefb79809a7df847932a4",
+          "evidence-25927d5f1622755e248a5cf3",
+          "evidence-9de9929ddf6f0cdafef96e43"
+        ],
+        "geography": "",
+        "headline": "VIZIO・SmartCastの買収",
+        "products": [
+          "VIZIOテレビ",
+          "SmartCast",
+          "Walmart Connect広告"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "WalmartがVIZIOとSmartCastを買収し2024年12月3日に完了。Walmart Connectの広告とテレビ視聴体験を連携する。",
+      "direction": "directed",
+      "event_date": "2024-12-03",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:13+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-5f77a3fa11f3bb4966c83cfd",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-wmt",
+      "status_as_of": "2024-12-03",
+      "target_company_id": "co-vizio",
+      "tier": {
+        "amount_id": "amount-a1548a2572e76ed442efe78b",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-12-03"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

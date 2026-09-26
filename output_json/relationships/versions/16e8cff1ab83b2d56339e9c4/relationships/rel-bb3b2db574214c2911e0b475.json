@@ -1,0 +1,173 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-03",
+      "conditions": "取得対象はWoodwardのGreenville siteに関連する全資産。 一次資料はfinancial terms of the acquisition are not being disclosedと明示。",
+      "deal_id": "deal-82a096bfc976bbcdd825dab3",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-82a096bfc976bbcdd825dab3",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-82a096bfc976bbcdd825dab3"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-82a096bfc976bbcdd825dab3"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bb3b2db574214c2911e0b475"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-d784dafec4b1c8f268582861": "aca0475ae55a006c42fc789a9063b5ad01c05e3a98ae7aaef9c747c69db0090c"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r18",
+        "rule_version": "0cbbf2b83a785e210cf071297a50067618f860129fddaa47782fc3bbbe02358f",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-82a096bfc976bbcdd825dab3",
+      "excerpt": "GREENVILLE, S.C. (March",
+      "locator": "p:2",
+      "normalized_text_hash": "29d4c83fede743a241a1708ba0fbe65eabf00edc4392dca99a4bb553e0ca585d",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-d784dafec4b1c8f268582861",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-82a096bfc976bbcdd825dab3"
+    ],
+    "description": "GE VernovaはWoodwardのサウスカロライナ州Greenville拠点に関連する大型ガスタービン燃焼部品事業の全資産を取得した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-82a096bfc976bbcdd825dab3"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-82a096bfc976bbcdd825dab3"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bb3b2db574214c2911e0b475",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-03-03",
+    "target_company_id": "co-woodward-gas-turbine-combustion-parts",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d784dafec4b1c8f268582861": "aca0475ae55a006c42fc789a9063b5ad01c05e3a98ae7aaef9c747c69db0090c"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r18; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r18",
+      "rule_version": "0cbbf2b83a785e210cf071297a50067618f860129fddaa47782fc3bbbe02358f",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gevernova.com/news/press-releases/ge-vernova-completes-acquisition-gas-turbine-combustion-parts-business-woodward-inc",
+      "content_hash": "aca0475ae55a006c42fc789a9063b5ad01c05e3a98ae7aaef9c747c69db0090c",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-03-03",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-03",
+      "publisher": "GE Vernova",
+      "retrieved_at": "2026-09-26T13:44:52+00:00",
+      "source_id": "source-d784dafec4b1c8f268582861",
+      "source_type": "official_newsroom",
+      "title": "GE Vernova completes acquisition of gas turbine combustion parts business from Woodward, Inc. | GE Vernova News"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "GE VernovaはWoodwardのサウスカロライナ州Greenville拠点に関連する大型ガスタービン燃焼部品事業の全資産を取得した。",
+    "direction": "directed",
+    "event_date": "2025-03-03",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bb3b2db574214c2911e0b475",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-03-03",
+    "target_company_id": "co-woodward-gas-turbine-combustion-parts",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

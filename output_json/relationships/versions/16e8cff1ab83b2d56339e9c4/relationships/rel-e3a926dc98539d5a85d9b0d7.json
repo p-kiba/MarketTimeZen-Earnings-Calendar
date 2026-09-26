@@ -1,0 +1,223 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-08-12",
+      "conditions": "",
+      "deal_id": "deal-69ec425697ad15c137a33120",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-69ec425697ad15c137a33120",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-69ec425697ad15c137a33120",
+        "evidence-a83fc169de09125b5bd0e36a"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-69ec425697ad15c137a33120",
+            "evidence-a83fc169de09125b5bd0e36a"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e3a926dc98539d5a85d9b0d7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-b04a50db0d5581dcd0fb2ffd": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-att-oracle",
+        "rule_version": "49efca04e737d664d9ab3dc8327e492751c8e85146b1b528544e1bb471a5933f",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-69ec425697ad15c137a33120",
+      "excerpt": "In a crucial next st",
+      "locator": "p:3",
+      "normalized_text_hash": "3847ec63402a96bd00ff2adb77efa0a75570b56735a0f8e2ae39ac6f97cf3ade",
+      "section": "Primary disclosure: p:3",
+      "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a83fc169de09125b5bd0e36a",
+      "excerpt": "Supported ",
+      "locator": "p:4",
+      "normalized_text_hash": "1d3b53f03772a0b5530de5982d06cd5e49e69f47ce61885d5b155603774ac34f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-69ec425697ad15c137a33120",
+        "evidence-a83fc169de09125b5bd0e36a"
+      ],
+      "geography": "",
+      "headline": "IoT回線・ネットワークAPIを提供",
+      "products": [
+        "IoT connectivity",
+        "ネットワークAPI",
+        "Oracle ECP"
+      ],
+      "scale": "",
+      "source_role": "AT&Tが通信接続・APIを提供",
+      "target_role": "OracleがECPに統合"
+    },
+    "deal_ids": [
+      "deal-69ec425697ad15c137a33120"
+    ],
+    "description": "OracleのEnterprise Communications PlatformにAT&TのIoT接続とネットワークAPIを組み込み、業界向けクラウドアプリから機器を接続・管理。2024年発表では米国内のOCIリージョンで利用可能。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-69ec425697ad15c137a33120",
+      "evidence-a83fc169de09125b5bd0e36a"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-69ec425697ad15c137a33120"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-e3a926dc98539d5a85d9b0d7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-att",
+    "status_as_of": "2024-08-12",
+    "target_company_id": "co-orcl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-b04a50db0d5581dcd0fb2ffd": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-att-oracle",
+      "rule_version": "49efca04e737d664d9ab3dc8327e492751c8e85146b1b528544e1bb471a5933f",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.oracle.com/news/announcement/att-powers-iot-connectivity-for-the-oracle-enterprise-communications-platform-2024-08-12/",
+      "content_hash": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-08-12",
+      "publisher": "www.oracle.com",
+      "retrieved_at": "2026-09-26T15:53:55+00:00",
+      "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+      "source_type": "official_newsroom",
+      "title": "AT&T Powers IoT Connectivity  for the Oracle Enterprise Communications Platform"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-69ec425697ad15c137a33120",
+        "evidence-a83fc169de09125b5bd0e36a"
+      ],
+      "geography": "",
+      "headline": "IoT回線・ネットワークAPIを提供",
+      "products": [
+        "IoT connectivity",
+        "ネットワークAPI",
+        "Oracle ECP"
+      ],
+      "scale": "",
+      "source_role": "AT&Tが通信接続・APIを提供",
+      "target_role": "OracleがECPに統合"
+    },
+    "description": "OracleのEnterprise Communications PlatformにAT&TのIoT接続とネットワークAPIを組み込み、業界向けクラウドアプリから機器を接続・管理。2024年発表では米国内のOCIリージョンで利用可能。",
+    "direction": "directed",
+    "event_date": "2024-08-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-e3a926dc98539d5a85d9b0d7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-att",
+    "status_as_of": "2024-08-12",
+    "target_company_id": "co-orcl",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

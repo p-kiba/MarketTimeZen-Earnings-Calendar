@@ -1,0 +1,198 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-01-09",
+      "conditions": "",
+      "deal_id": "deal-e4f0521ddb336370ee184fcc",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-e4f0521ddb336370ee184fcc",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e4f0521ddb336370ee184fcc"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e4f0521ddb336370ee184fcc"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f1531c1c768cb62ef861572b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-1d8d40a462d948ef66361776",
+        "rule_version": "6c42953325c55ba87752472c22d4af2b823ee771338f59e550139bd7c6a60107",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e4f0521ddb336370ee184fcc",
+      "excerpt": "Natrium",
+      "locator": "p:11",
+      "normalized_text_hash": "0ff042c2d0720c6e002c2f97623c359d06211187f0e07b0a8f9ee0019717f6d1",
+      "section": "Official disclosure: business context",
+      "source_id": "source-1d8d40a462d948ef66361776",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-e4f0521ddb336370ee184fcc"
+      ],
+      "geography": "",
+      "headline": "Natrium原子炉の開発支援・電力権利",
+      "products": [
+        "Natrium原子炉"
+      ],
+      "scale": "当初最大690MW、追加最大2.1GW。供給目標2032年以降",
+      "source_role": "原子炉の開発",
+      "target_role": "開発資金支援・電力権利取得"
+    },
+    "deal_ids": [
+      "deal-e4f0521ddb336370ee184fcc"
+    ],
+    "description": "MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e4f0521ddb336370ee184fcc"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-e4f0521ddb336370ee184fcc"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f1531c1c768cb62ef861572b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-terrapower",
+    "status_as_of": "2026-01-09",
+    "target_company_id": "co-meta",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1d8d40a462d948ef66361776": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-1d8d40a462d948ef66361776",
+      "rule_version": "6c42953325c55ba87752472c22d4af2b823ee771338f59e550139bd7c6a60107",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "content_hash": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-09",
+      "publisher": "co-meta",
+      "retrieved_at": "2026-09-26T04:03:00+00:00",
+      "source_id": "source-1d8d40a462d948ef66361776",
+      "source_type": "official_newsroom",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-e4f0521ddb336370ee184fcc"
+      ],
+      "geography": "",
+      "headline": "Natrium原子炉の開発支援・電力権利",
+      "products": [
+        "Natrium原子炉"
+      ],
+      "scale": "当初最大690MW、追加最大2.1GW。供給目標2032年以降",
+      "source_role": "原子炉の開発",
+      "target_role": "開発資金支援・電力権利取得"
+    },
+    "description": "MetaがNatrium原子炉2基の開発を資金面で支援し、追加最大6基の電力に関する権利を得る契約。将来の開発計画で、現在供給中とは扱わない。",
+    "direction": "undirected",
+    "event_date": "2026-01-09",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f1531c1c768cb62ef861572b",
+    "relationship_type": "partnership",
+    "source_company_id": "co-terrapower",
+    "status_as_of": "2026-01-09",
+    "target_company_id": "co-meta",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

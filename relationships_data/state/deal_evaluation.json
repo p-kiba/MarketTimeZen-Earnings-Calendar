@@ -1321,5 +1321,75 @@
     "human_reviewed": false,
     "rule_id": "focus-orcl-dell-20260927-visa-aws",
     "source_id": "source-300e572aa30feaef868bcc34"
+  },
+  {
+    "assertions_hash": "4362259e0d912c8fa5f5981ee29eb43913d695b8e6699c6510feab389cea0ab0",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-merck-daiichi",
+    "source_id": "source-3f9c90d52ee230dc65e479f8"
+  },
+  {
+    "assertions_hash": "43a8703d7d8bdf26483eb970ebb5dfb2783ad68ef1a4d91fa17970ba2ea7b73b",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-daiichi-astrazeneca",
+    "source_id": "source-3f9c90d52ee230dc65e479f8"
+  },
+  {
+    "assertions_hash": "c0ec73ca1a08e3771cb8acc554388abf9ac7ae4a97b9e063b07b47de0417897e",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-pfizer-arvinas",
+    "source_id": "source-f0ca4d1e06766e1fe1e48d04"
+  },
+  {
+    "assertions_hash": "f365ef248f0fcfb252f7e2c209b677d81d7437242eb524433582b7612bdd55b6",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-pfizer-astellas",
+    "source_id": "source-f0ca4d1e06766e1fe1e48d04"
+  },
+  {
+    "assertions_hash": "ec558d94800ab59a2ccfdcd56196bc522368c21bfa5e3f8b6e2d17c3e200a024",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-pfizer-merck",
+    "source_id": "source-f0ca4d1e06766e1fe1e48d04"
+  },
+  {
+    "assertions_hash": "b807c8fd0bb4657d3611ff5794da7a673624ac8daf22d531feeea40a9f2e59a3",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-astellas-merck",
+    "source_id": "source-f0ca4d1e06766e1fe1e48d04"
+  },
+  {
+    "assertions_hash": "d5dca788740ab85570c15811776b13fc69c01a910a7e03159275afa1bc25ac39",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-ge-uniper",
+    "source_id": "source-570dcb225843c080dd117ed5"
+  },
+  {
+    "assertions_hash": "0eef5f18d37924bcf78a049de6a72147cd21194e2840d234172ece031ca4caba",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-chevron-engine",
+    "source_id": "source-a11edca58dbeb05eed0cb2b2"
+  },
+  {
+    "assertions_hash": "43df92af5135019aa607bea199816a7536693b49e67a156d6bb1d3e7d7d3ab73",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-ge-chevron",
+    "source_id": "source-a11edca58dbeb05eed0cb2b2"
+  },
+  {
+    "assertions_hash": "e4896f87c98c81a7511ffa3f0997e97b8aa7e8f9e4913484e6d1b357bf09861a",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "sector-20260927-paypal-uber",
+    "source_id": "source-0a9aea62715c86cab15507c2"
   }
 ]

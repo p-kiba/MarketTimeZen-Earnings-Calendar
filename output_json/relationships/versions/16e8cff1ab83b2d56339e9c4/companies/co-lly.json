@@ -1,0 +1,412 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-citi",
+      "country": null,
+      "display_name": "Citi",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-morphic",
+      "country": null,
+      "display_name": "Morphic Holding, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-point",
+      "country": null,
+      "display_name": "POINT Biopharma Global Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-verve",
+      "country": null,
+      "display_name": "Verve Therapeutics, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000059478",
+    "company_id": "co-lly",
+    "country": null,
+    "display_name": "ELI LILLY & Co",
+    "entity_status": "resolved",
+    "legal_name": "ELI LILLY & Co",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+        "symbol": "LLY",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-78a8f49d6a748da60455ad4e",
+          "evidence-9141199f654cc2be023ba186",
+          "evidence-6cc4ab520872a275ef17e5fe"
+        ],
+        "geography": "",
+        "headline": "AI創薬研究所の共同設立",
+        "products": [
+          "NVIDIA BioNeMo",
+          "Vera Rubin",
+          "AI創薬"
+        ],
+        "scale": "",
+        "source_role": "AI計算・モデル基盤",
+        "target_role": "創薬・医薬品研究"
+      },
+      "description": "NVIDIAとLillyがAI創薬の共同研究所を設立すると発表。BioNeMoとVera Rubin基盤を使い、医薬品研究とAI技術の専門家が共同研究する。5年間で最大10億ドルという両社合計の予定投資を、個社の支払額へ配賦しない。",
+      "direction": "undirected",
+      "event_date": "2026-01-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-1ce3b86d6e78f4e9d4f5cc31",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-01-12",
+      "target_company_id": "co-lly",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-f73f978f2bd9016aeffecc5f",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-345 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 549 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "exact",
+          "scope": "取得現金控除後の現金対価。グロス取得総額ではない。",
+          "value": "549000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-d3474e31a1f27b9050b568cb",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-348 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "$ 300 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "up_to",
+          "scope": "非譲渡CVRの最大約追加対価。所定のマイルストーン達成が条件。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-fc1d61bdd745864237dcf88d",
+          "evidence-7bfe6dc1e05d18831639aff0"
+        ],
+        "geography": "",
+        "headline": "Verve買収の現金対価と条件付き追加対価",
+        "products": [
+          "心血管疾患向け遺伝子医薬"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Lillyは心血管疾患向け遺伝子医薬を開発するVerveの全株式を2025年7月に取得。取得現金控除後の現金対価は5.49億米ドル。別途最大約3億米ドルの条件付き対価があり、確定総額に合算しない。",
+      "direction": "directed",
+      "event_date": "2026-04-30",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2026-03-31",
+      "target_company_id": "co-verve",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "not_total",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-68091e82e6df22eaab904300",
+          "evidence-b135ea1b271d9a7dcd73c2a3",
+          "evidence-b51ab0e2a55de88832882b2b"
+        ],
+        "geography": "",
+        "headline": "Morphicの経口IBD治療薬事業取得",
+        "products": [
+          "MORF-057",
+          "経口インテグリン治療薬"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "開発資産・事業の取得対象"
+      },
+      "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+      "direction": "directed",
+      "event_date": "2024-08-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2024-08-16",
+      "target_company_id": "co-morphic",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-d13c9af46987e41735bcad40"
+        ],
+        "geography": "",
+        "headline": "Morphic買収の財務助言",
+        "products": [
+          "買収に伴う財務助言"
+        ],
+        "scale": "",
+        "source_role": "専任財務アドバイザー",
+        "target_role": "助言を受ける買収者"
+      },
+      "description": "CitiがLillyのMorphic買収で専任の財務アドバイザーを担当。買収対価をCitiへの助言報酬として転用しない。",
+      "direction": "directed",
+      "event_date": "2024-08-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-52343867befb2bf35148931a",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-citi",
+      "status_as_of": "2024-08-16",
+      "target_company_id": "co-lly",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7636efe7c05281238905135c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-542 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-16dd5b3ee6564cfd046b7abb",
+            "evidence-a11ae6d442416a9300c46480"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 1.0 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "approximately",
+          "scope": "取得現金控除後の概算現金対価。グロスの総取得対価ではない。",
+          "value": "1000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-16dd5b3ee6564cfd046b7abb",
+          "evidence-a11ae6d442416a9300c46480"
+        ],
+        "geography": "",
+        "headline": "POINTの放射性医薬品事業取得",
+        "products": [
+          "放射性医薬品",
+          "radioligand therapies"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "研究・製造基盤の取得対象"
+      },
+      "description": "Lillyが2023年12月にPOINT全株式を取得。がん向け放射性医薬品の探索・開発・製造基盤と治療候補を取得。",
+      "direction": "directed",
+      "event_date": "2026-02-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-611a74a80ca6b2ecc6ff4ef2",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2026-02-12",
+      "target_company_id": "co-point",
+      "tier": null,
+      "tier_reasons": [
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-08-16",
+    "2026-01-12",
+    "2026-02-12",
+    "2026-03-31"
+  ],
+  "total_counterparties": 5,
+  "total_peer_relationships": 0,
+  "total_relationships": 5
+}

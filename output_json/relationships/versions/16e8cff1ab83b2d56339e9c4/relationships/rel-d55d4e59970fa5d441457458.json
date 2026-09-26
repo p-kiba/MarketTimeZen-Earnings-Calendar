@@ -1,0 +1,173 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2009-01-13",
+      "conditions": "CitiはSmith Barney、Smith Barney Australia、Quilterを拠出し49%持分を取得。Morgan StanleyはGlobal Wealth Management事業を拠出し51%持分を取得。 3年後から両社にJV持分のpurchase/sale rightsが生じ、Citiは少なくとも5年目まで重要持分を維持する計画。 規制承認その他通常のクロージング条件に従う。",
+      "deal_id": "deal-a640a808a15b0f045049c4fd",
+      "detected_at": "2026-09-26T13:29:14+00:00",
+      "effective_date": null,
+      "event_id": "event-a640a808a15b0f045049c4fd",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-a640a808a15b0f045049c4fd"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-a640a808a15b0f045049c4fd"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d55d4e59970fa5d441457458"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3e03bd686ab5ed117f60c179": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b"
+        },
+        "reason": "Primary-source review of merged research record r56; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r56",
+        "rule_version": "b947906d259b188aa946f991769c3ffaa9c8ec2adc57bf105daaacdae2a2f3ad",
+        "verified_at": "2026-09-26T13:29:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-a640a808a15b0f045049c4fd",
+      "excerpt": "Citi will exchange 100 percent of its Smith Barney, Smith Barney Australia and Quilter units for a 49 percent stake in the joint venture",
+      "locator": "p:8",
+      "normalized_text_hash": "01fa66fb05d401f883cd88c26dca1b0469d71eb512d254613138cb7441dbc42a",
+      "section": "Official issuer disclosure",
+      "source_id": "source-3e03bd686ab5ed117f60c179",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-a640a808a15b0f045049c4fd"
+    ],
+    "description": "Morgan StanleyとCitiはGlobal Wealth ManagementとSmith Barney等をMorgan Stanley Smith Barney合弁会社に統合する契約を締結。Morgan Stanleyは51%、Citiは49%を保有する設計だった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a640a808a15b0f045049c4fd"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "latest_event_ids": [
+      "event-a640a808a15b0f045049c4fd"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d55d4e59970fa5d441457458",
+    "relationship_type": "partnership",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2009-01-13",
+    "target_company_id": "co-citi",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3e03bd686ab5ed117f60c179": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b"
+      },
+      "reason": "Primary-source review of merged research record r56; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r56",
+      "rule_version": "b947906d259b188aa946f991769c3ffaa9c8ec2adc57bf105daaacdae2a2f3ad",
+      "verified_at": "2026-09-26T13:29:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-citi-to-form-industry-leading-wealth-management-business-through-joint-venture_af3e409a-e1b7-11dd-84e6-b390c77322d3",
+      "content_hash": "4f3304b3ef7d1dc3f756e9a34fce039c320b68a331d52a9506fe61001644953b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2009-01-13",
+      "publisher": "Morgan Stanley",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-3e03bd686ab5ed117f60c179",
+      "source_type": "official_newsroom",
+      "title": "Morgan Stanley and Citi To Form Industry-Leading Wealth Management Business Through Joint Venture | Morgan Stanley"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Morgan StanleyとCitiはGlobal Wealth ManagementとSmith Barney等をMorgan Stanley Smith Barney合弁会社に統合する契約を締結。Morgan Stanleyは51%、Citiは49%を保有する設計だった。",
+    "direction": "directed",
+    "event_date": "2009-01-13",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:29:14+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d55d4e59970fa5d441457458",
+    "relationship_type": "partnership",
+    "source_company_id": "co-morgan-stanley",
+    "status_as_of": "2009-01-13",
+    "target_company_id": "co-citi",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-air-india",
+      "country": null,
+      "display_name": "Air India",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-boeing",
+      "country": null,
+      "display_name": "Boeing",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ryanair",
+      "country": null,
+      "display_name": "Ryanair",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-spirit-aerosystems",
+      "country": null,
+      "display_name": "Spirit AeroSystems",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-united-airlines",
+      "country": null,
+      "display_name": "United Airlines",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-boeing",
+    "country": null,
+    "display_name": "Boeing",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-461902e5eccc806099f41d64",
+          "amount_kind": "purchase_price",
+          "conditions": "2024-07-01の契約発表時の株式価値。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "equity value of approximately $4.7 billion, or $37.25 per share",
+          "payee_company_ids": [
+            "co-spirit-aerosystems"
+          ],
+          "payer_company_ids": [
+            "co-boeing"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "4700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-ddcade4a471d445cd5d37dd9",
+          "amount_kind": "other",
+          "conditions": "Spiritの直近報告純有利子負債を含む総取引価値。47億ドルに加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$8.3 billion",
+          "payee_company_ids": [
+            "co-spirit-aerosystems"
+          ],
+          "payer_company_ids": [
+            "co-boeing"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "8300000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "BoeingはSpirit AeroSystemsを全株式取引で買収し、主要な航空機構造部品の製造をBoeingへ再統合した。",
+      "direction": "directed",
+      "event_date": "2025-12-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-bf21d9ab114700d0ea7387c2",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-boeing",
+      "status_as_of": "2025-12-08",
+      "target_company_id": "co-spirit-aerosystems",
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "BoeingとUnited Airlinesは787 Dreamliner 100機の確定注文と追加100機のオプション、737 MAX 100機の購入を含む大型機材契約を確定した。",
+      "direction": "directed",
+      "event_date": "2022-12-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-4edf069805a15451ed827374",
+      "relationship_type": "supplier",
+      "source_company_id": "co-boeing",
+      "status_as_of": "2022-12-13",
+      "target_company_id": "co-united-airlines",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "BoeingとAir Indiaは737 MAX、787 Dreamliner、777Xを合わせ最大290機と関連サービスの注文を確定した。",
+      "direction": "directed",
+      "event_date": "2023-06-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-56ffce1e9b11e149c3ed50c0",
+      "relationship_type": "supplier",
+      "source_company_id": "co-boeing",
+      "status_as_of": "2023-06-20",
+      "target_company_id": "co-air-india",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "BoeingとRyanairは737-10を最大300機購入する契約を発表し、確定150機とオプション150機で構成した。",
+      "direction": "directed",
+      "event_date": "2023-05-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-af80fad8b38e828b72c66b74",
+      "relationship_type": "supplier",
+      "source_company_id": "co-boeing",
+      "status_as_of": "2023-05-09",
+      "target_company_id": "co-ryanair",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-12-13",
+    "2023-05-09",
+    "2023-06-20",
+    "2025-12-08"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

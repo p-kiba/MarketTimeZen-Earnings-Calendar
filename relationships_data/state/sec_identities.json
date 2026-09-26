@@ -106,6 +106,40 @@
     "url": "https://data.sec.gov/submissions/CIK0001018724.json",
     "verified_at": "2026-09-26T04:44:25+00:00"
   },
+  "co-astrazeneca": {
+    "company": {
+      "aliases": [],
+      "cik": "0000901832",
+      "company_id": "co-astrazeneca",
+      "country": null,
+      "display_name": "AstraZeneca",
+      "entity_status": "resolved",
+      "legal_name": "ASTRAZENECA PLC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000901832.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000901832.json",
+          "symbol": "AZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "4982b9336be7ca8042dbea0b85ccc2a5366fdbd9f6dca0666ca53a7979060224",
+    "url": "https://data.sec.gov/submissions/CIK0000901832.json",
+    "verified_at": "2026-09-26T16:07:17+00:00"
+  },
   "co-avgo": {
     "company": {
       "aliases": [],
@@ -143,7 +177,7 @@
     },
     "source_hash": "57b5829cb3d3156e3d76d75b4810d76ee3a67e162168e9e9750514050617c4e9",
     "url": "https://data.sec.gov/submissions/CIK0001730168.json",
-    "verified_at": "2026-09-26T15:58:43+00:00"
+    "verified_at": "2026-09-26T16:07:14+00:00"
   },
   "co-brk-b": {
     "company": {
@@ -252,7 +286,41 @@
     },
     "source_hash": "cee5b1e25091729c6eb3a139ad62995a57c00d85daa7ae633de91ced6991152d",
     "url": "https://data.sec.gov/submissions/CIK0000858877.json",
-    "verified_at": "2026-09-26T15:58:42+00:00"
+    "verified_at": "2026-09-26T16:07:13+00:00"
+  },
+  "co-cvx": {
+    "company": {
+      "aliases": [],
+      "cik": "0000093410",
+      "company_id": "co-cvx",
+      "country": null,
+      "display_name": "Chevron",
+      "entity_status": "resolved",
+      "legal_name": "CHEVRON CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000093410.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000093410.json",
+          "symbol": "CVX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "a5533644e2a641cb764f3b522904d0a8bd7cad8a48a23219aaae98fee93ea75f",
+    "url": "https://data.sec.gov/submissions/CIK0000093410.json",
+    "verified_at": "2026-09-26T16:07:16+00:00"
   },
   "co-dell": {
     "company": {
@@ -286,7 +354,41 @@
     },
     "source_hash": "2133cd628f349446b5fd425e3a417aa8f18697b1783c356c1a67e110c0c07af3",
     "url": "https://data.sec.gov/submissions/CIK0001571996.json",
-    "verified_at": "2026-09-26T15:58:44+00:00"
+    "verified_at": "2026-09-26T16:07:15+00:00"
+  },
+  "co-ge-vernova": {
+    "company": {
+      "aliases": [],
+      "cik": "0001996810",
+      "company_id": "co-ge-vernova",
+      "country": null,
+      "display_name": "GE Vernova",
+      "entity_status": "resolved",
+      "legal_name": "GE Vernova Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001996810.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001996810.json",
+          "symbol": "GEV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "69d23bd2f4977a560227761ef5947e4ee3fbfeff853191c19cb02a6f39e723e9",
+    "url": "https://data.sec.gov/submissions/CIK0001996810.json",
+    "verified_at": "2026-09-26T16:07:16+00:00"
   },
   "co-googl": {
     "company": {
@@ -467,6 +569,40 @@
     "url": "https://data.sec.gov/submissions/CIK0000059478.json",
     "verified_at": "2026-09-26T04:44:28+00:00"
   },
+  "co-merck": {
+    "company": {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    "source_hash": "6e4e799a4a644794448418dfe96d6416d3e7d0be12ae75c8f8f993b5130f1afe",
+    "url": "https://data.sec.gov/submissions/CIK0000310158.json",
+    "verified_at": "2026-09-26T16:07:15+00:00"
+  },
   "co-meta": {
     "company": {
       "aliases": [],
@@ -606,7 +742,7 @@
     },
     "source_hash": "e49f0092c78cc3f0aac8ea3ba06dd7ea8476b94add9f744b7781fe882be2a9d8",
     "url": "https://data.sec.gov/submissions/CIK0001065280.json",
-    "verified_at": "2026-09-26T15:58:41+00:00"
+    "verified_at": "2026-09-26T16:07:12+00:00"
   },
   "co-nvda": {
     "company": {
@@ -686,7 +822,7 @@
     },
     "source_hash": "a65f606918de7d4e96254062258646b927e12d1f5d728d80cae8c7f7b0508455",
     "url": "https://data.sec.gov/submissions/CIK0001341439.json",
-    "verified_at": "2026-09-26T15:58:43+00:00"
+    "verified_at": "2026-09-26T16:07:14+00:00"
   },
   "co-palantir": {
     "company": {
@@ -720,7 +856,7 @@
     },
     "source_hash": "c524083c491e7ed64c60d41096601f7a2ac1b06653cfdbe44f8d4c5a44f03a68",
     "url": "https://data.sec.gov/submissions/CIK0001321655.json",
-    "verified_at": "2026-09-26T15:58:41+00:00"
+    "verified_at": "2026-09-26T16:07:13+00:00"
   },
   "co-tsla": {
     "company": {

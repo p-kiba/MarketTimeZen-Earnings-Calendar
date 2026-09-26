@@ -1,0 +1,298 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bear-flag-robotics",
+      "country": null,
+      "display_name": "Bear Flag Robotics, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-blue-river-technology",
+      "country": null,
+      "display_name": "Blue River Technology",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-deere",
+      "country": null,
+      "display_name": "Deere",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-hitachi-construction-machinery",
+      "country": null,
+      "display_name": "Hitachi Construction Machinery Co., Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-kreisel-electric",
+      "country": null,
+      "display_name": "Kreisel Electric Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-deere",
+    "country": null,
+    "display_name": "Deere",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-488275d80a0ffb3d63a4e1b4",
+          "amount_kind": "purchase_price",
+          "conditions": "2021-08-26提出の10-Qに記載された総現金対価。取得日は2021-08-05。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-be863dcf31d65f16f546b877"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "The total cash consideration was $250 million",
+          "payee_company_ids": [
+            "co-bear-flag-robotics"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "250000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Deere & Companyは自律走行トラクター技術を開発するBear Flag Roboticsを買収し、Production and Precision Agriculture部門へ組み込んだ。",
+      "direction": "directed",
+      "event_date": "2021-08-26",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-db4aca7911ae681f297a394c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-deere",
+      "status_as_of": "2021-08-26",
+      "target_company_id": "co-bear-flag-robotics",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-418fd5c9ef1390d0e76c45db",
+          "amount_kind": "purchase_price",
+          "conditions": "取得現金控除後の総現金購入価格。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "The total cash purchase price, net of cash acquired, was $276 million",
+          "payee_company_ids": [
+            "co-kreisel-electric"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "276000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Deere & Companyは高密度バッテリー技術を開発するKreisel Electricの過半持分を取得し、残余持分について2027年のコール・プットオプションを設定した。",
+      "direction": "directed",
+      "event_date": "2022-05-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-a310372f9f34e67c96742c4c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-deere",
+      "status_as_of": "2022-05-20",
+      "target_company_id": "co-kreisel-electric",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-9a467b38121e6b732e59e1c7",
+          "amount_kind": "purchase_price",
+          "conditions": "DeereがHitachiの合弁持分と一定の知的財産ライセンスを取得する初期現金対価。契約上の相殺・調整の対象。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-9743339ee70b624398921cea",
+            "evidence-51532af1f3f4637b9a4b8365"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$275 million",
+          "payee_company_ids": [
+            "co-deere"
+          ],
+          "payer_company_ids": [
+            "co-hitachi-construction-machinery"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "275000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "DeereとHitachi Construction Machineryは既存の建機合弁を解消し、Deereが合弁工場のHitachi持分を取得するとともに、Hitachiブランドの油圧ショベル等に関する新たなライセンス・供給関係へ移行する契約を締結した。",
+      "direction": "undirected",
+      "event_date": "2021-08-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-1fbf668edf6e2c3d522a473a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-deere",
+      "status_as_of": "2021-08-19",
+      "target_company_id": "co-hitachi-construction-machinery",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-623f9e95af68ffb183431649",
+          "amount_kind": "purchase_price",
+          "conditions": "2017年年次報告書本文に記載された現金購入価格。別箇所では取得現金等を考慮したacquisition costをapproximately $284 millionとも記載。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$284 million",
+          "payee_company_ids": [
+            "co-blue-river-technology"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "284000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Deere & Companyはコンピュータビジョンと機械学習を農業へ応用するBlue River Technologyを買収した。",
+      "direction": "directed",
+      "event_date": "2017-12-18",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-de7d4d313ec9c3b76d65f5f0",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-deere",
+      "status_as_of": "2017-12-18",
+      "target_company_id": "co-blue-river-technology",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2017-12-18",
+    "2021-08-19",
+    "2021-08-26",
+    "2022-05-20"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

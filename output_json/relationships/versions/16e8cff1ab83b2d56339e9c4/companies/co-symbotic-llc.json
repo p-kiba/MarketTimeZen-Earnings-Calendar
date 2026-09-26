@@ -1,0 +1,140 @@
+{
+  "build_id": "16e8cff1ab83b2d56339e9c4",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-symbotic-llc",
+      "country": null,
+      "display_name": "Symbotic LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-symbotic-llc",
+    "country": null,
+    "display_name": "Symbotic LLC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-bd8763e3c7802d91589b8203",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "United States dollars",
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$520 million",
+          "payee_company_ids": [
+            "co-symbotic-llc"
+          ],
+          "payer_company_ids": [
+            "co-wmt"
+          ],
+          "qualifier": "exact",
+          "scope": "開発プログラムへの支払い総額。400拠点の導入総費用、保守、追加オプション、SymboticからWalmartへの別の支払とは区別。",
+          "value": "520000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-fc90605904650c0f3145a6bc",
+          "evidence-1d8bcd0d0250b4c97626e441",
+          "evidence-d1a74857c3685ff0d0d6d810",
+          "evidence-620e2fb7bfe7d18e9e41741c",
+          "evidence-171d8ae516be8cb2c847423d"
+        ],
+        "geography": "米国",
+        "headline": "店舗受取・配送向け自動化システム",
+        "products": [
+          "micro-fulfillment自動化",
+          "店舗受取・配送"
+        ],
+        "scale": "400拠点＋別途200拠点オプション",
+        "source_role": "開発・設置・保守",
+        "target_role": "開発費支払・条件付き購入"
+      },
+      "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+      "direction": "directed",
+      "event_date": "2025-11-24",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3855da368526c286527580ee",
+      "relationship_type": "supplier",
+      "source_company_id": "co-symbotic-llc",
+      "status_as_of": "2025-11-24",
+      "target_company_id": "co-wmt",
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-11-24"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
