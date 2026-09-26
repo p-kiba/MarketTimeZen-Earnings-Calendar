@@ -8,7 +8,7 @@ from .review import extract_pending,review_report,decide,link_duplicate
 from .exporter import export,validate_public
 
 def main():
-    p=argparse.ArgumentParser(description='Evidence-based company connections; collection does not publish or deploy.')
+    p=argparse.ArgumentParser(description='Evidence-based company connections and bounded automatic publication.')
     p.add_argument('--root',type=Path,default=ROOT)
     sub=p.add_subparsers(dest='command',required=True)
     sub.add_parser('validate-config');sub.add_parser('validate-public');sub.add_parser('extract');sub.add_parser('review-report')
@@ -29,6 +29,7 @@ def main():
     b=sub.add_parser('prepare-release');b.add_argument('--reviewer',required=True);b.add_argument('--reason',required=True)
     b=sub.add_parser('release-reviewed');b.add_argument('--review-id',required=True)
     sub.add_parser('discover-statements')
+    sub.add_parser('auto-publish')
     d=sub.add_parser('draft-disclosure');d.add_argument('--source-id',required=True)
     args=p.parse_args()
     with lock(args.root):
@@ -57,6 +58,9 @@ def main():
         elif args.command=='discover-statements':
             from .discovery import discover_statements
             result=discover_statements(args.root)
+        elif args.command=='auto-publish':
+            from .auto_publish import auto_publish
+            result=auto_publish(args.root)
         elif args.command=='draft-disclosure':
             from .discovery import draft_disclosure
             result=draft_disclosure(args.source_id,args.root)

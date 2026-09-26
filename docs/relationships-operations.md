@@ -1,6 +1,6 @@
 # 企業間マップ：収集・精査・反映の運用
 
-候補収集と確認済みデータの反映を分離しています。最新の結果は [大型企業の追加と新着確認工程](relationships-largecap-update-2026-09-26.md) を参照してください。通常の収集では公開JSONを変更しません。
+収集後、企業2社・具体的な関係内容・公表日・出典URLがそろい、公式企業発表の見出しと本文抜粋で当事者と行為が一致する候補を自動収録します。その他の候補は掲載条件未達として残します。自動収録は人手による一次資料確認を意味しません。最新の過去の取得結果は [大型企業の追加と新着確認工程](relationships-largecap-update-2026-09-26.md) を参照してください。
 
 ## 定期収集
 
@@ -16,10 +16,10 @@ bash scripts/collect-relationships-local.sh
 - `.cache/relationships/sec-contact.env` からSEC連絡先を読み込みます。値を出力・commit・公開しません。
 - `large_cap_focus` のSEC提出と設定済み公式IRを増分収集。設定上限40文書/回、SECは最大2リクエスト/秒。IR一覧の取得リクエストは文書件数とは別です。
 - 原文は `.cache/relationships/documents/`、耐久キューは `relationships_data/state/processed_documents.json`。
-- 結果は `relationships_data/state/collection_round.json`。新候補ID、変更された既存候補、部分失敗、時刻、`published: false`、公開参照先の不変確認を保存します。`collection_runs/`に最新30回を保持します。
+- 収集結果は `relationships_data/state/collection_round.json`、自動掲載結果は `relationships_data/state/automatic_publication.json` に保存します。`collection_runs/`に最新30回を保持します。
 - `relationships_data/review/changes.json`で重複候補・変更や終了の記述・原文変更を既存関係IDと照合できます。各項目は未確認で、解除可能条項や否定文も含みます。自動で統合・終了・承認しません。
 - 二社候補は `relationships_data/review/candidates.jsonl` と `report.md`。複数社や未解決名の段落は `statements.json`。容量を超えた段落は繰り越し件数を表示します。
-- 定期タスクは新しい大型案件や取得障害を知らせます。未検証候補の承認、公開用データの更新、commit/push、デプロイは行いません。
+- ローカル定期実行は掲載条件を満たす候補から公開用JSONを生成します。commit/push、デプロイは行いません。GitHub Actionsは同じ条件で生成結果をcommitし、Pages有効時は公開工程に進みます。
 - ユーザーの指示でテスト実行は一時停止中です。定期タスクにもこの指示を保存しています。
 
 SECのみなら `bash scripts/collect-relationships-local.sh --sec-only`。過去分の追加取得は `--mode backfill --months 3` のように指定します。403などの制限を迂回せず、原文が得られない項目は確認待ちにします。
@@ -48,9 +48,9 @@ SEC添付契約書の一部は `EX-4.4` のように一般の添付収集対象�
 
 このコマンドは自動承認しません。採用先は事前に確認済みでなければ失敗します。重複・誤抽出候補は却下して再抽出による復活を防ぎ、保留は非公開のまま残します。候補や原文が変わった場合は適用を止めます。適用済みバッチの内容は変更せず、訂正は新しいバッチを作成します。
 
-## 確認済みの内容だけをマップへ反映
+## 手動精査した内容をマップへ反映する場合
 
-精査を終えてから次の操作を行います。
+自動掲載できなかった内容を個別精査して追加する場合にだけ、次の操作を使います。自動掲載には不要です。
 
 ```bash
 .venv/bin/python -m relationships_py prepare-release \
@@ -72,9 +72,9 @@ SEC添付契約書の一部は `EX-4.4` のように一般の添付収集対象�
 
 コードは用意済みですが、GitHub側のActions有効化・Secret設定・Pages設定と実行履歴は未確認です。このリポジトリをpushするだけでは収集用の有効化変数は設定されません。
 
-- `relationships.yml`：UTC 00:17・12:17（日本時間09:17・21:17）の**12時間ごとの収集専用**。`RELATIONSHIPS_ENABLED=true` と `SEC_USER_AGENT` Secretが必要です。原文cacheはActions cache、確認待ちレポートは14日保持のartifactへ保存。公開JSONを生成せず、Pagesの起動元にもなりません。
+- `relationships.yml`：UTC 00:17・12:17（日本時間09:17・21:17）に収集し、掲載条件を満たす候補を自動で公開JSONへ反映します。`RELATIONSHIPS_ENABLED=true` と `SEC_USER_AGENT` Secretが必要です。原文cacheはActions cache、掲載条件未達の候補と掲載レポートは14日保持のartifactへ保存します。
 - `relationships-release.yml`：確認済みのrelease receiptが既定ブランチにpushされたら、内容hashが現在のマスターデータと一致する場合だけマップJSONを更新します。手動起動は再実行用に残しています。承認済みデータ・ルール・レビュー記録を先にレビューし、同じリポジトリ状態へ保存する必要があります。
-- `pages.yml`：決算更新と確認済み反映の成功後に起動する構成。収集成功だけでは起動しません。実デプロイは既存の `MTZ_PAGES_ENABLED` とPages設定の別条件です。現時点では有効化していません。
+- `pages.yml`：決算更新・関係収集・手動精査反映の成功後に起動します。実デプロイは既存の `MTZ_PAGES_ENABLED` とPages設定の別条件です。現時点では有効化を確認していません。
 - 初期のCIテスト処理は削除していません。今回そのworkflow自体を実行していません。
 - GitHub側へ移行するときはローカルの定期収集と二重運用しないでください。リポジトリ設定・CIランナー・夜間の無人実行は未実証です。
 

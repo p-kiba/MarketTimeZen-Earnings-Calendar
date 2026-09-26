@@ -36,7 +36,7 @@ jobs:
           path: .cache/relationships/documents
           key: relationship-documents-${{ github.run_id }}
           restore-keys: relationship-documents-
-      - name: Collect and extract candidates (never approve or publish)
+      - name: Collect and extract candidates
         id: collect
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
@@ -44,10 +44,13 @@ jobs:
           BACKFILL_MONTHS: ${{ inputs.months || 24 }}
         run: |
           python -m relationships_py collect-round --mode "$COLLECTION_MODE" --months "$BACKFILL_MONTHS"
-      - name: Persist bounded state and candidates only
-        if: always() && !cancelled() && steps.collect.outcome != 'skipped'
-        run: bash scripts/commit-generated.sh relationships_data
-      - name: Attach the review queue
+      - name: Publish complete official announcements and validate the map
+        id: publish
+        run: python -m relationships_py auto-publish
+      - name: Persist collection state and published map
+        if: steps.publish.outcome == 'success'
+        run: bash scripts/commit-generated.sh relationships_data output_json/relationships
+      - name: Attach unresolved candidate queue and publication report
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -59,9 +62,10 @@ jobs:
             relationships_data/review/statements.json
             relationships_data/state/collection_round.json
             relationships_data/state/collection_runs
+            relationships_data/state/automatic_publication.json
           retention-days: 14
-      - name: Record partial collection and publication status
+      - name: Record collection and publication status
         if: always()
         env:
-          EXPORT_OUTCOME: not-run-collection-only
+          EXPORT_OUTCOME: ${{ steps.publish.outcome }}
         run: python scripts/relationships-summary.py

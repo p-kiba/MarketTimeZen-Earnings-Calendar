@@ -1,13 +1,13 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=c6591d53710e';
-import {latestResults,resultRows} from './earnings-results.js?v=c6591d53710e';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=c6591d53710e';
-import {dealRows} from './deals.js?v=c6591d53710e';
-import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=c6591d53710e';
-import {DataClient} from './data-client.js?v=c6591d53710e';
-import {CompanyView} from './company-view.js?v=c6591d53710e';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=c6591d53710e';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=c6591d53710e';
-import {dictionary} from './i18n.js?v=c6591d53710e';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=a50bc54762e5';
+import {latestResults,resultRows} from './earnings-results.js?v=a50bc54762e5';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=a50bc54762e5';
+import {dealRows} from './deals.js?v=a50bc54762e5';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=a50bc54762e5';
+import {DataClient} from './data-client.js?v=a50bc54762e5';
+import {CompanyView} from './company-view.js?v=a50bc54762e5';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=a50bc54762e5';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=a50bc54762e5';
+import {dictionary} from './i18n.js?v=a50bc54762e5';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -616,7 +616,8 @@ async function showRelation(rid){
     paragraph(content,t('details'),t(r.relationship_type));paragraph(content,t('statusAsOf'),t(r.lifecycle_status)+' · '+(r.status_as_of||'—'));paragraph(content,'',r.description);
     if(r.business){const b=r.business;paragraph(content,t('businessContent'),b.headline);paragraph(content,t('products'),b.products.join(' / '));paragraph(content,client.rawName(r.source_company_id),b.source_role);paragraph(content,client.rawName(r.target_company_id),b.target_role);paragraph(content,t('scale'),b.scale);paragraph(content,t('geography'),b.geography);}
     if(r.status_as_of&&r.status_as_of<new Date(Date.now()-365*86400000).toISOString().slice(0,10))content.append(el('p',t('stale'),'notice'));
-    paragraph(content,t(r.verification),r.verification_metadata?.verified_at?new Intl.DateTimeFormat(state.lang,{timeZone:state.tz,dateStyle:'medium',timeStyle:'short'}).format(new Date(r.verification_metadata.verified_at))+' · '+state.tz:'');
+    const verificationLabel=r.verification_metadata?.rule_id==='explicit_official_announcement'?(state.lang==='ja'?'自動収録（人手未確認）':'Automatically included (not manually reviewed)'):t(r.verification);
+    paragraph(content,verificationLabel,r.verification_metadata?.verified_at?new Intl.DateTimeFormat(state.lang,{timeZone:state.tz,dateStyle:'medium',timeStyle:'short'}).format(new Date(r.verification_metadata.verified_at))+' · '+state.tz:'');
     const ordered=[...d.events].sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''));
     for(const e of ordered){content.append(el('h3',t('history')+' · '+t(e.event_type)));
       paragraph(content,state.lang==='ja'?'公表日 / 締結日 / SEC提出日':'Announced / agreed / SEC filed',[e.announced_date||'—',e.agreement_date||'—',e.filed_date||'—'].join(' / '));
@@ -661,6 +662,6 @@ function renderIntro(){
   if(rows.length>dealPageSize)host.append(button(t('more'),()=>{dealPageSize+=20;renderIntro();}));
   $('mtz-version').textContent=`${client.coverage.indexed_companies} ${t('companies')} · ${client.coverage.published_relationships} ${t('relations')} · ${t('freshness')}: ${client.manifest.data_as_of||'—'}`;
 }
-function showCoverage(){if(!client)return;detailGeneration++;openDetail(t('coverage'));const c=client.coverage,p=$('mtz-detail-content');for(const [key,value] of [['universe',t('universe_'+c.universe)],['target_companies',c.target_companies],['indexed_companies',c.indexed_companies],['published_relationships',c.published_relationships],['pending_review',c.pending_review]])paragraph(p,({universe:state.lang==='ja'?'対象リスト':'Universe',target_companies:state.lang==='ja'?'収集対象企業':'Target companies',indexed_companies:state.lang==='ja'?'収録企業':'Indexed companies',published_relationships:state.lang==='ja'?'確認済み関係':'Verified connections',pending_review:state.lang==='ja'?'確認待ち':'Pending review'})[key],value);paragraph(p,state.lang==='ja'?'資料上の企業・関係数':'Source companies / relationships',`${c.source_company_count} / ${c.source_relationship_count}`);paragraph(p,state.lang==='ja'?'表示の統合':'Display grouping','Google / Alphabet · Amazon / AWS');paragraph(p,t('checked'),c.last_run?.checked_at||t('collectionUnavailable'));for(const line of c.limitations)p.append(el('p',line));}
+function showCoverage(){if(!client)return;detailGeneration++;openDetail(t('coverage'));const c=client.coverage,p=$('mtz-detail-content');for(const [key,value] of [['universe',t('universe_'+c.universe)],['target_companies',c.target_companies],['indexed_companies',c.indexed_companies],['published_relationships',c.published_relationships],['pending_review',c.pending_review]])paragraph(p,({universe:state.lang==='ja'?'対象リスト':'Universe',target_companies:state.lang==='ja'?'収集対象企業':'Target companies',indexed_companies:state.lang==='ja'?'収録企業':'Indexed companies',published_relationships:state.lang==='ja'?'収録関係':'Indexed connections',pending_review:state.lang==='ja'?'掲載条件未達':'Not yet eligible'})[key],value);paragraph(p,state.lang==='ja'?'資料上の企業・関係数':'Source companies / relationships',`${c.source_company_count} / ${c.source_relationship_count}`);paragraph(p,state.lang==='ja'?'表示の統合':'Display grouping','Google / Alphabet · Amazon / AWS');paragraph(p,t('checked'),c.last_run?.checked_at||t('collectionUnavailable'));for(const line of c.limitations)p.append(el('p',line));}
 async function start(){shell();message(t('loading'));try{const [data,logos]=await Promise.all([new DataClient().open(),fetch('assets/relationships/logos.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]);client=new CompanyView(data);logoPaths=Object.fromEntries(Object.entries(logos).filter(([k,v])=>/^(?:[A-Z0-9.-]{1,20}|co-[a-z0-9-]{1,80})$/.test(k)&&/^assets\/logos\/us\/[A-Z0-9._-]+\.(?:png|ico)$/.test(v)));translate();renderIntro();message(client.offline?t('offline'):'');if(state.company&&client.manifest.company_ids.includes(state.company))await choose(state.company,false);else if(!state.company&&state.symbol){const matches=rankCompanies(client.companies,state.symbol);if(matches.length===1&&matches[0].rank===0)await choose(matches[0].company.company_id,false);else{$('mtz-search').value=state.symbol;search();}}else if(state.q){$('mtz-search').value=state.q;search();}if(state.company&&!client.manifest.company_ids.includes(state.company))message(t('searchEmpty'));if(state.relation&&client.manifest.relationship_ids.includes(state.relation))await showRelation(state.relation);}catch(e){message(t('failed'),true);$('mtz-message').append(button(t('retry'),()=>location.reload()));}}
 start();

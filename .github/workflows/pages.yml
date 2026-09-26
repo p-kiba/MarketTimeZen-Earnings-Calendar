@@ -7,7 +7,7 @@ on:
         type: boolean
         default: false
   workflow_run:
-    workflows: [Auto Update Earnings Calendar, Release Reviewed Company Relationships]
+    workflows: [Auto Update Earnings Calendar, Collect Company Relationships, Release Reviewed Company Relationships]
     types: [completed]
 permissions:
   contents: read

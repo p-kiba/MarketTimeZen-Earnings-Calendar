@@ -37,8 +37,8 @@ def validate_config(root=ROOT):
     cfg = settings(root)
     if not 0 < cfg['sec_requests_per_second'] <= 2:
         raise ValueError('SEC rate must be <= 2 requests/second')
-    if cfg['auto_publish_strict']:
-        raise ValueError('Broad automatic publishing is not supported; use evaluated source-bound rules')
+    if not isinstance(cfg['auto_publish_strict'],bool):
+        raise ValueError('auto_publish_strict must be boolean')
     for mode in ('pilot','custom','sp500','large_cap_focus'):
         if read(Path(root)/'relationships_config/universe.json').get(mode):
             universe(root, mode)

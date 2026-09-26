@@ -44,7 +44,7 @@ python -m relationships_py review-report
 
 ## 公開物と復旧
 
-2026-09-26以降の通常反映には、[運用手順](relationships-operations.md)の `prepare-release` → `release-reviewed` を使います。以下の直接exportは低水準の生成処理です。
+掲載条件を満たす公式発表は、収集後に `auto-publish` で自動反映します。手動で精査した例外だけ [運用手順](relationships-operations.md) の `prepare-release` → `release-reviewed` を使います。以下の直接exportは低水準の生成処理です。
 
 ```bash
 python -m relationships_py export
@@ -67,10 +67,10 @@ python scripts/stage-site.py
 
 ## Actions / Pages（初期無効）
 
-- `relationships.yml`：UTC 00:17・12:17、`RELATIONSHIPS_ENABLED=true` のときだけ既定ブランチで稼働。公開への承認処理は実行しません。SEC_USER_AGENT Secretが必要。IRだけ取得できた場合もSEC未設定が結果に残ります。
+- `relationships.yml`：UTC 00:17・12:17、`RELATIONSHIPS_ENABLED=true` のときだけ既定ブランチで稼働。公式発表から掲載条件を満たす候補を自動収録します。SEC_USER_AGENT Secretが必要。IRだけ取得できた場合もSEC未設定が結果に残ります。
 - `relationships-release.yml`：確認済みのrelease receiptを既定ブランチへpushすると、現在のデータと内容hashが一致する場合だけ公開JSONを生成します。手動起動は再実行用です。
 - `update.yml`：既存の決算更新。共通のgit保存スクリプトを使い、ステージ対象を限定。remote HEADが進んでいたら自動rebaseせず失敗し、最新版から再実行します。
-- `pages.yml`：唯一の公開所有者。決算更新と確認済み反映workflowの正常終了を `workflow_run` で明示的に接続し、ロック取得後に既定ブランチの最新状態をcheckoutします。GITHUB_TOKENのpushが別workflowを起動すると仮定しません。手動では既定でartifact生成のみです。
+- `pages.yml`：唯一の公開所有者。決算更新・関係収集・手動精査反映workflowの正常終了を `workflow_run` で明示的に接続し、ロック取得後に既定ブランチの最新状態をcheckoutします。GITHUB_TOKENのpushが別workflowを起動すると仮定しません。手動では既定でartifact生成のみです。
 - 実デプロイには `MTZ_PAGES_ENABLED=true` と、手動なら `deploy=true` が必要。Pages SourceをGitHub Actionsに切り替え、github-pages環境保護を設定する作業は未実施です。現在のbranch公開と二重運用しないでください。
 - 収集・確認済み反映・決算更新・Pagesの4workflowは既存と同じconcurrency groupを共有。schedule遅延やpending runの置換、確認待ちがあるため、12時間ごとの収集も公開時刻の保証にはなりません。別のローカル処理も同時にデータを書かないでください。
 
