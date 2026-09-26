@@ -38,9 +38,9 @@ const $=id=>document.getElementById(id), t=key=>dictionary[state.lang][key]||key
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(text,action,cls='')=>{const b=el('button',text,cls);b.type='button';b.addEventListener('click',action);return b;};
 const link=(text,url)=>{const a=el('a',text);a.href=url;return a;};
-const connectionColors={supply:'#29b6f6',partnership:'#2ecc91',capital:'#b678f0',group:'#9aa9bd',mixed:'#f5a742'};
-const connectionKind=r=>({supplier:'supply',service_provider:'supply',partnership:'partnership',investment:'capital',acquisition:'capital',equity_right:'capital',subsidiary:'group',group_member:'group'}[r.relationship_type]||'group');
-const connectionTypeLabel=key=>({supply:ux('供給・サービス','Supply / services'),partnership:ux('提携','Partnership'),capital:ux('出資・買収','Investment / acquisition'),group:ux('グループ関係','Group relationships'),mixed:ux('複数種類の関係','Mixed relationship types')}[key]);
+const connectionColors={supply:'#29b6f6',partnership:'#2ecc91',capital:'#b678f0',acquisition:'#ef4444',group:'#9aa9bd',mixed:'#f5a742'};
+const connectionKind=r=>({supplier:'supply',service_provider:'supply',partnership:'partnership',investment:'capital',acquisition:'acquisition',equity_right:'capital',subsidiary:'group',group_member:'group'}[r.relationship_type]||'group');
+const connectionTypeLabel=key=>({supply:ux('供給・サービス','Supply / services'),partnership:ux('提携','Partnership'),capital:ux('出資','Investment'),acquisition:ux('買収','Acquisition'),group:ux('グループ関係','Group relationships'),mixed:ux('複数種類の関係','Mixed relationship types')}[key]);
 const connectionColor=rows=>{const kinds=new Set(rows.map(connectionKind));return connectionColors[kinds.size===1?[...kinds][0]:'mixed'];};
 const bands=()=>amountBands(client?.manifest.tiers.USD.minimums||['0','100000000','1000000000','10000000000','50000000000'],state.lang);
 const logo=c=>logoPaths[c?.company_id]||c?.listings.map(l=>logoPaths[l.symbol]).find(Boolean)||'';
