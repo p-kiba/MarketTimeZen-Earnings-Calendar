@@ -2,6 +2,8 @@
 const GROUPS = [
   {id:'co-googl', members:['co-googl','co-google'], name:'Google / Alphabet', aliases:['Google','Alphabet','Google Cloud','グーグル','アルファベット']},
   {id:'co-amzn', members:['co-amzn','co-aws'], name:'Amazon / AWS', aliases:['Amazon','AWS','Amazon Web Services','アマゾン']},
+  {id:'co-nebius', members:['co-nebius','co-nebius-inc'], name:'Nebius Group', aliases:['Nebius','Nebius Group','Nebius, Inc.']},
+  {id:'co-openai', members:['co-openai','co-openai-opco'], name:'OpenAI', aliases:['OpenAI','OpenAI Group','OpenAI Group PBC','OpenAI OpCo, LLC']},
 ];
 
 export class CompanyView {
