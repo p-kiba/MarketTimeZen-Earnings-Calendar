@@ -1,11 +1,11 @@
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=7b3d63624c69';
-import {dealRows} from './deals.js?v=7b3d63624c69';
-import {graphPositions,edgeBend} from './layout.js?v=7b3d63624c69';
-import {DataClient} from './data-client.js?v=7b3d63624c69';
-import {CompanyView} from './company-view.js?v=7b3d63624c69';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=7b3d63624c69';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=7b3d63624c69';
-import {dictionary} from './i18n.js?v=7b3d63624c69';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=0fe05f078a88';
+import {dealRows} from './deals.js?v=0fe05f078a88';
+import {graphPositions,edgeBend} from './layout.js?v=0fe05f078a88';
+import {DataClient} from './data-client.js?v=0fe05f078a88';
+import {CompanyView} from './company-view.js?v=0fe05f078a88';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=0fe05f078a88';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=0fe05f078a88';
+import {dictionary} from './i18n.js?v=0fe05f078a88';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -221,13 +221,16 @@ function openDetail(title){
   const panel=$('mtz-detail');if(panel.hidden)lastFocus=document.activeElement;
   panel.hidden=false;$('mtz-map-app').classList.add('has-detail');$('mtz-detail-content').replaceChildren(el('h2',title));$('mtz-detail-content').firstChild.id='mtz-detail-title';
   syncDetailLayout();
-  $('mtz-close').focus();fitView();
+  $('mtz-close').focus({preventScroll:true});
+  // Detail panels change the canvas size, not the user's zoom or pan.
+  cy?.resize();
 }
 function syncDetailLayout(){const panel=$('mtz-detail'),mobile=matchMedia('(max-width: 760px)').matches;panel.setAttribute('aria-modal',String(mobile));for(const n of $('mtz-map-app').children)if(n!==panel){n.inert=mobile;n.toggleAttribute('inert',mobile);if(mobile)n.setAttribute('aria-hidden','true');else n.removeAttribute('aria-hidden');}if(mobile&&!panel.contains(document.activeElement))$('mtz-close').focus();}
 function closeDetail(){
   detailGeneration++;
   if($('mtz-detail').hidden)return;$('mtz-detail').hidden=true;$('mtz-map-app').classList.remove('has-detail');for(const n of $('mtz-map-app').children){n.inert=false;n.removeAttribute('inert');n.removeAttribute('aria-hidden');}
-  if(lastFocus?.isConnected)lastFocus.focus();fitView();
+  if(lastFocus?.isConnected)lastFocus.focus({preventScroll:true});
+  cy?.resize();
 }
 function paragraph(parent,title,value){if(value===null||value===undefined||value==='')return;const d=el('div',undefined,'mtz-field');if(title)d.append(el('h3',title));d.append(el('p',String(value)));parent.append(d);}
 async function showCompany(cid){
