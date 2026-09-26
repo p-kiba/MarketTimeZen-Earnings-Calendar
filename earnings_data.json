@@ -4392,6 +4392,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "IBKR",
+    "date": "2026-10-15",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.7021,
+    "epsActual": 0,
+    "revenueEstimate": 1936552620,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "PLD",
     "date": "2026-10-15",
     "hour": "",
@@ -4953,7 +4965,7 @@
     "epsActual": 0,
     "revenueEstimate": 1936552620,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "ISRG",
@@ -6080,6 +6092,18 @@
     "epsEstimate": 4.5164,
     "epsActual": 0,
     "revenueEstimate": 3708510838,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "SPOT",
+    "date": "2026-10-22",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 2.8785,
+    "epsActual": 0,
+    "revenueEstimate": 5080562604,
     "revenueActual": 0,
     "status": "confirmed"
   },
