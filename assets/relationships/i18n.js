@@ -30,3 +30,6 @@ dictionary.en.collapseConnections='Collapse this company’s expansion';
 
 Object.assign(dictionary.ja,{peerLabels:'周辺企業同士の契約内容を表示'});
 Object.assign(dictionary.en,{peerLabels:'Show contract labels between surrounding companies'});
+
+Object.assign(dictionary.ja,{mapMode:'マップモード',exitMapMode:'通常表示に戻る'});
+Object.assign(dictionary.en,{mapMode:'Map mode',exitMapMode:'Exit map mode'});

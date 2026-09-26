@@ -16,3 +16,13 @@
 .mtz-rating-note{font-size:12px;color:#5a6473;line-height:1.55}.mtz-footer #mtz-legend>p{flex-basis:100%;margin:4px 0 0;max-width:880px}
 
 .mtz-company-heading{display:flex;align-items:baseline;gap:8px 18px;flex-wrap:wrap;min-width:0}.mtz-company-heading h1{margin:0}.mtz-company-heading #mtz-source-period{white-space:nowrap}.mtz-toolbar{flex-wrap:wrap}.mtz-peer-control{display:flex;align-items:center;gap:7px;min-height:44px;margin:6px 0;font-size:13px;color:#65738a;cursor:pointer}@media(max-width:760px){.mtz-company-heading #mtz-source-period{white-space:normal;font-size:12px}}
+
+/* Distraction-free map view; works in browsers and the embedded iOS WebView. */
+body.map-mode{overflow:hidden}
+.map-mode #mtz-map-app{position:fixed;inset:0;background:#fff;z-index:30;overflow:hidden}
+.map-mode .mtz-header,.map-mode .mtz-controls,.map-mode .mtz-footer,.map-mode .mtz-toolbar,.map-mode #mtz-peer-control,.map-mode #mtz-groups{display:none}
+.map-mode .mtz-workspace{padding:0}
+.map-mode #mtz-graph{height:100vh;height:100dvh;min-height:0;max-height:none}
+.mtz-exit-map-mode{position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));z-index:5;background:#fff;box-shadow:0 3px 14px #24314718}
+.map-mode .mtz-zoom{bottom:max(18px,env(safe-area-inset-bottom));right:max(12px,env(safe-area-inset-right))}
+.map-mode #mtz-message:not(:empty){position:absolute;top:max(64px,calc(env(safe-area-inset-top) + 52px));left:12px;right:12px;z-index:6;border-radius:8px}
