@@ -1,0 +1,106 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-analog-devices-inc",
+      "country": null,
+      "display_name": "Analog Devices, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-maxim-integrated-products-inc",
+      "country": null,
+      "display_name": "Maxim Integrated Products, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-analog-devices-inc",
+    "country": null,
+    "display_name": "Analog Devices, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-0d965cde9fff49ab07a0a82d",
+          "amount_kind": "purchase_price",
+          "conditions": "Maxim株主へADI普通株を交付した概算総対価。原文は米ドルを明示せず、通貨コード未確定。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-14fda891f1e72e67cfcfb0c9",
+            "evidence-3e4a34752395910e78fa803b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$28.0 billion",
+          "payee_company_ids": [
+            "co-maxim-integrated-products-inc"
+          ],
+          "payer_company_ids": [
+            "co-analog-devices-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "Maxim株主へADI普通株を交付した概算総対価。原文は米ドルを明示せず、通貨コード未確定。",
+          "value": "28000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Analog DevicesがMaxim Integrated Productsの買収を完了。Maximのアナログ・ミックスドシグナル半導体と技術を取得し、株主にはMaxim株1株につきADI株0.6300株を交付。",
+      "direction": "directed",
+      "event_date": "2021-08-26",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-6aa244aa5bfec0e00e0e243e",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-analog-devices-inc",
+      "status_as_of": "2021-08-26",
+      "target_company_id": "co-maxim-integrated-products-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-08-26"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

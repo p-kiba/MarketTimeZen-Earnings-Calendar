@@ -1,0 +1,108 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cop",
+      "country": null,
+      "display_name": "ConocoPhillips",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-marathon-oil",
+      "country": null,
+      "display_name": "Marathon Oil Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-marathon-oil",
+    "country": null,
+    "display_name": "Marathon Oil Corporation",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a1a66f2064b5efdcc6dd693b",
+          "amount_kind": "other",
+          "conditions": "純有利子負債54億ドルを含む企業価値。現金支払額ではない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-ff48c54c7f248c925f78002d",
+            "evidence-c59ce00fbfbe8eff900eae95"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "enterprise value of $22.5 billion, inclusive of $5.4 billion of net debt",
+          "payee_company_ids": [
+            "co-marathon-oil"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "22500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはMarathon Oilを全株式取引で買収し、米国内の低コスト供給資源とLNG事業に関係する資産を拡充した。",
+      "direction": "directed",
+      "event_date": "2024-11-22",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-99e370033be8aedbfaecc8a1",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2024-11-22",
+      "target_company_id": "co-marathon-oil",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-11-22"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

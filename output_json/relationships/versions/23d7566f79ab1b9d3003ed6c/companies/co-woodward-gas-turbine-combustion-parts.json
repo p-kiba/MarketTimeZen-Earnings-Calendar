@@ -1,0 +1,79 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ge-vernova",
+      "country": null,
+      "display_name": "GE Vernova",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-woodward-gas-turbine-combustion-parts",
+      "country": null,
+      "display_name": "Woodward, Inc.’s heavy duty gas turbine combustion parts business",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-woodward-gas-turbine-combustion-parts",
+    "country": null,
+    "display_name": "Woodward, Inc.’s heavy duty gas turbine combustion parts business",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "GE VernovaはWoodwardのサウスカロライナ州Greenville拠点に関連する大型ガスタービン燃焼部品事業の全資産を取得した。",
+      "direction": "directed",
+      "event_date": "2025-03-03",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-bb3b2db574214c2911e0b475",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-03-03",
+      "target_company_id": "co-woodward-gas-turbine-combustion-parts",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-03-03"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

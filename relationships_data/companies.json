@@ -400,39 +400,9 @@
   {
     "aliases": [],
     "cik": null,
-    "company_id": "co-orcl",
-    "country": null,
-    "display_name": "Oracle",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
     "company_id": "co-xai",
     "country": null,
     "display_name": "xAI",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-dell",
-    "country": null,
-    "display_name": "Dell Technologies",
     "entity_status": "resolved",
     "legal_name": null,
     "listing_status": "unknown",
@@ -3453,6 +3423,195 @@
   },
   {
     "aliases": [],
+    "cik": null,
+    "company_id": "co-sony-pictures",
+    "country": null,
+    "display_name": "Sony Pictures Entertainment",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-tko",
+    "country": null,
+    "display_name": "TKO Group Holdings",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-01-23",
+    "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+        "symbol": "TKO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-humain",
+    "country": null,
+    "display_name": "HUMAIN",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sovereign-ai",
+    "country": null,
+    "display_name": "Sovereign AI",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ase",
+    "country": null,
+    "display_name": "Advanced Semiconductor Engineering, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-foxconn",
+    "country": null,
+    "display_name": "Foxconn Technology Group",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-siliconware",
+    "country": null,
+    "display_name": "Siliconware Precision Industries Co., Ltd.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-att",
+    "country": null,
+    "display_name": "AT&T",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-deutsche-bank",
+    "country": null,
+    "display_name": "Deutsche Bank",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ericsson",
+    "country": null,
+    "display_name": "Ericsson",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2023-04-27",
+    "listing_status_source": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+        "symbol": "ERIC",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-nokia",
+    "country": null,
+    "display_name": "Nokia",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-02-15",
+    "listing_status_source": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+        "symbol": "NOK",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
     "cik": "0001065280",
     "company_id": "co-nflx",
     "country": null,
@@ -3574,115 +3733,67 @@
   },
   {
     "aliases": [],
-    "cik": null,
-    "company_id": "co-sony-pictures",
+    "cik": "0001341439",
+    "company_id": "co-orcl",
     "country": null,
-    "display_name": "Sony Pictures Entertainment",
+    "display_name": "Oracle",
     "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-tko",
-    "country": null,
-    "display_name": "TKO Group Holdings",
-    "entity_status": "resolved",
-    "legal_name": null,
+    "legal_name": "ORACLE CORP",
     "listing_status": "listed",
-    "listing_status_as_of": "2024-01-23",
-    "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001341439.json",
     "listings": [
       {
         "exchange": "NYSE",
-        "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
-        "symbol": "TKO",
+        "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+        "symbol": "ORCL",
+        "valid_from": null,
+        "valid_to": null
+      },
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+        "symbol": "ORCL-PD",
         "valid_from": null,
         "valid_to": null
       }
     ],
     "merged_into": null,
-    "universe_memberships": []
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
   },
   {
     "aliases": [],
-    "cik": null,
-    "company_id": "co-humain",
+    "cik": "0001571996",
+    "company_id": "co-dell",
     "country": null,
-    "display_name": "HUMAIN",
+    "display_name": "Dell Technologies",
     "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
+    "legal_name": "Dell Technologies Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001571996.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001571996.json",
+        "symbol": "DELL",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
     "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-sovereign-ai",
-    "country": null,
-    "display_name": "Sovereign AI",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-ase",
-    "country": null,
-    "display_name": "Advanced Semiconductor Engineering, Inc.",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-foxconn",
-    "country": null,
-    "display_name": "Foxconn Technology Group",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
-  },
-  {
-    "aliases": [],
-    "cik": null,
-    "company_id": "co-siliconware",
-    "country": null,
-    "display_name": "Siliconware Precision Industries Co., Ltd.",
-    "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
-    "listings": [],
-    "merged_into": null,
-    "universe_memberships": []
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
   }
 ]

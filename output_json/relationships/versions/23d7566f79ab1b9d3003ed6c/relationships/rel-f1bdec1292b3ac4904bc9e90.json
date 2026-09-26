@@ -1,0 +1,225 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-02-24",
+      "conditions": "Googleブランドの提携として収録し、Alphabet本体の個別契約へ置き換えない。個別対価は非掲載。",
+      "deal_id": "deal-759e3eee36b024dd03da4675",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-759e3eee36b024dd03da4675",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-759e3eee36b024dd03da4675",
+        "evidence-8229ac5d83b759cbda94d40e"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-759e3eee36b024dd03da4675",
+            "evidence-8229ac5d83b759cbda94d40e"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f1bdec1292b3ac4904bc9e90"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-4c4fb934da11449636adaee0": "75dfb117af6075e6b95b8003401e10ada8b96fbd55a7cc977fee1bc45e2bea65"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-4c4fb934da11449636adaee0",
+        "rule_version": "fd5b31a4f44d48bee938815b910463096146fc26d6ff9ed1a6a47595dd000d6d",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-759e3eee36b024dd03da4675",
+      "excerpt": "Salesforce",
+      "locator": "p:5",
+      "normalized_text_hash": "0e0574953307083b6c99342b9bdb1d004c8932858d1d8ecbf649fd190f88046d",
+      "section": "Official disclosure: business context",
+      "source_id": "source-4c4fb934da11449636adaee0",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-8229ac5d83b759cbda94d40e",
+      "excerpt": "2025",
+      "locator": "p:39",
+      "normalized_text_hash": "10f785c6e4f662128181cf1aa7b39172a90d34faa840224dcb8a717019a21224",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-4c4fb934da11449636adaee0",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-759e3eee36b024dd03da4675",
+        "evidence-8229ac5d83b759cbda94d40e"
+      ],
+      "geography": "",
+      "headline": "Gemini・Agentforceとクラウド基盤の連携",
+      "products": [
+        "Gemini",
+        "Agentforce",
+        "Google Cloud",
+        "BigQuery"
+      ],
+      "scale": "",
+      "source_role": "AIモデル・クラウド基盤",
+      "target_role": "CRM・業務エージェント"
+    },
+    "deal_ids": [
+      "deal-759e3eee36b024dd03da4675"
+    ],
+    "description": "GoogleとSalesforceは提携を拡張し、AgentforceでのGemini利用、Google Cloud上のSalesforce展開、Data CloudとBigQueryのデータ連携を進める。2025年中の提供予定として発表された内容で、現在の稼働範囲は未確認。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-759e3eee36b024dd03da4675",
+      "evidence-8229ac5d83b759cbda94d40e"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-759e3eee36b024dd03da4675"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f1bdec1292b3ac4904bc9e90",
+    "relationship_type": "partnership",
+    "source_company_id": "co-google",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-crm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4c4fb934da11449636adaee0": "75dfb117af6075e6b95b8003401e10ada8b96fbd55a7cc977fee1bc45e2bea65"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-4c4fb934da11449636adaee0",
+      "rule_version": "fd5b31a4f44d48bee938815b910463096146fc26d6ff9ed1a6a47595dd000d6d",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-and-Google-Bring-Gemini-to-Agentforce-Enable-More-Customer-Choice-in-Major-Partnership-Expansion/default.aspx",
+      "content_hash": "75dfb117af6075e6b95b8003401e10ada8b96fbd55a7cc977fee1bc45e2bea65",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-02-24",
+      "publisher": "investor.salesforce.com",
+      "retrieved_at": "2026-09-26T06:09:39+00:00",
+      "source_id": "source-4c4fb934da11449636adaee0",
+      "source_type": "official_newsroom",
+      "title": "Salesforce.com, Inc. - Salesforce and Google Bring Gemini to Agentforce, Enable More Customer Choice in Major Partnership Expansion"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-759e3eee36b024dd03da4675",
+        "evidence-8229ac5d83b759cbda94d40e"
+      ],
+      "geography": "",
+      "headline": "Gemini・Agentforceとクラウド基盤の連携",
+      "products": [
+        "Gemini",
+        "Agentforce",
+        "Google Cloud",
+        "BigQuery"
+      ],
+      "scale": "",
+      "source_role": "AIモデル・クラウド基盤",
+      "target_role": "CRM・業務エージェント"
+    },
+    "description": "GoogleとSalesforceは提携を拡張し、AgentforceでのGemini利用、Google Cloud上のSalesforce展開、Data CloudとBigQueryのデータ連携を進める。2025年中の提供予定として発表された内容で、現在の稼働範囲は未確認。",
+    "direction": "undirected",
+    "event_date": "2025-02-24",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-f1bdec1292b3ac4904bc9e90",
+    "relationship_type": "partnership",
+    "source_company_id": "co-google",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-crm",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

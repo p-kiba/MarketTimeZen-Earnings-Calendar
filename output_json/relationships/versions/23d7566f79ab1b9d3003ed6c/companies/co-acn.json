@@ -1,0 +1,193 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-acn",
+      "country": null,
+      "display_name": "Accenture",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-10-02",
+      "listing_status_source": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+          "symbol": "ACN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001321655",
+      "company_id": "co-palantir",
+      "country": null,
+      "display_name": "Palantir Technologies Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Palantir Technologies Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001321655.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+          "symbol": "PLTR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-acn",
+    "country": null,
+    "display_name": "Accenture",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-10-02",
+    "listing_status_source": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai",
+        "symbol": "ACN",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-552ad927f18fa6ab55bc972e",
+          "evidence-dcdae98ea621c32f9ddc653a"
+        ],
+        "geography": "",
+        "headline": "企業向けAI導入支援の協業拡張",
+        "products": [
+          "AI Refinery",
+          "NVIDIA AI Enterprise",
+          "Omniverse"
+        ],
+        "scale": "",
+        "source_role": "AI計算・ソフトウェア基盤",
+        "target_role": "業務設計・AI導入支援"
+      },
+      "description": "AccentureがNVIDIA Business Groupを設立し協業を拡張。NVIDIAのAIソフトウェアとAccenture AI Refineryを組み合わせ、企業の業務用AI導入を支援する。Accenture全体のAI受注額は二社の契約額ではない。",
+      "direction": "undirected",
+      "event_date": "2024-10-02",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-48f52fdef6b07ac816a6bb49",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-10-02",
+      "target_company_id": "co-acn",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-750fa9027e520c472efc1233",
+          "evidence-a24af75247d8f9f332df4459",
+          "evidence-ae5e409b501dd2b9d32188cc"
+        ],
+        "geography": "グローバル",
+        "headline": "企業向けAI導入を共同支援",
+        "products": [
+          "Palantir Foundry",
+          "Artificial Intelligence Platform"
+        ],
+        "scale": "AccentureのPalantir技能保有者2,000人超",
+        "source_role": "AI・データ基盤と技術者を提供",
+        "target_role": "Accentureが業界知識・導入支援を提供"
+      },
+      "description": "PalantirとAccentureが共同のBusiness Groupを設立し、FoundryとAIPによる企業のデータ統合・業務改革を支援。Palantirのエンジニアと2,000人超のPalantir技能を持つAccenture人材等が支援する体制を公表。",
+      "direction": "undirected",
+      "event_date": "2025-12-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-ff599da661651ecd7e43fa0f",
+      "relationship_type": "partnership",
+      "source_company_id": "co-palantir",
+      "status_as_of": "2025-12-16",
+      "target_company_id": "co-acn",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-10-02",
+    "2025-12-16"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

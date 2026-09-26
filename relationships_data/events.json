@@ -41576,5 +41576,600 @@
       "rule_version": "ebc678ada03c71e04792b6ce09b019bde80b718562c3f255ab0a5334eccc9166",
       "verified_at": "2026-09-26T15:11:47+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-09-11",
+    "conditions": "",
+    "deal_id": "deal-b237a3a398bfc7be19de8ddb",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-b237a3a398bfc7be19de8ddb",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-b237a3a398bfc7be19de8ddb",
+      "evidence-dfa67e1647c770ac94c39464"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b237a3a398bfc7be19de8ddb",
+          "evidence-dfa67e1647c770ac94c39464"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-69052e6c7857fac2b37012e2"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-00a442233f2f469d27837492": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-oracle-uber",
+      "rule_version": "4d29993d8fbc1ed519494cd5171709099fd797d005b616af5ef8a5e08967ef6d",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-08-12",
+    "conditions": "",
+    "deal_id": "deal-69ec425697ad15c137a33120",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-69ec425697ad15c137a33120",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-69ec425697ad15c137a33120",
+      "evidence-a83fc169de09125b5bd0e36a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-69ec425697ad15c137a33120",
+          "evidence-a83fc169de09125b5bd0e36a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-e3a926dc98539d5a85d9b0d7"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-b04a50db0d5581dcd0fb2ffd": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-att-oracle",
+      "rule_version": "49efca04e737d664d9ab3dc8327e492751c8e85146b1b528544e1bb471a5933f",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2021-06-24",
+    "conditions": "",
+    "deal_id": "deal-67b09f9d5055993ded068cd4",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-67b09f9d5055993ded068cd4",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-67b09f9d5055993ded068cd4",
+      "evidence-5ffc88b5eabe9ead0bf92256"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-8c6740437dd02f1b4370a05e"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-bf39192cc1f75260c8be0048": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-oracle-deutsche-bank",
+      "rule_version": "6b94445ba4e92995f794e9224dd95ea8d9c31f6ad1f2c54f8d45a817a97fb6e2",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2023-04-27",
+    "conditions": "",
+    "deal_id": "deal-0e135197ce399fea79eb8bd3",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-0e135197ce399fea79eb8bd3",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-0e135197ce399fea79eb8bd3",
+      "evidence-6bc3d06df185d3a9b14a84cc"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-3a50b72c8c38171d4f70d7b7"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-01b550a68d3c35e05650834a": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-dell-ericsson",
+      "rule_version": "efa6cd08cbfe8686b052acdd0c871649308fcff673b542d5a4339a46e5d7d85e",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-02-15",
+    "conditions": "",
+    "deal_id": "deal-1d8241a4ed01bb263f50b4af",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-1d8241a4ed01bb263f50b4af",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-1d8241a4ed01bb263f50b4af"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-1d8241a4ed01bb263f50b4af"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-bfa33e2997da0509842ae255"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f2cb90c847dbad0841ed27ca": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-dell-nokia",
+      "rule_version": "f9e54faf819f9b9806df0c11b79239262fed4940d284b32377d4e7fb77fe1d41",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-02-15",
+    "conditions": "",
+    "deal_id": "deal-0fab53cb6d3a2f231f53a40c",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-0fab53cb6d3a2f231f53a40c",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-0fab53cb6d3a2f231f53a40c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-0fab53cb6d3a2f231f53a40c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-8a7de7110945b35cf39866dc"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f2cb90c847dbad0841ed27ca": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-nokia-dell",
+      "rule_version": "931204cf76ff46141479f1421bba0fa93e16683b4129ca6f0cd739670d2da07d",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2025-12-23",
+    "conditions": "",
+    "deal_id": "deal-da50c34b0787d253bad717b6",
+    "detected_at": "2026-09-26T15:58:22+00:00",
+    "effective_date": null,
+    "event_id": "event-da50c34b0787d253bad717b6",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-da50c34b0787d253bad717b6",
+      "evidence-66cb7e3e31206da4926f752b",
+      "evidence-4df3726a71bfac2824725a3c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-da50c34b0787d253bad717b6",
+          "evidence-66cb7e3e31206da4926f752b",
+          "evidence-4df3726a71bfac2824725a3c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-dec3a9c50b1d05615f6a17b4"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-300e572aa30feaef868bcc34": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-visa-aws",
+      "rule_version": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
   }
 ]

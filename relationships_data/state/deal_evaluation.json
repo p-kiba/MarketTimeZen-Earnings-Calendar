@@ -1272,5 +1272,54 @@
     "human_reviewed": false,
     "rule_id": "focus-20260927-netflix-wwe-sec",
     "source_id": "source-06f6adca67247d2cb2a6144c"
+  },
+  {
+    "assertions_hash": "4d29993d8fbc1ed519494cd5171709099fd797d005b616af5ef8a5e08967ef6d",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-oracle-uber",
+    "source_id": "source-00a442233f2f469d27837492"
+  },
+  {
+    "assertions_hash": "49efca04e737d664d9ab3dc8327e492751c8e85146b1b528544e1bb471a5933f",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-att-oracle",
+    "source_id": "source-b04a50db0d5581dcd0fb2ffd"
+  },
+  {
+    "assertions_hash": "6b94445ba4e92995f794e9224dd95ea8d9c31f6ad1f2c54f8d45a817a97fb6e2",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-oracle-deutsche-bank",
+    "source_id": "source-bf39192cc1f75260c8be0048"
+  },
+  {
+    "assertions_hash": "efa6cd08cbfe8686b052acdd0c871649308fcff673b542d5a4339a46e5d7d85e",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-dell-ericsson",
+    "source_id": "source-01b550a68d3c35e05650834a"
+  },
+  {
+    "assertions_hash": "f9e54faf819f9b9806df0c11b79239262fed4940d284b32377d4e7fb77fe1d41",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-dell-nokia",
+    "source_id": "source-f2cb90c847dbad0841ed27ca"
+  },
+  {
+    "assertions_hash": "931204cf76ff46141479f1421bba0fa93e16683b4129ca6f0cd739670d2da07d",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-nokia-dell",
+    "source_id": "source-f2cb90c847dbad0841ed27ca"
+  },
+  {
+    "assertions_hash": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "focus-orcl-dell-20260927-visa-aws",
+    "source_id": "source-300e572aa30feaef868bcc34"
   }
 ]

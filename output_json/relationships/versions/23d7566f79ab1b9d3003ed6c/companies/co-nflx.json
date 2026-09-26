@@ -1,0 +1,275 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001065280",
+      "company_id": "co-nflx",
+      "country": null,
+      "display_name": "NETFLIX INC",
+      "entity_status": "resolved",
+      "legal_name": "NETFLIX INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+          "symbol": "NFLX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sony-pictures",
+      "country": null,
+      "display_name": "Sony Pictures Entertainment",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tko",
+      "country": null,
+      "display_name": "TKO Group Holdings",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2024-01-23",
+      "listing_status_source": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://corporate.wwe.com/about/news/2024/01-23-2024",
+          "symbol": "TKO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001065280",
+    "company_id": "co-nflx",
+    "country": null,
+    "display_name": "NETFLIX INC",
+    "entity_status": "resolved",
+    "legal_name": "NETFLIX INC",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001065280.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001065280.json",
+        "symbol": "NFLX",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-7c7adfa45408d7b0e7ed2bcf"
+        ],
+        "geography": "世界各地",
+        "headline": "映画の独占配信権を提供",
+        "products": [
+          "映画のPay-1配信権",
+          "一部の旧作映画・テレビ作品"
+        ],
+        "scale": "",
+        "source_role": "映画・番組の権利提供元",
+        "target_role": "独占配信先"
+      },
+      "description": "Sony Pictures Entertainmentが劇場・家庭向け販売後の映画について、Netflixへ世界規模の独占Pay-1配信権を供与する複数年契約。地域の既存権利が空き次第2026年から段階的に開始し、2029年初頭の全世界展開を予定。契約総額はこの発表に記載なし。",
+      "direction": "directed",
+      "event_date": "2026-01-15",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-4f221fd5b39d8e4295f4eced",
+      "relationship_type": "supplier",
+      "source_company_id": "co-sony-pictures",
+      "status_as_of": "2026-01-15",
+      "target_company_id": "co-nflx",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-19ff5b95eacf40f17dad84c1",
+          "evidence-15ed78f74d9add30ffe212c0"
+        ],
+        "geography": "",
+        "headline": "広告配信技術・広告販売を提供",
+        "products": [
+          "広告配信基盤",
+          "広告販売"
+        ],
+        "scale": "",
+        "source_role": "Microsoftが広告技術と販売を担当",
+        "target_role": "Netflixが広告付き動画配信に採用"
+      },
+      "description": "2022年の広告付きプラン立ち上げに向け、NetflixがMicrosoftを広告技術・販売パートナーに選定。当時の発表では広告をMicrosoft基盤経由で提供すると説明。現在も独占関係が続くことを示す記録ではない。",
+      "direction": "directed",
+      "event_date": "2022-07-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-bfda5a99d83ecf25669cbefc",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2022-07-13",
+      "target_company_id": "co-nflx",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e21334949f4812d6280bdcdb",
+          "amount_kind": "contract_value",
+          "conditions": "Netflixに初期5年後の離脱権あり。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-45aafc16a29dac9d2cfb67f1",
+            "evidence-7d43381af2342124a1b6bbe2"
+          ],
+          "max_value": null,
+          "min_value": "5000000000",
+          "original_text": "in excess of $5 billion",
+          "payee_company_ids": [
+            "co-tko"
+          ],
+          "payer_company_ids": [
+            "co-nflx"
+          ],
+          "qualifier": "more_than",
+          "scope": "初期10年間の総権利料。追加10年延長分は含めない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-45aafc16a29dac9d2cfb67f1",
+          "evidence-7d43381af2342124a1b6bbe2"
+        ],
+        "geography": "米国・カナダ・英国・中南米等",
+        "headline": "WWE Rawの独占配信権を提供",
+        "products": [
+          "WWE Raw",
+          "SmackDown・NXT",
+          "WWE大型イベント"
+        ],
+        "scale": "",
+        "source_role": "TKO傘下WWEが番組配信権を提供",
+        "target_role": "Netflixが対象地域で番組を配信"
+      },
+      "description": "TKOの完全子会社WWEがNetflixへRaw等の配信権を供与。SEC 8-Kは当初10年の総権利料を原文$50億超と開示。Netflixは最初の5年後に離脱でき、さらに10年延長する選択権を持つ。米国等のRawと、利用可能な米国外地域のWWE番組が対象。USDの明示と全期間支払の確実性はこの資料だけでは確認できない。",
+      "direction": "directed",
+      "event_date": "2024-01-23",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T15:11:47+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-ed5ba08383370100dec2a0e7",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tko",
+      "status_as_of": "2024-01-23",
+      "target_company_id": "co-nflx",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-07-13",
+    "2024-01-23",
+    "2026-01-15"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 0,
+  "total_relationships": 3
+}

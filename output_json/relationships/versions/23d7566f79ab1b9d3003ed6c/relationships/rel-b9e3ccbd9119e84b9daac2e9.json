@@ -1,0 +1,173 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-02-12",
+      "conditions": "",
+      "deal_id": "deal-58cf20d6eca34b0ce7f4748c",
+      "detected_at": "2026-09-26T13:27:00+00:00",
+      "effective_date": null,
+      "event_id": "event-58cf20d6eca34b0ce7f4748c",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-58cf20d6eca34b0ce7f4748c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-58cf20d6eca34b0ce7f4748c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b9e3ccbd9119e84b9daac2e9"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-04329c75804a9c7bc10626a9": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696"
+        },
+        "reason": "Primary-source review of merged research record r88; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r88",
+        "rule_version": "6c74c1d29b3bcfbe847b3bba775bcfac3b4814f3e6683da1fc167254c7ab8b2d",
+        "verified_at": "2026-09-26T13:27:00+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-58cf20d6eca34b0ce7f4748c",
+      "excerpt": "AbbVie (NYSE: ABBV) announced today that it has completed its acquisition of ImmunoGen",
+      "locator": "p:10",
+      "normalized_text_hash": "0b002e5a69890ea1e6e399eb0da27024e6a3d5aba8da2d881e992d5e22eca7cd",
+      "section": "Official issuer disclosure",
+      "source_id": "source-04329c75804a9c7bc10626a9",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-58cf20d6eca34b0ce7f4748c"
+    ],
+    "description": "AbbVieがImmunoGenを買収し、卵巣がん治療薬ELAHEREと次世代抗体薬物複合体パイプラインを取得。完了発表は買収総額を再提示していない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-58cf20d6eca34b0ce7f4748c"
+    ],
+    "first_observed_at": "2026-09-26T13:27:00+00:00",
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "latest_event_ids": [
+      "event-58cf20d6eca34b0ce7f4748c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b9e3ccbd9119e84b9daac2e9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-02-12",
+    "target_company_id": "co-immunogen-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-04329c75804a9c7bc10626a9": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696"
+      },
+      "reason": "Primary-source review of merged research record r88; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r88",
+      "rule_version": "6c74c1d29b3bcfbe847b3bba775bcfac3b4814f3e6683da1fc167254c7ab8b2d",
+      "verified_at": "2026-09-26T13:27:00+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.abbvie.com/2024-02-12-AbbVie-Completes-Acquisition-of-ImmunoGen",
+      "content_hash": "1389a761c633e70488c3172e0de750d96a04d7effd20939220cd940616302696",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-02-12",
+      "publisher": "AbbVie",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-04329c75804a9c7bc10626a9",
+      "source_type": "official_newsroom",
+      "title": "AbbVie Completes Acquisition of ImmunoGen - Feb 12, 2024"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "AbbVieがImmunoGenを買収し、卵巣がん治療薬ELAHEREと次世代抗体薬物複合体パイプラインを取得。完了発表は買収総額を再提示していない。",
+    "direction": "directed",
+    "event_date": "2024-02-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:27:00+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b9e3ccbd9119e84b9daac2e9",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2024-02-12",
+    "target_company_id": "co-immunogen-inc",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

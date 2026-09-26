@@ -5305,6 +5305,138 @@
         "source_id": "source-82597d4f3c8c5e4601988602",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
       }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-att",
+        "country": null,
+        "display_name": "AT&T",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "AT&T",
+        "block_hash": "9e911d78a7d96b004b00ede6f53c981b4ad01c791dc7b911fc75007053557be0",
+        "content_hash": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8",
+        "locator": "p:3",
+        "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+        "url": "https://www.oracle.com/news/announcement/att-powers-iot-connectivity-for-the-oracle-enterprise-communications-platform-2024-08-12/"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-deutsche-bank",
+        "country": null,
+        "display_name": "Deutsche Bank",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Deutsche Bank",
+        "block_hash": "f205964c59c1c09c04657a589a2979973611423101f578c784f1b1d3912fd8fe",
+        "content_hash": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d",
+        "locator": "p:5",
+        "source_id": "source-bf39192cc1f75260c8be0048",
+        "url": "https://www.db.com/news/detail/20210624-deutsche-bank-partners-with-oracle-to-accelerate-technology-modernization?language_id=1"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-ericsson",
+        "country": null,
+        "display_name": "Ericsson",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2023-04-27",
+        "listing_status_source": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+        "listings": [
+          {
+            "exchange": "NASDAQ",
+            "source_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+            "symbol": "ERIC",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Ericsson",
+        "block_hash": "776b86710f32997187881da0a4869d572586fb6f35448d48af660a2e84bf902e",
+        "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+        "locator": "p:3",
+        "source_id": "source-01b550a68d3c35e05650834a",
+        "url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran"
+      },
+      "listing_proof": {
+        "anchor": "ERIC",
+        "block_hash": "776b86710f32997187881da0a4869d572586fb6f35448d48af660a2e84bf902e",
+        "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+        "locator": "p:3",
+        "source_id": "source-01b550a68d3c35e05650834a",
+        "url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-nokia",
+        "country": null,
+        "display_name": "Nokia",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "listed",
+        "listing_status_as_of": "2024-02-15",
+        "listing_status_source": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+        "listings": [
+          {
+            "exchange": "NYSE",
+            "source_url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+            "symbol": "NOK",
+            "valid_from": null,
+            "valid_to": null
+          }
+        ],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Nokia",
+        "block_hash": "ef9542ca73859f9dbdafbf1371266bf545800bd087e923a6adb75219008cff83",
+        "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+        "locator": "p:6",
+        "source_id": "source-f2cb90c847dbad0841ed27ca",
+        "url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/"
+      },
+      "listing_proof": {
+        "anchor": "NOK",
+        "block_hash": "ef9542ca73859f9dbdafbf1371266bf545800bd087e923a6adb75219008cff83",
+        "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+        "locator": "p:6",
+        "source_id": "source-f2cb90c847dbad0841ed27ca",
+        "url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/"
+      }
     }
   ],
   "rules": [
@@ -20233,6 +20365,414 @@
       },
       "rule_id": "focus-20260927-netflix-wwe-sec",
       "visible_date": "2024-01-23"
+    },
+    {
+      "assertions_hash": "4d29993d8fbc1ed519494cd5171709099fd797d005b616af5ef8a5e08967ef6d",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "54b02c23228f03e469f2a601493d6c8fc5a3d3701e5ad716c619e86573767b9d",
+          "business": {
+            "geography": "",
+            "headline": "配車・AI基盤へOCIを提供",
+            "products": [
+              "Oracle Cloud Infrastructure",
+              "AI推論",
+              "データ・ストレージ基盤"
+            ],
+            "scale": "",
+            "source_role": "Oracleがクラウド計算・保存基盤を提供",
+            "target_role": "Uberが配車サービス等に利用"
+          },
+          "conditions": "",
+          "context": [
+            {
+              "anchor": "To help tr",
+              "block_hash": "f19257887519bacfb9722acb438040088c2630011809f9adf9fbce487eebcc4d",
+              "content_hash": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f",
+              "locator": "p:4",
+              "source_id": "source-00a442233f2f469d27837492",
+              "url": "https://www.oracle.com/news/announcement/ocw24-uber-runs-on-oracle-cloud-infrastructure-2024-09-11/"
+            }
+          ],
+          "description": "Uberがアプリケーション、AI基盤、業務データとストリーミング基盤の一部をOracle Cloud Infrastructureへ移行。2024年9月発表時点の利用状況であり、Uberの全基盤の独占受託ではない。",
+          "direction": "directed",
+          "event_type": "newly_indexed",
+          "excerpt": "Uber, the largest on",
+          "key": "oracle-uber",
+          "locator": "p:3",
+          "parties": {
+            "co-orcl": "Oracle",
+            "co-uber": "Uber"
+          },
+          "relationship_type": "service_provider",
+          "section": "Primary disclosure: p:3",
+          "source_company_id": "co-orcl",
+          "status": "active",
+          "target_company_id": "co-uber"
+        }
+      ],
+      "date": "2024-09-11",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "Uber, the ",
+        "block_hash": "54b02c23228f03e469f2a601493d6c8fc5a3d3701e5ad716c619e86573767b9d",
+        "content_hash": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f",
+        "locator": "p:3",
+        "source_id": "source-00a442233f2f469d27837492",
+        "url": "https://www.oracle.com/news/announcement/ocw24-uber-runs-on-oracle-cloud-infrastructure-2024-09-11/"
+      },
+      "rule_id": "focus-orcl-dell-20260927-oracle-uber",
+      "visible_date": "Sep 11, 2024"
+    },
+    {
+      "assertions_hash": "49efca04e737d664d9ab3dc8327e492751c8e85146b1b528544e1bb471a5933f",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "9e911d78a7d96b004b00ede6f53c981b4ad01c791dc7b911fc75007053557be0",
+          "business": {
+            "geography": "",
+            "headline": "IoT回線・ネットワークAPIを提供",
+            "products": [
+              "IoT connectivity",
+              "ネットワークAPI",
+              "Oracle ECP"
+            ],
+            "scale": "",
+            "source_role": "AT&Tが通信接続・APIを提供",
+            "target_role": "OracleがECPに統合"
+          },
+          "conditions": "",
+          "context": [
+            {
+              "anchor": "Supported ",
+              "block_hash": "7c34ffdee584f5ef93e3fe810f333d62771ba2843404b73552eaea6e3dd5c3fb",
+              "content_hash": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8",
+              "locator": "p:4",
+              "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+              "url": "https://www.oracle.com/news/announcement/att-powers-iot-connectivity-for-the-oracle-enterprise-communications-platform-2024-08-12/"
+            }
+          ],
+          "description": "OracleのEnterprise Communications PlatformにAT&TのIoT接続とネットワークAPIを組み込み、業界向けクラウドアプリから機器を接続・管理。2024年発表では米国内のOCIリージョンで利用可能。",
+          "direction": "directed",
+          "event_type": "newly_indexed",
+          "excerpt": "In a crucial next st",
+          "key": "att-oracle",
+          "locator": "p:3",
+          "parties": {
+            "co-att": "AT&T",
+            "co-orcl": "Oracle"
+          },
+          "relationship_type": "service_provider",
+          "section": "Primary disclosure: p:3",
+          "source_company_id": "co-att",
+          "status": "active",
+          "target_company_id": "co-orcl"
+        }
+      ],
+      "date": "2024-08-12",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "In a cruci",
+        "block_hash": "9e911d78a7d96b004b00ede6f53c981b4ad01c791dc7b911fc75007053557be0",
+        "content_hash": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8",
+        "locator": "p:3",
+        "source_id": "source-b04a50db0d5581dcd0fb2ffd",
+        "url": "https://www.oracle.com/news/announcement/att-powers-iot-connectivity-for-the-oracle-enterprise-communications-platform-2024-08-12/"
+      },
+      "rule_id": "focus-orcl-dell-20260927-att-oracle",
+      "visible_date": "Aug 12, 2024"
+    },
+    {
+      "assertions_hash": "6b94445ba4e92995f794e9224dd95ea8d9c31f6ad1f2c54f8d45a817a97fb6e2",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "905ee42c6a33d1f077b5245a325f5663eb97a43b53177bb2a40aa8a1689dfa3a",
+          "business": {
+            "geography": "",
+            "headline": "銀行の基幹DBをクラウド化",
+            "products": [
+              "Oracle Exadata Cloud@Customer",
+              "基幹データベース"
+            ],
+            "scale": "",
+            "source_role": "Oracleが銀行内設置型DB基盤を提供",
+            "target_role": "Deutsche Bankが基幹システムを移行"
+          },
+          "conditions": "",
+          "context": [
+            {
+              "anchor": "Deutsche B",
+              "block_hash": "f205964c59c1c09c04657a589a2979973611423101f578c784f1b1d3912fd8fe",
+              "content_hash": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d",
+              "locator": "p:5",
+              "source_id": "source-bf39192cc1f75260c8be0048",
+              "url": "https://www.db.com/news/detail/20210624-deutsche-bank-partners-with-oracle-to-accelerate-technology-modernization?language_id=1"
+            }
+          ],
+          "description": "Deutsche Bankが基幹データベースをOracle Exadata Cloud@Customerへ移行する複数年協業。取引・決済処理・リスク管理・資本計画等を支える銀行内設置型の基盤。2021年合意の記録で、現在の継続を新たに確認したものではない。",
+          "direction": "directed",
+          "event_type": "newly_indexed",
+          "excerpt": "The agreement will s",
+          "key": "oracle-deutsche-bank",
+          "locator": "p:6",
+          "parties": {
+            "co-deutsche-bank": "Deutsche Bank",
+            "co-orcl": "Oracle"
+          },
+          "relationship_type": "service_provider",
+          "section": "Primary disclosure: p:6",
+          "source_company_id": "co-orcl",
+          "status": "historical",
+          "target_company_id": "co-deutsche-bank"
+        }
+      ],
+      "date": "2021-06-24",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "The agreem",
+        "block_hash": "905ee42c6a33d1f077b5245a325f5663eb97a43b53177bb2a40aa8a1689dfa3a",
+        "content_hash": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d",
+        "locator": "p:6",
+        "source_id": "source-bf39192cc1f75260c8be0048",
+        "url": "https://www.db.com/news/detail/20210624-deutsche-bank-partners-with-oracle-to-accelerate-technology-modernization?language_id=1"
+      },
+      "rule_id": "focus-orcl-dell-20260927-oracle-deutsche-bank",
+      "visible_date": "June 24, 2021"
+    },
+    {
+      "assertions_hash": "efa6cd08cbfe8686b052acdd0c871649308fcff673b542d5a4339a46e5d7d85e",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "ff54815975b1c44d7e3a298f756dcab8bf518af3555a520f5c0e32b1231d9064",
+          "business": {
+            "geography": "",
+            "headline": "Cloud RAN向けサーバーを提供",
+            "products": [
+              "Dell PowerEdge XR8000",
+              "Dell PowerEdge XR5610",
+              "Ericsson Cloud RAN"
+            ],
+            "scale": "",
+            "source_role": "Dellが通信向けサーバーを提供",
+            "target_role": "EricssonがCloud RANソリューションに統合"
+          },
+          "conditions": "",
+          "context": [
+            {
+              "anchor": "The Ericss",
+              "block_hash": "bdfa64f8f2043407f255fe52e561fea59a53047455cebbe522e6455aca799bb8",
+              "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+              "locator": "p:5",
+              "source_id": "source-01b550a68d3c35e05650834a",
+              "url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran"
+            }
+          ],
+          "description": "EricssonのCloud RAN向けにDell PowerEdgeサーバーを採用する協業。通信向けXR8000・XR5610を組み込み、基地局ネットワークのクラウド化を支援する2023年発表。",
+          "direction": "directed",
+          "event_type": "newly_indexed",
+          "excerpt": "Expanding the ecosys",
+          "key": "dell-ericsson",
+          "locator": "p:4",
+          "parties": {
+            "co-dell": "Dell",
+            "co-ericsson": "Ericsson"
+          },
+          "relationship_type": "supplier",
+          "section": "Primary disclosure: p:4",
+          "source_company_id": "co-dell",
+          "status": "active",
+          "target_company_id": "co-ericsson"
+        }
+      ],
+      "date": "2023-04-27",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "Expanding ",
+        "block_hash": "ff54815975b1c44d7e3a298f756dcab8bf518af3555a520f5c0e32b1231d9064",
+        "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+        "locator": "p:4",
+        "source_id": "source-01b550a68d3c35e05650834a",
+        "url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran"
+      },
+      "rule_id": "focus-orcl-dell-20260927-dell-ericsson",
+      "visible_date": "Apr 27, 2023"
+    },
+    {
+      "assertions_hash": "f9e54faf819f9b9806df0c11b79239262fed4940d284b32377d4e7fb77fe1d41",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "7da9775304ee0862f2bec98473612625902e2dca3fd8d1b2bd5f9927ea51a59d",
+          "business": {
+            "geography": "",
+            "headline": "通信クラウド向けサーバーへ移行",
+            "products": [
+              "Dell PowerEdge",
+              "Nokia AirFrame"
+            ],
+            "scale": "",
+            "source_role": "Dellが通信クラウド用インフラを提供",
+            "target_role": "Nokiaが既存AirFrame顧客の移行を共同支援"
+          },
+          "conditions": "",
+          "context": [],
+          "description": "Nokiaが既存AirFrame顧客向けの優先インフラパートナーとしてDellを採用。共同でDell PowerEdge等への移行を支援する計画。Nokia自身が全サーバーを直接購入するという記述ではない。",
+          "direction": "undirected",
+          "event_type": "newly_indexed",
+          "excerpt": "As part of the agree",
+          "key": "dell-nokia",
+          "locator": "p:7",
+          "parties": {
+            "co-dell": "Dell",
+            "co-nokia": "Nokia"
+          },
+          "relationship_type": "partnership",
+          "section": "Primary disclosure: p:7",
+          "source_company_id": "co-dell",
+          "status": "announced",
+          "target_company_id": "co-nokia"
+        }
+      ],
+      "date": "2024-02-15",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "As part of",
+        "block_hash": "7da9775304ee0862f2bec98473612625902e2dca3fd8d1b2bd5f9927ea51a59d",
+        "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+        "locator": "p:7",
+        "source_id": "source-f2cb90c847dbad0841ed27ca",
+        "url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/"
+      },
+      "rule_id": "focus-orcl-dell-20260927-dell-nokia",
+      "visible_date": "15 February 2024"
+    },
+    {
+      "assertions_hash": "931204cf76ff46141479f1421bba0fa93e16683b4129ca6f0cd739670d2da07d",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "c54570e70488ad447e973c0747772b0bd8a4dce8196c4d8864fef14cb235dc91",
+          "business": {
+            "geography": "",
+            "headline": "プライベート5GをNativeEdgeと統合",
+            "products": [
+              "Nokia Digital Automation Cloud",
+              "Dell NativeEdge",
+              "プライベート無線"
+            ],
+            "scale": "",
+            "source_role": "Nokiaが企業向けプライベート無線基盤を提供",
+            "target_role": "Dellがエッジ運用ソフトへ統合"
+          },
+          "conditions": "",
+          "context": [],
+          "description": "DellがNokia Digital Automation Cloudを企業向けエッジ用途の優先プライベート無線基盤として採用。Nokia NDACとDell NativeEdgeを統合する計画。サーバー移行支援とは別の協業内容として表示。",
+          "direction": "undirected",
+          "event_type": "newly_indexed",
+          "excerpt": "The Nokia Digital Au",
+          "key": "nokia-dell",
+          "locator": "p:8",
+          "parties": {
+            "co-dell": "Dell",
+            "co-nokia": "Nokia"
+          },
+          "relationship_type": "partnership",
+          "section": "Primary disclosure: p:8",
+          "source_company_id": "co-nokia",
+          "status": "announced",
+          "target_company_id": "co-dell"
+        }
+      ],
+      "date": "2024-02-15",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "The Nokia ",
+        "block_hash": "c54570e70488ad447e973c0747772b0bd8a4dce8196c4d8864fef14cb235dc91",
+        "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+        "locator": "p:8",
+        "source_id": "source-f2cb90c847dbad0841ed27ca",
+        "url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/"
+      },
+      "rule_id": "focus-orcl-dell-20260927-nokia-dell",
+      "visible_date": "15 February 2024"
+    },
+    {
+      "assertions_hash": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "b3c05bd703ef27198f570a6c41c5fa1acbe1f21f665bb1baf47cbbce2c6b6bff",
+          "business": {
+            "geography": "",
+            "headline": "AIエージェント決済を共同開発",
+            "products": [
+              "Visa Intelligent Commerce",
+              "Amazon Bedrock AgentCore",
+              "決済API"
+            ],
+            "scale": "",
+            "source_role": "Visaが認証・トークン化等の決済機能を提供",
+            "target_role": "AWSがエージェント実行基盤を提供"
+          },
+          "conditions": "",
+          "context": [
+            {
+              "anchor": "As part of",
+              "block_hash": "eb2e471d575f6618967d4e71733bab55ff1e6999a8d2ea695d77a5d3489b2790",
+              "content_hash": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a",
+              "locator": "p:5",
+              "source_id": "source-300e572aa30feaef868bcc34",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/"
+            },
+            {
+              "anchor": "Visa Intel",
+              "block_hash": "2a29eda9f63568d1c4a36894954b677dc418a7506e8d02080b3b806f9d490e28",
+              "content_hash": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a",
+              "locator": "p:8",
+              "source_id": "source-300e572aa30feaef868bcc34",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/"
+            }
+          ],
+          "description": "Visa Intelligent CommerceとAWSのAmazon Bedrock AgentCoreでAIエージェントの決済処理を支援する協業。VisaはMCPツールのホストにAgentCoreを利用する計画で、公開サンプルと商用取引量・契約金額は区別する。",
+          "direction": "undirected",
+          "event_type": "newly_indexed",
+          "excerpt": "To support this shif",
+          "key": "visa-aws",
+          "locator": "p:4",
+          "parties": {
+            "co-aws": "AWS",
+            "co-visa": "Visa"
+          },
+          "relationship_type": "partnership",
+          "section": "Primary disclosure: p:4",
+          "source_company_id": "co-visa",
+          "status": "announced",
+          "target_company_id": "co-aws"
+        }
+      ],
+      "date": "2025-12-23",
+      "evaluation_note": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "proof": {
+        "anchor": "To support",
+        "block_hash": "b3c05bd703ef27198f570a6c41c5fa1acbe1f21f665bb1baf47cbbce2c6b6bff",
+        "content_hash": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a",
+        "locator": "p:4",
+        "source_id": "source-300e572aa30feaef868bcc34",
+        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/"
+      },
+      "rule_id": "focus-orcl-dell-20260927-visa-aws",
+      "visible_date": "2025-12-23"
     }
   ]
 }

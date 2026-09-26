@@ -1,0 +1,240 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2020-10-08",
+      "conditions": "",
+      "deal_id": "deal-d70e05dd6f348730f1b2fe86",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-d70e05dd6f348730f1b2fe86",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-d70e05dd6f348730f1b2fe86",
+        "evidence-5bb4f5e00b888a1d86aa3336",
+        "evidence-81ec3b88224fdf1dbdf01c0a"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-d70e05dd6f348730f1b2fe86",
+            "evidence-5bb4f5e00b888a1d86aa3336",
+            "evidence-81ec3b88224fdf1dbdf01c0a"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e6632315ef3dbe91b18569ac"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2aebe9353387cabf30bf9a57": "c9cbedc0ae0f84e17385accfd4dadc63a2af740a3db92f88918a3339cfe1d2e5"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-2aebe9353387cabf30bf9a57",
+        "rule_version": "1e08385b692cce1c7a2c462e29d2d73951e135005ddebed9a4c14eb85a3c9ab3",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5bb4f5e00b888a1d86aa3336",
+      "excerpt": "100,000",
+      "locator": "p:1",
+      "normalized_text_hash": "35b43d5f502340daeef600616c6fbff23aefee6880a75a6868b664cb49890b4e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2aebe9353387cabf30bf9a57",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-81ec3b88224fdf1dbdf01c0a",
+      "excerpt": "logistics",
+      "locator": "p:2",
+      "normalized_text_hash": "5a0da346fb1f8ef99d99ac80be74ff900609d12bb33f1e670aeb0f0bc19a7a8f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2aebe9353387cabf30bf9a57",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d70e05dd6f348730f1b2fe86",
+      "excerpt": "Rivian",
+      "locator": "p:0",
+      "normalized_text_hash": "d7d89f1977785616f91d7e27f84155cefc0a8d3685fef312622918786d431299",
+      "section": "Official disclosure: business context",
+      "source_id": "source-2aebe9353387cabf30bf9a57",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-d70e05dd6f348730f1b2fe86",
+        "evidence-5bb4f5e00b888a1d86aa3336",
+        "evidence-81ec3b88224fdf1dbdf01c0a"
+      ],
+      "geography": "",
+      "headline": "ラストマイル配送用EVの共同開発",
+      "products": [
+        "電動配送バン"
+      ],
+      "scale": "2030年まで10万台という2020年時点の計画",
+      "source_role": "配送要件・物流運用",
+      "target_role": "車両技術・製造"
+    },
+    "deal_ids": [
+      "deal-d70e05dd6f348730f1b2fe86"
+    ],
+    "description": "AmazonとRivianが配送用電気自動車を共同設計・開発。2020年発表では2030年までの10万台導入を計画した。数量目標であり、現在の納入実績や取引金額ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-d70e05dd6f348730f1b2fe86",
+      "evidence-5bb4f5e00b888a1d86aa3336",
+      "evidence-81ec3b88224fdf1dbdf01c0a"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-d70e05dd6f348730f1b2fe86"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-e6632315ef3dbe91b18569ac",
+    "relationship_type": "partnership",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2020-10-08",
+    "target_company_id": "co-rivian",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2aebe9353387cabf30bf9a57": "c9cbedc0ae0f84e17385accfd4dadc63a2af740a3db92f88918a3339cfe1d2e5"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-2aebe9353387cabf30bf9a57",
+      "rule_version": "1e08385b692cce1c7a2c462e29d2d73951e135005ddebed9a4c14eb85a3c9ab3",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.aboutamazon.com/news/transportation/introducing-amazons-first-custom-electric-delivery-vehicle",
+      "content_hash": "c9cbedc0ae0f84e17385accfd4dadc63a2af740a3db92f88918a3339cfe1d2e5",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-10-08",
+      "publisher": "www.aboutamazon.com",
+      "retrieved_at": "2026-09-26T06:09:42+00:00",
+      "source_id": "source-2aebe9353387cabf30bf9a57",
+      "source_type": "official_newsroom",
+      "title": "Introducing Amazon’s first custom electric delivery vehicle"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-d70e05dd6f348730f1b2fe86",
+        "evidence-5bb4f5e00b888a1d86aa3336",
+        "evidence-81ec3b88224fdf1dbdf01c0a"
+      ],
+      "geography": "",
+      "headline": "ラストマイル配送用EVの共同開発",
+      "products": [
+        "電動配送バン"
+      ],
+      "scale": "2030年まで10万台という2020年時点の計画",
+      "source_role": "配送要件・物流運用",
+      "target_role": "車両技術・製造"
+    },
+    "description": "AmazonとRivianが配送用電気自動車を共同設計・開発。2020年発表では2030年までの10万台導入を計画した。数量目標であり、現在の納入実績や取引金額ではない。",
+    "direction": "undirected",
+    "event_date": "2020-10-08",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-e6632315ef3dbe91b18569ac",
+    "relationship_type": "partnership",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2020-10-08",
+    "target_company_id": "co-rivian",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-7e7bd460b91a668d25aa3340",
+          "amount_kind": "other",
+          "conditions": "クロージング調整後の現金額。原文は同じ金額のCAD換算としてCAD$3.7 billionも併記。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "approximately $2.7 billion cash (CAD$3.7 billion) after closing adjustments",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "2700000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-8437818e71177062ba2e4935",
+          "amount_kind": "other",
+          "conditions": "5年間の将来条件付支払。原油価格・生産等の条件に基づく。原文はCAD$0.4 billionも併記。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "future contingent payments of up to approximately $0.3 billion (CAD$0.4 billion)",
+          "payee_company_ids": [
+            "co-totalenergies-ep-canada"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "up_to",
+          "scope": "bilateral",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-10-04",
+      "conditions": "TotalEnergies EP CanadaのSurmont 50%持分を取得。 将来条件付支払は5年間で最大約3億ドル。",
+      "deal_id": "deal-e3f726a44cad86ac53346a47",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-e3f726a44cad86ac53346a47",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-e3f726a44cad86ac53346a47"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e3f726a44cad86ac53346a47"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-f3934e147c2adcd7657378fc"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-37dd2cd56b3855a61d008db2": "74b555cd0bef81abafc4c4e3030b40c8eb5225a50282b209009cac40de4b26e7"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r12; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r12",
+        "rule_version": "e99672d53a7dcf3b76425baa59218cc096696d550e31faaf90004f5381d836ce",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e3f726a44cad86ac53346a47",
+      "excerpt": "HOUSTON – ConocoPhillips",
+      "locator": "p:1",
+      "normalized_text_hash": "3a63379f8e32bbf6e7a8030934bcb3e89290a570f4dd146f23d077f3de96d5ff",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-37dd2cd56b3855a61d008db2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-e3f726a44cad86ac53346a47"
+    ],
+    "description": "ConocoPhillipsはTotalEnergies EP CanadaからSurmontオイルサンド事業の残余50%持分を取得し、同事業を100%保有する体制に移行した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-e3f726a44cad86ac53346a47"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-e3f726a44cad86ac53346a47"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-f3934e147c2adcd7657378fc",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2023-10-04",
+    "target_company_id": "co-totalenergies-ep-canada",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-37dd2cd56b3855a61d008db2": "74b555cd0bef81abafc4c4e3030b40c8eb5225a50282b209009cac40de4b26e7"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r12; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r12",
+      "rule_version": "e99672d53a7dcf3b76425baa59218cc096696d550e31faaf90004f5381d836ce",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.conocophillips.com/news-media/story/conocophillips-completes-purchase-of-remaining-50-interest-in-surmont/",
+      "content_hash": "74b555cd0bef81abafc4c4e3030b40c8eb5225a50282b209009cac40de4b26e7",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2023-10-04",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-10-04",
+      "publisher": "ConocoPhillips",
+      "retrieved_at": "2026-09-26T13:44:30+00:00",
+      "source_id": "source-37dd2cd56b3855a61d008db2",
+      "source_type": "official_newsroom",
+      "title": "ConocoPhillips Completes Purchase of Remaining 50% Interest in Surmont | ConocoPhillips"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-7e7bd460b91a668d25aa3340",
+        "amount_kind": "other",
+        "conditions": "クロージング調整後の現金額。原文は同じ金額のCAD換算としてCAD$3.7 billionも併記。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately $2.7 billion cash (CAD$3.7 billion) after closing adjustments",
+        "payee_company_ids": [
+          "co-totalenergies-ep-canada"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "2700000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-8437818e71177062ba2e4935",
+        "amount_kind": "other",
+        "conditions": "5年間の将来条件付支払。原油価格・生産等の条件に基づく。原文はCAD$0.4 billionも併記。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-e3f726a44cad86ac53346a47"
+        ],
+        "max_value": "300000000",
+        "min_value": null,
+        "original_text": "future contingent payments of up to approximately $0.3 billion (CAD$0.4 billion)",
+        "payee_company_ids": [
+          "co-totalenergies-ep-canada"
+        ],
+        "payer_company_ids": [
+          "co-cop"
+        ],
+        "qualifier": "up_to",
+        "scope": "bilateral",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "ConocoPhillipsはTotalEnergies EP CanadaからSurmontオイルサンド事業の残余50%持分を取得し、同事業を100%保有する体制に移行した。",
+    "direction": "directed",
+    "event_date": "2023-10-04",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-f3934e147c2adcd7657378fc",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-cop",
+    "status_as_of": "2023-10-04",
+    "target_company_id": "co-totalenergies-ep-canada",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "contingency_unknown",
+      "not_total",
+      "unsupported_kind",
+      "bounded_or_unspecified",
+      "conditional"
+    ]
+  }
+}

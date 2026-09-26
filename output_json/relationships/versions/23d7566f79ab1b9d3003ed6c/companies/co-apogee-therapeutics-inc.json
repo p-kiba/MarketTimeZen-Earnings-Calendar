@@ -1,0 +1,105 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-abbvie",
+      "country": null,
+      "display_name": "AbbVie",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-apogee-therapeutics-inc",
+      "country": null,
+      "display_name": "Apogee Therapeutics, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-apogee-therapeutics-inc",
+    "country": null,
+    "display_name": "Apogee Therapeutics, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-59abf875a9c4da7fcb3b21b6",
+          "amount_kind": "purchase_price",
+          "conditions": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$135.11 per share in cash, for a total equity value of approximately $10.9 billion",
+          "payee_company_ids": [
+            "co-apogee-therapeutics-inc"
+          ],
+          "payer_company_ids": [
+            "co-abbvie"
+          ],
+          "qualifier": "approximately",
+          "scope": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+          "value": "10900000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。",
+      "direction": "directed",
+      "event_date": "2026-09-03",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-6f45970090fc73603fe406f7",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-abbvie",
+      "status_as_of": "2026-09-03",
+      "target_company_id": "co-apogee-therapeutics-inc",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-09-03"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

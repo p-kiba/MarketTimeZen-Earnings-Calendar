@@ -1,0 +1,344 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-819edaa726a8fef0a52800d6",
+          "amount_kind": "purchase_price",
+          "conditions": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.3 billion in cash",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "value": "1300000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-e4f82e68e66b7b0d1ad8159b",
+          "amount_kind": "purchase_price",
+          "conditions": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": "1700000000",
+          "min_value": null,
+          "original_text": "$1.7 billion in developmental, regulatory and commercial milestone payments",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2024-07-12",
+      "conditions": "",
+      "deal_id": "deal-cfbb1b159a8d2bd27dc918ba",
+      "detected_at": "2026-09-26T12:51:16+00:00",
+      "effective_date": null,
+      "event_id": "event-cfbb1b159a8d2bd27dc918ba",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-cfbb1b159a8d2bd27dc918ba",
+        "evidence-97efe889cdbca59c5cf8f05b",
+        "evidence-74ba42d17e9f4ffa4f96f9fe"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-109eedff1fe3a68f30242cb5"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1fa2321ff0c44e5fee7dace4": "cc7d96335c0003e2b2a5058313aa6596dce903c1d0e56015b753fba10ba9a57d",
+          "source-2c7a4d54e3ed0740bc40bf46": "a9443a88c41a682649981036d076a00721e4fc9d09c6a36abb37e19bb32b7308"
+        },
+        "reason": "Primary-source review of merged research record r90; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r90",
+        "rule_version": "6c2be64fe1c97da7be079b9a797075e688ac85831786af6b81e65175812d5cfe",
+        "verified_at": "2026-09-26T12:51:16+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-74ba42d17e9f4ffa4f96f9fe",
+      "excerpt": "$1.7 billion in developmental, regulatory and commercial milestone payments",
+      "locator": "p:7",
+      "normalized_text_hash": "248dab6de2422e549c55ed8d5cc7c6f2660e7b0bf1ee787c2bd53c1fa3e75cc4",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-1fa2321ff0c44e5fee7dace4",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-97efe889cdbca59c5cf8f05b",
+      "excerpt": "$1.3 billion in cash",
+      "locator": "p:7",
+      "normalized_text_hash": "2d321703b04e08031a2edd6dfd68f0d3ac3501b7c1007f411a13ba3103bb6f7c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-1fa2321ff0c44e5fee7dace4",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cfbb1b159a8d2bd27dc918ba",
+      "excerpt": "Merck (NYSE: MRK), known as MSD outside of the United States and Canada, today announced the completion of the acquisition of Eyebiotech Limited (EyeBio).",
+      "locator": "p:3",
+      "normalized_text_hash": "17289a442622974f28784c7e71ed0e07f07f7e54bc038f3c12603e10889b6d39",
+      "section": "Official company disclosure",
+      "source_id": "source-2c7a4d54e3ed0740bc40bf46",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-cfbb1b159a8d2bd27dc918ba"
+    ],
+    "description": "MerckがEyeBioを買収し、網膜疾患候補Restoretと前臨床パイプラインを取得。金額は契約発表の前払額と条件付きマイルストーン上限を分けて記録。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cfbb1b159a8d2bd27dc918ba",
+      "evidence-97efe889cdbca59c5cf8f05b",
+      "evidence-74ba42d17e9f4ffa4f96f9fe"
+    ],
+    "first_observed_at": "2026-09-26T12:51:16+00:00",
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "latest_event_ids": [
+      "event-cfbb1b159a8d2bd27dc918ba"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-109eedff1fe3a68f30242cb5",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2024-07-12",
+    "target_company_id": "co-eyebiotech-limited",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1fa2321ff0c44e5fee7dace4": "cc7d96335c0003e2b2a5058313aa6596dce903c1d0e56015b753fba10ba9a57d",
+        "source-2c7a4d54e3ed0740bc40bf46": "a9443a88c41a682649981036d076a00721e4fc9d09c6a36abb37e19bb32b7308"
+      },
+      "reason": "Primary-source review of merged research record r90; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r90",
+      "rule_version": "6c2be64fe1c97da7be079b9a797075e688ac85831786af6b81e65175812d5cfe",
+      "verified_at": "2026-09-26T12:51:16+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/merck-to-acquire-eyebio/",
+      "content_hash": "cc7d96335c0003e2b2a5058313aa6596dce903c1d0e56015b753fba10ba9a57d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-05-29",
+      "publisher": "Merck",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-1fa2321ff0c44e5fee7dace4",
+      "source_type": "official_newsroom",
+      "title": "Merck to Acquire EyeBio - Merck.com"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/merck-completes-acquisition-of-eyebio/",
+      "content_hash": "a9443a88c41a682649981036d076a00721e4fc9d09c6a36abb37e19bb32b7308",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-07-12",
+      "publisher": "Merck",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-2c7a4d54e3ed0740bc40bf46",
+      "source_type": "official_newsroom",
+      "title": "Merck Completes Acquisition of EyeBio - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-819edaa726a8fef0a52800d6",
+        "amount_kind": "purchase_price",
+        "conditions": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-cfbb1b159a8d2bd27dc918ba",
+          "evidence-97efe889cdbca59c5cf8f05b",
+          "evidence-74ba42d17e9f4ffa4f96f9fe"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$1.3 billion in cash",
+        "payee_company_ids": [
+          "co-eyebiotech-limited"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "exact",
+        "scope": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+        "value": "1300000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-e4f82e68e66b7b0d1ad8159b",
+        "amount_kind": "purchase_price",
+        "conditions": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-cfbb1b159a8d2bd27dc918ba",
+          "evidence-97efe889cdbca59c5cf8f05b",
+          "evidence-74ba42d17e9f4ffa4f96f9fe"
+        ],
+        "max_value": "1700000000",
+        "min_value": null,
+        "original_text": "$1.7 billion in developmental, regulatory and commercial milestone payments",
+        "payee_company_ids": [
+          "co-eyebiotech-limited"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "up_to",
+        "scope": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "MerckがEyeBioを買収し、網膜疾患候補Restoretと前臨床パイプラインを取得。金額は契約発表の前払額と条件付きマイルストーン上限を分けて記録。",
+    "direction": "directed",
+    "event_date": "2024-07-12",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-109eedff1fe3a68f30242cb5",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2024-07-12",
+    "target_company_id": "co-eyebiotech-limited",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "bounded_or_unspecified",
+      "conditional",
+      "not_total"
+    ]
+  }
+}

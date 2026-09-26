@@ -36,6 +36,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028846/form424b2.htm"
     },
+    "source-00a442233f2f469d27837492": {
+      "content_hash": "d4b4720f08f8a5ba1ace724ef65b269a3090774b2e6c3a2e9f62b5cb6872230f",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:55:34+00:00",
+      "meta": {
+        "publisher": "www.oracle.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.oracle.com/news/announcement/ocw24-uber-runs-on-oracle-cloud-infrastructure-2024-09-11/"
+    },
     "source-01209c6c7f365cd49dc99c4f": {
       "content_hash": "a0aa94aceb01ee6b66480a0d2f501380f13b8695d70829efd5ee4bd36dd5acc6",
       "error": null,
@@ -71,6 +83,18 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102256/ea0306310-01_424b2.htm"
+    },
+    "source-01b550a68d3c35e05650834a": {
+      "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:55:36+00:00",
+      "meta": {
+        "publisher": "www.ericsson.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran"
     },
     "source-022b42ac311499beb0096e70": {
       "content_hash": "6da69d23394719e3b3cf5b919dcc677107eddabd93890d37454088f38d8fa407",
@@ -325,6 +349,18 @@
       },
       "status": "parsed",
       "url": "https://press.aboutamazon.com/aws/2026/6/pinterest-works-with-aws-to-power-next-chapter-of-ai-driven-visual-search-discovery"
+    },
+    "source-08d3e03cefda5374e141c513": {
+      "content_hash": "403a0d6808a014ddefe7a1ae4302965baed59a7b9f531d6fd0adc8fce41ab992",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:53:51+00:00",
+      "meta": {
+        "publisher": "www.oracle.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.oracle.com/news/announcement/uber-selects-oracle-cloud-infrastructure-2023-02-13/"
     },
     "source-09273421fcbdd706d099ad7f": {
       "meta": {
@@ -1995,6 +2031,18 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028513/form424b2.htm"
+    },
+    "source-300e572aa30feaef868bcc34": {
+      "content_hash": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:55:02+00:00",
+      "meta": {
+        "publisher": "aws.amazon.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/"
     },
     "source-30402cd228887d44f9063873": {
       "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
@@ -7499,6 +7547,18 @@
       "status": "discovered",
       "url": "https://www.ibm.com/investor/news/ibm-updates-reporting-segments-in-2019"
     },
+    "source-b04a50db0d5581dcd0fb2ffd": {
+      "content_hash": "c808b17371a7e624eb9c8c6a3804c5f6bd8c283deb96a9bba82e53d342a66cb8",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:53:55+00:00",
+      "meta": {
+        "publisher": "www.oracle.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.oracle.com/news/announcement/att-powers-iot-connectivity-for-the-oracle-enterprise-communications-platform-2024-08-12/"
+    },
     "source-b06e6bf079203b71abf6a6ca": {
       "meta": {
         "accession_number": "0001213900-26-102565",
@@ -8110,6 +8170,18 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028751/form424b2.htm"
+    },
+    "source-bf39192cc1f75260c8be0048": {
+      "content_hash": "64933085e2623e6eac3eca0ee0f3e8a597e4d8727b0240b89530b41d0960330d",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:53:58+00:00",
+      "meta": {
+        "publisher": "www.db.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.db.com/news/detail/20210624-deutsche-bank-partners-with-oracle-to-accelerate-technology-modernization?language_id=1"
     },
     "source-bf3bdb6d5317f53df92cafea": {
       "meta": {
@@ -10312,6 +10384,18 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028861/form424b2.htm"
+    },
+    "source-f2cb90c847dbad0841ed27ca": {
+      "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+      "error": null,
+      "extraction_version": "rules-1.10",
+      "last_checked_at": "2026-09-26T15:55:43+00:00",
+      "meta": {
+        "publisher": "www.nokia.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.nokia.com/about-us/news/releases/2024/02/15/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/"
     },
     "source-f3ed737f49b7b3fdd4b565c7": {
       "meta": {

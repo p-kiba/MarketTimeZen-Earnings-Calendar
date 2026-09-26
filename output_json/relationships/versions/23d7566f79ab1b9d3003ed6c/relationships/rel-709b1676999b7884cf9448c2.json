@@ -1,0 +1,198 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-06-22",
+      "conditions": "",
+      "deal_id": "deal-26f713878035ce63c8e9b5da",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-26f713878035ce63c8e9b5da",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-26f713878035ce63c8e9b5da"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-26f713878035ce63c8e9b5da"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-709b1676999b7884cf9448c2"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-27605b8f97d38f158cac2f54",
+        "rule_version": "1f69509bf821a56018bffbf112c0730aef01ea4d02ab61781703a8e48cf789fa",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-26f713878035ce63c8e9b5da",
+      "excerpt": "Series H",
+      "locator": "p:7",
+      "normalized_text_hash": "ea44af4aa552440e54b8490268ad498652320871808e48ea596b33030169e134",
+      "section": "Official disclosure: business context",
+      "source_id": "source-27605b8f97d38f158cac2f54",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-26f713878035ce63c8e9b5da"
+      ],
+      "geography": "",
+      "headline": "Anthropic Series Hへの出資",
+      "products": [
+        "Series H出資"
+      ],
+      "scale": "",
+      "source_role": "出資者",
+      "target_role": "資金調達側"
+    },
+    "deal_ids": [
+      "deal-26f713878035ce63c8e9b5da"
+    ],
+    "description": "MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-26f713878035ce63c8e9b5da"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-26f713878035ce63c8e9b5da"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-709b1676999b7884cf9448c2",
+    "relationship_type": "investment",
+    "source_company_id": "co-mu",
+    "status_as_of": "2026-06-22",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-27605b8f97d38f158cac2f54": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-27605b8f97d38f158cac2f54",
+      "rule_version": "1f69509bf821a56018bffbf112c0730aef01ea4d02ab61781703a8e48cf789fa",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.micron.com/news/press-release/2026/Micron-and-Anthropic-Announce-Strategic-Agreement-to-Scale-Next-Generation-AI-Infrastructure/default.aspx",
+      "content_hash": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-22",
+      "publisher": "co-mu",
+      "retrieved_at": "2026-09-26T04:03:02+00:00",
+      "source_id": "source-27605b8f97d38f158cac2f54",
+      "source_type": "official_newsroom",
+      "title": "Micron Technology, Inc. - Micron and Anthropic Announce Strategic Agreement to Scale Next-Generation AI Infrastructure"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-26f713878035ce63c8e9b5da"
+      ],
+      "geography": "",
+      "headline": "Anthropic Series Hへの出資",
+      "products": [
+        "Series H出資"
+      ],
+      "scale": "",
+      "source_role": "出資者",
+      "target_role": "資金調達側"
+    },
+    "description": "MicronがAnthropicのSeries H資金調達ラウンドに出資したと公表。個別の出資額は記載されていない。",
+    "direction": "directed",
+    "event_date": "2026-06-22",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-709b1676999b7884cf9448c2",
+    "relationship_type": "investment",
+    "source_company_id": "co-mu",
+    "status_as_of": "2026-06-22",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

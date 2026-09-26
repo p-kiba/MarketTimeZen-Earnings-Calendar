@@ -1,0 +1,343 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-bbeb55f50005c4ba32d35e97",
+          "amount_kind": "purchase_price",
+          "conditions": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 809 million",
+          "payee_company_ids": [
+            "co-finicity-corporation"
+          ],
+          "payer_company_ids": [
+            "co-mastercard"
+          ],
+          "qualifier": "exact",
+          "scope": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+          "value": "809000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-0c3cc8536674948faaa02f97",
+          "amount_kind": "purchase_price",
+          "conditions": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 64 million",
+          "payee_company_ids": [
+            "co-finicity-corporation"
+          ],
+          "payer_company_ids": [
+            "co-mastercard"
+          ],
+          "qualifier": "exact",
+          "scope": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+          "value": "64000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2020-11-19",
+      "conditions": "",
+      "deal_id": "deal-58c4fa9ce941d8c2b6508639",
+      "detected_at": "2026-09-26T12:59:55+00:00",
+      "effective_date": null,
+      "event_id": "event-58c4fa9ce941d8c2b6508639",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-58c4fa9ce941d8c2b6508639",
+        "evidence-02a7d8fad220bacadf54599c",
+        "evidence-e96309be0b4321834bafa322"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-58c4fa9ce941d8c2b6508639",
+            "evidence-02a7d8fad220bacadf54599c",
+            "evidence-e96309be0b4321834bafa322"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-c580f43a1827099e62dc4a51"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-4cdae150e8b7c5d3873d7d18": "e6be46ff2906dafff60e1096263d7586dd47042edde999d7f4f16a732f2e478d",
+          "source-b6b5f18543b31e03335561f8": "3d3bb905d1bc35249e95aae0e5407cfbb0c9948d4c1a52b3cc9f1c2cd15365de"
+        },
+        "reason": "Primary-source review of merged research record r42; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r42",
+        "rule_version": "3aacad536a1bbf200d7bce1cbc73b3a1a294f670905601a8f5a8cb9b539d05ec",
+        "verified_at": "2026-09-26T12:59:55+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-02a7d8fad220bacadf54599c",
+      "excerpt": "$ 809 million",
+      "locator": "sec-div:1721",
+      "normalized_text_hash": "ee95391b47878756b2509421db8a935cbf9d47ae5506336d79432044ebd8658e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b6b5f18543b31e03335561f8",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-58c4fa9ce941d8c2b6508639",
+      "excerpt": "Mastercard (NYSE: MA) today announced it has completed its acquisition of Finicity",
+      "locator": "p:1",
+      "normalized_text_hash": "09c5c27132b566542f9f264eb8a36fd3e502508a7bd857791d706750968a2f9d",
+      "section": "Official issuer disclosure",
+      "source_id": "source-4cdae150e8b7c5d3873d7d18",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e96309be0b4321834bafa322",
+      "excerpt": "$ 64 million",
+      "locator": "sec-div:1721",
+      "normalized_text_hash": "8c2a35ad8b48832c32905162b58f2708f54a2c186cbef443ac38cb63c48d1d60",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b6b5f18543b31e03335561f8",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-58c4fa9ce941d8c2b6508639"
+    ],
+    "description": "Mastercardがオープンバンキング事業者Finicityを買収し、銀行・融資・資産管理向けのリアルタイム金融データ接続とAPI機能を取得。年次報告書は現金対価と売上目標達成後の追加対価を分けて記載。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-58c4fa9ce941d8c2b6508639",
+      "evidence-02a7d8fad220bacadf54599c",
+      "evidence-e96309be0b4321834bafa322"
+    ],
+    "first_observed_at": "2026-09-26T12:59:55+00:00",
+    "last_observed_at": "2026-09-26T12:59:55+00:00",
+    "latest_event_ids": [
+      "event-58c4fa9ce941d8c2b6508639"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-c580f43a1827099e62dc4a51",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-mastercard",
+    "status_as_of": "2020-11-19",
+    "target_company_id": "co-finicity-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4cdae150e8b7c5d3873d7d18": "e6be46ff2906dafff60e1096263d7586dd47042edde999d7f4f16a732f2e478d",
+        "source-b6b5f18543b31e03335561f8": "3d3bb905d1bc35249e95aae0e5407cfbb0c9948d4c1a52b3cc9f1c2cd15365de"
+      },
+      "reason": "Primary-source review of merged research record r42; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r42",
+      "rule_version": "3aacad536a1bbf200d7bce1cbc73b3a1a294f670905601a8f5a8cb9b539d05ec",
+      "verified_at": "2026-09-26T12:59:55+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.mastercard.com/news/press/2020/november/mastercard-extends-open-banking-efforts-with-close-of-finicity-acquisition/",
+      "content_hash": "e6be46ff2906dafff60e1096263d7586dd47042edde999d7f4f16a732f2e478d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-11-19",
+      "publisher": "Mastercard",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-4cdae150e8b7c5d3873d7d18",
+      "source_type": "official_newsroom",
+      "title": "Mastercard Extends Open Banking Efforts with Close of Finicity Acquisition | Mastercard Newsroom"
+    },
+    {
+      "accession_number": "0001141391-22-000023",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139122000023/ma-20211231.htm",
+      "content_hash": "3d3bb905d1bc35249e95aae0e5407cfbb0c9948d4c1a52b3cc9f1c2cd15365de",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": "0001141391",
+      "form": "10-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-b6b5f18543b31e03335561f8",
+      "source_type": "sec_filing",
+      "title": "ma-20211231"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-bbeb55f50005c4ba32d35e97",
+        "amount_kind": "purchase_price",
+        "conditions": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 809 million",
+        "payee_company_ids": [
+          "co-finicity-corporation"
+        ],
+        "payer_company_ids": [
+          "co-mastercard"
+        ],
+        "qualifier": "exact",
+        "scope": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+        "value": "809000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-0c3cc8536674948faaa02f97",
+        "amount_kind": "purchase_price",
+        "conditions": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 64 million",
+        "payee_company_ids": [
+          "co-finicity-corporation"
+        ],
+        "payer_company_ids": [
+          "co-mastercard"
+        ],
+        "qualifier": "exact",
+        "scope": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+        "value": "64000000",
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Mastercardがオープンバンキング事業者Finicityを買収し、銀行・融資・資産管理向けのリアルタイム金融データ接続とAPI機能を取得。年次報告書は現金対価と売上目標達成後の追加対価を分けて記載。",
+    "direction": "directed",
+    "event_date": "2020-11-19",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:59:55+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-c580f43a1827099e62dc4a51",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-mastercard",
+    "status_as_of": "2020-11-19",
+    "target_company_id": "co-finicity-corporation",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "conditional",
+      "not_total"
+    ]
+  }
+}

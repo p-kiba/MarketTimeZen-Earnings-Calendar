@@ -1,0 +1,198 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-06-23",
+      "conditions": "",
+      "deal_id": "deal-49ec2b7df6d4bc5774b09182",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-49ec2b7df6d4bc5774b09182",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-49ec2b7df6d4bc5774b09182"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-49ec2b7df6d4bc5774b09182"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9f3036af0186bf949a3d348a"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2ceee473fb49d6f36f7d1cbc": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-2ceee473fb49d6f36f7d1cbc",
+        "rule_version": "f4e5a28db192f2fdbb4f67cc0521938fbe0259af708752fb4ccfa70022f3e156",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-49ec2b7df6d4bc5774b09182",
+      "excerpt": "EssilorLuxottica",
+      "locator": "p:0",
+      "normalized_text_hash": "1abcd73c137b5cfee7ce3d3adab66a69d1dbe270cff67819bf5d3c65d512519e",
+      "section": "Official disclosure: business context",
+      "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-49ec2b7df6d4bc5774b09182"
+      ],
+      "geography": "",
+      "headline": "AIスマートグラスの共同展開",
+      "products": [
+        "Meta Glasses"
+      ],
+      "scale": "",
+      "source_role": "AI・デバイス技術",
+      "target_role": "眼鏡製品の共同開発・展開"
+    },
+    "deal_ids": [
+      "deal-49ec2b7df6d4bc5774b09182"
+    ],
+    "description": "MetaとEssilorLuxotticaが、既存AI眼鏡の技術・機能を基にMeta Glassesを共同展開すると発表。消費者向け製品価格を二社間の契約金額とは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-49ec2b7df6d4bc5774b09182"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-49ec2b7df6d4bc5774b09182"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9f3036af0186bf949a3d348a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-meta",
+    "status_as_of": "2026-06-23",
+    "target_company_id": "co-essilorluxottica",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2ceee473fb49d6f36f7d1cbc": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-2ceee473fb49d6f36f7d1cbc",
+      "rule_version": "f4e5a28db192f2fdbb4f67cc0521938fbe0259af708752fb4ccfa70022f3e156",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+      "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-06-23",
+      "publisher": "about.fb.com",
+      "retrieved_at": "2026-09-26T06:09:48+00:00",
+      "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+      "source_type": "official_newsroom",
+      "title": "We’re Partnering With EssilorLuxottica to Launch Meta Glasses"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-49ec2b7df6d4bc5774b09182"
+      ],
+      "geography": "",
+      "headline": "AIスマートグラスの共同展開",
+      "products": [
+        "Meta Glasses"
+      ],
+      "scale": "",
+      "source_role": "AI・デバイス技術",
+      "target_role": "眼鏡製品の共同開発・展開"
+    },
+    "description": "MetaとEssilorLuxotticaが、既存AI眼鏡の技術・機能を基にMeta Glassesを共同展開すると発表。消費者向け製品価格を二社間の契約金額とは扱わない。",
+    "direction": "undirected",
+    "event_date": "2026-06-23",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9f3036af0186bf949a3d348a",
+    "relationship_type": "partnership",
+    "source_company_id": "co-meta",
+    "status_as_of": "2026-06-23",
+    "target_company_id": "co-essilorluxottica",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

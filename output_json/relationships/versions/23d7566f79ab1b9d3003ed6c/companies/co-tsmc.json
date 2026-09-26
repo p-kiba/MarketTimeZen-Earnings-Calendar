@@ -1,0 +1,363 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        },
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bosch",
+      "country": null,
+      "display_name": "Bosch",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tsmc",
+      "country": null,
+      "display_name": "TSMC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-tsmc",
+    "country": null,
+    "display_name": "TSMC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-52db33727c36dae4a1c9db96",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e70fb1abda4ee3eb0021abe4"
+        ],
+        "geography": "",
+        "headline": "2031年までのカスタムASIC開発・供給",
+        "products": [
+          "カスタムASIC"
+        ],
+        "scale": "2031年まで（具体的な満了日なし）",
+        "source_role": "設計・供給",
+        "target_role": "製品への採用"
+      },
+      "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "direction": "undirected",
+      "event_date": "2026-07-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-729343557b3c5f5e431b4854",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e45799e38b4915054a64a417",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:30:23+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-33284e76c221eecfec8e07a0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9ab4245ad92717e7582b7f1b",
+          "evidence-b2cdcfdfa987dfa624f87f20"
+        ],
+        "geography": "",
+        "headline": "Blackwell GPUの4NP製造プロセス",
+        "products": [
+          "4NP",
+          "Blackwell GPU"
+        ],
+        "scale": "",
+        "source_role": "半導体製造プロセス",
+        "target_role": "GPU設計・プラットフォーム"
+      },
+      "description": "Blackwell GPUはTSMCのカスタム4NPプロセスで製造されるとNVIDIAが公表。個別の製造委託金額は記載されていない。",
+      "direction": "directed",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7c27f4067c93433644fbeaa5",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-nvda",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "geography": "",
+        "headline": "半導体ウエハ・組立試験を受託",
+        "products": [
+          "半導体ウエハ",
+          "組立・テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてTSMCを明記。前工程のウエハ製造先にも明記されている。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-668c3757f1fe4e2e2651e365",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2024-12-20",
+    "2025-08-06",
+    "2026-03-26"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 3,
+  "total_relationships": 4
+}

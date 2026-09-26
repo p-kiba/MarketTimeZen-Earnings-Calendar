@@ -1,0 +1,189 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sb-energy",
+      "country": null,
+      "display_name": "SB Energy",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sb-energy",
+    "country": null,
+    "display_name": "SB Energy",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9d7870d915edaad80f912711",
+          "evidence-2001c9d7de85e8e930484e73"
+        ],
+        "geography": "米国・Ohio州Pike County",
+        "headline": "PORTSのAIデータセンター開発提携",
+        "products": [
+          "AIデータセンター",
+          "DSX AI基盤"
+        ],
+        "scale": "初期約4.25GW、追加約3.8GWはオプション",
+        "source_role": "計算基盤・信用補完",
+        "target_role": "データセンター開発"
+      },
+      "description": "NVIDIAとSB EnergyがOhio州PORTSのAIデータセンター開発で複数年提携。初期約4.25GW分の土地・電力・施設容量を確保。OpenAI関連会社がテナントであり、OpenAI本体との別契約へ置き換えない。",
+      "direction": "undirected",
+      "event_date": "2026-08-17",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-2cd4a3dd0d81f31b595717c4",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-08-17",
+      "target_company_id": "co-sb-energy",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-6f3d661a9ea6c040b9eb2dea",
+          "amount_kind": "investment_amount",
+          "conditions": "S-1は前払いと事業への拠出を報告。IPO等での株式交付・決済条件は別に残る。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "U.S. dollars",
+          "evidence_ids": [
+            "evidence-4219c9e4b631eaf148992e32",
+            "evidence-a69dde16f0afcfebd62a5cf6",
+            "evidence-68a9e67d28892f85fa87a8c3",
+            "evidence-60ff129d085c4dbc5b9f9cee",
+            "evidence-07e29eb11461cedf83ac54c6",
+            "evidence-73980ebb87319a94302b4f6f",
+            "evidence-15ba5cad0a8f8ee901dadd9f",
+            "evidence-43ee9b687de6354c517ff94b",
+            "evidence-5f76134935e0058527bb8026",
+            "evidence-147c11eacbc92d7691f75633"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.5 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年8月17日の前払契約元本。法的受取先はEnergy Global, LPで、S-1はSB Energy事業への拠出を記載。別のIPO同時私募は含めない。",
+          "value": "1500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-4219c9e4b631eaf148992e32",
+          "evidence-a69dde16f0afcfebd62a5cf6",
+          "evidence-68a9e67d28892f85fa87a8c3",
+          "evidence-60ff129d085c4dbc5b9f9cee",
+          "evidence-07e29eb11461cedf83ac54c6",
+          "evidence-73980ebb87319a94302b4f6f",
+          "evidence-15ba5cad0a8f8ee901dadd9f",
+          "evidence-43ee9b687de6354c517ff94b",
+          "evidence-5f76134935e0058527bb8026",
+          "evidence-147c11eacbc92d7691f75633"
+        ],
+        "geography": "",
+        "headline": "SB Energy事業への前払出資",
+        "products": [
+          "AIインフラ事業への出資"
+        ],
+        "scale": "",
+        "source_role": "前払資金の提供者",
+        "target_role": "Energy Global経由で資金を受ける事業"
+      },
+      "description": "NVIDIAによるSB Energy事業への15億米ドルの資金供給。契約上はEnergy Global, LPへの前払いで、S-1は同社から事業への拠出を報告。IPO時の株式交付条件と別の同時私募契約は区別する。",
+      "direction": "directed",
+      "event_date": "2026-08-17",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:30:28+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-94dfb74b26088351048d83f6",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-09-01",
+      "target_company_id": "co-sb-energy",
+      "tier": {
+        "amount_id": "amount-6f3d661a9ea6c040b9eb2dea",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-08-17",
+    "2026-09-01"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

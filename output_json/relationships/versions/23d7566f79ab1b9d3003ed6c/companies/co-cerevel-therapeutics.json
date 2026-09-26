@@ -1,0 +1,79 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-abbvie",
+      "country": null,
+      "display_name": "AbbVie",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cerevel-therapeutics",
+      "country": null,
+      "display_name": "Cerevel Therapeutics",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-cerevel-therapeutics",
+    "country": null,
+    "display_name": "Cerevel Therapeutics",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "AbbVieがCerevel Therapeuticsの全発行済株式を取得。emraclidine、tavapadon等の神経・精神疾患向け臨床パイプラインを神経科学事業に加えた。完了発表では最終総額を示していない。",
+      "direction": "directed",
+      "event_date": "2024-08-01",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:27:00+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-382dd2ec6cd155c9a673af4c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-abbvie",
+      "status_as_of": "2024-08-01",
+      "target_company_id": "co-cerevel-therapeutics",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-08-01"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

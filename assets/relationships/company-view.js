@@ -6,6 +6,33 @@ const GROUPS = [
   {id:'co-openai', members:['co-openai','co-openai-opco'], name:'OpenAI', aliases:['OpenAI','OpenAI Group','OpenAI Group PBC','OpenAI OpCo, LLC']},
 ];
 
+// Presentation only: retain source identities and contract-party names for evidence.
+const SHORT_NAMES = {
+  'co-palantir':'Palantir', 'co-nflx':'Netflix', 'co-dell':'Dell',
+  'co-brk-b':'Berkshire Hathaway', 'co-jpm':'JPMorgan Chase',
+  'co-hpe':'HPE', 'co-cost':'Costco', 'co-catl':'CATL', 'co-uber':'Uber',
+  'co-oxy':'Occidental', 'co-unh':'UnitedHealth', 'co-ge':'GE',
+  'co-the-goldman-sachs-group-inc':'Goldman Sachs',
+  'co-the-charles-schwab-corporation':'Charles Schwab',
+  'co-capital-one-financial-corporation':'Capital One',
+  'co-e-trade-financial-corporation':'E*TRADE',
+  'co-marvell-technology-inc':'Marvell', 'co-sony-pictures':'Sony Pictures',
+  'co-ase':'ASE', 'co-foxconn':'Foxconn', 'co-siliconware':'Siliconware',
+  // Keep business/subsidiary distinctions; these are not parent-company merges.
+  'co-woodward-gas-turbine-combustion-parts':'Woodward ガスタービン燃焼部品事業',
+  'co-collins-aerospace-flight-control-actuation-business':'Collins 飛行制御・駆動事業',
+};
+function conciseCompany(company) {
+  const original=company.display_name;
+  const display_name=SHORT_NAMES[company.company_id] || original.replace(/(?:,?\s+(?:Inc\.?|Incorporated|Corporation|Corp\.?|LLC|Ltd\.?|Limited|plc))+$/i,'');
+  if(display_name===original)return company;
+  const aliases=[...(company.aliases||[])];
+  for(const name of [original,company.legal_name].filter(Boolean)){
+    if(!aliases.some(a=>a.name===name))aliases.push({name});
+  }
+  return {...company,display_name,aliases};
+}
+
 export class CompanyView {
   constructor(raw) {
     this.raw=raw;
@@ -25,7 +52,7 @@ export class CompanyView {
       const id=this.canonicalId(company.company_id);
       if(display.has(id))continue;
       const group=this.groups.get(id), primary=this.rawCompanies.get(id);
-      if(!group){display.set(id,company);continue;}
+      if(!group){display.set(id,conciseCompany(company));continue;}
       const members=group.members.map(member=>this.rawCompanies.get(member));
       const names=new Set([...group.aliases,...members.flatMap(c=>[c.display_name,c.legal_name,...c.aliases.map(a=>a.name)]).filter(Boolean)]);
       display.set(id,{...primary,display_name:group.name,

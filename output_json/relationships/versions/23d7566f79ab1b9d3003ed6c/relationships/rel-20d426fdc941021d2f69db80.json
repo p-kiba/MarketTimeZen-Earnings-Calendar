@@ -1,0 +1,396 @@
+{
+  "build_id": "23d7566f79ab1b9d3003ed6c",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-eed87659e4b0672ad7573e1f",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$100 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する8年間の追加額。合算総額ではない。",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-5616456660b310d2888acc12",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-5616456660b310d2888acc12",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-5616456660b310d2888acc12"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5616456660b310d2888acc12"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-20d426fdc941021d2f69db80"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 8,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-5616456660b310d2888acc12"
+        ],
+        "renewal": null,
+        "start_basis": "unknown",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+        "rule_version": "354a598b0856a07800d58bf56202971bea563490a3817764c58195a5e3e92b0b",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-49c7fa825c86850285e51519",
+          "amount_kind": "incremental_commitment",
+          "conditions": "AWSチップの性能に関する契約上の義務を含む",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-590 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 100.0 billion",
+          "payee_company_ids": [
+            "co-aws"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "exact",
+          "scope": "既存契約に対する追加コミットメント",
+          "value": "100000000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "AWSチップの性能に関する契約上の義務を含む。起算日と具体的な性能閾値はこの注記に記載なし。",
+      "deal_id": "deal-5616456660b310d2888acc12",
+      "detected_at": "2026-09-26T05:23:10+00:00",
+      "effective_date": null,
+      "event_id": "event-c6a91a7052c2cce1e666db94",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-3fdd58163eaedf1bf60b480f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-3fdd58163eaedf1bf60b480f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-31",
+      "relationship_ids": [
+        "rel-20d426fdc941021d2f69db80"
+      ],
+      "supersedes_event_id": "event-5616456660b310d2888acc12",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 8,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-3fdd58163eaedf1bf60b480f"
+        ],
+        "renewal": null,
+        "start_basis": "契約拡張の対象期間。正確な起算日は非掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+        "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+        "verified_at": "2026-09-26T05:23:10+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-3fdd58163eaedf1bf60b480f",
+      "excerpt": "AWS",
+      "locator": "sec-div:225",
+      "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+      "section": "Official disclosure: business context",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-5616456660b310d2888acc12",
+      "excerpt": "by $100 billion over 8 years",
+      "locator": "p:17",
+      "normalized_text_hash": "bc47fab07c5ce62e34800f43053d35c827aa90a32e20203e9684727f9b1b32d6",
+      "section": "Official deal announcement",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-3fdd58163eaedf1bf60b480f"
+      ],
+      "geography": "",
+      "headline": "AWS計算基盤契約の追加コミットメント",
+      "products": [
+        "AWS計算基盤",
+        "AWSチップ"
+      ],
+      "scale": "",
+      "source_role": "計算基盤提供",
+      "target_role": "AIモデルの学習・運用"
+    },
+    "deal_ids": [
+      "deal-5616456660b310d2888acc12"
+    ],
+    "description": "AWSとOpenAIの既存クラウド契約を8年間で1,000億米ドル拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3fdd58163eaedf1bf60b480f"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T05:23:10+00:00",
+    "latest_event_ids": [
+      "event-c6a91a7052c2cce1e666db94"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-20d426fdc941021d2f69db80",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+      "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+      "verified_at": "2026-09-26T05:23:10+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001018724-26-000026",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-31",
+      "filing_cik": "0001018724",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:45:09+00:00",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "source_type": "sec_filing",
+      "title": "amzn-20260630"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/amazon-partnership/",
+      "content_hash": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:03:57+00:00",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "source_type": "official_newsroom",
+      "title": "OpenAI and Amazon announce strategic partnership | OpenAI"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-49c7fa825c86850285e51519",
+        "amount_kind": "incremental_commitment",
+        "conditions": "AWSチップの性能に関する契約上の義務を含む",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-590 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-3fdd58163eaedf1bf60b480f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 100.0 billion",
+        "payee_company_ids": [
+          "co-aws"
+        ],
+        "payer_company_ids": [
+          "co-openai"
+        ],
+        "qualifier": "exact",
+        "scope": "既存契約に対する追加コミットメント",
+        "value": "100000000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-3fdd58163eaedf1bf60b480f"
+      ],
+      "geography": "",
+      "headline": "AWS計算基盤契約の追加コミットメント",
+      "products": [
+        "AWS計算基盤",
+        "AWSチップ"
+      ],
+      "scale": "",
+      "source_role": "計算基盤提供",
+      "target_role": "AIモデルの学習・運用"
+    },
+    "description": "AWSとOpenAIの既存クラウド契約を8年間で1,000億米ドル拡張。SEC注記により追加額・米ドル建て・AWSチップの性能に関する契約上の義務を確認。累計契約額や年度売上ではない。",
+    "direction": "directed",
+    "event_date": "2026-07-31",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:10+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-20d426fdc941021d2f69db80",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-openai",
+    "tier": null,
+    "tier_reasons": [
+      "conditional",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}
