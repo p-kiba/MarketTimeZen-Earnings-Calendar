@@ -28,3 +28,15 @@ body.map-mode{overflow:hidden}
 .map-mode #mtz-message:not(:empty){position:absolute;top:max(64px,calc(env(safe-area-inset-top) + 52px));left:12px;right:12px;z-index:6;border-radius:8px}
 
 .mtz-results-button{width:100%;margin:12px 0;border-color:#9bbfdc;background:#f1f8fc;color:#285c80}.mtz-earnings-results{padding:14px 0;border-bottom:1px solid var(--border);margin-bottom:14px}.mtz-earnings-results table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}.mtz-earnings-results th,.mtz-earnings-results td{padding:9px 3px;border-bottom:1px solid var(--border);text-align:right}.mtz-earnings-results th:first-child{text-align:left}.mtz-earnings-results thead th{font-size:11px;color:#65738a}.mtz-earnings-results .muted{font-size:12px;margin:10px 0 0}
+
+/* Exploration controls float above the canvas without changing its viewport. */
+.mtz-map-tools{position:absolute;top:10px;left:10px;z-index:4;display:flex;gap:6px;max-width:calc(100% - 20px)}
+.mtz-map-tools select{min-width:0;max-width:220px}.mtz-map-tools button{white-space:nowrap}
+.mtz-selection{position:absolute;right:12px;top:68px;width:310px;max-height:calc(100% - 135px);overflow:auto;z-index:5;background:#fffffff5;border:1px solid #dce5ee;border-radius:16px;box-shadow:0 8px 30px #23354b18;padding:12px;overscroll-behavior:contain}
+.mtz-selection-heading{display:flex;align-items:center;gap:10px}.mtz-selection-heading img{width:40px;height:40px;object-fit:contain;border-radius:8px}.mtz-selection-heading div{flex:1;min-width:0}.mtz-selection-heading strong,.mtz-selection-heading small{display:block}.mtz-selection-heading small{color:#65738a;margin-top:3px}.mtz-selection-heading button{border:0;font-size:22px}
+.mtz-selection-actions{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.mtz-selection-actions button{font-size:12px;padding:8px}.mtz-selection-actions button:first-child{width:100%;background:#f1f8fc}
+.mtz-selection summary{cursor:pointer;min-height:44px;padding:12px 0;font-weight:600;font-size:13px}.mtz-selection-row{display:flex;flex-direction:column;gap:5px;text-align:left;width:100%;border:0;border-top:1px solid var(--border);border-radius:0;padding:12px 5px}.mtz-selection-row span{font-size:12px;line-height:1.5}.mtz-selection-row small{font-size:11px;color:#65738a}
+button:disabled{cursor:default;opacity:.55}
+.map-mode .mtz-map-tools{max-width:calc(100% - 175px);flex-wrap:wrap}
+@media(max-width:760px){.mtz-selection{top:auto;bottom:76px;left:12px;right:12px;width:auto;max-height:38dvh;padding:10px}.mtz-selection-actions{margin:6px 0}.mtz-selection-actions button:first-child{width:auto}.mtz-selection-heading img{width:32px;height:32px}.mtz-selection summary{padding:8px 0;min-height:36px}.mtz-map-tools select{max-width:180px;font-size:12px}.mtz-map-tools button{font-size:12px}.map-mode .mtz-map-tools{max-width:calc(100% - 160px)}}
+.mtz-selection-row.is-inspected{background:#fff0f5;box-shadow:inset 3px 0 #edacc4}

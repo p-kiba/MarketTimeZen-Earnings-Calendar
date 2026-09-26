@@ -56,9 +56,8 @@ export function graphPositions(ids,relationships,width,height,centerId=ids[0],pr
       force[a].x+=fx;force[a].y+=fy;force[b].x-=fx;force[b].y-=fy;
     }
     for(let i=0;i<points.length;i++){
-      if(i===center)continue;
+      if(i===center||anchors[i])continue;
       const p=points[i],f=force[i];f.x-=p.x*.012/aspect;f.y-=p.y*.012*aspect;
-      if(anchors[i]){f.x+=(anchors[i].x-p.x)*.12;f.y+=(anchors[i].y-p.y)*.12;}
       const length=Math.hypot(f.x,f.y),limit=2+temperature*16,scale=length?Math.min(limit,length)/length:0;
       p.x+=f.x*scale;p.y+=f.y*scale;
     }
@@ -69,14 +68,14 @@ export function graphPositions(ids,relationships,width,height,centerId=ids[0],pr
   const placed=[];
   for(const i of placement){
     const initial={...points[i]};let candidate=initial,attempt=0;
-    while(placed.some(p=>overlaps(candidate,p))&&attempt<ordered.length*24){
+    while(!anchors[i]&&placed.some(p=>overlaps(candidate,p))&&attempt<ordered.length*24){
       attempt++;const angle=attempt*GOLDEN_ANGLE+seed(ordered[i])*Math.PI*2,radius=24*Math.sqrt(attempt);
       candidate={x:initial.x+Math.cos(angle)*radius,y:initial.y+Math.sin(angle)*radius};
     }
-    if(placed.some(p=>overlaps(candidate,p)))candidate={x:Math.max(...placed.map(p=>p.x))+CARD_WIDTH+1,y:initial.y};
+    if(!anchors[i]&&placed.some(p=>overlaps(candidate,p)))candidate={x:Math.max(...placed.map(p=>p.x))+CARD_WIDTH+1,y:initial.y};
     points[i]=candidate;placed.push(candidate);
   }
-  return ids.map(id=>({...points[index.get(id)]}));
+  return ids.map(id=>{const p=points[index.get(id)];return {x:p.x+origin.x,y:p.y+origin.y};});
 }
 
 // Retain count-only callers; the live map passes actual relationship topology.
