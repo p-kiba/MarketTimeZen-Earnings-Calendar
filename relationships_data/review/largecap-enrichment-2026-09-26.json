@@ -1,0 +1,481 @@
+{
+  "after": {
+    "companies": 91,
+    "events": 142,
+    "evidence": 255,
+    "known_currency": 25,
+    "relationships": 122,
+    "sources": 85,
+    "tiered": 8,
+    "unknown_currency": 3,
+    "with_amount": 28,
+    "without_amount": 94
+  },
+  "applied_rules": [
+    {
+      "assertions_hash": "97c02f2378a22a46e1978b4d6b6351349bd42ec459d3eb941025ec5f9f9690a4",
+      "rule_id": "largecap-20260926-co-wmt-co-vizio-acquisition"
+    },
+    {
+      "assertions_hash": "8750c0a3afacfbc2a58646ff2726d9ba1d25b83f7a4457983ce628e051ae7740",
+      "rule_id": "largecap-20260926-co-symbotic-llc-co-wmt-supplier"
+    },
+    {
+      "assertions_hash": "71a28f38f33d46010d004787bf287fdbb464c754c48bc1170f5d3255e9f2822b",
+      "rule_id": "largecap-20260926-co-msft-co-wmt-service_provider"
+    },
+    {
+      "assertions_hash": "e70aec5027157f8006d403541dd4350cb1fc939648914082bffb1ef636d02d0e",
+      "rule_id": "largecap-20260926-co-citi-co-cost-partnership"
+    },
+    {
+      "assertions_hash": "d44d354e444d012921568338453881f46829fd69429cdb17a3280ce416e2fac7",
+      "rule_id": "largecap-20260926-co-visa-co-cost-service_provider"
+    },
+    {
+      "assertions_hash": "dcb2204817954e266626276ef9a0b8de9d5285388a134b7bcd6c5b1b3d2a1947",
+      "rule_id": "largecap-20260926-co-paypal-co-jpm-partnership"
+    },
+    {
+      "assertions_hash": "402e4346663d53205546315f2058a1a144b76799f08895b2c6a1779996c9e898",
+      "rule_id": "largecap-20260926-co-visa-co-jpm-partnership"
+    },
+    {
+      "assertions_hash": "3b3f60fc048c5d9a565232e4733e7eb67813fe92e4be6211930ed0577adf16d7",
+      "rule_id": "largecap-20260926-co-lly-co-morphic-acquisition"
+    },
+    {
+      "assertions_hash": "798ae11ea843679a0f9f98bc93bd4f0629c34d940b4f527215ae81b25ae47fd2",
+      "rule_id": "largecap-20260926-co-citi-co-lly-service_provider"
+    },
+    {
+      "assertions_hash": "70961bdd49e5b822d240d456ebd46d32da246c17d694336a890a17719c090801",
+      "rule_id": "largecap-20260926-co-lly-co-point-acquisition"
+    },
+    {
+      "assertions_hash": "59e4d885a981230f414f00e093f294ed35c1f1a877ea0320579da537075f0e77",
+      "rule_id": "largecap-20260926-amazon-anthropic-2024-correction"
+    }
+  ],
+  "automation_update": {
+    "change": "Read private changes queue as well as new candidates; no automatic approval, export, commit or deployment",
+    "id": "automation",
+    "schedule": "Daily 09:00 Asia/Tokyo; unchanged",
+    "status": "ACTIVE"
+  },
+  "before": {
+    "companies": 84,
+    "events": 131,
+    "evidence": 231,
+    "known_currency": 21,
+    "relationships": 112,
+    "sources": 72,
+    "tiered": 7,
+    "unknown_currency": 3,
+    "with_amount": 24,
+    "without_amount": 88
+  },
+  "checked_sources": [
+    {
+      "canonical_url": "https://www.jpmorgan.com/payments/newsroom/payments-2025-q1-earnings",
+      "content_hash": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+      "filed_date": null,
+      "published_date": "2025-04-28",
+      "source_id": "source-07dd39c83f61e6ba78d7195f"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "content_hash": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1",
+      "filed_date": "2025-02-07",
+      "published_date": null,
+      "source_id": "source-1f424e73af90b5c10b8d746e"
+    },
+    {
+      "canonical_url": "https://www.citigroup.com/global/news/press-release/2016/us-new-costco-anywhere-visa-card-by-citi-offers-cash-back-rewards-on-every-purchase",
+      "content_hash": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc",
+      "filed_date": null,
+      "published_date": "2016-06-20",
+      "source_id": "source-65582de79502dbeeaeee891f"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "content_hash": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+      "filed_date": "2026-02-12",
+      "published_date": null,
+      "source_id": "source-7ef82b328009ca1f95a8f29d"
+    },
+    {
+      "canonical_url": "https://corporate.walmart.com/news/2024/12/03/walmart-completes-acquisition-of-vizio",
+      "content_hash": "0fd0b3e423a43ef91e598874dbd455095971d23de731aa50b0bf1aa6df892c84",
+      "filed_date": null,
+      "published_date": "2024-12-03",
+      "source_id": "source-906167e0dd13ba9323deb3bd"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+      "content_hash": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+      "filed_date": "2025-11-24",
+      "published_date": null,
+      "source_id": "source-9294da69779573884f584931"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm",
+      "content_hash": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab",
+      "filed_date": "2024-08-16",
+      "published_date": null,
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+      "content_hash": "7bf87382263bf281bfeaafd67c3487e31cffc66bde14545f8a125e3d0d126202",
+      "filed_date": "2025-03-14",
+      "published_date": null,
+      "source_id": "source-b761388c1f47e307d748b0a7"
+    },
+    {
+      "canonical_url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+      "content_hash": "48ca2e3181c68f1beb09d721d9dd6e70bc1facf07004a06d48409262d7841f6f",
+      "filed_date": null,
+      "published_date": "2025-02-25",
+      "source_id": "source-ba658d591fd0d13f3343a590"
+    },
+    {
+      "canonical_url": "https://corporate.walmart.com/news/2018/07/17/walmart-establishes-strategic-partnership-with-microsoft-to-further-accelerate-digital-innovation-in-retail",
+      "content_hash": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a",
+      "filed_date": null,
+      "published_date": "2018-07-17",
+      "source_id": "source-d14f7bb565a8f4d556900419"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/d905462dex101.htm",
+      "content_hash": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f",
+      "filed_date": "2025-01-28",
+      "published_date": null,
+      "source_id": "source-e0f9d2205418024efd85b143"
+    },
+    {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1835591/000119312524040047/d794432dex21.htm",
+      "content_hash": "194b964bfa43db7ba5af7298ece83b67c2aff0e7dd19245ac33ef2f861c948a0",
+      "filed_date": "2024-02-20",
+      "published_date": null,
+      "source_id": "source-ea7dee5181da3aeace056d3d"
+    },
+    {
+      "canonical_url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+      "content_hash": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519",
+      "filed_date": null,
+      "published_date": "2024-05-06",
+      "source_id": "source-ed9c2579fd994a51d1fa06e2"
+    }
+  ],
+  "checkpoint_commit": "3244cd5",
+  "collection_round": {
+    "change_review": "relationships_data/review/changes.json",
+    "changed_existing_relationship_ids": [
+      "rel-841d512b85fddf05deec3723"
+    ],
+    "collection": {
+      "checked_at": "2026-09-26T08:10:46+00:00",
+      "downloaded_attempts": 7,
+      "errors": [],
+      "mode": "incremental",
+      "sec_only": true,
+      "universe": "large_cap_focus"
+    },
+    "extraction": {
+      "created_or_updated": 89,
+      "discovery": {
+        "changes": {
+          "automatic_decisions": 0,
+          "counts": {
+            "new_relationship_candidate": 21,
+            "possible_duplicate": 29,
+            "possible_lifecycle_update": 42,
+            "related_deal_candidate": 39
+          },
+          "deferred_items": 0,
+          "items": 131
+        },
+        "deferred_statements": 9994,
+        "published": 0,
+        "statements": 300,
+        "unavailable_sources": 0
+      },
+      "pending": 89
+    },
+    "finished_at": "2026-09-26T08:12:22+00:00",
+    "new_candidate_ids": [
+      "rel-c660a10f723a4e4030e40b59",
+      "rel-6924f10cf3c5b728f3757a2e",
+      "rel-9cfd2d7736a755f80bbc25cd",
+      "rel-e5c9b75d335ebeb324846593",
+      "rel-324284137b70e7fa043c27c9",
+      "rel-e0ab282d1b89570675ccb4f4",
+      "rel-c45324f677068f8ef652deff",
+      "rel-b2d8fb11216500efff34b025",
+      "rel-2333938946f353214effb750",
+      "rel-05a4d3875e0b3c503761530d",
+      "rel-04d5635331a2ccf4eb50179f",
+      "rel-836902043f3cefe1b6d87a06",
+      "rel-9dbdfa83d85f04c8aaccc508",
+      "rel-77ef063453efea3830c59ca1",
+      "rel-8710d15a66259a06f8967a54",
+      "rel-0d73288d2fdd9b39b3b08db4",
+      "rel-91a4f2f5782a17ae5f25506f",
+      "rel-d0ab56ec19cfc3a374ada45e",
+      "rel-40001409c1d8c7ace2535f6c",
+      "rel-1e9d7d5921396cbb95765ea3",
+      "rel-12a6ac8c441b319cc790918a",
+      "rel-9e0eb4e00a2c121d280b3bd9",
+      "rel-67cbbabe8eefa8881bbf80c8",
+      "rel-d7ec034b1a1a47f3017a81a5",
+      "rel-4b7d02e73b9fd47eff675ffb",
+      "rel-4d71f30d00adea35ed369250",
+      "rel-81c54a90e6e019ff7927a7a0",
+      "rel-77146878cba7ebdc4625d12e",
+      "rel-659553ee4efe60f6e8aa2f56",
+      "rel-98e83759f2ccde61809dc0d7",
+      "rel-a9cd1181b1f42b0f8bfc3ecc",
+      "rel-50edcfd6b3601a801b423bc7",
+      "rel-8c0f97d6f2955e85ca0c36fd",
+      "rel-991ddd7cb8f4f8b445a23525",
+      "rel-899e98dadb7855b07d47342f",
+      "rel-27a0edc4b19b494af8a2933d",
+      "rel-e90dcad82dbefdb5e1b27f90",
+      "rel-72557c2360ff694c4c40c87e",
+      "rel-a067d0482addd8218bd342ae",
+      "rel-fcf208fb782c7b7c3136fe14",
+      "rel-f82c737268612262fb02da99",
+      "rel-ca7b4a909d3f4684c5f2ca05",
+      "rel-f4798806da5333ec595f7bb2",
+      "rel-ba84250c51ec8b4eb737c13e",
+      "rel-1529848d7b0fbeebe688c950",
+      "rel-00c4e6e544f6f8e9ce121428",
+      "rel-470f1fabd648ee0001a276c6",
+      "rel-7736ad24927b197b9ec00b9f",
+      "rel-7e82f2f86e27d30399d1ff67",
+      "rel-9da1dc6c83469f80bfabda2e",
+      "rel-a149b0d4265db7a57cd2c0cc",
+      "rel-3e46e67bcc0e77cf4dff89d6",
+      "rel-743b74e7eff205e0703f1e1c",
+      "rel-0059e0ff4920520f611891ba",
+      "rel-101f0f6e891a18df5cfc973e",
+      "rel-b145683962b52f071a24b6ad",
+      "rel-eed639e1749b597db121a322",
+      "rel-4d413b631d58b1230a29a8c8",
+      "rel-4e608b92f757cd938de88fe0",
+      "rel-9dfb7790cf9b0a2f82f8e8fb",
+      "rel-12b11b4f353c7b5366cb96fb",
+      "rel-32f6df42d0c26c8e0800053e",
+      "rel-866fb2e3082e9bef9a171741",
+      "rel-340f480a14d6b24b931ccd14",
+      "rel-43a5e7f17bc8d8a7f64d0403",
+      "rel-e703b3355f42642f53e48a50",
+      "rel-f3585ff12738884952e112cf",
+      "rel-44f0714d7bde65450843f93b",
+      "rel-9adbddac43dd5b933585960b",
+      "rel-0ec7ec8903c63986d1e7360a",
+      "rel-41cfeb1aa47909236fbfe99f",
+      "rel-19d4afc9b61521bc221e50b4",
+      "rel-d36ed15913d2ee7e580878d3",
+      "rel-38cbd9c82324add42a5fc805",
+      "rel-05c6534cd99dd9b79647108b",
+      "rel-cdde3299ed36a1a6382716ef",
+      "rel-1ef1c6f5725099f0a21048e7",
+      "rel-2b9d11951b3119ae5230a5df",
+      "rel-bfdc15d32b0bae2c00b0b672",
+      "rel-768a2f865b4fe05557e7d655",
+      "rel-a3a62d64e57860349cc1156d",
+      "rel-f44ec2ed962b65b276472ba0",
+      "rel-de17e1f87918d161f487a700",
+      "rel-5ee3c274c26a443cb559f365",
+      "rel-db48a6e8adc7fe80a0a86f05",
+      "rel-d94b54d29a8d5e193f939e70",
+      "rel-de506dff4acf5b89decdacd3",
+      "rel-0e73ff0456b7a94ad5928dae"
+    ],
+    "public_pointer_unchanged": true,
+    "published": false,
+    "report": "relationships_data/review/report.md",
+    "run_id": "collection-fc318253a238048eb50d7fa3",
+    "started_at": "2026-09-26T08:10:32+00:00"
+  },
+  "deployed": false,
+  "display_counts": {
+    "companies": 89,
+    "relationships": 120
+  },
+  "focus_coverage": {
+    "co-cost": {
+      "after": {
+        "counterparties": 4,
+        "relationships": 4
+      },
+      "before": {
+        "counterparties": 2,
+        "relationships": 2
+      }
+    },
+    "co-jpm": {
+      "after": {
+        "counterparties": 4,
+        "relationships": 4
+      },
+      "before": {
+        "counterparties": 2,
+        "relationships": 2
+      }
+    },
+    "co-lly": {
+      "after": {
+        "counterparties": 5,
+        "relationships": 5
+      },
+      "before": {
+        "counterparties": 2,
+        "relationships": 2
+      }
+    },
+    "co-wmt": {
+      "after": {
+        "counterparties": 5,
+        "relationships": 5
+      },
+      "before": {
+        "counterparties": 2,
+        "relationships": 2
+      }
+    }
+  },
+  "ir_results": [
+    {
+      "source_id": "source-906167e0dd13ba9323deb3bd",
+      "status": "downloaded",
+      "url": "https://corporate.walmart.com/news/2024/12/03/walmart-completes-acquisition-of-vizio"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='ir.symbotic.com', port=443): Read timed out. (read timeout=30)",
+      "status": "blocked",
+      "url": "https://ir.symbotic.com/news-releases/news-release-details/symbotic-completes-acquisition-walmarts-advanced-systems-and"
+    },
+    {
+      "source_id": "source-65582de79502dbeeaeee891f",
+      "status": "downloaded",
+      "url": "https://www.citigroup.com/global/news/press-release/2016/us-new-costco-anywhere-visa-card-by-citi-offers-cash-back-rewards-on-every-purchase"
+    },
+    {
+      "source_id": "source-ba658d591fd0d13f3343a590",
+      "status": "downloaded",
+      "url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets"
+    },
+    {
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "status": "blocked",
+      "url": "https://investor.lilly.com/node/51211"
+    },
+    {
+      "source_id": "source-ed9c2579fd994a51d1fa06e2",
+      "status": "downloaded",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html"
+    },
+    {
+      "source_id": "source-d14f7bb565a8f4d556900419",
+      "status": "downloaded",
+      "url": "https://corporate.walmart.com/news/2018/07/17/walmart-establishes-strategic-partnership-with-microsoft-to-further-accelerate-digital-innovation-in-retail"
+    },
+    {
+      "source_id": "source-07dd39c83f61e6ba78d7195f",
+      "status": "downloaded",
+      "url": "https://www.jpmorgan.com/payments/newsroom/payments-2025-q1-earnings"
+    }
+  ],
+  "latest_change_review": {
+    "automatic_decisions": 0,
+    "counts": {
+      "new_relationship_candidate": 20,
+      "possible_duplicate": 29,
+      "possible_lifecycle_update": 43,
+      "related_deal_candidate": 40
+    },
+    "deferred_items": 0,
+    "input_hash": "8175262fb8dc2b195ae39679616bc5be85d03040e407d3c2cdfcce6a5c34b3e2",
+    "publication_eligible": false,
+    "version": "1.0",
+    "warning": "Hints only: same parties/type do not prove a duplicate. Wording may describe an option, risk, negation or unrelated agreement. Review scope, dates, parties and the original block before updating."
+  },
+  "release": {
+    "deployed": false,
+    "released_at": "2026-09-26T08:20:40+00:00",
+    "result": {
+      "build_id": "99c23d66fd1f3b091a14a757",
+      "manifest": "versions/99c23d66fd1f3b091a14a757/manifest.json",
+      "manifest_hash": "1878a53e09344e921ccd9f6bdb42fbff292b20d5c3a0a0d0d323c3896b2bbbdb",
+      "previous": {
+        "build_id": "5c279e1f377f3416866941d2",
+        "manifest": "versions/5c279e1f377f3416866941d2/manifest.json",
+        "manifest_hash": "f42c397daf4d5135261ce5b9463ff8268daac57623a75b983f1f5e3d5b11bc1f"
+      },
+      "schema_version": "1.0"
+    },
+    "review_id": "release-2f6a8218d083c79d7873c073"
+  },
+  "remaining": [
+    "Original currencies for Broadcom/Apple, CoreWeave/OpenAI and Corning/Meta unresolved",
+    "Only one of the baseline 88 amount-free relationships enriched this round; not an exhaustive audit",
+    "Unattended scheduled execution and actual GitHub Actions remain unproven",
+    "Test suites, browser QA and iOS tests paused by user"
+  ],
+  "reviewed_at": "2026-09-26T08:20:40+00:00",
+  "reviewer": "Codex source-bound review; no human or independent-agent approval claimed",
+  "sec_indexes": [
+    {
+      "filed_date": "2026-02-12",
+      "index_hash": "b7ce30b3758bd7098ccbeea48e09f4103905791b143146cbfa86a450555cc801",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.htm",
+      "source_id": "source-7ef82b328009ca1f95a8f29d",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm"
+    },
+    {
+      "filed_date": "2025-11-24",
+      "index_hash": "a482a7a748d28900e736aeac14ebb71047c60afb8e5ffdab2bc3393d564d3439",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/0001837240-25-000278-index.htm",
+      "source_id": "source-9294da69779573884f584931",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm"
+    },
+    {
+      "filed_date": "2025-03-14",
+      "index_hash": "f1465b2baf11c7ed00a7f75c9c903a1b4192daf6552c9ea3d83d1a5be8464114",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/0000104169-25-000021-index.htm",
+      "source_id": "source-b761388c1f47e307d748b0a7",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+    },
+    {
+      "filed_date": "2024-08-16",
+      "index_hash": "925b69693adb806cc2104dbddc76dc00de7bede571d56153f1d4b924196b4b95",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/0001193125-24-201684-index.htm",
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm"
+    },
+    {
+      "filed_date": "2025-02-07",
+      "index_hash": "ce2bf124bb692b45190738702e4c57bdc8a61ae7c3659ffe5fe48044d5c41da6",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.htm",
+      "source_id": "source-1f424e73af90b5c10b8d746e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+    },
+    {
+      "filed_date": "2025-01-28",
+      "index_hash": "2e08010a182cdc3124f2783aae1e647974c9cc44f2d8d0187fd88252d0100080",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/0001193125-25-013845-index.htm",
+      "source_id": "source-e0f9d2205418024efd85b143",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/d905462dex101.htm"
+    },
+    {
+      "filed_date": "2024-02-20",
+      "index_hash": "aa3874e031ec38a47729d6b93abf44a6b34a8cafb93edaa2a2f82e440896450f",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1835591/000119312524040047/0001193125-24-040047-index.htm",
+      "source_id": "source-ea7dee5181da3aeace056d3d",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835591/000119312524040047/d794432dex21.htm"
+    }
+  ]
+}

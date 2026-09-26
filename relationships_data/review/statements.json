@@ -1,9 +1,10 @@
 {
-  "deferred_statements": 2506,
+  "deferred_statements": 9998,
   "publication_eligible": false,
   "statements": [
     {
       "block_hash": "3a4d423795f9d2364b7d8e24911cd7a29298c65261c7e99acfb348da117a8cda",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:1",
       "mentioned_company_ids": [
@@ -29,6 +30,7 @@
     },
     {
       "block_hash": "baa621e5f19fd170f1ee150ead4f27e56d37aa53b09e9c86c7c9423fdb8daad2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:2",
       "mentioned_company_ids": [
@@ -47,6 +49,7 @@
     },
     {
       "block_hash": "31d3e2af45dec5bcb896e4ec919a45c13a9139be5798bab604ec82e02fd9f782",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:6",
       "mentioned_company_ids": [
@@ -65,7 +68,35 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "caf994810802ee3d127202f5d15d3acb23b156f09c2bffcf9c2c8ff962134feb",
+      "change_signals": [
+        "completion_wording"
+      ],
+      "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
+      "locator": "p:16",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-amzn",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-b1b4ca231314cb1091fcdce5",
+      "source_url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
+      "statement_id": "statement-1b205fab3f707878ab503224",
+      "unresolved_mentions": [
+        "Before",
+        "City",
+        "Hermiston",
+        "Oregon Department",
+        "The Old River Road",
+        "Transportation Oregon Community Paths",
+        "Umatilla",
+        "Umatilla River Trail",
+        "When"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "3a21fef34de3413c53ca33c17a2e690e96b6365f7e1ca4f38f8d4472913103bf",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:19",
       "mentioned_company_ids": [
@@ -83,7 +114,29 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "e2b6031c165383431a010261d00c7a3f9fb1e825d8ddac623ad9ff766236c579",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
+      "locator": "p:20",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-amzn",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-b1b4ca231314cb1091fcdce5",
+      "source_url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
+      "statement_id": "statement-33ce6c73ebb03d065ce23145",
+      "unresolved_mentions": [
+        "Boling",
+        "Texas",
+        "Wharton. The"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "50f5b2afc122a64ecab3aaddae4099dddf23091f3180eb4432567f0f81845ad5",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:21",
       "mentioned_company_ids": [],
@@ -98,6 +151,7 @@
     },
     {
       "block_hash": "4d0967723f7d5c3647dd811637ad9c2fdd3d915d5c732c004bee4c3b0090a09b",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:23",
       "mentioned_company_ids": [],
@@ -115,6 +169,7 @@
     },
     {
       "block_hash": "976ffa6e0ac5fd8daf5efadaacbd5e2ecc4cf667bdb97e2d38503ba349958f21",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:27",
       "mentioned_company_ids": [
@@ -137,6 +192,7 @@
     },
     {
       "block_hash": "c34b8eae7b98e95b85d3c0dc1f2810cfa9de66c68aa1c2b149e2e475029c26d2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:28",
       "mentioned_company_ids": [
@@ -155,6 +211,7 @@
     },
     {
       "block_hash": "05785fd3c70835d1935876e5f3759bb7ae4a4a9923e0b9719dc45d4aec8a6102",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:29",
       "mentioned_company_ids": [],
@@ -175,6 +232,7 @@
     },
     {
       "block_hash": "cc190ca51252cdac4208e15d4338fda9cc8c0ac1618121fc64873216affd5c52",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:31",
       "mentioned_company_ids": [],
@@ -191,7 +249,29 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "af827524613c10af17fe6c695f38480c65b7e7729be6c4e10f8ff49bcce3b950",
+      "change_signals": [
+        "completion_wording"
+      ],
+      "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
+      "locator": "p:35",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-amzn",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-b1b4ca231314cb1091fcdce5",
+      "source_url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
+      "statement_id": "statement-3564db80b496146ea2ab2f9c",
+      "unresolved_mentions": [
+        "Before",
+        "Phase I Environmental Site Assessment",
+        "Wharton County"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "c84524fe0841d6c3f9b8db03f04b6b959214e00d7f72145aa40ab2218ccd6963",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:36",
       "mentioned_company_ids": [],
@@ -207,7 +287,30 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "b9269ac760b8be9ad90261b647d6a510855e5124945cbfe75db4adb2cef7774f",
+      "change_signals": [
+        "completion_wording"
+      ],
+      "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
+      "locator": "p:39",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-amzn",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-b1b4ca231314cb1091fcdce5",
+      "source_url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
+      "statement_id": "statement-b3357b5814e5e37967fd52d5",
+      "unresolved_mentions": [
+        "A",
+        "Migratory",
+        "No",
+        "Wildlife"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "d58a86745f11ec707479e6df903b68796d07d42cf2a1f0fe448c4cef413e7eee",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:46",
       "mentioned_company_ids": [
@@ -226,6 +329,7 @@
     },
     {
       "block_hash": "85b53c28d9aded0341b73788646575b5c5d2cfd82c11c016a79c25f141e2738d",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:51",
       "mentioned_company_ids": [
@@ -242,6 +346,7 @@
     },
     {
       "block_hash": "cd06c40c4add1cc832cd0ceaaec99d251d0b6687beb6fdd8dd66cd09c8b5aeaf",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:57",
       "mentioned_company_ids": [],
@@ -259,6 +364,7 @@
     },
     {
       "block_hash": "3ce5e5032702702778dace37e85bfed03b3639babd434c2cbdf2dd406f37a945",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:60",
       "mentioned_company_ids": [
@@ -281,6 +387,7 @@
     },
     {
       "block_hash": "b6bf410b540883356dc7125aff9173fe03dbde4301587c21ebac5c5e41f839d4",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:62",
       "mentioned_company_ids": [
@@ -302,6 +409,7 @@
     },
     {
       "block_hash": "2a51efbc4ee17cc18266f39c66fdea76bb2172ed53abed534e3f2e210d134142",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:64",
       "mentioned_company_ids": [],
@@ -318,6 +426,7 @@
     },
     {
       "block_hash": "442b6f4906ee049cb2ab39e7481b9732caca06c3123099ea4efe00182ee83e68",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:70",
       "mentioned_company_ids": [],
@@ -334,6 +443,7 @@
     },
     {
       "block_hash": "804dc60b9a1057c2664a2503835099249d01a3ddef5e54ad13c62f36df23aa44",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:77",
       "mentioned_company_ids": [],
@@ -354,6 +464,7 @@
     },
     {
       "block_hash": "bf537e54d25ae3a466e2a9877b6f67954d11292d3bd06c591719e6bb522536c2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:79",
       "mentioned_company_ids": [
@@ -372,6 +483,7 @@
     },
     {
       "block_hash": "b7ace175b3a5e4165926629917c63178ffa5d8145110d5fbd1687c957591cc38",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:80",
       "mentioned_company_ids": [
@@ -392,6 +504,7 @@
     },
     {
       "block_hash": "dc58a821bf6b15da4de43795d3e8b128e54c8e6899a3a97541ad8e0ef9663078",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:81",
       "mentioned_company_ids": [
@@ -417,6 +530,7 @@
     },
     {
       "block_hash": "e648d3efbc6356951c445b128263b7e90f5b1e5025b046e7112a4fe97607da1d",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:92",
       "mentioned_company_ids": [
@@ -439,6 +553,7 @@
     },
     {
       "block_hash": "9336af45d78c32465d808fe540fde378ad88d9408619560cfc45de16faf52702",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:97",
       "mentioned_company_ids": [
@@ -464,6 +579,7 @@
     },
     {
       "block_hash": "7bdf9f88b01b2e96c71a6e5f5e1034a1837f0f1a6df1324188681e0ec49bcbe2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:99",
       "mentioned_company_ids": [
@@ -483,6 +599,7 @@
     },
     {
       "block_hash": "2453add3f0c488d5a8adfa36ba3b303f506c33f142ab38c24a23aefa6afdf6e0",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:100",
       "mentioned_company_ids": [],
@@ -501,6 +618,7 @@
     },
     {
       "block_hash": "8c50d37191496dfd46143c70383ee4e3b79fa11adaa69cd8a4c5244a6e6b74dc",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:102",
       "mentioned_company_ids": [],
@@ -517,6 +635,7 @@
     },
     {
       "block_hash": "e3a0023030164c0ccec477d89b5d78f2e846528ee0f1f327e04a4e93c5be0e6f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:103",
       "mentioned_company_ids": [],
@@ -533,6 +652,7 @@
     },
     {
       "block_hash": "2c4cf02aeecec4d007babc2949bb1770b6ba8cfd45279eb8a9ff1fd920e056f2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:104",
       "mentioned_company_ids": [],
@@ -549,6 +669,7 @@
     },
     {
       "block_hash": "ff48e9fb57c698ed577ce233879ca9399a2ef7d20fed99bd1732099cfd6811bd",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:106",
       "mentioned_company_ids": [
@@ -573,6 +694,7 @@
     },
     {
       "block_hash": "1d864c4b23e59c63dc95f8f538557aca0c9b61a49d91d3aef4ba320652c4dd2d",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:107",
       "mentioned_company_ids": [
@@ -593,6 +715,7 @@
     },
     {
       "block_hash": "2c7d9b1c67df82c74336f449c3cedf0e674ca04d84187c3527edf9e25857a12a",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:114",
       "mentioned_company_ids": [],
@@ -611,6 +734,7 @@
     },
     {
       "block_hash": "bf97d92477700df0b8abd3a21dab39927880e251aec4bd5bdd6b8ead0ab38cd9",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:116",
       "mentioned_company_ids": [
@@ -637,6 +761,7 @@
     },
     {
       "block_hash": "79cf37a2fe1b56b64dd7bcd04ae6270c197b045aef7ac1d2754b35ce747c7689",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:117",
       "mentioned_company_ids": [
@@ -661,6 +786,7 @@
     },
     {
       "block_hash": "54c3be5da083332d0c3337faaaebb72745b352ddf730f862be378bd38d00efca",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:120",
       "mentioned_company_ids": [
@@ -684,6 +810,7 @@
     },
     {
       "block_hash": "6ab3a4bfa5f0ffa3ed2cd5c4ea41150d0cd7b81cb872b91f4bfcc71c32db0402",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:123",
       "mentioned_company_ids": [
@@ -705,6 +832,7 @@
     },
     {
       "block_hash": "4c41a2700b4c4719e85f78811feae4b3bc300da4fe33411b8d72106b18e7e047",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:128",
       "mentioned_company_ids": [
@@ -729,6 +857,7 @@
     },
     {
       "block_hash": "3b9f4c4444d5a500e1ea1e90b8c2ed6ba029082d82f198912d3a1430ecfc104f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:129",
       "mentioned_company_ids": [
@@ -750,6 +879,7 @@
     },
     {
       "block_hash": "147f1fdbc34f0fd9a4e87fbcf0bedbb68af0457bc289cfb54e5605fc27800de4",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:130",
       "mentioned_company_ids": [],
@@ -769,6 +899,7 @@
     },
     {
       "block_hash": "d4b7d5123df20ddcb54eba7388dc8bae9dd7bbc6c07c113662288315da5a202e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:132",
       "mentioned_company_ids": [],
@@ -783,6 +914,7 @@
     },
     {
       "block_hash": "3406747f0116a765d7c71cfa0384be25f2b9c22a884c7923f6b7fb68a322f7d2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:134",
       "mentioned_company_ids": [
@@ -806,6 +938,7 @@
     },
     {
       "block_hash": "a924838dfca28b84d93fb307e6bfedf6deeeeb5bd5f011c523055c1988c15447",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:138",
       "mentioned_company_ids": [],
@@ -823,6 +956,7 @@
     },
     {
       "block_hash": "56f6efbbd9403a81870d68bce05bb9138d75fe6aa961a39ae8f23de41ea1f366",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:139",
       "mentioned_company_ids": [],
@@ -840,6 +974,7 @@
     },
     {
       "block_hash": "0637466407c8c6832bf870e9387e6536c2e98f91edf50dbcdbf4d2df24cd03e3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:149",
       "mentioned_company_ids": [
@@ -860,6 +995,7 @@
     },
     {
       "block_hash": "ca75e7ab4e348b92c7d7d1a13f4befc6bb1f04c5917a7d952b303c9547113b53",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:152",
       "mentioned_company_ids": [
@@ -881,6 +1017,7 @@
     },
     {
       "block_hash": "bf7aa5e2df3c277cf34f3a144c334b0a5597ade60cea9b26bcb22fc97418827b",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:154",
       "mentioned_company_ids": [
@@ -918,6 +1055,7 @@
     },
     {
       "block_hash": "50129dc01c0a5cb68724c65001e2bf9d5d18384e4c65f8e76d590e437da41fb3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:155",
       "mentioned_company_ids": [
@@ -937,6 +1075,7 @@
     },
     {
       "block_hash": "66a3819b09fab2576afba0f9186ad3cdee97484bd0ce88c9325074aaf553d6ae",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:159",
       "mentioned_company_ids": [],
@@ -951,6 +1090,7 @@
     },
     {
       "block_hash": "be6412de2c4dcdc839dc3b67cc6600d9ac07768a8d6cd934389fdcd6e12b3d09",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:160",
       "mentioned_company_ids": [
@@ -970,6 +1110,7 @@
     },
     {
       "block_hash": "92e1fcf6b31be454d6e4c8b2341911dbce60c477c055a8c71a4ee12f43aae2ab",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:161",
       "mentioned_company_ids": [
@@ -990,6 +1131,7 @@
     },
     {
       "block_hash": "91a369b2e4f63a3d930abba8469509fc96ec8cb6cb0f697ca7f73b537ec34480",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:163",
       "mentioned_company_ids": [
@@ -1016,6 +1158,7 @@
     },
     {
       "block_hash": "4b7619b95dd43e3bed93de8577266224e2c9dc24c189ee6bd147a0ff37eb8888",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:165",
       "mentioned_company_ids": [
@@ -1038,6 +1181,7 @@
     },
     {
       "block_hash": "1cee043a38abada45879dd17d3c1cd2037d2c64132e5d3211fda89369e907b21",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:166",
       "mentioned_company_ids": [
@@ -1057,6 +1201,7 @@
     },
     {
       "block_hash": "de19e622a02b6582df6dd21214fb1861ed758130ab9fbb976de82b0fa5f3211e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:167",
       "mentioned_company_ids": [
@@ -1075,6 +1220,7 @@
     },
     {
       "block_hash": "a6cf9fadc4ea61346ab452f98419ee4c122d0fd36ad79902ea189dee1691ecb8",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:168",
       "mentioned_company_ids": [
@@ -1097,6 +1243,7 @@
     },
     {
       "block_hash": "445542aa0d9bc9beba35005ec91a94092b29409b5eae88cfbc4b72f59e4c2190",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:169",
       "mentioned_company_ids": [],
@@ -1117,6 +1264,7 @@
     },
     {
       "block_hash": "b9667b2e2fce64f5a016c18f8c9e08e0249deb214c8a1af3d215f54f350ba82d",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:170",
       "mentioned_company_ids": [
@@ -1135,6 +1283,7 @@
     },
     {
       "block_hash": "628c3d8afdeacbc06d2f69d03501609ae12c3c67bf6c9e557f81451f5f4262cd",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:171",
       "mentioned_company_ids": [
@@ -1155,6 +1304,7 @@
     },
     {
       "block_hash": "92ae0eb37ada6bf1345e02eafd121196f9ff390559488b8d0f9d6ec33879deb6",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:174",
       "mentioned_company_ids": [
@@ -1179,6 +1329,7 @@
     },
     {
       "block_hash": "5fbdbe54bd5588923d55204110c99e398e04915fdaee18440e78f4c8aa8feb8b",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:177",
       "mentioned_company_ids": [],
@@ -1198,6 +1349,7 @@
     },
     {
       "block_hash": "9f2e14779ba324c07bc3c20ffc4fa015864159166c2b0f3576fd517b4f72f46c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:179",
       "mentioned_company_ids": [],
@@ -1217,6 +1369,7 @@
     },
     {
       "block_hash": "f33e20b7df06006cf150f0e7f2c343998256c5f648002392a551bfa2c1880993",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:180",
       "mentioned_company_ids": [],
@@ -1234,6 +1387,7 @@
     },
     {
       "block_hash": "e91852d7100c6f3a3bb88ffc0077b670ab6c6308fb4eb7e8b2d32e32b9339236",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:181",
       "mentioned_company_ids": [],
@@ -1252,6 +1406,7 @@
     },
     {
       "block_hash": "84d4cc68d2e5154c5e10eecc5e5067580099c9e88357b7dc9afd8e95e6df0128",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:185",
       "mentioned_company_ids": [
@@ -1272,6 +1427,7 @@
     },
     {
       "block_hash": "419203fcbdcfac98294aa10bca96bead2aa39a64032a83313f3cafd5c3fe9792",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:190",
       "mentioned_company_ids": [
@@ -1290,6 +1446,7 @@
     },
     {
       "block_hash": "ca19fcccd1af5e683ce2f04db4f8a1b32dbb1e6e0625a934b71e0b567afde075",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:191",
       "mentioned_company_ids": [
@@ -1320,6 +1477,7 @@
     },
     {
       "block_hash": "16c5de49486dfae9e0411dc4a1d3bcd57a8f5a0f7a011df080da3607b05c12a2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:192",
       "mentioned_company_ids": [
@@ -1339,6 +1497,7 @@
     },
     {
       "block_hash": "2c2f58acec955599e7b26310084dcf8017c6a4d6dfa73ae71dbb927ab2e77b41",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:193",
       "mentioned_company_ids": [
@@ -1358,6 +1517,7 @@
     },
     {
       "block_hash": "ebf7c1bfa14b5ceeea8e2b60a910f59594c680c7e725f74a31bcccbcf7f6e1fe",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:195",
       "mentioned_company_ids": [],
@@ -1376,6 +1536,7 @@
     },
     {
       "block_hash": "8a29ace4decdc5ffa5d36d3b97f49366dcd5de521f12e08fa926a69e86bd354a",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:197",
       "mentioned_company_ids": [
@@ -1396,6 +1557,7 @@
     },
     {
       "block_hash": "1354d667c02e25d5317a32e686d665e97d00094e2d24b16cb013b68a02e8107e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:199",
       "mentioned_company_ids": [
@@ -1418,6 +1580,7 @@
     },
     {
       "block_hash": "ce0c80d80a5f4be45a03000d68490deea7964b1e2249be96a23a0db0d79f0cb3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:203",
       "mentioned_company_ids": [
@@ -1437,6 +1600,7 @@
     },
     {
       "block_hash": "44b1b625f5161fcc27ff40a589d03fd5f1fc7f736a232fd5cd047f642c15aac5",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:209",
       "mentioned_company_ids": [
@@ -1462,6 +1626,7 @@
     },
     {
       "block_hash": "36a3b706313f75d4bb804a6f223f979d8966b2c7d3f4e57ee1c64ccbc3cdc13a",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:210",
       "mentioned_company_ids": [
@@ -1487,6 +1652,7 @@
     },
     {
       "block_hash": "b9f9749a8806c6b2583b148f1e2c8c5da99c16569b280a80ecb1e7a0211c925c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:212",
       "mentioned_company_ids": [],
@@ -1505,6 +1671,7 @@
     },
     {
       "block_hash": "be632a4ce4fe3bfdd4cc436b99bad2ed392e144a77651ea33a1824a6406bebf1",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:216",
       "mentioned_company_ids": [
@@ -1528,6 +1695,7 @@
     },
     {
       "block_hash": "d877a74e18c7cc74936c34b89400aa0ecaacf8750d5a793317397314bd5fb27f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:218",
       "mentioned_company_ids": [],
@@ -1545,6 +1713,7 @@
     },
     {
       "block_hash": "5f82aff29e799059ad15db1aa13beca0d88d5e18ccff0bb95c675f34cad35917",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:219",
       "mentioned_company_ids": [
@@ -1567,6 +1736,7 @@
     },
     {
       "block_hash": "aebfbf99e2795d7fabec6d978c7f7d03fc5e2fbc86efaa896aefdb3e937d5a8e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:221",
       "mentioned_company_ids": [
@@ -1589,6 +1759,7 @@
     },
     {
       "block_hash": "6ef3625a2b6a36e8d45a7c36c49875a33be2c1dd6717665c7826c7c8ad799d2a",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:235",
       "mentioned_company_ids": [
@@ -1612,6 +1783,7 @@
     },
     {
       "block_hash": "a4f25212f7d7d10958daf0357dbf551ca087e59682673a3a18a76a545d0ca6b3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:236",
       "mentioned_company_ids": [
@@ -1632,6 +1804,7 @@
     },
     {
       "block_hash": "5f09a04c50802376eb9a8693451371af73aabc36ed721721196930b4669ea1cc",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:237",
       "mentioned_company_ids": [
@@ -1651,6 +1824,7 @@
     },
     {
       "block_hash": "6bf2c40abc1ca499427e605b034c2031bd30ef9d3b2561900e5d979f2e268bcd",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:238",
       "mentioned_company_ids": [
@@ -1671,6 +1845,7 @@
     },
     {
       "block_hash": "ec5a7b98117ab7c5c5761661cfbbe0530ec154e2d12412bf6b3854130dca9ff5",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:240",
       "mentioned_company_ids": [
@@ -1694,6 +1869,7 @@
     },
     {
       "block_hash": "a5eecb3984675938e2a05cb367222bd466934c98de544d19e17e09302137f116",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:241",
       "mentioned_company_ids": [
@@ -1718,6 +1894,7 @@
     },
     {
       "block_hash": "bc48e13aa21eb5ac47d5edd3a6b0b862fafbcfdc46de1a52fdb5330af93009fc",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:243",
       "mentioned_company_ids": [
@@ -1736,6 +1913,7 @@
     },
     {
       "block_hash": "c1f1fccb67e7c79045ed819fcb1c4ed3b2308ca0c36f14b97357cdbe23bb1f6c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:244",
       "mentioned_company_ids": [
@@ -1764,6 +1942,7 @@
     },
     {
       "block_hash": "79ebe99dd292272eca4fecaacd77ea72bb847fe1cd61977f450f36a269b1cad8",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:245",
       "mentioned_company_ids": [
@@ -1780,6 +1959,7 @@
     },
     {
       "block_hash": "9e7780ca5756cedf2a553499cafea61c06fc34b58eab3b90a5761392b71765bb",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:246",
       "mentioned_company_ids": [
@@ -1802,6 +1982,7 @@
     },
     {
       "block_hash": "4f6ea511d8e0c00d110989761c877455fc330190257f68ad5717bf64d6e6baa2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:248",
       "mentioned_company_ids": [],
@@ -1821,6 +2002,7 @@
     },
     {
       "block_hash": "6f8f648344faf00b54f5b9d6bf52b4627bbdd78d82f3557e5875f789ca77a96f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:251",
       "mentioned_company_ids": [
@@ -1840,6 +2022,7 @@
     },
     {
       "block_hash": "213e68afe2992b1e2cbaf2bc9209e8485f1216e6d7b2895ad9a63b072b6d329c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:252",
       "mentioned_company_ids": [
@@ -1863,6 +2046,7 @@
     },
     {
       "block_hash": "2386b59c4bbdb95cfcca5952137af1b1d9c458996985c70935036ccaffe926a4",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:253",
       "mentioned_company_ids": [
@@ -1886,6 +2070,7 @@
     },
     {
       "block_hash": "f2e275b2923cf3f58582d72e53b59bae7d43e805a79669dfe20ccb09acea893b",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:254",
       "mentioned_company_ids": [],
@@ -1904,6 +2089,7 @@
     },
     {
       "block_hash": "54b9b57ad54532206c9e806922cc8e907aa212cecf1275ec0a5eba2959c52470",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:255",
       "mentioned_company_ids": [],
@@ -1926,6 +2112,7 @@
     },
     {
       "block_hash": "ce16d5cbc34be664ad6e71228afe9833e2a2790f6ff4eddcc7e9ee31fcbf65e3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:256",
       "mentioned_company_ids": [
@@ -1942,6 +2129,7 @@
     },
     {
       "block_hash": "588d8d70ee79e6e5f8397c0dc7d52f96b0de0230c01d1d2b5d47b499ae877bcd",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:257",
       "mentioned_company_ids": [
@@ -1958,6 +2146,7 @@
     },
     {
       "block_hash": "69d1f50fcc93b8e9fabcae1fbff860da30660cf09d30168f115519bbde015465",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:258",
       "mentioned_company_ids": [
@@ -1983,6 +2172,7 @@
     },
     {
       "block_hash": "b596662ce06adb12435ca743a65ddf1d9a731459046f99e00540fc94532c3f4e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:260",
       "mentioned_company_ids": [],
@@ -2003,6 +2193,7 @@
     },
     {
       "block_hash": "be9f08835bcc73b969244fc368ee595b7142dc6bb6b2339dd1e305d7fca484d2",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:261",
       "mentioned_company_ids": [
@@ -2023,6 +2214,7 @@
     },
     {
       "block_hash": "ff5d3127659e1367f94d8bb6078197119b4227c5e0048c7fb0470e5c26a52497",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:262",
       "mentioned_company_ids": [
@@ -2045,6 +2237,7 @@
     },
     {
       "block_hash": "34366155d16f5d45b7f037f00f353385290c4875a5a5cd11c2c3b79fc810d0b1",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:263",
       "mentioned_company_ids": [
@@ -2064,6 +2257,7 @@
     },
     {
       "block_hash": "8e409e99a57ca7e815050cc622d40db9e42c97f2e02b86dbc9977ad76df4f728",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:264",
       "mentioned_company_ids": [
@@ -2083,6 +2277,7 @@
     },
     {
       "block_hash": "685860bfdf70f5b5084ee5bad367b8a7167e59d06cc48a9917192eb590315cbe",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:266",
       "mentioned_company_ids": [
@@ -2102,6 +2297,7 @@
     },
     {
       "block_hash": "871b96350d7d8484aaedd8e0ab784fca88a0d667afab3c7a2fefd2c253a3b1c3",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:268",
       "mentioned_company_ids": [],
@@ -2118,6 +2314,7 @@
     },
     {
       "block_hash": "19196fda66121504e993b23d1f06379f8e848333ba6858519e869b1e3f68bc22",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:269",
       "mentioned_company_ids": [
@@ -2138,6 +2335,9 @@
     },
     {
       "block_hash": "23fd74de71c3b7fa1c7f16a6603c0f3fbbb690dbe673dfdb9303d2e184a3b290",
+      "change_signals": [
+        "amendment_wording"
+      ],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:270",
       "mentioned_company_ids": [],
@@ -2156,6 +2356,7 @@
     },
     {
       "block_hash": "7fbb93462fcb84597eee6b14914f4640a204f23a4f00a541110461b120fecda9",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:272",
       "mentioned_company_ids": [
@@ -2175,6 +2376,7 @@
     },
     {
       "block_hash": "f96f68fbabb4aed2df79a0a69a8e395e31e39f937eab07141ed1ddf31f4b426e",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:273",
       "mentioned_company_ids": [],
@@ -2198,6 +2400,7 @@
     },
     {
       "block_hash": "59899f7c4ee3fe7de540ff3d96b2e7c1c2362ba9f15923fe397b2cf4e30de28f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:274",
       "mentioned_company_ids": [
@@ -2217,6 +2420,7 @@
     },
     {
       "block_hash": "30b47b278e2de19ea0b1b0d61703021d653329eedbf129e57548f6ccaade8b4c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:275",
       "mentioned_company_ids": [],
@@ -2235,6 +2439,7 @@
     },
     {
       "block_hash": "dcbc8b441c6df57586dc2ace1ff2fa6e729ce8aeae854029d958d00e8dba2db7",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:276",
       "mentioned_company_ids": [
@@ -2253,6 +2458,7 @@
     },
     {
       "block_hash": "7ebc832e9c0b2acce0383347b6ed2b8ab8519805f04d82232699eb27549f8fb7",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:277",
       "mentioned_company_ids": [
@@ -2277,6 +2483,7 @@
     },
     {
       "block_hash": "b3810a751bcc8b32b108ce588fa3aa943e4b26fc6f2e8fa78650e8f49af67673",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:278",
       "mentioned_company_ids": [],
@@ -2296,6 +2503,7 @@
     },
     {
       "block_hash": "0f1b1a263259b44f07b804c9c5f567a1e15357267eef717bae72c9446b8c14ee",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:280",
       "mentioned_company_ids": [
@@ -2315,6 +2523,7 @@
     },
     {
       "block_hash": "6151edc9b1c4a6ca6035ceaaa3d9fb4e1a1b26e17bc13470a021b11837751d29",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:281",
       "mentioned_company_ids": [
@@ -2335,6 +2544,7 @@
     },
     {
       "block_hash": "833f935a040ed34d839d93ed7a8631fc4f6fce39f569f2946a2a245f37429904",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:282",
       "mentioned_company_ids": [],
@@ -2352,6 +2562,7 @@
     },
     {
       "block_hash": "66c0894f7f85433e36649d4a137c2db196c00d47386c5118e826eb63bf1ebb37",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:287",
       "mentioned_company_ids": [],
@@ -2369,6 +2580,7 @@
     },
     {
       "block_hash": "3849c4f2b2de0782803f45ea1f4b2dec7fcd4c779b2afea8953c485462981368",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:288",
       "mentioned_company_ids": [
@@ -2388,6 +2600,7 @@
     },
     {
       "block_hash": "0b76c8bfd40d230659e791eb455a20ea32d280e5e937a189d85759b2d1625b9a",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:289",
       "mentioned_company_ids": [
@@ -2410,6 +2623,7 @@
     },
     {
       "block_hash": "d0ef3122ac7d162e3301a6d8556a5240a6dfaa0a814e981bbe783e4783babb04",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:302",
       "mentioned_company_ids": [
@@ -2432,6 +2646,7 @@
     },
     {
       "block_hash": "c18bba78b99b691995d3a1cab30abe5a30708ab7c8bf9305c34598fa62c357b7",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:306",
       "mentioned_company_ids": [
@@ -2456,6 +2671,7 @@
     },
     {
       "block_hash": "a115cc7e5bcc4a143318619291c7a0ca5fddaff116cdfc1d46d8a5014e63c047",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:314",
       "mentioned_company_ids": [
@@ -2481,6 +2697,7 @@
     },
     {
       "block_hash": "92eacccced24ac62fa31ee9909165a214112af4c58b0d5c93fbab44fd609697c",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:316",
       "mentioned_company_ids": [
@@ -2501,6 +2718,7 @@
     },
     {
       "block_hash": "2a650a4e213d771425ba43f832626d7817e04907258cdf2f8279aa731e01f9cf",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:318",
       "mentioned_company_ids": [],
@@ -2523,6 +2741,7 @@
     },
     {
       "block_hash": "a549b4c12615a5c98ce38d674d87d44f255ad6f36d85330520efac5918263f3f",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:319",
       "mentioned_company_ids": [],
@@ -2543,6 +2762,7 @@
     },
     {
       "block_hash": "d938079a67a84cbb7d8aa2f520773b773236c9f49695a7b3f72f4aa43801b260",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:320",
       "mentioned_company_ids": [
@@ -2572,6 +2792,7 @@
     },
     {
       "block_hash": "c988b518ede8f82a0c4579e41307f2ecef06cf641f3c88927be93a854a941477",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:321",
       "mentioned_company_ids": [
@@ -2588,6 +2809,7 @@
     },
     {
       "block_hash": "f1750102c69dd7c0197229de715061a33cee18ceb032b09197d8d665e338ed53",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:325",
       "mentioned_company_ids": [],
@@ -2606,6 +2828,7 @@
     },
     {
       "block_hash": "1111fa02d39332d0949856f0094853b9e647212bbce77e767337ea6981de5f9d",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:327",
       "mentioned_company_ids": [
@@ -2625,6 +2848,7 @@
     },
     {
       "block_hash": "de858e8f956766466ed48891d50b88754c532d7b83bdf178e60dcd78aa5aeeac",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:328",
       "mentioned_company_ids": [
@@ -2645,6 +2869,7 @@
     },
     {
       "block_hash": "ef285448a3656f64a163b9cc7dbac787497c114a640412df237746d722e6bfb0",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:330",
       "mentioned_company_ids": [],
@@ -2666,6 +2891,7 @@
     },
     {
       "block_hash": "d2f7cc57389d14b0857dd01bf1c1c82761d0799265c36108349faa9ef49b6f69",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:331",
       "mentioned_company_ids": [
@@ -2690,6 +2916,7 @@
     },
     {
       "block_hash": "9a2baddfd8ec98c6ef91ca8a6b64349ea436bedfec6ddab67e340e8f245313e6",
+      "change_signals": [],
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "locator": "p:334",
       "mentioned_company_ids": [
@@ -2711,6 +2938,7 @@
     },
     {
       "block_hash": "560cb24f62d7e033e4338895ee5415a5031ad148e5f6a8135172574e7083af4a",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:33",
       "mentioned_company_ids": [],
@@ -2727,6 +2955,7 @@
     },
     {
       "block_hash": "14cb6c30cd986f07dc40cf8975aae533e4604993f3549bbefd845799509d9993",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:77",
       "mentioned_company_ids": [],
@@ -2743,6 +2972,7 @@
     },
     {
       "block_hash": "049f464ead142a3fbfd234aea1c2bbe1bf79bbac7e2e82bb33e0c7aa0f744376",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:79",
       "mentioned_company_ids": [],
@@ -2759,6 +2989,7 @@
     },
     {
       "block_hash": "f2810693913a82556e4c4a0c12bb049afdb0c9a740fc32b38af05e74cf392fe0",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:80",
       "mentioned_company_ids": [],
@@ -2775,6 +3006,7 @@
     },
     {
       "block_hash": "c77e306ec202b1810e7a7eb9aca022756ec4a9ed3d3bb87836d2c3f1bd414344",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:81",
       "mentioned_company_ids": [],
@@ -2791,6 +3023,7 @@
     },
     {
       "block_hash": "e92919651ddea251e0ef1903a4350310366293bcdc94c2323bf846d4fea19282",
+      "change_signals": [],
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "locator": "tr:82",
       "mentioned_company_ids": [],
@@ -2806,7 +3039,74 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "5bdefdc64ef62ef07200843969a513bfaf6a5616cbcd6d8bb2ab3f9938059259",
+      "change_signals": [],
+      "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
+      "locator": "sec-div:14",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-cost",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-c4f51396bf03aca4a6ae2810",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "statement_id": "statement-524e30d071a297172b89f0f0",
+      "unresolved_mentions": [
+        "A",
+        "Events",
+        "PT",
+        "Presentations",
+        "September"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "ac880bd23f897d57a9e6c2357a6995fc2bb7263a0924b01c049cf68002d1d732",
+      "change_signals": [],
+      "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
+      "locator": "sec-div:22",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-cost",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-c4f51396bf03aca4a6ae2810",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "statement_id": "statement-48da1b87113f503071bb3cfd",
+      "unresolved_mentions": [
+        "Certain",
+        "Company",
+        "Comparable",
+        "Exchange Commission. Forward-looking",
+        "Private Securities Litigation Reform Act",
+        "Securities",
+        "Such",
+        "U.S. GAAP"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "361548523a6332f6bbc8a127a77426ebecf2a46b2c1851ef6e99b1829e1dfc75",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "e4be8661ade61f37ec07dd02637526b22e80d01d7b52ac1f8cee6b6dcfd57ffc",
+      "locator": "sec-div:45",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-cost",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-8eebeb23b0448a172175ed25",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm",
+      "statement_id": "statement-098950e04cd78b66fdc6491c",
+      "unresolved_mentions": [
+        "Exchange Act",
+        "If",
+        "Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "39f27a965e7ff9d4b11135840ce8f18ab24cfb84d5db86625d5e7a4422d05676",
+      "change_signals": [],
       "content_hash": "e4be8661ade61f37ec07dd02637526b22e80d01d7b52ac1f8cee6b6dcfd57ffc",
       "locator": "sec-div:54",
       "mentioned_company_ids": [],
@@ -2827,6 +3127,7 @@
     },
     {
       "block_hash": "d1b918519cf4a8a1a208178685ebd95c1d98a025a35e0f845d8983851c0fdf70",
+      "change_signals": [],
       "content_hash": "3c666b229f9cc8da1f4bc21debf70e7c1ff27a8076021dfb416617b0044dd02d",
       "locator": "body",
       "mentioned_company_ids": [],
@@ -2881,7 +3182,66 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "3eaf934a43d493005809567eca5b1b801c209ec8796ea85a3f11d4e0225a6b0d",
+      "change_signals": [],
+      "content_hash": "3c666b229f9cc8da1f4bc21debf70e7c1ff27a8076021dfb416617b0044dd02d",
+      "locator": "sec-div:18",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-cost",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-54af868a78444a9cbb22d398",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426.htm",
+      "statement_id": "statement-aab8b46d98f75a66a2376388",
+      "unresolved_mentions": [
+        "Adjusted Digitally-Enabled  Comparable Sales1",
+        "App Traffic",
+        "Categories",
+        "Digital",
+        "Digital Enhancements",
+        "Domestics Digitally-Enabled  Comparable Sales",
+        "Ecommerce Site",
+        "Excluding",
+        "Expansion",
+        "Hardware",
+        "Home Furnishings",
+        "Housewares",
+        "Personalization",
+        "Pharmacy",
+        "Q4 Highlights Top Sales Growth",
+        "Small Electrics",
+        "US"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "fb2f6f24e0447fdc3de9d4301446009738249fe6a7e196b756a796a3460ecbd9",
+      "change_signals": [],
+      "content_hash": "3c666b229f9cc8da1f4bc21debf70e7c1ff27a8076021dfb416617b0044dd02d",
+      "locator": "sec-div:27",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-cost",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-54af868a78444a9cbb22d398",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426.htm",
+      "statement_id": "statement-97eb9fdb45422af888160754",
+      "unresolved_mentions": [
+        "Company",
+        "Comparable",
+        "Exchange Commission.  Forward-looking",
+        "Private Securities  Litigation Reform Act",
+        "Q4 Highlights Certain",
+        "Safe Harbor",
+        "Securities",
+        "Such",
+        "U.S.  GAAP"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "8f1710aa4410f88c7087e7e64d612414fe82b7c379e278512c9b803f122ac865",
+      "change_signals": [],
       "content_hash": "9943bb0689d405c2c1e7778a41d8da540283c16a9173fc2ceed2f65c5e6e53e6",
       "locator": "p:4",
       "mentioned_company_ids": [],
@@ -2904,6 +3264,7 @@
     },
     {
       "block_hash": "badf58b513d126dc294bc37a465d0042e5b947fa97ef2b3223f4b35b6416c328",
+      "change_signals": [],
       "content_hash": "9943bb0689d405c2c1e7778a41d8da540283c16a9173fc2ceed2f65c5e6e53e6",
       "locator": "h3:66",
       "mentioned_company_ids": [],
@@ -2920,6 +3281,7 @@
     },
     {
       "block_hash": "f25337fae08dc857a17295fd77eb83abb56c408e71a107020d7373553d3073cd",
+      "change_signals": [],
       "content_hash": "9943bb0689d405c2c1e7778a41d8da540283c16a9173fc2ceed2f65c5e6e53e6",
       "locator": "p:76",
       "mentioned_company_ids": [],
@@ -2937,6 +3299,7 @@
     },
     {
       "block_hash": "4d21c5a7485769223963f0bd2e14faa4834a12426367dab01fffb8ffae1cc9aa",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:5",
       "mentioned_company_ids": [
@@ -2956,6 +3319,7 @@
     },
     {
       "block_hash": "06ed616530fac8792f23c730a53bb6fd33341ebe91dd4f771d97f97bf83e786d",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:10",
       "mentioned_company_ids": [
@@ -2974,6 +3338,7 @@
     },
     {
       "block_hash": "40ade5383d376a25cf258281e2d00b97e76906a38432bffd56a21ebe6e01b86f",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "h2:11",
       "mentioned_company_ids": [],
@@ -2990,6 +3355,7 @@
     },
     {
       "block_hash": "f916c93d217366c10e39c4d2447380a99e1389524a5bf38ffa65128a65e67d2c",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:12",
       "mentioned_company_ids": [
@@ -3009,6 +3375,7 @@
     },
     {
       "block_hash": "c0c9416147de6460963ce18949e30f7556f710d804974751b1b0eb91b09279c2",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:15",
       "mentioned_company_ids": [
@@ -3031,6 +3398,7 @@
     },
     {
       "block_hash": "86b958d2cb189318749128e8464fea21923c2dbfeaa74af1dd8d5e7c35c0104d",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:16",
       "mentioned_company_ids": [],
@@ -3047,6 +3415,7 @@
     },
     {
       "block_hash": "efd7ef1bc2da49d4f43b28e1e29cf49cb8eba3c865ea4c0bb64c6901b11d2327",
+      "change_signals": [],
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "locator": "p:18",
       "mentioned_company_ids": [],
@@ -3065,6 +3434,7 @@
     },
     {
       "block_hash": "868744e9c23b3df89c91433282938ee2b99ce42b4de88cd3cde124fc138003fa",
+      "change_signals": [],
       "content_hash": "d3e03f7bb105d5a8b8d0a9fce4c8aeda408bbbc8fbf2afb95c1335894c990e10",
       "locator": "h2:3",
       "mentioned_company_ids": [],
@@ -3080,7 +3450,28 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "ace138ca5e365f525e07b2151dcacdc5e26e3eea463d8d2c131c1fe4a3ed6f65",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "d3e03f7bb105d5a8b8d0a9fce4c8aeda408bbbc8fbf2afb95c1335894c990e10",
+      "locator": "p:7",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-openai",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-8f1fb4f76ce218565699fd42",
+      "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+      "statement_id": "statement-a579073a99548fccfa52444c",
+      "unresolved_mentions": [
+        "I",
+        "The Renaissance"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "61be0f64035e1ef2eeeda61a730ff8abcc7568af8ba947c12b9536f1795cab9c",
+      "change_signals": [],
       "content_hash": "47e4b22c5889908019395a7139c2ea65f577e1cad2994846ae5283a74295072d",
       "locator": "p:4",
       "mentioned_company_ids": [
@@ -3107,6 +3498,7 @@
     },
     {
       "block_hash": "66e0af982087370b962a1b078a72d928371f67183c9935a1da6af5d8bda2eaa0",
+      "change_signals": [],
       "content_hash": "47e4b22c5889908019395a7139c2ea65f577e1cad2994846ae5283a74295072d",
       "locator": "p:15",
       "mentioned_company_ids": [
@@ -3128,7 +3520,32 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "20079021503633421cac703776502c1ea26be7e2f634e3107137b0b738ca917e",
+      "change_signals": [],
+      "content_hash": "d168974908c8816a6ebb04d050f4d176a170b2b3aed6ee328e8eff0e81f93e1c",
+      "locator": "p:3",
+      "mentioned_company_ids": [
+        "co-nvda",
+        "co-amzn"
+      ],
+      "publisher_company_id": "OpenAI",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3cfcb1f741a499306ab3804a",
+      "source_url": "https://openai.com/pt-BR/index/scaling-ai-for-everyone/",
+      "statement_id": "statement-76f487e5bb73b1673e8ae782",
+      "unresolved_mentions": [
+        "Hoje",
+        "Incluindo US",
+        "NVIDIA. Espera-se",
+        "SoftBank",
+        "US"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "cbefde3020068a540e017e220e54f82b6d407f0a4f6d9fa0568a99b3329ff2f7",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:3",
       "mentioned_company_ids": [
@@ -3152,6 +3569,7 @@
     },
     {
       "block_hash": "62bbe7cd4f176cb3a555f07d591b6091f89c495d38742ea518dfe3d558f6c4d3",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:7",
       "mentioned_company_ids": [
@@ -3178,6 +3596,7 @@
     },
     {
       "block_hash": "351308252b00f9c1f7e28822e142937a192ab2f58dd32642e01d643fb66dc7cc",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:8",
       "mentioned_company_ids": [],
@@ -3216,6 +3635,9 @@
     },
     {
       "block_hash": "a3f56c73b8406d5f54c135a7acd6b68e3c7a9d557dd989a5a2a09a589b5ca293",
+      "change_signals": [
+        "amendment_wording"
+      ],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:9",
       "mentioned_company_ids": [
@@ -3234,9 +3656,14 @@
     },
     {
       "block_hash": "f5fa57ce9008525ebce79b378c1e6a2603aa182f43789db657b4fd58a5062f39",
+      "change_signals": [
+        "amendment_wording"
+      ],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:10",
-      "mentioned_company_ids": [],
+      "mentioned_company_ids": [
+        "co-citi"
+      ],
       "publisher_company_id": "co-openai",
       "reason": "unresolved_mentions",
       "relationship_ids": [],
@@ -3245,7 +3672,6 @@
       "statement_id": "statement-5858a17c86b23bbebdb80993",
       "unresolved_mentions": [
         "Canada",
-        "Citi",
         "Goldman Sachs",
         "HSBC",
         "JPMorgan Chase",
@@ -3260,7 +3686,36 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "9e5669f59ec9e221cf6f8d60838fdb75b1bdcc312b4ee428b7bf4f996bba4ba7",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
+      "locator": "p:11",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-openai",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3b0069a20a29aa84e7f64387",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "statement_id": "statement-cf4745f63e674061a8cf7154",
+      "unresolved_mentions": [
+        "API",
+        "ARR",
+        "ChatGPT",
+        "Codex",
+        "GPT",
+        "Leadership",
+        "Search",
+        "That"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "2d15f4a702eac3c5cb9a3f2b88a056d43bf483ec29383a12969b773e81cccf65",
+      "change_signals": [
+        "amendment_wording"
+      ],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:15",
       "mentioned_company_ids": [],
@@ -3277,6 +3732,7 @@
     },
     {
       "block_hash": "5b7ae51589d3ff927761b6564c6d069952fb394c1def54f2433fe1353c6e0dfc",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:16",
       "mentioned_company_ids": [
@@ -3295,6 +3751,7 @@
     },
     {
       "block_hash": "bfc5b1211a54bd4be885202380924ed6bb02bcca1904cc2343a6475fa2fa41d7",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:17",
       "mentioned_company_ids": [],
@@ -3313,6 +3770,7 @@
     },
     {
       "block_hash": "634cbd9e50f767cdbedf7320edb54603df3bfe2030c9d66c0d5118d8335a0766",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:18",
       "mentioned_company_ids": [
@@ -3342,6 +3800,7 @@
     },
     {
       "block_hash": "7904d23fa25b29f8536dcf64a5e80dd0fe482f2e3cbbad69e76687f3143caf5d",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:19",
       "mentioned_company_ids": [
@@ -3363,6 +3822,7 @@
     },
     {
       "block_hash": "4792157dcf6abbdea987399e5bc5a63d846476fddf6d6fdf1622279731c93a5a",
+      "change_signals": [],
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:22",
       "mentioned_company_ids": [],
@@ -3380,6 +3840,7 @@
     },
     {
       "block_hash": "8b62715ddd1107fef0495224922eb13eca79daf25294ec31b872a9e4d91ed245",
+      "change_signals": [],
       "content_hash": "8b72a7c37af40b2951d5c8660d6de836850b4cc4858f703eb2b93dd2b313c81e",
       "locator": "p:2",
       "mentioned_company_ids": [
@@ -3401,6 +3862,7 @@
     },
     {
       "block_hash": "16659e49c9dc9ee8038004dde6c29319ffa200ee73d9c6ca8038b734ff82f2c6",
+      "change_signals": [],
       "content_hash": "8b72a7c37af40b2951d5c8660d6de836850b4cc4858f703eb2b93dd2b313c81e",
       "locator": "p:3",
       "mentioned_company_ids": [
@@ -3425,6 +3887,7 @@
     },
     {
       "block_hash": "21e34f5bbf1e6216e9a04c4cdc361f3789f8c9f3a6169f3d8dbe9645f5c94a74",
+      "change_signals": [],
       "content_hash": "8b72a7c37af40b2951d5c8660d6de836850b4cc4858f703eb2b93dd2b313c81e",
       "locator": "p:4",
       "mentioned_company_ids": [
@@ -3450,6 +3913,7 @@
     },
     {
       "block_hash": "bca0efa69f2058c75e2428f3b7586cdb5c1104f213540c45b8028d308b5062e3",
+      "change_signals": [],
       "content_hash": "91bc28741d9282d6a93246339ee3fb4d612441511c25da08243b9662ee272035",
       "locator": "p:4",
       "mentioned_company_ids": [],
@@ -3466,6 +3930,7 @@
     },
     {
       "block_hash": "54ab3210f4fceb57b5f9d550de61a4c9601657dff20942ed3777f0681a1e6e43",
+      "change_signals": [],
       "content_hash": "91bc28741d9282d6a93246339ee3fb4d612441511c25da08243b9662ee272035",
       "locator": "li:22",
       "mentioned_company_ids": [],
@@ -3482,6 +3947,7 @@
     },
     {
       "block_hash": "2238a6deca40cb8a79b4e3ba7f22b82c9bb247c748293323b326cea6166ca3f3",
+      "change_signals": [],
       "content_hash": "204a2ae70e74ba4cd815100b54c7e1ceaddd3a5ec5f0158ffaf4281456a30930",
       "locator": "p:1",
       "mentioned_company_ids": [],
@@ -3501,6 +3967,7 @@
     },
     {
       "block_hash": "ffec7af1d745f1efe1c6c021b0197895020e5eacc4927025678357161cb47fd6",
+      "change_signals": [],
       "content_hash": "204a2ae70e74ba4cd815100b54c7e1ceaddd3a5ec5f0158ffaf4281456a30930",
       "locator": "p:2",
       "mentioned_company_ids": [],
@@ -3524,6 +3991,7 @@
     },
     {
       "block_hash": "557e54ec9ac46e5b8e29306f015f8653d58a1f2f3344c4e820a695e5b9ff1f43",
+      "change_signals": [],
       "content_hash": "204a2ae70e74ba4cd815100b54c7e1ceaddd3a5ec5f0158ffaf4281456a30930",
       "locator": "p:3",
       "mentioned_company_ids": [],
@@ -3543,6 +4011,7 @@
     },
     {
       "block_hash": "efdb6b1597fe2de3bccef3c635a324c27124b073eb1252f98be1d828753544e9",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "li:19",
       "mentioned_company_ids": [],
@@ -3569,6 +4038,7 @@
     },
     {
       "block_hash": "005d5fa369ca6432cdf83bebebe61f5f0f243b68df173848490e482fcf632fe8",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "p:21",
       "mentioned_company_ids": [],
@@ -3586,6 +4056,7 @@
     },
     {
       "block_hash": "6fc83f534c4774677dc98e311f32a3141bead6084a316a9e09c9d41e56ad05e8",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "li:35",
       "mentioned_company_ids": [
@@ -3610,6 +4081,7 @@
     },
     {
       "block_hash": "3acef052fded41b4cfb75e5932fd444818e504f5b12ea65bb80f5bce4d122b3e",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "p:36",
       "mentioned_company_ids": [],
@@ -3626,6 +4098,7 @@
     },
     {
       "block_hash": "a3c609a2398a0f0a488bb0558d5db97be289ae70e19ed5efa174adda7e5cec68",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "p:37",
       "mentioned_company_ids": [],
@@ -3643,6 +4116,7 @@
     },
     {
       "block_hash": "c64ce91a598ec62cca9ca476d37e4ed95fe190b528290d9f56f735f4ae881c98",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "p:38",
       "mentioned_company_ids": [
@@ -3663,6 +4137,7 @@
     },
     {
       "block_hash": "f11ddb67cef59cfa48727353cbdcd7f302d747822c6252ca9b31244a8f5181ed",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "li:43",
       "mentioned_company_ids": [],
@@ -3684,6 +4159,7 @@
     },
     {
       "block_hash": "d5ae0d071ec2cd0b70136d651089d6d40be54ae2b36e880aa2f224c4f9f5aea3",
+      "change_signals": [],
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "locator": "li:49",
       "mentioned_company_ids": [],
@@ -3705,6 +4181,7 @@
     },
     {
       "block_hash": "fe0df03ad1547bc991562c6203864f995a9e5180fcce07ed87d7d1184ff8e48e",
+      "change_signals": [],
       "content_hash": "9f129a56d34a4241c671b0a2253c482187d2312e93855275b2a05c9c72cd1bd6",
       "locator": "h3:15",
       "mentioned_company_ids": [],
@@ -3722,6 +4199,7 @@
     },
     {
       "block_hash": "68cf7a7725443264a81b074daf26c71b209ed622acb2d0ac8aeef8c86510881e",
+      "change_signals": [],
       "content_hash": "9f129a56d34a4241c671b0a2253c482187d2312e93855275b2a05c9c72cd1bd6",
       "locator": "p:17",
       "mentioned_company_ids": [],
@@ -3739,7 +4217,29 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "79dff1b34dbdb6d75e34bfab1010729360322eab12b7757a6eed33636a93483f",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "9f129a56d34a4241c671b0a2253c482187d2312e93855275b2a05c9c72cd1bd6",
+      "locator": "p:27",
+      "mentioned_company_ids": [
+        "co-openai"
+      ],
+      "publisher_company_id": "co-openai",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-d94d7196c0b3c9fd49e5585c",
+      "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
+      "statement_id": "statement-78d94d0930c4c6a70c132f01",
+      "unresolved_mentions": [
+        "Visit OpenAI Academy"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "f2d1db20d79c2181cd062ec8f87e873ccd6e762018b49fafec178c1fa635118b",
+      "change_signals": [],
       "content_hash": "90b040c50d767f79ac3b1fdf9cd8ad9fa2d58f103efbd154e8e4382240e4c883",
       "locator": "p:8",
       "mentioned_company_ids": [],
@@ -3758,7 +4258,284 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "3fe3c84994fab01322bfadce205c6b96a221c4cd130584b0b932aa697283c962",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:1",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-79cd9e8acf98454a86ef959f",
+      "unresolved_mentions": [
+        "Costco",
+        "Uber Eats"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "a075d980c73f2bfd90114ba77ce24c66ea914ea3bf18ef2300f26270b98fa26d",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:2",
+      "mentioned_company_ids": [
+        "co-uber"
+      ],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-a7742fbca095a621309e97dc",
+      "unresolved_mentions": [
+        "BUSINESS WIRE",
+        "Costco",
+        "Inc",
+        "NYSE",
+        "Nearly",
+        "SAN FRANCISCO",
+        "U.S",
+        "UBER",
+        "Uber Eats",
+        "Uber Technologies"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "48686ae30109f98c95d671ed723ab52b9bceb4e7c3f026974ae3521c727443cd",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:3",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-542812bb91f9d2e71827755c",
+      "unresolved_mentions": [
+        "Costco",
+        "Uber Eats"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "ddbde8be17043ff6ece6d3d2e5ddb15b6512d061f1593b8513f503df6dc803eb",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:4",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-afdd3a2d8e9b3346f1d75ddf",
+      "unresolved_mentions": [
+        "Andrew Macdonald",
+        "Chief Operating Officer",
+        "Costco",
+        "President",
+        "Uber"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "7d7eff89519ee6afc1138b081fbcb54dc5949b30fab4512316332fa76cfabf70",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:6",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-c8c368c2f55958c364753379",
+      "unresolved_mentions": [
+        "Costco",
+        "U.S",
+        "Uber"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "cb804b193bdc62fc5c0156db74891b6e2e99db4807a3a423ea56e5903e062dfe",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:10",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-eb711bbcc8850d91f170a3df",
+      "unresolved_mentions": [
+        "Canada",
+        "Costco",
+        "France",
+        "Japan",
+        "Mexico",
+        "Spain",
+        "Taiwan",
+        "U.S",
+        "Uber",
+        "Uber Eats"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "e9d9e2bed646f87956ad8064775ef92801b1f9c03842379a2df9bce197bdee9b",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:12",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-43631d9cd393bb29b64a379e",
+      "unresolved_mentions": [
+        "Getting Costco",
+        "Uber Eats"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "aa38fcfa4ea528cf3b522591cbf6441a3319857301a937f6d9bdd130c0e5e626",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "li:16",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-29fe1fc3ca979a843946695f",
+      "unresolved_mentions": [
+        "Choose"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "5b700c1764e089efbf0f8c21b488b92355818c9b2560fa77252695ec21b3111e",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "li:17",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-2b8d5775000ce06a57cfa920",
+      "unresolved_mentions": [
+        "Track"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "5ae120520a76a918b608a44ebabb50cb9faf135df6fa72ad88fd9d9bb23fcabf",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:27",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-2f1c9422ea43ac8a61424d65",
+      "unresolved_mentions": [
+        "After",
+        "To",
+        "You"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "bab479c363d5c174b540560e4c7261514f3171b7f4b08b3d40ea2a05c8a3da3f",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:28",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-ca68080322f9623ed627c0d9",
+      "unresolved_mentions": [
+        "If",
+        "Unsubscribe",
+        "You"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "059dbf7a397775ec6c034defe552436648151acd172f6ebca94fadd3507cb517",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "p:29",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-dd69d498d2e9d94d410fb6e9",
+      "unresolved_mentions": [
+        "By",
+        "Uber Technologies Inc"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "27987f095cafe3bd33eaa39edbf7cfb9e1a1da8e6e0768fd75d413dcf869bb9c",
+      "change_signals": [],
+      "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
+      "locator": "li:36",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "investor.uber.com",
+      "reason": "bilateral_statement",
+      "relationship_ids": [],
+      "source_id": "source-3c64d85b296779a0af7546e9",
+      "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "statement_id": "statement-88f10c75e0c2ae3b782d22c9",
+      "unresolved_mentions": [],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "a42b0936de88adeb77889dc54c21b25800b3c9bbf713326be93219d1b0531667",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
+      "locator": "tr:37",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-amzn",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-0a28afeec714f335ffc0d3c2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
+      "statement_id": "statement-e05f592058967518abb19a3e",
+      "unresolved_mentions": [
+        "Exchange Act",
+        "If",
+        "Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "505f6fb775c7b023eb68a426827216a6dc091f5a21e802b0e73362b3052057a0",
+      "change_signals": [],
       "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
       "locator": "p:54",
       "mentioned_company_ids": [
@@ -3786,6 +4563,9 @@
     },
     {
       "block_hash": "eddf2df4d37a539b26a2b3183fe6d690f8e529c044c9f2a4526e59e170317eab",
+      "change_signals": [
+        "amendment_wording"
+      ],
       "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
       "locator": "p:55",
       "mentioned_company_ids": [],
@@ -3815,6 +4595,7 @@
     },
     {
       "block_hash": "29f323137610d8e50e269c9681db616daae8321a2c1496ed64d3f9653aaf6bc9",
+      "change_signals": [],
       "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
       "locator": "p:56",
       "mentioned_company_ids": [],
@@ -3836,6 +4617,7 @@
     },
     {
       "block_hash": "c6d41220ba67b59fdc35b53ded2c28bbe95b073af4bb9c71b12a19d112c21e26",
+      "change_signals": [],
       "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
       "locator": "tr:62",
       "mentioned_company_ids": [
@@ -3856,7 +4638,859 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "bee81a404ec4a717823c1e726ea4e65d5659cd18200eb718fc3ebbc103ca6e23",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:6",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-4099b65a7885efe220d9ea97",
+      "unresolved_mentions": [
+        "Agreement",
+        "Amie Thuener",
+        "Broadcom Inc",
+        "Company",
+        "Delaware",
+        "Effective Date",
+        "Executive",
+        "June",
+        "This Severance Benefit Agreement"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "f167f33b7c6daf0fb32d3a96a5f8f9fa97ec6b0bf8a592a9663af29f88cdf6c3",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:8",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-ff7a8411a555fc8994c2ce81",
+      "unresolved_mentions": [
+        "A.    The Compensation Committee",
+        "Board",
+        "Company",
+        "Compensation Committee",
+        "Directors",
+        "Executive",
+        "The Compensation Committee"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "6767885cc73b538f5302219dd4be7a251a4bc92ac85ae693551a4cf6f21902cd",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:11",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-015f2d30ea43808f2e9cc652",
+      "unresolved_mentions": [
+        "Agreement",
+        "D.    Unless",
+        "Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "2372cab5f85973e4bee12c3d3ea77f36ff8448ac06f22304e972a9d7684549d9",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:13",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-dcdaa1b1b9e94453ec439e86",
+      "unresolved_mentions": [
+        "Agreement",
+        "Effective Date",
+        "Term",
+        "This Agreement"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4fa4cf5b7ceca548172a7e36a6253ce671ca38565689ac031683373e1b210e97",
+      "change_signals": [
+        "termination_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:14",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-a9132b6e27a032362504b5fd",
+      "unresolved_mentions": [
+        "Agreement",
+        "At-Will Employment",
+        "Company",
+        "Executive",
+        "If Executive",
+        "The Company"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "1ad4e81ffa1136868e181a9358f1260805f3d0c3c5fc9375ec8d031b91afde41",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:15",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-7672aa50919c2d7d966c1006",
+      "unresolved_mentions": [
+        "Change",
+        "Control",
+        "Except",
+        "Executive"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4e2203dc3c7ce327994898dfe9e06080957df7f1604c5b92924d2d22024f1d60",
+      "change_signals": [
+        "completion_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:21",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "bilateral_statement",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-6902e49ad82aa7b1a82f4bcd",
+      "unresolved_mentions": [],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "02f5cf0f98fb69a56e5ff5d5af01dac9146d2d81db7bf5fb60c997aa3139796c",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:22",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-db6c557b8d81eeeeeca18745",
+      "unresolved_mentions": [
+        "Change",
+        "Claims",
+        "Company",
+        "Control Period",
+        "Covered Termination",
+        "Covered Termination Other Than During",
+        "Executive",
+        "If Executive",
+        "Release"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "1f4e68c13a5f4bdb52eceff5c0d7edd87760c4a4bab45727f41ca4bd37922927",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:24",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-69fede1980f779ce873e604f",
+      "unresolved_mentions": [
+        "After Broadcom",
+        "COBRA",
+        "Consolidated Omnibus Budget Reconciliation Act",
+        "Continued Healthcare",
+        "Executive",
+        "If Executive",
+        "Termination Date"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "f43318dff3d6855ad772e5ac1891b290e78f3d2b97e29ef438b617436817b183",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:25",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-38a6346c5be8eb2d6c5cb058",
+      "unresolved_mentions": [
+        "Change",
+        "Claims",
+        "Control Period",
+        "Covered Termination",
+        "Covered Termination During",
+        "Executive",
+        "If Executive",
+        "Release"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "b8a87030b230ce5cc235e07c8c2d6602d33a22ffd30d899033e24da3c55de3c6",
+      "change_signals": [
+        "termination_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:35",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-71015b478866daa3ffbd80b2",
+      "unresolved_mentions": [
+        "COBRA",
+        "Covered Termination",
+        "Executive",
+        "If Executive",
+        "Other Terminations"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "6709dec2857d240848487e62f6b1b321263faf9649b8182566a7603d5a470070",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:36",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-b4bd594a3cb83acb7d49e9be",
+      "unresolved_mentions": [
+        "Agreement",
+        "Change",
+        "Code",
+        "Code.  The",
+        "Control",
+        "Excise Tax",
+        "Executive",
+        "Internal Revenue Code",
+        "Limitation",
+        "Notwithstanding",
+        "Payment",
+        "Payments",
+        "Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "7757e76f007b464f933859d35a2b74d6cb5cfc617dbba5969d710e78cb89cbc0",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:43",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-98a07c94fc20e84457749467",
+      "unresolved_mentions": [
+        "Agreement",
+        "Definition",
+        "Terms"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "65e2a4fecb03683c20cad08c0f0826c73ce8eea0006c4198304b7f9c880ea547",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:44",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-1f07e9b6fbf97b01edf34027",
+      "unresolved_mentions": [
+        "Agreement",
+        "Board",
+        "Cause",
+        "Executive"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4e7458cf810e42ca34f03df56f184179e392ec0e079ee06a90634426189df986",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:46",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-51b4919e7f1328a7d714bacd",
+      "unresolved_mentions": [
+        "A",
+        "Company",
+        "Exchange Commission",
+        "Rule",
+        "Sections",
+        "Securities",
+        "Securities Exchange Act"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "06dff660fda94636bcd67ccd8edb14f16ad02fce4a0710f389320ca6953f9d37",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:47",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-1a775daa65b716d5fdf8c260",
+      "unresolved_mentions": [
+        "Board",
+        "Company",
+        "During",
+        "Sections"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "c373c0907c9365a94320232d938e85401563e72719a7c849eaa7f9478a7f7498",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:53",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-07a9222f57b42f56d6af1e25",
+      "unresolved_mentions": [
+        "Company"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4297a7fd35b2e40f156001accce789f53c7ad482a8a18244e48f58fdd917819f",
+      "change_signals": [
+        "termination_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:59",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-6a855618f866ad1c6338f244",
+      "unresolved_mentions": [
+        "Cause",
+        "Covered Termination",
+        "Executive",
+        "Good Reason",
+        "Separation",
+        "Service"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4ae759cdb02c4a9127715e79fa217c5ddb390e39a6449dd100f2c177918f6ffb",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:60",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-98202c25c35b35b8a174d238",
+      "unresolved_mentions": [
+        "A",
+        "Agreement",
+        "B",
+        "C",
+        "D",
+        "E",
+        "Executive",
+        "F",
+        "Good Reason"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "a1292d33a537fc03b68191d7df1785cabe12047bb2bc79fa13f7a49c0b76bed9",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:66",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-f8e082d39567082d93908d2e",
+      "unresolved_mentions": [
+        "Agreement",
+        "Cure Period",
+        "Executive",
+        "Good Reason",
+        "Notwithstanding"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "607958f1ec95de67130ec20f1e6dcf92a73ffa5c97e14c1abfd2d012517262c2",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:69",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-7c7fcf67df10b85f8932fb04",
+      "unresolved_mentions": [
+        "Agreement",
+        "Company",
+        "Except",
+        "Section",
+        "Sections",
+        "Successors"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "ae2d56811e896c136a5b5fe76f29a5f1d5e97333c58aa18764ee82bb3dd59de6",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:70",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-d8c1299605182196b521afed",
+      "unresolved_mentions": [
+        "Agreement",
+        "Executive",
+        "Successors"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4bbc88cccad67815553d6e513fe7b694cbad059b0db85be059b6deaad12276d7",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:71",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-607aac37dcf9363fa83545f4",
+      "unresolved_mentions": [
+        "Agreement",
+        "Company",
+        "Executive",
+        "Executive.  In",
+        "Federal Express",
+        "General Counsel",
+        "Notices"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "470034d3a2a18277c26d79243e78e457127285e10fa8cc57b7a6807cefa8c084",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:73",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-23e4c4cc96438f047685810e",
+      "unresolved_mentions": [
+        "Company",
+        "Confidential Information Agreement",
+        "Confidentiality",
+        "Executive"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "7c5b83b78b041b23b4b408b0f629fd69ac91c80302e7463641830a5f2114e3bd",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:74",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-1b48ec9dc2fe7b4b036861e5",
+      "unresolved_mentions": [
+        "Company",
+        "Executive",
+        "Non-Disparagement",
+        "The Company"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "55a6eae24a73f6bd118ea24f0e358d86b4130e19ed99bf3fc3ba7f7fe054421d",
+      "change_signals": [
+        "termination_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:81",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-c9f672014df47d6b631b4196",
+      "unresolved_mentions": [
+        "Agreement",
+        "By",
+        "California",
+        "Company",
+        "Court",
+        "Dispute Resolution",
+        "Executive",
+        "Inc",
+        "JAMS",
+        "Judicial Arbitration",
+        "Mediation Services",
+        "Nothing",
+        "Notwithstanding",
+        "Santa Clara County",
+        "To"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "b714cefbd652af2d1bece79be74f717d3588e72faeec3c8215022c0ad8f1ba2a",
+      "change_signals": [
+        "termination_wording"
+      ],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:84",
+      "mentioned_company_ids": [
+        "co-avgo"
+      ],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-e89733aa44be5acd1de824f2",
+      "unresolved_mentions": [
+        "Agreement",
+        "Code",
+        "Department",
+        "Executive",
+        "Notwithstanding",
+        "Section",
+        "Sections",
+        "Separation",
+        "Service",
+        "Service.  Any",
+        "Treasury"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "81f8f067a1a408cb50b8765c91d5f7f54cc20de95da4cc64235dfd2f673e8f6f",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:85",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-8875314aefd85d3b1c250f62",
+      "unresolved_mentions": [
+        "Agreement",
+        "B",
+        "Code",
+        "Executive",
+        "Notwithstanding",
+        "Section",
+        "Specified Employee"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "ce0b0d05d8f9db58b036353f8fee9d958257313f84656919cd9f5ad3908f551c",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:91",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-a5024a4263f766845a5c34b8",
+      "unresolved_mentions": [
+        "Agreement",
+        "B",
+        "Code",
+        "Code Section",
+        "Executive",
+        "Section",
+        "Separation",
+        "Service",
+        "Upon"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "c36bf05580b72c1953898ee543bd66153369a2bc5950953dcca84bc333fdbd50",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:92",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-54ea0fbae2fe6990e7b3c6fe",
+      "unresolved_mentions": [
+        "Agreement",
+        "Code",
+        "December",
+        "Executive",
+        "Expense Reimbursements",
+        "Section",
+        "To"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "442eb1d8cef8a8a8f635d0925128c22c533adfb104197a10b103845558e5857b",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:93",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-d3e0929b6adcf4dbbe5c0519",
+      "unresolved_mentions": [
+        "Agreement",
+        "Code",
+        "Executive",
+        "Installments",
+        "Section",
+        "Treasury Regulation Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "497894bc6a6fcb3ecead56ebfbdbd0c74cb5d000ff1816386a8443d25c2a8f80",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:94",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-1a5733fbce07ffaf1b7260c2",
+      "unresolved_mentions": [
+        "Agreement",
+        "Company",
+        "Executive",
+        "No",
+        "Waiver"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "72b0813d4a1654289eb1a6e6caad47e86069103b5ff9e8723d31cf5a334253a7",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:95",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-7cc266678a07715b3bc36fc9",
+      "unresolved_mentions": [
+        "Confidential Information Agreement",
+        "Executive",
+        "This Agreement",
+        "Whole Agreement"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "de608b7959d98c15372ed18edc5a91bbc9e3bcc3a8a9e4aaf9c6869c38518ec4",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:96",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-82defc7682046eb91734015f",
+      "unresolved_mentions": [
+        "Agreement",
+        "California",
+        "Choice",
+        "Law",
+        "State"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "65e340415dafec32c0c76ba1e0a68e46c50ee9c1d2cb121c7415f5a2a18f02d5",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:97",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-371665758e356d3aedede437",
+      "unresolved_mentions": [
+        "Agreement",
+        "Severability"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "a6f1ad19fbd6d4103adf7786533695b57e79a6f1254044297fb4119973fdd438",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:98",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-027c700629d58ac6ce6eea72",
+      "unresolved_mentions": [
+        "Counterparts",
+        "This Agreement"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "4cbf2eee03574ea987cb48a7b6361f4f10187bd21b3d4c07f96e836ef563972d",
+      "change_signals": [],
+      "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
+      "locator": "sec-div:106",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cef4bdd2d5e52c1a15f97679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/ex101severancebenefitagree.htm",
+      "statement_id": "statement-2eaa481bc816105872f53b84",
+      "unresolved_mentions": [
+        "Company",
+        "IN WITNESS WHEREOF",
+        "Severance Benefit Agreement"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "c0250d143381784be605bad626ffe5239bc0a6fb775742e9105ec115c3b89f82",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:80",
       "mentioned_company_ids": [],
@@ -3873,6 +5507,7 @@
     },
     {
       "block_hash": "ef2a3ae84c6004e999034fbe29d6a742cb5db20bcbaa03eb49497ed5bd3a1e86",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:86",
       "mentioned_company_ids": [],
@@ -3889,6 +5524,7 @@
     },
     {
       "block_hash": "d9196c41525baa1fe194295cb9c3b0d96a4096dfc8af8620ad1d5987aa9f5807",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:123",
       "mentioned_company_ids": [],
@@ -3905,6 +5541,7 @@
     },
     {
       "block_hash": "5926864e4c229a84da79dec53e907978f779b41c013a9032fc498dc9dbfd28de",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:131",
       "mentioned_company_ids": [],
@@ -3921,6 +5558,7 @@
     },
     {
       "block_hash": "5749c22b87a8cfafeb5cff57ccf6955ffa3c666d1b7b7d21874b3746a7a0c758",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:134",
       "mentioned_company_ids": [],
@@ -3937,6 +5575,7 @@
     },
     {
       "block_hash": "8f90c8881c19130ecf76085d269d8f0217671cdca3fca805ea5c5503bd875e9f",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:135",
       "mentioned_company_ids": [],
@@ -3953,6 +5592,7 @@
     },
     {
       "block_hash": "5137d5befdc8a42021a363130e516cfa50df9456f83c1bdd05e8eb497d229151",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:137",
       "mentioned_company_ids": [],
@@ -3969,6 +5609,7 @@
     },
     {
       "block_hash": "d49317c18b7ce7469976d67606369ddca9f3e72b979944bd67c95d4c3b6adaff",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:443",
       "mentioned_company_ids": [],
@@ -3985,6 +5626,7 @@
     },
     {
       "block_hash": "c41e04c57e49cccd7e4312e9c2115b6646c2b48024efc44366f60ff203b24786",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:445",
       "mentioned_company_ids": [],
@@ -4001,6 +5643,7 @@
     },
     {
       "block_hash": "84b4bd68db5ef8f85d93f6b51665f526a518c570571a4027112d3281f8afc641",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:467",
       "mentioned_company_ids": [],
@@ -4017,6 +5660,7 @@
     },
     {
       "block_hash": "01e303ad9812b7730f247f7dff3425e308cf1ef81ac0343ba4c892125c7bd951",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:473",
       "mentioned_company_ids": [],
@@ -4033,6 +5677,7 @@
     },
     {
       "block_hash": "46da5afb7006d9302a2380ec3e4e5fd06d52874941502fe30330107395a6ced9",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:488",
       "mentioned_company_ids": [],
@@ -4049,6 +5694,7 @@
     },
     {
       "block_hash": "91a23c56e7d02336129c9425c949cd4bf43bdddc49e38bc0851128cde700510a",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:494",
       "mentioned_company_ids": [],
@@ -4065,6 +5711,7 @@
     },
     {
       "block_hash": "43c31fb02ef44bae9b59876a7af32b170e474f61db207929691e4211d50e7225",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:534",
       "mentioned_company_ids": [],
@@ -4081,10 +5728,12 @@
     },
     {
       "block_hash": "5e75a88cf934ddfc05efb382449bd50af4d894f559b6c5bd268263234b305057",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:539",
       "mentioned_company_ids": [
-        "co-avgo"
+        "co-avgo",
+        "co-vmware"
       ],
       "publisher_company_id": "co-avgo",
       "reason": "unresolved_mentions",
@@ -4102,14 +5751,57 @@
         "May",
         "Merger",
         "Plan",
-        "VMware",
         "Verona Holdco",
         "Verona Merger Sub"
       ],
       "verification": "needs_review"
     },
     {
+      "block_hash": "b103443c6775c24e53c3e8c80184eb890122688bdf98193590d9806871217c23",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
+      "locator": "tr:540",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "statement_id": "statement-3b9f4398155d0263d1f2b859",
+      "unresolved_mentions": [
+        "Amended",
+        "Incorporation",
+        "Q",
+        "Restated Certificate"
+      ],
+      "verification": "needs_review"
+    },
+    {
+      "block_hash": "930aedbdef3c1417dbdcc26d540bf92095849cbbb4ab5b71c9d123bfea855963",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
+      "locator": "tr:541",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "statement_id": "statement-7b604775713512b06f99f268",
+      "unresolved_mentions": [
+        "Amended",
+        "K12B",
+        "Restated Bylaws"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "b9c236bb21cca6b4af207da310c739b9617dc4454a75d6008097806a89b2da8d",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:545",
       "mentioned_company_ids": [],
@@ -4130,6 +5822,7 @@
     },
     {
       "block_hash": "998eb3f40b97a04d8149ad74de1f1e0852c995a519e939ff90776c0993206799",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:546",
       "mentioned_company_ids": [],
@@ -4149,6 +5842,7 @@
     },
     {
       "block_hash": "baffb5d35f0c8907c778dfc41338ccb80543ba758de845e5a67ea80f34b79bde",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:548",
       "mentioned_company_ids": [],
@@ -4169,6 +5863,7 @@
     },
     {
       "block_hash": "c0711e12f47cd87cf03225b7bd9429886922464e26e853afbbb9d84bf5c2fc9e",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:549",
       "mentioned_company_ids": [],
@@ -4189,6 +5884,7 @@
     },
     {
       "block_hash": "9a127878e59db1760933e0b9a770d07b8266703dcee4a16620ce041f2a06ea43",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:571",
       "mentioned_company_ids": [],
@@ -4210,6 +5906,7 @@
     },
     {
       "block_hash": "b9f13be3b93b03f68cad1d7e7fdf332e7af4b4b654e86c5174bd6a6a25e4675f",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:579",
       "mentioned_company_ids": [],
@@ -4234,6 +5931,7 @@
     },
     {
       "block_hash": "44e1828482226b7048de00159630f2962afd592b3cbb7a152ed7f6007e9ef1b2",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:581",
       "mentioned_company_ids": [],
@@ -4255,6 +5953,7 @@
     },
     {
       "block_hash": "fd1fb0c6562a1eeb9c4a5634f680715ae94ef7194256d635242c000e35b77d4a",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:585",
       "mentioned_company_ids": [],
@@ -4276,6 +5975,7 @@
     },
     {
       "block_hash": "07ae7ac6cf45608d9a08c41ebb8fd7705d88030d25cca7e0fc503d3740260a33",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:589",
       "mentioned_company_ids": [],
@@ -4297,6 +5997,7 @@
     },
     {
       "block_hash": "02535a28c68cf7bbb162e7dbeb2c19a1fa543923d3a822b6e8865a15e368da4a",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:593",
       "mentioned_company_ids": [],
@@ -4318,6 +6019,7 @@
     },
     {
       "block_hash": "5df9da57eadaaad241cd054bf6b1f7ec8733b68c8454b6144f7e65ec31f8c981",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:597",
       "mentioned_company_ids": [],
@@ -4339,6 +6041,7 @@
     },
     {
       "block_hash": "68f7fab92f50afeb6291d76cefb20b87865db4ebdd42901cd7fedd32544fd915",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:601",
       "mentioned_company_ids": [],
@@ -4360,6 +6063,7 @@
     },
     {
       "block_hash": "d62bb723e98b1e19082043b72fd9ec781d6950eafcecc01766217004296df6bc",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:606",
       "mentioned_company_ids": [
@@ -4381,6 +6085,7 @@
     },
     {
       "block_hash": "a5a2493c1158b9f6f8cd16c47e56f27d320c65aca68b824a52ca1eccd943446c",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:607",
       "mentioned_company_ids": [],
@@ -4403,6 +6108,7 @@
     },
     {
       "block_hash": "fbca84233368ff5a6c0e6e9c88e0c567664b83ecf99aa4f31fff06c72dc8f587",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:608",
       "mentioned_company_ids": [],
@@ -4425,6 +6131,7 @@
     },
     {
       "block_hash": "08261de679e89545f59c731725ee8298bce0df6f11aac4419072a97907abb0fc",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:609",
       "mentioned_company_ids": [],
@@ -4446,6 +6153,7 @@
     },
     {
       "block_hash": "3795478fda69547a043c42946874cc52a377248c90263922212734c30585aa61",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:610",
       "mentioned_company_ids": [],
@@ -4466,7 +6174,29 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "eefc202e57e56ba7cf9d064835c0868c6ea6ad9bdd0a669b5228a2d72dadb065",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
+      "locator": "sec-div:27",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "statement_id": "statement-6b0a4b136957f005747c5e9c",
+      "unresolved_mentions": [
+        "Exchange Act",
+        "If",
+        "Section"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "401d20fd0fed20ac584d8365f65462ef8c9e70b902ee5e35288f8dcd9f0dc6a4",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:219",
       "mentioned_company_ids": [
@@ -4490,6 +6220,7 @@
     },
     {
       "block_hash": "6d4d4755cf4b4b1c4a7fd2288baaeb63e6bc55b16ee864c5723a463e72dbc716",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:235",
       "mentioned_company_ids": [],
@@ -4507,6 +6238,7 @@
     },
     {
       "block_hash": "3d5108a57b3f02ea50483bf37a4f3e586256cb051806733a0600d8b514ad5a67",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:239",
       "mentioned_company_ids": [],
@@ -4526,6 +6258,7 @@
     },
     {
       "block_hash": "1a7ef500fb3541dbf88636eb8e447d883209602ce746a4682a49ba5187203c7a",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:251",
       "mentioned_company_ids": [],
@@ -4544,6 +6277,7 @@
     },
     {
       "block_hash": "0f68b9341217343f136f35fc93c3a32e036383af08ee323eac3158de53ae4662",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:405",
       "mentioned_company_ids": [],
@@ -4560,6 +6294,9 @@
     },
     {
       "block_hash": "ffc3e8df072f11c300ec542c5e271e33f99ee763ef1bf39e0817983221da9070",
+      "change_signals": [
+        "termination_wording"
+      ],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:407",
       "mentioned_company_ids": [],
@@ -4580,7 +6317,33 @@
       "verification": "needs_review"
     },
     {
+      "block_hash": "6b56425441c7ab40630a32c8c392145f90386f998ac9d8f8addab5a4f977873e",
+      "change_signals": [
+        "amendment_wording"
+      ],
+      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
+      "locator": "sec-div:424",
+      "mentioned_company_ids": [],
+      "publisher_company_id": "co-avgo",
+      "reason": "unresolved_mentions",
+      "relationship_ids": [],
+      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "statement_id": "statement-bc546bbca1caa52825f36b29",
+      "unresolved_mentions": [
+        "August",
+        "Board",
+        "December",
+        "Directors",
+        "During",
+        "In April",
+        "In March"
+      ],
+      "verification": "needs_review"
+    },
+    {
       "block_hash": "edb4b4a94381f4de18b2a0f681f5bc67416959ee5400f9d6dacd2ffc3dd242ae",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:451",
       "mentioned_company_ids": [],
@@ -4607,6 +6370,7 @@
     },
     {
       "block_hash": "2fe0423d56eab9bc68b904df729da91a1021cfb084eb150ada9f8b59cf209fdc",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:468",
       "mentioned_company_ids": [],
@@ -4624,6 +6388,7 @@
     },
     {
       "block_hash": "ed42db04d49b2d6aa6ecbe144524772f6529564306972b73f14c303b76983542",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:469",
       "mentioned_company_ids": [],
@@ -4641,6 +6406,7 @@
     },
     {
       "block_hash": "bcc9221233a9993b9366207390292bc14dea909ddc56fbfa82c7a9db81f1e6b8",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:472",
       "mentioned_company_ids": [],
@@ -4658,6 +6424,7 @@
     },
     {
       "block_hash": "c3dbbcf7214b99d71a29d139849282725905369ebf56f5b0567b4abe66e3aa3c",
+      "change_signals": [],
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "sec-div:473",
       "mentioned_company_ids": [],
@@ -4670,1207 +6437,6 @@
       "unresolved_mentions": [
         "Backstop",
         "Remedies"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "f71267a2a4302401652c763e15c1e7554f81a0ff2ebe7a689b34a8d374149d65",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:476",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-61598ed91510f6522037ea6e",
-      "unresolved_mentions": [
-        "August"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "f3c0ad3829d2158af61769282b229a9f8232bc644d3a1db3f4d122a6197da9a8",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:483",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-1444efaf63136d3233079f16",
-      "unresolved_mentions": [
-        "From",
-        "IP",
-        "IP. Claims",
-        "Legal",
-        "Moreover",
-        "Regardless"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "716c3a3a94013c07ffac745bfaaee5029d23190221e7b2105b9f33188adeef4f",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:485",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-039e6c07b25ed683f5262384",
-      "unresolved_mentions": [
-        "Any",
-        "From",
-        "However",
-        "IP"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "14e31f5300a5e53d36165a1da5fad5d8b1b0414181c054496d06756f723eeac2",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:486",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-4c3aad6630865d47cc4047ce",
-      "unresolved_mentions": [
-        "During",
-        "There"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "02afcf879cdcff2b9565e516d10303d1836be494d34ca6da282c063320b8c4ce",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:488",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-ea152c426bb94be84c3a5160",
-      "unresolved_mentions": [
-        "From",
-        "IP",
-        "U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "cf6209c37ed48d1df487b8aca28809d229aa35147ca6fa7a4b54c06c5376cbd9",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:500",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-c40c5b2ea329f7ad2244c54c",
-      "unresolved_mentions": [
-        "Accordingly",
-        "Analysis",
-        "Annual Report",
-        "Discussion",
-        "Exchange Commission",
-        "Financial Condition",
-        "Form",
-        "Forward-looking",
-        "Item",
-        "K",
-        "Material",
-        "November",
-        "Operations",
-        "Part II",
-        "Q",
-        "Quarterly Report",
-        "Results",
-        "Risk Factors",
-        "SEC",
-        "Securities",
-        "Such",
-        "This Form",
-        "This Management",
-        "While"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "5e6cf7be58fbc50fb2943c12ddab68f4cad1151290b6acc14f759e2e5cad8dda",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:504",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-67fac73475bc901a9a8e0f6a",
-      "unresolved_mentions": [
-        "FC SAN",
-        "III-V"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "16ed69b80bfba290a3882dc4074f06a6de7c897a53b0f9c0fc67f2c09d114854",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:518",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-5db4951f0b86502e95816d4f",
-      "unresolved_mentions": [
-        "AI XPV",
-        "The AI XPV",
-        "Through",
-        "Where",
-        "XPU-based",
-        "XPUs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "92d3ce6fd76b04a144b51d7185f870c9dfae249e9ec8a27d6212e1bc179d12ad",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:519",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-b5710db008216b808dc7f242",
-      "unresolved_mentions": [
-        "AI XPV",
-        "In June",
-        "Pursuant"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b6ab9b6b0aa32b963808910ea6b56ed57522cf04f7df1c1c8fcba2ad1f455235",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:520",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-0188aa85c03281662882a1dc",
-      "unresolved_mentions": [
-        "Backstop",
-        "Remedies"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "65252d8825e8fd7479be765ab8d45f3d807c52d945de8899ef7873aca0ee1071",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:528",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-ce05d56d020d6914de558328",
-      "unresolved_mentions": [
-        "U.S",
-        "While"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "566d9b1987ea3c9c7f161c26ac2c1a66459ec396934d3c116a62ece417769d0a",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:534",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-b59393ddd966fa0808be38f5",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "5685c25d841251d8731ac23e28b5c713b8e6ed3c9923e831e11c7ab4a7811639",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:606",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-0ea9d4cf15128a4388ffe1be",
-      "unresolved_mentions": [
-        "August",
-        "Unallocated"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "d62fe330180acc0bbbcda58552141e87cf4182a086a82b1f3bc506de5daba503",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:614",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-4293c7ca4589c5a8b204acc5",
-      "unresolved_mentions": [
-        "August",
-        "Inc",
-        "Inflation Reduction Act",
-        "Other",
-        "VMware"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "70715ad0f086dcfa114cd3fbb66da426b021f43e1f6119a4da3dd85e61cc7533",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:618",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-acbe80fa27b0cc79c86a40a3",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "d610d8868c3035d361e0057040fdc06078bfc377ea97dfe174d667448e243f2d",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:620",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-2d766a61c30d3d19fc5b4a58",
-      "unresolved_mentions": [
-        "Board",
-        "Directors"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "d5d47a2e5bd6ea2a27a449634a63f8719043cac6278fbf38ce9154349c359db0",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:622",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-883a90955b32d3bd97d4f3ab",
-      "unresolved_mentions": [
-        "Any",
-        "From",
-        "If"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "7e53425118bc2b1765ffc3712085b35b7fdfa9157bc39c80d1bc50e188398c67",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:646",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-c149eed940add95262407959",
-      "unresolved_mentions": [
-        "August",
-        "Cash"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "e51c76d313d4b428836bb179f072baf494ce54ed30ede41a7d508aad74659ccf",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:673",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-74d5929a79186bfeac09d567",
-      "unresolved_mentions": [
-        "SEC"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "913adfba91e51d63a455044fceb4a5bfc67abe4ffc7faaf49035594b47a49750",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:685",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-ef722a84f1b1b16a10ac6723",
-      "unresolved_mentions": [
-        "A"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "311ba30ffab37bb58008d4efd1c02daa7e370c8aa8378e405268a77a5b9e81ee",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:686",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-371fbff0c0d430c5d4989aa6",
-      "unresolved_mentions": [
-        "Dependence"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "8ddb7d64261c0d6814392d58e70dd089a8192edb69d73cb8b233b6c8371a1235",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:687",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-bdc1cb570d9edbe4518930e6",
-      "unresolved_mentions": [
-        "Winning"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "7bb345ad322cfd820ff206d0a6dd62154aa0cd97d1b868237b4a2e44d33d61e0",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:691",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-44659afbb6db61a2244a5f3f",
-      "unresolved_mentions": [
-        "A"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "a686334bbf143bbe3d707d68f98367864ef24e774a6098b42d3529ca0f6b40ed",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:693",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-b2ce50216d23960fd6abb274",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "3679ebfbe94b6e539b456f4da2d396ce822d9e07763283dcfff037bfe9545a9c",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:697",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-a0306eb789efb4c96e2c447f",
-      "unresolved_mentions": [
-        "Failure"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "61f538615799691a3b966074aace425602fbd8d386fed596844ea58f85ea6345",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:702",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-c1e814f4612d368a5895d29e",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "408673bccd937a7162315dc89c1ce1347a5f2b2b3a24f1ed2d6f275bd500ed6e",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:708",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-4a2f8012fd0a00b2c4446158",
-      "unresolved_mentions": [
-        "Corporate"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "fa584e87af3e757676a3ea1d35bf16d9670345d29bbb7c761e27c5e0d7f7c59f",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:729",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-7fea4588fc088d996122ac90",
-      "unresolved_mentions": [
-        "A",
-        "Adverse",
-        "An",
-        "Macroeconomic",
-        "U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "2b974967e7bb45fccd7ddaa4e059a4c2be5fff1170e14d79e5a76fd3a3e04f40",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:730",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-cd41ad045106d5dc7f7fded5",
-      "unresolved_mentions": [
-        "Any",
-        "China",
-        "Middle East",
-        "Such",
-        "Sustained",
-        "U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "cc8707306eaf2b866d2161f8684adce32c83cccec62c91c2f3268dd283b4e017",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:732",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-72246f74c5efa3bd1056f319",
-      "unresolved_mentions": [
-        "The U.S",
-        "U.S. Export Administration Regulations"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b753e3b4f62a35aebe12e6806b11c93c374fe21e70edbfa206ceac5bcab799f0",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:738",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-5c304f3aa7e2b42c32127682",
-      "unresolved_mentions": [
-        "Furthermore",
-        "U.S",
-        "Uncertainty"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "272dab7b65118d3f73c1fd220279fda48acf2cae3eb012568f71a007dcb1b788",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:739",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-7e6d004b850bd9fd28ec03ec",
-      "unresolved_mentions": [
-        "European Union",
-        "If",
-        "Involvement",
-        "Japan",
-        "Korea",
-        "U.S",
-        "U.S. Federal Trade Commission. We"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "4f530ca43c38b501526550ccbeb6117beccb4be847609b937236462027d2c593",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:743",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-0b16251d729ca7a44e3cb913",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "2eae4e9af9f87c5a2b99e1ea56bf11ed21e104ced0a90ab3d060e296dcdd53c1",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:751",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-f4d7e28d797b4a26dcbb5182",
-      "unresolved_mentions": [
-        "If",
-        "While U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "ad460a4c72c374542685c7eddd1f2713aec1f5f0f64aed777e6ac3ec9cd04f0d",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:759",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-3588b0579a894ff2ed2ad3a3",
-      "unresolved_mentions": [
-        "AI XPV",
-        "If"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "97655eb0d6ec4fa4d2928f2acd4f8dac5377b252ace733a68c3434cff8c10976",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:761",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-2fcbb6c9a9431921f30d004f",
-      "unresolved_mentions": [
-        "August",
-        "CMs",
-        "OEMs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "1c2558f16a652f924cb261497fda6223eb14994d892d6e430ed98f6a958fb677",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:762",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-24c0cc350ab42cc1b6b99bf8",
-      "unresolved_mentions": [
-        "AI XPV",
-        "Moreover",
-        "When",
-        "XPUs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "571da15966908bc5f596a5897970e8019a0543cf86e44cb9056a272420c234cf",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:763",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-2444f07c84b127525b5a3922",
-      "unresolved_mentions": [
-        "A"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "1fc20643cd4bcd4bdf4251956383cf06dc327d825263fa00a08e7113c91e6087",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:764",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-5cbc2c39a8b4b7957e833aec",
-      "unresolved_mentions": [
-        "AI-generated",
-        "AI-related",
-        "Failure",
-        "To",
-        "XPUs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "81d16cb338a111b46795b7c91c904ee4bcf078914f630eac618e4776d3bdc25b",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:765",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-afab5447fe392ab614c2aaa3",
-      "unresolved_mentions": [
-        "If"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "6c61609600239879c46b03da0afadb7a65dbb30de62e137065ffa684e7210bc5",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:771",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-6a915c1f9f312cb242a3314f",
-      "unresolved_mentions": [
-        "AI-related",
-        "Slow",
-        "To",
-        "XPUs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "7c2800b480fdf5fa9110dc1ad23520fd9a0966a3183342129d74924a11ea70ce",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:772",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-f8987e6ec4a7d8045db556db",
-      "unresolved_mentions": [
-        "Dependence"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "cd7e98f5020d284454d38b2ffee9445c8b21d054125a1c660bdedcd0e46a2195",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:773",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-2513068397ef3929b1d38fcf",
-      "unresolved_mentions": [
-        "CM",
-        "CM. Qualifying",
-        "CMs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "46e007d97bc954ba0247e64ce652a13d612276034e620709b67f9265f4520baa",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:774",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-22b034ac9e3a2f0928bc4a40",
-      "unresolved_mentions": [
-        "CMs",
-        "Further",
-        "Our CMs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b1351ba1b79553a83df7e547959158cb70cf66c6b182ef0b9667e5529fccf78b",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:775",
-      "mentioned_company_ids": [
-        "co-tsmc"
-      ],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-632ad270e4c6d8c7b85fb919",
-      "unresolved_mentions": [
-        "August",
-        "CMs",
-        "During",
-        "However",
-        "Taiwan Semiconductor Manufacturing Company Limited"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "0f8f21f830783215635ebf8a17db8a71949d34f44b1aa18a5604e1738b6a5630",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:777",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-fb4e80beeed9640c7f4353ec",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "c9cee77ee2441bda15ddbb21839336629da5f4d0e1fa50d954c202db90195a37",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:778",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-a0eb902b88c936a930146e8c",
-      "unresolved_mentions": [
-        "Additionally",
-        "Any",
-        "August",
-        "CMs",
-        "China",
-        "During",
-        "If",
-        "InP",
-        "Suppliers",
-        "U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "c6b6bb23752ddf1f7f6748d44117a58bf76837cae78c165dd8f742f69e3ac4e4",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:784",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-6bdcea55d8b3f93b7269939f",
-      "unresolved_mentions": [
-        "Winning"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "757f7f5f9f8b835bb7b1d7274507ec5a7ae4bf78749d038b9d437c02da33d0b2",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:788",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-aac0b89c27f36e57698dafa0",
-      "unresolved_mentions": [
-        "Failure"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "23607143ae305fb0432e02e530a5a0900b8b27c7217b2b48977349dce319f741",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:789",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-4939442f52c849253b0fcdc7",
-      "unresolved_mentions": [
-        "AI-related",
-        "America Act",
-        "CMs",
-        "If",
-        "Many",
-        "Produce Semiconductors",
-        "The Creating Helpful Incentives",
-        "XPUs"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "49110a6b5b6e0e107ead894c82c1abdad316033e888e7637a960f5c29ecf51e3",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:792",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-7c487cda28ed47f8d210a526",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "49242bc84413b045bf48d936e6ddcbe1de89acaf05406146fcdb39e33dcc5478",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:793",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-59b44ec7345460294d21961d",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "100787940c0177d5c9e51f163cd4a09b6e8913e9a9bedbb769bf5085f5c51c8a",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:801",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-671a4bb3e633be9e5a8d8fa7",
-      "unresolved_mentions": [
-        "Although",
-        "Any",
-        "HR",
-        "IT"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "8a1cb894307794643dcb58c594f3f373a75fe33e8fdf55ed3782c0c722132bf1",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:803",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-b7215b949e47b4972a92c726",
-      "unresolved_mentions": [
-        "Geopolitical"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "250d69d7808f3f8694094238368e83d29fdbc97c46d58c12de6d7e478eb08670",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:804",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-a43d4c565ec63f3a55101284",
-      "unresolved_mentions": [
-        "Accidental",
-        "Such",
-        "While"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "f37d1faf02d6d3f3a634ba4c78a151ac229f55cadc968f3b9836ea9f7cb34213",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:805",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-93271b6c31fd1721cf702ce7",
-      "unresolved_mentions": [
-        "Although",
-        "Businesses",
-        "Despite",
-        "IT"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "50a34e44ba3aebc9d1e8526c487cdea5f0efc020a3a0f06611bd03cdebc8edff",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:811",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-50b629f0dd47a1be1e3de9ee",
-      "unresolved_mentions": [
-        "IT"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "66673e190be2ff5757790360a775081347b090cab51d441d3da579976d5d8a53",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:812",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-6cf47010558b1b52290d0975",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "766dc65c70e6276fd995e548dcc33535fca3cf5f066252f9a118b0944cb37b22",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:816",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-c3f9bbf693a8a268135e78e2",
-      "unresolved_mentions": [
-        "A"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "09e65dc9d97911c8eec5991acf30f1dbde6df106fc62b2238dc13f687613d078",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:817",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-cae6acb12202cc78da701c1d",
-      "unresolved_mentions": [
-        "Although",
-        "Breinigsville",
-        "CMs",
-        "California",
-        "Colorado",
-        "FBAR",
-        "Fort Collins",
-        "InP-based",
-        "India",
-        "Malaysia",
-        "Many",
-        "Pacific Rim",
-        "Pennsylvania. Our Fort Collins",
-        "Singapore",
-        "U.S"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "d391ad34c12b53d89cb58455f9e4ebb08b164d377665bdeb7887b5648e2390e4",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:818",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-7f2acec59c515b74867ed898",
-      "unresolved_mentions": [
-        "A",
-        "CMs",
-        "However",
-        "To"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "ae07cab9398cb287c9f97917b1ae546a089efd7668e1bec71cd38739bd3a1b4c",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:825",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-6328fc33122d681bde130260",
-      "unresolved_mentions": [
-        "Conversely",
-        "From",
-        "Similarly"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "98d97b1f3f7aa5e0c7dc4c75d8200ef79eaa0d9c83331ccd15b6dd020f4c688b",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:826",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-3234f653000a6e9afe66fbd5",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "a1d6d5d5a2c3d727510705f8480490da584c713ba24f12b09e72256021aa27f9",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:827",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-d5788cb1c3b07dec4448de2d",
-      "unresolved_mentions": [
-        "August",
-        "Sales"
-      ],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "cecf8ef977faf843c6aff2853acbf0e289f8fc635e087f51fc12a532e270edfc",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:828",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-aa75d74203024ab23b1ea431",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b86ab57e3ef24457ce2408935f8fc5b796ceee993151c3fbcf643b8e617b66c6",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:829",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-f1e4cb5ec994e17c8c10edaa",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b1e2604b07a4813de4581b0f5c3a51703a0d45b177e5143744c3d8ed7f7f501c",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:830",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "bilateral_statement",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-1b4c4550f7302ad55faa2e33",
-      "unresolved_mentions": [],
-      "verification": "needs_review"
-    },
-    {
-      "block_hash": "b02f42f5e3f1af2e8a5f1c13edbfd0845dc18d16c82c733782aee8321c49d26b",
-      "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
-      "locator": "sec-div:831",
-      "mentioned_company_ids": [],
-      "publisher_company_id": "co-avgo",
-      "reason": "unresolved_mentions",
-      "relationship_ids": [],
-      "source_id": "source-cb648fc9cc715c1fec6a6e6f",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "statement_id": "statement-09e0183726851cc261b18161",
-      "unresolved_mentions": [
-        "Failure"
       ],
       "verification": "needs_review"
     }

@@ -1,0 +1,15 @@
+{
+  "approved_data_hash": "2f6a8218d083c79d7873c0736682b5ffa19fc9aadc065a072a4b9b1e8dec00d6",
+  "counts": {
+    "companies": 91,
+    "events": 142,
+    "evidence": 255,
+    "relationships": 122,
+    "sources": 85
+  },
+  "deployment_authorized": false,
+  "reason": "Added ten source-bound large-cap relationships and corrected the 2024 Amazon Anthropic investment with paid and planned amounts separated. Reviewed currencies, legal counterparties and historical contract status. Local release only.",
+  "review_id": "release-2f6a8218d083c79d7873c073",
+  "reviewed_at": "2026-09-26T08:20:09+00:00",
+  "reviewer": "Codex primary-source review; no human approval claimed"
+}

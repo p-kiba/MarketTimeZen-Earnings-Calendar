@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from .state import digest
 from .http import Unsupported
 
-VERSION='rules-1.7'
+VERSION='rules-1.8'
 
 def parse_pdf(raw):
     """Text PDFs only; retain one-based page locators for manual evidence review."""
@@ -73,6 +73,12 @@ def parse_document(raw,content_type='text/html'):
     for index,el in enumerate(soup.select('span[data-rg-n="BodyText"]')):
         text=' '.join(el.stripped_strings)
         if text:blocks.append({'locator':f'aws-card:{index}','text':text})
+    # JPMorgan's article tag can be a side panel. Keep its legacy locators and
+    # append the actual AEM text blocks rather than pinning sidebar teasers.
+    if soup.select_one('article.cmp-article-side-panel-container'):
+        for index,el in enumerate(soup.select('.cmp-text p, .cmp-text li')):
+            text=' '.join(el.stripped_strings)
+            if text:blocks.append({'locator':f'aem-text:{index}','text':text})
     if not blocks:
         text=' '.join(root.stripped_strings)
         if len(text)<80:raise Unsupported('No readable text; image or JavaScript-only document')

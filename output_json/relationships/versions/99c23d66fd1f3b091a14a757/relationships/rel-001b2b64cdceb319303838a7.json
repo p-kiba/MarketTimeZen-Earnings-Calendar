@@ -1,0 +1,467 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-e815af84d0c8f0e357dd25a0",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "max_value": null,
+          "min_value": "2800000000",
+          "original_text": "$2.8 billion",
+          "payee_company_ids": [
+            "co-msft"
+          ],
+          "payer_company_ids": [
+            "co-lseg"
+          ],
+          "qualifier": "at_least",
+          "scope": "契約期間中の最低クラウド関連支出。上限・確定総額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-12-12",
+      "conditions": "別途発表されたMicrosoftによるLSEG株式約4%の取得とは区別。クラウド最低支出を株式取得額へ転用しない。",
+      "deal_id": "deal-1fd73c8d5298466790456fda",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-1fd73c8d5298466790456fda",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1fd73c8d5298466790456fda",
+        "evidence-ab51c6b40e4b8fa278b78d9b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1fd73c8d5298466790456fda",
+            "evidence-ab51c6b40e4b8fa278b78d9b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-001b2b64cdceb319303838a7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-1fd73c8d5298466790456fda",
+          "evidence-ab51c6b40e4b8fa278b78d9b"
+        ],
+        "renewal": null,
+        "start_basis": "2022年12月発表の商業契約期間。具体的な起算日未掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-61c6b764e9c70965003c43ed": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-61c6b764e9c70965003c43ed",
+        "rule_version": "ada94ff0ff9fb003ce8d131cc4b5d58da7f6967627e3dec26b6b9fad6bd6745e",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-6eb598e0a621bdb5528e5490",
+          "amount_kind": "committed_total",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "max_value": null,
+          "min_value": "2800000000",
+          "original_text": "$2.8 billion",
+          "payee_company_ids": [
+            "co-msft"
+          ],
+          "payer_company_ids": [
+            "co-lseg"
+          ],
+          "qualifier": "at_least",
+          "scope": "契約期間中の最低クラウド関連支出。上限・確定総額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-12-12",
+      "conditions": "別途発表されたMicrosoftによるLSEG株式約4%の取得とは区別。クラウド最低支出を株式取得額へ転用しない。",
+      "deal_id": "deal-1fd73c8d5298466790456fda",
+      "detected_at": "2026-09-26T07:05:00+00:00",
+      "effective_date": null,
+      "event_id": "event-824bea2a10c1dc71ee732d13",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-cbf00286cfb6f009ad0a0b1e",
+        "evidence-6b63c148bb11ebc586d24ccb",
+        "evidence-176d5d66b63e48f05ecd342b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-cbf00286cfb6f009ad0a0b1e",
+            "evidence-6b63c148bb11ebc586d24ccb",
+            "evidence-176d5d66b63e48f05ecd342b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-001b2b64cdceb319303838a7"
+      ],
+      "supersedes_event_id": "event-1fd73c8d5298466790456fda",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 10,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-cbf00286cfb6f009ad0a0b1e",
+          "evidence-6b63c148bb11ebc586d24ccb",
+          "evidence-176d5d66b63e48f05ecd342b"
+        ],
+        "renewal": null,
+        "start_basis": "2022年12月発表の商業契約期間。具体的な起算日未掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-61c6b764e9c70965003c43ed": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb",
+          "source-a546fd76d4326d41a8780b1c": "e3e717352ced8dd8f8bdb55444591fbb3b308ff160104b09fed70e9e4639b086"
+        },
+        "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-lseg-currency",
+        "rule_version": "f0da2b98cead73a585276898fc018712028e0a931b1859c8e4f33b8d335043d8",
+        "verified_at": "2026-09-26T07:05:00+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-176d5d66b63e48f05ecd342b",
+      "excerpt": "US$2.8 billion",
+      "locator": "pdf-page:52",
+      "normalized_text_hash": "b01a1e50e7cd4ed3b65ce92a85499b6f162e6f2eb271dac8494666189a22a843",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-a546fd76d4326d41a8780b1c",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-1fd73c8d5298466790456fda",
+      "excerpt": "$2.8 billion",
+      "locator": "li:13",
+      "normalized_text_hash": "5379c811129a329ba9deca252e7d2c6e3c0c94cfbbe4227b380c753f510a8ea1",
+      "section": "Official disclosure: business context",
+      "source_id": "source-61c6b764e9c70965003c43ed",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6b63c148bb11ebc586d24ccb",
+      "excerpt": "10-year",
+      "locator": "p:29",
+      "normalized_text_hash": "96019d2425cf60d07c5361540931b8779cdb5c2baf5801d79262a6c52cbdfff9",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-61c6b764e9c70965003c43ed",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ab51c6b40e4b8fa278b78d9b",
+      "excerpt": "10-year",
+      "locator": "p:29",
+      "normalized_text_hash": "96019d2425cf60d07c5361540931b8779cdb5c2baf5801d79262a6c52cbdfff9",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-61c6b764e9c70965003c43ed",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cbf00286cfb6f009ad0a0b1e",
+      "excerpt": "$2.8 billion",
+      "locator": "li:13",
+      "normalized_text_hash": "5379c811129a329ba9deca252e7d2c6e3c0c94cfbbe4227b380c753f510a8ea1",
+      "section": "Official disclosure: business context",
+      "source_id": "source-61c6b764e9c70965003c43ed",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-cbf00286cfb6f009ad0a0b1e",
+        "evidence-6b63c148bb11ebc586d24ccb",
+        "evidence-176d5d66b63e48f05ecd342b"
+      ],
+      "geography": "",
+      "headline": "金融データ基盤の10年クラウド契約",
+      "products": [
+        "Microsoft Cloud",
+        "Azure",
+        "金融データ基盤"
+      ],
+      "scale": "",
+      "source_role": "クラウド基盤提供",
+      "target_role": "金融データ・分析基盤の移行"
+    },
+    "deal_ids": [
+      "deal-1fd73c8d5298466790456fda"
+    ],
+    "description": "LSEGがデータ基盤等をMicrosoft Cloudへ移行する10年間の商業契約。最低クラウド関連支出は28億米ドル。公式2022年決算資料の注記17でUS$表記を確認。最終総額や上限ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cbf00286cfb6f009ad0a0b1e",
+      "evidence-6b63c148bb11ebc586d24ccb",
+      "evidence-176d5d66b63e48f05ecd342b"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T07:05:00+00:00",
+    "latest_event_ids": [
+      "event-824bea2a10c1dc71ee732d13"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-001b2b64cdceb319303838a7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-61c6b764e9c70965003c43ed": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb",
+        "source-a546fd76d4326d41a8780b1c": "e3e717352ced8dd8f8bdb55444591fbb3b308ff160104b09fed70e9e4639b086"
+      },
+      "reason": "Codex source-bound amount review; primary document and context hashes pinned. No human approval claimed. Published bounds, currency, payment conditions and contract scope reviewed separately; no FX or addition of amounts.",
+      "reviewer": null,
+      "rule_id": "amount-review-20260926-lseg-currency",
+      "rule_version": "f0da2b98cead73a585276898fc018712028e0a931b1859c8e4f33b8d335043d8",
+      "verified_at": "2026-09-26T07:05:00+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.lseg.com/en/media-centre/press-releases/2022/lseg-and-microsoft-launch-strategic-partnership",
+      "content_hash": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-12-12",
+      "publisher": "www.lseg.com",
+      "retrieved_at": "2026-09-26T06:11:10+00:00",
+      "source_id": "source-61c6b764e9c70965003c43ed",
+      "source_type": "official_newsroom",
+      "title": "LSEG and Microsoft launch 10-year strategic partnership for next-generation data and analytics and cloud infrastructure solutions; Microsoft to make equity investment in LSEG through acquisition of shares | LSEG"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-2mar2023.pdf",
+      "content_hash": "e3e717352ced8dd8f8bdb55444591fbb3b308ff160104b09fed70e9e4639b086",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-03-02",
+      "publisher": "LSEG",
+      "retrieved_at": "2026-09-26T06:57:31+00:00",
+      "source_id": "source-a546fd76d4326d41a8780b1c",
+      "source_type": "official_ir",
+      "title": "Microsoft Word - LSEG 2022 Preliminary Results RNS 02Mar23 v2"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-6eb598e0a621bdb5528e5490",
+        "amount_kind": "committed_total",
+        "conditions": "",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "US$",
+        "evidence_ids": [
+          "evidence-cbf00286cfb6f009ad0a0b1e",
+          "evidence-6b63c148bb11ebc586d24ccb",
+          "evidence-176d5d66b63e48f05ecd342b"
+        ],
+        "max_value": null,
+        "min_value": "2800000000",
+        "original_text": "$2.8 billion",
+        "payee_company_ids": [
+          "co-msft"
+        ],
+        "payer_company_ids": [
+          "co-lseg"
+        ],
+        "qualifier": "at_least",
+        "scope": "契約期間中の最低クラウド関連支出。上限・確定総額ではない。",
+        "value": null,
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-cbf00286cfb6f009ad0a0b1e",
+        "evidence-6b63c148bb11ebc586d24ccb",
+        "evidence-176d5d66b63e48f05ecd342b"
+      ],
+      "geography": "",
+      "headline": "金融データ基盤の10年クラウド契約",
+      "products": [
+        "Microsoft Cloud",
+        "Azure",
+        "金融データ基盤"
+      ],
+      "scale": "",
+      "source_role": "クラウド基盤提供",
+      "target_role": "金融データ・分析基盤の移行"
+    },
+    "description": "LSEGがデータ基盤等をMicrosoft Cloudへ移行する10年間の商業契約。最低クラウド関連支出は28億米ドル。公式2022年決算資料の注記17でUS$表記を確認。最終総額や上限ではない。",
+    "direction": "directed",
+    "event_date": "2022-12-12",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:05:00+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-001b2b64cdceb319303838a7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "tier": null,
+    "tier_reasons": [
+      "bounded_or_unspecified",
+      "contingency_unknown"
+    ]
+  }
+}

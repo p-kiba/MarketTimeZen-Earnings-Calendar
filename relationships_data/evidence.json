@@ -2776,17 +2776,6 @@
     ]
   },
   {
-    "evidence_id": "evidence-5620d162c16fb8c4e49f62ea",
-    "excerpt": "One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform. This combined solution provides",
-    "locator": "li:23",
-    "normalized_text_hash": "6a1ca1bc1376ea32d654db1ecd793120f00a7f26fb17a2fdf278cf3c3562eb71",
-    "section": "paragraph",
-    "source_id": "source-6b1498de2bb1640d71b431f2",
-    "supports_fields": [
-      "relationship"
-    ]
-  },
-  {
     "evidence_id": "evidence-136e0c691731a56f02ef3bde",
     "excerpt": "SEATTLE & MUNICH--(BUSINESS WIRE)-- Amazon Web Services (AWS) today announced the BMW Group has chosen AWS as the preferred cloud provider for its automated driving",
     "locator": "p:1",
@@ -4570,6 +4559,1349 @@
     "normalized_text_hash": "c40d710e3f53f261325ac6b58a0dffc950ef51755b0282e6817c8db0fe0db94f",
     "section": "Official deal announcement",
     "source_id": "source-b5e25a8637f800532ae0d4ab",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5620d162c16fb8c4e49f62ea",
+    "excerpt": "One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform. This combined solution provides",
+    "locator": "li:23",
+    "normalized_text_hash": "6a1ca1bc1376ea32d654db1ecd793120f00a7f26fb17a2fdf278cf3c3562eb71",
+    "section": "paragraph",
+    "source_id": "source-6b1498de2bb1640d71b431f2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-cef81c3f1776fa0035c115ce",
+    "excerpt": "Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years.",
+    "locator": "p:3",
+    "normalized_text_hash": "9ff10d4cedfd08a2a3eb2c42011ab41eec25a8bcf357f9df6f490cc7f848d9ea",
+    "section": "paragraph",
+    "source_id": "source-d1f1b3701797859e9b091da3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ec4f44804ca3312632e5c7ce",
+    "excerpt": "We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in",
+    "locator": "p:8",
+    "normalized_text_hash": "4b6101c753ae19c242183e67e68f44d9d2336b8cf1436e9e94547bb19d3a7108",
+    "section": "paragraph",
+    "source_id": "source-d1f1b3701797859e9b091da3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b22805bed8db3f727658e1ff",
+    "excerpt": "In August 2026, we entered into guarantees with SB Energy Corp. to provide credit support on the land, power, and shell buildout at SB Energy’s",
+    "locator": "sec-div:602",
+    "normalized_text_hash": "7bd9c49234a64a12cbc3d8237a721548d794badbd8cc43af427def5fb7feaea9",
+    "section": "paragraph",
+    "source_id": "source-98b725fc97c7b56cf1b968b5",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dda69065275736842569de69",
+    "excerpt": "On August 17, 2026, NVIDIA entered into multiple residual value guaranties (collectively, the “Agreements”) with SB Energy (the “Lessor”) relating to leases for approximately 4.25",
+    "locator": "sec-div:47",
+    "normalized_text_hash": "6ad795116e42f0f893aec6e7dcd60a49b5ac18dca307869e834a61cc6c96bc23",
+    "section": "paragraph",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f98ef61d626002acc4cd4e9c",
+    "excerpt": "On August 17, 2026, NVIDIA issued a press release announcing the partnership with SB Energy. The press release is attached as Exhibit 99.1 hereto and",
+    "locator": "sec-div:65",
+    "normalized_text_hash": "9ea0641901f50031fbc038e2940cabf6c52d5fde97576b69dcc4b0eb5c677f22",
+    "section": "paragraph",
+    "source_id": "source-8a370485647279c078b2eaf0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-99c93debdcfcfdef3ef1f0e9",
+    "excerpt": "On January 2, 2026 , Berkshire completed the acquisition of Occidental Petroleum Corporation’s (“Occidental”) chemicals business (“OxyChem”) pursuant to an agreement that was entered into",
+    "locator": "p:1217",
+    "normalized_text_hash": "cf3aae0762bcc0ce0c5dfb8c6fbc40403f75f5a441d8b89f43e3a2490c4faf4b",
+    "section": "paragraph",
+    "source_id": "source-f611c9fee0eb629bc5667626",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-44d5fc03e3a42b79affd2d1c",
+    "excerpt": "The industrial products group includes complex metal components and products for aerospace, power and general industrial markets (Precision Castparts Corp. (PCC)), specialty chemicals (The Lubrizol",
+    "locator": "p:6007",
+    "normalized_text_hash": "52ac681dfc9605160c4ef3bb2aea9df943d4a304877679bb7f403b5354d5ae4b",
+    "section": "paragraph",
+    "source_id": "source-f611c9fee0eb629bc5667626",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ed604299c8de2c72e4df9017",
+    "excerpt": "At June 30, 2026, our insurance and other businesses held investments in cash, cash equivalents and U.S. Treasury Bills (net of payables for unsettled purchases)",
+    "locator": "p:6296",
+    "normalized_text_hash": "d1c45f117ec76d122ee5d3ed6f810c10c94d53199b209eece1ca113825664956",
+    "section": "paragraph",
+    "source_id": "source-f611c9fee0eb629bc5667626",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-55299b106c839a0bbfc4ff4c",
+    "excerpt": "These are now available on Vertex AI, which is Google Cloud’s platform to customize and fully manage a wide range of leading gen AI models.",
+    "locator": "p:24",
+    "normalized_text_hash": "216b0106255ab0f2d7cd08e71bf1c2886bc711edd3baba514d6002702f77fba3",
+    "section": "paragraph",
+    "source_id": "source-41db644bf718fc177149817e",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e7cd9ff095cfa75e4c1808eb",
+    "excerpt": "• Secured land, power and shell capacity through a partnership with SB Energy at the PORTS-Pike Technology Campus in Ohio to host NVIDIA compute.",
+    "locator": "sec-div:41",
+    "normalized_text_hash": "b1da0f66a025a776464706d7a99a0b22622ee5c5d06911cfd5c46168048da70c",
+    "section": "paragraph",
+    "source_id": "source-2b304080b1623b9f3fc819f4",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9267c461434e83f7a9b53b16",
+    "excerpt": "14 | | Q2 2026 FINANCIAL RESULTS – August 4, 2026 Driven by strong demand for AMD EPYCTM processors and continued ramp of AMD InstinctTM",
+    "locator": "sec-div:42",
+    "normalized_text_hash": "0fc7254c47462d3a3d822af5302bf393e8882fd23dd0c53a2cdf0c20cd01e383",
+    "section": "paragraph",
+    "source_id": "source-46443acd53338b6255548f92",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c26c0d401693282ed68f274e",
+    "excerpt": "• NVIDIA to invest $1.5B in SB Energy now to support SB Energy’s growth and commitments to the Ohio community",
+    "locator": "sec-div:8",
+    "normalized_text_hash": "041a492bcdf3663a22fd195c3663366bfc63c27cca3cccb737f2eb9a093a9826",
+    "section": "paragraph",
+    "source_id": "source-dcb7b306dffaedb5223f8dc1",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-942b8c63a27d838c4b94e993",
+    "excerpt": "In support of the surrounding Ohio community, SB Energy and SoftBank will build at least 10 GW of new energy generation, which results in 8",
+    "locator": "sec-div:25",
+    "normalized_text_hash": "fd8a53ba038e3f4d067babb1663b3f6eb5bff41eb069bd54ec3856f047710e7a",
+    "section": "paragraph",
+    "source_id": "source-dcb7b306dffaedb5223f8dc1",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1fad4f2639c20547133837e0",
+    "excerpt": "SAN FRANCISCO & SUNNYVALE, Calif.--(BUSINESS WIRE)-- Salesforce and Google today announced a major expansion of their strategic partnership, delivering choice in the models and capabilities",
+    "locator": "p:4",
+    "normalized_text_hash": "ad175836418a657762171545265e6b932d8aba6b3513a4dddf93a8135d09bc34",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c7c1c202afdd28493bceb1d7",
+    "excerpt": "Google Cloud is at the forefront of enterprise AI innovation with millions of developers building with Google’s cutting-edge Gemini models and on Google Cloud’s AI-optimized",
+    "locator": "p:5",
+    "normalized_text_hash": "2dd7ebf5864de1cc3f2dd418457fef8a5ee064a641793510f5ce1b5701a09920",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9fb932971dbc444c985db616",
+    "excerpt": "“Salesforce’s selection of Google Cloud as a major infrastructure provider means enterprise customers can now deploy some of their most critical applications on our highly",
+    "locator": "p:7",
+    "normalized_text_hash": "69e9c7152e793fb0c8df6fca5d66f46fa0218ba3f9b0db7ab474179ac2a5a4b9",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2bc3ccbc04e442b714929c1e",
+    "excerpt": "Agentforce will be able to use Grounding with Google Search through Vertex AI, building on the secure data foundation established through the zero copy partnership",
+    "locator": "p:17",
+    "normalized_text_hash": "0936926d4a0ebccf8ad2859e39375f9fe1ddbf2f0baf6aa3103ff118db04d911",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1f3e2ec91b44f9ad5e6d36ff",
+    "excerpt": "For example, in supply chain management and logistics, an agent built with Agentforce could track shipments and monitor inventory levels in Salesforce Commerce Cloud, and",
+    "locator": "p:18",
+    "normalized_text_hash": "d29b3e7aa9fec83ad57a344376d10b04f5a24fa29624f280e17e1913404e0615",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-57e70e0f26a3077741ca7fdb",
+    "excerpt": "This partnership goes beyond core product integrations to deliver a more connected and intelligent data foundation for businesses. This is just the beginning; Salesforce and",
+    "locator": "p:39",
+    "normalized_text_hash": "9db3df3633c64f708d47f4bd78bb700b4a4b9f12dc5542b61a1507433ccbf1c9",
+    "section": "paragraph",
+    "source_id": "source-4c4fb934da11449636adaee0",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3eed5da1a3eaf02f80860251",
+    "excerpt": "Just a year since announcing The Climate Pledge , Amazon is excited to reveal its first custom electric delivery vehicle, designed and built in partnership",
+    "locator": "p:0",
+    "normalized_text_hash": "b08e149c3d0d41ea95b62bb346726ec1efd7849a12a1a0d47b4cb7002aa13dcd",
+    "section": "paragraph",
+    "source_id": "source-2aebe9353387cabf30bf9a57",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-0bbafd0f76943682ab8c400b",
+    "excerpt": "Prior to investing in Rivian, Amazon was unable to find electric options that met the needs of its drivers and delivery operations. Instead of waiting",
+    "locator": "p:6",
+    "normalized_text_hash": "dfbab7b805d271c8234ceef587513fcd13f491cae827eee28d43872eddfbbf97",
+    "section": "paragraph",
+    "source_id": "source-2aebe9353387cabf30bf9a57",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-37511a91f0be6ba892887096",
+    "excerpt": "Glasses are the most exciting hardware category of the AI era — the ideal device to experience an all-day AI assistant that understands the world",
+    "locator": "p:0",
+    "normalized_text_hash": "f5caa19981f22cdc25c73a48855d9a01ef9eea95bdd877d8f75dda5790aaa7cc",
+    "section": "paragraph",
+    "source_id": "source-2ceee473fb49d6f36f7d1cbc",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9f45f32c54b8ca1baa203c9d",
+    "excerpt": "Text of this article June 10, 2024 PRESS RELEASE Introducing Apple Intelligence, the personal intelligence system that puts powerful generative models at the core of",
+    "locator": "li:9",
+    "normalized_text_hash": "0603e1dd28300b53a91897271252b0b3f993ff62febdb249a3a31b6c3288a382",
+    "section": "paragraph",
+    "source_id": "source-e543cca254c9a9b311c82e0f",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bffe954482bf516b5ff7dff7",
+    "excerpt": "On November 22, 2023, Broadcom Inc. (“Broadcom”) completed its acquisition of VMware, Inc. (“VMware”) pursuant to the Agreement and Plan of Merger (the “Merger Agreement”),",
+    "locator": "sec-div:67",
+    "normalized_text_hash": "253d36de7887e50d6e3f900e7eb38cefb0191f924c3eada527300848930219aa",
+    "section": "paragraph",
+    "source_id": "source-9377e59c45f1e1b3e5110b09",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b66013b320387746b1992e42",
+    "excerpt": "As previously reported, on August 15, 2023, Broadcom entered into a senior unsecured term loan credit agreement (the “Credit Agreement”). On November 22, 2023, Broadcom",
+    "locator": "sec-div:88",
+    "normalized_text_hash": "4d9be51ca445da3567139f364a09c86492820bc94d50f3bd4cf39ed0628b6d7c",
+    "section": "paragraph",
+    "source_id": "source-9377e59c45f1e1b3e5110b09",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b966b8cc19e157580fbbe4e9",
+    "excerpt": "On November 22, 2023, Broadcom issued a press release announcing the completion of its acquisition of VMware. A copy of the press release is attached",
+    "locator": "sec-div:94",
+    "normalized_text_hash": "f59f379c8a28f6de4323ac64290096a819a1d89ad4c5870eeb2938f4c97cc175",
+    "section": "paragraph",
+    "source_id": "source-9377e59c45f1e1b3e5110b09",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6146d495b0645b84a976f3ab",
+    "excerpt": "These forward-looking statements involve risks and uncertainties that are outside Broadcom’s control and may cause actual results to differ materially from those contained in forward-looking",
+    "locator": "sec-div:100",
+    "normalized_text_hash": "a720a1c984c9274327871e2d794048d0c7e1946995f310f508eb9ccdce423f1d",
+    "section": "paragraph",
+    "source_id": "source-9377e59c45f1e1b3e5110b09",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8ba21ae9b0ca7bb87c97e1ee",
+    "excerpt": "LSEG and Microsoft launch 10-year strategic partnership for next-generation data and analytics and cloud infrastructure solutions; Microsoft to make equity investment in LSEG through acquisition",
+    "locator": "h1:1",
+    "normalized_text_hash": "8be4a9856caf6ab5018754e774af2abff4862bc2950074ad30f29a13cfce8128",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-bcfdc972328582781eb2b2f7",
+    "excerpt": "New collaboration to architect LSEG’s data infrastructure and build intuitive next-generation productivity, data and analytics and modelling solutions with Microsoft Azure, AI, and Microsoft Teams",
+    "locator": "li:5",
+    "normalized_text_hash": "8580ba675e23664daa87bd42c4bc35c8f4756fa00e088e108aa4d2c578fae80a",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9423e5724d11ddfa2997f6fb",
+    "excerpt": "Step-change in services for customers across the financial markets value chain, including an enhanced version of LSEG Workspace with seamless Teams communication and Microsoft 365",
+    "locator": "li:6",
+    "normalized_text_hash": "7bfe57892e494ec125205ab1f9c1a50c82e8e697b44b6f0dfd454410787eb9a0",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-77b24ab17154c2ef086de066",
+    "excerpt": "Microsoft to purchase approximately 4% equity stake in LSEG through the acquisition of shares from the Blackstone/Thomson Reuters Consortium",
+    "locator": "li:8",
+    "normalized_text_hash": "2ac9e376f05c733db15913a1dc83ee131a20e02601198f57b521155cbbb75d37",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-04e1eb0c20eb4e3dc6db65a4",
+    "excerpt": "Contractual commitment by LSEG for minimum cloud-related spend with Microsoft of $2.8 billion (£2.3 billion) over the term of the partnership, reflecting minimum cloud consumption",
+    "locator": "li:13",
+    "normalized_text_hash": "53b6665d993a49bdd8fc28c7d59be0917f320acfb23db1a42b769b070281b906",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5b5e9a69a7eb3c83f69c183b",
+    "excerpt": "Additional spend with Microsoft will be driven by the success of the strategic partnership, based on demand for LSEG’s data platform and other professional services",
+    "locator": "li:14",
+    "normalized_text_hash": "bbd3e70959ea1d25de530a1c8aebe03288deeb067da4bb66a5aae8cfef6aa2aa",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9933365d9adece00761babe6",
+    "excerpt": "London Stock Exchange Group (LSEG) and Microsoft have entered into a new long-term strategic partnership to architect LSEG’s data infrastructure using the Microsoft Cloud, and",
+    "locator": "p:15",
+    "normalized_text_hash": "b7aae9d5f26534c937f528dcde2e20d986861d23e29a300dddd2c2a0ba15109d",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-04bac5dd41c4598b0b0a04b3",
+    "excerpt": "Under the arrangements with Microsoft, LSEG will use Azure Purview and Azure Synapse to create its cloud-based data architecture that consolidates LSEG datasets onto one,",
+    "locator": "p:21",
+    "normalized_text_hash": "4f9f58723d99378134b2ab2fa589229ddc944204c61ae932a1bdbfaa44e31cb1",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d838552ba25569db87894762",
+    "excerpt": "As part of LSEG’s product development with Microsoft, the companies plan a step-change in the advancement of Workspace, by creating an all-in-one data, analytics, workflow,",
+    "locator": "p:23",
+    "normalized_text_hash": "d4f51dfba0bb282ac7970eaa85734f0347f944f3dbdd5c46add1c3b5184641b6",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-aa705a84d21a4b2f7109aaa0",
+    "excerpt": "Microsoft and LSEG will use Azure Machine Learning and LSEG’s advanced analytics and modelling capabilities to co-develop a new suite of solutions to give financial",
+    "locator": "p:28",
+    "normalized_text_hash": "a9b530963c5199c0082a9bd9854c912d22207960eac60f90fa124ecf8d431db7",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d28bce43062693583dcb6b23",
+    "excerpt": "LSEG and Microsoft have established a governance structure that will be responsible and accountable for the commercial delivery of the programmes described above and the",
+    "locator": "p:31",
+    "normalized_text_hash": "10312fe67e97973e357860e59af874daafd1e522d364687572c8cd7c33fb1772",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3b2b70289ec79821fc5d5957",
+    "excerpt": "Microsoft investment in LSEG shares",
+    "locator": "p:32",
+    "normalized_text_hash": "b4f578a4e7d528355c27670f2604377d819f77a5c5bd08487bf7069869ad359a",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-8bfdf13ccdc23b78211b23de",
+    "excerpt": "Microsoft has agreed to purchase shares in LSEG that would result in Microsoft holding approximately a 4% equity stake in LSEG, such shares to be",
+    "locator": "p:33",
+    "normalized_text_hash": "2c3eba87578a5b23f7ec285ce6c9bd5c78324d427a4e9236cf58cbabbd3ebc2f",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ba3c204a9b4d0e238162828f",
+    "excerpt": "Microsoft has entered into a separate agreement with LSEG pursuant to which Microsoft has agreed, in addition to customary standstill and orderly marketing arrangements, to",
+    "locator": "p:35",
+    "normalized_text_hash": "29a79a692a1dbbd9b2d0651dab427fad3fc73e7d509d00fd5a2cfcfe97458180",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9087dba7cf7dd1fab87af732",
+    "excerpt": "The strategic partnership is expected to increase LSEG’s revenue growth meaningfully over time as the key workstreams are delivered. LSEG and Microsoft have agreed to",
+    "locator": "p:37",
+    "normalized_text_hash": "5f2f23f25d25c4980eb09ba66e6441f581fdef5887bb43b95ec7d369be65054f",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c01ea0210e28a1520b7acfbd",
+    "excerpt": "Any additional spend LSEG incurs with Microsoft will be driven by the success of the strategic partnership, based on demand for LSEG’s data platform and",
+    "locator": "p:38",
+    "normalized_text_hash": "58dc4b6f6595d5bddc66944cee5ac0e66e82c0903601712f9ba924aea0f312bb",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fb4ff29d845275d71b5ac5b7",
+    "excerpt": "Although LSEG believes that the expectations reflected in such forward-looking statements are reasonable, LSEG can give no assurance that such expectations will prove to be",
+    "locator": "p:59",
+    "normalized_text_hash": "7c27b80f7db4678477923e0149d9764055f1988201b77b8980341db2cd052d6c",
+    "section": "paragraph",
+    "source_id": "source-61c6b764e9c70965003c43ed",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b38ae4bf66951cc3f7fe1f72",
+    "excerpt": "NEW YORK; Oct. 2, 2024 – Accenture (NYSE: ACN) and NVIDIA today announced an expanded partnership, including Accenture’s formation of a new NVIDIA Business Group,",
+    "locator": "p:6",
+    "normalized_text_hash": "8b9f7aa7300c65c951bcd484470c3e0104de8420e65236fac4aac767860e977e",
+    "section": "paragraph",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-66d42153cb46cb90aad9d7ff",
+    "excerpt": "“We are breaking significant new ground with our partnership with NVIDIA and enabling our clients to be at the forefront of using generative AI as",
+    "locator": "p:9",
+    "normalized_text_hash": "069734b077469df5de280478ef187568f204beb41b17aa7bad8caf8fb41ffad6",
+    "section": "paragraph",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-f0046fcf40575cb285883a4b",
+    "excerpt": "Accenture NVIDIA Business Group Scales Agentic AI for Enterprises The new Accenture NVIDIA Business Group will accelerate momentum with generative AI and help clients scale",
+    "locator": "p:11",
+    "normalized_text_hash": "5946d01a78f776460e98d820377eaed9419cf0f8a94347077a80cbea37bf0f28",
+    "section": "paragraph",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a7ff05bacab9cd8aaba5d31f",
+    "excerpt": "Accenture and NVIDIA are already helping clients adopt and scale agentic AI systems. For example, Indosat Group announced the first sovereign AI in Indonesia that",
+    "locator": "p:13",
+    "normalized_text_hash": "a212050dc9894cc0563c18571bcf4682291a18e0b441d20fa0660919ca02de97",
+    "section": "paragraph",
+    "source_id": "source-56ab4107d3146e817658156a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-532a793a77b9982032f41889",
+    "excerpt": "“Microchip Technology’s SMC2000 Smart Memory Controllers provide high-capacity expansion and performance with reduced latency overhead. Our collaboration with Micron has allowed us to harness their",
+    "locator": "p:14",
+    "normalized_text_hash": "68c74dd83a265bd514f62f3b084c6f21f756cffa99999a39a226dfe133d245dd",
+    "section": "paragraph",
+    "source_id": "source-1e47859411dbf0322c82f0a3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-962c59665193d03e4df63f31",
+    "excerpt": "“Supermicro’s continuing collaboration with Micron benefits a wide variety of key customers,” said Don Clegg, senior vice president of Worldwide Sales at Supermicro. “Micron’s CZ120",
+    "locator": "p:15",
+    "normalized_text_hash": "32bfd01f1cf3cad625e05189877d697e34c3318b0877d261bc023d9a62993ae6",
+    "section": "paragraph",
+    "source_id": "source-1e47859411dbf0322c82f0a3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-695a091c4d6f3fff6cd61300",
+    "excerpt": "10.24†† 2019 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed September 20, 2019, by and among the Registrant, Tesla Motors Netherlands B.V.,",
+    "locator": "tr:805",
+    "normalized_text_hash": "fa72373d69d23946213af04d05a81f2331b1eed8515ab36a509e01b1144c0d90",
+    "section": "paragraph",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a0dfa24ced0689d89910a48a",
+    "excerpt": "10.26†† 2021 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed December 29, 2020, by and among the Registrant, Tesla Motors Netherlands B.V.,",
+    "locator": "tr:807",
+    "normalized_text_hash": "977cd395b47b9e663de43c65969b9ad3544bf3f58b8c2b69fedceb6d89642c7f",
+    "section": "paragraph",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5685b909db8ebd4da3051871",
+    "excerpt": "We are dependent on the continued supply of lithium-ion battery cells for our vehicles and energy storage products, and we will require substantially more cells",
+    "locator": "sec-div:426",
+    "normalized_text_hash": "e3e1ba4811fac8d2b7598fdb70855aecbaba4a70a22a3ad7c0816dc964cd992f",
+    "section": "paragraph",
+    "source_id": "source-2e2c4751a2cd43512ffd443d",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-dee04a377f89356d5a3bfcab",
+    "excerpt": "10.34†^ Master Services Agreement between CoreWeave, Inc. and Microsoft Corporation, dated February 22, 2023 S-1 333-285512 10.23 March 3, 2025",
+    "locator": "tr:766",
+    "normalized_text_hash": "8bba51644c82cbb36942f8d8ea08d06a454e756d59bdc9c1ab1ad44137e731e2",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-c950206377df0265446c0b1a",
+    "excerpt": "10.35†^ Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated March 7, 2025 S-1/A 333-285512 10.24 March 12, 2025",
+    "locator": "tr:767",
+    "normalized_text_hash": "a46936d7f8a049680edd11d66d89b29c96f7dadbe5cbca113264dd6c340cf9df",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-20e285572916bd88c450bb79",
+    "excerpt": "10.36†^ Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated May 8, 2025 8-K 001-42563 10.1 September 25, 2025",
+    "locator": "tr:768",
+    "normalized_text_hash": "502730329bda0d6a5b684b463c254e0c996de9cf52a7ca68c15cae061abc66d1",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-561c4b7bfabfbd75a04e4172",
+    "excerpt": "10.38†^ Master Services Agreement between CoreWeave, Inc. and NVIDIA Corporation, dated April 10, 2023 S-4/A 333-289742 10.31 September 25, 2025",
+    "locator": "tr:770",
+    "normalized_text_hash": "4bb2a1d9937fe6db8adcaea09cd4b95d373d387d73f6824c1126d9297634f12c",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-61e29a270b3dee378a00141e",
+    "excerpt": "10.39†^ Master Services Agreement between CoreWeave, Inc. and Meta Platforms, Inc., dated December 10, 2023 8-K 001-42563 10.1 September 30, 2025",
+    "locator": "tr:771",
+    "normalized_text_hash": "b60a835c0d2e8807b611642f16ce66d8aaf48fd97854187397fb6e464b810635",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-af50ab4625d1d486ad119c8f",
+    "excerpt": "Our data center fabric is designed to harness the full potential of each GPU and to maximize performance from the newest architectures. It integrates state-of-the-art",
+    "locator": "sec-div:220",
+    "normalized_text_hash": "c9103a32f8c30d565d0b69f59a5c821539b745fe134093ef4dd8b678ce76e65f",
+    "section": "paragraph",
+    "source_id": "source-8a635398939d78d38bee180a",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fe95295486f782de09ecca27",
+    "excerpt": "a. Ownership . [*]. Further, CoreWeave owns all right, title and interest in and to the CoreWeave Systems and Services; provided, that the foregoing shall",
+    "locator": "p:54",
+    "normalized_text_hash": "de7b9ce0a0176e7f04771c3a5a8f02653fab0287c1d87dcc02bcf7da116bba03",
+    "section": "paragraph",
+    "source_id": "source-338412fcbd2914ae458e7de3",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7b025410db89056c4ec851aa",
+    "excerpt": "10.1*† Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated May 8, 2025.",
+    "locator": "tr:47",
+    "normalized_text_hash": "6b0a0a6561086d299be2a8fe98dfab2be63c3b0fa8058b14bc11ce10bed67480",
+    "section": "paragraph",
+    "source_id": "source-33fde43ef418b98646d15bea",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9a9d5530882660f41bb153d9",
+    "excerpt": "2.3 Assignment Agreement, dated as of December 29, 2015, between Samsung Display Co., Ltd., Corning Incorporated, Corning Precision Materials Co., Ltd., and Corning Luxembourg S.àr.l.,",
+    "locator": "tr:171",
+    "normalized_text_hash": "cb020707980c283128efc5fda3a718513d00903c09eb1b1262ab252142e5c3c6",
+    "section": "paragraph",
+    "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9e40e51eaaa5bfd3bc8dd1c8",
+    "excerpt": "Ms. Badani is recognized for her leadership at the intersection of AI, semiconductors, go-to-market strategy, and business transformation. As chief marketing officer of Arm, she",
+    "locator": "sec-div:1046",
+    "normalized_text_hash": "0084e14d12b5cc26635514143962d3d8c6ff74bc23e223bfee845e946c0b38ef",
+    "section": "paragraph",
+    "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-187152198241c3b7aec3499c",
+    "excerpt": "From 2006 through 2013, Ms. Craig served as chief financial officer of Accenture plc., a global management consulting, technology services and outsourcing company, following many",
+    "locator": "sec-div:1054",
+    "normalized_text_hash": "d1761d1c86c8cef92bad6ff0475f6d86766ea39816681256178b5c81de1e4d14",
+    "section": "paragraph",
+    "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4f25145c6f928b927a6b1aa5",
+    "excerpt": "Mr. Cummings retired as vice chairman of Investment Banking at JPMorgan Chase & Co. in 2016. He had served in that role since 2010, advising",
+    "locator": "sec-div:1056",
+    "normalized_text_hash": "f0bf90e1c88a308edfcf454a6849439c42aea9883739dab95a20019f0bcab69d",
+    "section": "paragraph",
+    "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7af48a9324b3d697a17885de",
+    "excerpt": "Mr. Martin is Vice President, Public Policy at Meta Platforms, Inc. Prior to joining Meta, he was a partner and co-chair of the telecommunications practice",
+    "locator": "sec-div:1070",
+    "normalized_text_hash": "1a4080ed997a56efc017ace5431658199c1267358e385941f363f25891d6fef4",
+    "section": "paragraph",
+    "source_id": "source-c498c3fcc5c4ccef32ec7c14",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-472da987b57f0902813bed94",
+    "excerpt": "1 London Stock Exchange Group plc Preliminary results for the year ended 31 December 2022 Broad-based growth and strong execution David Schwimmer, CEO said: “LSEG",
+    "locator": "pdf-page:1",
+    "normalized_text_hash": "df886d3921caca3864f8be6c742b628738949a5da07c3c35020635c202c698a0",
+    "section": "paragraph",
+    "source_id": "source-a546fd76d4326d41a8780b1c",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4ea3f04440f9f488173b29c2",
+    "excerpt": "52 The Company entered into an irrevocable commitment with its corporate brokers to repurchase shares as part of tranche two of the programme, which in",
+    "locator": "pdf-page:52",
+    "normalized_text_hash": "43651496d667a4d3464335879e98583dd7d2cac325957b319aee93a187f68622",
+    "section": "paragraph",
+    "source_id": "source-a546fd76d4326d41a8780b1c",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a5ea4eb3f4ec1de9f043b713",
+    "excerpt": "We are a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions. Our over 60-year history of",
+    "locator": "sec-div:143",
+    "normalized_text_hash": "95e1445931385ae969aa183df066a895faa583d5d8cd8149e4761a20083de127",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a320777f929221b22d4eabbd",
+    "excerpt": "On November 22, 2023, we acquired VMware in a cash-and-stock transaction (the “VMware Merger”), in which VMware stockholders received, in aggregate, approximately $30.8 billion in",
+    "locator": "sec-div:146",
+    "normalized_text_hash": "d6031af1df8f9e4d20ec447e0ae226a80d1d8747548379129ac9ac2e0303b1cf",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7e36f7c219d3f000fd0288bf",
+    "excerpt": "Private Cloud Software Portfolio. Our private cloud infrastructure software delivers public cloud scale and agility with private cloud security, resilience and performance, and low overall",
+    "locator": "sec-div:229",
+    "normalized_text_hash": "e8a74d20597347d2a73d5b13be43ba4f63518b4a2ceac5d7ba426d1484273ca8",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4bb17eec9f57f04b7e12f9c5",
+    "excerpt": "Our software customers generally consist of large enterprises that have computing environments from multiple vendors and are in most major industries worldwide, including banks, insurance",
+    "locator": "sec-div:297",
+    "normalized_text_hash": "d1fbdb2b3f9f529b5deaca218435d84587280e94db2531a10f82695b096d8ec7",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d20676b2d63fb1ecdfdd8cda",
+    "excerpt": "We focus on maintaining an efficient global supply chain and a variable, low-cost operating model. Accordingly, we outsource a majority of our manufacturing operations, utilizing",
+    "locator": "sec-div:304",
+    "normalized_text_hash": "0753346af341831faa95a400b527b8a45024f7a04f998f9151aeaee2111b70b3",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6f8597b5e6918c909c468de1",
+    "excerpt": "• On November 22, 2023, we completed the acquisition of VMware, Inc. (“VMware”), for approximately $30.8 billion in cash and 544 million shares of Broadcom",
+    "locator": "sec-div:776",
+    "normalized_text_hash": "0c8a5b052c51272040d9f381a44658113f050a07f8aeef01b80cc7b5600fcac8",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-88af36a42c72ecef8ad96bc0",
+    "excerpt": "On November 22, 2023, we acquired VMware in a cash-and-stock transaction (the “VMware Merger”). The VMware stockholders received approximately $30,788 million in cash and 544",
+    "locator": "sec-div:784",
+    "normalized_text_hash": "1a6b07f7955545d6fcf4c5ad258dd1d990dbf92e54a8808bbbbeb8529fa6d886",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6201404181fd3350a36f12ac",
+    "excerpt": "Our software customers generally consist of large enterprises that have computing environments from multiple vendors and are highly complex. Our private cloud infrastructure suite of",
+    "locator": "sec-div:799",
+    "normalized_text_hash": "dab2612d885f7275992e3e2a17456ecf5772d55e2b403dde4ff8f9873671b971",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-7f9db0cf9fe879a4f4da8b5e",
+    "excerpt": "On November 22, 2023, we completed the acquisition of VMware, Inc. (“VMware”) in a cash-and-stock transaction (the “VMware Merger”). The VMware stockholders received approximately $",
+    "locator": "sec-div:1136",
+    "normalized_text_hash": "f98a4fd9cb194178931834038d4ea538ac8d0518ea33c1e9313857c616d88fee",
+    "section": "paragraph",
+    "source_id": "source-82597d4f3c8c5e4601988602",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-27e0afbdd33f04c98bc9c3b5",
+    "excerpt": "Shares eligible for future sale ...................... Upon completion of this offering, we will have shares of common stock outstanding (or shares if the underwriters exercise",
+    "locator": "tr:66",
+    "normalized_text_hash": "2954628931d1fac2c2df71849ab1bafdb430d4046470166faaa44bcabc090a5b",
+    "section": "paragraph",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-771afc5a1a30b1479c09c1c4",
+    "excerpt": "OpenAI and NVIDIA further provide us with valuable insight into, and access to, the forefront of the AI",
+    "locator": "sec-div:1055",
+    "normalized_text_hash": "870d9fc1e4fa14c04ddac8d3ee40c5b4926fe5c4467ca15643919642f0ed64d4",
+    "section": "paragraph",
+    "source_id": "source-c6a31cade1f4fdf38b853a41",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ebed206792e0d2d23299fa41",
+    "excerpt": "BENTONVILLE, Ark. and REDMOND, Wa. – July 17, 2018 – Today, Walmart Inc. (NYSE: WMT) announced it is establishing a strategic partnership with Microsoft Corp.",
+    "locator": "p:0",
+    "normalized_text_hash": "85a99c38b6c4eb1c8f90a76fb7ad38078544635de2c4d9cba2a9425cefe3227b",
+    "section": "paragraph",
+    "source_id": "source-d14f7bb565a8f4d556900419",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6ecfed92f17714675826cd92",
+    "excerpt": "As of December 31, 2024, our recorded value in equity, equity warrant, and convertible debt investments in public and private companies was $22.1 billion. Our",
+    "locator": "sec-div:681",
+    "normalized_text_hash": "6be09121022da9b34f56a5805b82ae3e382b8ccde4229fead966ec2b4b183d1c",
+    "section": "paragraph",
+    "source_id": "source-1f424e73af90b5c10b8d746e",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-305c18798038c22dacb28dfa",
+    "excerpt": "In December 2018, Kove IO, Inc. filed a complaint against Amazon Web Services, Inc. in the United States District Court for the Northern District of",
+    "locator": "sec-div:1220",
+    "normalized_text_hash": "037a5b1bbc3e625cbde7b2144920dafdc42ea43f1c8c8633fa5b531a66e6a21f",
+    "section": "paragraph",
+    "source_id": "source-1f424e73af90b5c10b8d746e",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-617190d56a1105c5cf8f4b3e",
+    "excerpt": "In October 2020, Broadband iTV, Inc. filed a complaint against Amazon.com, Inc., Amazon.com Services LLC, and Amazon Web Services, Inc. in the United States District",
+    "locator": "sec-div:1230",
+    "normalized_text_hash": "4bd45b655b48d7eb8f9f74391a36ee9fb3f0b369bad3b64f55ff09bc57e80106",
+    "section": "paragraph",
+    "source_id": "source-1f424e73af90b5c10b8d746e",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-eefc3cb583502222604bff60",
+    "excerpt": "SAN JOSE, Calif., November 22, 2023 – Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions,",
+    "locator": "sec-div:6",
+    "normalized_text_hash": "2900f770544a93a5b295586fa3c7a75b8d747866730cab67741517f2b5546b5c",
+    "section": "paragraph",
+    "source_id": "source-a302e4c5f804efaeb40170d2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-5f8b73d3c3482f5ca97c0819",
+    "excerpt": "Broadcom’s focus moving forward is to enable enterprise customers to create and modernize their private and hybrid cloud environments. At the core, Broadcom will invest",
+    "locator": "sec-div:10",
+    "normalized_text_hash": "d49d5bce6ed01604a42737bdc66b1f4e1a284123c261efaef024f5f6ff83c6cb",
+    "section": "paragraph",
+    "source_id": "source-a302e4c5f804efaeb40170d2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-3b715b9e7dc4a50ec767af3f",
+    "excerpt": "In connection with the acquisition of VMware, Broadcom previously announced the results of the merger consideration elections made by VMware stockholders of record in its",
+    "locator": "sec-div:14",
+    "normalized_text_hash": "c3a6855b912b4e4725c1dffce105b54041f225c7e7585cd9ee07b4f910dfeea5",
+    "section": "paragraph",
+    "source_id": "source-a302e4c5f804efaeb40170d2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-6365400e21a94800deb10554",
+    "excerpt": "This communication relates to Broadcom’s acquisition of VMware and includes forward-looking statements within the meaning of Section 21E of the U.S. Securities Exchange Act of",
+    "locator": "sec-div:23",
+    "normalized_text_hash": "e893878937698bfee46f5064e992df882a3523842177d4efcb42fe80c607ed83",
+    "section": "paragraph",
+    "source_id": "source-a302e4c5f804efaeb40170d2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-29a2b755f5c388ab7ee6fafa",
+    "excerpt": "These forward-looking statements involve risks and uncertainties that are outside Broadcom’s control and may cause actual results to differ materially from those contained in forward-looking",
+    "locator": "sec-div:27",
+    "normalized_text_hash": "a720a1c984c9274327871e2d794048d0c7e1946995f310f508eb9ccdce423f1d",
+    "section": "paragraph",
+    "source_id": "source-a302e4c5f804efaeb40170d2",
+    "supports_fields": [
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-2cbaefb79809a7df847932a4",
+    "excerpt": "United States Dollars",
+    "locator": "p:720",
+    "normalized_text_hash": "86a7f72c7b1a18f9500a5c80cfa6e7f62dedab09118fe3a719a75ad8dafa2329",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-ea7dee5181da3aeace056d3d",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-25927d5f1622755e248a5cf3",
+    "excerpt": "completion",
+    "locator": "p:0",
+    "normalized_text_hash": "ec22f40f674f7142770f7786e9be90d3500a8008e77b1375cd89fcacc1b43910",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-906167e0dd13ba9323deb3bd",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-9de9929ddf6f0cdafef96e43",
+    "excerpt": "net cash consideration",
+    "locator": "sec-div:673",
+    "normalized_text_hash": "24e4a532facd25372aa4694a4bcc56f69f6001550360ec29025e106c6ea5ba02",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-b761388c1f47e307d748b0a7",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a4eb95bb13828001a267c232",
+    "excerpt": "fully diluted equity value",
+    "locator": "p:4",
+    "normalized_text_hash": "ff7bc5e7fce93bb10f125da298d101b06eaa6e5239957451438276623ac7b40f",
+    "section": "Verified contract and business scope",
+    "source_id": "source-906167e0dd13ba9323deb3bd",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-1d8bcd0d0250b4c97626e441",
+    "excerpt": "Symbotic LLC",
+    "locator": "p:346",
+    "normalized_text_hash": "a391f475f32b3c1607637cd06656cad8607c83075cdc35ca61ff4f97b2150d4f",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e0f9d2205418024efd85b143",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d1a74857c3685ff0d0d6d810",
+    "excerpt": "United States dollars",
+    "locator": "p:793",
+    "normalized_text_hash": "4f83aae65e41648abe38d76d0659799ac3a0ee10c1b7292ef4090d95becbcbe4",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-e0f9d2205418024efd85b143",
+    "supports_fields": [
+      "amounts"
+    ]
+  },
+  {
+    "evidence_id": "evidence-620e2fb7bfe7d18e9e41741c",
+    "excerpt": "twelfth anniversary",
+    "locator": "sec-div:391",
+    "normalized_text_hash": "4c53b54c9887e3e3d6bfc1efba6abfcfd897b14fe7621e4de1dadaddf1491244",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9294da69779573884f584931",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-171d8ae516be8cb2c847423d",
+    "excerpt": "minimum of 15 years",
+    "locator": "sec-div:388",
+    "normalized_text_hash": "71abca6d78377a71110d8301a5c1920f7f951b00a902b44e30edcfac8595c49e",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-9294da69779573884f584931",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fc90605904650c0f3145a6bc",
+    "excerpt": "total of $520 million",
+    "locator": "sec-div:384",
+    "normalized_text_hash": "f8822630788a33e854299e602c60b38f498a2279db04be69ce813eb40143f835",
+    "section": "Verified contract and business scope",
+    "source_id": "source-9294da69779573884f584931",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e4e0f2a2c021d776c8effe37",
+    "excerpt": "five-year agreement",
+    "locator": "p:9",
+    "normalized_text_hash": "c916743e813733652a072ca53cf0b251af361db1842c71b40c8bb7997973792e",
+    "section": "Verified contract and business scope",
+    "source_id": "source-d14f7bb565a8f4d556900419",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-ce4f3f8e91d996c50d4b6fbe",
+    "excerpt": "Costco Anywhere Visa",
+    "locator": "p:1",
+    "normalized_text_hash": "5a8770251d36639ce698201b587a48a767d80880a6295144b2129bc58586e348",
+    "section": "Verified contract and business scope",
+    "source_id": "source-65582de79502dbeeaeee891f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-4f7b7708953f0fceca671c3d",
+    "excerpt": "only Visa",
+    "locator": "p:1",
+    "normalized_text_hash": "07d8e978645b5cfd3f2661511a3d97294a7ac80a6c819df905d740657b1f5acb",
+    "section": "Verified contract and business scope",
+    "source_id": "source-65582de79502dbeeaeee891f",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-eb0542967b4248f7944b342e",
+    "excerpt": "J.P. Morgan Payments business",
+    "locator": "aem-text:0",
+    "normalized_text_hash": "6869dfeeed3074d8185972c6b56570c94bb6341edebe7ddb6d4bc0e244c54065",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-07dd39c83f61e6ba78d7195f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-699ed041cd3824e9238ced53",
+    "excerpt": "Fastlane",
+    "locator": "p:8",
+    "normalized_text_hash": "57bed4ab8a1c7774e3a90f5df0cae91d97cffa63584862f279229ad601e956cc",
+    "section": "Verified contract and business scope",
+    "source_id": "source-ba658d591fd0d13f3343a590",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-497235c4368645f0c6d84fcc",
+    "excerpt": "J.P. Morgan Payments business",
+    "locator": "aem-text:0",
+    "normalized_text_hash": "6869dfeeed3074d8185972c6b56570c94bb6341edebe7ddb6d4bc0e244c54065",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-07dd39c83f61e6ba78d7195f",
+    "supports_fields": [
+      "parties"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fe0620321004c19db8fd3883",
+    "excerpt": "Visa Direct",
+    "locator": "p:2",
+    "normalized_text_hash": "0a029696f17ac1449b37754ebf3b895e3cddc8e7182c043a5d21346861e1eba4",
+    "section": "Verified contract and business scope",
+    "source_id": "source-ed9c2579fd994a51d1fa06e2",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b135ea1b271d9a7dcd73c2a3",
+    "excerpt": "Morphic",
+    "locator": "tr:443",
+    "normalized_text_hash": "3a3c23ab76b8e2e6b91f282a054df025a9678acf2cc6f9f57306a32d189cc5ae",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-7ef82b328009ca1f95a8f29d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-b51ab0e2a55de88832882b2b",
+    "excerpt": "Acquired IPR&D Charge",
+    "locator": "tr:440",
+    "normalized_text_hash": "013a9e68dbf335d7b1d8727a8b33ddf6e9c8d804a5cb821aa75d3021dfc08340",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-7ef82b328009ca1f95a8f29d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-68091e82e6df22eaab904300",
+    "excerpt": "completion of its acquisition",
+    "locator": "p:10",
+    "normalized_text_hash": "2db2a8f5680d0b6cab430789cf06e1d96dd197af44ce711bd57c13eea4845091",
+    "section": "Verified contract and business scope",
+    "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-d13c9af46987e41735bcad40",
+    "excerpt": "exclusive financial advisor",
+    "locator": "p:14",
+    "normalized_text_hash": "97a535eb30741c31ed77aafe1ef42f0538a78d06ab12a89c11c98a6ae56f4e6f",
+    "section": "Verified contract and business scope",
+    "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-a11ae6d442416a9300c46480",
+    "excerpt": "Lilly",
+    "locator": "sec-div:176",
+    "normalized_text_hash": "cf9b516b06574dcebdff8ec850b51071ef04a941031e9ba7903a0659fbf7423f",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-7ef82b328009ca1f95a8f29d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-16dd5b3ee6564cfd046b7abb",
+    "excerpt": "POINT Biopharma",
+    "locator": "sec-div:1208",
+    "normalized_text_hash": "7a0f5f12e9fb524f6a32216e75219391edbd0039a8860b710b1146462d1ffee5",
+    "section": "Verified contract and business scope",
+    "source_id": "source-7ef82b328009ca1f95a8f29d",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "amounts",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-117c437a26bd4533bc4f6384",
+    "excerpt": "Amazon.com",
+    "locator": "sec-div:122",
+    "normalized_text_hash": "91e0f0d0370865418de202293a79c8d197db3f48ed995e3236f8e57250840396",
+    "section": "Corroborating primary disclosure",
+    "source_id": "source-1f424e73af90b5c10b8d746e",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "amounts",
+      "term",
+      "conditions",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-81ae09aba458dd6c8c0b696a",
+    "excerpt": "third convertible note",
+    "locator": "sec-div:999",
+    "normalized_text_hash": "85295bb877497e72bab618451eb50ad1b85a7cb5080386f6927c36907e7c291f",
+    "section": "Verified contract and business scope",
+    "source_id": "source-1f424e73af90b5c10b8d746e",
     "supports_fields": [
       "parties",
       "relationship",

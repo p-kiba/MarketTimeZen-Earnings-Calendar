@@ -1,0 +1,106 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001326801",
+      "company_id": "co-meta",
+      "country": null,
+      "display_name": "Meta",
+      "entity_status": "resolved",
+      "legal_name": "Meta Platforms, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "symbol": "META",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-oklo",
+      "country": null,
+      "display_name": "Oklo",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-oklo",
+    "country": null,
+    "display_name": "Oklo",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e6b20533ea615df64558ef88",
+          "evidence-4f9210ce13650bc633e27aa9"
+        ],
+        "geography": "米国・Ohio州",
+        "headline": "Ohio原子力キャンパスの開発支援",
+        "products": [
+          "原子力発電キャンパス"
+        ],
+        "scale": "最大1.2GW、最速2030年",
+        "source_role": "発電設備の開発",
+        "target_role": "地域事業を支える開発支援"
+      },
+      "description": "Ohio州の新設原子力キャンパス開発を支援する提携。最大1.2GWを計画し、最速2030年の稼働を想定。未稼働の開発計画として表示。",
+      "direction": "undirected",
+      "event_date": "2026-01-09",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-10f75830f2d48d7285779605",
+      "relationship_type": "partnership",
+      "source_company_id": "co-oklo",
+      "status_as_of": "2026-01-09",
+      "target_company_id": "co-meta",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-01-09"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

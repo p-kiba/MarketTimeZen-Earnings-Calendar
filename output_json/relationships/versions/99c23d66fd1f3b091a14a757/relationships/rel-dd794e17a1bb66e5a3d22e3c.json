@@ -1,0 +1,422 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-11-18",
+      "conditions": "",
+      "deal_id": "deal-bfa1616b5e3b454de49d18b3",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "effective_date": null,
+      "event_id": "event-bfa1616b5e3b454de49d18b3",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-55e2fe0964455921d280a04c",
+        "evidence-71d626dcee86a5dc45fcccaf",
+        "evidence-d67304a70073f0e059e82946"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-55e2fe0964455921d280a04c",
+            "evidence-71d626dcee86a5dc45fcccaf",
+            "evidence-d67304a70073f0e059e82946"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dd794e17a1bb66e5a3d22e3c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754"
+        },
+        "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+        "reviewer": null,
+        "rule_id": "pilot-source-05412751bb0b3f7d68937500",
+        "rule_version": "1",
+        "verified_at": "2026-09-25T14:57:31+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-da9c4b9e0176450a10e3f3a4",
+          "amount_kind": "investment_amount",
+          "conditions": "出資上限の発表。払込完了・具体的条件は未確認。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "max_value": "5000000000",
+          "min_value": null,
+          "original_text": "up to $5 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "up_to",
+          "scope": "Microsoft単独の出資コミットメント上限。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-11-18",
+      "conditions": "上限を公表した出資コミットメント。実行日・具体的条件・払込完了は未確認。Azure購入額や他社出資と合算しない。",
+      "deal_id": "deal-bfa1616b5e3b454de49d18b3",
+      "detected_at": "2026-09-26T07:05:02+00:00",
+      "effective_date": null,
+      "event_id": "event-11909acde1cfa1da7de0c723",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-b10672dc1d36c53f2fed6ee4",
+        "evidence-1102d76adde28f24970580a9"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b10672dc1d36c53f2fed6ee4",
+            "evidence-1102d76adde28f24970580a9"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dd794e17a1bb66e5a3d22e3c"
+      ],
+      "supersedes_event_id": "event-bfa1616b5e3b454de49d18b3",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
+          "source-eef75e5bb0b9745e046106bf": "352b567cd0cc31c78a232276efee55297d787ac12e0f7730be14d7d27236f69f"
+        },
+        "reason": "Codex primary-source review of Anthropic original and NVIDIA official Traditional Chinese disclosure. Exact source/block hashes pinned. No human-review claim. Separate per-investor upper limits; completion and detailed conditions remain unknown.",
+        "reviewer": null,
+        "rule_id": "amount-review-20260926-co-msft-anthropic",
+        "rule_version": "c79b8d4700bd9507f2f0a74663c2f2ee8405840a49a44a5487979454eb26fcb0",
+        "verified_at": "2026-09-26T07:05:02+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1102d76adde28f24970580a9",
+      "excerpt": "作為此次合作的一環，NVIDIA 與微軟分別將向 Anthropic 投資最高 100 億美元與 50 億美元。",
+      "locator": "p:5",
+      "normalized_text_hash": "ab9958e6e965508297c7e19e27de0281327c25d270ee230921727bd313959a58",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-eef75e5bb0b9745e046106bf",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-55e2fe0964455921d280a04c",
+      "excerpt": "NVIDIA and Anthropic are establishing a deep technology partnership",
+      "locator": "p:5",
+      "normalized_text_hash": "9f0133f53757c0f656123663913bda2cea6f80e5f05a28117fbab26e3ba0b658",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-71d626dcee86a5dc45fcccaf",
+      "excerpt": "Microsoft and Anthropic are also expanding their existing partnership",
+      "locator": "p:6",
+      "normalized_text_hash": "0641aa2e3620b84c1c02fa36e278408e5adae45650ee8c939345f6daa1672f96",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b10672dc1d36c53f2fed6ee4",
+      "excerpt": "committing to invest",
+      "locator": "p:8",
+      "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+      "section": "Investment commitments",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d67304a70073f0e059e82946",
+      "excerpt": "committing to invest",
+      "locator": "p:8",
+      "normalized_text_hash": "480a986d70f76a177829977b7d2462d6e1d069284efb8b4ff80093504b632444",
+      "section": "Primary announcement",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "supports_fields": [
+        "relationship",
+        "status"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-b10672dc1d36c53f2fed6ee4",
+        "evidence-1102d76adde28f24970580a9"
+      ],
+      "geography": "",
+      "headline": "Anthropicへの出資コミットメント",
+      "products": [
+        "AIモデル開発への出資"
+      ],
+      "scale": "",
+      "source_role": "出資コミットメントを発表",
+      "target_role": "資金調達先"
+    },
+    "deal_ids": [
+      "deal-bfa1616b5e3b454de49d18b3"
+    ],
+    "description": "MicrosoftがAnthropicに最大50億米ドルの出資を約束すると発表。NVIDIA公式中国語版の金額・美元表記とAnthropic公式英語版の各社上限を照合。払込完了ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b10672dc1d36c53f2fed6ee4",
+      "evidence-1102d76adde28f24970580a9"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-26T07:05:02+00:00",
+    "latest_event_ids": [
+      "event-11909acde1cfa1da7de0c723"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+    "relationship_type": "investment",
+    "source_company_id": "co-msft",
+    "status_as_of": "2025-11-18",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-05412751bb0b3f7d68937500": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
+        "source-eef75e5bb0b9745e046106bf": "352b567cd0cc31c78a232276efee55297d787ac12e0f7730be14d7d27236f69f"
+      },
+      "reason": "Codex primary-source review of Anthropic original and NVIDIA official Traditional Chinese disclosure. Exact source/block hashes pinned. No human-review claim. Separate per-investor upper limits; completion and detailed conditions remain unknown.",
+      "reviewer": null,
+      "rule_id": "amount-review-20260926-co-msft-anthropic",
+      "rule_version": "c79b8d4700bd9507f2f0a74663c2f2ee8405840a49a44a5487979454eb26fcb0",
+      "verified_at": "2026-09-26T07:05:02+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+      "content_hash": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-11-18",
+      "publisher": "co-anthropic",
+      "retrieved_at": "2026-09-25T14:54:49+00:00",
+      "source_id": "source-05412751bb0b3f7d68937500",
+      "source_type": "official_newsroom",
+      "title": "Microsoft, NVIDIA, and Anthropic partnerships \\ Anthropic"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://blogs.nvidia.com.tw/blog/microsoft-nvidia-anthropic-announce-partnership/",
+      "content_hash": "352b567cd0cc31c78a232276efee55297d787ac12e0f7730be14d7d27236f69f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-11-18",
+      "publisher": "NVIDIA Taiwan",
+      "retrieved_at": "2026-09-26T07:00:44+00:00",
+      "source_id": "source-eef75e5bb0b9745e046106bf",
+      "source_type": "official_newsroom",
+      "title": "微軟、NVIDIA 與 Anthropic 宣布建立策略夥伴關係 - NVIDIA 台灣官方部落格"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-da9c4b9e0176450a10e3f3a4",
+        "amount_kind": "investment_amount",
+        "conditions": "出資上限の発表。払込完了・具体的条件は未確認。",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "美元",
+        "evidence_ids": [
+          "evidence-b10672dc1d36c53f2fed6ee4",
+          "evidence-1102d76adde28f24970580a9"
+        ],
+        "max_value": "5000000000",
+        "min_value": null,
+        "original_text": "up to $5 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-msft"
+        ],
+        "qualifier": "up_to",
+        "scope": "Microsoft単独の出資コミットメント上限。",
+        "value": null,
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-b10672dc1d36c53f2fed6ee4",
+        "evidence-1102d76adde28f24970580a9"
+      ],
+      "geography": "",
+      "headline": "Anthropicへの出資コミットメント",
+      "products": [
+        "AIモデル開発への出資"
+      ],
+      "scale": "",
+      "source_role": "出資コミットメントを発表",
+      "target_role": "資金調達先"
+    },
+    "description": "MicrosoftがAnthropicに最大50億米ドルの出資を約束すると発表。NVIDIA公式中国語版の金額・美元表記とAnthropic公式英語版の各社上限を照合。払込完了ではない。",
+    "direction": "directed",
+    "event_date": "2025-11-18",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T07:05:02+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-dd794e17a1bb66e5a3d22e3c",
+    "relationship_type": "investment",
+    "source_company_id": "co-msft",
+    "status_as_of": "2025-11-18",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "bounded_or_unspecified",
+      "contingency_unknown"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2016-06-20",
+      "conditions": "2016年6月20日開示時点。契約対価・満了日・その後の改定は未確認。",
+      "deal_id": "deal-ce4f3f8e91d996c50d4b6fbe",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": null,
+      "event_id": "event-ce4f3f8e91d996c50d4b6fbe",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ce4f3f8e91d996c50d4b6fbe"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ce4f3f8e91d996c50d4b6fbe"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7b1c4e0b90dc4db4823f0b17"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-65582de79502dbeeaeee891f": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-citi-co-cost-partnership",
+        "rule_version": "e70aec5027157f8006d403541dd4350cb1fc939648914082bffb1ef636d02d0e",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ce4f3f8e91d996c50d4b6fbe",
+      "excerpt": "Costco Anywhere Visa",
+      "locator": "p:1",
+      "normalized_text_hash": "5a8770251d36639ce698201b587a48a767d80880a6295144b2129bc58586e348",
+      "section": "Verified contract and business scope",
+      "source_id": "source-65582de79502dbeeaeee891f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ce4f3f8e91d996c50d4b6fbe"
+      ],
+      "geography": "米国・プエルトリコ",
+      "headline": "Costco会員向け提携カード",
+      "products": [
+        "Costco Anywhere Visaカード"
+      ],
+      "scale": "",
+      "source_role": "提携カード提供",
+      "target_role": "会員・店舗基盤提供"
+    },
+    "deal_ids": [
+      "deal-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "description": "CitiとCostcoがCostco Anywhere Visaカードを2016年6月20日に提供開始。会員向けの共同ブランドカードで、還元率や取扱高を契約額にはしない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-7b1c4e0b90dc4db4823f0b17",
+    "relationship_type": "partnership",
+    "source_company_id": "co-citi",
+    "status_as_of": "2016-06-20",
+    "target_company_id": "co-cost",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-65582de79502dbeeaeee891f": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-citi-co-cost-partnership",
+      "rule_version": "e70aec5027157f8006d403541dd4350cb1fc939648914082bffb1ef636d02d0e",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.citigroup.com/global/news/press-release/2016/us-new-costco-anywhere-visa-card-by-citi-offers-cash-back-rewards-on-every-purchase",
+      "content_hash": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2016-06-20",
+      "publisher": "www.citigroup.com",
+      "retrieved_at": "2026-09-26T08:04:22+00:00",
+      "source_id": "source-65582de79502dbeeaeee891f",
+      "source_type": "official_newsroom",
+      "title": "U.S.: New Costco Anywhere Visa Card by Citi Offers Cash Back Rewards on Every Purchase"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ce4f3f8e91d996c50d4b6fbe"
+      ],
+      "geography": "米国・プエルトリコ",
+      "headline": "Costco会員向け提携カード",
+      "products": [
+        "Costco Anywhere Visaカード"
+      ],
+      "scale": "",
+      "source_role": "提携カード提供",
+      "target_role": "会員・店舗基盤提供"
+    },
+    "description": "CitiとCostcoがCostco Anywhere Visaカードを2016年6月20日に提供開始。会員向けの共同ブランドカードで、還元率や取扱高を契約額にはしない。",
+    "direction": "directed",
+    "event_date": "2016-06-20",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-7b1c4e0b90dc4db4823f0b17",
+    "relationship_type": "partnership",
+    "source_company_id": "co-citi",
+    "status_as_of": "2016-06-20",
+    "target_company_id": "co-cost",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

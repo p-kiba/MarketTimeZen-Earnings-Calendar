@@ -1,7 +1,7 @@
 {
   "companies": {
     "co-aapl": {
-      "checked_at": "2026-09-26T05:29:46+00:00",
+      "checked_at": "2026-09-26T08:10:33+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -9,7 +9,7 @@
       "unsupported_filings": 2
     },
     "co-amd": {
-      "checked_at": "2026-09-26T05:29:51+00:00",
+      "checked_at": "2026-09-26T08:10:38+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -17,7 +17,7 @@
       "unsupported_filings": 0
     },
     "co-amzn": {
-      "checked_at": "2026-09-26T05:29:48+00:00",
+      "checked_at": "2026-09-26T08:10:34+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -25,7 +25,7 @@
       "unsupported_filings": 2
     },
     "co-avgo": {
-      "checked_at": "2026-09-26T05:29:48+00:00",
+      "checked_at": "2026-09-26T08:10:35+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -33,7 +33,7 @@
       "unsupported_filings": 4
     },
     "co-brk-b": {
-      "checked_at": "2026-09-26T05:29:50+00:00",
+      "checked_at": "2026-09-26T08:10:37+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -41,7 +41,7 @@
       "unsupported_filings": 4
     },
     "co-cost": {
-      "checked_at": "2026-09-26T05:29:53+00:00",
+      "checked_at": "2026-09-26T08:10:39+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -49,7 +49,7 @@
       "unsupported_filings": 0
     },
     "co-googl": {
-      "checked_at": "2026-09-26T05:29:47+00:00",
+      "checked_at": "2026-09-26T08:10:33+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -57,7 +57,7 @@
       "unsupported_filings": 0
     },
     "co-jpm": {
-      "checked_at": "2026-09-26T05:29:52+00:00",
+      "checked_at": "2026-09-26T08:10:38+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -65,7 +65,7 @@
       "unsupported_filings": 383
     },
     "co-lly": {
-      "checked_at": "2026-09-26T05:29:51+00:00",
+      "checked_at": "2026-09-26T08:10:37+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -73,7 +73,7 @@
       "unsupported_filings": 4
     },
     "co-meta": {
-      "checked_at": "2026-09-26T05:29:48+00:00",
+      "checked_at": "2026-09-26T08:10:35+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -81,7 +81,7 @@
       "unsupported_filings": 5
     },
     "co-msft": {
-      "checked_at": "2026-09-26T05:29:47+00:00",
+      "checked_at": "2026-09-26T08:10:34+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -89,7 +89,7 @@
       "unsupported_filings": 0
     },
     "co-mu": {
-      "checked_at": "2026-09-26T05:29:50+00:00",
+      "checked_at": "2026-09-26T08:10:36+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -97,7 +97,7 @@
       "unsupported_filings": 0
     },
     "co-nvda": {
-      "checked_at": "2026-09-26T05:29:46+00:00",
+      "checked_at": "2026-09-26T08:10:32+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -105,7 +105,7 @@
       "unsupported_filings": 3
     },
     "co-tsla": {
-      "checked_at": "2026-09-26T05:29:49+00:00",
+      "checked_at": "2026-09-26T08:10:36+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -113,7 +113,7 @@
       "unsupported_filings": 0
     },
     "co-wmt": {
-      "checked_at": "2026-09-26T05:29:52+00:00",
+      "checked_at": "2026-09-26T08:10:39+00:00",
       "last_success_date": "2026-09-26",
       "since": "2026-09-19",
       "status": "discovered",
@@ -145,7 +145,7 @@
     "source-01209c6c7f365cd49dc99c4f": {
       "content_hash": "a0aa94aceb01ee6b66480a0d2f501380f13b8695d70829efd5ee4bd36dd5acc6",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:16+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -285,7 +285,7 @@
     "source-05412751bb0b3f7d68937500": {
       "content_hash": "52c295bd35bd2974b4c1246a169e6a2862750ab4d646c3861a813efb0fa98754",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T14:54:49+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -324,6 +324,18 @@
       "status": "discovered",
       "url": "https://news.microsoft.com/source/topics/work-life/"
     },
+    "source-07dd39c83f61e6ba78d7195f": {
+      "content_hash": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:09:29+00:00",
+      "meta": {
+        "publisher": "J.P. Morgan",
+        "source_type": "official_newsroom"
+      },
+      "status": "parsed",
+      "url": "https://www.jpmorgan.com/payments/newsroom/payments-2025-q1-earnings"
+    },
     "source-085c57a3afdaa97e32b78869": {
       "meta": {
         "accession_number": "0001918704-26-028176",
@@ -339,7 +351,7 @@
     "source-08880256638be8c4001e0a07": {
       "content_hash": "ab532661d7362d6aca3be5e7acd80189b2f67ca2b397d578a9e7aae3ae78badd",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T18:52:52+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -416,7 +428,7 @@
       "attachments_discovered": true,
       "content_hash": "e6de661eaee542650d0cfa8bfed5efa0d5e7ac6d358f3107aba1bbb8fa27ab21",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:08+00:00",
       "meta": {
         "accession_number": "0001104659-26-107526",
@@ -628,13 +640,13 @@
     "source-10e0a75f5df0979f93998825": {
       "content_hash": "10e5343b9959e80153cb5b34b12bcf625249dd38a12b353abfa45eeddd2a7620",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:54+00:00",
       "meta": {
         "publisher": "www.jpmorganchase.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.jpmorganchase.com/newsroom/press-releases/2025/jpmc-coinbase-partnership"
     },
     "source-118b590758870b3494650c05": {
@@ -760,7 +772,7 @@
     "source-156553bb76e00d30eaea9caa": {
       "content_hash": "afe01316ba1da5c1efaf55a268096ba8d75a51770326d42536ee85f715885994",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:02:50+00:00",
       "meta": {
         "publisher": "co-meta",
@@ -810,6 +822,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102805/ea0306491-01_424b2.htm"
     },
     "source-1704ee188b3ffb0797d7df71": {
+      "content_hash": "cd610abda520823c2040a27e4120868ab3186d7a1311bd37f79a7d6ddfde9f82",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:42+00:00",
       "meta": {
         "accession_number": "0001628280-26-048086",
         "filed_date": "2026-07-14",
@@ -818,7 +834,7 @@
         "publisher": "co-jpm",
         "source_type": "sec_exhibit"
       },
-      "status": "discovered",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048086/a2q26_earningsxpresentat.htm"
     },
     "source-1722abb43bfb925c0095141c": {
@@ -833,7 +849,7 @@
       "attachments_discovered": true,
       "content_hash": "0054bef24459a371cbcb320e23ea7957f398aef86529060de11db7c7d3ebb3a0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:13+00:00",
       "meta": {
         "accession_number": "0001628280-26-049270",
@@ -874,7 +890,7 @@
       "attachments_discovered": true,
       "content_hash": "1abc6547f8cd01fc09413355797067d11227d00482c99c97ee610ed50955b478",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:44:58+00:00",
       "meta": {
         "accession_number": "0001045810-26-000078",
@@ -977,7 +993,7 @@
       "attachments_discovered": true,
       "content_hash": "32666f04211beb5c675150ef1afd99bb3a98d708c044d631b96063983e30ade5",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:13+00:00",
       "meta": {
         "accession_number": "0001628280-26-049213",
@@ -993,7 +1009,7 @@
     "source-1afc74498f5c493be725b49a": {
       "content_hash": "a5dfe00c363b6f13ec4f513c254e42dc9d13df606f1a58bf5aa372b7d4b5cf29",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:57+00:00",
       "meta": {
         "accession_number": "0001730168-26-000076",
@@ -1054,7 +1070,7 @@
       "attachments_discovered": true,
       "content_hash": "05b9917bd0d59903925bf6cbfb6d17fd9e0e140809df10c53c736502b5ddba2e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:02+00:00",
       "meta": {
         "accession_number": "0000320193-26-000020",
@@ -1111,7 +1127,7 @@
     "source-1d2da399ba6eaf8ade2a5618": {
       "content_hash": "51032dc0d9cd64758b8362fb83bc24e6073f6d9ebf661f328fe8d94b5ee4e662",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T03:56:38+00:00",
       "meta": {
         "publisher": "co-meta",
@@ -1135,7 +1151,7 @@
     "source-1d8d40a462d948ef66361776": {
       "content_hash": "91dc6ac7248bdd1aedf319590ff89a96f53bf38a8afb9c2b8dd920a12d30eb6f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:03:00+00:00",
       "meta": {
         "publisher": "co-meta",
@@ -1167,13 +1183,13 @@
     "source-1e47859411dbf0322c82f0a3": {
       "content_hash": "21628ed8173d840793caf7c3fcf8b8c2a76272ee64c9f3ba300db70c8a620013",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:12:01+00:00",
       "meta": {
         "publisher": "investors.micron.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://investors.micron.com/news/press-release/2023/Micron-Launches-Memory-Expansion-Module-Portfolio-to-Accelerate-CXL-2-0-Adoption-08-07-2023/default.aspx"
     },
     "source-1eae1c39d45f94d70f184746": {
@@ -1188,7 +1204,7 @@
       "attachments_discovered": true,
       "content_hash": "2cdf90b62c84cd883a6de9d8c37515f890e558eead3bc81cc6fbebdc7adb6a55",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:15+00:00",
       "meta": {
         "accession_number": "0001193125-26-344495",
@@ -1200,6 +1216,20 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm"
+    },
+    "source-1f424e73af90b5c10b8d746e": {
+      "content_hash": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:08:40+00:00",
+      "meta": {
+        "accession_number": "0001018724-25-000004",
+        "filed_date": "2025-02-07",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "candidate_created",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
     },
     "source-1f4f93161fc9dbf2fd194069": {
       "meta": {
@@ -1244,7 +1274,7 @@
     "source-20dd46d649a9b1c89b0b55c1": {
       "content_hash": "52f404f673846df79187c6b3d03d15affc5f20987ac0df75018eacf85b7bf858",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:02+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -1276,7 +1306,7 @@
     "source-2110b6ef2c6af1e086212428": {
       "content_hash": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T14:55:37+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -1440,7 +1470,7 @@
     "source-27605b8f97d38f158cac2f54": {
       "content_hash": "86ade21a7387ab9c2c0e6808c1fea607370cfc23d18cc329d32e4ef1878c490d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:03:02+00:00",
       "meta": {
         "publisher": "co-mu",
@@ -1516,13 +1546,13 @@
     "source-2aebe9353387cabf30bf9a57": {
       "content_hash": "c9cbedc0ae0f84e17385accfd4dadc63a2af740a3db92f88918a3339cfe1d2e5",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:42+00:00",
       "meta": {
         "publisher": "www.aboutamazon.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.aboutamazon.com/news/transportation/introducing-amazons-first-custom-electric-delivery-vehicle"
     },
     "source-2af4c8802671233a683dd229": {
@@ -1537,10 +1567,26 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028484/form424b2.htm"
     },
+    "source-2b0d1f55aea34a26b56c2f72": {
+      "content_hash": "0400ddc19dde021ed336371987bb75bc71a560d0fbda7fc946123ad274ea271b",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:45+00:00",
+      "meta": {
+        "accession_number": "0001628280-25-003063",
+        "filed_date": "2025-01-30",
+        "filing_cik": "0001318605",
+        "form": "EX-21.1",
+        "publisher": "co-tsla",
+        "source_type": "sec_exhibit"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-2024x12x31xex211.htm"
+    },
     "source-2b304080b1623b9f3fc819f4": {
       "content_hash": "cb84156049fc79018c919bb5422bc255ffdefb9c691d6438e7ffcaddff625c68",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:57+00:00",
       "meta": {
         "accession_number": "0001045810-26-000073",
@@ -1550,7 +1596,7 @@
         "publisher": "co-nvda",
         "source_type": "sec_exhibit"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
     },
     "source-2b43ea740ea0d44db6d02d1e": {
@@ -1577,7 +1623,7 @@
       "attachments_discovered": true,
       "content_hash": "54f4bc93312c6116978ef432977fff38c185c3f76e0c619a3779a44dc395f713",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:17+00:00",
       "meta": {
         "accession_number": "0000059478-26-000081",
@@ -1594,7 +1640,7 @@
       "attachments_discovered": true,
       "content_hash": "15f8ccd6805d9ede99c1af2e7119bde038707d969086b4520c1b918796eaf5e2",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:18+00:00",
       "meta": {
         "accession_number": "0000002488-26-000163",
@@ -1610,13 +1656,13 @@
     "source-2ceee473fb49d6f36f7d1cbc": {
       "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:48+00:00",
       "meta": {
         "publisher": "about.fb.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
     },
     "source-2dd1abe4ed114b7ccd532ef4": {
@@ -1632,9 +1678,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102707/ea0306430-01_424b2.htm"
     },
     "source-2e2c4751a2cd43512ffd443d": {
+      "attachments_discovered": true,
       "content_hash": "1881946c04a493460348310f162a20ee3f44a00b1ea091ae00523fb0d783c554",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:13:59+00:00",
       "meta": {
         "accession_number": "0001628280-25-003063",
@@ -1644,7 +1691,7 @@
         "publisher": "co-tsla",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
     },
     "source-2eceaf71faffbf7209cad3f0": {
@@ -1670,7 +1717,7 @@
     "source-2f318fa59a6374c4a44b453a": {
       "content_hash": "85d697d2490983250dd47c70310328b135275f5367094c54fb8ae716efba7de1",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:41+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -1730,7 +1777,7 @@
     "source-30402cd228887d44f9063873": {
       "content_hash": "8d155f765db191bbc30550b2fd206487f42a9a9ee6f35abeac703d34918f721d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T18:51:31+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -1762,7 +1809,7 @@
     "source-3067a3f78622abeab0ad2439": {
       "content_hash": "8b72a7c37af40b2951d5c8660d6de836850b4cc4858f703eb2b93dd2b313c81e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:09+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -1774,7 +1821,7 @@
     "source-311f300719e0734712c02ce3": {
       "content_hash": "87fd1432fdcf6eab78ef8574866412cde3bc08cd66bdfde8ae0f19d5671fa84c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:43+00:00",
       "meta": {
         "publisher": "co-softbank-group",
@@ -1823,7 +1870,7 @@
       "attachments_discovered": true,
       "content_hash": "546e6870ceca61f7b206584a35b775c4560ca0dc30746fe0544205d0a501673c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:03+00:00",
       "meta": {
         "accession_number": "0001193125-26-342390",
@@ -1887,7 +1934,7 @@
     "source-338412fcbd2914ae458e7de3": {
       "content_hash": "3b144a97aecc5681158d0880b5fdc7d139bdd18afa46a082cf5f9c77622ace2f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:19+00:00",
       "meta": {
         "accession_number": "0001193125-25-216497",
@@ -1895,13 +1942,13 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274dex101.htm"
     },
     "source-33fde43ef418b98646d15bea": {
       "content_hash": "e79bff25e7a5dfbd9f67133ca51659515ca3f93bbae747a6d1b98e4507f35e39",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:20+00:00",
       "meta": {
         "accession_number": "0001193125-25-216497",
@@ -1909,7 +1956,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm"
     },
     "source-340caa7c55acca1680d56ec9": {
@@ -1923,7 +1970,7 @@
     "source-34192e972e010183a55f6e79": {
       "content_hash": "24b55dc7a02d6987c2a976e681a63da79198316f25d41e0355ab7afb252a0012",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:06+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -1943,7 +1990,7 @@
     "source-35153d51df6f7aff06e1b439": {
       "content_hash": "c5c5ce6791e12c7a471e9ecaa57e9c9f016f29d5ddf67814bcd401480f588677",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:36+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -1956,7 +2003,7 @@
       "attachments_discovered": true,
       "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:09+00:00",
       "meta": {
         "accession_number": "0001018724-26-000026",
@@ -2120,7 +2167,7 @@
     "source-390fbac73b8351518df960c3": {
       "content_hash": "956ad2cadbd306ca3c7baa94e52bdaa0f60fe861f7f3f2fdbe2a3993d1cf5937",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:48+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -2133,7 +2180,7 @@
       "attachments_discovered": true,
       "content_hash": "9a53530ee417ffda80071b7ed68cfbffeda600fff9c31cbbb1093d0afc6e8154",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:07+00:00",
       "meta": {
         "accession_number": "0001193125-26-323660",
@@ -2150,7 +2197,7 @@
       "attachments_discovered": true,
       "content_hash": "a3d0bbf6411bb2b2db0bc9deee1541ea44639399e26e1f08adf8df3037ab0878",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:05+00:00",
       "meta": {
         "accession_number": "0001193125-26-380280",
@@ -2211,7 +2258,7 @@
       "attachments_discovered": true,
       "content_hash": "c00dea1fc45b8cf5bbe2fa6918534a29c2547b65e7f3a442e67093a88bbf57d5",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:44:59+00:00",
       "meta": {
         "accession_number": "0001045810-26-000073",
@@ -2227,7 +2274,7 @@
     "source-3b0069a20a29aa84e7f64387": {
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:04:05+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -2251,13 +2298,13 @@
     "source-3c64d85b296779a0af7546e9": {
       "content_hash": "44f07481106c0b174601b6e720b6a398ee99203de67abd104ba22b87883b7219",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:50+00:00",
       "meta": {
         "publisher": "investor.uber.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx"
     },
     "source-3cf19f7ceff7a7e8c4f9519c": {
@@ -2275,14 +2322,14 @@
     "source-3cfcb1f741a499306ab3804a": {
       "content_hash": "d168974908c8816a6ebb04d050f4d176a170b2b3aed6ee328e8eff0e81f93e1c",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:57:34+00:00",
       "meta": {
         "published_date": "2026-02-27",
         "publisher": "OpenAI",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://openai.com/pt-BR/index/scaling-ai-for-everyone/"
     },
     "source-3d9f0f9bdf479489baec6194": {
@@ -2304,7 +2351,7 @@
     "source-3e5011eec436f24518d76413": {
       "content_hash": "e04be9918f1f5a2854ea8d78bd1beeb5b96d051af49d2489fbae003b78a8b180",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:16+00:00",
       "meta": {
         "accession_number": "0000104169-26-000145",
@@ -2321,7 +2368,7 @@
       "attachments_discovered": true,
       "content_hash": "7037c6c37deb9f1bffb419bf83aa961ec410fc16219231e109f1ff97762c78b0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:07+00:00",
       "meta": {
         "accession_number": "0001193125-26-323632",
@@ -2381,7 +2428,7 @@
     "source-3f80e854721ad8645bce9be7": {
       "content_hash": "b364c6b0b44f50b22a76d6d9b16b6d06855f126d29d7899e55096967d423481c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:24+00:00",
       "meta": {
         "publisher": "co-google",
@@ -2489,13 +2536,13 @@
     "source-41db644bf718fc177149817e": {
       "content_hash": "29be20bbfcb80e79390b2e2d142ee0eb8ccdc9a62bd29d860e4454d851fc7c87",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:28+00:00",
       "meta": {
         "publisher": "co-google",
         "source_type": "official_newsroom"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/google-cloud-next-2024-generative-ai-gemini/"
     },
     "source-41dfce0b50cc08fe66a5229f": {
@@ -2537,7 +2584,7 @@
     "source-43a619af7b1d723f649eaebb": {
       "content_hash": "28434bfd053eee9e9065a8b402acdd81b68823989e936196f5de2ae87565dc8f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:56+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -2633,7 +2680,7 @@
     "source-46443acd53338b6255548f92": {
       "content_hash": "13e9ce07e634b88e3c7ffc9d22492d2e29acd980a7743fc60628d58b4e52e6d6",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:58+00:00",
       "meta": {
         "accession_number": "0000002488-26-000121",
@@ -2643,7 +2690,7 @@
         "publisher": "co-amd",
         "source_type": "sec_exhibit"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm"
     },
     "source-4648ef09065db73d049052da": {
@@ -2757,7 +2804,7 @@
     "source-494cc0eb72b8ff3b6f865bf1": {
       "content_hash": "d6d5675c78c76583bbae68fe3a9488d444be25f9f9ed537536fbd91e114ff1d8",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:06:52+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -2790,7 +2837,7 @@
       "attachments_discovered": true,
       "content_hash": "901fc71a14d64dfdf027d68f0533d84814534259d422e3559bd88747402a9d9f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:14+00:00",
       "meta": {
         "accession_number": "0001104659-26-101067",
@@ -2806,7 +2853,7 @@
     "source-4b1814342744a2e19f66d204": {
       "content_hash": "2159081af48646bd2822d2f00d9d95a3ba554f5d5a9bf31354e6b802f7a9f3ce",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:25+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -2818,19 +2865,19 @@
     "source-4c4fb934da11449636adaee0": {
       "content_hash": "75dfb117af6075e6b95b8003401e10ada8b96fbd55a7cc977fee1bc45e2bea65",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:39+00:00",
       "meta": {
         "publisher": "investor.salesforce.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-and-Google-Bring-Gemini-to-Agentforce-Enable-More-Customer-Choice-in-Major-Partnership-Expansion/default.aspx"
     },
     "source-4c779fc8d3d20a63afeb9d77": {
       "content_hash": "31b758baea6c40e3e4c95a0ebcb5b5b33cd1ff5d69d8209ee99aadb141968c9b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:34+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -2874,7 +2921,7 @@
     "source-4d6f9a8b4438be45a798d479": {
       "content_hash": "647ceb67205ed818800c3c7fddb006d0db7e7b80555eaa8e32e10a4577c27278",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:58+00:00",
       "meta": {
         "accession_number": "0001628280-26-054343",
@@ -2938,7 +2985,7 @@
     "source-4f378d4909d3cbc7e8dd0c7f": {
       "content_hash": "b5cfa781e6ab32093e824b3ccf13de2e430b55bf1154bf45fb49ef9d48267b30",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:59+00:00",
       "meta": {
         "accession_number": "0001628280-26-049213",
@@ -2975,7 +3022,7 @@
       "attachments_discovered": true,
       "content_hash": "5b887c4302ced06615e32546067becdd45af2f6c8de14b4d1818b0ddd776d692",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:19+00:00",
       "meta": {
         "accession_number": "0000002488-26-000123",
@@ -2985,14 +3032,14 @@
         "publisher": "co-amd",
         "source_type": "sec_filing"
       },
-      "status": "candidate_created",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
     },
     "source-5101e4a01b97328d63a6daae": {
       "attachments_discovered": true,
       "content_hash": "e58660f7c61b5c193d0cef7004c6b80feb956bfeb49b6db3aa9ab859ee5adb72",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:09+00:00",
       "meta": {
         "accession_number": "0001018724-26-000024",
@@ -3040,7 +3087,7 @@
     "source-53a308d14df13a9d0eb0b110": {
       "content_hash": "bcf10ea0f78879f54b1d93ade7269ad6add8f0afbac551e709695175e9b68aec",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:29:59+00:00",
       "meta": {
         "accession_number": "0001104659-26-101067",
@@ -3081,7 +3128,7 @@
       "attachments_discovered": true,
       "content_hash": "aa733f7121230d399099b1dc5a0df9a7bd58682876b7e41db9962ce9c72ecb3c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:00+00:00",
       "meta": {
         "accession_number": "0000104169-26-000145",
@@ -3097,7 +3144,7 @@
     "source-54af868a78444a9cbb22d398": {
       "content_hash": "3c666b229f9cc8da1f4bc21debf70e7c1ff27a8076021dfb416617b0044dd02d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:39:56+00:00",
       "meta": {
         "accession_number": "0000909832-26-000084",
@@ -3169,7 +3216,7 @@
     "source-5670db465f60e64b6c4f877c": {
       "content_hash": "9a556713048cba7f9c4fcf1b418b972b1d5f74a17e6332a9c10dfbd5229b543e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:10+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -3193,13 +3240,13 @@
     "source-56ab4107d3146e817658156a": {
       "content_hash": "2dbe6027fca64fdfc92e841a57ab94f4e5eeb359bc09bfafcdefe97f7451ab95",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:53+00:00",
       "meta": {
         "publisher": "newsroom.accenture.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://newsroom.accenture.com/news/2024/accenture-and-nvidia-lead-enterprises-into-era-of-ai"
     },
     "source-56c56531e034d0784e59c4ac": {
@@ -3213,7 +3260,7 @@
     "source-573be38b22d361de3644ffb4": {
       "content_hash": "9ee3314970ff740a8facdec0f0b6f6e4f6a4302cfac4bbfe8b8261ed1aa7786b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:44+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -3285,7 +3332,7 @@
     "source-57fc2c4b4f807eed60b3118f": {
       "content_hash": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:57+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -3297,14 +3344,14 @@
     "source-587e14746647647685fb62e8": {
       "content_hash": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:16+00:00",
       "meta": {
         "filed_date": "2026-02-26",
         "publisher": "MP Materials",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm"
     },
     "source-589d8795bf3b64275faf3327": {
@@ -3370,7 +3417,7 @@
     "source-5a44e3fab07fdbe47c2e947d": {
       "content_hash": "be4c3125fd880ee796a4772399a94adb3c85742e2e0ba498bce881950f1f218d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:02:46+00:00",
       "meta": {
         "publisher": "co-meta",
@@ -3382,7 +3429,7 @@
     "source-5b6b35f482dbbfa8b0632deb": {
       "content_hash": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:02:54+00:00",
       "meta": {
         "publisher": "co-meta",
@@ -3406,7 +3453,7 @@
     "source-5c71ad60bd89a0f151a37914": {
       "content_hash": "2cd5eb93258b263552ee1b3baa92d875c6efdfc203fcbdbea121ff3f74d2152c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:45+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -3418,7 +3465,7 @@
     "source-5c923bf7b269f378af9ff54f": {
       "content_hash": "7f607607db0c16485390ec8b8a7de336680dc0bba623c96d5a45ac73f5e39fb0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:19:17+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -3443,7 +3490,7 @@
       "attachments_discovered": true,
       "content_hash": "ddebad18484898bea28e887836ac3d53242a0f572eec56bc5b0e0440db4db7a3",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:02+00:00",
       "meta": {
         "accession_number": "0000320193-26-000018",
@@ -3459,7 +3506,7 @@
     "source-5dd316072ce72ff8763f4344": {
       "content_hash": "339fe03b4c6e21f010c20ca2dd5fdacf83979fdad018ea9ffe84e527b783eb84",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T18:51:38+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -3527,7 +3574,7 @@
     "source-5f65a471bafc823d593d0381": {
       "content_hash": "f05b099d3cb92ec481162390489a8ff2f22b304e3c377df2d055bbcfd8f3e14b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:34+00:00",
       "meta": {
         "publisher": "co-amd",
@@ -3575,7 +3622,7 @@
     "source-6092ac3bed9810b09cfc7a5c": {
       "content_hash": "47a0a4a1d6a335fffab571789aba597eca0637d2650f0f62371afa10e205b987",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:00+00:00",
       "meta": {
         "accession_number": "0001193125-26-380280",
@@ -3635,19 +3682,19 @@
     "source-61c6b764e9c70965003c43ed": {
       "content_hash": "a896010b91fe4d6e99205192ee4fb5f85b4636da71185073140a8a50d56d1efb",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:10+00:00",
       "meta": {
         "publisher": "www.lseg.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.lseg.com/en/media-centre/press-releases/2022/lseg-and-microsoft-launch-strategic-partnership"
     },
     "source-64c042c1edf214e12cddd972": {
       "content_hash": "800223fcc47742eb14c3942b8550aba157f9d97bb3ddaf10d1e291542eac2a20",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:01+00:00",
       "meta": {
         "accession_number": "0001652044-26-000071",
@@ -3681,6 +3728,10 @@
       "url": "https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement"
     },
     "source-6532b0e2e7ac10e7868312c9": {
+      "content_hash": "3592244c93bf5d3618ce0c6b11bb5daa14fdab6bff9160480e442f47ee573d84",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:43+00:00",
       "meta": {
         "accession_number": "0001628280-26-048078",
         "filed_date": "2026-07-14",
@@ -3689,8 +3740,20 @@
         "publisher": "co-jpm",
         "source_type": "sec_exhibit"
       },
-      "status": "discovered",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/a2q26erfex992supplement.htm"
+    },
+    "source-65582de79502dbeeaeee891f": {
+      "content_hash": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:04:22+00:00",
+      "meta": {
+        "publisher": "www.citigroup.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "parsed",
+      "url": "https://www.citigroup.com/global/news/press-release/2016/us-new-costco-anywhere-visa-card-by-citi-offers-cash-back-rewards-on-every-purchase"
     },
     "source-6559f31f15bd958846ef80d7": {
       "meta": {
@@ -3767,7 +3830,7 @@
     "source-670569af7185bb7c5f4ebb46": {
       "content_hash": "53dcf8fa97f7e04e8f0dd1386b2baef06947de61b7ac53dba19f66191eb98296",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:12+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -3823,7 +3886,7 @@
     "source-6a7dbd2365709848abd13576": {
       "content_hash": "a64aaf7dac1906682fe8adec85bff4a40f104b7234378a7684b296c19b1a4bfa",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:04:08+00:00",
       "meta": {
         "publisher": "co-softbank-group",
@@ -3847,7 +3910,7 @@
     "source-6a992de5997e797293db2fd3": {
       "content_hash": "47c686777198106b9a728084ae8222af0a624b0470fa81223db0dd1f30e21185",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T18:51:24+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -3871,7 +3934,7 @@
     "source-6b1498de2bb1640d71b431f2": {
       "content_hash": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:03:06+00:00",
       "meta": {
         "publisher": "co-mu",
@@ -3899,7 +3962,7 @@
     "source-6d81d765e0769af989a854d2": {
       "content_hash": "69e0dda1d4ccadf4abd48271136fd184aa85c2394b48211c63667a2cee9c5401",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:01+00:00",
       "meta": {
         "accession_number": "0000059478-26-000077",
@@ -3915,7 +3978,7 @@
     "source-6de0b20465f13b7f0fabccfb": {
       "content_hash": "d89492ba4505b4fe995e73febf16105b18482a4fa4a6357e2271b8f3e3c3cc50",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:58:20+00:00",
       "meta": {
         "accession_number": "0001193125-25-160635",
@@ -3923,14 +3986,14 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1801368/000119312525160635/d923027d424b5.htm"
     },
     "source-6e487dceeb3d6a4768e63fe5": {
       "attachments_discovered": true,
       "content_hash": "0bf360248a62e75f573c022065cf94c9535ee073728b4785e2087dae9bc1c759",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:11+00:00",
       "meta": {
         "accession_number": "0001628280-26-050705",
@@ -4030,7 +4093,7 @@
     "source-7316c36d86d32319fcb1834e": {
       "content_hash": "15cf5cda1b31da99658a5f2556570ab7b04e74886d1cc146446452340e4bcf3c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:14+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -4062,7 +4125,7 @@
     "source-73ee8d0a335e662babbb04fa": {
       "content_hash": "19d6ce726ff1e135d85c7e0c6065e2af1fd448dd5a9ea06c8e5062f082d0d0ca",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T07:16:51+00:00",
       "meta": {
         "accession_number": "0001628280-26-059639",
@@ -4070,7 +4133,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm"
     },
     "source-73ff95bcd9dcccf1b60e3ef0": {
@@ -4088,7 +4151,7 @@
     "source-74224358d64011c0871bfdb1": {
       "content_hash": "dca16864807ee7a2abee2c72d1049a098e036f3061ea728e3322f51ad8729449",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:28+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -4100,13 +4163,13 @@
     "source-749efa2de6972ac888c69fc5": {
       "content_hash": "8ae11c22dd5094c026423da459f6979883d0d72a3c93dc4279d35e547279c59b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:44+00:00",
       "meta": {
         "publisher": "newsroom.amd.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d/"
     },
     "source-74b23495d009201feb267924": {
@@ -4153,7 +4216,7 @@
       "attachments_discovered": true,
       "content_hash": "389d3be21a0582c3e7d8692ad462e5d887663a1ada3ce32292b43efc1f459f3c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:18+00:00",
       "meta": {
         "accession_number": "0001193125-26-354029",
@@ -4170,7 +4233,7 @@
       "attachments_discovered": true,
       "content_hash": "c9be516db128d9b2042088d7a53575b43910b33c9e506576fdf8e5f68c05186b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:02+00:00",
       "meta": {
         "accession_number": "0001628280-26-048078",
@@ -4186,7 +4249,7 @@
     "source-765d30f1a515bbec3070fae4": {
       "content_hash": "304680b2a5fdfa67933bace22e93b7ae158e75825ef6f66c1c0bdf82979cbfef",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:24+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -4198,13 +4261,13 @@
     "source-76d484b769a58ce428aba97c": {
       "content_hash": "529c8b427e682144b0e56636bc830bae8c1bb99e65deb20b812ed44edcf4c144",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:48+00:00",
       "meta": {
         "publisher": "company.instacart.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://company.instacart.com/pressreleases/costco-executive-members-now-get-monthly-credit-for-same-day-delivery-with-instacart"
     },
     "source-774fbc0ecab41427946e0bd9": {
@@ -4392,7 +4455,7 @@
     "source-7c8a47cdca49e974ebdb9cfc": {
       "content_hash": "12e94613e48dd6520278598330a76d8476095ab6929457a3cb88336eb3f69a85",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:18+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -4413,7 +4476,7 @@
       "attachments_discovered": true,
       "content_hash": "933ca1bcb16bc4070ccb5b400d0c21441ff395bff34d1e953041c19e3cdca796",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:01+00:00",
       "meta": {
         "accession_number": "0001045810-26-000056",
@@ -4454,7 +4517,7 @@
       "attachments_discovered": true,
       "content_hash": "723a0d41a47312ae8d6eacf4c9b60366d7fe5177f05b34658f3186e6edf8b012",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:21+00:00",
       "meta": {
         "accession_number": "0001193125-26-314128",
@@ -4470,7 +4533,7 @@
     "source-7db9c3da4687bb0f25c43a2b": {
       "content_hash": "863553b3090aeca89cfac8c13a9fb82938ca5de75e49338de62049b64b4f716a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:02+00:00",
       "meta": {
         "accession_number": "0001193125-26-323660",
@@ -4503,7 +4566,7 @@
       "attachments_discovered": true,
       "content_hash": "ca94f78a5b5c69263e97a176963484d63db6f197d5117b422438c349a0c87348",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:00+00:00",
       "meta": {
         "accession_number": "0001045810-26-000060",
@@ -4515,6 +4578,20 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm"
+    },
+    "source-7ef82b328009ca1f95a8f29d": {
+      "content_hash": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:04:01+00:00",
+      "meta": {
+        "accession_number": "0000059478-26-000013",
+        "filed_date": "2026-02-12",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm"
     },
     "source-7f03b425dfbf11e5eceb377f": {
       "meta": {
@@ -4608,7 +4685,7 @@
       "attachments_discovered": true,
       "content_hash": "43fce9a16577a880cae419ad1c6c68b6447e561f81c660ef35e7e6f24828dfef",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:10+00:00",
       "meta": {
         "accession_number": "0001104659-26-082293",
@@ -4672,7 +4749,7 @@
     "source-82597d4f3c8c5e4601988602": {
       "content_hash": "666d5e0ff2bbeb9f5ee1740ceb7b6e61b3709fbd9fc6ab35ea1c3c2684a757d2",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:58:19+00:00",
       "meta": {
         "accession_number": "0001730168-24-000139",
@@ -4680,7 +4757,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
     },
     "source-826d5de1db8faa2add6f2829": {
@@ -4698,7 +4775,7 @@
     "source-82fedc2e99b4a29039c432d6": {
       "content_hash": "9061ab34617455a2247c260174efc9622210d9224986f5cdfec7ad9f10ceac3d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:03+00:00",
       "meta": {
         "accession_number": "0000002488-26-000123",
@@ -4714,7 +4791,7 @@
     "source-8301708ff726d0b163267017": {
       "content_hash": "f9a84da5332d20a0905f831cee5624feaec747f652b0df19897b4f80fce452e9",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:22+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -4724,6 +4801,10 @@
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
     },
     "source-84217dae0f801ad7a42637d5": {
+      "content_hash": "03ff74fa277f14a061ad70e507114bd228d044100373890c0244e4e5f3c6f5c4",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:44+00:00",
       "meta": {
         "accession_number": "0000909832-26-000060",
         "filed_date": "2026-07-08",
@@ -4732,7 +4813,7 @@
         "publisher": "co-cost",
         "source_type": "sec_exhibit"
       },
-      "status": "discovered",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000060/costex9918-k7726.htm"
     },
     "source-844e984ed2107b735e4f7970": {
@@ -4771,7 +4852,7 @@
       "attachments_discovered": true,
       "content_hash": "9fcf384f33492b231b6ad097eb5ec65c06d2122193e82d5a2364d949cec26940",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:04+00:00",
       "meta": {
         "accession_number": "0000909832-26-000060",
@@ -4788,7 +4869,7 @@
       "attachments_discovered": true,
       "content_hash": "e16cf8a6fd53767e017ea4a84b03b8d3b1c4513d32ba8b67be4172d7a26be9a7",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:17+00:00",
       "meta": {
         "accession_number": "0000059478-26-000077",
@@ -4816,7 +4897,7 @@
     "source-86143a37f1bd7c4a0a77dbc4": {
       "content_hash": "e69ddbf89db785c76d9bb203a630a9055164566e3ec5d58c82eafd58e811c442",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T18:48:45+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -4828,7 +4909,7 @@
     "source-8646ccdfbaa5e33b58bfed3b": {
       "content_hash": "47e4b22c5889908019395a7139c2ea65f577e1cad2994846ae5283a74295072d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:05+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -4840,7 +4921,7 @@
     "source-86de2bbc1de5ca7c58545590": {
       "content_hash": "dcc2a13e510ac977a7b9d91416c4db21df90f0d02e2a6538281f00b3bd6f7c5d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:11:15+00:00",
       "meta": {
         "publisher": "co-nebius",
@@ -4939,7 +5020,7 @@
       "attachments_discovered": true,
       "content_hash": "eeae8c6400c1da0deb6943e3201ecdaeb7e7afcc41c1100a14474b64588c6b1d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:00+00:00",
       "meta": {
         "accession_number": "0001045810-26-000069",
@@ -4955,14 +5036,14 @@
     "source-8a635398939d78d38bee180a": {
       "content_hash": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:18+00:00",
       "meta": {
         "filed_date": "2026-03-02",
         "publisher": "CoreWeave",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
     },
     "source-8a68d3b4c77f6aa1da7220d8": {
@@ -4980,7 +5061,7 @@
     "source-8a9d20285d182f8684e2301d": {
       "content_hash": "d5d586fcc9d746c3e4535718d5db56e22a72d28e11421cb3a7f402902098f464",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:04+00:00",
       "meta": {
         "accession_number": "0001018724-26-000026",
@@ -5020,7 +5101,7 @@
     "source-8bb1c260f8bc4e92ca337043": {
       "content_hash": "fc20f8dd768c834411f44d54cbc54358e88b9850ee74582918ef95eb5e292ffd",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:08+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -5044,13 +5125,13 @@
     "source-8c82b593c2eddb5518350269": {
       "content_hash": "b0250a93ea98487dfb1682b2d58256249a0a5f8507961cfa6f451b37845f3bef",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:57+00:00",
       "meta": {
         "publisher": "corporate.walmart.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois"
     },
     "source-8ca9b0ddc5af82359361e300": {
@@ -5097,8 +5178,8 @@
       "attachments_discovered": true,
       "content_hash": "e4be8661ade61f37ec07dd02637526b22e80d01d7b52ac1f8cee6b6dcfd57ffc",
       "error": null,
-      "extraction_version": "rules-1.5",
-      "last_checked_at": "2026-09-26T05:30:05+00:00",
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:44+00:00",
       "meta": {
         "accession_number": "0000909832-26-000084",
         "filed_date": "2026-09-24",
@@ -5125,7 +5206,7 @@
     "source-8f1fb4f76ce218565699fd42": {
       "content_hash": "d3e03f7bb105d5a8b8d0a9fce4c8aeda408bbbc8fbf2afb95c1335894c990e10",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:01+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -5200,7 +5281,7 @@
     "source-902621c5139ad46e9da56c18": {
       "content_hash": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:04:17+00:00",
       "meta": {
         "publisher": "co-msft",
@@ -5217,6 +5298,18 @@
       "status": "discovered",
       "url": "https://news.microsoft.com/source/exec/satya-nadella/"
     },
+    "source-906167e0dd13ba9323deb3bd": {
+      "content_hash": "0fd0b3e423a43ef91e598874dbd455095971d23de731aa50b0bf1aa6df892c84",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:03:47+00:00",
+      "meta": {
+        "publisher": "corporate.walmart.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "parsed",
+      "url": "https://corporate.walmart.com/news/2024/12/03/walmart-completes-acquisition-of-vizio"
+    },
     "source-926e1b6ef55d11090d257f5d": {
       "meta": {
         "accession_number": "0001213900-26-102468",
@@ -5228,6 +5321,20 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102468/ea0306238-01_424b2.htm"
+    },
+    "source-9294da69779573884f584931": {
+      "content_hash": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:05:14+00:00",
+      "meta": {
+        "accession_number": "0001837240-25-000278",
+        "filed_date": "2025-11-24",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm"
     },
     "source-92a9ae1c74cfeff39e4be485": {
       "meta": {
@@ -5244,13 +5351,13 @@
     "source-92cd7a26ed3a4b47c33ab169": {
       "content_hash": "0ef482f41bad987d19e4ba0fafb3da21b587da6322bda5582ec19948a03f13d3",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:45+00:00",
       "meta": {
         "publisher": "www.jpmorganchase.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/chase-to-become-new-issuer-of-apple-card"
     },
     "source-92e494275e6d19336a121198": {
@@ -5264,9 +5371,10 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-ultra-ai-factory-platform-paves-way-for-age-of-ai-reasoning"
     },
     "source-9377e59c45f1e1b3e5110b09": {
+      "attachments_discovered": true,
       "content_hash": "8e28793c7f255dfe7ced15bcd7abeb3f2edf1988f6e1c238a5c550bd82d695a2",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:51+00:00",
       "meta": {
         "accession_number": "0001140361-23-054354",
@@ -5276,7 +5384,7 @@
         "publisher": "co-avgo",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
     },
     "source-938cbaff889cbee2862e0e60": {
@@ -5292,6 +5400,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026103454/ea0306679-01_424b2.htm"
     },
     "source-93e8061d3647fb5f018805d5": {
+      "content_hash": "05502e69a5d71f3102064d58df3fe97087fb0c6b6a2f12f2fad36fd57883304c",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:45+00:00",
       "meta": {
         "accession_number": "0001104659-25-088312",
         "filed_date": "2025-09-08",
@@ -5300,7 +5412,7 @@
         "publisher": "co-nebius",
         "source_type": "sec_exhibit"
       },
-      "status": "discovered",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_ex99-1.htm"
     },
     "source-943482bab5dac9500f62ee76": {
@@ -5327,7 +5439,7 @@
       "attachments_discovered": true,
       "content_hash": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:18:14+00:00",
       "meta": {
         "accession_number": "0001104659-25-088312",
@@ -5371,13 +5483,13 @@
     "source-954382408b763c0462854647": {
       "content_hash": "40c4c9bba827f5e851fb3ada44029d7e19761455c698819d03dc75c8e4c1804f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:56+00:00",
       "meta": {
         "publisher": "news.gm.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html"
     },
     "source-9544b737b2568c4342c3b43f": {
@@ -5391,7 +5503,7 @@
     "source-96085f5cf16f38e2017f31f3": {
       "content_hash": "1def48a5f1a66ea34bbb5998d1fd40dbadd70bb57bdcd4a007c9b7ca00830fbc",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:26+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -5440,7 +5552,7 @@
       "attachments_discovered": true,
       "content_hash": "ae8a6f875ac4b86ba3ccfa5b73292cdd8c5e9a32dd99a7aa965a90974f67d959",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:44:59+00:00",
       "meta": {
         "accession_number": "0001045810-26-000075",
@@ -5457,7 +5569,7 @@
       "attachments_discovered": true,
       "content_hash": "9ba9bed7ac1d1095387b8297019876989d4dbf481ef90b83c275f8eb7a16055b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:20+00:00",
       "meta": {
         "accession_number": "0000002488-26-000115",
@@ -5530,7 +5642,7 @@
       "attachments_discovered": true,
       "content_hash": "f8d5f3f3e1e010bb863cf947b59e0cc940ba22d234ca9cdbefe697f14ce65b7a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:05+00:00",
       "meta": {
         "accession_number": "0001628280-26-048086",
@@ -5600,7 +5712,7 @@
     "source-9bc443c9160fcd8af6385296": {
       "content_hash": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:04:19+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -5644,7 +5756,7 @@
     "source-9c6ec9939d22af5c88da34e2": {
       "content_hash": "0b092d0a67158897259af2360b291fd726df075a40fe0df7669b8f8e10aa27f3",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:16+00:00",
       "meta": {
         "accession_number": "0000104169-26-000145",
@@ -5692,7 +5804,7 @@
     "source-9dd2df32e8723857f819be6d": {
       "content_hash": "826b4b2183cfaf12db195e045dcccf33771be97e04fc075629928cda5a966b42",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:22+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -5720,6 +5832,20 @@
       },
       "status": "discovered",
       "url": "https://news.microsoft.com/source/features/work-life/microsoft-datacenter-academy-helps-launch-tech-careers/"
+    },
+    "source-9eae3e3d0f1f172ef05d66d6": {
+      "content_hash": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:05:16+00:00",
+      "meta": {
+        "accession_number": "0001193125-24-201684",
+        "filed_date": "2024-08-16",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm"
     },
     "source-9ec548ac8cb7f4f2e54e39d7": {
       "meta": {
@@ -5752,7 +5878,7 @@
     "source-9fea911a654adcb1007a7839": {
       "content_hash": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:18:15+00:00",
       "meta": {
         "accession_number": "0001104659-26-052948",
@@ -5780,7 +5906,7 @@
     "source-a081634e897c3a0bfbfbbd44": {
       "content_hash": "cf2ad45796d7c470ae13e92735710c3395e25706fd0f10003e00e4881f5f6c03",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:05+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -5792,7 +5918,7 @@
     "source-a082eafaab75412f307259a8": {
       "content_hash": "ad6a3cec3c1ff820db8674b01a3515439d15d49d2e8bd45c28a4e3fa5fc02d2d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:32+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -5872,13 +5998,13 @@
     "source-a1ee0ad36eead36f0f7df304": {
       "content_hash": "c8782bb1f687c107c46dca907ea59dcad20ee648773e67feb30c61331b1daa2d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:59+00:00",
       "meta": {
         "publisher": "www.micron.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.micron.com/partners/partner-networks/amd"
     },
     "source-a217adc7e367e7e9b737dc98": {
@@ -5949,6 +6075,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102919/ea0306389-01_424b2.htm"
     },
+    "source-a302e4c5f804efaeb40170d2": {
+      "content_hash": "6abbd006e4d9b5c22b6851d72d4300d1b1d02a558453f7bf96c43e5011d9c896",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:46+00:00",
+      "meta": {
+        "accession_number": "0001140361-23-054354",
+        "filed_date": "2023-11-22",
+        "filing_cik": "0001730168",
+        "form": "EX-99.1",
+        "publisher": "co-avgo",
+        "source_type": "sec_exhibit"
+      },
+      "status": "candidate_created",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_ex99-1.htm"
+    },
     "source-a31afc944217fd6ac30ddc08": {
       "meta": {
         "accession_number": "0001213900-26-103031",
@@ -5977,7 +6119,7 @@
       "attachments_discovered": true,
       "content_hash": "15b5d1265c681bf48431c2510dde8ce35fa2a8cc475ed4e817daca05f222c24c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:06+00:00",
       "meta": {
         "accession_number": "0000019617-26-000288",
@@ -5993,7 +6135,7 @@
     "source-a39c010037cab53bac7ef086": {
       "content_hash": "4aa57d9b923c98cbe3e1e502fcff9b577211a11feded2f5231f102573df6ba5a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:06+00:00",
       "meta": {
         "accession_number": "0001045810-26-000073",
@@ -6009,7 +6151,7 @@
     "source-a3f4a0b00b8c039190809c4f": {
       "content_hash": "14fcf5fcfb83d591f95ce4e97b4e67be594cc82faaba20cbe80013a74d10493a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:07+00:00",
       "meta": {
         "accession_number": "0001628280-26-046717",
@@ -6045,7 +6187,7 @@
     "source-a4408f616b81173ee3b0b726": {
       "content_hash": "a714b1d63c38edeb6456b1b2ef8a67693eb61267871121ff6de2a8cea3325c34",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:07+00:00",
       "meta": {
         "accession_number": "0001193125-26-344495",
@@ -6089,7 +6231,7 @@
     "source-a510268302cec99ee40f5a8e": {
       "content_hash": "204a2ae70e74ba4cd815100b54c7e1ceaddd3a5ec5f0158ffaf4281456a30930",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:00+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -6101,14 +6243,14 @@
     "source-a546fd76d4326d41a8780b1c": {
       "content_hash": "e3e717352ced8dd8f8bdb55444591fbb3b308ff160104b09fed70e9e4639b086",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:57:31+00:00",
       "meta": {
         "published_date": "2023-03-02",
         "publisher": "LSEG",
         "source_type": "official_ir"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-2mar2023.pdf"
     },
     "source-a5a912c3b3bca140282169a8": {
@@ -6182,7 +6324,7 @@
     "source-a93ee3808fa50bc8a4944bef": {
       "content_hash": "63534f222147159037cb8695f765c69717f21b89a8dd385b6bc7e6c8ad588041",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:04:01+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -6283,7 +6425,7 @@
       "attachments_discovered": true,
       "content_hash": "f3702bc1606b016e7dbf7b47f9dac01d28f0ed06b092976931d3246f59d5a23d",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:11+00:00",
       "meta": {
         "accession_number": "0001628280-26-050596",
@@ -6300,7 +6442,7 @@
       "attachments_discovered": true,
       "content_hash": "5432673d5e3e83a94f3aee84d9b906648c086dd5e021516f60bbe6d0541edd7f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:04+00:00",
       "meta": {
         "accession_number": "0001652044-26-000071",
@@ -6336,7 +6478,7 @@
     "source-ad356c93793b8ab01ba54ba0": {
       "content_hash": "82bd1a7538fa7fa25290a3e45ac0905cae33151df1b6f57a55bf83fb38bfad2c",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:08+00:00",
       "meta": {
         "accession_number": "0001652044-26-000066",
@@ -6414,7 +6556,7 @@
     "source-b10d8e6027af23d60ce06c28": {
       "content_hash": "904002e3b7dd98daf50d6d8468ad9a16030741eca0bf0e0d0b7ac94e29ea92f9",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:39+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -6450,7 +6592,7 @@
     "source-b1b4ca231314cb1091fcdce5": {
       "content_hash": "31bcac1633d5f8ddcaf6273a8d320bfe16f51b12568d68249a7429fc4a67bf29",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:52+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -6462,7 +6604,7 @@
     "source-b1e3bd285b7c7970debd1cf5": {
       "content_hash": "95132b7e8ce83830aad321e78419e5cc237b5a57c50209dd9343c70ee33747d5",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:57+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -6492,7 +6634,7 @@
         "publisher": "Apple",
         "source_type": "official_ir"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://s203.q4cdn.com/367071867/files/doc_downloads/2026/05/People-and-Environment-in-our-Supply-Chain-Report-2026_Chinese-Simplified.pdf"
     },
     "source-b290d5064946b3fa33899e35": {
@@ -6578,7 +6720,7 @@
     "source-b5e25a8637f800532ae0d4ab": {
       "content_hash": "6b87bcb51efcdef69ffce3fab3d98adac3b0d875d3f6924a46f42c6f85fd6668",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:52+00:00",
       "meta": {
         "publisher": "co-aapl",
@@ -6614,6 +6756,20 @@
       },
       "status": "discovered",
       "url": "https://www.coreweave.com/news/rescale-expands-cloud-ecosystem-with-coreweave-for-engineering-and-ai-workloads"
+    },
+    "source-b761388c1f47e307d748b0a7": {
+      "content_hash": "7bf87382263bf281bfeaafd67c3487e31cffc66bde14545f8a125e3d0d126202",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:05:15+00:00",
+      "meta": {
+        "accession_number": "0000104169-25-000021",
+        "filed_date": "2025-03-14",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
     },
     "source-b7a9a1551b3bbae20be7f9b5": {
       "meta": {
@@ -6654,7 +6810,7 @@
     "source-b8ddef365f343c62108e5c6b": {
       "content_hash": "51f88f735befdb1db0dbf95dd5acd05b1f79c631302e3bd8a3b82f1b630c96a0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:08+00:00",
       "meta": {
         "accession_number": "0001628280-26-050596",
@@ -6670,7 +6826,7 @@
     "source-b90afe3cf14053b284253a48": {
       "content_hash": "de6758dd524a46f73c8f65c46686455a5ec563477f62cfb07fa56c14d4af6009",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:09+00:00",
       "meta": {
         "accession_number": "0001193125-26-323632",
@@ -6747,6 +6903,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102605/ea0306325-01_424b2.htm"
     },
+    "source-ba658d591fd0d13f3343a590": {
+      "content_hash": "48ca2e3181c68f1beb09d721d9dd6e70bc1facf07004a06d48409262d7841f6f",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:04:27+00:00",
+      "meta": {
+        "publisher": "newsroom.paypal-corp.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "parsed",
+      "url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets"
+    },
     "source-ba86ba19d6d0e869a88cd761": {
       "meta": {
         "accession_number": "0001918704-26-028396",
@@ -6774,7 +6942,7 @@
     "source-bbf45a1a9731ddddf200c0a6": {
       "content_hash": "b11e04f45aba0045fda5232e04e480018b5446f9d266b80312dc93b3231271f1",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:53+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -6878,32 +7046,32 @@
     "source-bf55ebb8498cbedcd4b83ac5": {
       "content_hash": "d1d5014810027ce07fdd0cf2bd6192af740db2768b19df312a891fde5e94d4fc",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:19+00:00",
       "meta": {
         "filed_date": "2026-05-20",
         "publisher": "NVIDIA",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
     },
     "source-c03dacc675125baf513a841a": {
       "content_hash": "5e7e06946066c6157762d2afa3174e7bc15de307167c5a7d87ff9e48d71a6310",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:14:02+00:00",
       "meta": {
         "publisher": "corporate.walmart.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://corporate.walmart.com/news/2025/09/04/donna-morris-to-associates-being-people-led-means-investing-in-you"
     },
     "source-c09dc77ec843fdff3484a6da": {
       "content_hash": "a955c08f537a52e05b5d1b798436c987450137cb7533a5aecba460280603f50b",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T07:16:50+00:00",
       "meta": {
         "accession_number": "0001628280-26-059639",
@@ -6911,7 +7079,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm"
     },
     "source-c0b2258ef395ec8cd6fe5e2a": {
@@ -6986,7 +7154,7 @@
       "attachments_discovered": true,
       "content_hash": "c28678e4a87a7bbddadf00405d4c329be6f90ae9a406909ab861980043bb5c09",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:08+00:00",
       "meta": {
         "accession_number": "0001018724-26-000036",
@@ -7014,7 +7182,7 @@
     "source-c498c3fcc5c4ccef32ec7c14": {
       "content_hash": "0cc8039805e9dcb1ea1459ac2f15b42edb79e0740f38f771b316d8ee6466530e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:55:23+00:00",
       "meta": {
         "accession_number": "0000024741-26-000124",
@@ -7022,7 +7190,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm"
     },
     "source-c4dad448ace58e6db3d1132c": {
@@ -7040,7 +7208,7 @@
     "source-c4f51396bf03aca4a6ae2810": {
       "content_hash": "2aef36a2998f84f8843d20c9c639af0c0f4f7d82cb15b082a448d998cc162c81",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:39:55+00:00",
       "meta": {
         "accession_number": "0000909832-26-000084",
@@ -7057,7 +7225,7 @@
       "attachments_discovered": true,
       "content_hash": "9d9d5d3f387eff55dafd2d148254cce97f27e24d8ee518fe239ae1d8a8b8314a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:12+00:00",
       "meta": {
         "accession_number": "0001730168-26-000076",
@@ -7081,7 +7249,7 @@
     "source-c552bea1179de1caca57afec": {
       "content_hash": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:11:11+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -7161,7 +7329,7 @@
     "source-c6a31cade1f4fdf38b853a41": {
       "content_hash": "d4e304cdf15841e431e28f44ecce6e85e8015a5b8bbed76374de0feff0722354",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:58:23+00:00",
       "meta": {
         "accession_number": "0001628280-26-059639",
@@ -7169,7 +7337,7 @@
         "publisher": "SEC EDGAR issuer disclosure",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm"
     },
     "source-c79d43ffbb476047e6ee9452": {
@@ -7195,7 +7363,7 @@
     "source-c7f53c41d049537faf5c7618": {
       "content_hash": "f6ea4e48830a541bb5beaf30460568a1ce2033c85828ce491ef50e3eabe3de23",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:09+00:00",
       "meta": {
         "accession_number": "0001018724-26-000024",
@@ -7283,7 +7451,7 @@
     "source-caf9b28600b243a4ebfa78e3": {
       "content_hash": "cf0834d418cea03359cd7102d5f843bc2df0e6d461f882993a1449b63dd1087e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:03:54+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -7304,7 +7472,7 @@
       "attachments_discovered": true,
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:12+00:00",
       "meta": {
         "accession_number": "0001730168-26-000080",
@@ -7364,13 +7532,13 @@
     "source-cd43899c7dae58b9562f23d5": {
       "content_hash": "150311b6e2547eadffc07729896e0126de7e4f7164ff0479b229474c37be2356",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:13:58+00:00",
       "meta": {
         "publisher": "nvidianews.nvidia.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai"
     },
     "source-cdca7dabfc2c0236a91c6b2f": {
@@ -7400,7 +7568,7 @@
     "source-cef4bdd2d5e52c1a15f97679": {
       "content_hash": "68509fa00363096fa46c3c863d21d6751b730918554d423b4ac913bf99e52714",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:10+00:00",
       "meta": {
         "accession_number": "0001730168-26-000080",
@@ -7457,6 +7625,18 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-appoints-sandy-venugopal-as-chief-information-officer"
     },
+    "source-d14f7bb565a8f4d556900419": {
+      "content_hash": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:05:25+00:00",
+      "meta": {
+        "publisher": "corporate.walmart.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "candidate_created",
+      "url": "https://corporate.walmart.com/news/2018/07/17/walmart-establishes-strategic-partnership-with-microsoft-to-further-accelerate-digital-innovation-in-retail"
+    },
     "source-d17ae4d4906114db57f775bc": {
       "meta": {
         "accession_number": "0001213900-26-102595",
@@ -7472,13 +7652,13 @@
     "source-d1f1b3701797859e9b091da3": {
       "content_hash": "215732301def58d59d402fb35f6d75535191a312067bfb77878b105cccb6f862",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:30+00:00",
       "meta": {
         "publisher": "co-anthropic",
         "source_type": "official_newsroom"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
     },
     "source-d271a45b854af060149ceb6d": {
@@ -7540,7 +7720,7 @@
     "source-d4ffea756526e4abff470166": {
       "content_hash": "80a3b8513b21ac0086206d7fdd84bf5781694edf7b91b59378935f9c39eb88f3",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:10+00:00",
       "meta": {
         "accession_number": "0001045810-26-000075",
@@ -7588,7 +7768,7 @@
     "source-d597da9a14ed7ff6557d2cac": {
       "content_hash": "eb8284967ec7764f8e4ba11533a6551c2959716bd79c0d6022478d465780e275",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:11+00:00",
       "meta": {
         "accession_number": "0001018724-26-000026",
@@ -7640,7 +7820,7 @@
     "source-d6cd940dfd79805c4924af2c": {
       "content_hash": "4d2573545e48d3b743af8ccf14df596d42ee17f3ff1cc214f4f8f93b7fc95356",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:11+00:00",
       "meta": {
         "accession_number": "0000002488-26-000121",
@@ -7728,7 +7908,7 @@
     "source-d94d7196c0b3c9fd49e5585c": {
       "content_hash": "9f129a56d34a4241c671b0a2253c482187d2312e93855275b2a05c9c72cd1bd6",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:29+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -7774,9 +7954,10 @@
       "url": "https://news.microsoft.com/source/leadership"
     },
     "source-db1eb3c30600532489dbe85d": {
+      "attachments_discovered": true,
       "content_hash": "25224067df7020113b8bface6ae59df7f4cf33c2260c1248853c5677984bb439",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:13:58+00:00",
       "meta": {
         "accession_number": "0000059478-26-000045",
@@ -7786,7 +7967,7 @@
         "publisher": "co-lly",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm"
     },
     "source-db1f876fff9fc7c17944faa8": {
@@ -7874,7 +8055,7 @@
     "source-dcb7b306dffaedb5223f8dc1": {
       "content_hash": "11b7b2f65ce7fedfa236f6fa0f097c34c5914ce57ed6cd1f954d50c35d144972",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:12+00:00",
       "meta": {
         "accession_number": "0001045810-26-000069",
@@ -7884,7 +8065,7 @@
         "publisher": "co-nvda",
         "source_type": "sec_exhibit"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm"
     },
     "source-dcdf3cb587fa82ddba8c074b": {
@@ -7910,7 +8091,7 @@
     "source-dd2339772c13a473cdaf2e78": {
       "content_hash": "1da6840c242ff039c476d37650461a0bf1e51bd8cd96612146d29551c55c3c6a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:34+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -8065,6 +8246,20 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028503/form424b2.htm"
     },
+    "source-e0f9d2205418024efd85b143": {
+      "content_hash": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:05+00:00",
+      "meta": {
+        "accession_number": "0001193125-25-013845",
+        "filed_date": "2025-01-28",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/d905462dex101.htm"
+    },
     "source-e0fa3e7144730ad199270e46": {
       "meta": {
         "accession_number": "0001918704-26-028281",
@@ -8116,7 +8311,7 @@
     "source-e1c10aaa78f34d0e2b6e0586": {
       "content_hash": "7acd8cc928e82096a964a4f3b0ec4f6134aaed62c93c12819ab281ca4253c6f9",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:12+00:00",
       "meta": {
         "accession_number": "0001652044-26-000071",
@@ -8132,7 +8327,7 @@
     "source-e2017e1a799cd0f30fa8dea7": {
       "content_hash": "9943bb0689d405c2c1e7778a41d8da540283c16a9173fc2ceed2f65c5e6e53e6",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:17+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -8172,7 +8367,7 @@
     "source-e2b3b45146f8c554472e7a97": {
       "content_hash": "f3ccad32e8254dc174fd955595c0c0bd6914320134fcda8bcce232c668b78b93",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:13+00:00",
       "meta": {
         "accession_number": "0000002488-26-000163",
@@ -8200,7 +8395,7 @@
     "source-e399a056fe88552f19bc3f9a": {
       "content_hash": "c0cff4f28c9e35cec2bce21451b2feb597b8715c0b1c42ff24325cfe505f32a0",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:20+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -8232,7 +8427,7 @@
     "source-e4fd9060d320d92526e440f8": {
       "content_hash": "e805ea6407e2a489c628f2433bee9301d0b72dc06fca999e43c7fe15906e3fb2",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:13+00:00",
       "meta": {
         "accession_number": "0000002488-26-000123",
@@ -8273,7 +8468,7 @@
       "attachments_discovered": true,
       "content_hash": "c046ddc9bf8044c8ae8f0b104265cc973d1765a5b78e6db9e3546e7ecf30809f",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:04+00:00",
       "meta": {
         "accession_number": "0001652044-26-000066",
@@ -8289,13 +8484,13 @@
     "source-e543cca254c9a9b311c82e0f": {
       "content_hash": "7928bd0d419bae329fb649d92e30e1fe87d0ea1ce4fbe06f59f6d863e64beec9",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:09:50+00:00",
       "meta": {
         "publisher": "www.apple.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"
     },
     "source-e5777046893171f70ff1f5d2": {
@@ -8349,7 +8544,7 @@
     "source-e7bbf5503fd4764b8e8f9f96": {
       "content_hash": "a0e9ef643ea5d3c305dbe6bdffcbdae4c9ab193b75581fc29e7e2977e5aedfca",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:30+00:00",
       "meta": {
         "publisher": "co-amd",
@@ -8437,7 +8632,7 @@
     "source-e97b9cecec1fb660d74d12ae": {
       "content_hash": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T03:57:45+00:00",
       "meta": {
         "publisher": "co-nvda",
@@ -8449,7 +8644,7 @@
     "source-e9aab3329fcbb0da69522f12": {
       "content_hash": "c1b03395babcd26b2aeb854ff9f28375ebc929aaeb699740ad834c62b0643066",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T14:45:55+00:00",
       "meta": {
         "publisher": "co-ibm",
@@ -8502,6 +8697,20 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028311/form424b2.htm"
     },
+    "source-ea7dee5181da3aeace056d3d": {
+      "content_hash": "194b964bfa43db7ba5af7298ece83b67c2aff0e7dd19245ac33ef2f861c948a0",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:10:06+00:00",
+      "meta": {
+        "accession_number": "0001193125-24-040047",
+        "filed_date": "2024-02-20",
+        "publisher": "SEC EDGAR issuer disclosure",
+        "source_type": "sec_filing"
+      },
+      "status": "parsed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835591/000119312524040047/d794432dex21.htm"
+    },
     "source-eaff8dc6877996008d7a430b": {
       "meta": {
         "accession_number": "0001918704-26-028731",
@@ -8529,7 +8738,7 @@
     "source-ebf50e3cc3aa33a5dba6a25a": {
       "content_hash": "f55dec0272b95a547ed9627dde39fd76d6d7769a9b596b9a01ce479bdecadb35",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:14+00:00",
       "meta": {
         "accession_number": "0001018724-26-000024",
@@ -8590,7 +8799,7 @@
       "attachments_discovered": true,
       "content_hash": "9d952dec9a7352fa559077d9aab1719114cf7ae53a3b192b946d6e1ea9f364fa",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:19+00:00",
       "meta": {
         "accession_number": "0000002488-26-000121",
@@ -8602,6 +8811,18 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm"
+    },
+    "source-ed9c2579fd994a51d1fa06e2": {
+      "content_hash": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519",
+      "error": null,
+      "extraction_version": "rules-1.7",
+      "last_checked_at": "2026-09-26T08:05:20+00:00",
+      "meta": {
+        "publisher": "usa.visa.com",
+        "source_type": "official_newsroom"
+      },
+      "status": "parsed",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html"
     },
     "source-eddb5c21df2d8b848a9635e1": {
       "meta": {
@@ -8630,13 +8851,13 @@
     "source-ee012bbdda9ec95b37ff6810": {
       "content_hash": "e4d04fdefb8664d81b73a74cfbae566207f004a3e6f2fb0649d5f5c55b4d284b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:12:25+00:00",
       "meta": {
         "publisher": "investors.micron.com",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://investors.micron.com/news/press-release/2025/Micron-HBM-Designed-into-Leading-AMD-AI-Platform-06-12-2025/default.aspx"
     },
     "source-ee242320bb0d6670fc028736": {
@@ -8678,14 +8899,14 @@
     "source-eef75e5bb0b9745e046106bf": {
       "content_hash": "352b567cd0cc31c78a232276efee55297d787ac12e0f7730be14d7d27236f69f",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T07:00:44+00:00",
       "meta": {
         "published_date": "2025-11-18",
         "publisher": "NVIDIA Taiwan",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://blogs.nvidia.com.tw/blog/microsoft-nvidia-anthropic-announce-partnership/"
     },
     "source-ef127c841723d5c732255c3e": {
@@ -8719,7 +8940,7 @@
     "source-efc957b3506cdb3c32109b55": {
       "content_hash": "0495a642f4fb338b131d79ec52135906b83bc8a47ffa5812e746e4b53e44de04",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-25T16:04:11+00:00",
       "meta": {
         "publisher": "co-coreweave",
@@ -8731,7 +8952,7 @@
     "source-f1b2612779f01453e426eb4b": {
       "content_hash": "5cab65a7cba3d7f81dba0c6ac16687a13157678f9b78d4cc5ec64d44a698d5ad",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:14+00:00",
       "meta": {
         "accession_number": "0000320193-26-000018",
@@ -8797,7 +9018,7 @@
     "source-f4a2a7ec1acd9b682309b1fa": {
       "content_hash": "90b040c50d767f79ac3b1fdf9cd8ad9fa2d58f103efbd154e8e4382240e4c883",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:42:04+00:00",
       "meta": {
         "publisher": "co-amzn",
@@ -8829,7 +9050,7 @@
     "source-f56196c67fe2856b49f35457": {
       "content_hash": "91bc28741d9282d6a93246339ee3fb4d612441511c25da08243b9662ee272035",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:41:13+00:00",
       "meta": {
         "publisher": "co-openai",
@@ -8853,7 +9074,7 @@
     "source-f5d16b6409e948281b21a20b": {
       "content_hash": "296dbb1b86b917776042649d13b3b24f475b6baa92578fe275af8bf8f96fbc7b",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:40:38+00:00",
       "meta": {
         "publisher": "co-anthropic",
@@ -8866,7 +9087,7 @@
       "attachments_discovered": true,
       "content_hash": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:11:11+00:00",
       "meta": {
         "accession_number": "0001193125-26-341032",
@@ -8876,14 +9097,14 @@
         "publisher": "co-brk-b",
         "source_type": "sec_filing"
       },
-      "status": "parsed",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm"
     },
     "source-f6989661cadf6b38f826c698": {
       "attachments_discovered": true,
       "content_hash": "cdfa4f551eb146692514cec02b1e50a0aa695a98862470558c0cb8b9251cba81",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:14+00:00",
       "meta": {
         "accession_number": "0001628280-26-046717",
@@ -8931,7 +9152,7 @@
     "source-f7c65d14faff7179ed4a82c9": {
       "content_hash": "75965ccb7c3e508b5f165f979fbbb24de19d0a494f21e8f69fb68ad62c41a892",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:17+00:00",
       "meta": {
         "accession_number": "0001628280-26-048078",
@@ -9040,7 +9261,7 @@
       "attachments_discovered": true,
       "content_hash": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T07:16:24+00:00",
       "meta": {
         "accession_number": "0001193125-26-295589",
@@ -9050,7 +9271,7 @@
         "publisher": "co-avgo",
         "source_type": "sec_filing"
       },
-      "status": "downloaded",
+      "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm"
     },
     "source-fb7f0f1a1a38f067c9e787db": {
@@ -9064,7 +9285,7 @@
     "source-fb84846ac3e610d098d85871": {
       "content_hash": "fed848968cdf192b7aedd9466f85c5fbf4d36a5411e7f570144595cc05444f4e",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:15+00:00",
       "meta": {
         "accession_number": "0000059478-26-000081",
@@ -9125,7 +9346,7 @@
       "attachments_discovered": true,
       "content_hash": "381f97c85b8eff83b8ab941a69139dffd7a929afc96a21dfa0d0ce8df603c252",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T04:45:01+00:00",
       "meta": {
         "accession_number": "0001140361-26-035325",
@@ -9150,7 +9371,7 @@
       "attachments_discovered": true,
       "content_hash": "cc3cf2c8529b9ece7f938589da86fa1bba865bd2e6fb6384f77c5948a4f930da",
       "error": null,
-      "extraction_version": "rules-1.5",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T05:30:16+00:00",
       "meta": {
         "accession_number": "0000104169-26-000154",
@@ -9186,13 +9407,13 @@
     "source-fd7567215edc904218e14829": {
       "content_hash": "c30a737250a8df0f34bbb0cc6311ad5658ec68f25d8a587b1c9a423c204cdde2",
       "error": null,
-      "extraction_version": "rules-1.6",
+      "extraction_version": "rules-1.7",
       "last_checked_at": "2026-09-26T06:57:37+00:00",
       "meta": {
         "publisher": "Amazon Web Services",
         "source_type": "official_newsroom"
       },
-      "status": "downloaded",
+      "status": "parsed",
       "url": "https://aws.amazon.com/ko/solutions/case-studies/"
     },
     "source-fe658dc506be40f00cdd8147": {
@@ -9327,15 +9548,11 @@
     }
   },
   "last_run": {
-    "checked_at": "2026-09-26T05:30:52+00:00",
-    "downloaded_attempts": 40,
-    "errors": [
-      "Empty or blocked document",
-      "HTTPSConnectionPool(host='investors.broadcom.com', port=443): Read timed out. (read timeout=30)",
-      "404 Client Error: Not Found for url: https://blog.google/products-and-platforms/products/google-cloud/"
-    ],
+    "checked_at": "2026-09-26T08:10:46+00:00",
+    "downloaded_attempts": 7,
+    "errors": [],
     "mode": "incremental",
-    "sec_only": false,
+    "sec_only": true,
     "universe": "large_cap_focus"
   }
 }

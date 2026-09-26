@@ -55,7 +55,10 @@ jobs:
           path: |
             relationships_data/review/candidates.jsonl
             relationships_data/review/report.md
+            relationships_data/review/changes.json
+            relationships_data/review/statements.json
             relationships_data/state/collection_round.json
+            relationships_data/state/collection_runs
           retention-days: 14
       - name: Record partial collection and publication status
         if: always()

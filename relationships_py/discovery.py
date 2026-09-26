@@ -9,6 +9,7 @@ from pathlib import Path
 from .state import ROOT, read, write, digest, stable_id, load_master
 from .documents import parse_document
 from .entities import resolve
+from .changes import change_signals, write_change_review
 
 RELATION = re.compile(r'\b(partner\w*|collaborat\w*|agreement\w*|suppl\w*|invest\w*|acqui\w*|adopt\w*|co-develop\w*|deliver\w*)\b', re.I)
 NAME = re.compile(r'\b[A-Z][A-Za-z0-9&.-]*(?:\s+(?:[A-Z][A-Za-z0-9&.-]*)){0,4}\b')
@@ -21,7 +22,8 @@ def statement_candidates(source, parsed, companies, aliases=None):
     result = []
     for block in parsed['blocks']:
         text = block['text']
-        if not RELATION.search(text):
+        signals=change_signals(text)
+        if not RELATION.search(text) and not signals:
             continue
         known = resolve(text, companies, aliases)
         # Suggestions are explicitly unresolved, including acronym-only names.
@@ -37,6 +39,7 @@ def statement_candidates(source, parsed, companies, aliases=None):
             unresolved_mentions=unknown, verification='needs_review',
             reason='multi_party' if len(known) > 2 else 'unresolved_mentions' if unknown else 'bilateral_statement',
             relationship_ids=[],  # No all-pairs expansion, amount splitting or approval.
+            change_signals=signals,
         ))
     return result
 
@@ -56,12 +59,13 @@ def discover_statements(root=ROOT):
         rows.extend(statement_candidates(source, parse_document(raw), master['companies'], aliases))
     from .config import settings
     limit=settings(root)['max_candidates_per_run']
+    changes=write_change_review(master,rows,limit,root)
     deferred=max(0,len(rows)-limit)
     write(root/'relationships_data/review/statements.json', {
         'version': '1.0', 'publication_eligible': False,
         'statements': rows[:limit], 'deferred_statements': deferred, 'unavailable_sources': unavailable,
     })
-    return {'statements': min(limit,len(rows)), 'deferred_statements': deferred, 'unavailable_sources': len(unavailable), 'published': 0}
+    return {'statements': min(limit,len(rows)), 'deferred_statements': deferred, 'unavailable_sources': len(unavailable), 'changes':changes, 'published': 0}
 
 
 def draft_disclosure(source_id, root=ROOT):

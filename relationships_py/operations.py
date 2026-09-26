@@ -9,7 +9,9 @@ def collect_round(root=ROOT, mode='incremental', months=24, sec_only=False):
     from .collector import collect
     from .review import extract_pending, review_report
     root=Path(root)
-    before={r['relationship_id'] for r in load_master(root)['relationships']}
+    before_master=load_master(root)
+    before={r['relationship_id'] for r in before_master['relationships']}
+    public_pointer_before=read(root/'output_json/relationships/latest.json')
     # The configured large-cap focus runs under one document/network budget.
     # This deliberately does not call any verifier, exporter or deployment.
     result={'started_at':now(),'collection':collect(root,mode,months,'large_cap_focus',sec_only)}
@@ -18,6 +20,14 @@ def collect_round(root=ROOT, mode='incremental', months=24, sec_only=False):
     master=load_master(root)
     result['new_candidate_ids']=[r['relationship_id'] for r in master['relationships'] if r['relationship_id'] not in before and r['verification'] in ('candidate','needs_review')]
     result['finished_at']=now();result['published']=False
+    previous={r['relationship_id']:r for r in before_master['relationships']}
+    result['changed_existing_relationship_ids']=[r['relationship_id'] for r in master['relationships'] if r['relationship_id'] in previous and digest(r)!=digest(previous[r['relationship_id']])]
+    result['public_pointer_unchanged']=public_pointer_before==read(root/'output_json/relationships/latest.json')
+    result['change_review']='relationships_data/review/changes.json'
+    result['run_id']='collection-'+digest(result)[:24]
+    write(root/'relationships_data/state/collection_runs'/f"{result['run_id']}.json",result)
+    runs=sorted((root/'relationships_data/state/collection_runs').glob('collection-*.json'),key=lambda p:(read(p).get('started_at',''),p.name),reverse=True)
+    for old_run in runs[30:]:old_run.unlink()
     write(root/'relationships_data/state/collection_round.json',result)
     return result
 

@@ -1645,5 +1645,126 @@
     "listings": [],
     "merged_into": null,
     "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-vizio",
+    "country": null,
+    "display_name": "VIZIO",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-symbotic-llc",
+    "country": null,
+    "display_name": "Symbotic LLC",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-citi",
+    "country": null,
+    "display_name": "Citi",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-visa",
+    "country": null,
+    "display_name": "Visa",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2024-05-06",
+    "listing_status_source": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+        "symbol": "V",
+        "valid_from": "2024-05-06",
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-paypal",
+    "country": null,
+    "display_name": "PayPal Holdings, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-02-25",
+    "listing_status_source": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+        "symbol": "PYPL",
+        "valid_from": "2025-02-25",
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-morphic",
+    "country": null,
+    "display_name": "Morphic Holding, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-point",
+    "country": null,
+    "display_name": "POINT Biopharma Global Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
   }
 ]

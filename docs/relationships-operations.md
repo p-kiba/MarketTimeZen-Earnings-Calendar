@@ -1,6 +1,6 @@
 # 企業間マップ：収集・精査・反映の運用
 
-2026-09-26時点。候補収集と確認済みデータの反映を分離しています。最新の結果は [通貨・条件と線幅修正の続報](relationships-amount-followup-2026-09-26.md) を参照してください。通常の収集では公開JSONを変更しません。
+2026-09-26時点。候補収集と確認済みデータの反映を分離しています。最新の結果は [大型企業の追加と新着確認工程](relationships-largecap-update-2026-09-26.md) を参照してください。通常の収集では公開JSONを変更しません。
 
 ## 定期収集
 
@@ -16,7 +16,8 @@ bash scripts/collect-relationships-local.sh
 - `.cache/relationships/sec-contact.env` からSEC連絡先を読み込みます。値を出力・commit・公開しません。
 - `large_cap_focus` のSEC提出と設定済み公式IRを増分収集。設定上限40文書/回、SECは最大2リクエスト/秒。IR一覧の取得リクエストは文書件数とは別です。
 - 原文は `.cache/relationships/documents/`、耐久キューは `relationships_data/state/processed_documents.json`。
-- 結果は `relationships_data/state/collection_round.json`。新候補ID、部分失敗、時刻、`published: false` を保存します。
+- 結果は `relationships_data/state/collection_round.json`。新候補ID、変更された既存候補、部分失敗、時刻、`published: false`、公開参照先の不変確認を保存します。`collection_runs/`に最新30回を保持します。
+- `relationships_data/review/changes.json`で重複候補・変更や終了の記述・原文変更を既存関係IDと照合できます。各項目は未確認で、解除可能条項や否定文も含みます。自動で統合・終了・承認しません。
 - 二社候補は `relationships_data/review/candidates.jsonl` と `report.md`。複数社や未解決名の段落は `statements.json`。容量を超えた段落は繰り越し件数を表示します。
 - 定期タスクは新しい大型案件や取得障害を知らせます。未検証候補の承認、公開用データの更新、commit/push、デプロイは行いません。
 - ユーザーの指示でテスト実行は一時停止中です。定期タスクにもこの指示を保存しています。
@@ -25,7 +26,7 @@ SECのみなら `bash scripts/collect-relationships-local.sh --sec-only`。過�
 
 ## 一次資料を読んで確認する
 
-1. `report.md` と原文を照合し、当事者・契約対象・方向・日付を確定します。親会社と子会社、同時に列挙された投資家、製品の互換性だけの記載を区別します。
+1. `changes.json`の関連ID・出典と`report.md`、原文を照合し、当事者・契約対象・方向・日付を確定します。親会社と子会社、同時に列挙された投資家、製品の互換性だけの記載を区別します。
 2. 金額は総額、追加額、支払済み、上限、資金枠、買収後報酬を区別します。複数社の共通額や企業評価額を二社間契約へ配賦しません。
 3. `$` だけでUSDにしません。契約書のUSD表記、またはSEC inline XBRLの当該数値に結び付く `iso4217:USD` 単位定義を確認します。XBRLのfact ID・桁倍率・数値・原文段落が一致することを適用処理が検証します。
 4. `relationships_config/deal_rules.json` に確認済みの主張だけを追加します。原文URL/hash、段落/hash、短い根拠、当事者、金額・期間・条件を固定します。原文hashだけを更新して確認を省いてはいけません。

@@ -1,0 +1,240 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-a1bb814a5b38887346dead5e",
+      "detected_at": "2026-09-26T06:24:51+00:00",
+      "effective_date": null,
+      "event_id": "event-a1bb814a5b38887346dead5e",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-a1bb814a5b38887346dead5e",
+        "evidence-b29812fe572cb5b098c04088",
+        "evidence-fb566464d15d2cde96ccaee5"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-a1bb814a5b38887346dead5e",
+            "evidence-b29812fe572cb5b098c04088",
+            "evidence-fb566464d15d2cde96ccaee5"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-31",
+      "relationship_ids": [
+        "rel-378f42715112dd6fb7536cde"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "review-expansion-20260926-aws-business",
+        "rule_version": "5beafe16a272a59883edebb1ff9b5c18da2d89d10b11b3dd895dd671608b2902",
+        "verified_at": "2026-09-26T06:24:51+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-a1bb814a5b38887346dead5e",
+      "excerpt": "three segments",
+      "locator": "sec-div:465",
+      "normalized_text_hash": "08c01fe75daf312b3faccd9067950001b71f9f209499cf83c4ed3197f0d6b309",
+      "section": "Official disclosure: business context",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b29812fe572cb5b098c04088",
+      "excerpt": "Amazon.com, Inc.",
+      "locator": "sec-div:169",
+      "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fb566464d15d2cde96ccaee5",
+      "excerpt": "AWS",
+      "locator": "sec-div:476",
+      "normalized_text_hash": "74a8f6202f89a963b93e19d27f2e9acd3fbdcaaae5b855c8b1842f6a8e35c7de",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-a1bb814a5b38887346dead5e",
+        "evidence-b29812fe572cb5b098c04088",
+        "evidence-fb566464d15d2cde96ccaee5"
+      ],
+      "geography": "",
+      "headline": "AmazonのAWS事業セグメント",
+      "products": [
+        "クラウド計算・ストレージ事業"
+      ],
+      "scale": "",
+      "source_role": "報告セグメント",
+      "target_role": "連結事業の報告主体"
+    },
+    "deal_ids": [
+      "deal-a1bb814a5b38887346dead5e"
+    ],
+    "description": "AmazonのSEC開示はAWSを同社の報告セグメントの一つとして記載。Amazon銘柄からAWS事業の取引をたどるための所属関係で、AWSの特定法人を親会社へ統合したり、社内売買契約を作ったりするものではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a1bb814a5b38887346dead5e",
+      "evidence-b29812fe572cb5b098c04088",
+      "evidence-fb566464d15d2cde96ccaee5"
+    ],
+    "first_observed_at": "2026-09-26T06:24:51+00:00",
+    "last_observed_at": "2026-09-26T06:24:51+00:00",
+    "latest_event_ids": [
+      "event-a1bb814a5b38887346dead5e"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-378f42715112dd6fb7536cde",
+    "relationship_type": "group_member",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-amzn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "review-expansion-20260926-aws-business",
+      "rule_version": "5beafe16a272a59883edebb1ff9b5c18da2d89d10b11b3dd895dd671608b2902",
+      "verified_at": "2026-09-26T06:24:51+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001018724-26-000026",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-31",
+      "filing_cik": "0001018724",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:45:09+00:00",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "source_type": "sec_filing",
+      "title": "amzn-20260630"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-a1bb814a5b38887346dead5e",
+        "evidence-b29812fe572cb5b098c04088",
+        "evidence-fb566464d15d2cde96ccaee5"
+      ],
+      "geography": "",
+      "headline": "AmazonのAWS事業セグメント",
+      "products": [
+        "クラウド計算・ストレージ事業"
+      ],
+      "scale": "",
+      "source_role": "報告セグメント",
+      "target_role": "連結事業の報告主体"
+    },
+    "description": "AmazonのSEC開示はAWSを同社の報告セグメントの一つとして記載。Amazon銘柄からAWS事業の取引をたどるための所属関係で、AWSの特定法人を親会社へ統合したり、社内売買契約を作ったりするものではない。",
+    "direction": "directed",
+    "event_date": "2026-07-31",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:24:51+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-378f42715112dd6fb7536cde",
+    "relationship_type": "group_member",
+    "source_company_id": "co-aws",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-amzn",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

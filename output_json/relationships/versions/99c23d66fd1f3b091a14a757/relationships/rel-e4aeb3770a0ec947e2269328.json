@@ -1,0 +1,200 @@
+{
+  "build_id": "99c23d66fd1f3b091a14a757",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-02-26",
+      "conditions": "",
+      "deal_id": "deal-400cd4735ae46af3c63f6fdf",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-400cd4735ae46af3c63f6fdf",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-400cd4735ae46af3c63f6fdf"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-400cd4735ae46af3c63f6fdf"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e4aeb3770a0ec947e2269328"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-902621c5139ad46e9da56c18",
+        "rule_version": "782e4b37f9b1d21d5bee236cf46c0a19a8983e2a54d8a818a857805c9ba16630",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-400cd4735ae46af3c63f6fdf",
+      "excerpt": "Mistral AI",
+      "locator": "li:8",
+      "normalized_text_hash": "3ee0399ee2ab02c6cacf7b593d054f70d121e9424c4815fe0294431f6494c635",
+      "section": "Official disclosure: business context",
+      "source_id": "source-902621c5139ad46e9da56c18",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-400cd4735ae46af3c63f6fdf"
+      ],
+      "geography": "",
+      "headline": "Azure経由のMistralモデル販売・提供",
+      "products": [
+        "Models as a Service",
+        "Azure AI Studio"
+      ],
+      "scale": "",
+      "source_role": "販売・配布プラットフォーム",
+      "target_role": "AIモデルの提供"
+    },
+    "deal_ids": [
+      "deal-400cd4735ae46af3c63f6fdf"
+    ],
+    "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-400cd4735ae46af3c63f6fdf"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-400cd4735ae46af3c63f6fdf"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-e4aeb3770a0ec947e2269328",
+    "relationship_type": "partnership",
+    "source_company_id": "co-msft",
+    "status_as_of": "2024-02-26",
+    "target_company_id": "co-mistral",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-902621c5139ad46e9da56c18": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-902621c5139ad46e9da56c18",
+      "rule_version": "782e4b37f9b1d21d5bee236cf46c0a19a8983e2a54d8a818a857805c9ba16630",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://azure.microsoft.com/en-us/blog/microsoft-and-mistral-ai-announce-new-partnership-to-accelerate-ai-innovation-and-introduce-mistral-large-first-on-azure/",
+      "content_hash": "5f1b513e7517d172930d8d65f70986de2ce5962309a53b94ed553534ecb910e2",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-02-26",
+      "publisher": "co-msft",
+      "retrieved_at": "2026-09-26T04:04:17+00:00",
+      "source_id": "source-902621c5139ad46e9da56c18",
+      "source_type": "official_newsroom",
+      "title": "Introducing Mistral-Large on Azure in partnership with Mistral AI | Microsoft Azure Blog"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-400cd4735ae46af3c63f6fdf"
+      ],
+      "geography": "",
+      "headline": "Azure経由のMistralモデル販売・提供",
+      "products": [
+        "Models as a Service",
+        "Azure AI Studio"
+      ],
+      "scale": "",
+      "source_role": "販売・配布プラットフォーム",
+      "target_role": "AIモデルの提供"
+    },
+    "description": "Mistral AIの商用モデルをAzure AI StudioとAzure Machine Learningのモデルカタログで提供する提携。顧客向け販売・配布を共同で拡大。",
+    "direction": "undirected",
+    "event_date": "2024-02-26",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-e4aeb3770a0ec947e2269328",
+    "relationship_type": "partnership",
+    "source_company_id": "co-msft",
+    "status_as_of": "2024-02-26",
+    "target_company_id": "co-mistral",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

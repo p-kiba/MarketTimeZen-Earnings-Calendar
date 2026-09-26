@@ -102,39 +102,6 @@
   },
   {
     "deal_ids": [
-      "deal-4a437f2b0d402a48e90b384b"
-    ],
-    "description": "Amazon announced further investment in Anthropic. The incremental amount and revised total are separate; the dollar currency remains unverified in this record.",
-    "direction": "directed",
-    "evidence_ids": [
-      "evidence-0abc68268b7aa1b43b4af998",
-      "evidence-cd43b0e029f3c0d56353ef9f"
-    ],
-    "first_observed_at": "2026-09-25T14:57:31+00:00",
-    "last_observed_at": "2026-09-25T14:57:31+00:00",
-    "latest_event_ids": [
-      "event-4a437f2b0d402a48e90b384b"
-    ],
-    "lifecycle_status": "announced",
-    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
-    "relationship_type": "investment",
-    "source_company_id": "co-amzn",
-    "status_as_of": "2024-11-22",
-    "target_company_id": "co-anthropic",
-    "verification": "approved_rule",
-    "verification_metadata": {
-      "evidence_hashes": {
-        "source-2110b6ef2c6af1e086212428": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4"
-      },
-      "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
-      "reviewer": null,
-      "rule_id": "pilot-source-2110b6ef2c6af1e086212428",
-      "rule_version": "1",
-      "verified_at": "2026-09-25T14:57:31+00:00"
-    }
-  },
-  {
-    "deal_ids": [
       "deal-d1a08058ecbf205cca122e26"
     ],
     "description": "Candidate: For the first time, NVIDIA and Anthropic are establishing a deep technology partnership to support Anthropic’s future growth. Anthropic and NVIDIA will collaborate on design",
@@ -6314,29 +6281,6 @@
   },
   {
     "deal_ids": [
-      "deal-445d9840b976600dd3be2517"
-    ],
-    "description": "Candidate: One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform. This combined solution provides",
-    "direction": "undirected",
-    "evidence_ids": [
-      "evidence-5620d162c16fb8c4e49f62ea"
-    ],
-    "first_observed_at": "2026-09-26T04:21:33+00:00",
-    "last_observed_at": "2026-09-26T05:28:36+00:00",
-    "latest_event_ids": [
-      "event-4f8169db85a40a9598ff420c"
-    ],
-    "lifecycle_status": "unknown",
-    "relationship_id": "rel-841d512b85fddf05deec3723",
-    "relationship_type": "partnership",
-    "source_company_id": "co-mu",
-    "status_as_of": "2025-03-18",
-    "target_company_id": "co-nvda",
-    "verification": "needs_review",
-    "verification_metadata": null
-  },
-  {
-    "deal_ids": [
       "deal-f39988cf9d2aab5830d41913"
     ],
     "description": "Candidate: SEATTLE & MUNICH--(BUSINESS WIRE)-- Amazon Web Services (AWS) today announced the BMW Group has chosen AWS as the preferred cloud provider for its automated driving",
@@ -9007,6 +8951,2588 @@
       "rule_id": "amount-followup-20260926-mp-apple-currency",
       "rule_version": "4e1fc14e545592139ff3fe7a31c88143d1358e45c02c8c929dfc09cc4c1d4ad5",
       "verified_at": "2026-09-26T07:31:24+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-445d9840b976600dd3be2517"
+    ],
+    "description": "Candidate: One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform. This combined solution provides",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-5620d162c16fb8c4e49f62ea"
+    ],
+    "first_observed_at": "2026-09-26T04:21:33+00:00",
+    "last_observed_at": "2026-09-26T08:10:47+00:00",
+    "latest_event_ids": [
+      "event-4f8169db85a40a9598ff420c"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-841d512b85fddf05deec3723",
+    "relationship_type": "partnership",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-03-18",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-8b8f80490db60cc010ebfcaa"
+    ],
+    "description": "Candidate: Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years.",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cef81c3f1776fa0035c115ce"
+    ],
+    "first_observed_at": "2026-09-26T08:10:48+00:00",
+    "last_observed_at": "2026-09-26T08:10:48+00:00",
+    "latest_event_ids": [
+      "event-a956085d689700d10ea1498b"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-c660a10f723a4e4030e40b59",
+    "relationship_type": "investment",
+    "source_company_id": "co-anthropic",
+    "status_as_of": null,
+    "target_company_id": "co-acn",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-b535a8138d3c444443bc0e93"
+    ],
+    "description": "Candidate: We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-ec4f44804ca3312632e5c7ce"
+    ],
+    "first_observed_at": "2026-09-26T08:10:48+00:00",
+    "last_observed_at": "2026-09-26T08:10:48+00:00",
+    "latest_event_ids": [
+      "event-aa6e56dbe1b09a9bdc48eba2"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-6924f10cf3c5b728f3757a2e",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": null,
+    "target_company_id": "co-acn",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d3b6e9b48c7b84032c6fd135"
+    ],
+    "description": "Candidate: In August 2026, we entered into guarantees with SB Energy Corp. to provide credit support on the land, power, and shell buildout at SB Energy’s",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b22805bed8db3f727658e1ff"
+    ],
+    "first_observed_at": "2026-09-26T08:10:50+00:00",
+    "last_observed_at": "2026-09-26T08:10:50+00:00",
+    "latest_event_ids": [
+      "event-c0d2badd128a519530a1bf12"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9cfd2d7736a755f80bbc25cd",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-sb-energy",
+    "status_as_of": "2026-08-26",
+    "target_company_id": "co-openai",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-5ec7e7213aeda6f2a619feab"
+    ],
+    "description": "Candidate: On August 17, 2026, NVIDIA entered into multiple residual value guaranties (collectively, the “Agreements”) with SB Energy (the “Lessor”) relating to leases for approximately 4.25",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-dda69065275736842569de69"
+    ],
+    "first_observed_at": "2026-09-26T08:10:50+00:00",
+    "last_observed_at": "2026-09-26T08:10:50+00:00",
+    "latest_event_ids": [
+      "event-ef55faae79af299019d5fc1d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-e5c9b75d335ebeb324846593",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-sb-energy",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ab85ede4fbd1c35611683a3c"
+    ],
+    "description": "Candidate: On August 17, 2026, NVIDIA issued a press release announcing the partnership with SB Energy. The press release is attached as Exhibit 99.1 hereto and",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-f98ef61d626002acc4cd4e9c"
+    ],
+    "first_observed_at": "2026-09-26T08:10:50+00:00",
+    "last_observed_at": "2026-09-26T08:10:50+00:00",
+    "latest_event_ids": [
+      "event-a39a8995567e2679d8b075a3"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-324284137b70e7fa043c27c9",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-sb-energy",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-13425f215b1d4fc3bfe6f705"
+    ],
+    "description": "Candidate: On January 2, 2026 , Berkshire completed the acquisition of Occidental Petroleum Corporation’s (“Occidental”) chemicals business (“OxyChem”) pursuant to an agreement that was entered into",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-99c93debdcfcfdef3ef1f0e9"
+    ],
+    "first_observed_at": "2026-09-26T08:11:00+00:00",
+    "last_observed_at": "2026-09-26T08:11:00+00:00",
+    "latest_event_ids": [
+      "event-526070167473763fb0de4393"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-e0ab282d1b89570675ccb4f4",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-oxy",
+    "status_as_of": "2026-08-10",
+    "target_company_id": "co-oxychem",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-99faa90150986c8ad5f7b38b"
+    ],
+    "description": "Candidate: The industrial products group includes complex metal components and products for aerospace, power and general industrial markets (Precision Castparts Corp. (PCC)), specialty chemicals (The Lubrizol",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-44d5fc03e3a42b79affd2d1c"
+    ],
+    "first_observed_at": "2026-09-26T08:11:01+00:00",
+    "last_observed_at": "2026-09-26T08:11:01+00:00",
+    "latest_event_ids": [
+      "event-c80104e0285a16bca775ea4a"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-c45324f677068f8ef652deff",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-oxychem",
+    "status_as_of": "2026-08-10",
+    "target_company_id": "co-oxy",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ad571856a0a51613a9824cc5"
+    ],
+    "description": "Candidate: At June 30, 2026, our insurance and other businesses held investments in cash, cash equivalents and U.S. Treasury Bills (net of payables for unsettled purchases)",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ed604299c8de2c72e4df9017"
+    ],
+    "first_observed_at": "2026-09-26T08:11:01+00:00",
+    "last_observed_at": "2026-09-26T08:11:01+00:00",
+    "latest_event_ids": [
+      "event-654c946d2afa2db5d9bf98e8"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-b2d8fb11216500efff34b025",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-oxychem",
+    "status_as_of": "2026-08-10",
+    "target_company_id": "co-taylor-morrison",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-4291d9b704fbb52f9d7b04b3"
+    ],
+    "description": "Candidate: These are now available on Vertex AI, which is Google Cloud’s platform to customize and fully manage a wide range of leading gen AI models.",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-55299b106c839a0bbfc4ff4c"
+    ],
+    "first_observed_at": "2026-09-26T08:11:03+00:00",
+    "last_observed_at": "2026-09-26T08:11:03+00:00",
+    "latest_event_ids": [
+      "event-3cd5b357349298d348d10f6a"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-2333938946f353214effb750",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-google",
+    "status_as_of": "2024-04-09",
+    "target_company_id": "co-crm",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-2b50679e4364fc122f50456d"
+    ],
+    "description": "Candidate: • Secured land, power and shell capacity through a partnership with SB Energy at the PORTS-Pike Technology Campus in Ohio to host NVIDIA compute.",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e7cd9ff095cfa75e4c1808eb"
+    ],
+    "first_observed_at": "2026-09-26T08:11:04+00:00",
+    "last_observed_at": "2026-09-26T08:11:04+00:00",
+    "latest_event_ids": [
+      "event-8df8baa7db1cf93c811f63a7"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-05a4d3875e0b3c503761530d",
+    "relationship_type": "partnership",
+    "source_company_id": "co-sb-energy",
+    "status_as_of": "2026-08-26",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-2cbb6585b463520945e75e53"
+    ],
+    "description": "Candidate: 14 | | Q2 2026 FINANCIAL RESULTS – August 4, 2026 Driven by strong demand for AMD EPYCTM processors and continued ramp of AMD InstinctTM",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-9267c461434e83f7a9b53b16"
+    ],
+    "first_observed_at": "2026-09-26T08:11:04+00:00",
+    "last_observed_at": "2026-09-26T08:11:04+00:00",
+    "latest_event_ids": [
+      "event-56d9dba5615a80d961b7dd66"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-04d5635331a2ccf4eb50179f",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": "2026-08-04",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-da7445e8c2838c89a30e65f5"
+    ],
+    "description": "Candidate: • NVIDIA to invest $1.5B in SB Energy now to support SB Energy’s growth and commitments to the Ohio community",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-c26c0d401693282ed68f274e"
+    ],
+    "first_observed_at": "2026-09-26T08:11:08+00:00",
+    "last_observed_at": "2026-09-26T08:11:08+00:00",
+    "latest_event_ids": [
+      "event-2eb0c1c2d02a0ce12e1649d7"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-836902043f3cefe1b6d87a06",
+    "relationship_type": "investment",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-sb-energy",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-2fcbf8cd91b81345b983db58"
+    ],
+    "description": "Candidate: In support of the surrounding Ohio community, SB Energy and SoftBank will build at least 10 GW of new energy generation, which results in 8",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-942b8c63a27d838c4b94e993"
+    ],
+    "first_observed_at": "2026-09-26T08:11:08+00:00",
+    "last_observed_at": "2026-09-26T08:11:08+00:00",
+    "latest_event_ids": [
+      "event-6ff8287b1911d34a8c57b4ae"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9dbdfa83d85f04c8aaccc508",
+    "relationship_type": "investment",
+    "source_company_id": "co-sb-energy",
+    "status_as_of": "2026-08-17",
+    "target_company_id": "co-openai",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-52463c070b26b77018ea16e6"
+    ],
+    "description": "Candidate: SAN FRANCISCO & SUNNYVALE, Calif.--(BUSINESS WIRE)-- Salesforce and Google today announced a major expansion of their strategic partnership, delivering choice in the models and capabilities",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-1fad4f2639c20547133837e0"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-8923017d338a7becba3e7ee8"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-77ef063453efea3830c59ca1",
+    "relationship_type": "partnership",
+    "source_company_id": "co-crm",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-google",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-19f4237cb7e283486f059b69"
+    ],
+    "description": "Candidate: Google Cloud is at the forefront of enterprise AI innovation with millions of developers building with Google’s cutting-edge Gemini models and on Google Cloud’s AI-optimized",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c7c1c202afdd28493bceb1d7"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-56cf5bf77b33aa6413562d8a"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-8710d15a66259a06f8967a54",
+    "relationship_type": "partnership",
+    "source_company_id": "co-google",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-crm",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-7eac42885411de99b7bcb367"
+    ],
+    "description": "Candidate: “Salesforce’s selection of Google Cloud as a major infrastructure provider means enterprise customers can now deploy some of their most critical applications on our highly",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-9fb932971dbc444c985db616"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-b303afdf3f492af91cec386c"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0d73288d2fdd9b39b3b08db4",
+    "relationship_type": "partnership",
+    "source_company_id": "co-crm",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-google",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-dc1cc1170b4b42255c521831"
+    ],
+    "description": "Candidate: Agentforce will be able to use Grounding with Google Search through Vertex AI, building on the secure data foundation established through the zero copy partnership",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-2bc3ccbc04e442b714929c1e"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-8dfd5d6a12b795c961ad1658"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-91a4f2f5782a17ae5f25506f",
+    "relationship_type": "partnership",
+    "source_company_id": "co-google",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-crm",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-93f0d568c0a208bd2cf70b47"
+    ],
+    "description": "Candidate: For example, in supply chain management and logistics, an agent built with Agentforce could track shipments and monitor inventory levels in Salesforce Commerce Cloud, and",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-1f3e2ec91b44f9ad5e6d36ff"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-91fb1d179a39eb0334ca8c73"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-d0ab56ec19cfc3a374ada45e",
+    "relationship_type": "supplier",
+    "source_company_id": "co-crm",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-google",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-45a5c388deaf379d60879bf2"
+    ],
+    "description": "Candidate: This partnership goes beyond core product integrations to deliver a more connected and intelligent data foundation for businesses. This is just the beginning; Salesforce and",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-57e70e0f26a3077741ca7fdb"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-0ed73e4daf3e8736f66781b1"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-40001409c1d8c7ace2535f6c",
+    "relationship_type": "partnership",
+    "source_company_id": "co-crm",
+    "status_as_of": "2025-02-24",
+    "target_company_id": "co-google",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-a9c449be04786a3daa51aa54"
+    ],
+    "description": "Candidate: Just a year since announcing The Climate Pledge , Amazon is excited to reveal its first custom electric delivery vehicle, designed and built in partnership",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-3eed5da1a3eaf02f80860251"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-a545ebc581635d40452f64e1"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-1e9d7d5921396cbb95765ea3",
+    "relationship_type": "partnership",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2020-10-08",
+    "target_company_id": "co-rivian",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d976199160a2ecc2001bcd82"
+    ],
+    "description": "Candidate: Prior to investing in Rivian, Amazon was unable to find electric options that met the needs of its drivers and delivery operations. Instead of waiting",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-0bbafd0f76943682ab8c400b"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-4d900bcd81097cb10aafe29e"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-12a6ac8c441b319cc790918a",
+    "relationship_type": "investment",
+    "source_company_id": "co-rivian",
+    "status_as_of": "2020-10-08",
+    "target_company_id": "co-amzn",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-5cdbb86453dde083ee367c5d"
+    ],
+    "description": "Candidate: Glasses are the most exciting hardware category of the AI era — the ideal device to experience an all-day AI assistant that understands the world",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-37511a91f0be6ba892887096"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-2927cea325305ccd1d9e26a9"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9e0eb4e00a2c121d280b3bd9",
+    "relationship_type": "partnership",
+    "source_company_id": "co-essilorluxottica",
+    "status_as_of": "2026-06-23",
+    "target_company_id": "co-meta",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-b4157ecbcf196cf615a0e19f"
+    ],
+    "description": "Candidate: Text of this article June 10, 2024 PRESS RELEASE Introducing Apple Intelligence, the personal intelligence system that puts powerful generative models at the core of",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9f45f32c54b8ca1baa203c9d"
+    ],
+    "first_observed_at": "2026-09-26T08:11:10+00:00",
+    "last_observed_at": "2026-09-26T08:11:10+00:00",
+    "latest_event_ids": [
+      "event-c278245df815cc9c5ef3623d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-67cbbabe8eefa8881bbf80c8",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aapl",
+    "status_as_of": "2024-06-10",
+    "target_company_id": "co-openai",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-941051c07da2d1d18d241150"
+    ],
+    "description": "Candidate: On November 22, 2023, Broadcom Inc. (“Broadcom”) completed its acquisition of VMware, Inc. (“VMware”) pursuant to the Agreement and Plan of Merger (the “Merger Agreement”),",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-bffe954482bf516b5ff7dff7"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-1399f5817ccdd6a6041c1dad"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-d7ec034b1a1a47f3017a81a5",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-1b5f918ebc6927478081e40a"
+    ],
+    "description": "Candidate: As previously reported, on August 15, 2023, Broadcom entered into a senior unsecured term loan credit agreement (the “Credit Agreement”). On November 22, 2023, Broadcom",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b66013b320387746b1992e42"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-84f5c41793de0dc3aa612e84"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-4b7d02e73b9fd47eff675ffb",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-298cf5c44d205c8f3fb38f1c"
+    ],
+    "description": "Candidate: On November 22, 2023, Broadcom issued a press release announcing the completion of its acquisition of VMware. A copy of the press release is attached",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b966b8cc19e157580fbbe4e9"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-09b5fb105111829c5e0cbb30"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-4d71f30d00adea35ed369250",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-dfc15a02fe7877994f0d63bc"
+    ],
+    "description": "Candidate: These forward-looking statements involve risks and uncertainties that are outside Broadcom’s control and may cause actual results to differ materially from those contained in forward-looking",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6146d495b0645b84a976f3ab"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-9a65e1adb829c35faa64611d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-81c54a90e6e019ff7927a7a0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-68843ad27d7f4abeecf3f354"
+    ],
+    "description": "Candidate: LSEG and Microsoft launch 10-year strategic partnership for next-generation data and analytics and cloud infrastructure solutions; Microsoft to make equity investment in LSEG through acquisition",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8ba21ae9b0ca7bb87c97e1ee"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-9bbe674cd792bc9631c217cf"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-77146878cba7ebdc4625d12e",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-60b28474cdeeb9cb5c138b01"
+    ],
+    "description": "Candidate: New collaboration to architect LSEG’s data infrastructure and build intuitive next-generation productivity, data and analytics and modelling solutions with Microsoft Azure, AI, and Microsoft Teams",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-bcfdc972328582781eb2b2f7"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-b39c77efc27d7594dd3efe2e"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-659553ee4efe60f6e8aa2f56",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-e3796870c47b6713520f840b"
+    ],
+    "description": "Candidate: Step-change in services for customers across the financial markets value chain, including an enhanced version of LSEG Workspace with seamless Teams communication and Microsoft 365",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9423e5724d11ddfa2997f6fb"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-8e165982553f0201c6a09a89"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-98e83759f2ccde61809dc0d7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-fb152795e034b0de2ecf78ba"
+    ],
+    "description": "Candidate: Microsoft to purchase approximately 4% equity stake in LSEG through the acquisition of shares from the Blackstone/Thomson Reuters Consortium",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-77b24ab17154c2ef086de066"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-b16a8d9c5ccac773634c067a"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-a9cd1181b1f42b0f8bfc3ecc",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ab3e40bf8c4e5b559ba36df7"
+    ],
+    "description": "Candidate: Contractual commitment by LSEG for minimum cloud-related spend with Microsoft of $2.8 billion (£2.3 billion) over the term of the partnership, reflecting minimum cloud consumption",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-04e1eb0c20eb4e3dc6db65a4"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-e8d4659b8b40e7a8b3ac8803"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-50edcfd6b3601a801b423bc7",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ac2ed2445fee4db6326ea855"
+    ],
+    "description": "Candidate: Additional spend with Microsoft will be driven by the success of the strategic partnership, based on demand for LSEG’s data platform and other professional services",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-5b5e9a69a7eb3c83f69c183b"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-5867513e2735d2dde2444909"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-8c0f97d6f2955e85ca0c36fd",
+    "relationship_type": "partnership",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-e781557589b8b0296d53d7e8"
+    ],
+    "description": "Candidate: London Stock Exchange Group (LSEG) and Microsoft have entered into a new long-term strategic partnership to architect LSEG’s data infrastructure using the Microsoft Cloud, and",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-9933365d9adece00761babe6"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-39730087d1b75de08de41c91"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-991ddd7cb8f4f8b445a23525",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ec7dd14f5de340b7ab85d259"
+    ],
+    "description": "Candidate: Under the arrangements with Microsoft, LSEG will use Azure Purview and Azure Synapse to create its cloud-based data architecture that consolidates LSEG datasets onto one,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-04bac5dd41c4598b0b0a04b3"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-a4cefb21dbe029f3873ca94e"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-899e98dadb7855b07d47342f",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-918aa39b168d7ed3bde1a742"
+    ],
+    "description": "Candidate: As part of LSEG’s product development with Microsoft, the companies plan a step-change in the advancement of Workspace, by creating an all-in-one data, analytics, workflow,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d838552ba25569db87894762"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-7d4a69dfab5e70846e6b53c0"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-27a0edc4b19b494af8a2933d",
+    "relationship_type": "investment",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-626951d3b5613944ce887fab"
+    ],
+    "description": "Candidate: Microsoft and LSEG will use Azure Machine Learning and LSEG’s advanced analytics and modelling capabilities to co-develop a new suite of solutions to give financial",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-aa705a84d21a4b2f7109aaa0"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-ec112c0028b11f8fb8bd9060"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-e90dcad82dbefdb5e1b27f90",
+    "relationship_type": "investment",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-e4e756c9f78f3d3d1daf63b9"
+    ],
+    "description": "Candidate: LSEG and Microsoft have established a governance structure that will be responsible and accountable for the commercial delivery of the programmes described above and the",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d28bce43062693583dcb6b23"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-61ab00195c52ace0751ed17d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-72557c2360ff694c4c40c87e",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-7f5a4a562a91d578637d0fce"
+    ],
+    "description": "Candidate: Microsoft investment in LSEG shares",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3b2b70289ec79821fc5d5957"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-d4260d6e215ee06fee46c972"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-a067d0482addd8218bd342ae",
+    "relationship_type": "investment",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-c7b23b1dab7b69f2211fbef4"
+    ],
+    "description": "Candidate: Microsoft has agreed to purchase shares in LSEG that would result in Microsoft holding approximately a 4% equity stake in LSEG, such shares to be",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-8bfdf13ccdc23b78211b23de"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-56639cd6df5342596c2f4d32"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-fcf208fb782c7b7c3136fe14",
+    "relationship_type": "investment",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ad4bbd2ba2883663d35390e0"
+    ],
+    "description": "Candidate: Microsoft has entered into a separate agreement with LSEG pursuant to which Microsoft has agreed, in addition to customary standstill and orderly marketing arrangements, to",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ba3c204a9b4d0e238162828f"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-afcddf4f37697afb81f03cdb"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-f82c737268612262fb02da99",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-b4ced1de0823f119f53c9966"
+    ],
+    "description": "Candidate: The strategic partnership is expected to increase LSEG’s revenue growth meaningfully over time as the key workstreams are delivered. LSEG and Microsoft have agreed to",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9087dba7cf7dd1fab87af732"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-6c860020d2f15e3078f476b1"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-ca7b4a909d3f4684c5f2ca05",
+    "relationship_type": "investment",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-28f8968a33dd82361417d271"
+    ],
+    "description": "Candidate: Any additional spend LSEG incurs with Microsoft will be driven by the success of the strategic partnership, based on demand for LSEG’s data platform and",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-c01ea0210e28a1520b7acfbd"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-88e8e9786f52147046d312d4"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-f4798806da5333ec595f7bb2",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-f12639fef326b50a59aa17e2"
+    ],
+    "description": "Candidate: Although LSEG believes that the expectations reflected in such forward-looking statements are reasonable, LSEG can give no assurance that such expectations will prove to be",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-fb4ff29d845275d71b5ac5b7"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-c1417048bbd5a736d178ca1f"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-ba84250c51ec8b4eb737c13e",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2022-12-12",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-79ff2bc2f8b2c16572b171c0"
+    ],
+    "description": "Candidate: NEW YORK; Oct. 2, 2024 – Accenture (NYSE: ACN) and NVIDIA today announced an expanded partnership, including Accenture’s formation of a new NVIDIA Business Group,",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-b38ae4bf66951cc3f7fe1f72"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-f367fc49e3413fbdd0bc6139"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-1529848d7b0fbeebe688c950",
+    "relationship_type": "partnership",
+    "source_company_id": "co-acn",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-196bff1e76530c483cd3a4a0"
+    ],
+    "description": "Candidate: “We are breaking significant new ground with our partnership with NVIDIA and enabling our clients to be at the forefront of using generative AI as",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-66d42153cb46cb90aad9d7ff"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-1016a033bb26babcedb02915"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-00c4e6e544f6f8e9ce121428",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-acn",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ce1986c85d68b192e8139323"
+    ],
+    "description": "Candidate: Accenture NVIDIA Business Group Scales Agentic AI for Enterprises The new Accenture NVIDIA Business Group will accelerate momentum with generative AI and help clients scale",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f0046fcf40575cb285883a4b"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-66a4e1407efe3161c9b44346"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-470f1fabd648ee0001a276c6",
+    "relationship_type": "investment",
+    "source_company_id": "co-acn",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-936d4382b9180e0bb1c5b0bd"
+    ],
+    "description": "Candidate: Accenture and NVIDIA are already helping clients adopt and scale agentic AI systems. For example, Indosat Group announced the first sovereign AI in Indonesia that",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a7ff05bacab9cd8aaba5d31f"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-3611e46b4e6fbf30796bcd6c"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-7736ad24927b197b9ec00b9f",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-acn",
+    "status_as_of": "2024-10-02",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d20e1101720e40a69a024d0b"
+    ],
+    "description": "Candidate: “Microchip Technology’s SMC2000 Smart Memory Controllers provide high-capacity expansion and performance with reduced latency overhead. Our collaboration with Micron has allowed us to harness their",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-532a793a77b9982032f41889"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-873ffb8e3b5b8b7fa5e75712"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-7e82f2f86e27d30399d1ff67",
+    "relationship_type": "partnership",
+    "source_company_id": "co-microchip",
+    "status_as_of": "2023-08-07",
+    "target_company_id": "co-mu",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-462e38f2628adff0520db198"
+    ],
+    "description": "Candidate: “Supermicro’s continuing collaboration with Micron benefits a wide variety of key customers,” said Don Clegg, senior vice president of Worldwide Sales at Supermicro. “Micron’s CZ120",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-962c59665193d03e4df63f31"
+    ],
+    "first_observed_at": "2026-09-26T08:11:11+00:00",
+    "last_observed_at": "2026-09-26T08:11:11+00:00",
+    "latest_event_ids": [
+      "event-75c1f433d6a2d5bb6ee4b9a7"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9da1dc6c83469f80bfabda2e",
+    "relationship_type": "partnership",
+    "source_company_id": "co-smci",
+    "status_as_of": "2023-08-07",
+    "target_company_id": "co-mu",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-a348c3c0ac7f8e3d99be8135"
+    ],
+    "description": "Candidate: 10.24†† 2019 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed September 20, 2019, by and among the Registrant, Tesla Motors Netherlands B.V.,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-695a091c4d6f3fff6cd61300"
+    ],
+    "first_observed_at": "2026-09-26T08:11:12+00:00",
+    "last_observed_at": "2026-09-26T08:11:12+00:00",
+    "latest_event_ids": [
+      "event-f90c2ec7ee761ccd617b36e4"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-a149b0d4265db7a57cd2c0cc",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsla",
+    "status_as_of": "2025-01-30",
+    "target_company_id": "co-panasonic",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-7cf62c382794ec8b3cced535"
+    ],
+    "description": "Candidate: 10.26†† 2021 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed December 29, 2020, by and among the Registrant, Tesla Motors Netherlands B.V.,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a0dfa24ced0689d89910a48a"
+    ],
+    "first_observed_at": "2026-09-26T08:11:12+00:00",
+    "last_observed_at": "2026-09-26T08:11:12+00:00",
+    "latest_event_ids": [
+      "event-484a70724b39a0b743031e06"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-3e46e67bcc0e77cf4dff89d6",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsla",
+    "status_as_of": "2025-01-30",
+    "target_company_id": "co-panasonic",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-194f528641fc25748812e089"
+    ],
+    "description": "Candidate: We are dependent on the continued supply of lithium-ion battery cells for our vehicles and energy storage products, and we will require substantially more cells",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-5685b909db8ebd4da3051871"
+    ],
+    "first_observed_at": "2026-09-26T08:11:13+00:00",
+    "last_observed_at": "2026-09-26T08:11:13+00:00",
+    "latest_event_ids": [
+      "event-e4338945cfcf3efd74c0142d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-743b74e7eff205e0703f1e1c",
+    "relationship_type": "supplier",
+    "source_company_id": "co-panasonic",
+    "status_as_of": "2025-01-30",
+    "target_company_id": "co-catl",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-a20d8a83c3f1d9e41cffe173"
+    ],
+    "description": "Candidate: 10.34†^ Master Services Agreement between CoreWeave, Inc. and Microsoft Corporation, dated February 22, 2023 S-1 333-285512 10.23 March 3, 2025",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-dee04a377f89356d5a3bfcab"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-d1e6f170834b0a98dc6fcd83"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0059e0ff4920520f611891ba",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-3fce75cbf2bdb96f3f72c378"
+    ],
+    "description": "Candidate: 10.35†^ Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated March 7, 2025 S-1/A 333-285512 10.24 March 12, 2025",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-c950206377df0265446c0b1a"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-23cea779d7699cd95a95d1ad"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-101f0f6e891a18df5cfc973e",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-openai-opco",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-16e02eabfc86f0c00a5d883e"
+    ],
+    "description": "Candidate: 10.36†^ Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated May 8, 2025 8-K 001-42563 10.1 September 25, 2025",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-20e285572916bd88c450bb79"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-117682617869682381fda159"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-b145683962b52f071a24b6ad",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-openai-opco",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-fe8dc9655b7da5f345a2783c"
+    ],
+    "description": "Candidate: 10.38†^ Master Services Agreement between CoreWeave, Inc. and NVIDIA Corporation, dated April 10, 2023 S-4/A 333-289742 10.31 September 25, 2025",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-561c4b7bfabfbd75a04e4172"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-259b7def0cc402431fc33d88"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-eed639e1749b597db121a322",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-f519b6d047d69bdbb2266833"
+    ],
+    "description": "Candidate: 10.39†^ Master Services Agreement between CoreWeave, Inc. and Meta Platforms, Inc., dated December 10, 2023 8-K 001-42563 10.1 September 30, 2025",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-61e29a270b3dee378a00141e"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-6d4600a695e5a36f15da9c06"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-4d413b631d58b1230a29a8c8",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-meta",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-896e97f1f06e2c3e1da44047"
+    ],
+    "description": "Candidate: Our data center fabric is designed to harness the full potential of each GPU and to maximize performance from the newest architectures. It integrates state-of-the-art",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-af50ab4625d1d486ad119c8f"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-b9730d2ca0c07a068ece1ad9"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-4e608b92f757cd938de88fe0",
+    "relationship_type": "supplier",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-coreweave",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-f4675b48355659a6ef52279e"
+    ],
+    "description": "Candidate: a. Ownership . [*]. Further, CoreWeave owns all right, title and interest in and to the CoreWeave Systems and Services; provided, that the foregoing shall",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fe95295486f782de09ecca27"
+    ],
+    "first_observed_at": "2026-09-26T08:11:17+00:00",
+    "last_observed_at": "2026-09-26T08:11:17+00:00",
+    "latest_event_ids": [
+      "event-c09950147c7fab648fcc9816"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9dfb7790cf9b0a2f82f8e8fb",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2025-09-25",
+    "target_company_id": "co-openai",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-5a9bbf29fff0cd284dd2e2d1"
+    ],
+    "description": "Candidate: 10.1*† Master Services Agreement between CoreWeave, Inc. and OpenAI OpCo, LLC, dated May 8, 2025.",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7b025410db89056c4ec851aa"
+    ],
+    "first_observed_at": "2026-09-26T08:11:18+00:00",
+    "last_observed_at": "2026-09-26T08:11:18+00:00",
+    "latest_event_ids": [
+      "event-9e938cd1844ad09c2eab6c69"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-12b11b4f353c7b5366cb96fb",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2025-09-25",
+    "target_company_id": "co-openai-opco",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-422aaa991c4db4d4ce86966e"
+    ],
+    "description": "Candidate: 2.3 Assignment Agreement, dated as of December 29, 2015, between Samsung Display Co., Ltd., Corning Incorporated, Corning Precision Materials Co., Ltd., and Corning Luxembourg S.àr.l.,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9a9d5530882660f41bb153d9"
+    ],
+    "first_observed_at": "2026-09-26T08:11:18+00:00",
+    "last_observed_at": "2026-09-26T08:11:18+00:00",
+    "latest_event_ids": [
+      "event-db9d834207c78bd1b85e4602"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-32f6df42d0c26c8e0800053e",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-samsung",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-glw",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-67d52fa22607057b2226ff1f"
+    ],
+    "description": "Candidate: Ms. Badani is recognized for her leadership at the intersection of AI, semiconductors, go-to-market strategy, and business transformation. As chief marketing officer of Arm, she",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9e40e51eaaa5bfd3bc8dd1c8"
+    ],
+    "first_observed_at": "2026-09-26T08:11:19+00:00",
+    "last_observed_at": "2026-09-26T08:11:19+00:00",
+    "latest_event_ids": [
+      "event-56b6372c1fa36489e0692fd8"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-866fb2e3082e9bef9a171741",
+    "relationship_type": "investment",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-glw",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-7991184ac380cb2b316026fc"
+    ],
+    "description": "Candidate: From 2006 through 2013, Ms. Craig served as chief financial officer of Accenture plc., a global management consulting, technology services and outsourcing company, following many",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-187152198241c3b7aec3499c"
+    ],
+    "first_observed_at": "2026-09-26T08:11:19+00:00",
+    "last_observed_at": "2026-09-26T08:11:19+00:00",
+    "latest_event_ids": [
+      "event-3696388d0fdb1e4943a2ca99"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-340f480a14d6b24b931ccd14",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-acn",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-glw",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d2d2ca5e77a2b683a8434941"
+    ],
+    "description": "Candidate: Mr. Cummings retired as vice chairman of Investment Banking at JPMorgan Chase & Co. in 2016. He had served in that role since 2010, advising",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4f25145c6f928b927a6b1aa5"
+    ],
+    "first_observed_at": "2026-09-26T08:11:19+00:00",
+    "last_observed_at": "2026-09-26T08:11:19+00:00",
+    "latest_event_ids": [
+      "event-5b3444a2b16425ffd6f8c4ec"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-43a5e7f17bc8d8a7f64d0403",
+    "relationship_type": "investment",
+    "source_company_id": "co-jpm",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-glw",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-a1f7222d3fa7c6fd7707ad2b"
+    ],
+    "description": "Candidate: Mr. Martin is Vice President, Public Policy at Meta Platforms, Inc. Prior to joining Meta, he was a partner and co-chair of the telecommunications practice",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-7af48a9324b3d697a17885de"
+    ],
+    "first_observed_at": "2026-09-26T08:11:19+00:00",
+    "last_observed_at": "2026-09-26T08:11:19+00:00",
+    "latest_event_ids": [
+      "event-bdcebefbae500ed562f7b2ba"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-e703b3355f42642f53e48a50",
+    "relationship_type": "partnership",
+    "source_company_id": "co-meta",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-glw",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-03a394c71b650079b899b1f1"
+    ],
+    "description": "Candidate: 1 London Stock Exchange Group plc Preliminary results for the year ended 31 December 2022 Broad-based growth and strong execution David Schwimmer, CEO said: “LSEG",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-472da987b57f0902813bed94"
+    ],
+    "first_observed_at": "2026-09-26T08:11:21+00:00",
+    "last_observed_at": "2026-09-26T08:11:21+00:00",
+    "latest_event_ids": [
+      "event-b23ca2b76617581d888a0159"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-f3585ff12738884952e112cf",
+    "relationship_type": "investment",
+    "source_company_id": "co-lseg",
+    "status_as_of": "2023-03-02",
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-c6e91fd41f5e8e2aaa16f958"
+    ],
+    "description": "Candidate: 52 The Company entered into an irrevocable commitment with its corporate brokers to repurchase shares as part of tranche two of the programme, which in",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4ea3f04440f9f488173b29c2"
+    ],
+    "first_observed_at": "2026-09-26T08:11:22+00:00",
+    "last_observed_at": "2026-09-26T08:11:22+00:00",
+    "latest_event_ids": [
+      "event-0a211aeef424ed3b1485b86e"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-44f0714d7bde65450843f93b",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-msft",
+    "status_as_of": "2023-03-02",
+    "target_company_id": "co-lseg",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-47029d272bdee8d24620788b"
+    ],
+    "description": "Candidate: We are a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions. Our over 60-year history of",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a5ea4eb3f4ec1de9f043b713"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-08188f2ef8a68061015bce97"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-9adbddac43dd5b933585960b",
+    "relationship_type": "supplier",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-1cda60b2fcfc43ffa9d5a326"
+    ],
+    "description": "Candidate: On November 22, 2023, we acquired VMware in a cash-and-stock transaction (the “VMware Merger”), in which VMware stockholders received, in aggregate, approximately $30.8 billion in",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a320777f929221b22d4eabbd"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-be1ae29fa7871508b51de737"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0ec7ec8903c63986d1e7360a",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-0df66771a8f6bbded12fb9bf"
+    ],
+    "description": "Candidate: Private Cloud Software Portfolio. Our private cloud infrastructure software delivers public cloud scale and agility with private cloud security, resilience and performance, and low overall",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7e36f7c219d3f000fd0288bf"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-656b436ba10bcfd80eb21cae"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-41cfeb1aa47909236fbfe99f",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-06203798b126096f58294d77"
+    ],
+    "description": "Candidate: Our software customers generally consist of large enterprises that have computing environments from multiple vendors and are in most major industries worldwide, including banks, insurance",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4bb17eec9f57f04b7e12f9c5"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-be038993c2624c8dd92de604"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-19d4afc9b61521bc221e50b4",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-e768787b6522de25a8044f0c"
+    ],
+    "description": "Candidate: We focus on maintaining an efficient global supply chain and a variable, low-cost operating model. Accordingly, we outsource a majority of our manufacturing operations, utilizing",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d20676b2d63fb1ecdfdd8cda"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-84d3e708fe8cd5eb4d3d360c"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-d36ed15913d2ee7e580878d3",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-amkor",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d1183d08dcbbb6fb57098d65"
+    ],
+    "description": "Candidate: • On November 22, 2023, we completed the acquisition of VMware, Inc. (“VMware”), for approximately $30.8 billion in cash and 544 million shares of Broadcom",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6f8597b5e6918c909c468de1"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-c356500f3e02e4ee43ad307e"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-38cbd9c82324add42a5fc805",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-b0abdb68740787f6308c65d4"
+    ],
+    "description": "Candidate: On November 22, 2023, we acquired VMware in a cash-and-stock transaction (the “VMware Merger”). The VMware stockholders received approximately $30,788 million in cash and 544",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-88af36a42c72ecef8ad96bc0"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-d1c14cd10420272820375043"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-05c6534cd99dd9b79647108b",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-ce1d5d34ecc31c430885ee00"
+    ],
+    "description": "Candidate: Our software customers generally consist of large enterprises that have computing environments from multiple vendors and are highly complex. Our private cloud infrastructure suite of",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6201404181fd3350a36f12ac"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-2562cc8e9e88ec00c6156959"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-cdde3299ed36a1a6382716ef",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-94a9d03caae37e9bd00391bb"
+    ],
+    "description": "Candidate: On November 22, 2023, we completed the acquisition of VMware, Inc. (“VMware”) in a cash-and-stock transaction (the “VMware Merger”). The VMware stockholders received approximately $",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7f9db0cf9fe879a4f4da8b5e"
+    ],
+    "first_observed_at": "2026-09-26T08:11:23+00:00",
+    "last_observed_at": "2026-09-26T08:11:23+00:00",
+    "latest_event_ids": [
+      "event-18559910d2972980e46786d7"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-1ef1c6f5725099f0a21048e7",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-4dbfbd18517f32968a73c77c"
+    ],
+    "description": "Candidate: Shares eligible for future sale ...................... Upon completion of this offering, we will have shares of common stock outstanding (or shares if the underwriters exercise",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-27e0afbdd33f04c98bc9c3b5"
+    ],
+    "first_observed_at": "2026-09-26T08:11:27+00:00",
+    "last_observed_at": "2026-09-26T08:11:27+00:00",
+    "latest_event_ids": [
+      "event-e8c18961ab9b76cd55cc84a3"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-2b9d11951b3119ae5230a5df",
+    "relationship_type": "equity_right",
+    "source_company_id": "co-openai",
+    "status_as_of": "2026-09-01",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-93a4088ff8577de3e6f48c58"
+    ],
+    "description": "Candidate: OpenAI and NVIDIA further provide us with valuable insight into, and access to, the forefront of the AI",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-771afc5a1a30b1479c09c1c4"
+    ],
+    "first_observed_at": "2026-09-26T08:11:28+00:00",
+    "last_observed_at": "2026-09-26T08:11:28+00:00",
+    "latest_event_ids": [
+      "event-69c8fa86b0400eacdc89b2da"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-bfdc15d32b0bae2c00b0b672",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-openai",
+    "status_as_of": "2026-09-01",
+    "target_company_id": "co-nvda",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-8f3516af35213cbea934b275"
+    ],
+    "description": "Candidate: BENTONVILLE, Ark. and REDMOND, Wa. – July 17, 2018 – Today, Walmart Inc. (NYSE: WMT) announced it is establishing a strategic partnership with Microsoft Corp.",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-ebed206792e0d2d23299fa41"
+    ],
+    "first_observed_at": "2026-09-26T08:11:37+00:00",
+    "last_observed_at": "2026-09-26T08:11:37+00:00",
+    "latest_event_ids": [
+      "event-136f23705fbac37f2e0185d7"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-768a2f865b4fe05557e7d655",
+    "relationship_type": "partnership",
+    "source_company_id": "co-wmt",
+    "status_as_of": null,
+    "target_company_id": "co-msft",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-6887949248de2ca7a8e23f01"
+    ],
+    "description": "Candidate: As of December 31, 2024, our recorded value in equity, equity warrant, and convertible debt investments in public and private companies was $22.1 billion. Our",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6ecfed92f17714675826cd92"
+    ],
+    "first_observed_at": "2026-09-26T08:11:38+00:00",
+    "last_observed_at": "2026-09-26T08:11:38+00:00",
+    "latest_event_ids": [
+      "event-b7d9289af55fb4adf6adebb0"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-a3a62d64e57860349cc1156d",
+    "relationship_type": "equity_right",
+    "source_company_id": "co-rivian",
+    "status_as_of": "2025-02-07",
+    "target_company_id": "co-anthropic",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-391ad70e2ab2c6e091a1f1af"
+    ],
+    "description": "Candidate: In December 2018, Kove IO, Inc. filed a complaint against Amazon Web Services, Inc. in the United States District Court for the Northern District of",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-305c18798038c22dacb28dfa"
+    ],
+    "first_observed_at": "2026-09-26T08:11:38+00:00",
+    "last_observed_at": "2026-09-26T08:11:38+00:00",
+    "latest_event_ids": [
+      "event-0645f5eb9af15c8a8664b50b"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-f44ec2ed962b65b276472ba0",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2025-02-07",
+    "target_company_id": "co-amzn",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-efbc8c52bef52c137873aff4"
+    ],
+    "description": "Candidate: In October 2020, Broadband iTV, Inc. filed a complaint against Amazon.com, Inc., Amazon.com Services LLC, and Amazon Web Services, Inc. in the United States District",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-617190d56a1105c5cf8f4b3e"
+    ],
+    "first_observed_at": "2026-09-26T08:11:38+00:00",
+    "last_observed_at": "2026-09-26T08:11:38+00:00",
+    "latest_event_ids": [
+      "event-92f32aa4750960211d1b0a87"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-de17e1f87918d161f487a700",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2025-02-07",
+    "target_company_id": "co-aws",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-8e38c7858d638116bb6ce281"
+    ],
+    "description": "Candidate: SAN JOSE, Calif., November 22, 2023 – Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions,",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-eefc3cb583502222604bff60"
+    ],
+    "first_observed_at": "2026-09-26T08:11:41+00:00",
+    "last_observed_at": "2026-09-26T08:11:41+00:00",
+    "latest_event_ids": [
+      "event-27e401e68d5e1562e9827f67"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-5ee3c274c26a443cb559f365",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-1b3ff3f3af66e3506faf5bad"
+    ],
+    "description": "Candidate: Broadcom’s focus moving forward is to enable enterprise customers to create and modernize their private and hybrid cloud environments. At the core, Broadcom will invest",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-5f8b73d3c3482f5ca97c0819"
+    ],
+    "first_observed_at": "2026-09-26T08:11:41+00:00",
+    "last_observed_at": "2026-09-26T08:11:41+00:00",
+    "latest_event_ids": [
+      "event-7d8b5b791edae725c3d355c1"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-db48a6e8adc7fe80a0a86f05",
+    "relationship_type": "investment",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-a5abda751862ace8155dcd02"
+    ],
+    "description": "Candidate: In connection with the acquisition of VMware, Broadcom previously announced the results of the merger consideration elections made by VMware stockholders of record in its",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3b715b9e7dc4a50ec767af3f"
+    ],
+    "first_observed_at": "2026-09-26T08:11:41+00:00",
+    "last_observed_at": "2026-09-26T08:11:41+00:00",
+    "latest_event_ids": [
+      "event-b0835abb369ca947ce4d790d"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-d94b54d29a8d5e193f939e70",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-vmware",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-avgo",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-d9de056f52c4e60d9471a066"
+    ],
+    "description": "Candidate: This communication relates to Broadcom’s acquisition of VMware and includes forward-looking statements within the meaning of Section 21E of the U.S. Securities Exchange Act of",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6365400e21a94800deb10554"
+    ],
+    "first_observed_at": "2026-09-26T08:11:41+00:00",
+    "last_observed_at": "2026-09-26T08:11:41+00:00",
+    "latest_event_ids": [
+      "event-1125bf144b307739d093e536"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-de506dff4acf5b89decdacd3",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "deal_ids": [
+      "deal-b6522b0d6f6eaf8c5f6f721d"
+    ],
+    "description": "Candidate: These forward-looking statements involve risks and uncertainties that are outside Broadcom’s control and may cause actual results to differ materially from those contained in forward-looking",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-29a2b755f5c388ab7ee6fafa"
+    ],
+    "first_observed_at": "2026-09-26T08:11:41+00:00",
+    "last_observed_at": "2026-09-26T08:11:41+00:00",
+    "latest_event_ids": [
+      "event-cb614ca20f569727a1f420fe"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0e73ff0456b7a94ad5928dae",
+    "relationship_type": "supplier",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2023-11-22",
+    "target_company_id": "co-vmware",
+    "verification": "needs_review",
+    "verification_metadata": null
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-a4eb95bb13828001a267c232",
+        "evidence-2cbaefb79809a7df847932a4",
+        "evidence-25927d5f1622755e248a5cf3",
+        "evidence-9de9929ddf6f0cdafef96e43"
+      ],
+      "geography": "",
+      "headline": "VIZIO・SmartCastの買収",
+      "products": [
+        "VIZIOテレビ",
+        "SmartCast",
+        "Walmart Connect広告"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-a4eb95bb13828001a267c232"
+    ],
+    "description": "WalmartがVIZIOとSmartCastを買収し2024年12月3日に完了。Walmart Connectの広告とテレビ視聴体験を連携する。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a4eb95bb13828001a267c232",
+      "evidence-2cbaefb79809a7df847932a4",
+      "evidence-25927d5f1622755e248a5cf3",
+      "evidence-9de9929ddf6f0cdafef96e43"
+    ],
+    "first_observed_at": "2026-09-26T08:16:13+00:00",
+    "last_observed_at": "2026-09-26T08:16:13+00:00",
+    "latest_event_ids": [
+      "event-a4eb95bb13828001a267c232"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-5f77a3fa11f3bb4966c83cfd",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-wmt",
+    "status_as_of": "2024-12-03",
+    "target_company_id": "co-vizio",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-906167e0dd13ba9323deb3bd": "0fd0b3e423a43ef91e598874dbd455095971d23de731aa50b0bf1aa6df892c84",
+        "source-b761388c1f47e307d748b0a7": "7bf87382263bf281bfeaafd67c3487e31cffc66bde14545f8a125e3d0d126202",
+        "source-ea7dee5181da3aeace056d3d": "194b964bfa43db7ba5af7298ece83b67c2aff0e7dd19245ac33ef2f861c948a0"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-wmt-co-vizio-acquisition",
+      "rule_version": "97c02f2378a22a46e1978b4d6b6351349bd42ec459d3eb941025ec5f9f9690a4",
+      "verified_at": "2026-09-26T08:16:13+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-fc90605904650c0f3145a6bc",
+        "evidence-1d8bcd0d0250b4c97626e441",
+        "evidence-d1a74857c3685ff0d0d6d810",
+        "evidence-620e2fb7bfe7d18e9e41741c",
+        "evidence-171d8ae516be8cb2c847423d"
+      ],
+      "geography": "米国",
+      "headline": "店舗受取・配送向け自動化システム",
+      "products": [
+        "micro-fulfillment自動化",
+        "店舗受取・配送"
+      ],
+      "scale": "400拠点＋別途200拠点オプション",
+      "source_role": "開発・設置・保守",
+      "target_role": "開発費支払・条件付き購入"
+    },
+    "deal_ids": [
+      "deal-fc90605904650c0f3145a6bc"
+    ],
+    "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fc90605904650c0f3145a6bc",
+      "evidence-1d8bcd0d0250b4c97626e441",
+      "evidence-d1a74857c3685ff0d0d6d810",
+      "evidence-620e2fb7bfe7d18e9e41741c",
+      "evidence-171d8ae516be8cb2c847423d"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-fc90605904650c0f3145a6bc"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3855da368526c286527580ee",
+    "relationship_type": "supplier",
+    "source_company_id": "co-symbotic-llc",
+    "status_as_of": "2025-11-24",
+    "target_company_id": "co-wmt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9294da69779573884f584931": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+        "source-e0f9d2205418024efd85b143": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-symbotic-llc-co-wmt-supplier",
+      "rule_version": "8750c0a3afacfbc2a58646ff2726d9ba1d25b83f7a4457983ce628e051ae7740",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-e4e0f2a2c021d776c8effe37"
+      ],
+      "geography": "",
+      "headline": "Azure・Microsoft 365導入",
+      "products": [
+        "Microsoft Azure",
+        "Microsoft 365"
+      ],
+      "scale": "",
+      "source_role": "クラウド提供",
+      "target_role": "全社利用・移行"
+    },
+    "deal_ids": [
+      "deal-e4e0f2a2c021d776c8effe37"
+    ],
+    "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-e4e0f2a2c021d776c8effe37"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-e4e0f2a2c021d776c8effe37"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-e034040a21765633a2b51199",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2018-07-17",
+    "target_company_id": "co-wmt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d14f7bb565a8f4d556900419": "676769149dd9a6c41528310739c5af79f458a24eb63417a068b7179763cf905a"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-msft-co-wmt-service_provider",
+      "rule_version": "71a28f38f33d46010d004787bf287fdbb464c754c48bc1170f5d3255e9f2822b",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-ce4f3f8e91d996c50d4b6fbe"
+      ],
+      "geography": "米国・プエルトリコ",
+      "headline": "Costco会員向け提携カード",
+      "products": [
+        "Costco Anywhere Visaカード"
+      ],
+      "scale": "",
+      "source_role": "提携カード提供",
+      "target_role": "会員・店舗基盤提供"
+    },
+    "deal_ids": [
+      "deal-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "description": "CitiとCostcoがCostco Anywhere Visaカードを2016年6月20日に提供開始。会員向けの共同ブランドカードで、還元率や取扱高を契約額にはしない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-ce4f3f8e91d996c50d4b6fbe"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-7b1c4e0b90dc4db4823f0b17",
+    "relationship_type": "partnership",
+    "source_company_id": "co-citi",
+    "status_as_of": "2016-06-20",
+    "target_company_id": "co-cost",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-65582de79502dbeeaeee891f": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-citi-co-cost-partnership",
+      "rule_version": "e70aec5027157f8006d403541dd4350cb1fc939648914082bffb1ef636d02d0e",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-4f7b7708953f0fceca671c3d"
+      ],
+      "geography": "米国・プエルトリコ",
+      "headline": "CostcoのVisaカード決済",
+      "products": [
+        "Visa決済ネットワーク"
+      ],
+      "scale": "",
+      "source_role": "決済ネットワーク提供",
+      "target_role": "会員・店舗基盤提供"
+    },
+    "deal_ids": [
+      "deal-4f7b7708953f0fceca671c3d"
+    ],
+    "description": "Costcoが米国・プエルトリコの倉庫店とガソリン施設でVisaブランドのクレジットカード受入を2016年6月20日に開始。クレジットカードの独占とデビット等の扱いは区別する。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-4f7b7708953f0fceca671c3d"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-4f7b7708953f0fceca671c3d"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-22af952a5d6e3f831640ff44",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-visa",
+    "status_as_of": "2016-06-20",
+    "target_company_id": "co-cost",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-65582de79502dbeeaeee891f": "8bb0030e53bdd6634639c43d9fd4fc377a53ded44b0fc3ad28254b84ad682bcc"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-visa-co-cost-service_provider",
+      "rule_version": "d44d354e444d012921568338453881f46829fd69429cdb17a3280ce416e2fac7",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-699ed041cd3824e9238ced53",
+        "evidence-eb0542967b4248f7944b342e"
+      ],
+      "geography": "英国・欧州",
+      "headline": "Fastlane・加盟店決済の欧州展開",
+      "products": [
+        "Fastlane",
+        "Commerce Platform"
+      ],
+      "scale": "",
+      "source_role": "決済技術・ネットワーク提供",
+      "target_role": "Payments事業での加盟店・送金サービス"
+    },
+    "deal_ids": [
+      "deal-699ed041cd3824e9238ced53"
+    ],
+    "description": "PayPalとJPMorganChaseのPayments事業が英国・欧州の加盟店向けにFastlaneとCommerce Platformによる決済受付を展開する計画。提供開始済みとは断定しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-699ed041cd3824e9238ced53",
+      "evidence-eb0542967b4248f7944b342e"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-699ed041cd3824e9238ced53"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-806d975a769fb2b259143ea8",
+    "relationship_type": "partnership",
+    "source_company_id": "co-paypal",
+    "status_as_of": "2025-02-25",
+    "target_company_id": "co-jpm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-07dd39c83f61e6ba78d7195f": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+        "source-ba658d591fd0d13f3343a590": "48ca2e3181c68f1beb09d721d9dd6e70bc1facf07004a06d48409262d7841f6f"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-paypal-co-jpm-partnership",
+      "rule_version": "dcb2204817954e266626276ef9a0b8de9d5285388a134b7bcd6c5b1b3d2a1947",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-fe0620321004c19db8fd3883",
+        "evidence-497235c4368645f0c6d84fcc"
+      ],
+      "geography": "米国",
+      "headline": "Visa Directによる米国内送金",
+      "products": [
+        "Visa Direct",
+        "Push to Card"
+      ],
+      "scale": "",
+      "source_role": "決済技術・ネットワーク提供",
+      "target_role": "Payments事業での加盟店・送金サービス"
+    },
+    "deal_ids": [
+      "deal-fe0620321004c19db8fd3883"
+    ],
+    "description": "VisaとJPMorganChaseのPayments事業が、Visa Directによる米国内の送金を加盟店・企業・フィンテック向けに組み込む協業を発表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fe0620321004c19db8fd3883",
+      "evidence-497235c4368645f0c6d84fcc"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-fe0620321004c19db8fd3883"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-4189cd770b095089458f3347",
+    "relationship_type": "partnership",
+    "source_company_id": "co-visa",
+    "status_as_of": "2024-05-06",
+    "target_company_id": "co-jpm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-07dd39c83f61e6ba78d7195f": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+        "source-ed9c2579fd994a51d1fa06e2": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-visa-co-jpm-partnership",
+      "rule_version": "402e4346663d53205546315f2058a1a144b76799f08895b2c6a1779996c9e898",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-68091e82e6df22eaab904300",
+        "evidence-b135ea1b271d9a7dcd73c2a3",
+        "evidence-b51ab0e2a55de88832882b2b"
+      ],
+      "geography": "",
+      "headline": "Morphicの経口IBD治療薬事業取得",
+      "products": [
+        "MORF-057",
+        "経口インテグリン治療薬"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "開発資産・事業の取得対象"
+    },
+    "deal_ids": [
+      "deal-68091e82e6df22eaab904300"
+    ],
+    "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-68091e82e6df22eaab904300",
+      "evidence-b135ea1b271d9a7dcd73c2a3",
+      "evidence-b51ab0e2a55de88832882b2b"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-68091e82e6df22eaab904300"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-morphic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7ef82b328009ca1f95a8f29d": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+        "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-lly-co-morphic-acquisition",
+      "rule_version": "3b3f60fc048c5d9a565232e4733e7eb67813fe92e4be6211930ed0577adf16d7",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-d13c9af46987e41735bcad40"
+      ],
+      "geography": "",
+      "headline": "Morphic買収の財務助言",
+      "products": [
+        "買収に伴う財務助言"
+      ],
+      "scale": "",
+      "source_role": "専任財務アドバイザー",
+      "target_role": "助言を受ける買収者"
+    },
+    "deal_ids": [
+      "deal-d13c9af46987e41735bcad40"
+    ],
+    "description": "CitiがLillyのMorphic買収で専任の財務アドバイザーを担当。買収対価をCitiへの助言報酬として転用しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-d13c9af46987e41735bcad40"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-d13c9af46987e41735bcad40"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-52343867befb2bf35148931a",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-citi",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-lly",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-citi-co-lly-service_provider",
+      "rule_version": "798ae11ea843679a0f9f98bc93bd4f0629c34d940b4f527215ae81b25ae47fd2",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-16dd5b3ee6564cfd046b7abb",
+        "evidence-a11ae6d442416a9300c46480"
+      ],
+      "geography": "",
+      "headline": "POINTの放射性医薬品事業取得",
+      "products": [
+        "放射性医薬品",
+        "radioligand therapies"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "研究・製造基盤の取得対象"
+    },
+    "deal_ids": [
+      "deal-16dd5b3ee6564cfd046b7abb"
+    ],
+    "description": "Lillyが2023年12月にPOINT全株式を取得。がん向け放射性医薬品の探索・開発・製造基盤と治療候補を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-16dd5b3ee6564cfd046b7abb",
+      "evidence-a11ae6d442416a9300c46480"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-16dd5b3ee6564cfd046b7abb"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-611a74a80ca6b2ecc6ff4ef2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2026-02-12",
+    "target_company_id": "co-point",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7ef82b328009ca1f95a8f29d": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-lly-co-point-acquisition",
+      "rule_version": "70961bdd49e5b822d240d456ebd46d32da246c17d694336a890a17719c090801",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  {
+    "business": {
+      "evidence_ids": [
+        "evidence-81ae09aba458dd6c8c0b696a",
+        "evidence-117c437a26bd4533bc4f6384"
+      ],
+      "geography": "",
+      "headline": "2024年追加転換債投資",
+      "products": [
+        "Anthropic転換債"
+      ],
+      "scale": "",
+      "source_role": "転換債の投資者",
+      "target_role": "資金調達先"
+    },
+    "deal_ids": [
+      "deal-4a437f2b0d402a48e90b384b"
+    ],
+    "description": "Amazonの2024年第4四半期のAnthropic向け追加転換債投資は13億USD実行済み、別途27億USDを2025年第4四半期までに投資する予定と2024年10-Kで開示。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-81ae09aba458dd6c8c0b696a",
+      "evidence-117c437a26bd4533bc4f6384"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-26T08:16:15+00:00",
+    "latest_event_ids": [
+      "event-54bbeedb3727eb6d9541c233"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2024-12-31",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1f424e73af90b5c10b8d746e": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-amazon-anthropic-2024-correction",
+      "rule_version": "59e4d885a981230f414f00e093f294ed35c1f1a877ea0320579da537075f0e77",
+      "verified_at": "2026-09-26T08:16:15+00:00"
     }
   }
 ]

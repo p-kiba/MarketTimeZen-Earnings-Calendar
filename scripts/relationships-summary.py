@@ -6,6 +6,9 @@ round_state=json.loads(round_path.read_text()) if round_path.exists() else {}
 summary='## Company connections\n\nPublication: '+os.getenv('EXPORT_OUTCOME','not run')+'\n\n'
 summary+='Collection never approves or exports candidates. Run the separate reviewed-release workflow after reviewing primary evidence.\n\n'
 summary+='New candidates: '+str(len(round_state.get('new_candidate_ids',[])))+'\n\n'
+changes=round_state.get('extraction',{}).get('discovery',{}).get('changes',{})
+summary+='Private review hints (not confirmed changes): '+json.dumps(changes.get('counts',{}),ensure_ascii=False)+'\n\n'
+summary+='Public map pointer unchanged: '+str(round_state.get('public_pointer_unchanged','unknown'))+'\n\n'
 errors=state.get('last_run',{}).get('errors',[])
 if errors and os.getenv('GITHUB_ACTIONS'):print('::warning::Relationship collection has '+str(len(errors))+' partial errors; inspect the review artifact and collection state.')
 summary+='Last collection (partial failures are retained):\n```json\n'+json.dumps(state.get('last_run'),ensure_ascii=False,indent=2)+'\n```\n'
