@@ -698,5 +698,26 @@
     "human_reviewed": false,
     "rule_id": "healthcare-02-20260926-r20",
     "source_id": "source-1103bb84dc36b92cb2910635"
+  },
+  {
+    "assertions_hash": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "merged-20260926-r5",
+    "source_id": "source-eab067a18e0e1794661ea682"
+  },
+  {
+    "assertions_hash": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "merged-20260926-r7",
+    "source_id": "source-4d08885b5e1f2deb3c11df59"
+  },
+  {
+    "assertions_hash": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+    "claims": 1,
+    "human_reviewed": false,
+    "rule_id": "merged-20260926-r27",
+    "source_id": "source-24de5433f9acf7cca7257afb"
   }
 ]

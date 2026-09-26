@@ -1,0 +1,132 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-point",
+      "country": null,
+      "display_name": "POINT Biopharma Global Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-point",
+    "country": null,
+    "display_name": "POINT Biopharma Global Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7636efe7c05281238905135c",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-542 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-16dd5b3ee6564cfd046b7abb",
+            "evidence-a11ae6d442416a9300c46480"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 1.0 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "approximately",
+          "scope": "取得現金控除後の概算現金対価。グロスの総取得対価ではない。",
+          "value": "1000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-16dd5b3ee6564cfd046b7abb",
+          "evidence-a11ae6d442416a9300c46480"
+        ],
+        "geography": "",
+        "headline": "POINTの放射性医薬品事業取得",
+        "products": [
+          "放射性医薬品",
+          "radioligand therapies"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "研究・製造基盤の取得対象"
+      },
+      "description": "Lillyが2023年12月にPOINT全株式を取得。がん向け放射性医薬品の探索・開発・製造基盤と治療候補を取得。",
+      "direction": "directed",
+      "event_date": "2026-02-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-611a74a80ca6b2ecc6ff4ef2",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2026-02-12",
+      "target_company_id": "co-point",
+      "tier": null,
+      "tier_reasons": [
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-02-12"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

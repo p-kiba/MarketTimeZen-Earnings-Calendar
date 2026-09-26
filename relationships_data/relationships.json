@@ -12265,5 +12265,101 @@
       "rule_version": "2e99012656efb9c3674a486119fd687e0468e8f612efbb0988a5037852a521f9",
       "verified_at": "2026-09-26T12:07:29+00:00"
     }
+  },
+  {
+    "deal_ids": [
+      "deal-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T12:38:30+00:00",
+    "latest_event_ids": [
+      "event-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-832328c6401f9ce728708a8c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-11-15",
+    "target_company_id": "co-semsysco",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r5",
+      "rule_version": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-b0981d12ef454e412cb28435"
+    ],
+    "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b0981d12ef454e412cb28435"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T12:38:30+00:00",
+    "latest_event_ids": [
+      "event-b0981d12ef454e412cb28435"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-2e9c5666585943783841c695",
+    "relationship_type": "supplier",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-06-14",
+    "target_company_id": "co-sk-hynix",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r7",
+      "rule_version": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
+  },
+  {
+    "deal_ids": [
+      "deal-78eee7f5d229fac3f9365c3a"
+    ],
+    "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-78eee7f5d229fac3f9365c3a"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T12:38:30+00:00",
+    "latest_event_ids": [
+      "event-78eee7f5d229fac3f9365c3a"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-d6862887c33e0533897cf789",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2024-10-23",
+    "target_company_id": "co-l3harris",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r27",
+      "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
   }
 ]

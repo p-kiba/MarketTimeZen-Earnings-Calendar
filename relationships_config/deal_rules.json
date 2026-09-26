@@ -2814,6 +2814,131 @@
         "source_id": "source-1103bb84dc36b92cb2910635",
         "url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva"
       }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-lam-research",
+        "country": null,
+        "display_name": "Lam Research Corp.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Lam Research Corp.",
+        "block_hash": "1fac3227da55c21f8ff59dc802192d1a70c7a234e06c6e59c75060284f0367df",
+        "content_hash": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d",
+        "locator": "p:7",
+        "source_id": "source-eab067a18e0e1794661ea682",
+        "url": "https://newsroom.lamresearch.com/2022-11-15-Lam-Research-Acquires-SEMSYSCO-to-Advance-Chip-Packaging"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-semsysco",
+        "country": null,
+        "display_name": "SEMSYSCO GmbH",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "SEMSYSCO GmbH",
+        "block_hash": "1fac3227da55c21f8ff59dc802192d1a70c7a234e06c6e59c75060284f0367df",
+        "content_hash": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d",
+        "locator": "p:7",
+        "source_id": "source-eab067a18e0e1794661ea682",
+        "url": "https://newsroom.lamresearch.com/2022-11-15-Lam-Research-Acquires-SEMSYSCO-to-Advance-Chip-Packaging"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-sk-hynix",
+        "country": null,
+        "display_name": "SK hynix Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "SK hynix Inc.",
+        "block_hash": "d5499806ff25c65ef2939f3fc16432494585ee35e397b2cc5743a80337945f80",
+        "content_hash": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc",
+        "locator": "p:7",
+        "source_id": "source-4d08885b5e1f2deb3c11df59",
+        "url": "https://newsroom.lamresearch.com/2022-06-14-Lam-Research-Teams-Up-with-SK-hynix-to-Enhance-DRAM-Production-Cost-Efficiency-with-Breakthrough-Dry-Resist-EUV-Technology"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-palantir",
+        "country": null,
+        "display_name": "Palantir Technologies Inc.",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "Palantir Technologies Inc.",
+        "block_hash": "b64286aaaeafeca3e6431cd53a0d6171bde5383ba4bb55b390426b6606af398b",
+        "content_hash": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912",
+        "locator": "p:13",
+        "source_id": "source-24de5433f9acf7cca7257afb",
+        "url": "https://www.l3harris.com/newsroom/press-release/2024/10/l3harris-and-palantir-announce-strategic-partnership"
+      }
+    },
+    {
+      "company": {
+        "aliases": [],
+        "cik": null,
+        "company_id": "co-l3harris",
+        "country": null,
+        "display_name": "L3Harris Technologies",
+        "entity_status": "resolved",
+        "legal_name": null,
+        "listing_status": "unknown",
+        "listing_status_as_of": null,
+        "listing_status_source": null,
+        "listings": [],
+        "merged_into": null,
+        "universe_memberships": []
+      },
+      "identity_proof": {
+        "anchor": "L3Harris Technologies",
+        "block_hash": "b64286aaaeafeca3e6431cd53a0d6171bde5383ba4bb55b390426b6606af398b",
+        "content_hash": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912",
+        "locator": "p:13",
+        "source_id": "source-24de5433f9acf7cca7257afb",
+        "url": "https://www.l3harris.com/newsroom/press-release/2024/10/l3harris-and-palantir-announce-strategic-partnership"
+      }
     }
   ],
   "rules": [
@@ -12440,6 +12565,120 @@
       },
       "rule_id": "healthcare-02-20260926-r20",
       "visible_date": "2020-03-31"
+    },
+    {
+      "assertions_hash": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
+      "claims": [
+        {
+          "amount_disclosure": "explicitly_undisclosed",
+          "amounts": [],
+          "block_hash": "1fac3227da55c21f8ff59dc802192d1a70c7a234e06c6e59c75060284f0367df",
+          "conditions": "買収対価は公式発表で非開示。",
+          "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+          "direction": "directed",
+          "event_type": "acquisition_closed",
+          "excerpt": "completed the acquisition of SEMSYSCO GmbH",
+          "key": "co-lam-research-co-semsysco-r5",
+          "locator": "p:7",
+          "parties": {
+            "co-lam-research": "Lam Research Corp.",
+            "co-semsysco": "SEMSYSCO GmbH"
+          },
+          "relationship_type": "acquisition",
+          "section": "Official company disclosure",
+          "source_company_id": "co-lam-research",
+          "status": "completed",
+          "target_company_id": "co-semsysco"
+        }
+      ],
+      "date": "2022-11-15",
+      "evaluation_note": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "proof": {
+        "anchor": "completed the acquisition of SEMSYSCO GmbH",
+        "block_hash": "1fac3227da55c21f8ff59dc802192d1a70c7a234e06c6e59c75060284f0367df",
+        "content_hash": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d",
+        "locator": "p:7",
+        "source_id": "source-eab067a18e0e1794661ea682",
+        "url": "https://newsroom.lamresearch.com/2022-11-15-Lam-Research-Acquires-SEMSYSCO-to-Advance-Chip-Packaging"
+      },
+      "rule_id": "merged-20260926-r5",
+      "visible_date": "2022-11-15"
+    },
+    {
+      "assertions_hash": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "d5499806ff25c65ef2939f3fc16432494585ee35e397b2cc5743a80337945f80",
+          "conditions": "公式発表には契約金額や購入数量の記載なし。",
+          "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+          "direction": "directed",
+          "event_type": "newly_indexed",
+          "excerpt": "selected Lam's innovative dry resist fabrication technology as a development tool of record",
+          "key": "co-lam-research-co-sk-hynix-r7",
+          "locator": "p:7",
+          "parties": {
+            "co-lam-research": "Lam Research",
+            "co-sk-hynix": "SK hynix Inc."
+          },
+          "relationship_type": "supplier",
+          "section": "Official company disclosure",
+          "source_company_id": "co-lam-research",
+          "status": "active",
+          "target_company_id": "co-sk-hynix"
+        }
+      ],
+      "date": "2022-06-14",
+      "evaluation_note": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "proof": {
+        "anchor": "selected Lam's innovative dry resist fabrication technology as a development tool of record",
+        "block_hash": "d5499806ff25c65ef2939f3fc16432494585ee35e397b2cc5743a80337945f80",
+        "content_hash": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc",
+        "locator": "p:7",
+        "source_id": "source-4d08885b5e1f2deb3c11df59",
+        "url": "https://newsroom.lamresearch.com/2022-06-14-Lam-Research-Teams-Up-with-SK-hynix-to-Enhance-DRAM-Production-Cost-Efficiency-with-Breakthrough-Dry-Resist-EUV-Technology"
+      },
+      "rule_id": "merged-20260926-r7",
+      "visible_date": "2022-06-14"
+    },
+    {
+      "assertions_hash": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+      "claims": [
+        {
+          "amount_disclosure": "not_stated_in_source",
+          "amounts": [],
+          "block_hash": "f7c6ee6f3109e422434573e18b726b6cf73315a44b76a8a65cc032491f1599d3",
+          "conditions": "発表時点で複数の進行中施策を記載。二社間金額と契約期間は当該発表に記載なし。",
+          "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+          "direction": "undirected",
+          "event_type": "new_agreement",
+          "excerpt": "L3Harris and Palantir’s strategic partnership encompasses a variety of ongoing initiatives",
+          "key": "co-palantir-co-l3harris-r27",
+          "locator": "p:17",
+          "parties": {
+            "co-l3harris": "L3Harris",
+            "co-palantir": "Palantir"
+          },
+          "relationship_type": "partnership",
+          "section": "Official company disclosure",
+          "source_company_id": "co-palantir",
+          "status": "active",
+          "target_company_id": "co-l3harris"
+        }
+      ],
+      "date": "2024-10-23",
+      "evaluation_note": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "proof": {
+        "anchor": "L3Harris and Palantir’s strategic partnership encompasses a variety of ongoing initiatives",
+        "block_hash": "f7c6ee6f3109e422434573e18b726b6cf73315a44b76a8a65cc032491f1599d3",
+        "content_hash": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912",
+        "locator": "p:17",
+        "source_id": "source-24de5433f9acf7cca7257afb",
+        "url": "https://www.l3harris.com/newsroom/press-release/2024/10/l3harris-and-palantir-announce-strategic-partnership"
+      },
+      "rule_id": "merged-20260926-r27",
+      "visible_date": "2024-10-23"
     }
   ]
 }

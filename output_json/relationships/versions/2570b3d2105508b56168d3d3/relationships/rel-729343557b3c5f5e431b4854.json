@@ -1,0 +1,198 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "複数の長期契約。原文は2031年までと記載するが月日・契約額を開示していない。",
+      "deal_id": "deal-e70fb1abda4ee3eb0021abe4",
+      "detected_at": "2026-09-26T05:23:02+00:00",
+      "effective_date": null,
+      "event_id": "event-e70fb1abda4ee3eb0021abe4",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e70fb1abda4ee3eb0021abe4"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e70fb1abda4ee3eb0021abe4"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-06",
+      "relationship_ids": [
+        "rel-729343557b3c5f5e431b4854"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-fb740c13b0c1090f4abfbb08": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-fb740c13b0c1090f4abfbb08",
+        "rule_version": "e4d2b191c7a0f7753fecb8d96cffd45709ca1e54de5493440f56ad154c96c591",
+        "verified_at": "2026-09-26T05:23:02+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-e70fb1abda4ee3eb0021abe4",
+      "excerpt": "custom ASIC",
+      "locator": "p:37",
+      "normalized_text_hash": "fb7eb0736aec6b6b5e5dc3fa61cdc804ad4765ea194fd79903c22aab910d55e0",
+      "section": "Official disclosure: business context",
+      "source_id": "source-fb740c13b0c1090f4abfbb08",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-e70fb1abda4ee3eb0021abe4"
+      ],
+      "geography": "",
+      "headline": "2031年までのカスタムASIC開発・供給",
+      "products": [
+        "カスタムASIC"
+      ],
+      "scale": "2031年まで（具体的な満了日なし）",
+      "source_role": "設計・供給",
+      "target_role": "製品への採用"
+    },
+    "deal_ids": [
+      "deal-e70fb1abda4ee3eb0021abe4"
+    ],
+    "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e70fb1abda4ee3eb0021abe4"
+    ],
+    "first_observed_at": "2026-09-26T05:23:02+00:00",
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "latest_event_ids": [
+      "event-e70fb1abda4ee3eb0021abe4"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-729343557b3c5f5e431b4854",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-07-06",
+    "target_company_id": "co-aapl",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-fb740c13b0c1090f4abfbb08": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-fb740c13b0c1090f4abfbb08",
+      "rule_version": "e4d2b191c7a0f7753fecb8d96cffd45709ca1e54de5493440f56ad154c96c591",
+      "verified_at": "2026-09-26T05:23:02+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-26-295589",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "content_hash": "e54e74467119139f724be60a47096bc690ffcabe23233ac7287f0fc60be3b5de",
+      "date_precision": "day",
+      "extraction_version": "rules-1.6",
+      "filed_date": "2026-07-06",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T07:16:24+00:00",
+      "source_id": "source-fb740c13b0c1090f4abfbb08",
+      "source_type": "sec_filing",
+      "title": "8-K"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-e70fb1abda4ee3eb0021abe4"
+      ],
+      "geography": "",
+      "headline": "2031年までのカスタムASIC開発・供給",
+      "products": [
+        "カスタムASIC"
+      ],
+      "scale": "2031年まで（具体的な満了日なし）",
+      "source_role": "設計・供給",
+      "target_role": "製品への採用"
+    },
+    "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+    "direction": "undirected",
+    "event_date": "2026-07-06",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:02+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-729343557b3c5f5e431b4854",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2026-07-06",
+    "target_company_id": "co-aapl",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

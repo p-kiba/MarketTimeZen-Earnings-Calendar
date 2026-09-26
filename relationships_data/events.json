@@ -33314,5 +33314,242 @@
       "rule_version": "2e99012656efb9c3674a486119fd687e0468e8f612efbb0988a5037852a521f9",
       "verified_at": "2026-09-26T12:07:29+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "explicitly_undisclosed",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-11-15",
+    "conditions": "買収対価は公式発表で非開示。",
+    "deal_id": "deal-3dc68c7a1114fdd7b71b4a84",
+    "detected_at": "2026-09-26T12:38:30+00:00",
+    "effective_date": null,
+    "event_id": "event-3dc68c7a1114fdd7b71b4a84",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-3dc68c7a1114fdd7b71b4a84"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-832328c6401f9ce728708a8c"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r5",
+      "rule_version": "eb0d7ddd0fea95525f3a821f78a0575830fba881bc1776e7e3e51f9ed0bda014",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2022-06-14",
+    "conditions": "公式発表には契約金額や購入数量の記載なし。",
+    "deal_id": "deal-b0981d12ef454e412cb28435",
+    "detected_at": "2026-09-26T12:38:30+00:00",
+    "effective_date": null,
+    "event_id": "event-b0981d12ef454e412cb28435",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-b0981d12ef454e412cb28435"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b0981d12ef454e412cb28435"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-2e9c5666585943783841c695"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r7",
+      "rule_version": "f5ccd2ced669351ee2140b4db7e23db0daf7017c73d4666f15363e3d84acee44",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": "2024-10-23",
+    "conditions": "発表時点で複数の進行中施策を記載。二社間金額と契約期間は当該発表に記載なし。",
+    "deal_id": "deal-78eee7f5d229fac3f9365c3a",
+    "detected_at": "2026-09-26T12:38:30+00:00",
+    "effective_date": null,
+    "event_id": "event-78eee7f5d229fac3f9365c3a",
+    "event_type": "new_agreement",
+    "evidence_ids": [
+      "evidence-78eee7f5d229fac3f9365c3a"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-78eee7f5d229fac3f9365c3a"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-d6862887c33e0533897cf789"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r27",
+      "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
   }
 ]

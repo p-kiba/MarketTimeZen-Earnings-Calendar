@@ -1,0 +1,194 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "explicitly_undisclosed",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2021-09-02",
+      "conditions": "一次資料はFinancial terms were not disclosedと明示している。",
+      "deal_id": "deal-04b8155915c3d0015f9d3280",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": "2021-09-02",
+      "event_id": "event-04b8155915c3d0015f9d3280",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-04b8155915c3d0015f9d3280"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-04b8155915c3d0015f9d3280"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-830d6527bd1fb588988f5343"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-babd0cc235d57a864e61e971": "178b938694c62ad3bc175c7fc28e6e42670a6aae7d53d4860902607343701cea"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r3",
+        "rule_version": "3bcf8226ab1012d998a6e299a9ae2f8ba9e0dc64acdb3ad566c37e4ca256133b",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-04b8155915c3d0015f9d3280",
+      "excerpt": "acquired",
+      "locator": "p:21",
+      "normalized_text_hash": "4db626655b69c52ee06ac9c20a3932143aab12a192bc3c012eb5b1c48c843530",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-babd0cc235d57a864e61e971",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-04b8155915c3d0015f9d3280"
+      ],
+      "geography": "",
+      "headline": "末梢血栓除去システムの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-04b8155915c3d0015f9d3280"
+    ],
+    "description": "AbbottはWalk Vascularを買収し、末梢血栓を除去する低侵襲の機械的吸引血栓除去システムを既存の血管内治療ポートフォリオへ組み込んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-04b8155915c3d0015f9d3280"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-04b8155915c3d0015f9d3280"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-830d6527bd1fb588988f5343",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abt",
+    "status_as_of": "2021-09-02",
+    "target_company_id": "co-walk-vascular",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-babd0cc235d57a864e61e971": "178b938694c62ad3bc175c7fc28e6e42670a6aae7d53d4860902607343701cea"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r3",
+      "rule_version": "3bcf8226ab1012d998a6e299a9ae2f8ba9e0dc64acdb3ad566c37e4ca256133b",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://abbott.mediaroom.com/2021-09-02-Abbott-Expands-Peripheral-Vascular-Offerings-with-Acquisition-of-Walk-Vascular,-LLC",
+      "content_hash": "178b938694c62ad3bc175c7fc28e6e42670a6aae7d53d4860902607343701cea",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-09-02",
+      "publisher": "Abbott",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-babd0cc235d57a864e61e971",
+      "source_type": "official_newsroom",
+      "title": "Abbott Expands Peripheral Vascular Offerings with Acquisition of Walk Vascular, LLC - Sep 2, 2021"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-04b8155915c3d0015f9d3280"
+      ],
+      "geography": "",
+      "headline": "末梢血栓除去システムの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "AbbottはWalk Vascularを買収し、末梢血栓を除去する低侵襲の機械的吸引血栓除去システムを既存の血管内治療ポートフォリオへ組み込んだ。",
+    "direction": "directed",
+    "event_date": "2021-09-02",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-830d6527bd1fb588988f5343",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abt",
+    "status_as_of": "2021-09-02",
+    "target_company_id": "co-walk-vascular",
+    "tier": null,
+    "tier_reasons": [
+      "explicitly_undisclosed"
+    ]
+  }
+}

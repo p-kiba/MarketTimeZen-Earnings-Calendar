@@ -1,0 +1,147 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bosch",
+      "country": null,
+      "display_name": "Bosch",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tsmc",
+      "country": null,
+      "display_name": "TSMC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-bosch",
+    "country": null,
+    "display_name": "Bosch",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-aapl",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-52db33727c36dae4a1c9db96",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-33284e76c221eecfec8e07a0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-03-26"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 1,
+  "total_relationships": 2
+}

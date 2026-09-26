@@ -1,0 +1,138 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vmware",
+      "country": null,
+      "display_name": "VMware",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-vmware",
+    "country": null,
+    "display_name": "VMware",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-d7156390211ae778d048efbf",
+          "amount_kind": "purchase_price",
+          "conditions": "完了済み買収の会計上の取得対価総額。",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "U.S. dollars",
+          "evidence_ids": [
+            "evidence-d34b4ee9f88824615bc20324",
+            "evidence-5d6039153c28f512d7d90dcf",
+            "evidence-9f84f3aa97ab1b71439dc0bc",
+            "evidence-b9af734b05a323259a5d208b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "86,290",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-avgo"
+          ],
+          "qualifier": "exact",
+          "scope": "SEC 2024年10-K注記4の取得対価総額（現金・株式公正価値等、取得現金控除前）。全額現金ではない。",
+          "value": "86290000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-d34b4ee9f88824615bc20324",
+          "evidence-5d6039153c28f512d7d90dcf",
+          "evidence-9f84f3aa97ab1b71439dc0bc",
+          "evidence-b9af734b05a323259a5d208b"
+        ],
+        "geography": "",
+        "headline": "VMware買収の完了",
+        "products": [
+          "VMware事業"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "BroadcomによるVMware買収は2023年11月22日に完了。2024年10-K注記4の取得対価総額は862.90億米ドル。現金と株式公正価値等を含む会計上の総対価で、全額現金支払ではない。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:02+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-fc67e361c4fbb132ed98cd83",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2023-11-22",
+      "target_company_id": "co-vmware",
+      "tier": {
+        "amount_id": "amount-d7156390211ae778d048efbf",
+        "color": "#e34b55",
+        "currency": "USD",
+        "level": 5
+      },
+      "tier_reasons": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-11-22"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

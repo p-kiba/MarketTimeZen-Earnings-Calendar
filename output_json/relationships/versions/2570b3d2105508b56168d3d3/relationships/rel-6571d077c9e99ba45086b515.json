@@ -1,0 +1,308 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-49c13d07c1b80cffbcbf91e5",
+          "amount_kind": "purchase_price",
+          "conditions": "2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$890 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-abt"
+          ],
+          "qualifier": "approximately",
+          "scope": "2023-02-08の契約発表時点の金額。2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。 完了時点の調整後対価は未確認。",
+          "value": "890000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-04-27",
+      "conditions": "2023-02-08発表ではCSI株主に1株20ドル、総予想株式価値約8.9億ドル。 2023-04-27に買収完了しCSIはAbbottの完全子会社となった。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+      "deal_id": "deal-28f5adbca1fb978bc82f70aa",
+      "detected_at": "2026-09-26T12:07:28+00:00",
+      "effective_date": "2023-04-27",
+      "event_id": "event-28f5adbca1fb978bc82f70aa",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-28f5adbca1fb978bc82f70aa",
+        "evidence-a7e67b4067c240967b736dcd",
+        "evidence-add99d10fb6be22f63d161b1"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6571d077c9e99ba45086b515"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-b7fb44f8e84f8b8b2cff5ece": "90fad6ba37e32b494e68d49ab72ac3622dd8f51f1fefae78b8bdd7d47bc4b730",
+          "source-de2d8376ce4b5346e45caf42": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r1",
+        "rule_version": "6444e84250a423b44f5f9929103dea8b8a1610753e85612addbc5feac6f92a02",
+        "verified_at": "2026-09-26T12:07:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-28f5adbca1fb978bc82f70aa",
+      "excerpt": "acquisition",
+      "locator": "p:21",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-de2d8376ce4b5346e45caf42",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a7e67b4067c240967b736dcd",
+      "excerpt": "wholly owned",
+      "locator": "p:24",
+      "normalized_text_hash": "bc796d2409ed966b2414689b40e4dec74a57bbf20b19a25f8b922c2cd0bce91e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-de2d8376ce4b5346e45caf42",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-add99d10fb6be22f63d161b1",
+      "excerpt": "$890 million",
+      "locator": "p:23",
+      "normalized_text_hash": "21f73f3e8ff53fce30735d94caf3b63c813bb88301ab8b1c426d2f830afe1e14",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b7fb44f8e84f8b8b2cff5ece",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-28f5adbca1fb978bc82f70aa",
+        "evidence-a7e67b4067c240967b736dcd",
+        "evidence-add99d10fb6be22f63d161b1"
+      ],
+      "geography": "",
+      "headline": "血管治療用アテレクトミー技術の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-28f5adbca1fb978bc82f70aa"
+    ],
+    "description": "AbbottはCardiovascular Systems, Inc.（CSI）を買収し、末梢・冠動脈疾患向けアテレクトミー技術をAbbottの血管治療ポートフォリオへ追加した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-28f5adbca1fb978bc82f70aa",
+      "evidence-a7e67b4067c240967b736dcd",
+      "evidence-add99d10fb6be22f63d161b1"
+    ],
+    "first_observed_at": "2026-09-26T12:07:28+00:00",
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "latest_event_ids": [
+      "event-28f5adbca1fb978bc82f70aa"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6571d077c9e99ba45086b515",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abt",
+    "status_as_of": "2023-04-27",
+    "target_company_id": "co-csi",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-b7fb44f8e84f8b8b2cff5ece": "90fad6ba37e32b494e68d49ab72ac3622dd8f51f1fefae78b8bdd7d47bc4b730",
+        "source-de2d8376ce4b5346e45caf42": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r1",
+      "rule_version": "6444e84250a423b44f5f9929103dea8b8a1610753e85612addbc5feac6f92a02",
+      "verified_at": "2026-09-26T12:07:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://abbott.mediaroom.com/2023-02-08-Abbott-to-Acquire-Cardiovascular-Systems,-Inc",
+      "content_hash": "90fad6ba37e32b494e68d49ab72ac3622dd8f51f1fefae78b8bdd7d47bc4b730",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-02-08",
+      "publisher": "Abbott",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-b7fb44f8e84f8b8b2cff5ece",
+      "source_type": "official_newsroom",
+      "title": "Abbott to Acquire Cardiovascular Systems, Inc. - Feb 8, 2023"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+      "content_hash": "77ddc4c4986ef6d29cb0f464d305d11d977427582b749563cb19f1f18f5d7da1",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-04-27",
+      "publisher": "Abbott",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-de2d8376ce4b5346e45caf42",
+      "source_type": "official_newsroom",
+      "title": "Abbott Completes Acquisition of Cardiovascular Systems, Inc. - Apr 27, 2023"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-49c13d07c1b80cffbcbf91e5",
+        "amount_kind": "purchase_price",
+        "conditions": "2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-28f5adbca1fb978bc82f70aa",
+          "evidence-a7e67b4067c240967b736dcd",
+          "evidence-add99d10fb6be22f63d161b1"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$890 million",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-abt"
+        ],
+        "qualifier": "approximately",
+        "scope": "2023-02-08の契約発表時点の金額。2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。 完了時点の調整後対価は未確認。",
+        "value": "890000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-28f5adbca1fb978bc82f70aa",
+        "evidence-a7e67b4067c240967b736dcd",
+        "evidence-add99d10fb6be22f63d161b1"
+      ],
+      "geography": "",
+      "headline": "血管治療用アテレクトミー技術の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "AbbottはCardiovascular Systems, Inc.（CSI）を買収し、末梢・冠動脈疾患向けアテレクトミー技術をAbbottの血管治療ポートフォリオへ追加した。",
+    "direction": "directed",
+    "event_date": "2023-04-27",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6571d077c9e99ba45086b515",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abt",
+    "status_as_of": "2023-04-27",
+    "target_company_id": "co-csi",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

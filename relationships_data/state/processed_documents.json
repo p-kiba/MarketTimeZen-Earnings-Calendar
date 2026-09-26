@@ -1443,6 +1443,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028222/form424b2.htm"
     },
+    "source-24de5433f9acf7cca7257afb": {
+      "content_hash": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "L3Harris Technologies",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.l3harris.com/newsroom/press-release/2024/10/l3harris-and-palantir-announce-strategic-partnership"
+    },
     "source-2579a373e559a7d692ac2294": {
       "meta": {
         "accession_number": "0001213900-26-103047",
@@ -2925,6 +2937,18 @@
       },
       "status": "parsed",
       "url": "https://openai.com/index/gpt-6-astra/"
+    },
+    "source-4d08885b5e1f2deb3c11df59": {
+      "content_hash": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Lam Research Corporation",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.lamresearch.com/2022-06-14-Lam-Research-Teams-Up-with-SK-hynix-to-Enhance-DRAM-Production-Cost-Efficiency-with-Breakthrough-Dry-Resist-EUV-Technology"
     },
     "source-4d38553ad3becc9965529c87": {
       "meta": {
@@ -8878,6 +8902,18 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1835591/000119312524040047/d794432dex21.htm"
+    },
+    "source-eab067a18e0e1794661ea682": {
+      "content_hash": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Lam Research Corporation",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.lamresearch.com/2022-11-15-Lam-Research-Acquires-SEMSYSCO-to-Advance-Chip-Packaging"
     },
     "source-eaff8dc6877996008d7a430b": {
       "meta": {

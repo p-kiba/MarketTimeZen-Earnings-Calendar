@@ -1,0 +1,125 @@
+{
+  "build_id": "2570b3d2105508b56168d3d3",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amedisys",
+      "country": null,
+      "display_name": "Amedisys, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-unh",
+      "country": null,
+      "display_name": "UnitedHealth Group Incorporated",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-02-24",
+      "listing_status_source": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000008/unh-20221231.htm",
+          "symbol": "UNH",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-amedisys",
+    "country": null,
+    "display_name": "Amedisys, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-1df6566dffba1f98bccffa14",
+          "amount_kind": "other",
+          "conditions": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-23f64284d7d92480f8a909b9",
+            "evidence-6131e44229645220a96cdb16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$101 per share in cash",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-unh"
+          ],
+          "qualifier": "exact",
+          "scope": "1株当たりの合併対価。SECインラインXBRL文書でiso4217:USDの通貨単位を確認。取引総額ではない。",
+          "value": "101",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-23f64284d7d92480f8a909b9",
+          "evidence-6131e44229645220a96cdb16"
+        ],
+        "geography": "",
+        "headline": "Amedisysの買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "UnitedHealth GroupはAmedisysを買収し、Amedisysは合併後にUnitedHealth Groupの完全子会社となった。",
+      "direction": "directed",
+      "event_date": "2025-08-14",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:29+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-131011a38d187270d2e6b82c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-unh",
+      "status_as_of": "2025-08-14",
+      "target_company_id": "co-amedisys",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-08-14"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
