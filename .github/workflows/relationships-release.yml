@@ -1,5 +1,8 @@
 name: Release Reviewed Company Relationships
 on:
+  push:
+    paths:
+      - 'relationships_data/review/releases/*.json'
   workflow_dispatch:
     inputs:
       review_id:
@@ -22,9 +25,19 @@ jobs:
           python-version: '3.10'
           cache: pip
       - run: pip install -r requirements-lock.txt
+      - name: Resolve the reviewed receipt for this data
+        id: receipt
+        env:
+          REQUESTED_REVIEW_ID: ${{ inputs.review_id }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = 'push' ]; then
+            echo "review_id=$(PYTHONPATH=. python scripts/current-reviewed-release-id.py)" >> "$GITHUB_OUTPUT"
+          else
+            echo "review_id=$REQUESTED_REVIEW_ID" >> "$GITHUB_OUTPUT"
+          fi
       - name: Release exactly the reviewed records
         env:
-          REVIEW_ID: ${{ inputs.review_id }}
+          REVIEW_ID: ${{ steps.receipt.outputs.review_id }}
         run: python -m relationships_py release-reviewed --review-id "$REVIEW_ID"
       - name: Persist the validated map data
         run: bash scripts/commit-generated.sh output_json/relationships relationships_data/state/last_reviewed_release.json

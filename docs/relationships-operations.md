@@ -1,6 +1,6 @@
 # 企業間マップ：収集・精査・反映の運用
 
-2026-09-26時点。候補収集と確認済みデータの反映を分離しています。最新の結果は [大型企業の追加と新着確認工程](relationships-largecap-update-2026-09-26.md) を参照してください。通常の収集では公開JSONを変更しません。
+候補収集と確認済みデータの反映を分離しています。最新の結果は [大型企業の追加と新着確認工程](relationships-largecap-update-2026-09-26.md) を参照してください。通常の収集では公開JSONを変更しません。
 
 ## 定期収集
 
@@ -57,12 +57,12 @@ SEC添付契約書の一部は `EX-4.4` のように一般の添付収集対象�
   --reviewer '<実際の確認者またはCodex資料限定精査と明記>' \
   --reason '<確認した資料・判断・残した未確認事項>'
 
-# 返されたreview_idをそのまま指定
+# ローカルで公開JSONを生成する場合だけ、返されたreview_idを指定
 .venv/bin/python -m relationships_py release-reviewed --review-id '<release-...>'
 .venv/bin/python scripts/stage-site.py
 ```
 
-`prepare-release` は承認済みデータと根拠資料の内容hashを固定します。`release-reviewed` はその内容が現在のデータと一致する場合だけexportします。候補追加だけなら確認済みデータは変わりません。確認済みデータ・根拠が変更された場合は、精査して新しいreview IDを作成する必要があります。通常の運用で直接 `export` を使って確認記録を省略しないでください。
+`prepare-release` は承認済みデータと根拠資料の内容hashを固定します。確認済みのマスターデータと生成された `relationships_data/review/releases/release-*.json` を既定ブランチへコミットすると、GitHub Actionsが一致するreview IDを特定して `release-reviewed` を実行します。手動でワークフローを起動する必要はありません。`release-reviewed` は内容が現在のデータと一致する場合だけexportします。候補追加だけなら確認済みデータは変わりません。確認済みデータ・根拠が変更された場合は、精査して新しいreview IDを作成する必要があります。通常の運用で直接 `export` を使って確認記録を省略しないでください。
 
 反映前の必須データ整合性確認で、未承認・参照不整合・原文hash不一致・過大な削除・確認待ち上限超過を止めます。これは実データ反映処理の一部で、停止中のテストスイートを実行するものではありません。失敗時は直前の正常buildを維持します。
 
@@ -70,10 +70,10 @@ SEC添付契約書の一部は `EX-4.4` のように一般の添付収集対象�
 
 ## GitHub Actionsへの移行に必要な設定
 
-コードは用意済みですが、今回commit/push・Actions有効化・Secret設定・Pages変更は実施していません。
+コードは用意済みですが、GitHub側のActions有効化・Secret設定・Pages設定と実行履歴は未確認です。このリポジトリをpushするだけでは収集用の有効化変数は設定されません。
 
-- `relationships.yml`：30分ごとの**収集専用**。`RELATIONSHIPS_ENABLED=true` と `SEC_USER_AGENT` Secretが必要です。原文cacheはActions cache、確認待ちレポートは14日保持のartifactへ保存。公開JSONを生成せず、Pagesの起動元にもなりません。
-- `relationships-release.yml`：**手動の確認済み反映専用**。コミットされたreview IDを入力し、内容一致を確認してマップJSONを更新します。承認済みデータ・ルール・レビュー記録を先にレビューし、同じリポジトリ状態へ保存する必要があります。
+- `relationships.yml`：UTC 00:17・12:17（日本時間09:17・21:17）の**12時間ごとの収集専用**。`RELATIONSHIPS_ENABLED=true` と `SEC_USER_AGENT` Secretが必要です。原文cacheはActions cache、確認待ちレポートは14日保持のartifactへ保存。公開JSONを生成せず、Pagesの起動元にもなりません。
+- `relationships-release.yml`：確認済みのrelease receiptが既定ブランチにpushされたら、内容hashが現在のマスターデータと一致する場合だけマップJSONを更新します。手動起動は再実行用に残しています。承認済みデータ・ルール・レビュー記録を先にレビューし、同じリポジトリ状態へ保存する必要があります。
 - `pages.yml`：決算更新と確認済み反映の成功後に起動する構成。収集成功だけでは起動しません。実デプロイは既存の `MTZ_PAGES_ENABLED` とPages設定の別条件です。現時点では有効化していません。
 - 初期のCIテスト処理は削除していません。今回そのworkflow自体を実行していません。
 - GitHub側へ移行するときはローカルの定期収集と二重運用しないでください。リポジトリ設定・CIランナー・夜間の無人実行は未実証です。

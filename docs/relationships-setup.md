@@ -23,7 +23,7 @@ python -m relationships_py review-report
 
 時価総額上位企業を優先調査する場合は `--universe large_cap_focus` を指定できます。この日付付き watchlist は時価総額ランキングをもとにした**収集優先順位**で、指数構成表ではありません。順位・時価総額を製品データとしては保存せず、リストは定期的に見直してください。新規企業はまず SEC submissions でCIKと銘柄を照合します。現状のリストにはMETA、TSLA、AMD、MUなどを追加しました。例えば `python -m relationships_py resolve-universe --universe large_cap_focus` で企業IDを登録し、`python -m relationships_py collect --mode backfill --months 24 --universe large_cap_focus` で開示を収集します。`SEC_USER_AGENT` に実在の運用連絡先を設定する必要があります。
 
-GitHub Actions は有効化後、pilotとlarge_cap_focusを連続してSECと公式IRから収集します。`SEC_USER_AGENT` secretに実在の運用連絡先が必要です。手動運用は `collect --mode incremental --universe pilot` または `large_cap_focus`。初回のincrementalは7日重複窓で、24か月の初回履歴取得にはbackfillを明示します。SECの履歴ファイル、改訂提出、EX-10/21/99の添付一覧を読みます。Exhibit 21の記載から直接親子関係を自動推定しません。1回の原文取得40件・添付15件/提出、添付一覧40件まで。残りはgit管理stateのキューに保持します。SEC全ホスト共通2req/s、複数プロセス共通ロック、Actions全体の直列化を併用します。**他のマシンや外部システムから同じ連絡先で走るジョブはこのロックの対象外**です。
+GitHub Actions は有効化後、12時間ごとにlarge_cap_focusのSECと公式IRから候補を収集します。`SEC_USER_AGENT` secretに実在の運用連絡先が必要です。手動運用は `collect --mode incremental --universe pilot` または `large_cap_focus`。初回のincrementalは7日重複窓で、24か月の初回履歴取得にはbackfillを明示します。SECの履歴ファイル、改訂提出、EX-10/21/99の添付一覧を読みます。Exhibit 21の記載から直接親子関係を自動推定しません。1回の原文取得40件・添付15件/提出、添付一覧40件まで。残りはgit管理stateのキューに保持します。SEC全ホスト共通2req/s、複数プロセス共通ロック、Actions全体の直列化を併用します。**他のマシンや外部システムから同じ連絡先で走るジョブはこのロックの対象外**です。
 
 公式IRは `official_sources.json` に許可ホスト、parser_type、RSS/Atom URLまたは一覧URLとCSS selector、確認日、利用メモ、取得間隔を設定します。ホスト外リダイレクト、内部IP、巨大応答、ブロック画面は拒否。robots.txtを取得し、禁止・取得失敗なら保留します。公開前に権利者の利用条件も運用者が確認してください。今回の `usage_note` は公開情報と短い引用に限定する収集方針で、法的適合性の承認記録ではありません。
 
@@ -67,11 +67,12 @@ python scripts/stage-site.py
 
 ## Actions / Pages（初期無効）
 
-- `relationships.yml`：UTC17/47分、`RELATIONSHIPS_ENABLED=true` のときだけ既定ブランチで稼働。公開への承認処理は実行しません。SEC_USER_AGENT Secretが必要。IRだけ取得できた場合もSEC未設定が結果に残ります。
+- `relationships.yml`：UTC 00:17・12:17、`RELATIONSHIPS_ENABLED=true` のときだけ既定ブランチで稼働。公開への承認処理は実行しません。SEC_USER_AGENT Secretが必要。IRだけ取得できた場合もSEC未設定が結果に残ります。
+- `relationships-release.yml`：確認済みのrelease receiptを既定ブランチへpushすると、現在のデータと内容hashが一致する場合だけ公開JSONを生成します。手動起動は再実行用です。
 - `update.yml`：既存の決算更新。共通のgit保存スクリプトを使い、ステージ対象を限定。remote HEADが進んでいたら自動rebaseせず失敗し、最新版から再実行します。
 - `pages.yml`：唯一の公開所有者。決算更新と確認済み反映workflowの正常終了を `workflow_run` で明示的に接続し、ロック取得後に既定ブランチの最新状態をcheckoutします。GITHUB_TOKENのpushが別workflowを起動すると仮定しません。手動では既定でartifact生成のみです。
 - 実デプロイには `MTZ_PAGES_ENABLED=true` と、手動なら `deploy=true` が必要。Pages SourceをGitHub Actionsに切り替え、github-pages環境保護を設定する作業は未実施です。現在のbranch公開と二重運用しないでください。
-- 収集・確認済み反映・決算更新・Pagesの4workflowは既存と同じconcurrency groupを共有。schedule遅延やpending runの置換があり、30分以内の検出・公開保証ではありません。別のローカル処理も同時にデータを書かないでください。
+- 収集・確認済み反映・決算更新・Pagesの4workflowは既存と同じconcurrency groupを共有。schedule遅延やpending runの置換、確認待ちがあるため、12時間ごとの収集も公開時刻の保証にはなりません。別のローカル処理も同時にデータを書かないでください。
 
 Legacy Jekyll branch公開向けの `_config.yml` に候補等のexcludeを追加しましたが、`.nojekyll`を使う既存設定が別に存在する場合は無効です。**候補を配信しないallowlist artifactへの移行確認を公開前の条件**にしています。実際のGitHub設定を確認せず、この変更をpushしないでください。
 
