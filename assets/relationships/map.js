@@ -1,15 +1,16 @@
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=8333db3bc04d';
-import {dealRows} from './deals.js?v=8333db3bc04d';
-import {nodePositions,fanPositions,edgeBend} from './layout.js?v=8333db3bc04d';
-import {DataClient} from './data-client.js?v=8333db3bc04d';
-import {CompanyView} from './company-view.js?v=8333db3bc04d';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=8333db3bc04d';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=8333db3bc04d';
-import {dictionary} from './i18n.js?v=8333db3bc04d';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=d8580e9120d7';
+import {dealRows} from './deals.js?v=d8580e9120d7';
+import {graphPositions,edgeBend} from './layout.js?v=d8580e9120d7';
+import {DataClient} from './data-client.js?v=d8580e9120d7';
+import {CompanyView} from './company-view.js?v=d8580e9120d7';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=d8580e9120d7';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=d8580e9120d7';
+import {dictionary} from './i18n.js?v=d8580e9120d7';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
 let neighborhoods=new Map(), collapsedGroups=new Set();
+let layoutCenter=null,layoutKey='',layoutPositions=new Map();
 let companies=new Map(), relationships=new Map(), expanded=new Set(), earningsPromise, dealPageSize=20;
 const $=id=>document.getElementById(id), t=key=>dictionary[state.lang][key]||key;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -62,6 +63,18 @@ function translate(){
   bands().forEach((band,i)=>{const span=el('span',band,'mtz-band');span.style.setProperty('--band-color',colors[i]);legend.append(span);});legend.append(el('span',t('unrated'),'mtz-unrated'));legend.append(el('p',t('colorPolicy'),'muted')); 
 }
 function fitView(){if(!cy)return;cy.resize();cy.fit(undefined,45);if(cy.zoom()>1.25){cy.zoom(1.25);cy.center();}}
+function rememberPositions(){
+  if(cy&&layoutCenter===state.company)cy.nodes().forEach(n=>layoutPositions.set(n.id(),{...n.position()}));
+}
+function rerouteEdges(){
+  if(!cy)return;
+  rememberPositions();
+  const positions=cy.nodes().map(n=>n.position()),byId=new Map(cy.nodes().map((n,i)=>[n.id(),positions[i]]));
+  cy.batch(()=>cy.edges().forEach(edge=>{
+    const a=byId.get(edge.source().id()),b=byId.get(edge.target().id()),vertical=Math.abs(a.y-b.y)>Math.abs(a.x-b.x);
+    edge.data({bend:edgeBend(a,b,positions),labelX:vertical?45:0,labelY:vertical?0:-34});
+  }));
+}
 // Selection belongs to the company, so rebuilding the graph keeps its emphasis.
 function highlightCompany(){
   if(!cy)return;
@@ -154,16 +167,25 @@ function render(){
   if(rels.length>pageSize)$('mtz-list').append(button(t('more'),()=>{pageSize+=30;render();}));
   if(state.view==='list')return;
   if(!window.cytoscape){message(t('failed'),true);state.view='list';render();return;}
-  const positions=(expanded.size===1?fanPositions:nodePositions)(shown.length,$('mtz-graph').clientWidth,$('mtz-graph').clientHeight);
+  const begin=performance.now();
+  rememberPositions();
+  if(layoutCenter!==state.company){layoutPositions=new Map();layoutKey='';layoutCenter=state.company;}
+  const topology=[...new Set(visibleRows.map(r=>[r.source_company_id,r.target_company_id].sort().join('|')))].sort();
+  const nextLayoutKey=JSON.stringify([[...shown].sort(),topology]);
+  const positions=layoutKey===nextLayoutKey&&shown.every(id=>layoutPositions.has(id))
+    ?shown.map(id=>({...layoutPositions.get(id)}))
+    :graphPositions(shown,visibleRows,$('mtz-graph').clientWidth,$('mtz-graph').clientHeight,state.company,layoutPositions);
+  layoutKey=nextLayoutKey;shown.forEach((id,i)=>layoutPositions.set(id,{...positions[i]}));
   const nodes=shown.map((id,i)=>({data:{id,label:name(id),favorite:!!fav(id),logo:logo(companies.get(id)),center:id===state.company},position:positions[i]}));
   const positionById=new Map(shown.map((id,i)=>[id,positions[i]]));
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
   const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),vertical=Math.abs(a.y-b.y)>Math.abs(a.x-b.x);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:multi?'#68758a':r.tier?.color||'#68758a',bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:multi||r.direction==='undirected'?'none':'triangle',label:multi?`${rows.length} ${t('relations')}\n${[...new Set(rows.map(row=>row.business?.headline||t(row.relationship_type)))].join('\n')}`:(r.business?.headline||t(r.relationship_type)),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',labelX:vertical?45:0,labelY:vertical?0:-34}};});
-  cy?.destroy();const begin=performance.now();
+  cy?.destroy();
   cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],layout:{name:'preset',fit:true,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9','border-width':3,'border-color':'#31343c'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','line-style':'data(line)','arrow-scale':.8,'opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?rated]',style:{'width':3}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus',style:{'label':'data(label)','text-wrap':'wrap','text-max-width':180,'font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'node.company-focus',style:{'border-width':4,'border-color':'#243147','font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}}]});
   if(cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
   cy.on('mouseover','edge',e=>e.target.addClass('inspect'));cy.on('mouseout','edge',e=>e.target.removeClass('inspect'));
   cy.on('tap','node',e=>showCompany(e.target.id()));
+  cy.on('dragfree','node',rerouteEdges);
   cy.on('tap','edge',e=>{const ids=e.target.data('relations');if(ids.length===1)showRelation(ids[0]);else{detailGeneration++;openDetail(t('details'));$('mtz-detail-content').append(el('p',t('aggregateReason'),'notice'));for(const id of ids){const r=relationships.get(id);$('mtz-detail-content').append(relationCard(r));}}});
   cy.on('tap',e=>{if(e.target===cy){selected=null;highlightCompany();}});
   highlightCompany();

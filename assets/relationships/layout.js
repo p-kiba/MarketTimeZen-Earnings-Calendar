@@ -1,28 +1,89 @@
-// Stable center-out lattice: each node has a separate label/tap area even at high density.
-export function nodePositions(count,width,height) {
-  const aspect=Math.max(.7,Math.min(3,width/Math.max(1,height)));
-  const cols=Math.ceil(Math.sqrt(count*aspect)/2)*2+1;
-  const rows=Math.ceil(count/cols/2)*2+3;
-  const points=[];
-  for(let y=-Math.floor(rows/2);y<=Math.floor(rows/2);y++)for(let x=-Math.floor(cols/2);x<=Math.floor(cols/2);x++)points.push({x:x*116,y:y*98});
-  points.sort((a,b)=>(a.x/aspect)**2+a.y**2-((b.x/aspect)**2+b.y**2)||a.y-b.y||a.x-b.x);
-  return points.slice(0,count);
+// Geometry expresses connectivity, never deal value or investment importance.
+// Reserve room for the square logo and its wrapped company name underneath.
+const CARD_WIDTH=132, CARD_HEIGHT=138, GOLDEN_ANGLE=Math.PI*(3-Math.sqrt(5));
+const compareId=(a,b)=>a<b?-1:a>b?1:0;
+function seed(id){let h=2166136261;for(const c of id)h=Math.imul(h^c.charCodeAt(0),16777619);return (h>>>0)/4294967296;}
+const validPoint=p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y);
+const overlaps=(a,b)=>Math.abs(a.x-b.x)<CARD_WIDTH&&Math.abs(a.y-b.y)<CARD_HEIGHT;
+
+export function graphPositions(ids,relationships,width,height,centerId=ids[0],previous=new Map()) {
+  if(!ids.length)return [];
+  const ordered=[...new Set(ids)].sort(compareId),index=new Map(ordered.map((id,i)=>[id,i]));
+  const center=index.get(centerId)??0,aspect=Math.max(.65,Math.min(2.2,(width||800)/Math.max(1,height||600)));
+  const adjacency=ordered.map(()=>new Set()),pairKeys=new Set(),links=[];
+  for(const r of relationships){
+    const a=index.get(r.source_company_id),b=index.get(r.target_company_id);
+    if(a===undefined||b===undefined||a===b)continue;
+    const key=[Math.min(a,b),Math.max(a,b)].join(':');
+    if(pairKeys.has(key))continue;
+    pairKeys.add(key);links.push([Math.min(a,b),Math.max(a,b)]);adjacency[a].add(b);adjacency[b].add(a);
+  }
+  links.sort((a,b)=>a[0]-b[0]||a[1]-b[1]);
+  const oldCenter=previous.get(ordered[center]),origin=validPoint(oldCenter)?oldCenter:{x:0,y:0};
+  const anchors=ordered.map(id=>{const p=previous.get(id);return validPoint(p)?{x:p.x-origin.x,y:p.y-origin.y}:null;});
+  const points=ordered.map((id,i)=>{
+    if(i===center)return {x:0,y:0};
+    if(anchors[i])return {...anchors[i]};
+    const angle=i*GOLDEN_ANGLE+seed(id)*.7,radius=110*Math.sqrt(i+1);
+    const neighbors=[...adjacency[i]].filter(j=>anchors[j]).sort((a,b)=>a-b);
+    if(neighbors.length){
+      return {x:neighbors.reduce((v,j)=>v+anchors[j].x,0)/neighbors.length+Math.cos(angle)*170,
+        y:neighbors.reduce((v,j)=>v+anchors[j].y,0)/neighbors.length+Math.sin(angle)*170};
+    }
+    return {x:Math.cos(angle)*radius*Math.sqrt(aspect),y:Math.sin(angle)*radius/Math.sqrt(aspect)};
+  });
+  const springs=links.map(([a,b])=>({a,b,length:175+seed(ordered[a]+'|'+ordered[b])*85+
+    9*Math.sqrt(Math.max(adjacency[a].size,adjacency[b].size))}));
+  // Bounded relaxation runs once per topology change, not continuously on screen.
+  const iterations=anchors.some(Boolean)?180:260;
+  for(let step=0;step<iterations;step++){
+    const force=points.map(()=>({x:0,y:0})),temperature=1-step/iterations;
+    for(let a=0;a<points.length;a++)for(let b=a+1;b<points.length;b++){
+      const p=points[a],q=points[b];let dx=p.x-q.x,dy=p.y-q.y;
+      if(Math.abs(dx)+Math.abs(dy)<.01){dx=.1;dy=.17;}
+      const distance=Math.max(1,Math.hypot(dx,dy)),repulsion=1800/distance;
+      let fx=dx/distance*repulsion,fy=dy/distance*repulsion;
+      const overlapX=CARD_WIDTH-Math.abs(dx),overlapY=CARD_HEIGHT-Math.abs(dy);
+      if(overlapX>0&&overlapY>0){
+        if(overlapX<overlapY)fx+=Math.sign(dx||1)*overlapX*.55;
+        else fy+=Math.sign(dy||1)*overlapY*.55;
+      }
+      force[a].x+=fx;force[a].y+=fy;force[b].x-=fx;force[b].y-=fy;
+    }
+    for(const {a,b,length} of springs){
+      const dx=points[b].x-points[a].x,dy=points[b].y-points[a].y,distance=Math.max(1,Math.hypot(dx,dy));
+      const attraction=(distance-length)*.09,fx=dx/distance*attraction,fy=dy/distance*attraction;
+      force[a].x+=fx;force[a].y+=fy;force[b].x-=fx;force[b].y-=fy;
+    }
+    for(let i=0;i<points.length;i++){
+      if(i===center)continue;
+      const p=points[i],f=force[i];f.x-=p.x*.012/aspect;f.y-=p.y*.012*aspect;
+      if(anchors[i]){f.x+=(anchors[i].x-p.x)*.12;f.y+=(anchors[i].y-p.y)*.12;}
+      const length=Math.hypot(f.x,f.y),limit=2+temperature*16,scale=length?Math.min(limit,length)/length:0;
+      p.x+=f.x*scale;p.y+=f.y*scale;
+    }
+  }
+  // Resolve remaining card collisions without snapping to rows or columns.
+  const placement=ordered.map((_,i)=>i).sort((a,b)=>Number(b===center)-Number(a===center)||
+    Number(!!anchors[b])-Number(!!anchors[a])||adjacency[b].size-adjacency[a].size||a-b);
+  const placed=[];
+  for(const i of placement){
+    const initial={...points[i]};let candidate=initial,attempt=0;
+    while(placed.some(p=>overlaps(candidate,p))&&attempt<ordered.length*24){
+      attempt++;const angle=attempt*GOLDEN_ANGLE+seed(ordered[i])*Math.PI*2,radius=24*Math.sqrt(attempt);
+      candidate={x:initial.x+Math.cos(angle)*radius,y:initial.y+Math.sin(angle)*radius};
+    }
+    if(placed.some(p=>overlaps(candidate,p)))candidate={x:Math.max(...placed.map(p=>p.x))+CARD_WIDTH+1,y:initial.y};
+    points[i]=candidate;placed.push(candidate);
+  }
+  return ids.map(id=>({...points[index.get(id)]}));
 }
 
-// A single company's adjacency fans out to a rectangular perimeter. This
-// uses the available viewport without shrinking 25 labels around a tall ellipse.
-export function fanPositions(count,width,height) {
-  if(count<=1)return [{x:0,y:0}].slice(0,count);
-  const n=count-1,aspect=Math.max(1,Math.min(2.5,width/Math.max(1,height)));
-  const cols=Math.max(2,Math.ceil(n*aspect/(2*(aspect+1))));
-  const rows=Math.max(2,Math.ceil(n/2)-cols),rim=[];
-  for(let x=0;x<cols;x++)rim.push({x,y:0});
-  for(let y=0;y<rows;y++)rim.push({x:cols,y});
-  for(let x=cols;x>0;x--)rim.push({x,y:rows});
-  for(let y=rows;y>0;y--)rim.push({x:0,y});
-  return [{x:0,y:0},...Array.from({length:n},(_,i)=>{
-    const p=rim[Math.floor(i*rim.length/n)];return {x:(p.x-cols/2)*116,y:(p.y-rows/2)*98};
-  })];
+// Retain count-only callers; the live map passes actual relationship topology.
+export function nodePositions(count,width,height){const ids=Array.from({length:count},(_,i)=>String(i));return graphPositions(ids,[],width,height,ids[0]);}
+export function fanPositions(count,width,height){
+  const ids=Array.from({length:count},(_,i)=>String(i));
+  return graphPositions(ids,ids.slice(1).map(id=>({source_company_id:ids[0],target_company_id:id})),width,height,ids[0]);
 }
 
 // Prefer a short curve that misses unrelated company cards. A straight line
@@ -36,7 +97,7 @@ export function edgeBend(a,b,positions) {
     let hits=0;
     for(const p of others){
       for(let i=1;i<40;i++){const t=i/40,u=1-t,x=u*u*a.x+2*u*t*cx+t*t*b.x,y=u*u*a.y+2*u*t*cy+t*t*b.y;
-        if(Math.abs(x-p.x)<53&&Math.abs(y-p.y)<37){hits++;break;}
+        if(Math.abs(x-p.x)<62&&y>p.y-40&&y<p.y+86){hits++;break;}
       }
     }
     const score=hits*10000+Math.abs(bend);
