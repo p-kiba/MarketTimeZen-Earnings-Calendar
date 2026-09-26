@@ -1,19 +1,31 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=c60df8e9a053';
-import {latestResults,resultRows} from './earnings-results.js?v=c60df8e9a053';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=c60df8e9a053';
-import {dealRows} from './deals.js?v=c60df8e9a053';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=c60df8e9a053';
-import {DataClient} from './data-client.js?v=c60df8e9a053';
-import {CompanyView} from './company-view.js?v=c60df8e9a053';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=c60df8e9a053';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=c60df8e9a053';
-import {dictionary} from './i18n.js?v=c60df8e9a053';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=7404176ffa36';
+import {latestResults,resultRows} from './earnings-results.js?v=7404176ffa36';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=7404176ffa36';
+import {dealRows} from './deals.js?v=7404176ffa36';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=7404176ffa36';
+import {DataClient} from './data-client.js?v=7404176ffa36';
+import {CompanyView} from './company-view.js?v=7404176ffa36';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=7404176ffa36';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=7404176ffa36';
+import {dictionary} from './i18n.js?v=7404176ffa36';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
 let neighborhoods=new Map(), collapsedGroups=new Set();
 let mapMode=false;
-let autoConnections=true,zoomReference=null,zoomDepth=1,zoomDepths=new Map();
+const mapPreferencesKey='mtz-map-preferences:v1';
+function readMapPreferences(){
+  try{
+    const saved=JSON.parse(localStorage.getItem(mapPreferencesKey)||'{}');
+    return {autoConnections:saved.autoConnections!==false,keepExpandedOnZoomIn:saved.keepExpandedOnZoomIn!==false,peerLabels:saved.peerLabels===true};
+  }catch{return {autoConnections:true,keepExpandedOnZoomIn:true,peerLabels:false};}
+}
+const mapPreferences=readMapPreferences();
+let autoConnections=mapPreferences.autoConnections,keepExpandedOnZoomIn=mapPreferences.keepExpandedOnZoomIn;
+let zoomReference=null,zoomDepth=1,zoomDepths=new Map();
+function saveMapPreferences(){
+  try{localStorage.setItem(mapPreferencesKey,JSON.stringify({autoConnections,keepExpandedOnZoomIn,peerLabels:$('mtz-peer-labels').checked}));}catch{/* Preferences still work for this page. */}
+}
 let autoExpansionTimer,autoExpansionBusy=false,autoAttemptStage=0;
 let automaticNeighborhoods=new Map();
 let zoomBasePositions=new Map(), zoomSpread=false;
@@ -53,7 +65,8 @@ function shell(){
   $('mtz-reset').onclick=fitView;
   $('mtz-map-mode').onclick=()=>setMapMode(true);
   $('mtz-exit-map-mode').onclick=()=>setMapMode(false);
-  $('mtz-peer-labels').addEventListener('change',updatePeerLabels);
+  $('mtz-peer-labels').checked=mapPreferences.peerLabels;
+  $('mtz-peer-labels').addEventListener('change',()=>{updatePeerLabels();saveMapPreferences();});
   $('mtz-expand').onclick=()=>expandCompany(selected||state.company);$('mtz-cancel').onclick=()=>{generation++;request?.abort();$('mtz-cancel').hidden=true;message('');};
   $('mtz-close').onclick=closeDetail;$('mtz-coverage').onclick=showCoverage;
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('mtz-display-settings').open){$('mtz-display-settings').open=false;$('mtz-display-settings-title').focus();return;}if(!$('mtz-detail').hidden)closeDetail();else if(selectionOpen){selectionOpen=false;selectionVersion++;$('mtz-selection').hidden=true;}else if(mapMode)setMapMode(false);$('mtz-results').replaceChildren();}if(e.key==='Tab'&&!$('mtz-detail').hidden&&matchMedia('(max-width: 760px)').matches){const nodes=[...$('mtz-detail').querySelectorAll('a[href],button:not([disabled]),input,select')];const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
@@ -314,6 +327,9 @@ function collapseAutomaticNeighborhoods(stage){
   if(autoExpansionBusy){generation++;request?.abort();autoExpansionBusy=false;$('mtz-cancel').hidden=true;}
   for(const level of closing){
     for(const id of automaticNeighborhoods.get(level)){
+      // Keep the selected company's path in the graph so its expansion action
+      // remains reachable after the other automatic neighborhoods close.
+      if(selected&&selected!==state.company&&neighborhoods.get(id)?.companies.some(c=>c.company_id===selected))continue;
       neighborhoods.delete(id);expanded.delete(id);
     }
     automaticNeighborhoods.delete(level);
@@ -342,7 +358,7 @@ function scheduleNeighborExpansion(){
       const added=await expandCompany(ids[0],ids);
       if(added&&center===state.company){
         automaticNeighborhoods.set(stage,ids);
-        if(zoomExpansionStage()<stage)collapseAutomaticNeighborhoods(zoomExpansionStage());
+        if(!keepExpandedOnZoomIn&&zoomExpansionStage()<stage)collapseAutomaticNeighborhoods(zoomExpansionStage());
       }
     }finally{autoExpansionBusy=false;if(center===state.company)scheduleNeighborExpansion();}
   },350);
@@ -397,12 +413,12 @@ function spreadCrowdedLogos(){
 }
 function updateZoomDisclosure(){
   if(!cy)return;
-  if(autoConnections&&collapseAutomaticNeighborhoods(zoomExpansionStage()))return;
+  if(autoConnections&&!keepExpandedOnZoomIn&&collapseAutomaticNeighborhoods(zoomExpansionStage()))return;
   updateZoomSizes();
   if(autoConnections)zoomDepth=cy.zoom()<=cy.minZoom()+.001?3:disclosureDepth(cy.zoom()/zoomReference,zoomDepth);
   cy.batch(()=>{
     cy.nodes().forEach(node=>{
-      const visible=!autoConnections||zoomDepth===3||(zoomDepths.get(node.id())??Infinity)<=zoomDepth||node.id()===selected;
+      const visible=!autoConnections||keepExpandedOnZoomIn||zoomDepth===3||(zoomDepths.get(node.id())??Infinity)<=zoomDepth||node.id()===selected;
       node.toggleClass('zoom-hidden',!visible);
     });
     cy.edges().forEach(edge=>edge.toggleClass('zoom-hidden',edge.source().hasClass('zoom-hidden')||edge.target().hasClass('zoom-hidden')));
@@ -410,9 +426,11 @@ function updateZoomDisclosure(){
   spreadCrowdedLogos();
   scheduleNeighborExpansion();
   const status=$('mtz-auto-status');
+  const levelJa=keepExpandedOnZoomIn?'表示中':zoomDepth===1?'直接のつながり':zoomDepth===2?'2段先まで':'周辺のつながり';
+  const levelEn=keepExpandedOnZoomIn?'Shown':zoomDepth===1?'Direct':zoomDepth===2?'Two hops':'Surrounding connections';
   if(status){status.hidden=!autoConnections;status.textContent=ux(
-    `${zoomDepth===1?'直接のつながり':zoomDepth===2?'2段先まで':'周辺のつながり'} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}社`,
-    `${zoomDepth===1?'Direct':zoomDepth===2?'Two hops':'Surrounding connections'} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}`);}
+    `${levelJa} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}社`,
+    `${levelEn} · ${cy.nodes().filter(node=>!node.hasClass('zoom-hidden')).length}/${cy.nodes().length}`);}
 }
 function matchesQuickFilter(r){
   if(!quickFilter)return true;
@@ -441,13 +459,17 @@ function renderMapTools(){
     cy?.nodes().forEach(n=>{const p=previous.positions.get(n.id());if(p)n.position(p);});rerouteEdges();
   });undo.disabled=!expansionHistory.length;tools.append(undo);
   const toggle=el('label',undefined,'mtz-auto-connections'),input=el('input');input.type='checkbox';input.checked=autoConnections;
-  input.onchange=()=>{autoConnections=input.checked;if(autoConnections){zoomReference=cy?.zoom()||1;zoomDepth=1;autoAttemptStage=0;}clearTimeout(autoExpansionTimer);if(!autoConnections)collapseAutomaticNeighborhoods(0);updateZoomDisclosure();};
+  input.onchange=()=>{autoConnections=input.checked;if(autoConnections){zoomReference=cy?.zoom()||1;zoomDepth=1;autoAttemptStage=0;}clearTimeout(autoExpansionTimer);if(!autoConnections)collapseAutomaticNeighborhoods(0);saveMapPreferences();updateZoomDisclosure();};
   toggle.append(input,el('span',ux('縮小でつながりを自動展開','Expand connections on zoom out')));
   toggle.title=ux('縮小すると周辺企業のつながりも取得します。縮小の5段階で最大12・16・20・24・28社の関係を取得し、表示上限まで展開します。','Zoom out to load neighboring connections, in five stages of up to 12, 16, 20, 24 and 28 companies within the display limit.');
+  const keep=el('label',undefined,'mtz-keep-expanded'),keepInput=el('input');keepInput.type='checkbox';keepInput.checked=keepExpandedOnZoomIn;
+  keepInput.onchange=()=>{keepExpandedOnZoomIn=keepInput.checked;saveMapPreferences();if(!keepExpandedOnZoomIn&&collapseAutomaticNeighborhoods(zoomExpansionStage()))return;updateZoomDisclosure();};
+  keep.append(keepInput,el('span',ux('拡大しても自動展開を閉じない','Keep expanded connections when zooming in')));
   const status=el('small',undefined,'mtz-auto-status');status.id='mtz-auto-status';status.hidden=!autoConnections;
   const panel=settings.querySelector('.mtz-settings-panel');
-  panel.querySelector('.mtz-auto-connections')?.remove();panel.querySelector('#mtz-auto-status')?.remove();
-  panel.prepend(toggle,status);
+  panel.querySelector('.mtz-auto-connections')?.remove();panel.querySelector('.mtz-keep-expanded')?.remove();panel.querySelector('#mtz-auto-status')?.remove();panel.querySelector('.mtz-prefs-note')?.remove();
+  panel.prepend(toggle,keep,status);
+  panel.append(el('p',ux('設定はこの端末に保存されます','Settings are saved on this device'),'mtz-prefs-note'));
 }
 function selectCompany(cid){
   if(state.view!=='map'){showCompany(cid);return;}
