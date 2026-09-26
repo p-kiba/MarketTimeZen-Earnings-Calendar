@@ -1,12 +1,12 @@
-import {latestResults,resultRows} from './earnings-results.js?v=eba53ce57ea5';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=eba53ce57ea5';
-import {dealRows} from './deals.js?v=eba53ce57ea5';
-import {graphPositions,edgeBend} from './layout.js?v=eba53ce57ea5';
-import {DataClient} from './data-client.js?v=eba53ce57ea5';
-import {CompanyView} from './company-view.js?v=eba53ce57ea5';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=eba53ce57ea5';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=eba53ce57ea5';
-import {dictionary} from './i18n.js?v=eba53ce57ea5';
+import {latestResults,resultRows} from './earnings-results.js?v=eb31cdffb56e';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=eb31cdffb56e';
+import {dealRows} from './deals.js?v=eb31cdffb56e';
+import {graphPositions,edgeBend} from './layout.js?v=eb31cdffb56e';
+import {DataClient} from './data-client.js?v=eb31cdffb56e';
+import {CompanyView} from './company-view.js?v=eb31cdffb56e';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=eb31cdffb56e';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=eb31cdffb56e';
+import {dictionary} from './i18n.js?v=eb31cdffb56e';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -145,6 +145,61 @@ function collapseCompany(cid){
   ({companies,relationships}=mergeNeighborhoods(neighborhoods.values()));selected=state.company;render();
 }
 function ratingText(r){return r?.tier ? bands()[r.tier.level-1] : (r?.tier_reasons||['unrated']).map(k=>t('reason_'+k)===('reason_'+k)?t(k):t('reason_'+k)).join(' / ');}
+// A connection line needs a business description, not just its taxonomy label.
+const specificEdgeLabels={ja:{
+  'rel-05c6587da4c523af5144b983':'Appleの米国製造プログラムに参加',
+  'rel-0861e56024d9a66f3441f259':'Red Hatを買収',
+  'rel-0b750bf7554cd2d1815b7904':'OpenAIへ出資',
+  'rel-0e337fd63bd6d4f505d87843':'Appleの米国製造プログラムに参加',
+  'rel-13a995805e1bac42cbeedcee':'AI技術・モデル最適化で協業',
+  'rel-1f2e6eb551148eaeb1566cf1':'希土類磁石を供給・リサイクル',
+  'rel-3184bf461ce38af0e098a4cb':'Apple向け半導体を製造',
+  'rel-33284e76c221eecfec8e07a':'Apple製品用ICの製造で協業',
+  'rel-3fc8d84d62525ec9ac1cff88':'Appleの米国製造プログラムに参加',
+  'rel-52db33727c36dae4a1c9db96':'Appleの米国製造プログラムに参加',
+  'rel-6c91d437575935bb6dd80400':'PinterestがAWSクラウドを利用',
+  'rel-6d961c24ce89eaf990cbc1ce':'既存の提携を拡大',
+  'rel-74cf17dc8e20aa93c0b1891d':'OpenAIへ追加出資',
+  'rel-7893e3b8d0047339117cae8a':'カスタムASIC等を開発・供給',
+  'rel-7a6a372adb37f5efe5570d73':'Appleの米国製造プログラムに参加',
+  'rel-8f428b09a0e367a1851af394':'Appleの米国製造プログラムに参加',
+  'rel-9be2cf84ad4c9c15185a1e63':'AIアクセラレーターを共同開発',
+  'rel-ad97c4534214e19743408c3b':'半導体プロセス・混合信号技術で協業',
+  'rel-d3082b9214c6b6945d6fadca':'OpenAI向けAI計算基盤を提供',
+  'rel-e2898651f9dce1b13e467dc0':'Appleの米国製造プログラムに参加',
+  'rel-f4780b88ad8c09b931cf235a':'Appleの米国製造プログラムに参加',
+},en:{
+  'rel-05c6587da4c523af5144b983':'Participates in Apple’s U.S. manufacturing program',
+  'rel-0861e56024d9a66f3441f259':'IBM acquired Red Hat',
+  'rel-0b750bf7554cd2d1815b7904':'Investment in OpenAI',
+  'rel-0e337fd63bd6d4f505d87843':'Participates in Apple’s U.S. manufacturing program',
+  'rel-13a995805e1bac42cbeedcee':'AI engineering and model optimization',
+  'rel-1f2e6eb551148eaeb1566cf1':'Rare-earth magnet supply and recycling',
+  'rel-3184bf461ce38af0e098a4cb':'Manufactures semiconductors for Apple',
+  'rel-33284e76c221eecfec8e07a':'Develops ICs for Apple product sensors',
+  'rel-3fc8d84d62525ec9ac1cff88':'Participates in Apple’s U.S. manufacturing program',
+  'rel-52db33727c36dae4a1c9db96':'Participates in Apple’s U.S. manufacturing program',
+  'rel-6c91d437575935bb6dd80400':'Pinterest uses AWS cloud services',
+  'rel-6d961c24ce89eaf990cbc1ce':'Expands existing partnership',
+  'rel-74cf17dc8e20aa93c0b1891d':'Additional investment in OpenAI',
+  'rel-7893e3b8d0047339117cae8a':'Develops and supplies custom ASICs',
+  'rel-7a6a372adb37f5efe5570d73':'Participates in Apple’s U.S. manufacturing program',
+  'rel-8f428b09a0e367a1851af394':'Participates in Apple’s U.S. manufacturing program',
+  'rel-9be2cf84ad4c9c15185a1e63':'Jointly develops AI accelerators',
+  'rel-ad97c4534214e19743408c3b':'Semiconductor process and mixed-signal collaboration',
+  'rel-d3082b9214c6b6945d6fadca':'Provides AI compute infrastructure to OpenAI',
+  'rel-e2898651f9dce1b13e467dc0':'Participates in Apple’s U.S. manufacturing program',
+  'rel-f4780b88ad9c09b931cf235a':'Participates in Apple’s U.S. manufacturing program',
+}};
+function connectionLabel(row){
+  const headline=row.business?.headline?.trim();
+  if(headline&&headline!==t(row.relationship_type))return headline;
+  const curated=specificEdgeLabels[state.lang]?.[row.relationship_id];
+  if(curated)return curated;
+  const description=(row.description||'').replace(/\s+/g,' ').trim();
+  if(description)return description.split(/(?<=[。.!?])\s*/u,1)[0];
+  return t(row.relationship_type)+' · '+name(row.source_company_id)+' / '+name(row.target_company_id);
+}
 function relationCard(r){
   const row=button('',()=>showRelation(r.relationship_id),'mtz-relation-row');
   row.style.setProperty('--edge-color',r.tier?.color||'#68758a');
@@ -206,7 +261,7 @@ function render(){
   const nodes=shown.map((id,i)=>({data:{id,label:name(id),favorite:!!fav(id),logo:logo(companies.get(id)),center:id===state.company},position:positions[i]}));
   const positionById=new Map(shown.map((id,i)=>[id,positions[i]]));
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
-  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),vertical=Math.abs(a.y-b.y)>Math.abs(a.x-b.x);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:multi?'#68758a':r.tier?.color||'#68758a',bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(row=>row.business?.headline||t(row.relationship_type)))].join(' / ')}`:(r.business?.headline||t(r.relationship_type))).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',labelX:vertical?45:0,labelY:vertical?0:-34}};});
+  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),vertical=Math.abs(a.y-b.y)>Math.abs(a.x-b.x);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:multi?'#68758a':r.tier?.color||'#68758a',bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',labelX:vertical?45:0,labelY:vertical?0:-34}};});
   cy?.destroy();
   cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#eaf0f7','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147'}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#eff3f9'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':.8,'opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?rated]',style:{'width':3}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':360,'font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4','opacity':1,'z-index':10}}]});
   if(!viewport&&cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
