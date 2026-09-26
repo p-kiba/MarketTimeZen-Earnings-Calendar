@@ -32,12 +32,16 @@ export function nextEarnings(company,records,universe,today) {
   return {state:last<today?'outsidePeriod':'notRecorded'};
 }
 export function rankCompanies(companies,query) {
-  const q=query.trim().toLocaleLowerCase();if(!q)return [];
+  const raw=query.trim();if(!raw)return [];
+  // Accept common ticker-entry forms such as "$AAPL" and "NASDAQ:AAPL".
+  const tickerQuery=raw.replace(/^\$/,'').replace(/^[A-Z][A-Z0-9.-]*:/i,'').trim().toUpperCase();
+  const q=raw.toLocaleLowerCase();
   return companies.map(c=>{
-    const symbols=c.listings.map(l=>l.symbol.toLowerCase());
+    const symbols=c.listings.map(l=>l.symbol.toUpperCase());
     const names=[c.legal_name,c.display_name,...c.aliases.map(a=>a.name)].filter(Boolean).map(n=>n.toLowerCase());
-    const terms=[...symbols,...names];
-    const rank=symbols.includes(q)?0:names.includes(q)?1:terms.some(n=>n.startsWith(q))?2:terms.some(n=>n.includes(q))?3:99;
+    const rank=(tickerQuery&&symbols.includes(tickerQuery))?0:names.includes(q)?1:
+      (tickerQuery&&symbols.some(s=>s.startsWith(tickerQuery)))?2:names.some(n=>n.startsWith(q))?3:
+      (tickerQuery&&symbols.some(s=>s.includes(tickerQuery)))?4:names.some(n=>n.includes(q))?5:99;
     return {company:c,rank};
   }).filter(r=>r.rank<99).sort((a,b)=>a.rank-b.rank||a.company.display_name.localeCompare(b.company.display_name));
 }

@@ -1,12 +1,12 @@
-import {latestResults,resultRows} from './earnings-results.js?v=eb31cdffb56e';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=eb31cdffb56e';
-import {dealRows} from './deals.js?v=eb31cdffb56e';
-import {graphPositions,edgeBend} from './layout.js?v=eb31cdffb56e';
-import {DataClient} from './data-client.js?v=eb31cdffb56e';
-import {CompanyView} from './company-view.js?v=eb31cdffb56e';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=eb31cdffb56e';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=eb31cdffb56e';
-import {dictionary} from './i18n.js?v=eb31cdffb56e';
+import {latestResults,resultRows} from './earnings-results.js?v=cb40f873f1c1';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=cb40f873f1c1';
+import {dealRows} from './deals.js?v=cb40f873f1c1';
+import {graphPositions,edgeBend} from './layout.js?v=cb40f873f1c1';
+import {DataClient} from './data-client.js?v=cb40f873f1c1';
+import {CompanyView} from './company-view.js?v=cb40f873f1c1';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=cb40f873f1c1';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=cb40f873f1c1';
+import {dictionary} from './i18n.js?v=cb40f873f1c1';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
