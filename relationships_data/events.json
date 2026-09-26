@@ -34923,5 +34923,994 @@
       "rule_version": "8a63ec197b19459881f88b9de729e76537466de9e22c106c3846587143273b32",
       "verified_at": "2026-09-26T12:51:16+00:00"
     }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-fc0cb1d4e5285d6f1a90afd6",
+        "amount_kind": "purchase_price",
+        "conditions": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 458.6 million",
+        "payee_company_ids": [
+          "co-talon-cyber-security-ltd"
+        ],
+        "payer_company_ids": [
+          "co-palo-alto-networks-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+        "value": "458600000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2023-12-28",
+    "conditions": "",
+    "deal_id": "deal-b841f352570a0a5d077cff6c",
+    "detected_at": "2026-09-26T12:59:55+00:00",
+    "effective_date": null,
+    "event_id": "event-b841f352570a0a5d077cff6c",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-b841f352570a0a5d077cff6c",
+      "evidence-a0c8b7e46a320e5f2c234b4c"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-b841f352570a0a5d077cff6c",
+          "evidence-a0c8b7e46a320e5f2c234b4c"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-ad5f7ebbe6c9af85db9f00a0"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7a0505432b602b3c6171e7a3": "0e872ebeca40589278bfa9f8f9bef6542e2e93e18b60d4c08149327a3fd779e4",
+        "source-a5af3ce49d92db848b5f9c1c": "f28d391c2b428bc1162f00fac063a13483bf220b7c64faf9ae4ab7b69706f2b0"
+      },
+      "reason": "Primary-source review of merged research record r32; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r32",
+      "rule_version": "f74b94f1ece9a6f1b4f42066d6bc8b00f68785221e45c2c02bbda1271945d1e2",
+      "verified_at": "2026-09-26T12:59:55+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-bbeb55f50005c4ba32d35e97",
+        "amount_kind": "purchase_price",
+        "conditions": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 809 million",
+        "payee_company_ids": [
+          "co-finicity-corporation"
+        ],
+        "payer_company_ids": [
+          "co-mastercard"
+        ],
+        "qualifier": "exact",
+        "scope": "2021 Form 10-Kが2020年11月18日のFinicity 100%持分取得に対する現金対価として記載。原文の$通貨定義なし。",
+        "value": "809000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-0c3cc8536674948faaa02f97",
+        "amount_kind": "purchase_price",
+        "conditions": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 64 million",
+        "payee_company_ids": [
+          "co-finicity-corporation"
+        ],
+        "payer_company_ids": [
+          "co-mastercard"
+        ],
+        "qualifier": "exact",
+        "scope": "Finicity売主が2021年売上目標を達成したことで獲得した追加の条件付き対価。前払現金対価に合算しない。原文の$通貨定義なし。",
+        "value": "64000000",
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2020-11-19",
+    "conditions": "",
+    "deal_id": "deal-58c4fa9ce941d8c2b6508639",
+    "detected_at": "2026-09-26T12:59:55+00:00",
+    "effective_date": null,
+    "event_id": "event-58c4fa9ce941d8c2b6508639",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-58c4fa9ce941d8c2b6508639",
+      "evidence-02a7d8fad220bacadf54599c",
+      "evidence-e96309be0b4321834bafa322"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-58c4fa9ce941d8c2b6508639",
+          "evidence-02a7d8fad220bacadf54599c",
+          "evidence-e96309be0b4321834bafa322"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-c580f43a1827099e62dc4a51"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4cdae150e8b7c5d3873d7d18": "e6be46ff2906dafff60e1096263d7586dd47042edde999d7f4f16a732f2e478d",
+        "source-b6b5f18543b31e03335561f8": "3d3bb905d1bc35249e95aae0e5407cfbb0c9948d4c1a52b3cc9f1c2cd15365de"
+      },
+      "reason": "Primary-source review of merged research record r42; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r42",
+      "rule_version": "3aacad536a1bbf200d7bce1cbc73b3a1a294f670905601a8f5a8cb9b539d05ec",
+      "verified_at": "2026-09-26T12:59:55+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-31428a388d8e2722ba3430c6",
+        "amount_kind": "purchase_price",
+        "conditions": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 180.5 million",
+        "payee_company_ids": [
+          "co-awake-security-inc"
+        ],
+        "payer_company_ids": [
+          "co-arista-networks-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+        "value": "180500000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-f1d8fd8bf3b6e199757e79a2",
+    "detected_at": "2026-09-26T13:07:04+00:00",
+    "effective_date": null,
+    "event_id": "event-f1d8fd8bf3b6e199757e79a2",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-f1d8fd8bf3b6e199757e79a2",
+      "evidence-796330e44e04a73b34383364"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-f1d8fd8bf3b6e199757e79a2",
+          "evidence-796330e44e04a73b34383364"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-02-19",
+    "relationship_ids": [
+      "rel-933b5dc3808a901ba3c13996"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+      },
+      "reason": "Primary-source review of merged research record r22; acquisition completion, business scope and amount details matched to issuer and SEC disclosures. Currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r22",
+      "rule_version": "6fa82db4fc53fa36168539bee31f41297c42844d1468f547b2b47e98b5bf51d4",
+      "verified_at": "2026-09-26T13:07:04+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-0d965cde9fff49ab07a0a82d",
+        "amount_kind": "purchase_price",
+        "conditions": "Maxim株主へADI普通株を交付した概算総対価。原文は米ドルを明示せず、通貨コード未確定。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$28.0 billion",
+        "payee_company_ids": [
+          "co-maxim-integrated-products-inc"
+        ],
+        "payer_company_ids": [
+          "co-analog-devices-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "Maxim株主へADI普通株を交付した概算総対価。原文は米ドルを明示せず、通貨コード未確定。",
+        "value": "28000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-14fda891f1e72e67cfcfb0c9",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-14fda891f1e72e67cfcfb0c9",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-14fda891f1e72e67cfcfb0c9",
+      "evidence-3e4a34752395910e78fa803b"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-14fda891f1e72e67cfcfb0c9",
+          "evidence-3e4a34752395910e78fa803b"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-08-26",
+    "relationship_ids": [
+      "rel-6aa244aa5bfec0e00e0e243e"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-847aff5e2f6341ad749d90ac": "e365a6597c668fbdbd0742707ac5c9b509931bacf15088135983d41672794b6f",
+        "source-e1dd7eee3367fa1b35eed557": "de49c60bc8cf1366cb43b100b1c6da508f094f22011c7df2c7ede7a76b33af26"
+      },
+      "reason": "Primary-source review of merged research record r20; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r20",
+      "rule_version": "48fe6d82af3d23a92668a5be7af865ff9d5f17fa900d50db37b8f194da5ad9cf",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": null,
+    "announced_date": null,
+    "conditions": "",
+    "deal_id": "deal-fb03348e32c9029c561c5711",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-fb03348e32c9029c561c5711",
+    "event_type": "newly_indexed",
+    "evidence_ids": [
+      "evidence-fb03348e32c9029c561c5711"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-fb03348e32c9029c561c5711"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": "2021-02-19",
+    "relationship_ids": [
+      "rel-71831ef3a457362caaf267b3"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1fd65a34dc432bc0a5bfb8cd": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df"
+      },
+      "reason": "Primary-source review of merged research record r23; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r23",
+      "rule_version": "078719fce9355727fcc8c3443b74c0c2cd6390c0394be8bf801eaaafd1328898",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-38df4eb81bb658110399fd71",
+        "amount_kind": "purchase_price",
+        "conditions": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$2.24 billion",
+        "payee_company_ids": [
+          "co-greensky-inc"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "住宅改修向けPOS融資プラットフォームGreenSkyの全株式取得契約に示された概算取引価値。all-stock transaction。原文通貨コード不明。",
+        "value": "2240000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2021-09-15",
+    "conditions": "",
+    "deal_id": "deal-232064ab95e952d96a2d4b41",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-232064ab95e952d96a2d4b41",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-232064ab95e952d96a2d4b41"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-232064ab95e952d96a2d4b41"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-88d638e4dc7e8339261329e4"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-caa07b33d3c36dfbfab10da4": "e2a7d48eaae537681e29b1818b805f0d5fe7a7679187e917df06c0bc937c97fe"
+      },
+      "reason": "Primary-source review of merged research record r49; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r49",
+      "rule_version": "d4a7fd92a2810180336c0e0ad677d262fab6aa90782a7e42158e194657bbb985",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-62516384002ef84663bc7e7c",
+        "amount_kind": "purchase_price",
+        "conditions": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "€1.7 billion",
+        "payee_company_ids": [
+          "co-nn-investment-partners"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+        "value": "1700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2022-04-11",
+    "conditions": "",
+    "deal_id": "deal-cc14e07e48fdd1be6c22043f",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-cc14e07e48fdd1be6c22043f",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-cc14e07e48fdd1be6c22043f"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-cf2b671b40e7fac0fe9b21ea"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e6311b12ec2ff80d9e20a799": "1e6690fcb4578226c7f5d49d4fcec01f6bb1550969bdeb6bad563a4bfd563349"
+      },
+      "reason": "Primary-source review of merged research record r50; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r50",
+      "rule_version": "a9409a19fdb141cb12cf8294163172e508f35a081f8535c4857d1ed95cd0868d",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-c172c77d5870b5929a525ffc",
+        "amount_kind": "purchase_price",
+        "conditions": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$750 million",
+        "payee_company_ids": [
+          "co-united-capital-financial-partners-inc"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+        "value": "750000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2019-05-16",
+    "conditions": "",
+    "deal_id": "deal-02e378b89e8719a63c639458",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-02e378b89e8719a63c639458",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-02e378b89e8719a63c639458"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-c0b6b342bb2b69a1ce56e655"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-54cfa33be698227e021507ca": "03ed04ae51dbc3bf148192eeef2984c36a137238d218c17ec9f8c8a91edcf724"
+      },
+      "reason": "Primary-source review of merged research record r51; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r51",
+      "rule_version": "b2b8be6b7cbe469a74eeae6dde2286285017808c639654c480de3fc8a084e6f8",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  {
+    "agreement_date": null,
+    "amount_disclosure": "disclosed",
+    "amounts": [
+      {
+        "amount_id": "amount-9e69c3f1137269826ec6602c",
+        "amount_kind": "purchase_price",
+        "conditions": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "approximately $13 billion",
+        "payee_company_ids": [
+          "co-e-trade-financial-corporation"
+        ],
+        "payer_company_ids": [
+          "co-morgan-stanley"
+        ],
+        "qualifier": "approximately",
+        "scope": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+        "value": "13000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "announced_at": null,
+    "announced_date": "2020-02-20",
+    "conditions": "",
+    "deal_id": "deal-6a350f68f3b3c5c106608867",
+    "detected_at": "2026-09-26T13:07:05+00:00",
+    "effective_date": null,
+    "event_id": "event-6a350f68f3b3c5c106608867",
+    "event_type": "acquisition_announced",
+    "evidence_ids": [
+      "evidence-6a350f68f3b3c5c106608867"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-6a350f68f3b3c5c106608867"
+        ],
+        "verification": "approved_rule"
+      }
+    },
+    "filed_date": null,
+    "relationship_ids": [
+      "rel-fe2fd87b5d0755df1471feb9"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5b1f92b9429dcd74209de539": "8e0195c8e7ef6da367ec8c12dd6770286c008c71b2222fc09a67be4e9dd12890"
+      },
+      "reason": "Primary-source review of merged research record r53; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r53",
+      "rule_version": "4dbc47ab60febb192506fcc8c2360346eb4576a2e4f28f301129d43faa2da22c",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
   }
 ]

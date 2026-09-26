@@ -1,0 +1,198 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-79446d6a3466c15936c93b93",
+      "detected_at": "2026-09-26T05:23:11+00:00",
+      "effective_date": null,
+      "event_id": "event-79446d6a3466c15936c93b93",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-79446d6a3466c15936c93b93"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-79446d6a3466c15936c93b93"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-09-08",
+      "relationship_ids": [
+        "rel-3e80df78456488098af03512"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-94f508577c8bd15a6526574e": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-94f508577c8bd15a6526574e",
+        "rule_version": "f678b38f7c1d9ca82fc46b584e9909d62f3848fbd8f1581e2321136f238c6069",
+        "verified_at": "2026-09-26T05:23:11+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-79446d6a3466c15936c93b93",
+      "excerpt": "Nebius",
+      "locator": "p:17",
+      "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+      "section": "Official disclosure: business context",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-79446d6a3466c15936c93b93"
+      ],
+      "geography": "",
+      "headline": "Nebius Groupの完全子会社",
+      "products": [
+        "GPUサービス事業"
+      ],
+      "scale": "",
+      "source_role": "子会社・契約主体",
+      "target_role": "上場親会社"
+    },
+    "deal_ids": [
+      "deal-79446d6a3466c15936c93b93"
+    ],
+    "description": "MicrosoftとのGPUサービス契約の締結主体Nebius, Inc.は、上場親会社Nebius Groupの完全子会社。親会社と契約当事者を分けて表示。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-79446d6a3466c15936c93b93"
+    ],
+    "first_observed_at": "2026-09-26T05:23:11+00:00",
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "latest_event_ids": [
+      "event-79446d6a3466c15936c93b93"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3e80df78456488098af03512",
+    "relationship_type": "group_member",
+    "source_company_id": "co-nebius-inc",
+    "status_as_of": "2025-09-08",
+    "target_company_id": "co-nebius",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-94f508577c8bd15a6526574e": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-94f508577c8bd15a6526574e",
+      "rule_version": "f678b38f7c1d9ca82fc46b584e9909d62f3848fbd8f1581e2321136f238c6069",
+      "verified_at": "2026-09-26T05:23:11+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001104659-25-088312",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm",
+      "content_hash": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2025-09-08",
+      "filing_cik": "0001513845",
+      "form": "6-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-nebius",
+      "retrieved_at": "2026-09-26T05:18:14+00:00",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-79446d6a3466c15936c93b93"
+      ],
+      "geography": "",
+      "headline": "Nebius Groupの完全子会社",
+      "products": [
+        "GPUサービス事業"
+      ],
+      "scale": "",
+      "source_role": "子会社・契約主体",
+      "target_role": "上場親会社"
+    },
+    "description": "MicrosoftとのGPUサービス契約の締結主体Nebius, Inc.は、上場親会社Nebius Groupの完全子会社。親会社と契約当事者を分けて表示。",
+    "direction": "directed",
+    "event_date": "2025-09-08",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3e80df78456488098af03512",
+    "relationship_type": "group_member",
+    "source_company_id": "co-nebius-inc",
+    "status_as_of": "2025-09-08",
+    "target_company_id": "co-nebius",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

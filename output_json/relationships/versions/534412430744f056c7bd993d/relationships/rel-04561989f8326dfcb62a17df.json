@@ -1,0 +1,225 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-7b44edbaf41e88bf12d93009",
+          "amount_kind": "purchase_price",
+          "conditions": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10 billion",
+          "payee_company_ids": [
+            "co-verona-pharma-plc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "value": "10000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-10-07",
+      "conditions": "",
+      "deal_id": "deal-71ac406683dfb20643bf74b0",
+      "detected_at": "2026-09-26T12:51:16+00:00",
+      "effective_date": null,
+      "event_id": "event-71ac406683dfb20643bf74b0",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-71ac406683dfb20643bf74b0"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-04561989f8326dfcb62a17df"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-6e527bc130585750bdd3bf4e": "91f4ddd45f377b431913eaca769dd61bdd218df89cd001f99034cfbcaa99a5ad"
+        },
+        "reason": "Primary-source review of merged research record r89; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r89",
+        "rule_version": "05ca98ee030db09c4a7b58f7b2aca030ed8cc65e6e1990ddea7aebb65591ddec",
+        "verified_at": "2026-09-26T12:51:16+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-71ac406683dfb20643bf74b0",
+      "excerpt": "Merck, through a subsidiary, has acquired all outstanding shares of Verona Pharma",
+      "locator": "p:6",
+      "normalized_text_hash": "0ce079c68d9ae9f33d918891c761e8253c8eacbeefaaf8939e755c6f71d30277",
+      "section": "Official company disclosure",
+      "source_id": "source-6e527bc130585750bdd3bf4e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-71ac406683dfb20643bf74b0"
+    ],
+    "description": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-71ac406683dfb20643bf74b0"
+    ],
+    "first_observed_at": "2026-09-26T12:51:16+00:00",
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "latest_event_ids": [
+      "event-71ac406683dfb20643bf74b0"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-04561989f8326dfcb62a17df",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2025-10-07",
+    "target_company_id": "co-verona-pharma-plc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-6e527bc130585750bdd3bf4e": "91f4ddd45f377b431913eaca769dd61bdd218df89cd001f99034cfbcaa99a5ad"
+      },
+      "reason": "Primary-source review of merged research record r89; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r89",
+      "rule_version": "05ca98ee030db09c4a7b58f7b2aca030ed8cc65e6e1990ddea7aebb65591ddec",
+      "verified_at": "2026-09-26T12:51:16+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/merck-completes-acquisition-of-verona-pharma/",
+      "content_hash": "91f4ddd45f377b431913eaca769dd61bdd218df89cd001f99034cfbcaa99a5ad",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-10-07",
+      "publisher": "Merck",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-6e527bc130585750bdd3bf4e",
+      "source_type": "official_newsroom",
+      "title": "Merck Completes Acquisition of Verona Pharma - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-7b44edbaf41e88bf12d93009",
+        "amount_kind": "purchase_price",
+        "conditions": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-71ac406683dfb20643bf74b0"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$10 billion",
+        "payee_company_ids": [
+          "co-verona-pharma-plc"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "approximately",
+        "scope": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+        "value": "10000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。",
+    "direction": "directed",
+    "event_date": "2025-10-07",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-04561989f8326dfcb62a17df",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-merck",
+    "status_as_of": "2025-10-07",
+    "target_company_id": "co-verona-pharma-plc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

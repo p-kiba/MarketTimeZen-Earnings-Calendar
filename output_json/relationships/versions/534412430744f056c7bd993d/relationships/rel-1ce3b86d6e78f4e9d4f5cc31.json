@@ -1,0 +1,248 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-01-12",
+      "conditions": "人材・設備・計算資源への両社合計の投資上限。二社間の契約金額欄には入れず、着色しない。",
+      "deal_id": "deal-78a8f49d6a748da60455ad4e",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": null,
+      "event_id": "event-78a8f49d6a748da60455ad4e",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-78a8f49d6a748da60455ad4e",
+        "evidence-9141199f654cc2be023ba186",
+        "evidence-6cc4ab520872a275ef17e5fe"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-78a8f49d6a748da60455ad4e",
+            "evidence-9141199f654cc2be023ba186",
+            "evidence-6cc4ab520872a275ef17e5fe"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-1ce3b86d6e78f4e9d4f5cc31"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 5,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-78a8f49d6a748da60455ad4e",
+          "evidence-9141199f654cc2be023ba186",
+          "evidence-6cc4ab520872a275ef17e5fe"
+        ],
+        "renewal": null,
+        "start_basis": "共同研究所への投資計画の対象期間。契約の具体的な満了日は非掲載",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-cd43899c7dae58b9562f23d5": "150311b6e2547eadffc07729896e0126de7e4f7164ff0479b229474c37be2356"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-cd43899c7dae58b9562f23d5",
+        "rule_version": "2e23491060680f82013aeb3f1b88c399f5292d01db785d6586ea53c510c61a16",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-6cc4ab520872a275ef17e5fe",
+      "excerpt": "Vera Rubin",
+      "locator": "li:2",
+      "normalized_text_hash": "137c0c98333c07febe56bfd8abfdd749fa8853fd2ca4924c0ed565a27bc59481",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-cd43899c7dae58b9562f23d5",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-78a8f49d6a748da60455ad4e",
+      "excerpt": "co-innovation lab",
+      "locator": "p:4",
+      "normalized_text_hash": "f4a600229a9c90854659aa25bed31e2af335a53590c32add370d9bf1bc6442da",
+      "section": "Official disclosure: business context",
+      "source_id": "source-cd43899c7dae58b9562f23d5",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-9141199f654cc2be023ba186",
+      "excerpt": "five years",
+      "locator": "p:5",
+      "normalized_text_hash": "be26dc1b47aeead0bf329c4223d08da7158aeb96e9ac49fce6a061176fc214a4",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-cd43899c7dae58b9562f23d5",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-78a8f49d6a748da60455ad4e",
+        "evidence-9141199f654cc2be023ba186",
+        "evidence-6cc4ab520872a275ef17e5fe"
+      ],
+      "geography": "",
+      "headline": "AI創薬研究所の共同設立",
+      "products": [
+        "NVIDIA BioNeMo",
+        "Vera Rubin",
+        "AI創薬"
+      ],
+      "scale": "",
+      "source_role": "AI計算・モデル基盤",
+      "target_role": "創薬・医薬品研究"
+    },
+    "deal_ids": [
+      "deal-78a8f49d6a748da60455ad4e"
+    ],
+    "description": "NVIDIAとLillyがAI創薬の共同研究所を設立すると発表。BioNeMoとVera Rubin基盤を使い、医薬品研究とAI技術の専門家が共同研究する。5年間で最大10億ドルという両社合計の予定投資を、個社の支払額へ配賦しない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-78a8f49d6a748da60455ad4e",
+      "evidence-9141199f654cc2be023ba186",
+      "evidence-6cc4ab520872a275ef17e5fe"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-78a8f49d6a748da60455ad4e"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1ce3b86d6e78f4e9d4f5cc31",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-01-12",
+    "target_company_id": "co-lly",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-cd43899c7dae58b9562f23d5": "150311b6e2547eadffc07729896e0126de7e4f7164ff0479b229474c37be2356"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-cd43899c7dae58b9562f23d5",
+      "rule_version": "2e23491060680f82013aeb3f1b88c399f5292d01db785d6586ea53c510c61a16",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+      "content_hash": "150311b6e2547eadffc07729896e0126de7e4f7164ff0479b229474c37be2356",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-12",
+      "publisher": "nvidianews.nvidia.com",
+      "retrieved_at": "2026-09-26T06:13:58+00:00",
+      "source_id": "source-cd43899c7dae58b9562f23d5",
+      "source_type": "official_newsroom",
+      "title": "NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent Drug Discovery in the Age of AI | NVIDIA Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-78a8f49d6a748da60455ad4e",
+        "evidence-9141199f654cc2be023ba186",
+        "evidence-6cc4ab520872a275ef17e5fe"
+      ],
+      "geography": "",
+      "headline": "AI創薬研究所の共同設立",
+      "products": [
+        "NVIDIA BioNeMo",
+        "Vera Rubin",
+        "AI創薬"
+      ],
+      "scale": "",
+      "source_role": "AI計算・モデル基盤",
+      "target_role": "創薬・医薬品研究"
+    },
+    "description": "NVIDIAとLillyがAI創薬の共同研究所を設立すると発表。BioNeMoとVera Rubin基盤を使い、医薬品研究とAI技術の専門家が共同研究する。5年間で最大10億ドルという両社合計の予定投資を、個社の支払額へ配賦しない。",
+    "direction": "undirected",
+    "event_date": "2026-01-12",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-1ce3b86d6e78f4e9d4f5cc31",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2026-01-12",
+    "target_company_id": "co-lly",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-03-18",
+      "conditions": "",
+      "deal_id": "deal-9ab4245ad92717e7582b7f1b",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-9ab4245ad92717e7582b7f1b",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-9ab4245ad92717e7582b7f1b",
+        "evidence-b2cdcfdfa987dfa624f87f20"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-9ab4245ad92717e7582b7f1b",
+            "evidence-b2cdcfdfa987dfa624f87f20"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7c27f4067c93433644fbeaa5"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+        "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-9ab4245ad92717e7582b7f1b",
+      "excerpt": "TSMC",
+      "locator": "li:19",
+      "normalized_text_hash": "82139a4940b8498ea49fc653d08c0eabeb73a110be3720765d97b91717ce0d12",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b2cdcfdfa987dfa624f87f20",
+      "excerpt": "NVIDIA",
+      "locator": "p:4",
+      "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+      "section": "Issuer context",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-9ab4245ad92717e7582b7f1b",
+        "evidence-b2cdcfdfa987dfa624f87f20"
+      ],
+      "geography": "",
+      "headline": "Blackwell GPUの4NP製造プロセス",
+      "products": [
+        "4NP",
+        "Blackwell GPU"
+      ],
+      "scale": "",
+      "source_role": "半導体製造プロセス",
+      "target_role": "GPU設計・プラットフォーム"
+    },
+    "deal_ids": [
+      "deal-9ab4245ad92717e7582b7f1b"
+    ],
+    "description": "Blackwell GPUはTSMCのカスタム4NPプロセスで製造されるとNVIDIAが公表。個別の製造委託金額は記載されていない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-9ab4245ad92717e7582b7f1b",
+      "evidence-b2cdcfdfa987dfa624f87f20"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-9ab4245ad92717e7582b7f1b"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7c27f4067c93433644fbeaa5",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-nvda",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+      "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "content_hash": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-03-18",
+      "publisher": "co-nvda",
+      "retrieved_at": "2026-09-26T03:57:45+00:00",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "source_type": "official_newsroom",
+      "title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing | NVIDIA Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-9ab4245ad92717e7582b7f1b",
+        "evidence-b2cdcfdfa987dfa624f87f20"
+      ],
+      "geography": "",
+      "headline": "Blackwell GPUの4NP製造プロセス",
+      "products": [
+        "4NP",
+        "Blackwell GPU"
+      ],
+      "scale": "",
+      "source_role": "半導体製造プロセス",
+      "target_role": "GPU設計・プラットフォーム"
+    },
+    "description": "Blackwell GPUはTSMCのカスタム4NPプロセスで製造されるとNVIDIAが公表。個別の製造委託金額は記載されていない。",
+    "direction": "directed",
+    "event_date": "2024-03-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-7c27f4067c93433644fbeaa5",
+    "relationship_type": "supplier",
+    "source_company_id": "co-tsmc",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-nvda",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

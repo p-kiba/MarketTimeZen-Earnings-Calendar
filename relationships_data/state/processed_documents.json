@@ -1307,6 +1307,22 @@
       "status": "downloaded",
       "url": "https://www.merck.com/news/merck-to-acquire-eyebio/"
     },
+    "source-1fd65a34dc432bc0a5bfb8cd": {
+      "content_hash": "045b48c19efa31bf9eccd1676ea914d2d012a5a09e2176a0decdae9c22f880df",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0001596532-21-000049",
+        "filed_date": "2021-02-19",
+        "filing_cik": "0001596532",
+        "form": "10-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653221000049/anet-20201231.htm"
+    },
     "source-1fda7489517c6c54fcf3b4af": {
       "meta": {
         "accession_number": "0001213900-26-102678",
@@ -2986,6 +3002,22 @@
       "status": "parsed",
       "url": "https://openai.com/index/gpt-6-astra/"
     },
+    "source-4cdae150e8b7c5d3873d7d18": {
+      "content_hash": "e6be46ff2906dafff60e1096263d7586dd47042edde999d7f4f16a732f2e478d",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Mastercard",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://newsroom.mastercard.com/news/press/2020/november/mastercard-extends-open-banking-efforts-with-close-of-finicity-acquisition/"
+    },
     "source-4d08885b5e1f2deb3c11df59": {
       "content_hash": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc",
       "error": null,
@@ -3268,6 +3300,22 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426.htm"
+    },
+    "source-54cfa33be698227e021507ca": {
+      "content_hash": "03ed04ae51dbc3bf148192eeef2984c36a137238d218c17ec9f8c8a91edcf724",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Goldman Sachs",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2019/announcement-16-may-2019"
     },
     "source-54e70f9f88c3be001b46d6ef": {
       "meta": {
@@ -3561,6 +3609,22 @@
       },
       "status": "parsed",
       "url": "https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/"
+    },
+    "source-5b1f92b9429dcd74209de539": {
+      "content_hash": "8e0195c8e7ef6da367ec8c12dd6770286c008c71b2222fc09a67be4e9dd12890",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Morgan Stanley",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-to-acquire-e-trade"
     },
     "source-5b6b35f482dbbfa8b0632deb": {
       "content_hash": "91c309712d356f8ead0058d2d47859bab767c8b035ab0ab11a485979b67147cd",
@@ -4528,6 +4592,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028798/form424b2.htm"
     },
+    "source-7a0505432b602b3c6171e7a3": {
+      "content_hash": "0e872ebeca40589278bfa9f8f9bef6542e2e93e18b60d4c08149327a3fd779e4",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Palo Alto Networks",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.paloaltonetworks.com/company/press/2023/palo-alto-networks--closes-talon-cyber-security-acquisition-and-will-offer-complimentary-enterprise-browser-to-qualified-sase-ai-customers"
+    },
     "source-7a2e8418670824a88f939ea2": {
       "meta": {
         "accession_number": "0001213900-26-102427",
@@ -5011,6 +5091,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026101712/ea0306111-01_424b2.htm"
+    },
+    "source-847aff5e2f6341ad749d90ac": {
+      "content_hash": "e365a6597c668fbdbd0742707ac5c9b509931bacf15088135983d41672794b6f",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0000006281-21-000294",
+        "filed_date": "2021-12-03",
+        "filing_cik": "0000006281",
+        "form": "10-K",
+        "publisher": "Analog Devices, Inc. / U.S. SEC",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628121000294/adi-20211030.htm"
     },
     "source-84c2d0bb3b5bd38218dc46ac": {
       "meta": {
@@ -6509,6 +6605,22 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028272/form424b2.htm"
     },
+    "source-a5af3ce49d92db848b5f9c1c": {
+      "content_hash": "f28d391c2b428bc1162f00fac063a13483bf220b7c64faf9ae4ab7b69706f2b0",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0001327567-24-000017",
+        "filed_date": null,
+        "filing_cik": "0001327567",
+        "form": "10-Q",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000017/panw-20240430.htm"
+    },
     "source-a62874692f581e27febc7e5e": {
       "content_hash": "3ed923bbef6f98e0c5627dabd2ec24f294e2e441a688f3afe2d4ee5690236d9f",
       "error": null,
@@ -7008,6 +7120,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028538/form424b2.htm"
+    },
+    "source-b6b5f18543b31e03335561f8": {
+      "content_hash": "3d3bb905d1bc35249e95aae0e5407cfbb0c9948d4c1a52b3cc9f1c2cd15365de",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0001141391-22-000023",
+        "filed_date": null,
+        "filing_cik": "0001141391",
+        "form": "10-K",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139122000023/ma-20211231.htm"
     },
     "source-b6b600538b05563a92f945fc": {
       "meta": {
@@ -7767,6 +7895,22 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028533/form424b2.htm"
+    },
+    "source-caa07b33d3c36dfbfab10da4": {
+      "content_hash": "e2a7d48eaae537681e29b1818b805f0d5fe7a7679187e917df06c0bc937c97fe",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Goldman Sachs",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2021/goldman-sachs-to-acquire-greensky"
     },
     "source-caf9b28600b243a4ebfa78e3": {
       "content_hash": "cf0834d418cea03359cd7102d5f843bc2df0e6d461f882993a1449b63dd1087e",
@@ -8652,6 +8796,22 @@
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/googexhibit1004q22026.htm"
     },
+    "source-e1dd7eee3367fa1b35eed557": {
+      "content_hash": "de49c60bc8cf1366cb43b100b1c6da508f094f22011c7df2c7ede7a76b33af26",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": "0001193125-21-257596",
+        "filed_date": "2021-08-26",
+        "filing_cik": "0000006281",
+        "form": "8-K",
+        "publisher": "Analog Devices, Inc. / U.S. SEC",
+        "source_type": "sec_filing"
+      },
+      "status": "downloaded",
+      "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312521257596/d218368d8k.htm"
+    },
     "source-e2017e1a799cd0f30fa8dea7": {
       "content_hash": "9943bb0689d405c2c1e7778a41d8da540283c16a9173fc2ceed2f65c5e6e53e6",
       "error": null,
@@ -8848,6 +9008,22 @@
       },
       "status": "discovered",
       "url": "https://group.softbank/en/news/press/20260330_1"
+    },
+    "source-e6311b12ec2ff80d9e20a799": {
+      "content_hash": "1e6690fcb4578226c7f5d49d4fcec01f6bb1550969bdeb6bad563a4bfd563349",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "accession_number": null,
+        "filed_date": null,
+        "filing_cik": null,
+        "form": null,
+        "publisher": "Goldman Sachs",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2022/announcement-11-apr-2022"
     },
     "source-e6b3011daaedfd8c7b807be1": {
       "meta": {

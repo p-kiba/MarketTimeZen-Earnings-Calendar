@@ -1,0 +1,106 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-e-trade-financial-corporation",
+      "country": null,
+      "display_name": "E*TRADE Financial Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-morgan-stanley",
+      "country": null,
+      "display_name": "Morgan Stanley",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-e-trade-financial-corporation",
+    "country": null,
+    "display_name": "E*TRADE Financial Corporation",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-9e69c3f1137269826ec6602c",
+          "amount_kind": "purchase_price",
+          "conditions": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-6a350f68f3b3c5c106608867"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "approximately $13 billion",
+          "payee_company_ids": [
+            "co-e-trade-financial-corporation"
+          ],
+          "payer_company_ids": [
+            "co-morgan-stanley"
+          ],
+          "qualifier": "approximately",
+          "scope": "買収発表時のall-stock transaction value。株価に基づく概算額で、原文通貨コード不明。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Morgan StanleyがE*TRADEの買収契約を締結し、オンライン証券、セルフディレクテッド投資、株式報酬プランをウェルスマネジメントへ統合する計画を発表。",
+      "direction": "directed",
+      "event_date": "2020-02-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-fe2fd87b5d0755df1471feb9",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-morgan-stanley",
+      "status_as_of": "2020-02-20",
+      "target_company_id": "co-e-trade-financial-corporation",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-02-20"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

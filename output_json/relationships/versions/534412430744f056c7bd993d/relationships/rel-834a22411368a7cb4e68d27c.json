@@ -1,0 +1,225 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-5b556bbf7af3314b7363a3cb",
+          "amount_kind": "purchase_price",
+          "conditions": "買収の総対価として開示された概算額。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "for approximately $21 billion in the aggregate",
+          "payee_company_ids": [
+            "co-immunomedics-inc"
+          ],
+          "payer_company_ids": [
+            "co-gilead-sciences-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "買収の総対価として開示された概算額。原文通貨コード不明。",
+          "value": "21000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2020-10-23",
+      "conditions": "",
+      "deal_id": "deal-7acd14666af3ca64d1f87326",
+      "detected_at": "2026-09-26T12:44:59+00:00",
+      "effective_date": null,
+      "event_id": "event-7acd14666af3ca64d1f87326",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-7acd14666af3ca64d1f87326"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-7acd14666af3ca64d1f87326"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-834a22411368a7cb4e68d27c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
+        },
+        "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r99",
+        "rule_version": "ddac16b1d656edb92b17779c8289dd2a01e8e50d67dee2224a108f98406b4b56",
+        "verified_at": "2026-09-26T12:44:59+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-7acd14666af3ca64d1f87326",
+      "excerpt": "Gilead Sciences, Inc. (Nasdaq: GILD) today announced the completion of the previously announced transaction to acquire Immunomedics, Inc.",
+      "locator": "p:3",
+      "normalized_text_hash": "a86d138c0760786ed068555fc8ee9df2382f4e7cb0b7a13deb2065e40506136f",
+      "section": "Official company disclosure",
+      "source_id": "source-581aa4149a033263aa25011d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-7acd14666af3ca64d1f87326"
+    ],
+    "description": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7acd14666af3ca64d1f87326"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T12:44:59+00:00",
+    "latest_event_ids": [
+      "event-7acd14666af3ca64d1f87326"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-834a22411368a7cb4e68d27c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2020-10-23",
+    "target_company_id": "co-immunomedics-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-581aa4149a033263aa25011d": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc"
+      },
+      "reason": "Primary-source review of merged research record r99; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r99",
+      "rule_version": "ddac16b1d656edb92b17779c8289dd2a01e8e50d67dee2224a108f98406b4b56",
+      "verified_at": "2026-09-26T12:44:59+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-completes-acquisition-of-immunomedics-inc",
+      "content_hash": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-10-23",
+      "publisher": "Gilead Sciences",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-581aa4149a033263aa25011d",
+      "source_type": "official_newsroom",
+      "title": "Gilead Sciences Completes Acquisition of Immunomedics, Inc."
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-5b556bbf7af3314b7363a3cb",
+        "amount_kind": "purchase_price",
+        "conditions": "買収の総対価として開示された概算額。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-7acd14666af3ca64d1f87326"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "for approximately $21 billion in the aggregate",
+        "payee_company_ids": [
+          "co-immunomedics-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "買収の総対価として開示された概算額。原文通貨コード不明。",
+        "value": "21000000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。",
+    "direction": "directed",
+    "event_date": "2020-10-23",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:44:59+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-834a22411368a7cb4e68d27c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2020-10-23",
+    "target_company_id": "co-immunomedics-inc",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-aldevron",
+      "country": null,
+      "display_name": "Aldevron",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-dhr",
+      "country": null,
+      "display_name": "Danaher Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-10",
+      "listing_status_source": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investors.danaher.com/2026-06-10-Danaher-Completes-Acquisition-of-Masimo-Corporation",
+          "symbol": "DHR",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-aldevron",
+    "country": null,
+    "display_name": "Aldevron",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-3ea01511c941e0fbc639133d",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時に示された現金購入価格。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.6 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2021-06-17の契約発表時点の金額。契約発表時に示された現金購入価格。 完了時点の調整後対価は未確認。",
+          "value": "9600000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-49d1fb6a624e17ad6cbed969",
+          "evidence-4dd06603a2f76323d60b500d",
+          "evidence-91d12b73ee54488864c73c16"
+        ],
+        "geography": "",
+        "headline": "プラスミドDNA・mRNA製造事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "DanaherはAldevronを買収し、プラスミドDNA、mRNA、タンパク質の製造能力をLife Sciences部門に加え、遺伝子医療向け製品群を拡充した。",
+      "direction": "directed",
+      "event_date": "2021-08-30",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:29+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-636f3e4f689a9bd51f5ee8aa",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-dhr",
+      "status_as_of": "2021-08-30",
+      "target_company_id": "co-aldevron",
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-08-30"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

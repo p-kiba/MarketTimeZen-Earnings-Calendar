@@ -1,0 +1,461 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "ambiguous",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-11-22",
+      "conditions": "",
+      "deal_id": "deal-4a437f2b0d402a48e90b384b",
+      "detected_at": "2026-09-25T14:57:31+00:00",
+      "effective_date": null,
+      "event_id": "event-4a437f2b0d402a48e90b384b",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-0abc68268b7aa1b43b4af998",
+        "evidence-cd43b0e029f3c0d56353ef9f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0abc68268b7aa1b43b4af998",
+            "evidence-cd43b0e029f3c0d56353ef9f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2110b6ef2c6af1e086212428": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4"
+        },
+        "reason": "Source-bound deterministic pilot validation. Exact primary URL, source hash, paragraph hashes, visible publication date, resolved party set and curated field assertions. No human-review claim; not a general extractor.",
+        "reviewer": null,
+        "rule_id": "pilot-source-2110b6ef2c6af1e086212428",
+        "rule_version": "1",
+        "verified_at": "2026-09-25T14:57:31+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-ffec646bc8864e624f889434",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-546 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 1.3 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "2024年Q4の追加転換債で実行済みの額。2026年の別ラウンドとは別。",
+          "value": "1300000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-160bc900f61cf1f800df0427",
+          "amount_kind": "incremental_commitment",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-547 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 2.7 billion",
+          "payee_company_ids": [
+            "co-anthropic"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "当該契約で2025年Q4までに投資予定と開示した残額。今回の資料だけで後日の払込完了とはしない。",
+          "value": "2700000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "2024年12月31日時点の支払実績と将来予定を区別。転換債の公正価値138億USDを投資額にしない。過去・将来ラウンドを合算しない。2025年予定分の後日の実行状況は未確認。",
+      "deal_id": "deal-4a437f2b0d402a48e90b384b",
+      "detected_at": "2026-09-26T08:16:15+00:00",
+      "effective_date": null,
+      "event_id": "event-54bbeedb3727eb6d9541c233",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-81ae09aba458dd6c8c0b696a",
+        "evidence-117c437a26bd4533bc4f6384"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-81ae09aba458dd6c8c0b696a",
+            "evidence-117c437a26bd4533bc4f6384"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-02-07",
+      "relationship_ids": [
+        "rel-b1155ffed44e7bba2bffc27b"
+      ],
+      "supersedes_event_id": "event-4a437f2b0d402a48e90b384b",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1f424e73af90b5c10b8d746e": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-amazon-anthropic-2024-correction",
+        "rule_version": "59e4d885a981230f414f00e093f294ed35c1f1a877ea0320579da537075f0e77",
+        "verified_at": "2026-09-26T08:16:15+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0abc68268b7aa1b43b4af998",
+      "excerpt": "a new $4 billion investment from Amazon",
+      "locator": "p:1",
+      "normalized_text_hash": "af6e49ad9389dd6048d5752be7513f4977a2b8c77b5e992123aa1aafa9805c3c",
+      "section": "Primary announcement",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "supports_fields": [
+        "relationship",
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-117c437a26bd4533bc4f6384",
+      "excerpt": "Amazon.com",
+      "locator": "sec-div:122",
+      "normalized_text_hash": "91e0f0d0370865418de202293a79c8d197db3f48ed995e3236f8e57250840396",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-1f424e73af90b5c10b8d746e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-81ae09aba458dd6c8c0b696a",
+      "excerpt": "third convertible note",
+      "locator": "sec-div:999",
+      "normalized_text_hash": "85295bb877497e72bab618451eb50ad1b85a7cb5080386f6927c36907e7c291f",
+      "section": "Verified contract and business scope",
+      "source_id": "source-1f424e73af90b5c10b8d746e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-cd43b0e029f3c0d56353ef9f",
+      "excerpt": "Amazon's total investment in Anthropic to $8 billion",
+      "locator": "p:1",
+      "normalized_text_hash": "5a3241b111f57469d4ec61ff3843bb6d2dd830f74c40f4c1cbc300a617db78db",
+      "section": "Primary announcement",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "supports_fields": [
+        "relationship",
+        "parties",
+        "status"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-81ae09aba458dd6c8c0b696a",
+        "evidence-117c437a26bd4533bc4f6384"
+      ],
+      "geography": "",
+      "headline": "2024年追加転換債投資",
+      "products": [
+        "Anthropic転換債"
+      ],
+      "scale": "",
+      "source_role": "転換債の投資者",
+      "target_role": "資金調達先"
+    },
+    "deal_ids": [
+      "deal-4a437f2b0d402a48e90b384b"
+    ],
+    "description": "Amazonの2024年第4四半期のAnthropic向け追加転換債投資は13億USD実行済み、別途27億USDを2025年第4四半期までに投資する予定と2024年10-Kで開示。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-81ae09aba458dd6c8c0b696a",
+      "evidence-117c437a26bd4533bc4f6384"
+    ],
+    "first_observed_at": "2026-09-25T14:57:31+00:00",
+    "last_observed_at": "2026-09-26T08:16:15+00:00",
+    "latest_event_ids": [
+      "event-54bbeedb3727eb6d9541c233"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2024-12-31",
+    "target_company_id": "co-anthropic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1f424e73af90b5c10b8d746e": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-amazon-anthropic-2024-correction",
+      "rule_version": "59e4d885a981230f414f00e093f294ed35c1f1a877ea0320579da537075f0e77",
+      "verified_at": "2026-09-26T08:16:15+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001018724-25-000004",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "content_hash": "caea8c0f7c1f8d434b0bbbaba69bd07b7bd4e4fb025a59266a914d40a52f89c1",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2025-02-07",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:08:40+00:00",
+      "source_id": "source-1f424e73af90b5c10b8d746e",
+      "source_type": "sec_filing",
+      "title": "amzn-20241231"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+      "content_hash": "818709648756a31b46afa82951f888bda6ba294420291bb30f2c4c2b18d2c5c4",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-11-22",
+      "publisher": "co-anthropic",
+      "retrieved_at": "2026-09-25T14:55:37+00:00",
+      "source_id": "source-2110b6ef2c6af1e086212428",
+      "source_type": "official_newsroom",
+      "title": "Powering the next generation of AI development with AWS \\ Anthropic"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-ffec646bc8864e624f889434",
+        "amount_kind": "investment_amount",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-546 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-81ae09aba458dd6c8c0b696a",
+          "evidence-117c437a26bd4533bc4f6384"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 1.3 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "exact",
+        "scope": "2024年Q4の追加転換債で実行済みの額。2026年の別ラウンドとは別。",
+        "value": "1300000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-160bc900f61cf1f800df0427",
+        "amount_kind": "incremental_commitment",
+        "conditions": "",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-547 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-81ae09aba458dd6c8c0b696a",
+          "evidence-117c437a26bd4533bc4f6384"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 2.7 billion",
+        "payee_company_ids": [
+          "co-anthropic"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "exact",
+        "scope": "当該契約で2025年Q4までに投資予定と開示した残額。今回の資料だけで後日の払込完了とはしない。",
+        "value": "2700000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-81ae09aba458dd6c8c0b696a",
+        "evidence-117c437a26bd4533bc4f6384"
+      ],
+      "geography": "",
+      "headline": "2024年追加転換債投資",
+      "products": [
+        "Anthropic転換債"
+      ],
+      "scale": "",
+      "source_role": "転換債の投資者",
+      "target_role": "資金調達先"
+    },
+    "description": "Amazonの2024年第4四半期のAnthropic向け追加転換債投資は13億USD実行済み、別途27億USDを2025年第4四半期までに投資する予定と2024年10-Kで開示。",
+    "direction": "directed",
+    "event_date": "2025-02-07",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T08:16:15+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b1155ffed44e7bba2bffc27b",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2024-12-31",
+    "target_company_id": "co-anthropic",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "not_total",
+      "contingency_unknown",
+      "unsupported_kind"
+    ]
+  }
+}

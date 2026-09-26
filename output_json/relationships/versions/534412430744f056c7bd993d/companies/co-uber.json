@@ -1,0 +1,122 @@
+{
+  "build_id": "534412430744f056c7bd993d",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000909832",
+      "company_id": "co-cost",
+      "country": null,
+      "display_name": "COSTCO WHOLESALE CORP /NEW",
+      "entity_status": "resolved",
+      "legal_name": "COSTCO WHOLESALE CORP /NEW",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000909832.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000909832.json",
+          "symbol": "COST",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-uber",
+      "country": null,
+      "display_name": "Uber Technologies, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-16",
+      "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+          "symbol": "UBER",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-uber",
+    "country": null,
+    "display_name": "Uber Technologies, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-16",
+    "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+        "symbol": "UBER",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-9df2a3f982016acad2c2c012"
+        ],
+        "geography": "米国",
+        "headline": "Uber Eats配送を米国47州へ拡大",
+        "products": [
+          "Uber Eats",
+          "即時・予約配送"
+        ],
+        "scale": "47州、約600拠点（発表時点）",
+        "source_role": "配送プラットフォーム",
+        "target_role": "倉庫型店舗・商品販売"
+      },
+      "description": "UberとCostcoがUber Eats経由の米国配送を17州から47州へ拡大。約600拠点から即時・予約配送を提供すると公表。提携収益や手数料率は非掲載。",
+      "direction": "directed",
+      "event_date": "2026-09-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-afd379cf3bc32a8b61ff2b59",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-uber",
+      "status_as_of": "2026-09-16",
+      "target_company_id": "co-cost",
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2026-09-16"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}
