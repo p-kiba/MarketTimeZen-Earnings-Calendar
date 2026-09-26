@@ -1,12 +1,12 @@
-import {latestResults,resultRows} from './earnings-results.js?v=8e78396e3502';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=8e78396e3502';
-import {dealRows} from './deals.js?v=8e78396e3502';
-import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=8e78396e3502';
-import {DataClient} from './data-client.js?v=8e78396e3502';
-import {CompanyView} from './company-view.js?v=8e78396e3502';
-import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=8e78396e3502';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=8e78396e3502';
-import {dictionary} from './i18n.js?v=8e78396e3502';
+import {latestResults,resultRows} from './earnings-results.js?v=68012a419a70';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=68012a419a70';
+import {dealRows} from './deals.js?v=68012a419a70';
+import {graphPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=68012a419a70';
+import {DataClient} from './data-client.js?v=68012a419a70';
+import {CompanyView} from './company-view.js?v=68012a419a70';
+import {queryState,calendarURL,updateURL,safeSourceURL} from './navigation.js?v=68012a419a70';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=68012a419a70';
+import {dictionary} from './i18n.js?v=68012a419a70';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -34,8 +34,8 @@ function shell(){
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
-    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button></div><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div><div id="mtz-list" hidden></div></section>
-    <footer class="mtz-footer"><div id="mtz-legend"></div><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
+    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button></div><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
+    <footer class="mtz-footer"><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
     <aside id="mtz-detail" class="mtz-detail" role="dialog" aria-labelledby="mtz-detail-title" tabindex="-1" hidden><button id="mtz-close" type="button"></button><div id="mtz-detail-content"></div></aside>`;
   $('mtz-lang').onclick=()=>{state.lang=state.lang==='en'?'ja':'en';updateURL(state);translate();if(client){renderIntro();render();}closeDetail();};
   $('mtz-deals').onclick=()=>{generation++;request?.abort();state.company=null;state.symbol='';state.relation=null;state.q='';$('mtz-search').value='';$('mtz-results').replaceChildren();companies.clear();relationships.clear();closeDetail();updateURL(state,true);message('');renderIntro();render();};
