@@ -1117,6 +1117,18 @@
       "status": "retryable_error",
       "url": "https://www.lilly.com/news/stories/advancing-medicine-discovery-with-ai"
     },
+    "source-1bf04cb307e50b46e25b3f70": {
+      "content_hash": "dcaf057f6374544c9ea6aaec5014f5d00cdddc4c9f4d4ecd4be3252344d7cf4f",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Amgen",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.amgen.com/newsroom/press-releases/2021/10/amgen-successfully-completes-acquisition-of-teneobio-inc"
+    },
     "source-1c06ff544e06569870b7d10e": {
       "meta": {
         "accession_number": "0001213900-26-102684",
@@ -1282,6 +1294,18 @@
       },
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-introduces-a-new-brand-vision-as-the-cloud-built-for-this-moment"
+    },
+    "source-1fa2321ff0c44e5fee7dace4": {
+      "content_hash": "cc7d96335c0003e2b2a5058313aa6596dce903c1d0e56015b753fba10ba9a57d",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Merck",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.merck.com/news/merck-to-acquire-eyebio/"
     },
     "source-1fda7489517c6c54fcf3b4af": {
       "meta": {
@@ -1571,6 +1595,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000135445726000910/AMZN_8A_Cert_1018724.pdf"
     },
+    "source-294df4ca406480d535779d2c": {
+      "content_hash": "78b8bd0eff086ad09c29484fd4d1845c731e9ff5dd8141b35af4e421a2ec3917",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Amgen",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.amgen.com/newsroom/press-releases/2023/10/amgen-completes-acquisition-of-horizon-therapeutics-plc"
+    },
     "source-29fecdbce2c0aeb8f56d1699": {
       "meta": {
         "publisher": "co-msft",
@@ -1696,6 +1732,18 @@
       },
       "status": "parsed",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm"
+    },
+    "source-2c7a4d54e3ed0740bc40bf46": {
+      "content_hash": "a9443a88c41a682649981036d076a00721e4fc9d09c6a36abb37e19bb32b7308",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Merck",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.merck.com/news/merck-completes-acquisition-of-eyebio/"
     },
     "source-2ceee473fb49d6f36f7d1cbc": {
       "content_hash": "ae3ac0105b6b9f013b3980c7806eafdf17334af955ab83d7e07ac91fc5419578",
@@ -3377,6 +3425,18 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-joins-department-of-energys-genesis-mission-to-advance-u-s-research-and-innovation"
     },
+    "source-5782affe1de3df5b4609a5c9": {
+      "content_hash": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "AbbVie",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://news.abbvie.com/2026-09-03-AbbVie-Completes-Acquisition-of-Apogee-Therapeutics"
+    },
     "source-57c2e8456755e322bd79c3b9": {
       "meta": {
         "publisher": "co-coreweave",
@@ -3404,6 +3464,18 @@
       },
       "status": "candidate_created",
       "url": "https://openai.com/index/amazon-partnership/"
+    },
+    "source-581aa4149a033263aa25011d": {
+      "content_hash": "1984f425fe2569f3a4b94bc1f77229d23cf2df23f561f04b4cb057ae0c3fbfbc",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Gilead Sciences",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-completes-acquisition-of-immunomedics-inc"
     },
     "source-587e14746647647685fb62e8": {
       "content_hash": "406883fbaf7f815ea704e3a7280a707b72ee7a348a6ccb519a1311f1f1551029",
@@ -3799,6 +3871,18 @@
       "status": "discovered",
       "url": "https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement"
     },
+    "source-650005e676c605561f1ff5b8": {
+      "content_hash": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Gilead Sciences",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.gilead.com/news/news-details/2026/gilead-sciences-completes-acquisition-of-arcellx-ahead-of-potential-commercial-launch-of-anito-cel"
+    },
     "source-6532b0e2e7ac10e7868312c9": {
       "content_hash": "3592244c93bf5d3618ce0c6b11bb5daa14fdab6bff9160480e442f47ee573d84",
       "error": null,
@@ -4085,6 +4169,18 @@
       },
       "status": "candidate_created",
       "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+    },
+    "source-6e527bc130585750bdd3bf4e": {
+      "content_hash": "91f4ddd45f377b431913eaca769dd61bdd218df89cd001f99034cfbcaa99a5ad",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Merck",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.merck.com/news/merck-completes-acquisition-of-verona-pharma/"
     },
     "source-6f90dd021bc3cca8a8d82d7a": {
       "meta": {
@@ -5262,6 +5358,18 @@
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426028819/form424b2.htm"
     },
+    "source-8e88b06e8ba265d4400c92ce": {
+      "content_hash": "116335f8d5315bc58706999ea9178b6c467aab952a57daeb9ff0266e9bfaba03",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Merck",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.merck.com/news/merck-closes-exclusive-global-license-agreement-for-lm-299-an-investigational-anti-pd-1-vegf-bispecific-antibody/"
+    },
     "source-8eebeb23b0448a172175ed25": {
       "attachments_discovered": true,
       "content_hash": "e4be8661ade61f37ec07dd02637526b22e80d01d7b52ac1f8cee6b6dcfd57ffc",
@@ -5652,6 +5760,18 @@
       "status": "reviewed",
       "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics"
     },
+    "source-98a9d36a6bdc60852006a4a1": {
+      "content_hash": "0c95f77433c4217476662df7e4ae5fdd28cf5ebc7ba258b8094df687a11298d9",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Merck",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.merck.com/news/merck-completes-acquisition-of-prometheus-biosciences-inc/"
+    },
     "source-98b725fc97c7b56cf1b968b5": {
       "attachments_discovered": true,
       "content_hash": "ae8a6f875ac4b86ba3ccfa5b73292cdd8c5e9a32dd99a7aa965a90974f67d959",
@@ -5978,6 +6098,18 @@
       },
       "status": "unsupported",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026102441/ea0306246-01_424b2.htm"
+    },
+    "source-9fae525922452c89c32693df": {
+      "content_hash": "37fab41510a57e9784b9df3ea0fa0034a05625c982ca1cde6067c6ec70ef9002",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Johnson & Johnson",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.investor.jnj.com/investor-news/news-details/2025/Johnson--Johnson-completes-acquisition-of-Halda-Therapeutics-and-its-novel-platform-to-revolutionize-cancer-treatment-and-enable-next-generation-oral-therapies/default.aspx"
     },
     "source-9fea911a654adcb1007a7839": {
       "content_hash": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41",
@@ -7235,6 +7367,18 @@
       },
       "status": "parsed",
       "url": "https://corporate.walmart.com/news/2025/09/04/donna-morris-to-associates-being-people-led-means-investing-in-you"
+    },
+    "source-c052e91a4cf3ccd6d8f9b5e3": {
+      "content_hash": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Amgen",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://wwwext.amgen.com/newsroom/press-releases/2026/01/amgen-acquires-dark-blue-therapeutics-bolstering-oncology-pipeline"
     },
     "source-c09dc77ec843fdff3484a6da": {
       "content_hash": "a955c08f537a52e05b5d1b798436c987450137cb7533a5aecba460280603f50b",
@@ -9230,6 +9374,18 @@
       },
       "status": "parsed",
       "url": "https://www.aboutamazon.com/news/aws/aws-cto-future-of-ai"
+    },
+    "source-f4ccdfbfeefb7f23d85386c1": {
+      "content_hash": "a5e69f2e62177ae4144c82ea6b50418f5dcfe67ba648284d09be65e9295186a1",
+      "error": null,
+      "extraction_version": "rules-1.0",
+      "last_checked_at": "2026-09-26T00:00:00+00:00",
+      "meta": {
+        "publisher": "Amgen",
+        "source_type": "official_newsroom"
+      },
+      "status": "downloaded",
+      "url": "https://www.amgen.com/newsroom/press-releases/2022/10/amgen-successfully-completes-acquisition-of-chemocentryx"
     },
     "source-f4ce4fc343f8af95ed8aee15": {
       "meta": {

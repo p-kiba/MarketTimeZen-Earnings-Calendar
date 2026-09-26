@@ -1,0 +1,198 @@
+{
+  "build_id": "96cdda6bd0ae9e9e53f0fe09",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-03-18",
+      "conditions": "",
+      "deal_id": "deal-4fb18049fa4a8dd53a0f611c",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-4fb18049fa4a8dd53a0f611c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-4fb18049fa4a8dd53a0f611c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-4fb18049fa4a8dd53a0f611c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-893537b62c6fcbb12218e592"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+        "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4fb18049fa4a8dd53a0f611c",
+      "excerpt": "Blackwell",
+      "locator": "p:9",
+      "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-4fb18049fa4a8dd53a0f611c"
+      ],
+      "geography": "",
+      "headline": "Project Ceibaの共同開発",
+      "products": [
+        "Blackwell"
+      ],
+      "scale": "",
+      "source_role": "GPU・AI基盤技術",
+      "target_role": "導入・共同開発側"
+    },
+    "deal_ids": [
+      "deal-4fb18049fa4a8dd53a0f611c"
+    ],
+    "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-4fb18049fa4a8dd53a0f611c"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-4fb18049fa4a8dd53a0f611c"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-893537b62c6fcbb12218e592",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-aws",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+      "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "content_hash": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-03-18",
+      "publisher": "co-nvda",
+      "retrieved_at": "2026-09-26T03:57:45+00:00",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "source_type": "official_newsroom",
+      "title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing | NVIDIA Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-4fb18049fa4a8dd53a0f611c"
+      ],
+      "geography": "",
+      "headline": "Project Ceibaの共同開発",
+      "products": [
+        "Blackwell"
+      ],
+      "scale": "",
+      "source_role": "GPU・AI基盤技術",
+      "target_role": "導入・共同開発側"
+    },
+    "description": "AWSとNVIDIAは、Grace BlackwellとAWSの仮想化・ネットワーク技術を組み合わせ、NVIDIAのAI研究用基盤を共同開発すると発表。",
+    "direction": "undirected",
+    "event_date": "2024-03-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-893537b62c6fcbb12218e592",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-aws",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

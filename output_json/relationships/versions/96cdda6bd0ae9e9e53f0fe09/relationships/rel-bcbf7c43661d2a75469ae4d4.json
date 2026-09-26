@@ -1,0 +1,335 @@
+{
+  "build_id": "96cdda6bd0ae9e9e53f0fe09",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-4d2840b695dbd39f72c1dd13",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の現金購入価格。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$21.4 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2019-02-25の契約発表時点の金額。契約発表時の現金購入価格。 完了時点の調整後対価は未確認。",
+          "value": "21400000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-e098b0733d264c74c22c98d3",
+          "amount_kind": "other",
+          "conditions": "取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$20 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2019-02-25の契約発表時点の金額。取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。 完了時点の調整後対価は未確認。",
+          "value": "20000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2020-03-31",
+      "conditions": "2020-03-31に買収完了し、事業名はCytivaとなった。 約200億ドルのネット購入価格は税務上の便益を考慮した別表現であり、別の支払額として加算しない。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+      "deal_id": "deal-2962ed671a2e54d7ce07692d",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2020-03-31",
+      "event_id": "event-2962ed671a2e54d7ce07692d",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-2962ed671a2e54d7ce07692d",
+        "evidence-7eb7094291f2247e15a48dd6"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-2962ed671a2e54d7ce07692d",
+            "evidence-7eb7094291f2247e15a48dd6"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bcbf7c43661d2a75469ae4d4"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1103bb84dc36b92cb2910635": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+          "source-b3ba4c478b869f53bc5db300": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r20",
+        "rule_version": "2e99012656efb9c3674a486119fd687e0468e8f612efbb0988a5037852a521f9",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2962ed671a2e54d7ce07692d",
+      "excerpt": "acquisition",
+      "locator": "p:6",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-1103bb84dc36b92cb2910635",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-7eb7094291f2247e15a48dd6",
+      "excerpt": "$21.4 billion",
+      "locator": "p:6",
+      "normalized_text_hash": "8d06b599418499b642beed41c537ff049f38b86c2918e48c8ef02a60f0f91b9f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-b3ba4c478b869f53bc5db300",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-2962ed671a2e54d7ce07692d",
+        "evidence-7eb7094291f2247e15a48dd6"
+      ],
+      "geography": "",
+      "headline": "GEのBiopharma事業買収（Cytiva）",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "事業売却者"
+    },
+    "deal_ids": [
+      "deal-2962ed671a2e54d7ce07692d"
+    ],
+    "description": "DanaherはGeneral Electric CompanyからLife Sciences部門のBiopharma事業を買収し、Cytivaとして運営する。GE全社を取得したものではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-2962ed671a2e54d7ce07692d",
+      "evidence-7eb7094291f2247e15a48dd6"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-2962ed671a2e54d7ce07692d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bcbf7c43661d2a75469ae4d4",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2020-03-31",
+    "target_company_id": "co-ge",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1103bb84dc36b92cb2910635": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+        "source-b3ba4c478b869f53bc5db300": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r20",
+      "rule_version": "2e99012656efb9c3674a486119fd687e0468e8f612efbb0988a5037852a521f9",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2020-03-31-Danaher-Completes-Acquisition-Of-The-Biopharma-Business-Of-General-Electric-Life-Sciences-Business-Will-Be-Called-Cytiva",
+      "content_hash": "f1e9140d8fce6cea21c768588cc289366cd93f3e0ab1afd86b1c6ba5a3d25c3a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2020-03-31",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-1103bb84dc36b92cb2910635",
+      "source_type": "official_newsroom",
+      "title": "Danaher Completes Acquisition Of The Biopharma Business Of General Electric Life Sciences; Business Will Be Called Cytiva - Mar 31, 2020"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2019-02-25-Danaher-to-Acquire-the-Biopharma-Business-of-General-Electric-Life-Sciences-for-21-4-Billion",
+      "content_hash": "dacbb77676238f2e4582e7167fb5d422d5cd388b1cbf01e74adbad84326f1701",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2019-02-25",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-b3ba4c478b869f53bc5db300",
+      "source_type": "official_newsroom",
+      "title": "Danaher to Acquire the Biopharma Business of General Electric Life Sciences for $21.4 Billion - Feb 25, 2019"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-4d2840b695dbd39f72c1dd13",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時の現金購入価格。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-2962ed671a2e54d7ce07692d",
+          "evidence-7eb7094291f2247e15a48dd6"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$21.4 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-dhr"
+        ],
+        "qualifier": "approximately",
+        "scope": "2019-02-25の契約発表時点の金額。契約発表時の現金購入価格。 完了時点の調整後対価は未確認。",
+        "value": "21400000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-e098b0733d264c74c22c98d3",
+        "amount_kind": "other",
+        "conditions": "取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-2962ed671a2e54d7ce07692d",
+          "evidence-7eb7094291f2247e15a48dd6"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$20 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-dhr"
+        ],
+        "qualifier": "approximately",
+        "scope": "2019-02-25の契約発表時点の金額。取引構造から見込まれる税務上の便益を考慮した会社公表のネット購入価格。21.4 billionへ加算しない。 完了時点の調整後対価は未確認。",
+        "value": "20000000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-2962ed671a2e54d7ce07692d",
+        "evidence-7eb7094291f2247e15a48dd6"
+      ],
+      "geography": "",
+      "headline": "GEのBiopharma事業買収（Cytiva）",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "事業売却者"
+    },
+    "description": "DanaherはGeneral Electric CompanyからLife Sciences部門のBiopharma事業を買収し、Cytivaとして運営する。GE全社を取得したものではない。",
+    "direction": "directed",
+    "event_date": "2020-03-31",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bcbf7c43661d2a75469ae4d4",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2020-03-31",
+    "target_company_id": "co-ge",
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "build_id": "96cdda6bd0ae9e9e53f0fe09",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-04-09",
+      "conditions": "",
+      "deal_id": "deal-7e65bb21f303e5667d225230",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-7e65bb21f303e5667d225230",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-7e65bb21f303e5667d225230"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-7e65bb21f303e5667d225230"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-71f8ac871fc7215fa0a1e901"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-41db644bf718fc177149817e": "29be20bbfcb80e79390b2e2d142ee0eb8ccdc9a62bd29d860e4454d851fc7c87"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-41db644bf718fc177149817e",
+        "rule_version": "662c49e5e123aaee4ab5ac7ad6cffe37e16bd6f4450a0cebcf4f48b96d73d08e",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-7e65bb21f303e5667d225230",
+      "excerpt": "Google Cloud customers",
+      "locator": "p:26",
+      "normalized_text_hash": "134e8cce884748a0e442b38a4ad114c5230cd91351fb5bd9e3d58e509165a00e",
+      "section": "Official disclosure: business context",
+      "source_id": "source-41db644bf718fc177149817e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-7e65bb21f303e5667d225230"
+      ],
+      "geography": "",
+      "headline": "AIモデルの学習・提供用クラウド基盤",
+      "products": [
+        "Google Cloud AI infrastructure"
+      ],
+      "scale": "",
+      "source_role": "AI計算基盤を提供",
+      "target_role": "モデル開発・提供で利用"
+    },
+    "deal_ids": [
+      "deal-7e65bb21f303e5667d225230"
+    ],
+    "description": "AI21 LabsはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7e65bb21f303e5667d225230"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "latest_event_ids": [
+      "event-7e65bb21f303e5667d225230"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-71f8ac871fc7215fa0a1e901",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-google",
+    "status_as_of": "2024-04-09",
+    "target_company_id": "co-ai21",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-41db644bf718fc177149817e": "29be20bbfcb80e79390b2e2d142ee0eb8ccdc9a62bd29d860e4454d851fc7c87"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-41db644bf718fc177149817e",
+      "rule_version": "662c49e5e123aaee4ab5ac7ad6cffe37e16bd6f4450a0cebcf4f48b96d73d08e",
+      "verified_at": "2026-09-26T04:47:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/google-cloud-next-2024-generative-ai-gemini/",
+      "content_hash": "29be20bbfcb80e79390b2e2d142ee0eb8ccdc9a62bd29d860e4454d851fc7c87",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-04-09",
+      "publisher": "co-google",
+      "retrieved_at": "2026-09-26T04:45:28+00:00",
+      "source_id": "source-41db644bf718fc177149817e",
+      "source_type": "official_newsroom",
+      "title": "Google Cloud Next 2024: Gemini and generative AI updates"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-7e65bb21f303e5667d225230"
+      ],
+      "geography": "",
+      "headline": "AIモデルの学習・提供用クラウド基盤",
+      "products": [
+        "Google Cloud AI infrastructure"
+      ],
+      "scale": "",
+      "source_role": "AI計算基盤を提供",
+      "target_role": "モデル開発・提供で利用"
+    },
+    "description": "AI21 LabsはGoogle CloudのAI基盤を利用する顧客として公表された。TPU・GPU・AIソフトウェアでモデルの学習・提供を支える。個社別の製品構成や契約額は不明で、2024年4月時点の利用関係。",
+    "direction": "directed",
+    "event_date": "2024-04-09",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-71f8ac871fc7215fa0a1e901",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-google",
+    "status_as_of": "2024-04-09",
+    "target_company_id": "co-ai21",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

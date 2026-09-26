@@ -1,0 +1,307 @@
+{
+  "build_id": "96cdda6bd0ae9e9e53f0fe09",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-3ea01511c941e0fbc639133d",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時に示された現金購入価格。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$9.6 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-dhr"
+          ],
+          "qualifier": "approximately",
+          "scope": "2021-06-17の契約発表時点の金額。契約発表時に示された現金購入価格。 完了時点の調整後対価は未確認。",
+          "value": "9600000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2021-08-30",
+      "conditions": "Aldevronは買収後もDanaherのLife Sciences部門で独立した事業会社・ブランドとして運営。 金額は契約発表時点の開示値であり、買収完了時の調整後取得対価とは区別する。",
+      "deal_id": "deal-49d1fb6a624e17ad6cbed969",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2021-08-30",
+      "event_id": "event-49d1fb6a624e17ad6cbed969",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-49d1fb6a624e17ad6cbed969",
+        "evidence-4dd06603a2f76323d60b500d",
+        "evidence-91d12b73ee54488864c73c16"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-49d1fb6a624e17ad6cbed969",
+            "evidence-4dd06603a2f76323d60b500d",
+            "evidence-91d12b73ee54488864c73c16"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-636f3e4f689a9bd51f5ee8aa"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-131039e01e81a4b0c310ee48": "3034ce38112c86d76d6b3720ac24740a467761436ea68b3caa9ada21390ffef0",
+          "source-bf7fc3b9b827bac86de7441c": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r19",
+        "rule_version": "6f459b3a5d533f5dcfed4f1ff0e2bdd2aa8683a0a3082ecc9b8a8c8165ebfb08",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-49d1fb6a624e17ad6cbed969",
+      "excerpt": "acquisition",
+      "locator": "p:6",
+      "normalized_text_hash": "da1a59e9ce43539f6871f60e95e38e65ccd74c0cb3fbc1dc8af9c442fd9d0323",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-131039e01e81a4b0c310ee48",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-4dd06603a2f76323d60b500d",
+      "excerpt": "plasmid DNA",
+      "locator": "p:7",
+      "normalized_text_hash": "edf8d25c548dc98409c7ce71dad346329b4a73c0aca91d6e31549ea7ce294c4d",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-bf7fc3b9b827bac86de7441c",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-91d12b73ee54488864c73c16",
+      "excerpt": "$9.6 billion",
+      "locator": "p:6",
+      "normalized_text_hash": "14e96015383a25b3204200e3ac010ca73a02a9cdc8485d8bf8f040ace50772ff",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-bf7fc3b9b827bac86de7441c",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-49d1fb6a624e17ad6cbed969",
+        "evidence-4dd06603a2f76323d60b500d",
+        "evidence-91d12b73ee54488864c73c16"
+      ],
+      "geography": "",
+      "headline": "プラスミドDNA・mRNA製造事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-49d1fb6a624e17ad6cbed969"
+    ],
+    "description": "DanaherはAldevronを買収し、プラスミドDNA、mRNA、タンパク質の製造能力をLife Sciences部門に加え、遺伝子医療向け製品群を拡充した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-49d1fb6a624e17ad6cbed969",
+      "evidence-4dd06603a2f76323d60b500d",
+      "evidence-91d12b73ee54488864c73c16"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-49d1fb6a624e17ad6cbed969"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-636f3e4f689a9bd51f5ee8aa",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2021-08-30",
+    "target_company_id": "co-aldevron",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-131039e01e81a4b0c310ee48": "3034ce38112c86d76d6b3720ac24740a467761436ea68b3caa9ada21390ffef0",
+        "source-bf7fc3b9b827bac86de7441c": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r19",
+      "rule_version": "6f459b3a5d533f5dcfed4f1ff0e2bdd2aa8683a0a3082ecc9b8a8c8165ebfb08",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2021-08-30-Danaher-Completes-Acquisition-of-Aldevron",
+      "content_hash": "3034ce38112c86d76d6b3720ac24740a467761436ea68b3caa9ada21390ffef0",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-08-30",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-131039e01e81a4b0c310ee48",
+      "source_type": "official_newsroom",
+      "title": "Danaher Completes Acquisition of Aldevron - Aug 30, 2021"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.danaher.com/2021-06-17-Danaher-To-Acquire-Aldevron",
+      "content_hash": "35adb869ec647b3fd537726ec1de477633a5154be93d8f36173eb91f0322c9af",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2021-06-17",
+      "publisher": "Danaher Corporation",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-bf7fc3b9b827bac86de7441c",
+      "source_type": "official_newsroom",
+      "title": "Danaher To Acquire Aldevron - Jun 17, 2021"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-3ea01511c941e0fbc639133d",
+        "amount_kind": "purchase_price",
+        "conditions": "契約発表時に示された現金購入価格。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-49d1fb6a624e17ad6cbed969",
+          "evidence-4dd06603a2f76323d60b500d",
+          "evidence-91d12b73ee54488864c73c16"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$9.6 billion",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-dhr"
+        ],
+        "qualifier": "approximately",
+        "scope": "2021-06-17の契約発表時点の金額。契約発表時に示された現金購入価格。 完了時点の調整後対価は未確認。",
+        "value": "9600000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-49d1fb6a624e17ad6cbed969",
+        "evidence-4dd06603a2f76323d60b500d",
+        "evidence-91d12b73ee54488864c73c16"
+      ],
+      "geography": "",
+      "headline": "プラスミドDNA・mRNA製造事業の買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "DanaherはAldevronを買収し、プラスミドDNA、mRNA、タンパク質の製造能力をLife Sciences部門に加え、遺伝子医療向け製品群を拡充した。",
+    "direction": "directed",
+    "event_date": "2021-08-30",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-636f3e4f689a9bd51f5ee8aa",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-dhr",
+    "status_as_of": "2021-08-30",
+    "target_company_id": "co-aldevron",
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

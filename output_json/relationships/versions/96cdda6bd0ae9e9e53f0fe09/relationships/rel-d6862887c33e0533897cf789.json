@@ -1,0 +1,173 @@
+{
+  "build_id": "96cdda6bd0ae9e9e53f0fe09",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-10-23",
+      "conditions": "発表時点で複数の進行中施策を記載。二社間金額と契約期間は当該発表に記載なし。",
+      "deal_id": "deal-78eee7f5d229fac3f9365c3a",
+      "detected_at": "2026-09-26T12:38:30+00:00",
+      "effective_date": null,
+      "event_id": "event-78eee7f5d229fac3f9365c3a",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-78eee7f5d229fac3f9365c3a"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-78eee7f5d229fac3f9365c3a"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d6862887c33e0533897cf789"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+        },
+        "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r27",
+        "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+        "verified_at": "2026-09-26T12:38:30+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-78eee7f5d229fac3f9365c3a",
+      "excerpt": "L3Harris and Palantir’s strategic partnership encompasses a variety of ongoing initiatives",
+      "locator": "p:17",
+      "normalized_text_hash": "c99c4b656450a842faea448e2dbf5f81af36c2ff814e1fb4c1216e1ebaf7ee08",
+      "section": "Official company disclosure",
+      "source_id": "source-24de5433f9acf7cca7257afb",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-78eee7f5d229fac3f9365c3a"
+    ],
+    "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-78eee7f5d229fac3f9365c3a"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T12:38:30+00:00",
+    "latest_event_ids": [
+      "event-78eee7f5d229fac3f9365c3a"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-d6862887c33e0533897cf789",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2024-10-23",
+    "target_company_id": "co-l3harris",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-24de5433f9acf7cca7257afb": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r27; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r27",
+      "rule_version": "8789c4fd92573da964df51d226f3e79373e3ff59383f5f9634d7269a21bcd8b5",
+      "verified_at": "2026-09-26T12:38:30+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.l3harris.com/newsroom/press-release/2024/10/l3harris-and-palantir-announce-strategic-partnership",
+      "content_hash": "f5a7523d1715f188f183d1bcc51874d6526e08baf9039ace6d0f31ae727ef912",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-10-23",
+      "publisher": "L3Harris Technologies",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-24de5433f9acf7cca7257afb",
+      "source_type": "official_newsroom",
+      "title": "L3Harris and Palantir Announce Strategic Partnership | L3Harris® Fast. Forward."
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。",
+    "direction": "undirected",
+    "event_date": "2024-10-23",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T12:38:30+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-d6862887c33e0533897cf789",
+    "relationship_type": "partnership",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2024-10-23",
+    "target_company_id": "co-l3harris",
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}
