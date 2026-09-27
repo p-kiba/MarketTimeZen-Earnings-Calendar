@@ -123,10 +123,20 @@ export function edgeBend(a,b,positions) {
   return best;
 }
 
-// Keep opaque, single-line labels off their strokes and away from endpoint logos.
-// A label centered on a short horizontal edge can otherwise conceal it entirely.
-export function edgeLabelPlacement(a,b) {
+// Reserve the actual endpoint card sizes, including enlarged logos at low zoom.
+// Short horizontal edges put their label above the cards instead of squeezing
+// text into a gap that no longer exists.
+export function edgeLabelPlacement(a,b,sourceWidth=58,targetWidth=58,sourceHeight=58,targetHeight=58) {
   const dx=Math.abs(b.x-a.x),dy=Math.abs(b.y-a.y),vertical=dy>dx;
-  const labelWidth=vertical?220:Math.max(64,Math.min(300,dx-110));
-  return {labelWidth,labelX:vertical?labelWidth/2+14:0,labelY:vertical?0:-22};
+  if(vertical){
+    const labelWidth=220;
+    const labelX=dx/2+Math.max(sourceWidth,targetWidth)/2+labelWidth/2+20;
+    return {labelWidth,labelX,labelY:0};
+  }
+  const gap=dx-(sourceWidth+targetWidth)/2-36;
+  if(gap<72){
+    return {labelWidth:Math.min(360,Math.max(180,dx)),labelX:0,
+      labelY:-Math.max(sourceHeight,targetHeight)/2-30};
+  }
+  return {labelWidth:Math.min(520,gap),labelX:0,labelY:-22};
 }
