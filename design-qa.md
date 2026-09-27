@@ -132,3 +132,8 @@ P0/P1/P2はなし。P3として、全企業に検証済みの会社紹介文が�
 Product Design案2を、TSMC→Appleの公開済み関係で実装し、683×863のブラウザー表示で確認した。企業ロゴと方向、具体的な関係名、関係種別、基本情報、資料時点の注意、確認できる内容、一次資料、更新履歴の順で表示する。内部の検証ルール名・検出時刻・タイムゾーンは通常画面から除外した。一次資料の発行元は内部IDではなく企業表示名に変換する。企業詳細から進んだ場合だけ右上に「戻る」を表示し、直接開いた関係詳細は「×」を表示する。
 
 ヘッダーは Earnings Calendar / News / Connections Map の3タブに統一し、Company connectionsと重複していたNews入口を1つにまとめた。Newsを旧Company connectionsの位置へ配置した。
+### 2026-09-27 sidebar navigation refinement
+
+- Company detail opened from a relationship now keeps the relationship id, so the second-level company page shows `戻る` and returns to the relationship detail.
+- Company detail has a compact center-this-company icon beside the close control.
+- Official sites can be previewed in an optional in-panel browser; the external official-site link remains available when a site blocks framing.
