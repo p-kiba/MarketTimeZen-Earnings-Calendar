@@ -16,10 +16,10 @@ node tests/relationships/browser/unit.mjs
 .venv/bin/python scripts/version-map-assets.py
 .venv/bin/python -m relationships_py validate-public
 .venv/bin/python scripts/stage-site.py
-.venv/bin/python -m http.server 8000 --bind 127.0.0.1 --directory .site-build
+.venv/bin/python scripts/preview-map.py
 ```
 
-`http://127.0.0.1:8000/map.html` で確認できます。`--html-only` は取得済み決算データからHTMLだけを再生成します。通常の生成モードは従来どおりデータ取得を行います。`map.html` は生成器に依存しない静的エントリで、共通カレンダー用JSを読み込みません。
+プレビュー起動時に、未使用ポートで立ち上げた正確なURLが表示されます。古いサーバーのURLを再利用せず、このURLで確認してください。`--html-only` は取得済み決算データからHTMLだけを再生成します。通常の生成モードは従来どおりデータ取得を行います。`map.html` は生成器に依存しない静的エントリで、共通カレンダー用JSを読み込みません。
 
 - [設定・取得・Pages運用](docs/relationships-setup.md)
 - [候補の確認・承認・撤回・訂正](docs/relationships-review.md)
