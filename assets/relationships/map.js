@@ -85,7 +85,7 @@ function translate(){
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
   const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
-  $('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
+  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
   $('mtz-calendar').href=calendarURL(state);
   $('mtz-connections').href=connectionsURL(state);
@@ -560,7 +560,7 @@ async function renderSelection(){
 function openDetail(title){
   const panel=$('mtz-detail');if(panel.hidden)lastFocus=document.activeElement;
   panel.hidden=false;$('mtz-map-app').classList.add('has-detail');$('mtz-detail-content').replaceChildren(el('h2',title));$('mtz-detail-content').firstChild.id='mtz-detail-title';
-  $('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
+  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
   syncDetailLayout();
   $('mtz-close').focus({preventScroll:true});
   // Detail panels change the canvas size, not the user's zoom or pan.
@@ -597,7 +597,7 @@ function detailConnectionCard(r,cid){
 async function showCompany(cid){
   cid=client.canonicalId(cid);
   const seq=++detailGeneration,c=companies.get(cid)||client.companies.find(c=>c.company_id===cid);if(!c)return;
-  selected=cid;highlightCompany();openDetail('');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
+  selected=cid;highlightCompany();openDetail('');$('mtz-close').textContent=ux('← 戻る','← Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('企業選択へ戻る','Back to company selection'));
   const content=$('mtz-detail-content');content.classList.add('mtz-company-detail');content.querySelector('h2')?.remove();
   const hero=el('div',undefined,'mtz-company-hero');
   if(logo(c)){const img=el('img',undefined,'company-logo');img.src=logo(c);img.alt='';hero.append(img);}
