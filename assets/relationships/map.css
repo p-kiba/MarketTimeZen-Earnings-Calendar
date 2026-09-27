@@ -120,3 +120,9 @@ button:disabled{cursor:default;opacity:.55}
 /* Keep company-detail actions aligned as a single top row on every viewport. */
 .mtz-detail:has(.mtz-company-detail)>#mtz-detail-center{position:absolute;top:12px;right:68px;margin:0;display:block;font-size:25px;font-weight:500;line-height:44px}
 .mtz-detail:has(.mtz-company-detail)>#mtz-close{position:absolute!important;top:12px;right:16px;margin:0!important}
+
+/* Official site preview occupies the canvas beside the detail drawer. */
+.mtz-site-browser-overlay{position:fixed;z-index:30;inset:0 520px 0 0;margin:0;border:0;border-radius:0;background:#fff;box-shadow:inset -1px 0 0 var(--border);display:flex;flex-direction:column}
+.mtz-site-browser-overlay .mtz-site-browser-head{flex:0 0 auto;padding:14px 18px;border-bottom:1px solid var(--border)}
+.mtz-site-browser-overlay iframe{flex:1;width:100%;height:auto;min-height:0;border:0}
+@media(max-width:760px){.mtz-site-browser-overlay{inset:0}.mtz-site-browser-overlay .mtz-site-browser-head{padding:10px 14px}}
