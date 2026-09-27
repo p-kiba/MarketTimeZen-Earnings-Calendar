@@ -69,7 +69,6 @@ header {
 .mtz-feature-nav { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
 .mtz-feature-link { min-height: 44px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; color: #31343C; text-decoration: none; font-size: 14px; }
 .mtz-feature-link[aria-current] { background: #31343C; color: white; }
-.mtz-view-connections { min-height: 44px; margin-top: 8px; padding: 10px 14px; border: 1px solid #58799d; border-radius: 8px; color: #385a7c; background: white; cursor: pointer; }
 .controls {
   background-color: white;
   padding: 16px;
@@ -438,8 +437,9 @@ footer {
 </header>
 <div class="controls" data-market="us">
   <nav class="mtz-feature-nav" aria-label="Features">
-    <a class="mtz-feature-link" aria-current="page" href="index.html">Earnings calendar</a>
-    <a class="mtz-feature-link" href="map.html" onclick="event.preventDefault(); goToConnections();">Company connections · US companies</a>
+    <a class="mtz-feature-link" aria-current="page" href="index.html">Earnings Calendar</a>
+    <a class="mtz-feature-link" href="map.html" onclick="event.preventDefault(); goToConnections('connections');">Company connections</a>
+    <a class="mtz-feature-link" href="map.html?tab=map&amp;company=co-aapl&amp;view=map" onclick="event.preventDefault(); goToConnections('map');">Connections Map</a>
   </nav>
   <div class="top-controls-row">
     <div class="mode-toggle">
@@ -467,7 +467,6 @@ footer {
   </div>
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="Search by symbol (e.g., AAPL, TSLA)..." oninput="searchSymbols()">
-    <button class="mtz-view-connections" type="button" onclick="goToConnections(true)">View connections · US</button>
   </div>
 </div>
 <div class="container" id="calendar"></div>
@@ -488,7 +487,7 @@ function notifyFavorite(symbol) {
   const handler = window.webkit?.messageHandlers?.favoriteHandler;
   if (handler && typeof handler.postMessage === 'function') handler.postMessage({ symbol });
 }
-function goToConnections(useSearch = false) {
+function goToConnections(destination = 'connections') {
   const url = new URL('map.html', window.location.href);
   const params = new URLSearchParams(window.location.search);
   for (const key of ['favorites', 'lang', 'tz']) {
@@ -497,10 +496,10 @@ function goToConnections(useSearch = false) {
   }
   if (selectedMonth) url.searchParams.set('month', selectedMonth);
   url.searchParams.set('return_market', document.querySelector('.controls').dataset.market);
-  const query = useSearch ? document.getElementById('searchInput').value.trim().slice(0, 120) : '';
-  if (query) {
-    const exact = [...new Set(targetSymbols.filter(s => s.toUpperCase() === query.toUpperCase()))];
-    url.searchParams.set(exact.length === 1 ? 'symbol' : 'q', exact.length === 1 ? exact[0] : query);
+  if (destination === 'map') {
+    url.searchParams.set('tab', 'map');
+    url.searchParams.set('company', 'co-aapl');
+    url.searchParams.set('view', 'map');
   }
   window.location.href = url.href;
 }
