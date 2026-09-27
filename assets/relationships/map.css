@@ -141,5 +141,3 @@ button:disabled{cursor:default;opacity:.55}
 .mtz-time-orbit{position:absolute;bottom:8px;right:0;display:flex;gap:6px}.mtz-time-orbit button{background:#142e43;color:#d5f3ff;border:1px solid #39576d}.mtz-time-events summary{cursor:pointer;padding:12px 0;color:#c9e6f3}.mtz-time-map .mtz-time-inspector{margin-top:0}.mtz-time-map{min-height:0}.mtz-time-toolbar strong{font-size:28px}.mtz-time-map .mtz-time-events{max-height:250px}
 @media(max-width:760px){.mtz-time-volume{height:480px}.mtz-time-rail{left:-8px;padding-left:3px}.mtz-time-rail button{font-size:10px;padding:5px}.mtz-time-orbit button{padding:8px;font-size:12px}}
 .map-mode .mtz-time-toolbar{padding-top:48px}
-.mtz-time-focus-date{font-size:12px;color:#a8cfe1;letter-spacing:0}.mtz-time-controls select{max-width:150px}
-@media(max-width:760px){.mtz-time-controls{flex-wrap:wrap}.mtz-time-controls select{max-width:140px;font-size:12px}}
