@@ -83,8 +83,9 @@ function translate(){
   document.documentElement.lang=state.lang;
   document.querySelector('.header-title').textContent=t('title');document.title=t('title')+' — Market Time Zen';
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
-  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-close':'close','mtz-coverage':'coverage'};
+  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
+  $('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
   $('mtz-calendar').href=calendarURL(state);
   $('mtz-connections').href=connectionsURL(state);
@@ -559,7 +560,7 @@ async function renderSelection(){
 function openDetail(title){
   const panel=$('mtz-detail');if(panel.hidden)lastFocus=document.activeElement;
   panel.hidden=false;$('mtz-map-app').classList.add('has-detail');$('mtz-detail-content').replaceChildren(el('h2',title));$('mtz-detail-content').firstChild.id='mtz-detail-title';
-  $('mtz-close').textContent=t('close');
+  $('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
   syncDetailLayout();
   $('mtz-close').focus({preventScroll:true});
   // Detail panels change the canvas size, not the user's zoom or pan.
