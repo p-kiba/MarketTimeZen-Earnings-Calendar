@@ -3,7 +3,7 @@ import hashlib
 import re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-PATTERN=re.compile(r'(\.(?:js|css))\?v=[a-f0-9]{12}')
+PATTERN=re.compile(r'(\.(?:js|css))(?:\?v=[^"\'\s&?]+)+')
 
 def version(root=ROOT):
     root=Path(root);assets=root/'assets/relationships'

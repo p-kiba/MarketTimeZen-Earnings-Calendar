@@ -103,15 +103,13 @@ button:disabled{cursor:default;opacity:.55}
 /* Company detail actions and optional in-panel official-site preview. */
 .mtz-detail-center{position:absolute;top:12px;right:64px;z-index:2;width:44px;height:44px;padding:0;border:0;border-radius:10px;background:#fff;color:#315f92;font-size:24px;line-height:1}
 .mtz-detail-center:hover{background:#f4f7fa}
-.mtz-site-actions{display:flex;flex-direction:column;align-items:stretch;gap:7px;grid-column:3;margin-top:42px}
-.mtz-site-actions .mtz-official-site{margin-top:0!important}
-.mtz-site-preview-button{min-height:34px;padding:6px 9px;font-size:11px;white-space:nowrap}
+.mtz-company-hero>.mtz-site-preview-button{grid-column:3;margin-top:42px;min-height:44px;padding:9px 12px;font-size:13px;font-weight:650;white-space:nowrap}
 .mtz-site-browser{margin:16px 0;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
 .mtz-site-browser-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;background:#f5f7fa}
 .mtz-site-browser-head strong{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .mtz-site-browser-head button{min-height:32px;padding:5px 10px;font-size:12px;flex:0 0 auto}
 .mtz-site-browser iframe{display:block;width:100%;height:360px;border:0}
-@media(max-width:760px){.mtz-site-actions{grid-column:1/-1;flex-direction:row;margin-top:0}.mtz-site-actions>*{flex:1}.mtz-site-browser iframe{height:46dvh}}
+@media(max-width:760px){.mtz-company-hero>.mtz-site-preview-button{grid-column:1/-1;margin-top:0;width:100%}.mtz-site-browser iframe{height:46dvh}}
 
 /* Normalize every logo tile to a square white canvas. Source image aspect ratios stay contained. */
 .company-logo,.mtz-company-hero .company-logo{background:#fff;object-fit:contain;aspect-ratio:1;border-radius:12px}
@@ -124,5 +122,10 @@ button:disabled{cursor:default;opacity:.55}
 /* Official site preview occupies the canvas beside the detail drawer. */
 .mtz-site-browser-overlay{position:fixed;z-index:30;inset:0 520px 0 0;margin:0;border:0;border-radius:0;background:#fff;box-shadow:inset -1px 0 0 var(--border);display:flex;flex-direction:column}
 .mtz-site-browser-overlay .mtz-site-browser-head{flex:0 0 auto;padding:14px 18px;border-bottom:1px solid var(--border)}
+.mtz-site-browser-actions{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.mtz-site-browser-external{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:6px 12px;border:1px solid #cfd9e5;border-radius:8px;background:#fff;color:#172743;text-decoration:none;font-size:12px;font-weight:700;white-space:nowrap}
+.mtz-site-browser-external:hover{background:#eef3f8}
 .mtz-site-browser-overlay iframe{flex:1;width:100%;height:auto;min-height:0;border:0}
+.mtz-site-browser-hint{flex:0 0 auto;margin:0;padding:8px 18px;border-top:1px solid var(--border);color:#65738a;font-size:12px}
+.mtz-site-browser-blocked{max-width:540px;margin:auto;padding:24px;color:#263248;text-align:center;line-height:1.7}
 @media(max-width:760px){.mtz-site-browser-overlay{inset:0}.mtz-site-browser-overlay .mtz-site-browser-head{padding:10px 14px}}
