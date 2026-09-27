@@ -85,7 +85,7 @@ function translate(){
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
   const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
-  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
+  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));$('mtz-close').onclick=closeDetail;
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
   $('mtz-calendar').href=calendarURL(state);
   $('mtz-connections').href=connectionsURL(state);
@@ -560,7 +560,7 @@ async function renderSelection(){
 function openDetail(title){
   const panel=$('mtz-detail');if(panel.hidden)lastFocus=document.activeElement;
   panel.hidden=false;$('mtz-map-app').classList.add('has-detail');$('mtz-detail-content').replaceChildren(el('h2',title));$('mtz-detail-content').firstChild.id='mtz-detail-title';
-  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));
+  $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));$('mtz-close').onclick=closeDetail;
   syncDetailLayout();
   $('mtz-close').focus({preventScroll:true});
   // Detail panels change the canvas size, not the user's zoom or pan.
@@ -586,7 +586,7 @@ function resultDirection(rows){
 function detailConnectionCard(r,cid){
   const partnerId=r.source_company_id===cid?r.target_company_id:r.source_company_id;
   const partner=companies.get(client.canonicalId(partnerId))||client.companies.find(c=>c.company_id===client.canonicalId(partnerId));
-  const row=button('',()=>showRelation(r.relationship_id),'mtz-company-connection');row.style.setProperty('--connection-color',connectionColor([r]));
+  const row=button('',()=>showRelation(r.relationship_id,cid),'mtz-company-connection');row.style.setProperty('--connection-color',connectionColor([r]));
   const identity=el('span',undefined,'mtz-connection-company');
   if(logo(partner)){const img=el('img');img.src=logo(partner);img.alt='';identity.append(img);}
   const names=el('span');names.append(el('strong',name(partnerId)),el('small',companySymbol(partner)));identity.append(names);
@@ -597,7 +597,7 @@ function detailConnectionCard(r,cid){
 async function showCompany(cid){
   cid=client.canonicalId(cid);
   const seq=++detailGeneration,c=companies.get(cid)||client.companies.find(c=>c.company_id===cid);if(!c)return;
-  selected=cid;highlightCompany();openDetail('');$('mtz-close').textContent=ux('← 戻る','← Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('企業選択へ戻る','Back to company selection'));
+  selected=cid;highlightCompany();openDetail('');
   const content=$('mtz-detail-content');content.classList.add('mtz-company-detail');content.querySelector('h2')?.remove();
   const hero=el('div',undefined,'mtz-company-hero');
   if(logo(c)){const img=el('img',undefined,'company-logo');img.src=logo(c);img.alt='';hero.append(img);}
@@ -626,9 +626,9 @@ async function showCompany(cid){
   const counts=new Map();for(const r of rels){const kind=connectionKind(r);counts.set(kind,(counts.get(kind)||0)+1);}const chips=el('div',undefined,'mtz-connection-chips');for(const kind of ['supply','partnership','capital','acquisition','group'])if(counts.get(kind)){const chip=el('span',`${connectionTypeLabel(kind)} ${counts.get(kind)}`);chip.style.setProperty('--connection-color',connectionColors[kind]);chips.append(chip);}connections.append(chips);
   const list=el('div',undefined,'mtz-company-connection-list');for(const r of rels.slice(0,12))list.append(detailConnectionCard(r,cid));connections.append(list);if(rels.length>12)connections.append(button(t('more'),()=>{closeDetail();choose(cid).then(()=>setView('list'));}));content.append(connections);
 }
-async function showRelation(rid){
+async function showRelation(rid,backCompanyId=null){
   const seq=++detailGeneration;message(t('loading'));
-  try{const d=await client.relationship(rid);if(seq!==detailGeneration)return;const r=d.relationship;openDetail(name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id));const content=$('mtz-detail-content');
+  try{const d=await client.relationship(rid);if(seq!==detailGeneration)return;const r=d.relationship;openDetail(name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id));if(backCompanyId){$('mtz-close').textContent=ux('戻る','Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('企業詳細へ戻る','Back to company details'));$('mtz-close').onclick=()=>showCompany(backCompanyId);}const content=$('mtz-detail-content');
     if([r.source_company_id,r.target_company_id].some(id=>client.groups.has(client.canonicalId(id))))paragraph(content,state.lang==='ja'?'資料上の当事者':'Parties in the source',client.rawName(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+client.rawName(r.target_company_id));
     const latest=d.events.filter(e=>r.latest_event_ids.includes(e.event_id)).sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''))[0];
     if(latest?.amounts.length){const summary=el('section',undefined,'mtz-amount-detail');summary.append(el('h3',state.lang==='ja'?'公表された金額':'Disclosed amount'));for(const a of latest.amounts)summary.append(el('strong',amountText(a,state.lang)),el('p',t(a.amount_kind)+' · '+t(a.value_semantics)));content.append(summary);}
