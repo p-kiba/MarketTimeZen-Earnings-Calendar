@@ -5,9 +5,9 @@ import {dealRows} from './deals.js?v=4b76801f9d3c';
 import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=4b76801f9d3c';
 import {DataClient} from './data-client.js?v=4b76801f9d3c';
 import {CompanyView} from './company-view.js?v=4b76801f9d3c';
-import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=navtabs20260927';
+import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=navtabs220260927';
 import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=4b76801f9d3c';
-import {dictionary} from './i18n.js?v=navtabs20260927';
+import {dictionary} from './i18n.js?v=navtabs220260927';
 
 let logoPaths={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -50,7 +50,7 @@ const name=id=>{const key=client?.canonicalId(id)||id;return companies.get(key)?
 function message(text,error=false){$('mtz-message').textContent=text;$('mtz-message').className=error?'notice error':'notice';}
 function shell(){
   $('mtz-map-app').innerHTML=`
-    ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><nav class="mtz-feature" aria-label="Features"><a id="mtz-calendar"></a><a id="mtz-connections"></a><a id="mtz-connections-map"></a></nav><span id="mtz-market" class="muted"></span><button id="mtz-lang" type="button"></button></div>
+    ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><nav class="mtz-feature" aria-label="Features"><a id="mtz-calendar"></a><a id="mtz-connections"></a><a id="mtz-connections-map"></a><a id="mtz-news"></a></nav><span id="mtz-market" class="muted"></span><button id="mtz-lang" type="button"></button></div>
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-theme-label"></span><select id="mtz-theme"></select></label><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
@@ -58,6 +58,7 @@ function shell(){
     <footer class="mtz-footer"><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
     <aside id="mtz-detail" class="mtz-detail" role="dialog" aria-labelledby="mtz-detail-title" tabindex="-1" hidden><button id="mtz-close" type="button"></button><div id="mtz-detail-content"></div></aside>`;
   $('mtz-lang').onclick=()=>{state.lang=state.lang==='en'?'ja':'en';updateURL(state);translate();if(client){renderIntro();render();}closeDetail();};
+  $('mtz-news').onclick=e=>{e.preventDefault();generation++;request?.abort();state.tab='news';state.company=null;state.symbol='';state.relation=null;state.q='';$('mtz-search').value='';$('mtz-results').replaceChildren();companies.clear();relationships.clear();closeDetail();updateURL(state,true);translate();message('');renderIntro();render();};
   $('mtz-search').addEventListener('input',search);
   $('mtz-search').addEventListener('keydown',e=>{if(e.key==='ArrowDown')$('mtz-results').querySelector('button')?.focus();});
   for(const [id,key] of [['mtz-theme','theme'],['mtz-type','type'],['mtz-status','status'],['mtz-days','days'],['mtz-amount','amount']])$(id).addEventListener('change',()=>{state[key]=key==='amount'?$(id).checked:$(id).value;pageSize=30;dealPageSize=20;updateURL(state,true);renderIntro();if($('mtz-search').value)search();render();});
@@ -82,14 +83,16 @@ function translate(){
   document.documentElement.lang=state.lang;
   document.querySelector('.header-title').textContent=t('title');document.title=t('title')+' — Market Time Zen';
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
-  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-close':'close','mtz-coverage':'coverage'};
+  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-close':'close','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
   $('mtz-calendar').href=calendarURL(state);
   $('mtz-connections').href=connectionsURL(state);
   $('mtz-connections-map').href=connectionsURL(state,'map');
-  $('mtz-connections').toggleAttribute('aria-current',state.tab!=='map');
+  $('mtz-news').href=connectionsURL(state,'news');
+  $('mtz-connections').toggleAttribute('aria-current',state.tab==='connections');
   $('mtz-connections-map').toggleAttribute('aria-current',state.tab==='map');
+  $('mtz-news').toggleAttribute('aria-current',state.tab==='news');
   $('mtz-lang').textContent=state.lang==='en'?'日本語':'English';$('mtz-lang').lang=state.lang==='en'?'ja':'en';
   $('mtz-search').placeholder=t('search');$('mtz-plus').setAttribute('aria-label',t('zoomIn'));$('mtz-minus').setAttribute('aria-label',t('zoomOut'));
   function options(id,rows,value){$(id).replaceChildren(...rows.map(([v,label])=>{const o=el('option',label);o.value=v;return o;}));$(id).value=value;}

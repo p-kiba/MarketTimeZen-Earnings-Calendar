@@ -44,7 +44,7 @@ button:disabled{cursor:default;opacity:.55}
 /* The calendar's shared header defines the product theme. */
 :root{--theme:#31343c;--theme-hover:#454955}
 .mtz-site-header{position:relative;min-height:76px}.mtz-site-header .header-date:empty{display:none}
-.mtz-header{padding:16px;gap:12px}.mtz-header .mtz-feature{margin-left:0}.mtz-header #mtz-market{margin-left:auto}
+.mtz-header{padding:16px;gap:12px;justify-content:flex-start}.mtz-header .mtz-feature{margin-left:0}.mtz-header #mtz-market{margin-left:auto}
 .mtz-header .mtz-feature{border:0;border-radius:0;padding:0;gap:8px}.mtz-header .mtz-feature a{border:1px solid var(--border);border-radius:8px;padding:12px;min-height:44px}.mtz-header .mtz-feature [aria-current]{background:var(--theme);color:#fff;border-color:var(--theme)}
 #mtz-map-app button.primary,#mtz-expand,#mtz-map-mode,#mtz-exit-map-mode,.mtz-selection-actions button:first-child,.mtz-map-tools button{background:var(--theme);color:#fff;border-color:var(--theme)}
 #mtz-map-app button.primary:hover,#mtz-expand:hover,#mtz-map-mode:hover,#mtz-exit-map-mode:hover,.mtz-selection-actions button:first-child:hover,.mtz-map-tools button:hover{background:var(--theme-hover)}

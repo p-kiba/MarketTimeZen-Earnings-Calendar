@@ -66,7 +66,7 @@ header {
     display: none;
   }
 }
-.mtz-feature-nav { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+.mtz-feature-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px; width: 100%; }
 .mtz-feature-link { min-height: 44px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; color: #31343C; text-decoration: none; font-size: 14px; }
 .mtz-feature-link[aria-current] { background: #31343C; color: white; }
 .controls {
@@ -440,6 +440,7 @@ footer {
     <a class="mtz-feature-link" aria-current="page" href="japan.html">Earnings Calendar</a>
     <a class="mtz-feature-link" href="map.html" onclick="event.preventDefault(); goToConnections('connections');">Company connections</a>
     <a class="mtz-feature-link" href="map.html?tab=map&amp;company=co-aapl&amp;view=map" onclick="event.preventDefault(); goToConnections('map');">Connections Map</a>
+    <a class="mtz-feature-link" href="map.html?tab=news" onclick="event.preventDefault(); goToConnections('news');">News</a>
   </nav>
   <div class="top-controls-row">
     <div class="mode-toggle">
@@ -501,6 +502,7 @@ function goToConnections(destination = 'connections') {
     url.searchParams.set('company', 'co-aapl');
     url.searchParams.set('view', 'map');
   }
+  if (destination === 'news') url.searchParams.set('tab', 'news');
   window.location.href = url.href;
 }
 function initializeSymbolSearch() {

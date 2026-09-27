@@ -5,7 +5,9 @@ export function queryState(search = location.search) {
   const favorites = (p.get('favorites') || '').slice(0,5000).split(',').map(s=>s.trim().toUpperCase()).filter(s=>/^[A-Z0-9.^/-]{1,20}$/.test(s)).slice(0,200);
   let tz=p.get('tz') || 'America/New_York';
   try { new Intl.DateTimeFormat('en',{timeZone:tz}); } catch { tz='America/New_York'; }
-  return {company:validId(p.get('company'))?p.get('company'):null,symbol:/^[A-Z0-9.^/-]{1,20}$/.test(symbol)?symbol:'',q:(p.get('q')||'').slice(0,120),favorites,view:p.get('view')==='list'?'list':'map',tab:p.get('tab')==='map'?'map':'connections',relation:validId(p.get('relation'))?p.get('relation'):null,lang:p.get('lang')==='ja'?'ja':'en',tz,month:/^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month')||'')?p.get('month'):null,return_market:p.get('return_market')==='jp'?'jp':'us',type:(p.get('type')||'').slice(0,30),status:(p.get('status')||'').slice(0,20),theme:/^[a-z0-9_-]{1,40}$/.test(p.get('theme')||'')?p.get('theme'):'',amount:p.get('amount')==='1',days:['30','90','365'].includes(p.get('days'))?p.get('days'):''};
+  const requestedTab=p.get('tab');
+  const tab=['map','news'].includes(requestedTab)?requestedTab:'connections';
+  return {company:validId(p.get('company'))?p.get('company'):null,symbol:/^[A-Z0-9.^/-]{1,20}$/.test(symbol)?symbol:'',q:(p.get('q')||'').slice(0,120),favorites,view:p.get('view')==='list'?'list':'map',tab,relation:validId(p.get('relation'))?p.get('relation'):null,lang:p.get('lang')==='ja'?'ja':'en',tz,month:/^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month')||'')?p.get('month'):null,return_market:p.get('return_market')==='jp'?'jp':'us',type:(p.get('type')||'').slice(0,30),status:(p.get('status')||'').slice(0,20),theme:/^[a-z0-9_-]{1,40}$/.test(p.get('theme')||'')?p.get('theme'):'',amount:p.get('amount')==='1',days:['30','90','365'].includes(p.get('days'))?p.get('days'):''};
 }
 export function calendarURL(state,symbol=null,month=null) {
   const url=new URL(symbol?'index.html':state.return_market==='jp'?'japan.html':'index.html',location.href);
@@ -30,6 +32,7 @@ export function connectionsURL(state,tab='connections') {
     url.searchParams.set('company','co-aapl');
     url.searchParams.set('view','map');
   }
+  if(tab==='news')url.searchParams.set('tab','news');
   return url.href;
 }
 export function safeSourceURL(value) {
