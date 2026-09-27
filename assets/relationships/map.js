@@ -5,7 +5,7 @@ import {dealRows} from './deals.js?v=4b76801f9d3c';
 import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=4b76801f9d3c';
 import {DataClient} from './data-client.js?v=4b76801f9d3c';
 import {CompanyView} from './company-view.js?v=4b76801f9d3c';
-import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=companydetail20260927';
+import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=relationdetail20260927';
 import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=4b76801f9d3c';
 import {dictionary} from './i18n.js?v=earningsdetail20260927';
 
@@ -50,7 +50,7 @@ const name=id=>{const key=client?.canonicalId(id)||id;return companies.get(key)?
 function message(text,error=false){$('mtz-message').textContent=text;$('mtz-message').className=error?'notice error':'notice';}
 function shell(){
   $('mtz-map-app').innerHTML=`
-    ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><nav class="mtz-feature" aria-label="Features"><a id="mtz-calendar"></a><a id="mtz-connections"></a><a id="mtz-connections-map"></a><a id="mtz-news"></a></nav><span id="mtz-market" class="muted"></span><button id="mtz-lang" type="button"></button></div>
+    ${$('mtz-shared-header').innerHTML}<div class="mtz-header"><nav class="mtz-feature" aria-label="Features"><a id="mtz-calendar"></a><a id="mtz-news"></a><a id="mtz-connections-map"></a></nav><span id="mtz-market" class="muted"></span><button id="mtz-lang" type="button"></button></div>
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-theme-label"></span><select id="mtz-theme"></select></label><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
@@ -83,15 +83,13 @@ function translate(){
   document.documentElement.lang=state.lang;
   document.querySelector('.header-title').textContent=t('title');document.title=t('title')+' — Market Time Zen';
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
-  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections':'connections','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
+  const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
   $('mtz-close').classList.remove('is-back');$('mtz-close').textContent='×';$('mtz-close').setAttribute('aria-label',t('close'));$('mtz-close').onclick=closeDetail;
   $('mtz-market').textContent=t('us')+' · '+t('universe_'+(client?.coverage.universe||'pilot'));
   $('mtz-calendar').href=calendarURL(state);
-  $('mtz-connections').href=connectionsURL(state);
   $('mtz-connections-map').href=connectionsURL(state,'map');
   $('mtz-news').href=connectionsURL(state,'news');
-  $('mtz-connections').toggleAttribute('aria-current',state.tab==='connections');
   $('mtz-connections-map').toggleAttribute('aria-current',state.tab==='map');
   $('mtz-news').toggleAttribute('aria-current',state.tab==='news');
   $('mtz-lang').textContent=state.lang==='en'?'日本語':'English';$('mtz-lang').lang=state.lang==='en'?'ja':'en';
@@ -628,28 +626,28 @@ async function showCompany(cid){
 }
 async function showRelation(rid,backCompanyId=null){
   const seq=++detailGeneration;message(t('loading'));
-  try{const d=await client.relationship(rid);if(seq!==detailGeneration)return;const r=d.relationship;openDetail(name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id));if(backCompanyId){$('mtz-close').textContent=ux('戻る','Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('企業詳細へ戻る','Back to company details'));$('mtz-close').onclick=()=>showCompany(backCompanyId);}const content=$('mtz-detail-content');
-    if([r.source_company_id,r.target_company_id].some(id=>client.groups.has(client.canonicalId(id))))paragraph(content,state.lang==='ja'?'資料上の当事者':'Parties in the source',client.rawName(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+client.rawName(r.target_company_id));
-    const latest=d.events.filter(e=>r.latest_event_ids.includes(e.event_id)).sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''))[0];
-    if(latest?.amounts.length){const summary=el('section',undefined,'mtz-amount-detail');summary.append(el('h3',state.lang==='ja'?'公表された金額':'Disclosed amount'));for(const a of latest.amounts)summary.append(el('strong',amountText(a,state.lang)),el('p',t(a.amount_kind)+' · '+t(a.value_semantics)));content.append(summary);}
-    paragraph(content,ux('金額の分類','Amount classification'),ratingText(d.summary||relationships.get(rid)));
-    paragraph(content,t('details'),t(r.relationship_type));paragraph(content,t('statusAsOf'),t(r.lifecycle_status)+' · '+(r.status_as_of||'—'));paragraph(content,'',r.description);
-    if(r.business){const b=r.business;paragraph(content,t('businessContent'),b.headline);paragraph(content,t('products'),b.products.join(' / '));paragraph(content,client.rawName(r.source_company_id),b.source_role);paragraph(content,client.rawName(r.target_company_id),b.target_role);paragraph(content,t('scale'),b.scale);paragraph(content,t('geography'),b.geography);}
-    if(r.status_as_of&&r.status_as_of<new Date(Date.now()-365*86400000).toISOString().slice(0,10))content.append(el('p',t('stale'),'notice'));
-    const verificationLabel=r.verification_metadata?.rule_id==='explicit_official_announcement'?(state.lang==='ja'?'自動収録（人手未確認）':'Automatically included (not manually reviewed)'):t(r.verification);
-    paragraph(content,verificationLabel,r.verification_metadata?.verified_at?new Intl.DateTimeFormat(state.lang,{timeZone:state.tz,dateStyle:'medium',timeStyle:'short'}).format(new Date(r.verification_metadata.verified_at))+' · '+state.tz:'');
-    const ordered=[...d.events].sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''));
-    for(const e of ordered){content.append(el('h3',t('history')+' · '+t(e.event_type)));
-      paragraph(content,state.lang==='ja'?'公表日 / 締結日 / SEC提出日':'Announced / agreed / SEC filed',[e.announced_date||'—',e.agreement_date||'—',e.filed_date||'—'].join(' / '));
-      for(const a of e.amounts){const block=el('section',undefined,'mtz-amount-detail');block.append(el('strong',amountText(a,state.lang)),el('p',t(a.amount_kind)+' · '+t(a.value_semantics)),el('p',a.scope));if(a.contingent!==false)block.append(el('p',a.contingent===true?t('contingent'):(state.lang==='ja'?'条件の有無は未確認':'Contingency unconfirmed')));if(a.conditions)block.append(el('p',a.conditions));content.append(block);}
-      if(!e.amounts.length)paragraph(content,t('unknownAmount'),t(e.amount_disclosure));
-      paragraph(content,t('term'),termText(e.term,state.lang));
-      paragraph(content,state.lang==='ja'?'収録を検出':'Indexed',new Intl.DateTimeFormat(state.lang,{timeZone:state.tz,dateStyle:'medium',timeStyle:'short'}).format(new Date(e.detected_at))+' · '+state.tz);
-      paragraph(content,t('conditions'),e.conditions);
+  try{
+    const d=await client.relationship(rid);if(seq!==detailGeneration)return;const r=d.relationship;
+    openDetail('');
+    if(backCompanyId){$('mtz-close').textContent=ux('戻る','Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('企業詳細へ戻る','Back to company details'));$('mtz-close').onclick=()=>showCompany(backCompanyId);}
+    const content=$('mtz-detail-content');content.classList.add('mtz-relation-detail');content.querySelector('h2')?.remove();
+    const parties=el('div',undefined,'mtz-relation-parties');
+    for(const [index,id] of [r.source_company_id,r.target_company_id].entries()){
+      if(index)parties.append(el('span',r.direction==='directed'?'→':'—','mtz-relation-direction'));
+      const canonical=client.canonicalId(id),company=companies.get(canonical)||client.companies.find(c=>c.company_id===canonical),party=el('button',undefined,'mtz-relation-party');party.type='button';party.onclick=()=>showCompany(canonical);if(logo(company)){const img=el('img');img.src=logo(company);img.alt='';party.append(img);}party.append(el('strong',name(id)));parties.append(party);
     }
-    content.append(el('h3',t('evidence')));
-    for(const e of d.evidence){const s=d.sources.find(s=>s.source_id===e.source_id);content.append(el('blockquote',e.excerpt));paragraph(content,s.title,e.section+' · '+e.locator);const url=safeSourceURL(s.canonical_url);if(url)content.append(link(t('source'),url));}
-    for(const id of [r.source_company_id,r.target_company_id])content.append(button(name(id),()=>showCompany(id)));
+    content.append(parties,el('h2',connectionLabel(r),'mtz-relation-title'));
+    const tags=el('div',undefined,'mtz-relation-tags'),kind=connectionKind(r),kindTag=el('span',connectionTypeLabel(kind));kindTag.style.setProperty('--connection-color',connectionColors[kind]);tags.append(kindTag);for(const label of [...(r.business?.products||[]),...(r.business?.geography?[r.business.geography]:[])].slice(0,3))tags.append(el('span',label));content.append(tags);
+    const latest=[...d.events].sort((a,b)=>(b.announced_date||b.filed_date||'').localeCompare(a.announced_date||a.filed_date||''))[0];
+    const amount=latest?.amounts?.length?latest.amounts.map(a=>amountText(a,state.lang)).join(' / '):ux('非公表・記載なし','Not disclosed');
+    const facts=el('section',undefined,'mtz-relation-facts');facts.append(el('h3',ux('取引の基本情報','Relationship facts')));const grid=el('dl');
+    for(const [label,value] of [[ux('公表日','Published'),latest?.announced_date||latest?.filed_date||'—'],[ux('金額','Amount'),amount],[ux('状態','Status'),t(r.lifecycle_status)],[ux('期間','Term'),(latest&&termText(latest.term,state.lang))||ux('記載なし','Not stated')]]){grid.append(el('dt',label),el('dd',value));}facts.append(grid);content.append(facts);
+    if(r.status_as_of&&r.status_as_of<new Date(Date.now()-365*86400000).toISOString().slice(0,10))content.append(el('p',ux('資料時点の情報です。その後の数量や状態は確認できていません。','Information reflects the source date; later volume and status are unconfirmed.'),'mtz-relation-caution'));
+    if(r.business?.source_role||r.business?.target_role){const roles=el('section',undefined,'mtz-relation-section');roles.append(el('h3',ux('企業の役割','Company roles')));for(const [id,role] of [[r.source_company_id,r.business?.source_role],[r.target_company_id,r.business?.target_role]])if(role){const company=companies.get(client.canonicalId(id))||client.companies.find(c=>c.company_id===client.canonicalId(id)),row=el('div',undefined,'mtz-role-row');if(logo(company)){const img=el('img');img.src=logo(company);img.alt='';row.append(img);}row.append(el('strong',name(id)),el('p',role));roles.append(row);}content.append(roles);}
+    const confirmed=el('section',undefined,'mtz-relation-section');confirmed.append(el('h3',ux('確認できる内容','Confirmed information')),el('p',r.description||r.business?.headline||connectionLabel(r)));content.append(confirmed);
+    const sources=el('section',undefined,'mtz-relation-sources');sources.append(el('h3',ux('一次資料','Primary sources')));const used=new Set();for(const evidence of d.evidence){const source=d.sources.find(s=>s.source_id===evidence.source_id);if(!source||used.has(source.source_id))continue;used.add(source.source_id);const card=el('article',undefined,'mtz-source-card');card.append(el('strong',source.title||ux('公式資料','Official source')));const publisher=/^co-[a-z0-9-]+$/.test(source.publisher||'')?name(source.publisher):source.publisher;const meta=[publisher,source.published_date||source.filed_date||latest?.announced_date||latest?.filed_date].filter(Boolean).join(' · ');if(meta)card.append(el('p',meta,'muted'));const url=safeSourceURL(source.canonical_url);if(url){const sourceLink=link(t('source'),url);sourceLink.target='_blank';sourceLink.rel='noopener noreferrer';sourceLink.className='primary';card.append(sourceLink);}sources.append(card);}if(!used.size)sources.append(el('p',t('not_stated_in_source')));content.append(sources);
+    const history=el('details',undefined,'mtz-relation-history');history.append(el('summary',ux('更新履歴','Update history')));for(const event of [...d.events].sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''))){const row=el('div');row.append(el('strong',(event.announced_date||event.filed_date||t('undated'))+' · '+t(event.event_type)));if(event.conditions)row.append(el('p',event.conditions));history.append(row);}content.append(history);
+    const related=el('div',undefined,'mtz-related-companies');for(const id of [r.source_company_id,r.target_company_id])related.append(button(ux(`${name(id)}の企業詳細`,`${name(id)} company details`),()=>showCompany(id)));content.append(related);
     message(client.offline?t('offline'):'');
   }catch{if(seq===detailGeneration)message(t('failed'),true);}
 }

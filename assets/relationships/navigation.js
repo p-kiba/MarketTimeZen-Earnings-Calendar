@@ -6,7 +6,7 @@ export function queryState(search = location.search) {
   let tz=p.get('tz') || 'America/New_York';
   try { new Intl.DateTimeFormat('en',{timeZone:tz}); } catch { tz='America/New_York'; }
   const requestedTab=p.get('tab');
-  const tab=['map','news'].includes(requestedTab)?requestedTab:'connections';
+  const tab=requestedTab==='map'?'map':'news';
   return {company:validId(p.get('company'))?p.get('company'):null,symbol:/^[A-Z0-9.^/-]{1,20}$/.test(symbol)?symbol:'',q:(p.get('q')||'').slice(0,120),favorites,view:p.get('view')==='list'?'list':'map',tab,relation:validId(p.get('relation'))?p.get('relation'):null,details:p.get('details')==='company'?'company':'',lang:p.get('lang')==='ja'?'ja':'en',tz,month:/^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month')||'')?p.get('month'):null,return_market:p.get('return_market')==='jp'?'jp':'us',type:(p.get('type')||'').slice(0,30),status:(p.get('status')||'').slice(0,20),theme:/^[a-z0-9_-]{1,40}$/.test(p.get('theme')||'')?p.get('theme'):'',amount:p.get('amount')==='1',days:['30','90','365'].includes(p.get('days'))?p.get('days'):''};
 }
 export function calendarURL(state,symbol=null,month=null) {
