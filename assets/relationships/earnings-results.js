@@ -15,11 +15,11 @@ export async function latestResults(company){
 }
 export function resultRows(result,lang){
   const ja=lang==='ja',n=(v,d=1)=>new Intl.NumberFormat(lang,{maximumFractionDigits:d}).format(v),valid=v=>typeof v==='number'&&Number.isFinite(v);
-  return [['revenue',ja?'売上高':'Revenue'],['netIncome',ja?'純利益':'Net income'],['epsDiluted',ja?'希薄化後EPS':'Diluted EPS'],['grossMargin',ja?'粗利率':'Gross margin'],['operatingCashFlow',ja?'営業CF':'Operating cash flow']].map(([key,label])=>{
+  return [['revenue',ja?'売上高':'Revenue'],['netIncome',ja?'純利益':'Net income'],['epsDiluted','EPS'],['grossMargin',ja?'粗利率':'Gross margin'],['operatingCashFlow',ja?'営業CF':'Operating cash flow']].map(([key,label])=>{
     const value=result.latest[key],prior=result.previous?.[key];let formatted='—',change='—';
     if(valid(value)){
       if(key==='grossMargin')formatted=n(value*100)+'%';
-      else if(key==='epsDiluted')formatted='$'+n(value,2);
+      else if(key==='epsDiluted')formatted=n(value,2);
       else{const size=Math.abs(value);formatted='$'+(size>=1e9?n(value/1e9)+'B':size>=1e6?n(value/1e6)+'M':n(value,0));}
       if(valid(prior)){
         if(key==='grossMargin'){const delta=(value-prior)*100;change=(delta>0?'+':'')+n(delta)+(ja?'ポイント':' pp');}
