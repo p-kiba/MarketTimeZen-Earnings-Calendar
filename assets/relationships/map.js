@@ -1,13 +1,14 @@
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=dd1d8289768d';
-import {latestResults,resultRows} from './earnings-results.js?v=dd1d8289768d';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=dd1d8289768d';
-import {dealRows} from './deals.js?v=dd1d8289768d';
-import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=dd1d8289768d';
-import {DataClient} from './data-client.js?v=dd1d8289768d';
-import {CompanyView} from './company-view.js?v=dd1d8289768d';
-import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=dd1d8289768d';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=dd1d8289768d';
-import {dictionary} from './i18n.js?v=dd1d8289768d';
+import {renderTimeMap,disposeTimeMap} from './time-map.js?v=dc066fcb9144';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=dc066fcb9144';
+import {latestResults,resultRows} from './earnings-results.js?v=dc066fcb9144';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=dc066fcb9144';
+import {dealRows} from './deals.js?v=dc066fcb9144';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=dc066fcb9144';
+import {DataClient} from './data-client.js?v=dc066fcb9144';
+import {CompanyView} from './company-view.js?v=dc066fcb9144';
+import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=dc066fcb9144';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=dc066fcb9144';
+import {dictionary} from './i18n.js?v=dc066fcb9144';
 
 let logoPaths={}, companyWebsites={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -54,7 +55,7 @@ function shell(){
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-theme-label"></span><select id="mtz-theme"></select></label><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
-    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-company-themes" class="mtz-theme-tags"></span><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
+    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-company-themes" class="mtz-theme-tags"></span><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button><button id="mtz-time-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><section id="mtz-time-map" class="mtz-time-map" hidden></section><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
     <footer class="mtz-footer"><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
     <aside id="mtz-detail" class="mtz-detail" role="dialog" aria-labelledby="mtz-detail-title" tabindex="-1" hidden><button id="mtz-detail-center" class="mtz-detail-center" type="button" hidden aria-label=""></button><button id="mtz-close" type="button"></button><div id="mtz-detail-content"></div></aside>`;
   $('mtz-lang').onclick=()=>{state.lang=state.lang==='en'?'ja':'en';updateURL(state);translate();if(client){renderIntro();render();}closeDetail();};
@@ -62,7 +63,8 @@ function shell(){
   $('mtz-search').addEventListener('input',search);
   $('mtz-search').addEventListener('keydown',e=>{if(e.key==='ArrowDown')$('mtz-results').querySelector('button')?.focus();});
   for(const [id,key] of [['mtz-theme','theme'],['mtz-type','type'],['mtz-status','status'],['mtz-days','days'],['mtz-amount','amount']])$(id).addEventListener('change',()=>{state[key]=key==='amount'?$(id).checked:$(id).value;pageSize=30;dealPageSize=20;updateURL(state,true);renderIntro();if($('mtz-search').value)search();render();});
-  $('mtz-map-view').onclick=()=>setView('map');$('mtz-list-view').onclick=()=>setView('list');
+  $('mtz-map-view').onclick=()=>{state.timeline=false;setView('map');};$('mtz-list-view').onclick=()=>setView('list');
+  $('mtz-time-view').onclick=()=>{state.timeline=true;clearTimeout(autoExpansionTimer);setView('map');};
   $('mtz-plus').onclick=()=>cy?.zoom({level:Math.min(3,cy.zoom()*1.3),renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
   $('mtz-minus').onclick=()=>cy?.zoom({level:Math.max(.15,cy.zoom()/1.3),renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
   $('mtz-reset').onclick=fitView;
@@ -82,6 +84,7 @@ function shell(){
 function translate(){
   document.documentElement.lang=state.lang;
   document.querySelector('.header-title').textContent=t('title');document.title=t('title')+' — Market Time Zen';
+  $('mtz-time-view').textContent=ux('時間軸モード','Timeline mode');
   $('mtz-display-settings-title').textContent=ux('表示設定','Display settings');
   const texts={'mtz-market':'us','mtz-calendar':'calendar','mtz-connections-map':'connectionsMap','mtz-news':'news','mtz-heading':'noCompany','mtz-start':'start','mtz-discovery':'discovery','mtz-search-label':'search','mtz-type-label':'all','mtz-status-label':'allStatus','mtz-date-label':'recent','mtz-amount-label':'amountOnly','mtz-map-view':'map','mtz-list-view':'list','mtz-expand':'expand','mtz-cancel':'cancel','mtz-reset':'reset','mtz-map-mode':'mapMode','mtz-exit-map-mode':'exitMapMode','mtz-peer-labels-text':'peerLabels','mtz-coverage':'coverage'};
   for(const [id,key] of Object.entries(texts))$(id).textContent=t(key);
@@ -295,14 +298,19 @@ function render(){
     (overviewPriority?0:Number(direct.has(b))-Number(direct.has(a)))||
     (overviewPriority?(counts.get(b)||0)-(counts.get(a)||0):0)||
     Number(fav(b))-Number(fav(a))||updated(b).localeCompare(updated(a))||name(a).localeCompare(name(b)))];
-  const cap=expanded.size>1?client.manifest.expanded_nodes:client.manifest.initial_nodes;const shown=ordered.slice(0,cap), visible=new Set(shown);
+  const cap=state.timeline||expanded.size>1?client.manifest.expanded_nodes:client.manifest.initial_nodes;const shown=ordered.slice(0,cap), visible=new Set(shown);
   const visibleRows=rels.filter(r=>visible.has(r.source_company_id)&&visible.has(r.target_company_id));
   const dates=visibleRows.map(r=>r.status_as_of).filter(Boolean).sort();
   const peerCount=visibleRows.filter(r=>category(r,state.company)==='extended').length;
   $('mtz-source-period').textContent=dates.length?t('sourcePeriod')+': '+dates[0]+' — '+dates.at(-1):'';
   $('mtz-peer-control').hidden=state.view!=='map';
-  $('mtz-map-view').setAttribute('aria-pressed',state.view==='map');$('mtz-list-view').setAttribute('aria-pressed',state.view==='list');
+  $('mtz-time-view').setAttribute('aria-pressed',state.view==='map'&&state.timeline);$('mtz-map-view').setAttribute('aria-pressed',state.view==='map'&&!state.timeline);$('mtz-list-view').setAttribute('aria-pressed',state.view==='list');
   document.querySelector('.mtz-graph-wrap').hidden=state.view==='list';$('mtz-list').hidden=state.view!=='list';
+  const timeMode=state.timeline&&state.view==='map';
+  if(!timeMode)disposeTimeMap($('mtz-time-map'));
+  $('mtz-time-map').hidden=!timeMode;$('mtz-graph').hidden=timeMode;
+  $('mtz-map-tools').hidden=timeMode;document.querySelector('.mtz-map-bottom').hidden=timeMode;
+  if(timeMode)$('mtz-selection').hidden=true;
   $('mtz-list').replaceChildren();
   if(!rels.length){const empty=t(all.length?'collapsedEmpty':'empty');$('mtz-list').append(el('p',empty));message(empty);}
   rels.slice(0,pageSize).forEach(r=>$('mtz-list').append(relationCard(r)));
@@ -326,6 +334,16 @@ function render(){
   const nodeSizes=new Map(nodes.map(node=>[node.data.id,{width:node.data.logo?58:92,height:node.data.logo?58:48}]));
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
   const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),sa=nodeSizes.get(r.source_company_id),sb=nodeSizes.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b,sa.width,sb.width,sa.height,sb.height)}};});
+  if(timeMode){
+    clearTimeout(autoExpansionTimer);
+    renderTimeMap($('mtz-time-map'),{rows:visibleRows,events:client.events.timeline||[],positions:positionById,center:state.company,year:state.timeYear,lang:state.lang,name,logo:id=>logo(companies.get(id)),color:connectionColor,eventLabel:key=>key==='newly_indexed'?ux('資料の発表','Source announcement'):t(key),
+      onYear:year=>{state.timeYear=year;closeDetail();updateURL(state);},onCompany:showCompany,onEvent:entry=>{
+        openDetail(ux('発表の記録','Announcement record'));const content=$('mtz-detail-content');content.classList.remove('mtz-company-detail','mtz-relation-detail');
+        content.append(el('p',name(entry.row.source_company_id)+' → '+name(entry.row.target_company_id)));
+        for(const event of entry.events){paragraph(content,event.announced_date,event.event_type==='newly_indexed'?ux('資料の発表','Source announcement'):t(event.event_type));if(event.conditions)paragraph(content,ux('発表内容・条件','Details / conditions'),event.conditions);for(const amount of event.amounts||[])paragraph(content,ux('発表金額','Announced amount'),amountText(amount,state.lang));}
+        content.append(button(ux('関係の詳細を見る（現在の収録情報）','View relationship details (current records)'),()=>showRelation(entry.row.relationship_id)));
+      }});return;
+  }
   cy?.destroy();
   cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#fff','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147','z-index':20}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#fff'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':16,'target-distance-from-node':16,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'.zoom-hidden',style:{'display':'none'}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
   if(!viewport&&cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
@@ -374,10 +392,10 @@ function collapseAutomaticNeighborhoods(stage){
 }
 function scheduleNeighborExpansion(){
   clearTimeout(autoExpansionTimer);
-  if(!autoConnections||autoExpansionBusy||state.view!=='map'||zoomExpansionStage()<=autoAttemptStage)return;
+  if(state.timeline||!autoConnections||autoExpansionBusy||state.view!=='map'||zoomExpansionStage()<=autoAttemptStage)return;
   const center=state.company,seq=generation;
   autoExpansionTimer=setTimeout(async()=>{
-    if(!autoConnections||autoExpansionBusy||center!==state.company||seq!==generation)return;
+    if(state.timeline||!autoConnections||autoExpansionBusy||center!==state.company||seq!==generation)return;
     const stage=zoomExpansionStage();if(stage<=autoAttemptStage)return;
     autoAttemptStage=stage;
     // Bound each batch and the total visible graph; advance only on further zoom-out.
@@ -449,7 +467,7 @@ function spreadCrowdedLogos(){
   rerouteEdges();
 }
 function updateZoomDisclosure(){
-  if(!cy)return;
+  if(!cy||state.timeline)return;
   if(autoConnections&&!keepExpandedOnZoomIn&&collapseAutomaticNeighborhoods(zoomExpansionStage()))return;
   const overview=cy.zoom()<=cy.minZoom()+.001;
   if(overview!==overviewPriority){overviewPriority=overview;render();return;}
