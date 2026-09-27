@@ -1,0 +1,44 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "coverage": {
+    "backfill_months": 24,
+    "company_checks": {},
+    "documents": {
+      "candidate_created": 61,
+      "discovered": 199,
+      "downloaded": 99,
+      "parsed": 151,
+      "published": 0,
+      "retryable_error": 13,
+      "reviewed": 21,
+      "unsupported": 391
+    },
+    "indexed_companies": 224,
+    "last_run": null,
+    "limitations": [
+      "Selected-company coverage only; absence of a line does not imply absence of a relationship.",
+      "Historical source status is not a statement of current status.",
+      "Only explicit, complete official announcements are included automatically; other extractions remain pending.",
+      "SEC live collection requires SEC_USER_AGENT."
+    ],
+    "pending_review": 0,
+    "published_relationships": 242,
+    "statement_deferred_count": 9998,
+    "statement_review_count": 300,
+    "supported_forms": [
+      "8-K",
+      "8-K/A",
+      "10-K",
+      "10-K/A",
+      "10-Q",
+      "10-Q/A",
+      "6-K",
+      "6-K/A",
+      "20-F",
+      "20-F/A"
+    ],
+    "target_companies": 24,
+    "universe": "large_cap_focus"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,174 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2022-06-14",
+      "conditions": "公式発表には契約金額や購入数量の記載なし。",
+      "deal_id": "deal-b0981d12ef454e412cb28435",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-b0981d12ef454e412cb28435",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-b0981d12ef454e412cb28435"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b0981d12ef454e412cb28435"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-2e9c5666585943783841c695"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+        },
+        "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r7",
+        "rule_version": "34c4635657f691e319abbf90795cc6a8b4ec29e165d45af36abed45202d510ac",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-b0981d12ef454e412cb28435",
+      "excerpt": "selected Lam's innovative dry resist fabrication technology as a development tool of record",
+      "locator": "p:7",
+      "normalized_text_hash": "3a452b30458292441ad53b13bbe50f822169cb3e1d039f0e36aa62a70f692f4a",
+      "section": "Official company disclosure",
+      "source_id": "source-4d08885b5e1f2deb3c11df59",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-b0981d12ef454e412cb28435"
+    ],
+    "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b0981d12ef454e412cb28435"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-b0981d12ef454e412cb28435"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-2e9c5666585943783841c695",
+    "relationship_type": "supplier",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-06-14",
+    "target_company_id": "co-sk-hynix",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-4d08885b5e1f2deb3c11df59": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r7; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r7",
+      "rule_version": "34c4635657f691e319abbf90795cc6a8b4ec29e165d45af36abed45202d510ac",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.lamresearch.com/2022-06-14-Lam-Research-Teams-Up-with-SK-hynix-to-Enhance-DRAM-Production-Cost-Efficiency-with-Breakthrough-Dry-Resist-EUV-Technology",
+      "content_hash": "e488b0cda019583e1db20ed37a18e8ef6aab698155493310de96130fb88091fc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-06-14",
+      "publisher": "Lam Research Corporation",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-4d08885b5e1f2deb3c11df59",
+      "source_type": "official_newsroom",
+      "title": "Lam Research Newsroom - Press Releases"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+    "direction": "directed",
+    "event_date": "2022-06-14",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-2e9c5666585943783841c695",
+    "relationship_type": "supplier",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-06-14",
+    "target_company_id": "co-sk-hynix",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

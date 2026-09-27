@@ -1,0 +1,560 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ceg",
+      "country": null,
+      "display_name": "Constellation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-06-23",
+      "listing_status_source": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://corporate.walmart.com/news/2026/06/23/constellation-and-walmart-announce-longterm-agreement-to-support-reliable-emissionsfree-nuclear-energy-in-illinois",
+          "symbol": "CEG",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "energy_power"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "enterprise_ai",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "ai_models"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-symbotic-llc",
+      "country": null,
+      "display_name": "Symbotic LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-vizio",
+      "country": null,
+      "display_name": "VIZIO",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "consumer_media"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000104169",
+      "company_id": "co-wmt",
+      "country": null,
+      "display_name": "Walmart Inc.",
+      "entity_status": "resolved",
+      "legal_name": "Walmart Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+          "symbol": "WMT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "food_retail"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000104169",
+    "company_id": "co-wmt",
+    "country": null,
+    "display_name": "Walmart Inc.",
+    "entity_status": "resolved",
+    "legal_name": "Walmart Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000104169.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+        "symbol": "WMT",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "food_retail"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-eaf97ec5ec79ccf17af189f6"
+        ],
+        "geography": "",
+        "headline": "モデル・基盤のIP利用と収益分配",
+        "products": [
+          "モデル・基盤の知的財産",
+          "収益分配"
+        ],
+        "scale": "",
+        "source_role": "IP利用・製品統合",
+        "target_role": "モデル・基盤技術提供"
+      },
+      "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+      "direction": "undirected",
+      "event_date": "2026-07-29",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-4330bb60569e930aab9db1bd",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-07-29",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4bd84d0619902fd319fffe9f",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a8fb47a-6fbe-4336-9a3c-c952489d3025 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "出資に関する累計資金コミットメント。契約対価・年度売上とは異なる。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-481e37c169a589476d924a43",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a19381b-b0bb-404e-aa8f-8a1f44d4dd41 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 11.9 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年6月30日までの累計払込額。130億米ドルの内数であり加算しない。",
+          "value": "11900000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-e995fc47cf71b1312937019c",
+          "evidence-145ce7fed53a37d180b7ef97"
+        ],
+        "geography": "",
+        "headline": "OpenAIへの資金コミットメントと払込状況",
+        "products": [
+          "持分法投資"
+        ],
+        "scale": "",
+        "source_role": "投資者",
+        "target_role": "投資先"
+      },
+      "description": "Microsoftの出資コミットメントは130億米ドル、6月末までの払込は119億米ドル。転換後換算の持分は約25%。当期売上241億米ドル・売掛金60億米ドルは投資額に含めない。",
+      "direction": "directed",
+      "event_date": "2026-07-29",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-c716a112ddca6d34cb9e4a09",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "contingency_unknown",
+        "not_total"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ea770c6bd6c5456283c88641",
+          "evidence-d65aad92e35a2e6807eb104d"
+        ],
+        "geography": "米国・Illinois",
+        "headline": "Dresden原発の長期電力購入契約",
+        "products": [
+          "電力",
+          "環境属性",
+          "発電容量"
+        ],
+        "scale": "約176MW（増強分30MWを含む）",
+        "source_role": "発電・卸供給",
+        "target_role": "電力購入"
+      },
+      "description": "ConstellationのDresden原子力発電所からWalmartが電力・環境属性・容量を購入するPPA。約176MWに増強分30MWを含み、2029年・2030年開始の各15年間の供給期間を設ける。",
+      "direction": "directed",
+      "event_date": "2026-06-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-156ce4bb86e7492c5d95a571",
+      "relationship_type": "supplier",
+      "source_company_id": "co-ceg",
+      "status_as_of": "2026-06-23",
+      "target_company_id": "co-wmt",
+      "themes": [
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-428b397c67afda0d9253addc",
+          "evidence-eb33d1334bfe87c02cc35d13"
+        ],
+        "geography": "",
+        "headline": "従業員向けAI認定・研修プログラム",
+        "products": [
+          "OpenAI Certifications",
+          "AI研修"
+        ],
+        "scale": "",
+        "source_role": "従業員研修の設計・展開",
+        "target_role": "AI研修・認定プログラム"
+      },
+      "description": "WalmartがOpenAIと従業員向けAI研修で協業。米国の現場・オフィス従業員向けに認定プログラムをカスタマイズし、2026年からの提供を計画。Walmart全体の技能研修予算をOpenAIへの支払額に転用しない。",
+      "direction": "undirected",
+      "event_date": "2025-09-04",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f0227fe08b108fbea5840b67",
+      "relationship_type": "partnership",
+      "source_company_id": "co-wmt",
+      "status_as_of": "2025-09-04",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-a1548a2572e76ed442efe78b",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "United States Dollars",
+          "evidence_ids": [
+            "evidence-a4eb95bb13828001a267c232",
+            "evidence-2cbaefb79809a7df847932a4",
+            "evidence-25927d5f1622755e248a5cf3",
+            "evidence-9de9929ddf6f0cdafef96e43"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$2.3 billion",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-wmt"
+          ],
+          "qualifier": "approximately",
+          "scope": "契約時に公表した希薄化後株式取得価値。1株11.50USDの現金対価に基づく概算。最終的な会計取得対価や取得現金控除後金額ではない。",
+          "value": "2300000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-a4eb95bb13828001a267c232",
+          "evidence-2cbaefb79809a7df847932a4",
+          "evidence-25927d5f1622755e248a5cf3",
+          "evidence-9de9929ddf6f0cdafef96e43"
+        ],
+        "geography": "",
+        "headline": "VIZIO・SmartCastの買収",
+        "products": [
+          "VIZIOテレビ",
+          "SmartCast",
+          "Walmart Connect広告"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "WalmartがVIZIOとSmartCastを買収し2024年12月3日に完了。Walmart Connectの広告とテレビ視聴体験を連携する。",
+      "direction": "directed",
+      "event_date": "2024-12-03",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:13+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-5f77a3fa11f3bb4966c83cfd",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-wmt",
+      "status_as_of": "2024-12-03",
+      "target_company_id": "co-vizio",
+      "themes": [],
+      "tier": {
+        "amount_id": "amount-a1548a2572e76ed442efe78b",
+        "color": "#9b5de5",
+        "currency": "USD",
+        "level": 3
+      },
+      "tier_reasons": []
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-bd8763e3c7802d91589b8203",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "United States dollars",
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$520 million",
+          "payee_company_ids": [
+            "co-symbotic-llc"
+          ],
+          "payer_company_ids": [
+            "co-wmt"
+          ],
+          "qualifier": "exact",
+          "scope": "開発プログラムへの支払い総額。400拠点の導入総費用、保守、追加オプション、SymboticからWalmartへの別の支払とは区別。",
+          "value": "520000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-fc90605904650c0f3145a6bc",
+          "evidence-1d8bcd0d0250b4c97626e441",
+          "evidence-d1a74857c3685ff0d0d6d810",
+          "evidence-620e2fb7bfe7d18e9e41741c",
+          "evidence-171d8ae516be8cb2c847423d"
+        ],
+        "geography": "米国",
+        "headline": "店舗受取・配送向け自動化システム",
+        "products": [
+          "micro-fulfillment自動化",
+          "店舗受取・配送"
+        ],
+        "scale": "400拠点＋別途200拠点オプション",
+        "source_role": "開発・設置・保守",
+        "target_role": "開発費支払・条件付き購入"
+      },
+      "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+      "direction": "directed",
+      "event_date": "2025-11-24",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3855da368526c286527580ee",
+      "relationship_type": "supplier",
+      "source_company_id": "co-symbotic-llc",
+      "status_as_of": "2025-11-24",
+      "target_company_id": "co-wmt",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e4e0f2a2c021d776c8effe37"
+        ],
+        "geography": "",
+        "headline": "Azure・Microsoft 365導入",
+        "products": [
+          "Microsoft Azure",
+          "Microsoft 365"
+        ],
+        "scale": "",
+        "source_role": "クラウド提供",
+        "target_role": "全社利用・移行"
+      },
+      "description": "WalmartがAzureとMicrosoft 365を全社採用する5年契約を2018年に発表。walmart.com・samsclub.comや既存アプリのクラウド移行を含む。現在の契約継続・更新は未確認。",
+      "direction": "directed",
+      "event_date": "2018-07-17",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-e034040a21765633a2b51199",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-msft",
+      "status_as_of": "2018-07-17",
+      "target_company_id": "co-wmt",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2018-07-17",
+    "2024-12-03",
+    "2025-09-04",
+    "2025-11-24",
+    "2026-06-23"
+  ],
+  "total_counterparties": 5,
+  "total_peer_relationships": 2,
+  "total_relationships": 5
+}

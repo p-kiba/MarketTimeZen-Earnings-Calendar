@@ -1,0 +1,247 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-74ebe9dc4550fc7993ee1fac",
+          "amount_kind": "purchase_price",
+          "conditions": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 9,917,529",
+          "payee_company_ids": [
+            "co-inphi-corporation"
+          ],
+          "payer_company_ids": [
+            "co-marvell-technology-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+          "value": "9917529000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-03-10",
+      "conditions": "買収完了日は2021-04-20。 取引はcash and stock。",
+      "deal_id": "deal-009df4431895104913691658",
+      "detected_at": "2026-09-26T13:26:58+00:00",
+      "effective_date": null,
+      "event_id": "event-009df4431895104913691658",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-009df4431895104913691658",
+        "evidence-53e86c580dc4287037c3cd4f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-009df4431895104913691658",
+            "evidence-53e86c580dc4287037c3cd4f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d5fc92e82f48fd3deaeb77b0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+        },
+        "reason": "Primary-source review of merged research record r15; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r15",
+        "rule_version": "2c2ba8491c9fcb90707d29156c0c9d21dd5553bd8bceb3bc9cf4f0574ba2de44",
+        "verified_at": "2026-09-26T13:26:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-009df4431895104913691658",
+      "excerpt": "completed our acquisition of Inphi Corporation",
+      "locator": "sec-div:176",
+      "normalized_text_hash": "15e5ade9e8899c5c12487f8d18b972eb63f8fb56501a6190d3afba850dc31097",
+      "section": "Official issuer disclosure",
+      "source_id": "source-ac06e0c6a556686f3e7bae16",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-53e86c580dc4287037c3cd4f",
+      "excerpt": "$ 9,917,529",
+      "locator": "tr:328",
+      "normalized_text_hash": "c9a982576e6875a15f06a624592eb57234e123c68981cab445e2af1a02aadaf7",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-ac06e0c6a556686f3e7bae16",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-009df4431895104913691658"
+    ],
+    "description": "MarvellがInphiを現金と株式で買収し、高速データ移動・光インターコネクト技術を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-009df4431895104913691658",
+      "evidence-53e86c580dc4287037c3cd4f"
+    ],
+    "first_observed_at": "2026-09-26T13:26:58+00:00",
+    "last_observed_at": "2026-09-26T13:26:58+00:00",
+    "latest_event_ids": [
+      "event-009df4431895104913691658"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d5fc92e82f48fd3deaeb77b0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-marvell-technology-inc",
+    "status_as_of": "2022-03-10",
+    "target_company_id": "co-inphi-corporation",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-ac06e0c6a556686f3e7bae16": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19"
+      },
+      "reason": "Primary-source review of merged research record r15; source wording, party identity, transaction scope/status and amount qualifiers checked. Unresolved $ symbols retain null currency; contingencies are not presented as paid totals.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r15",
+      "rule_version": "2c2ba8491c9fcb90707d29156c0c9d21dd5553bd8bceb3bc9cf4f0574ba2de44",
+      "verified_at": "2026-09-26T13:26:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-22-000016/mrvl-20220129.htm",
+      "content_hash": "5b69fd054ce49f5ed8b108d2db1502f017cc1d5a35813b0afe404275f002ee19",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-03-10",
+      "publisher": "Marvell Technology, Inc. / SEC filing",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-ac06e0c6a556686f3e7bae16",
+      "source_type": "official_newsroom",
+      "title": "March 10, 2022 - 10-K: Annual report [Section 13 and 15(d), not S-K Item 405] | Marvell Technology, Inc. (MRVL)"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-74ebe9dc4550fc7993ee1fac",
+        "amount_kind": "purchase_price",
+        "conditions": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-009df4431895104913691658",
+          "evidence-53e86c580dc4287037c3cd4f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 9,917,529",
+        "payee_company_ids": [
+          "co-inphi-corporation"
+        ],
+        "payer_company_ids": [
+          "co-marvell-technology-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "表の単位はthousands。現金、Marvell株式、代替株式報酬、転換社債の持分要素を含む。通貨コードは未確認。",
+        "value": "9917529000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "MarvellがInphiを現金と株式で買収し、高速データ移動・光インターコネクト技術を取得。",
+    "direction": "directed",
+    "event_date": "2022-03-10",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:58+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-d5fc92e82f48fd3deaeb77b0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-marvell-technology-inc",
+    "status_as_of": "2022-03-10",
+    "target_company_id": "co-inphi-corporation",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

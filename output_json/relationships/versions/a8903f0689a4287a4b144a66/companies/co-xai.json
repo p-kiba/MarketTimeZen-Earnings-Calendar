@@ -1,0 +1,196 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "gpu_compute",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        {
+          "name": "Space Exploration Technologies Corp.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "cik": "0001181412",
+      "company_id": "co-spacex",
+      "country": "US",
+      "display_name": "SpaceX",
+      "entity_status": "resolved",
+      "legal_name": "Space Exploration Technologies Corp.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-08-04",
+      "listing_status_source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+          "symbol": "SPCX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "industrial_aerospace",
+        "networking",
+        "data_center_cloud",
+        "ai_models"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-xai",
+      "country": "US",
+      "display_name": "xAI",
+      "entity_status": "resolved",
+      "legal_name": "X.AI Holdings Corp.",
+      "listing_status": "unlisted",
+      "listing_status_as_of": "2026-08-04",
+      "listing_status_source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "ai_models"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-xai",
+    "country": "US",
+    "display_name": "xAI",
+    "entity_status": "resolved",
+    "legal_name": "X.AI Holdings Corp.",
+    "listing_status": "unlisted",
+    "listing_status_as_of": "2026-08-04",
+    "listing_status_source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "ai_models"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-08d33f8d0dfcbb760b1c1fd2",
+          "evidence-b3b7636fabdd46dbedc8a6e7"
+        ],
+        "geography": "",
+        "headline": "Blackwell採用予定企業として公表",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "NVIDIAがBlackwellの採用予定企業としてxAIを公表。契約額や発注・納入完了の証拠ではない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-16ba49d45c91f5a2fb8d3fc9",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-xai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "geography": "",
+        "headline": "xAIを買収・完全子会社化",
+        "products": [
+          "AIモデル・基盤"
+        ],
+        "scale": "株式交換による取得。買収後はxAIがSpaceXの完全子会社",
+        "source_role": "買収側",
+        "target_role": "買収対象・買収後の完全子会社"
+      },
+      "description": "SpaceXは2026年2月2日にX.AI Holdings Corp.（xAI）を買収し、完全子会社化。取引は株式交換で実施。資料に買収総額の記載は確認できない。",
+      "direction": "directed",
+      "event_date": "2026-02-02",
+      "has_amount": false,
+      "last_observed_at": "2026-09-27T13:22:48+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-4fde9dea8cb482bc638355d4",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-spacex",
+      "status_as_of": "2026-02-02",
+      "target_company_id": "co-xai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2026-02-02"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

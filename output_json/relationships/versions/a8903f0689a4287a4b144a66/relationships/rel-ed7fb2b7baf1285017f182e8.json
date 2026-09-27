@@ -1,0 +1,321 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-f73f978f2bd9016aeffecc5f",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-345 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 549 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "exact",
+          "scope": "取得現金控除後の現金対価。グロス取得総額ではない。",
+          "value": "549000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-d3474e31a1f27b9050b568cb",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-348 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "max_value": "300000000",
+          "min_value": null,
+          "original_text": "$ 300 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-lly"
+          ],
+          "qualifier": "up_to",
+          "scope": "非譲渡CVRの最大約追加対価。所定のマイルストーン達成が条件。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "買収完了月は2025年7月。この注記から正確な完了日は補わない。CVRは1株当たり最大$3.00、総額上限は約3億米ドル。具体的な達成条件は追加確認対象。",
+      "deal_id": "deal-fc1d61bdd745864237dcf88d",
+      "detected_at": "2026-09-26T06:22:28+00:00",
+      "effective_date": null,
+      "event_id": "event-fc1d61bdd745864237dcf88d",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fc1d61bdd745864237dcf88d",
+        "evidence-7bfe6dc1e05d18831639aff0"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fc1d61bdd745864237dcf88d",
+            "evidence-7bfe6dc1e05d18831639aff0"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-04-30",
+      "relationship_ids": [
+        "rel-ed7fb2b7baf1285017f182e8"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-db1eb3c30600532489dbe85d": "25224067df7020113b8bface6ae59df7f4cf33c2260c1248853c5677984bb439"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-db1eb3c30600532489dbe85d",
+        "rule_version": "e11ca9a1466b074c23f9eb67efce2267b096c0865bbb5d13e27ff7acb6d7479f",
+        "verified_at": "2026-09-26T06:22:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-7bfe6dc1e05d18831639aff0",
+      "excerpt": "ELI LILLY",
+      "locator": "tr:354",
+      "normalized_text_hash": "b8d27d6be93270b301eb6d473606bec65294fb3e9505b9ef24a3c4dd25db3945",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-db1eb3c30600532489dbe85d",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fc1d61bdd745864237dcf88d",
+      "excerpt": "Verve",
+      "locator": "sec-div:296",
+      "normalized_text_hash": "e57a7df8e7de05d0a4e4ecf9a4de76eb1c744a2cfc6fb22ad9b557e5f0b82b07",
+      "section": "Official disclosure: business context",
+      "source_id": "source-db1eb3c30600532489dbe85d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-fc1d61bdd745864237dcf88d",
+        "evidence-7bfe6dc1e05d18831639aff0"
+      ],
+      "geography": "",
+      "headline": "Verve買収の現金対価と条件付き追加対価",
+      "products": [
+        "心血管疾患向け遺伝子医薬"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-fc1d61bdd745864237dcf88d"
+    ],
+    "description": "Lillyは心血管疾患向け遺伝子医薬を開発するVerveの全株式を2025年7月に取得。取得現金控除後の現金対価は5.49億米ドル。別途最大約3億米ドルの条件付き対価があり、確定総額に合算しない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fc1d61bdd745864237dcf88d",
+      "evidence-7bfe6dc1e05d18831639aff0"
+    ],
+    "first_observed_at": "2026-09-26T06:22:28+00:00",
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "latest_event_ids": [
+      "event-fc1d61bdd745864237dcf88d"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2026-03-31",
+    "target_company_id": "co-verve",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-db1eb3c30600532489dbe85d": "25224067df7020113b8bface6ae59df7f4cf33c2260c1248853c5677984bb439"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-db1eb3c30600532489dbe85d",
+      "rule_version": "e11ca9a1466b074c23f9eb67efce2267b096c0865bbb5d13e27ff7acb6d7479f",
+      "verified_at": "2026-09-26T06:22:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000059478-26-000045",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
+      "content_hash": "25224067df7020113b8bface6ae59df7f4cf33c2260c1248853c5677984bb439",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2026-04-30",
+      "filing_cik": "0000059478",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-lly",
+      "retrieved_at": "2026-09-26T06:13:58+00:00",
+      "source_id": "source-db1eb3c30600532489dbe85d",
+      "source_type": "sec_filing",
+      "title": "lly-20260331"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-f73f978f2bd9016aeffecc5f",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-345 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-fc1d61bdd745864237dcf88d",
+          "evidence-7bfe6dc1e05d18831639aff0"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 549 million",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-lly"
+        ],
+        "qualifier": "exact",
+        "scope": "取得現金控除後の現金対価。グロス取得総額ではない。",
+        "value": "549000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-d3474e31a1f27b9050b568cb",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-348 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-fc1d61bdd745864237dcf88d",
+          "evidence-7bfe6dc1e05d18831639aff0"
+        ],
+        "max_value": "300000000",
+        "min_value": null,
+        "original_text": "$ 300 million",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-lly"
+        ],
+        "qualifier": "up_to",
+        "scope": "非譲渡CVRの最大約追加対価。所定のマイルストーン達成が条件。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-fc1d61bdd745864237dcf88d",
+        "evidence-7bfe6dc1e05d18831639aff0"
+      ],
+      "geography": "",
+      "headline": "Verve買収の現金対価と条件付き追加対価",
+      "products": [
+        "心血管疾患向け遺伝子医薬"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "Lillyは心血管疾患向け遺伝子医薬を開発するVerveの全株式を2025年7月に取得。取得現金控除後の現金対価は5.49億米ドル。別途最大約3億米ドルの条件付き対価があり、確定総額に合算しない。",
+    "direction": "directed",
+    "event_date": "2026-04-30",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-ed7fb2b7baf1285017f182e8",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2026-03-31",
+    "target_company_id": "co-verve",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "not_total",
+      "bounded_or_unspecified",
+      "conditional"
+    ]
+  }
+}

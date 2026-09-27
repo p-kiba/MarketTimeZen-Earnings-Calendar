@@ -1,0 +1,254 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": "2025-10-01",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-569d3f8e24580c3958f76110",
+          "amount_kind": "purchase_price",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_e9c71479-93f8-4785-885a-34163ef0fdf6 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 9.4 billion",
+          "payee_company_ids": [
+            "co-oxy"
+          ],
+          "payer_company_ids": [
+            "co-brk-b"
+          ],
+          "qualifier": "approximately",
+          "scope": "OxyChem事業取得の現金対価。取得後調整を含む。受領者は売主で、対象事業への出資金ではない。",
+          "value": "9400000000",
+          "value_semantics": "revised_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "取得対象はOxyChem事業。従前の環境負債は売主Occidentalが保持。",
+      "deal_id": "deal-caf68e172092fd2d4aa54505",
+      "detected_at": "2026-09-26T06:22:26+00:00",
+      "effective_date": "2026-01-02",
+      "event_id": "event-caf68e172092fd2d4aa54505",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-caf68e172092fd2d4aa54505"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-caf68e172092fd2d4aa54505"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-08-10",
+      "relationship_ids": [
+        "rel-904040c303f1daf93003c990"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f611c9fee0eb629bc5667626": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc"
+        },
+        "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-f611c9fee0eb629bc5667626",
+        "rule_version": "d60ac8ef9de1d336e4eb311577ec6669730fe6a3c9c02bc68ff5c6884e0cd9c7",
+        "verified_at": "2026-09-26T06:22:26+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-caf68e172092fd2d4aa54505",
+      "excerpt": "OxyChem",
+      "locator": "p:1217",
+      "normalized_text_hash": "bcda4c47c9d2dd6dc5f397c0db8f425e8cbdd32c26bb54b9c1413a81922117ba",
+      "section": "Official disclosure: business context",
+      "source_id": "source-f611c9fee0eb629bc5667626",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-caf68e172092fd2d4aa54505"
+      ],
+      "geography": "",
+      "headline": "OxyChem化学品事業の取得完了",
+      "products": [
+        "基礎化学品事業"
+      ],
+      "scale": "",
+      "source_role": "事業取得者",
+      "target_role": "取得対象の化学品事業"
+    },
+    "deal_ids": [
+      "deal-caf68e172092fd2d4aa54505"
+    ],
+    "description": "BerkshireがOccidentalの化学品事業OxyChemを2026年1月2日に取得。現金対価は取得後調整を含む約94億米ドル。Occidental全社の買収ではなく、従前の環境負債はOccidentalに残る。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-caf68e172092fd2d4aa54505"
+    ],
+    "first_observed_at": "2026-09-26T06:22:26+00:00",
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "latest_event_ids": [
+      "event-caf68e172092fd2d4aa54505"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-904040c303f1daf93003c990",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-brk-b",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-oxychem",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f611c9fee0eb629bc5667626": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc"
+      },
+      "reason": "Codex primary-source review: discovery by Sol, independent evidence review by Astra, integration review by root. Exact source and paragraph hashes pinned. No human approval claimed. Amount scope, legal parties, historical status and incomplete conditions retained.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-f611c9fee0eb629bc5667626",
+      "rule_version": "d60ac8ef9de1d336e4eb311577ec6669730fe6a3c9c02bc68ff5c6884e0cd9c7",
+      "verified_at": "2026-09-26T06:22:26+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001193125-26-341032",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+      "content_hash": "970f0517da882c405c1bcc4b7ef6422bf1fd926cb032bf46781de42fb73192fc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-08-10",
+      "filing_cik": "0001067983",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-brk-b",
+      "retrieved_at": "2026-09-26T04:45:17+00:00",
+      "source_id": "source-f611c9fee0eb629bc5667626",
+      "source_type": "sec_filing",
+      "title": "10-Q"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-569d3f8e24580c3958f76110",
+        "amount_kind": "purchase_price",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL F_e9c71479-93f8-4785-885a-34163ef0fdf6 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-caf68e172092fd2d4aa54505"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 9.4 billion",
+        "payee_company_ids": [
+          "co-oxy"
+        ],
+        "payer_company_ids": [
+          "co-brk-b"
+        ],
+        "qualifier": "approximately",
+        "scope": "OxyChem事業取得の現金対価。取得後調整を含む。受領者は売主で、対象事業への出資金ではない。",
+        "value": "9400000000",
+        "value_semantics": "revised_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-caf68e172092fd2d4aa54505"
+      ],
+      "geography": "",
+      "headline": "OxyChem化学品事業の取得完了",
+      "products": [
+        "基礎化学品事業"
+      ],
+      "scale": "",
+      "source_role": "事業取得者",
+      "target_role": "取得対象の化学品事業"
+    },
+    "description": "BerkshireがOccidentalの化学品事業OxyChemを2026年1月2日に取得。現金対価は取得後調整を含む約94億米ドル。Occidental全社の買収ではなく、従前の環境負債はOccidentalに残る。",
+    "direction": "directed",
+    "event_date": "2026-08-10",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T06:22:26+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-904040c303f1daf93003c990",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-brk-b",
+    "status_as_of": "2026-06-30",
+    "target_company_id": "co-oxychem",
+    "themes": [],
+    "tier": {
+      "amount_id": "amount-569d3f8e24580c3958f76110",
+      "color": "#9b5de5",
+      "currency": "USD",
+      "level": 3
+    },
+    "tier_reasons": []
+  }
+}

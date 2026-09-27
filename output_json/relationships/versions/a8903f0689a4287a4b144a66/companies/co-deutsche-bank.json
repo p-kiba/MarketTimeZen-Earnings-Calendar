@@ -1,0 +1,123 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-deutsche-bank",
+      "country": null,
+      "display_name": "Deutsche Bank",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001341439",
+      "company_id": "co-orcl",
+      "country": null,
+      "display_name": "Oracle",
+      "entity_status": "resolved",
+      "legal_name": "ORACLE CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "symbol": "ORCL-PD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "data_center_cloud",
+        "enterprise_ai"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-deutsche-bank",
+    "country": null,
+    "display_name": "Deutsche Bank",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-67b09f9d5055993ded068cd4",
+          "evidence-5ffc88b5eabe9ead0bf92256"
+        ],
+        "geography": "",
+        "headline": "銀行の基幹DBをクラウド化",
+        "products": [
+          "Oracle Exadata Cloud@Customer",
+          "基幹データベース"
+        ],
+        "scale": "",
+        "source_role": "Oracleが銀行内設置型DB基盤を提供",
+        "target_role": "Deutsche Bankが基幹システムを移行"
+      },
+      "description": "Deutsche Bankが基幹データベースをOracle Exadata Cloud@Customerへ移行する複数年協業。取引・決済処理・リスク管理・資本計画等を支える銀行内設置型の基盤。2021年合意の記録で、現在の継続を新たに確認したものではない。",
+      "direction": "directed",
+      "event_date": "2021-06-24",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-8c6740437dd02f1b4370a05e",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-orcl",
+      "status_as_of": "2021-06-24",
+      "target_company_id": "co-deutsche-bank",
+      "themes": [
+        "financial_services"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-06-24"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

@@ -1,0 +1,125 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-prometheus-biosciences-inc",
+      "country": null,
+      "display_name": "Prometheus Biosciences, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-prometheus-biosciences-inc",
+    "country": null,
+    "display_name": "Prometheus Biosciences, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-8dd1f01bf97ad2df83b40d66",
+          "amount_kind": "purchase_price",
+          "conditions": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10.8 billion",
+          "payee_company_ids": [
+            "co-prometheus-biosciences-inc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "value": "10800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがPrometheus Biosciencesを買収し、TL1A標的抗体MK-7240など免疫疾患領域の臨床パイプラインを取得。",
+      "direction": "directed",
+      "event_date": "2023-06-16",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-38baf7d825d6361508b872f0",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2023-06-16",
+      "target_company_id": "co-prometheus-biosciences-inc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-06-16"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

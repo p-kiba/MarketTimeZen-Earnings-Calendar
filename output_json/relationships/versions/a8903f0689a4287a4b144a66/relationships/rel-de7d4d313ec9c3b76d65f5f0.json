@@ -1,0 +1,269 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-623f9e95af68ffb183431649",
+          "amount_kind": "purchase_price",
+          "conditions": "2017年年次報告書本文に記載された現金購入価格。別箇所では取得現金等を考慮したacquisition costをapproximately $284 millionとも記載。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$284 million",
+          "payee_company_ids": [
+            "co-blue-river-technology"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "284000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "買収は2017年9月に完了。 日付までは年次報告書の当該記載から確認できない。",
+      "deal_id": "deal-76a78c297b113be7b149d5fe",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-76a78c297b113be7b149d5fe",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-76a78c297b113be7b149d5fe",
+        "evidence-1aef4557f53a72e6317904e5",
+        "evidence-50fb0fa47bd7b5f77b8f3921"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-76a78c297b113be7b149d5fe",
+            "evidence-1aef4557f53a72e6317904e5",
+            "evidence-50fb0fa47bd7b5f77b8f3921"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2017-12-18",
+      "relationship_ids": [
+        "rel-de7d4d313ec9c3b76d65f5f0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-43a53f135f139650a3f5683f": "c73d3d0e85f1501d25ec58267e9e257927dae6caf58f81c9cc4488da63de07cc"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r8; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r8",
+        "rule_version": "28665d4a1137cb90dfe6fcd0393551e45f8cb0a6e081846fd718c78c9101740d",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1aef4557f53a72e6317904e5",
+      "excerpt": "Deere & Company",
+      "locator": "p:948",
+      "normalized_text_hash": "b1e1a60d8087ff29b82923e3050a5bc1585a8e9f28cb765ed28156182cda2557",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-43a53f135f139650a3f5683f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-50fb0fa47bd7b5f77b8f3921",
+      "excerpt": "$284 million",
+      "locator": "p:462",
+      "normalized_text_hash": "286bbc4df172daf52046ebbe78a9a6dfc6b96464788188c2b8555473490295e6",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-43a53f135f139650a3f5683f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-76a78c297b113be7b149d5fe",
+      "excerpt": "In\nSeptember 2017,",
+      "locator": "p:494",
+      "normalized_text_hash": "48102c6806a888354f46d8d59252554c3898942bf9f5ce447150d6dbb2c7c63b",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-43a53f135f139650a3f5683f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-76a78c297b113be7b149d5fe"
+    ],
+    "description": "Deere & Companyはコンピュータビジョンと機械学習を農業へ応用するBlue River Technologyを買収した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-76a78c297b113be7b149d5fe",
+      "evidence-1aef4557f53a72e6317904e5",
+      "evidence-50fb0fa47bd7b5f77b8f3921"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-76a78c297b113be7b149d5fe"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-de7d4d313ec9c3b76d65f5f0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2017-12-18",
+    "target_company_id": "co-blue-river-technology",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-43a53f135f139650a3f5683f": "c73d3d0e85f1501d25ec58267e9e257927dae6caf58f81c9cc4488da63de07cc"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r8; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r8",
+      "rule_version": "28665d4a1137cb90dfe6fcd0393551e45f8cb0a6e081846fd718c78c9101740d",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "000104746917007719",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/315189/000104746917007719/a2233505z10-k.htm",
+      "content_hash": "c73d3d0e85f1501d25ec58267e9e257927dae6caf58f81c9cc4488da63de07cc",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2017-12-18",
+      "filing_cik": "0000315189",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T13:46:44+00:00",
+      "source_id": "source-43a53f135f139650a3f5683f",
+      "source_type": "sec_filing",
+      "title": "Untitled source"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-623f9e95af68ffb183431649",
+        "amount_kind": "purchase_price",
+        "conditions": "2017年年次報告書本文に記載された現金購入価格。別箇所では取得現金等を考慮したacquisition costをapproximately $284 millionとも記載。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-76a78c297b113be7b149d5fe",
+          "evidence-1aef4557f53a72e6317904e5",
+          "evidence-50fb0fa47bd7b5f77b8f3921"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$284 million",
+        "payee_company_ids": [
+          "co-blue-river-technology"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "284000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Deere & Companyはコンピュータビジョンと機械学習を農業へ応用するBlue River Technologyを買収した。",
+    "direction": "directed",
+    "event_date": "2017-12-18",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-de7d4d313ec9c3b76d65f5f0",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2017-12-18",
+    "target_company_id": "co-blue-river-technology",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

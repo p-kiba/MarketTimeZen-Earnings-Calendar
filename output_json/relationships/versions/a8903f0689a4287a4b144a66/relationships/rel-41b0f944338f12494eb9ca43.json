@@ -1,0 +1,201 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-09-05",
+      "conditions": "",
+      "deal_id": "deal-ec139d1d168ab1f22ef5ab68",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-ec139d1d168ab1f22ef5ab68",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ec139d1d168ab1f22ef5ab68"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ec139d1d168ab1f22ef5ab68"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-41b0f944338f12494eb9ca43"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-9bc443c9160fcd8af6385296",
+        "rule_version": "542cc2be81bfeb574c58623d6f565503f01c31fb5c3f973adaaf034da6965db7",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ec139d1d168ab1f22ef5ab68",
+      "excerpt": "preferred cloud provider",
+      "locator": "p:1",
+      "normalized_text_hash": "cfe8312d218e526982d8f6bd82bcf5ec3ffc48c0c285c93706ef5cd1e79e4b10",
+      "section": "Official disclosure: business context",
+      "source_id": "source-9bc443c9160fcd8af6385296",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ec139d1d168ab1f22ef5ab68"
+      ],
+      "geography": "",
+      "headline": "次世代ADASのクラウド開発基盤",
+      "products": [
+        "AWS",
+        "ADAS"
+      ],
+      "scale": "",
+      "source_role": "クラウド計算・保存基盤",
+      "target_role": "自動運転支援システム開発"
+    },
+    "deal_ids": [
+      "deal-ec139d1d168ab1f22ef5ab68"
+    ],
+    "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-ec139d1d168ab1f22ef5ab68"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-ec139d1d168ab1f22ef5ab68"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-41b0f944338f12494eb9ca43",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2023-09-05",
+    "target_company_id": "co-bmw",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9bc443c9160fcd8af6385296": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-9bc443c9160fcd8af6385296",
+      "rule_version": "542cc2be81bfeb574c58623d6f565503f01c31fb5c3f973adaaf034da6965db7",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://press.aboutamazon.com/2023/9/the-bmw-group-selects-aws-to-power-next-generation-automated-driving-platform",
+      "content_hash": "0fa234144ffe629963ca001b5b6efaa4ea57fab5d527dfd68dedbf6d7590d3bb",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-09-05",
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:04:19+00:00",
+      "source_id": "source-9bc443c9160fcd8af6385296",
+      "source_type": "official_newsroom",
+      "title": "The-BMW-Group-Selects-AWS-to-Power-Next-Generation-Automated-Driving-Platform - US Press Center"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ec139d1d168ab1f22ef5ab68"
+      ],
+      "geography": "",
+      "headline": "次世代ADASのクラウド開発基盤",
+      "products": [
+        "AWS",
+        "ADAS"
+      ],
+      "scale": "",
+      "source_role": "クラウド計算・保存基盤",
+      "target_role": "自動運転支援システム開発"
+    },
+    "description": "BMW Groupが次世代ADAS開発基盤の優先クラウドにAWSを選定。走行データの保存・AI学習などを支援する。2023年発表時点の内容。",
+    "direction": "directed",
+    "event_date": "2023-09-05",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-41b0f944338f12494eb9ca43",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-aws",
+    "status_as_of": "2023-09-05",
+    "target_company_id": "co-bmw",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

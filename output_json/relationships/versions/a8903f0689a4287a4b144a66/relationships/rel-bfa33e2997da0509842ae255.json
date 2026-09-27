@@ -1,0 +1,203 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-02-15",
+      "conditions": "",
+      "deal_id": "deal-1d8241a4ed01bb263f50b4af",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-1d8241a4ed01bb263f50b4af",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1d8241a4ed01bb263f50b4af"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1d8241a4ed01bb263f50b4af"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bfa33e2997da0509842ae255"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-f2cb90c847dbad0841ed27ca": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-dell-nokia",
+        "rule_version": "f9e54faf819f9b9806df0c11b79239262fed4940d284b32377d4e7fb77fe1d41",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1d8241a4ed01bb263f50b4af",
+      "excerpt": "As part of the agree",
+      "locator": "p:7",
+      "normalized_text_hash": "0bcabed7974f00f378b580f81f19669b98a43ef62f3cd4d373fa45f0fa100522",
+      "section": "Primary disclosure: p:7",
+      "source_id": "source-f2cb90c847dbad0841ed27ca",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-1d8241a4ed01bb263f50b4af"
+      ],
+      "geography": "",
+      "headline": "通信クラウド向けサーバーへ移行",
+      "products": [
+        "Dell PowerEdge",
+        "Nokia AirFrame"
+      ],
+      "scale": "",
+      "source_role": "Dellが通信クラウド用インフラを提供",
+      "target_role": "Nokiaが既存AirFrame顧客の移行を共同支援"
+    },
+    "deal_ids": [
+      "deal-1d8241a4ed01bb263f50b4af"
+    ],
+    "description": "Nokiaが既存AirFrame顧客向けの優先インフラパートナーとしてDellを採用。共同でDell PowerEdge等への移行を支援する計画。Nokia自身が全サーバーを直接購入するという記述ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-1d8241a4ed01bb263f50b4af"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-1d8241a4ed01bb263f50b4af"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-bfa33e2997da0509842ae255",
+    "relationship_type": "partnership",
+    "source_company_id": "co-dell",
+    "status_as_of": "2024-02-15",
+    "target_company_id": "co-nokia",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-f2cb90c847dbad0841ed27ca": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-dell-nokia",
+      "rule_version": "f9e54faf819f9b9806df0c11b79239262fed4940d284b32377d4e7fb77fe1d41",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.nokia.com/newsroom/dell-technologies-and-nokia-announce-strategic-partnership-to-advance-network-cloud-transformation-and-private-5g/",
+      "content_hash": "6543c3c1c4e35a639f51faef4d6a51d3275751fdfe2d8962ae2bb7b3a5f553cf",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-02-15",
+      "publisher": "www.nokia.com",
+      "retrieved_at": "2026-09-26T15:55:43+00:00",
+      "source_id": "source-f2cb90c847dbad0841ed27ca",
+      "source_type": "official_newsroom",
+      "title": "Dell Technologies and Nokia announce strategic partnership to advance network cloud transformation and private 5G"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-1d8241a4ed01bb263f50b4af"
+      ],
+      "geography": "",
+      "headline": "通信クラウド向けサーバーへ移行",
+      "products": [
+        "Dell PowerEdge",
+        "Nokia AirFrame"
+      ],
+      "scale": "",
+      "source_role": "Dellが通信クラウド用インフラを提供",
+      "target_role": "Nokiaが既存AirFrame顧客の移行を共同支援"
+    },
+    "description": "Nokiaが既存AirFrame顧客向けの優先インフラパートナーとしてDellを採用。共同でDell PowerEdge等への移行を支援する計画。Nokia自身が全サーバーを直接購入するという記述ではない。",
+    "direction": "undirected",
+    "event_date": "2024-02-15",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-bfa33e2997da0509842ae255",
+    "relationship_type": "partnership",
+    "source_company_id": "co-dell",
+    "status_as_of": "2024-02-15",
+    "target_company_id": "co-nokia",
+    "themes": [
+      "networking"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

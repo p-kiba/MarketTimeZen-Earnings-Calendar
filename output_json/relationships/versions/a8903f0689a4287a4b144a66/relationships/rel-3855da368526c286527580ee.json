@@ -1,0 +1,385 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": "2025-01-27",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-bd8763e3c7802d91589b8203",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "United States dollars",
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$520 million",
+          "payee_company_ids": [
+            "co-symbotic-llc"
+          ],
+          "payer_company_ids": [
+            "co-wmt"
+          ],
+          "qualifier": "exact",
+          "scope": "開発プログラムへの支払い総額。400拠点の導入総費用、保守、追加オプション、SymboticからWalmartへの別の支払とは区別。",
+          "value": "520000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "開発費5.2億USDは契約締結時の2.3億、1周年1.65億、2周年1.25億を含む。残額の実際の受領は未確認。400拠点の購入は性能条件付き、追加200拠点は別オプション。各システムの保守は仮受入から最低15年。解除条件を含み、開発費を全導入価格とは扱わない。",
+      "deal_id": "deal-fc90605904650c0f3145a6bc",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": null,
+      "event_id": "event-fc90605904650c0f3145a6bc",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fc90605904650c0f3145a6bc",
+        "evidence-1d8bcd0d0250b4c97626e441",
+        "evidence-d1a74857c3685ff0d0d6d810",
+        "evidence-620e2fb7bfe7d18e9e41741c",
+        "evidence-171d8ae516be8cb2c847423d"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fc90605904650c0f3145a6bc",
+            "evidence-1d8bcd0d0250b4c97626e441",
+            "evidence-d1a74857c3685ff0d0d6d810",
+            "evidence-620e2fb7bfe7d18e9e41741c",
+            "evidence-171d8ae516be8cb2c847423d"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-11-24",
+      "relationship_ids": [
+        "rel-3855da368526c286527580ee"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "years",
+        "duration_value": 12,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-fc90605904650c0f3145a6bc",
+          "evidence-1d8bcd0d0250b4c97626e441",
+          "evidence-d1a74857c3685ff0d0d6d810",
+          "evidence-620e2fb7bfe7d18e9e41741c",
+          "evidence-171d8ae516be8cb2c847423d"
+        ],
+        "renewal": null,
+        "start_basis": "2025 Walmart MAAの当初契約期間。各システムの保守期間とは別。",
+        "start_date": "2025-01-27"
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-9294da69779573884f584931": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+          "source-e0f9d2205418024efd85b143": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-symbotic-llc-co-wmt-supplier",
+        "rule_version": "8750c0a3afacfbc2a58646ff2726d9ba1d25b83f7a4457983ce628e051ae7740",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-171d8ae516be8cb2c847423d",
+      "excerpt": "minimum of 15 years",
+      "locator": "sec-div:388",
+      "normalized_text_hash": "71abca6d78377a71110d8301a5c1920f7f951b00a902b44e30edcfac8595c49e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9294da69779573884f584931",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-1d8bcd0d0250b4c97626e441",
+      "excerpt": "Symbotic LLC",
+      "locator": "p:346",
+      "normalized_text_hash": "a391f475f32b3c1607637cd06656cad8607c83075cdc35ca61ff4f97b2150d4f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e0f9d2205418024efd85b143",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-620e2fb7bfe7d18e9e41741c",
+      "excerpt": "twelfth anniversary",
+      "locator": "sec-div:391",
+      "normalized_text_hash": "4c53b54c9887e3e3d6bfc1efba6abfcfd897b14fe7621e4de1dadaddf1491244",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9294da69779573884f584931",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d1a74857c3685ff0d0d6d810",
+      "excerpt": "United States dollars",
+      "locator": "p:793",
+      "normalized_text_hash": "4f83aae65e41648abe38d76d0659799ac3a0ee10c1b7292ef4090d95becbcbe4",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e0f9d2205418024efd85b143",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fc90605904650c0f3145a6bc",
+      "excerpt": "total of $520 million",
+      "locator": "sec-div:384",
+      "normalized_text_hash": "f8822630788a33e854299e602c60b38f498a2279db04be69ce813eb40143f835",
+      "section": "Verified contract and business scope",
+      "source_id": "source-9294da69779573884f584931",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-fc90605904650c0f3145a6bc",
+        "evidence-1d8bcd0d0250b4c97626e441",
+        "evidence-d1a74857c3685ff0d0d6d810",
+        "evidence-620e2fb7bfe7d18e9e41741c",
+        "evidence-171d8ae516be8cb2c847423d"
+      ],
+      "geography": "米国",
+      "headline": "店舗受取・配送向け自動化システム",
+      "products": [
+        "micro-fulfillment自動化",
+        "店舗受取・配送"
+      ],
+      "scale": "400拠点＋別途200拠点オプション",
+      "source_role": "開発・設置・保守",
+      "target_role": "開発費支払・条件付き購入"
+    },
+    "deal_ids": [
+      "deal-fc90605904650c0f3145a6bc"
+    ],
+    "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fc90605904650c0f3145a6bc",
+      "evidence-1d8bcd0d0250b4c97626e441",
+      "evidence-d1a74857c3685ff0d0d6d810",
+      "evidence-620e2fb7bfe7d18e9e41741c",
+      "evidence-171d8ae516be8cb2c847423d"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-fc90605904650c0f3145a6bc"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3855da368526c286527580ee",
+    "relationship_type": "supplier",
+    "source_company_id": "co-symbotic-llc",
+    "status_as_of": "2025-11-24",
+    "target_company_id": "co-wmt",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-9294da69779573884f584931": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+        "source-e0f9d2205418024efd85b143": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-symbotic-llc-co-wmt-supplier",
+      "rule_version": "8750c0a3afacfbc2a58646ff2726d9ba1d25b83f7a4457983ce628e051ae7740",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001837240-25-000278",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+      "content_hash": "a6e662f960ee18d8a3547ad50cf4cd85814c1dd3a8276ce8580acb35cfe357af",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2025-11-24",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:05:14+00:00",
+      "source_id": "source-9294da69779573884f584931",
+      "source_type": "sec_filing",
+      "title": "sym-20250927"
+    },
+    {
+      "accession_number": "0001193125-25-013845",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312525013845/d905462dex101.htm",
+      "content_hash": "2e5a11c1a80dbfd5bc524118a55336ba2ca9133b68dd7538101157134efd843f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2025-01-28",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:10:05+00:00",
+      "source_id": "source-e0f9d2205418024efd85b143",
+      "source_type": "sec_filing",
+      "title": "EX-10.1"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-bd8763e3c7802d91589b8203",
+        "amount_kind": "contract_value",
+        "conditions": "",
+        "contingent": null,
+        "currency": "USD",
+        "currency_basis": "United States dollars",
+        "evidence_ids": [
+          "evidence-fc90605904650c0f3145a6bc",
+          "evidence-1d8bcd0d0250b4c97626e441",
+          "evidence-d1a74857c3685ff0d0d6d810",
+          "evidence-620e2fb7bfe7d18e9e41741c",
+          "evidence-171d8ae516be8cb2c847423d"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$520 million",
+        "payee_company_ids": [
+          "co-symbotic-llc"
+        ],
+        "payer_company_ids": [
+          "co-wmt"
+        ],
+        "qualifier": "exact",
+        "scope": "開発プログラムへの支払い総額。400拠点の導入総費用、保守、追加オプション、SymboticからWalmartへの別の支払とは区別。",
+        "value": "520000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-fc90605904650c0f3145a6bc",
+        "evidence-1d8bcd0d0250b4c97626e441",
+        "evidence-d1a74857c3685ff0d0d6d810",
+        "evidence-620e2fb7bfe7d18e9e41741c",
+        "evidence-171d8ae516be8cb2c847423d"
+      ],
+      "geography": "米国",
+      "headline": "店舗受取・配送向け自動化システム",
+      "products": [
+        "micro-fulfillment自動化",
+        "店舗受取・配送"
+      ],
+      "scale": "400拠点＋別途200拠点オプション",
+      "source_role": "開発・設置・保守",
+      "target_role": "開発費支払・条件付き購入"
+    },
+    "description": "Symbotic LLCとWalmartの2025年自動化契約。店舗の受取・配送向けシステムを開発し、性能条件達成時に400拠点へ導入、追加200拠点はオプション。",
+    "direction": "directed",
+    "event_date": "2025-11-24",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3855da368526c286527580ee",
+    "relationship_type": "supplier",
+    "source_company_id": "co-symbotic-llc",
+    "status_as_of": "2025-11-24",
+    "target_company_id": "co-wmt",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "contingency_unknown"
+    ]
+  }
+}

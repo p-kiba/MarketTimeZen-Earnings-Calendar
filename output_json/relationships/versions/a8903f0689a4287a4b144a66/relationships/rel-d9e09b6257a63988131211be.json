@@ -1,0 +1,174 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-04-08",
+      "conditions": "Delta TechOpsの年間能力を30%以上増やし、最大450基のエンジンを年次オーバーホール可能とする計画。 Delta TechOpsはPratt & Whitney GTF MROネットワークのサービス提供拠点。",
+      "deal_id": "deal-0a9060a6fac9505269a3a13b",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-0a9060a6fac9505269a3a13b",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-0a9060a6fac9505269a3a13b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0a9060a6fac9505269a3a13b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-d9e09b6257a63988131211be"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-908a41c7d436779b8e92cc2b": "ecffbbafd6c30163e0a09e23ce64260b96b399abd5ee787d96e5e193d0c04a24"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r15",
+        "rule_version": "cb7359c4cb977c10ef3bd65bf53990c21d2cf98c73e0acc5de53a4b4d9eba867",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0a9060a6fac9505269a3a13b",
+      "excerpt": "EAST HARTFORD, Conn.,",
+      "locator": "p:6",
+      "normalized_text_hash": "9055bb4228f90aeeae8e7dbd78c3eccdf1e54f7c2b423fa3e9050c5c7568f146",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-908a41c7d436779b8e92cc2b",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-0a9060a6fac9505269a3a13b"
+    ],
+    "description": "Pratt & WhitneyとDelta Air Linesは、Delta TechOpsのAtlanta拠点でGTFエンジンのオーバーホール能力を拡大する契約を締結した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-0a9060a6fac9505269a3a13b"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-0a9060a6fac9505269a3a13b"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d9e09b6257a63988131211be",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-delta-air-lines",
+    "status_as_of": "2025-04-08",
+    "target_company_id": "co-pratt-whitney",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-908a41c7d436779b8e92cc2b": "ecffbbafd6c30163e0a09e23ce64260b96b399abd5ee787d96e5e193d0c04a24"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r15; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r15",
+      "rule_version": "cb7359c4cb977c10ef3bd65bf53990c21d2cf98c73e0acc5de53a4b4d9eba867",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.rtx.com/news/news-center/2025/04/08/rtxs-pratt-whitney-inks-agreement-for-delta-tech-ops-to-increase-gtf-mro-capac",
+      "content_hash": "ecffbbafd6c30163e0a09e23ce64260b96b399abd5ee787d96e5e193d0c04a24",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": "2025-04-08",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-04-08",
+      "publisher": "RTX",
+      "retrieved_at": "2026-09-26T13:47:20+00:00",
+      "source_id": "source-908a41c7d436779b8e92cc2b",
+      "source_type": "official_newsroom",
+      "title": "News | RTX's Pratt & Whitney inks agreement for Delta Tech Ops to increase GTF MRO capacity by 30% | RTX"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "Pratt & WhitneyとDelta Air Linesは、Delta TechOpsのAtlanta拠点でGTFエンジンのオーバーホール能力を拡大する契約を締結した。",
+    "direction": "directed",
+    "event_date": "2025-04-08",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-d9e09b6257a63988131211be",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-delta-air-lines",
+    "status_as_of": "2025-04-08",
+    "target_company_id": "co-pratt-whitney",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

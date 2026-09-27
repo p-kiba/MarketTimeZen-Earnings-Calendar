@@ -1,0 +1,111 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-concho-resources",
+      "country": null,
+      "display_name": "Concho Resources",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cop",
+      "country": null,
+      "display_name": "ConocoPhillips",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-concho-resources",
+    "country": null,
+    "display_name": "Concho Resources",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-89e814cad22708f9208fa58c",
+          "amount_kind": "purchase_price",
+          "conditions": "契約発表時の取引価値。Concho株1株につきConocoPhillips株1.46株。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-110ceeedbed0bce386b4d1cd",
+            "evidence-b89f3542e31a6bf9ee758c17"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "All-Stock Transaction Valued at $9.7 Billion",
+          "payee_company_ids": [
+            "co-concho-resources"
+          ],
+          "payer_company_ids": [
+            "co-cop"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "9700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "ConocoPhillipsはConcho Resourcesを全株式取引で買収し、Permian Basinの資産規模と生産基盤を拡大した。",
+      "direction": "directed",
+      "event_date": "2021-01-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-5ef4aef406c9a0e22fe5f077",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-cop",
+      "status_as_of": "2021-01-15",
+      "target_company_id": "co-concho-resources",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-01-15"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

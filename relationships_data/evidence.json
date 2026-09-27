@@ -8630,5 +8630,67 @@
       "term",
       "conditions"
     ]
+  },
+  {
+    "evidence_id": "evidence-3da6f29e9e407765274fe972",
+    "excerpt": "SpaceX announced today that it has acquired xAI.",
+    "locator": "p:1",
+    "normalized_text_hash": "8826533278a851ee6bc9fd1905a9db95131c5002bd25f1aa94d2fb7576265ec8",
+    "section": "Official acquisition announcement",
+    "source_id": "source-9127634f55d5900771e73426",
+    "supports_fields": [
+      "parties",
+      "relationship",
+      "status",
+      "term",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-700b5996ed227e66bb3ead7a",
+    "excerpt": "X.AI Holdings Corp. (“xAI”)",
+    "locator": "sec-div:252",
+    "normalized_text_hash": "42763cffe74531d03ebc6a139bcd94163fc916dcaba32400397972946b400b49",
+    "section": "SEC acquisition disclosure",
+    "source_id": "source-5d57f54d3dec4f5799594c12",
+    "supports_fields": [
+      "parties",
+      "relationship"
+    ]
+  },
+  {
+    "evidence_id": "evidence-67f9fd924130e11df5ad20ee",
+    "excerpt": "The Mergers were each effected through a share exchange.",
+    "locator": "sec-div:252",
+    "normalized_text_hash": "5369419bd8915492b8b57984ea9527bffb58ad130d229b33a1059da51fd13efd",
+    "section": "SEC exchange terms",
+    "source_id": "source-5d57f54d3dec4f5799594c12",
+    "supports_fields": [
+      "relationship",
+      "conditions"
+    ]
+  },
+  {
+    "evidence_id": "evidence-e73549563f9b7054026e8a9f",
+    "excerpt": "xAI became a wholly-owned subsidiary",
+    "locator": "sec-div:252",
+    "normalized_text_hash": "4d86a19fdab79243e600a380b88a991065230fc5bcc49d49dcf8990693bdff45",
+    "section": "SEC acquisition disclosure",
+    "source_id": "source-5d57f54d3dec4f5799594c12",
+    "supports_fields": [
+      "parties",
+      "status"
+    ]
+  },
+  {
+    "evidence_id": "evidence-fd711f2461394e6e4cda127b",
+    "excerpt": "dated January 31, 2026",
+    "locator": "tr:677",
+    "normalized_text_hash": "e7b89c1157860609306bf695655fca940ca5ba6cf7097a69049fc8e715437011",
+    "section": "SEC merger agreement exhibit listing",
+    "source_id": "source-5d57f54d3dec4f5799594c12",
+    "supports_fields": [
+      "term"
+    ]
   }
 ]

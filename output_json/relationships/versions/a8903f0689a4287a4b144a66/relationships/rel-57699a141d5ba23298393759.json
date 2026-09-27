@@ -1,0 +1,458 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-a2976e4e1576f48f1cfb715f",
+          "amount_kind": "investment_amount",
+          "conditions": "初回$150億、残る$350億は条件充足後。原文$の通貨種類は未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$50 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "今回発表されたAmazonの出資総額。初回分と条件付き後続分を含む。",
+          "value": "50000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-02-27",
+      "conditions": "",
+      "deal_id": "deal-e787132ccb6696c2c099b161",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-e787132ccb6696c2c099b161",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e787132ccb6696c2c099b161"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e787132ccb6696c2c099b161"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-57fc2c4b4f807eed60b3118f": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-57fc2c4b4f807eed60b3118f",
+        "rule_version": "354a598b0856a07800d58bf56202971bea563490a3817764c58195a5e3e92b0b",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    },
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-b2580e0616d2f7a03b1abc60",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL f-669 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.7 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-amzn"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年Q2に払い込まれた追加額。初回150億と別表示。",
+          "value": "13700000000",
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "期末後の残額213億米ドルの払込は別段落で確認。IPO等では優先株が普通株へ転換し、通常のロックアップ・証券法の制約を受ける。",
+      "deal_id": "deal-e787132ccb6696c2c099b161",
+      "detected_at": "2026-09-26T05:23:11+00:00",
+      "effective_date": null,
+      "event_id": "event-853ccb06a4984a7aa58487d5",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-6b7374ad75fc5808cac7baf8",
+        "evidence-3f2b9c3aa60e3678cc711e0b",
+        "evidence-db1fc17b1ee2abcafe7a7a35",
+        "evidence-c00df121431864012024cd54"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-6b7374ad75fc5808cac7baf8",
+            "evidence-3f2b9c3aa60e3678cc711e0b",
+            "evidence-db1fc17b1ee2abcafe7a7a35",
+            "evidence-c00df121431864012024cd54"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2026-07-31",
+      "relationship_ids": [
+        "rel-57699a141d5ba23298393759"
+      ],
+      "supersedes_event_id": "event-e787132ccb6696c2c099b161",
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+        "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+        "verified_at": "2026-09-26T05:23:11+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-3f2b9c3aa60e3678cc711e0b",
+      "excerpt": "Amazon.com, Inc.",
+      "locator": "sec-div:169",
+      "normalized_text_hash": "133e4da894b49a6460c918943541647cbc61720d9123e54cbc1eb3fd5d9577eb",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6b7374ad75fc5808cac7baf8",
+      "excerpt": "OpenAI",
+      "locator": "sec-div:266",
+      "normalized_text_hash": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c00df121431864012024cd54",
+      "excerpt": "liquidity event",
+      "locator": "sec-div:267",
+      "normalized_text_hash": "c771c3e6bd8d00d8d7a988f02522828af28e949fa54acb69c7bff985bafc7865",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-db1fc17b1ee2abcafe7a7a35",
+      "excerpt": "Commitment Amount",
+      "locator": "sec-div:268",
+      "normalized_text_hash": "90afa79f0e761bff29470fc861ef15f00448c12be5c72042a8684741a2f44733",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e787132ccb6696c2c099b161",
+      "excerpt": "$50 billion",
+      "locator": "p:8",
+      "normalized_text_hash": "fb74c61a643ab988c80fc9e236dca892b9c5fb61c1f7d851021a9224514e8de9",
+      "section": "Official deal announcement",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-6b7374ad75fc5808cac7baf8",
+        "evidence-3f2b9c3aa60e3678cc711e0b",
+        "evidence-db1fc17b1ee2abcafe7a7a35",
+        "evidence-c00df121431864012024cd54"
+      ],
+      "geography": "",
+      "headline": "OpenAI出資の払込進捗",
+      "products": [
+        "Series C優先株"
+      ],
+      "scale": "",
+      "source_role": "出資者",
+      "target_role": "資金調達側"
+    },
+    "deal_ids": [
+      "deal-e787132ccb6696c2c099b161"
+    ],
+    "description": "Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-6b7374ad75fc5808cac7baf8",
+      "evidence-3f2b9c3aa60e3678cc711e0b",
+      "evidence-db1fc17b1ee2abcafe7a7a35",
+      "evidence-c00df121431864012024cd54"
+    ],
+    "first_observed_at": "2026-09-25T16:10:28+00:00",
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "latest_event_ids": [
+      "event-853ccb06a4984a7aa58487d5"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-57699a141d5ba23298393759",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2026-07-31",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-352ea3659c271d031e0a4319": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-352ea3659c271d031e0a4319",
+      "rule_version": "dde13857d90076de66029aa18d12f86cb32c77e3777eb84f561fd6684fc97a0c",
+      "verified_at": "2026-09-26T05:23:11+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001018724-26-000026",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "content_hash": "d16a62b46d6e9e59835051619b89f67e7a4cba6fd00e2a2fd5f073fe257906c6",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": "2026-07-31",
+      "filing_cik": "0001018724",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-amzn",
+      "retrieved_at": "2026-09-26T04:45:09+00:00",
+      "source_id": "source-352ea3659c271d031e0a4319",
+      "source_type": "sec_filing",
+      "title": "amzn-20260630"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/amazon-partnership/",
+      "content_hash": "a3121b74ed0b4913289953a1e0dfca881b012b501983317d6172f28dc48a4d3e",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-02-27",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:03:57+00:00",
+      "source_id": "source-57fc2c4b4f807eed60b3118f",
+      "source_type": "official_newsroom",
+      "title": "OpenAI and Amazon announce strategic partnership | OpenAI"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-b2580e0616d2f7a03b1abc60",
+        "amount_kind": "investment_amount",
+        "conditions": "",
+        "contingent": false,
+        "currency": "USD",
+        "currency_basis": "SEC inline XBRL f-669 / iso4217:USD",
+        "evidence_ids": [
+          "evidence-6b7374ad75fc5808cac7baf8",
+          "evidence-3f2b9c3aa60e3678cc711e0b",
+          "evidence-db1fc17b1ee2abcafe7a7a35",
+          "evidence-c00df121431864012024cd54"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$ 13.7 billion",
+        "payee_company_ids": [
+          "co-openai"
+        ],
+        "payer_company_ids": [
+          "co-amzn"
+        ],
+        "qualifier": "exact",
+        "scope": "2026年Q2に払い込まれた追加額。初回150億と別表示。",
+        "value": "13700000000",
+        "value_semantics": "increment",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-6b7374ad75fc5808cac7baf8",
+        "evidence-3f2b9c3aa60e3678cc711e0b",
+        "evidence-db1fc17b1ee2abcafe7a7a35",
+        "evidence-c00df121431864012024cd54"
+      ],
+      "geography": "",
+      "headline": "OpenAI出資の払込進捗",
+      "products": [
+        "Series C優先株"
+      ],
+      "scale": "",
+      "source_role": "出資者",
+      "target_role": "資金調達側"
+    },
+    "description": "Amazonは初回150億米ドルに続き、2026年Q2に137億米ドルを払い込み、6月末の投資は287億米ドル。さらに期末後に残る213億米ドルを払い込んだと注記。従来発表した500億ドルの枠と追加の別契約とを区別。",
+    "direction": "directed",
+    "event_date": "2026-07-31",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T05:23:11+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-57699a141d5ba23298393759",
+    "relationship_type": "investment",
+    "source_company_id": "co-amzn",
+    "status_as_of": "2026-07-31",
+    "target_company_id": "co-openai",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_total"
+    ]
+  }
+}

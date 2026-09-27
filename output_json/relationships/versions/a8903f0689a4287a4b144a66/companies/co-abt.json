@@ -1,0 +1,295 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-abt",
+      "country": null,
+      "display_name": "Abbott",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-04-27",
+      "listing_status_source": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+          "symbol": "ABT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "healthcare"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bigfoot",
+      "country": null,
+      "display_name": "Bigfoot Biomedical",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-csi",
+      "country": null,
+      "display_name": "Cardiovascular Systems, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tndm",
+      "country": null,
+      "display_name": "Tandem Diabetes Care",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2020-06-29",
+      "listing_status_source": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://abbott.mediaroom.com/2020-06-29-Abbott-and-Tandem-Diabetes-Care-Advance-Development-of-Integrated-Technologies-for-Future-Automated-Insulin-Delivery-Systems",
+          "symbol": "TNDM",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "healthcare"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-walk-vascular",
+      "country": null,
+      "display_name": "Walk Vascular, LLC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-abt",
+    "country": null,
+    "display_name": "Abbott",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2023-04-27",
+    "listing_status_source": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://abbott.mediaroom.com/2023-04-27-Abbott-Completes-Acquisition-of-Cardiovascular-Systems,-Inc",
+        "symbol": "ABT",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "healthcare"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-49c13d07c1b80cffbcbf91e5",
+          "amount_kind": "purchase_price",
+          "conditions": "2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-28f5adbca1fb978bc82f70aa",
+            "evidence-a7e67b4067c240967b736dcd",
+            "evidence-add99d10fb6be22f63d161b1"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$890 million",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-abt"
+          ],
+          "qualifier": "approximately",
+          "scope": "2023-02-08の契約発表時点の金額。2023-02-08の契約発表時点の総予想株式価値。完了発表では総額を再提示していない。 完了時点の調整後対価は未確認。",
+          "value": "890000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-28f5adbca1fb978bc82f70aa",
+          "evidence-a7e67b4067c240967b736dcd",
+          "evidence-add99d10fb6be22f63d161b1"
+        ],
+        "geography": "",
+        "headline": "血管治療用アテレクトミー技術の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "AbbottはCardiovascular Systems, Inc.（CSI）を買収し、末梢・冠動脈疾患向けアテレクトミー技術をAbbottの血管治療ポートフォリオへ追加した。",
+      "direction": "directed",
+      "event_date": "2023-04-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-6571d077c9e99ba45086b515",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-abt",
+      "status_as_of": "2023-04-27",
+      "target_company_id": "co-csi",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-a0e21fb60aca24b01074a901",
+          "evidence-28368baf77146880a9016e4d"
+        ],
+        "geography": "",
+        "headline": "スマートインスリン管理事業の買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "Abbottはスマートインスリン管理システムを開発するBigfoot Biomedicalを買収し、FreeStyle Libreを含む接続型・個別化糖尿病管理ソリューションを拡充した。",
+      "direction": "directed",
+      "event_date": "2023-09-22",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-c5d8ea2b37f4b95db9a53a4c",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-abt",
+      "status_as_of": "2023-09-22",
+      "target_company_id": "co-bigfoot",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "explicitly_undisclosed"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-04b8155915c3d0015f9d3280"
+        ],
+        "geography": "",
+        "headline": "末梢血栓除去システムの買収",
+        "products": [],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "買収対象"
+      },
+      "description": "AbbottはWalk Vascularを買収し、末梢血栓を除去する低侵襲の機械的吸引血栓除去システムを既存の血管内治療ポートフォリオへ組み込んだ。",
+      "direction": "directed",
+      "event_date": "2021-09-02",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-830d6527bd1fb588988f5343",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-abt",
+      "status_as_of": "2021-09-02",
+      "target_company_id": "co-walk-vascular",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "explicitly_undisclosed"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c9dbcce627a767c84e04da38",
+          "evidence-2c1d27c79ac7361702c74a7e"
+        ],
+        "geography": "",
+        "headline": "血糖測定とインスリン送達の統合開発",
+        "products": [],
+        "scale": "",
+        "source_role": "共同開発者",
+        "target_role": "共同開発者"
+      },
+      "description": "AbbottとTandem Diabetes Careは、AbbottのFreeStyle Libre連続血糖測定技術とTandemのインスリン送達システムを統合する糖尿病管理ソリューションを共同開発・商用化する契約を締結した。",
+      "direction": "undirected",
+      "event_date": "2020-06-29",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T12:07:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-000d3c41901845cdf7e525d5",
+      "relationship_type": "partnership",
+      "source_company_id": "co-abt",
+      "status_as_of": "2020-06-29",
+      "target_company_id": "co-tndm",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-06-29",
+    "2021-09-02",
+    "2023-04-27",
+    "2023-09-22"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

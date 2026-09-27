@@ -36544,5 +36544,113 @@
       "rule_version": "e4896f87c98c81a7511ffa3f0997e97b8aa7e8f9e4913484e6d1b357bf09861a",
       "verified_at": "2026-09-26T16:06:54+00:00"
     }
+  },
+  {
+    "agreement_date": "2026-01-31",
+    "amount_disclosure": "not_stated_in_source",
+    "amounts": [],
+    "announced_at": "2026-02-02T00:00:00Z",
+    "announced_date": "2026-02-02",
+    "conditions": "株式交換による合併。買収完了後、xAIはSpaceXの完全子会社。",
+    "deal_id": "deal-5febd693c4bce2fac71bd91b",
+    "detected_at": "2026-09-27T13:22:48+00:00",
+    "effective_date": "2026-02-02",
+    "event_id": "event-5febd693c4bce2fac71bd91b",
+    "event_type": "acquisition_closed",
+    "evidence_ids": [
+      "evidence-3da6f29e9e407765274fe972",
+      "evidence-700b5996ed227e66bb3ead7a",
+      "evidence-67f9fd924130e11df5ad20ee",
+      "evidence-e73549563f9b7054026e8a9f",
+      "evidence-fd711f2461394e6e4cda127b"
+    ],
+    "field_verification": {
+      "amounts": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      },
+      "conditions": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      },
+      "parties": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      },
+      "relationship": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      },
+      "status": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      },
+      "term": {
+        "evidence_ids": [
+          "evidence-3da6f29e9e407765274fe972",
+          "evidence-700b5996ed227e66bb3ead7a",
+          "evidence-67f9fd924130e11df5ad20ee",
+          "evidence-e73549563f9b7054026e8a9f",
+          "evidence-fd711f2461394e6e4cda127b"
+        ],
+        "verification": "approved_manual"
+      }
+    },
+    "filed_date": "2026-08-04",
+    "relationship_ids": [
+      "rel-4fde9dea8cb482bc638355d4"
+    ],
+    "supersedes_event_id": null,
+    "term": {
+      "duration_unit": null,
+      "duration_value": null,
+      "end_date": null,
+      "evidence_ids": [],
+      "renewal": null,
+      "start_basis": null,
+      "start_date": null
+    },
+    "verification": "approved_manual",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5d57f54d3dec4f5799594c12": "5afd20fd915ad601e7472fc4b8d6af9d95c3ab27840fb3b1d0d36d43edf7727b",
+        "source-9127634f55d5900771e73426": "340b9a2470155d7c80bbdde5b8374f2e650f303e37bd911fbde22a08b781178d"
+      },
+      "reason": "公式xAI発表およびSpaceX Form 10-Q（2026-08-04）を資料限定で照合。2026-02-02にSpaceXがX.AI Holdings Corp.を取得し完全子会社化。SEC提出資料の展示情報で合併契約日2026-01-31、株式交換による実施を確認。総買収額の開示は確認できないため金額を記録しない。",
+      "reviewer": "Codex 資料限定精査",
+      "rule_id": null,
+      "rule_version": null,
+      "verified_at": "2026-09-27T13:22:48+00:00"
+    }
   }
 ]

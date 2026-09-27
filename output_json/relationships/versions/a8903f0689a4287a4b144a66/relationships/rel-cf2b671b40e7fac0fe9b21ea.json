@@ -1,0 +1,227 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-62516384002ef84663bc7e7c",
+          "amount_kind": "purchase_price",
+          "conditions": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "€1.7 billion",
+          "payee_company_ids": [
+            "co-nn-investment-partners"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+          "value": "1700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2022-04-11",
+      "conditions": "",
+      "deal_id": "deal-cc14e07e48fdd1be6c22043f",
+      "detected_at": "2026-09-26T13:07:05+00:00",
+      "effective_date": null,
+      "event_id": "event-cc14e07e48fdd1be6c22043f",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-cc14e07e48fdd1be6c22043f"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-cc14e07e48fdd1be6c22043f"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-cf2b671b40e7fac0fe9b21ea"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e6311b12ec2ff80d9e20a799": "1e6690fcb4578226c7f5d49d4fcec01f6bb1550969bdeb6bad563a4bfd563349"
+        },
+        "reason": "Primary-source review of merged research record r50; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r50",
+        "rule_version": "a9409a19fdb141cb12cf8294163172e508f35a081f8535c4857d1ed95cd0868d",
+        "verified_at": "2026-09-26T13:07:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-cc14e07e48fdd1be6c22043f",
+      "excerpt": "The Goldman Sachs Group, Inc. (“Goldman Sachs”) today announced the completion of the acquisition of NN Investment Partners from NN Group N.V.",
+      "locator": "p:61",
+      "normalized_text_hash": "b60104dd40018bc9f0571e44d8c1ee2fa16ddb4f1ca1f1c2a4421b3b7ed6ce74",
+      "section": "Official issuer disclosure",
+      "source_id": "source-e6311b12ec2ff80d9e20a799",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-cc14e07e48fdd1be6c22043f"
+    ],
+    "description": "Goldman SachsがNN GroupからNN Investment Partnersを取得し、900人超の社員と欧州の資産運用事業・ESG投資能力をGoldman Sachs Asset Managementへ統合。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-cc14e07e48fdd1be6c22043f"
+    ],
+    "first_observed_at": "2026-09-26T13:07:05+00:00",
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "latest_event_ids": [
+      "event-cc14e07e48fdd1be6c22043f"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-cf2b671b40e7fac0fe9b21ea",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2022-04-11",
+    "target_company_id": "co-nn-investment-partners",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e6311b12ec2ff80d9e20a799": "1e6690fcb4578226c7f5d49d4fcec01f6bb1550969bdeb6bad563a4bfd563349"
+      },
+      "reason": "Primary-source review of merged research record r50; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r50",
+      "rule_version": "a9409a19fdb141cb12cf8294163172e508f35a081f8535c4857d1ed95cd0868d",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.goldmansachs.com/pressroom/press-releases/2022/announcement-11-apr-2022",
+      "content_hash": "1e6690fcb4578226c7f5d49d4fcec01f6bb1550969bdeb6bad563a4bfd563349",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-04-11",
+      "publisher": "Goldman Sachs",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-e6311b12ec2ff80d9e20a799",
+      "source_type": "official_newsroom",
+      "title": "Goldman Sachs Completes Acquisition of NN Investment Partners | Goldman Sachs"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-62516384002ef84663bc7e7c",
+        "amount_kind": "purchase_price",
+        "conditions": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-cc14e07e48fdd1be6c22043f"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "€1.7 billion",
+        "payee_company_ids": [
+          "co-nn-investment-partners"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "NN Group N.V.からのNN Investment Partners取得価格として公表。ユーロ記号は明示されるが、USD色分類対象ではない。",
+        "value": "1700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Goldman SachsがNN GroupからNN Investment Partnersを取得し、900人超の社員と欧州の資産運用事業・ESG投資能力をGoldman Sachs Asset Managementへ統合。",
+    "direction": "directed",
+    "event_date": "2022-04-11",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-cf2b671b40e7fac0fe9b21ea",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2022-04-11",
+    "target_company_id": "co-nn-investment-partners",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

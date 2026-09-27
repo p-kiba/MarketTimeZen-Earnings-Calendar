@@ -1,0 +1,169 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": "2023-02-22",
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "",
+      "deal_id": "deal-a20d8a83c3f1d9e41cffe173",
+      "detected_at": "2026-09-26T08:11:16+00:00",
+      "effective_date": null,
+      "event_id": "event-d1e6f170834b0a98dc6fcd83",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-dee04a377f89356d5a3bfcab"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "needs_review"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "needs_review"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-dee04a377f89356d5a3bfcab"
+          ],
+          "verification": "needs_review"
+        }
+      },
+      "filed_date": "2026-03-02",
+      "relationship_ids": [
+        "rel-0059e0ff4920520f611891ba"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8a635398939d78d38bee180a": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0"
+        },
+        "reason": "SEC filing exhibit index identifies CoreWeave and Microsoft as parties to a Master Services Agreement dated February 22, 2023. Active status and order value are not stated in this excerpt.",
+        "reviewer": null,
+        "rule_id": "sec_exhibit_index_master_services_agreement",
+        "rule_version": "1",
+        "verified_at": "2026-09-26T19:25:44+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-dee04a377f89356d5a3bfcab",
+      "excerpt": "Master Services Agreement between CoreWeave, Inc. and Microsoft Corporation, dated February 22, 2023",
+      "locator": "tr:766",
+      "normalized_text_hash": "1c6d8099cec4c32c378225845004a39035afa2b9d8c7e42bf8eba9157e8973a0",
+      "section": "paragraph",
+      "source_id": "source-8a635398939d78d38bee180a",
+      "supports_fields": [
+        "relationship"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-a20d8a83c3f1d9e41cffe173"
+    ],
+    "description": "CoreWeaveとMicrosoftが2023年2月22日付のMaster Services Agreementを締結。出典のSEC提出書類では個別注文額・契約継続状況は確認できない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-dee04a377f89356d5a3bfcab"
+    ],
+    "first_observed_at": "2026-09-26T08:11:16+00:00",
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "latest_event_ids": [
+      "event-d1e6f170834b0a98dc6fcd83"
+    ],
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0059e0ff4920520f611891ba",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-msft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a635398939d78d38bee180a": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0"
+      },
+      "reason": "SEC filing exhibit index identifies CoreWeave and Microsoft as parties to a Master Services Agreement dated February 22, 2023. Active status and order value are not stated in this excerpt.",
+      "reviewer": null,
+      "rule_id": "sec_exhibit_index_master_services_agreement",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:25:44+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001769628-26-000104",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+      "content_hash": "a8d80801badadbee490277ddb81c677a99c0d9f266752ad70e3bf644560761a0",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2026-03-02",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T06:55:18+00:00",
+      "source_id": "source-8a635398939d78d38bee180a",
+      "source_type": "sec_filing",
+      "title": "crwv-20251231"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "CoreWeaveとMicrosoftが2023年2月22日付のMaster Services Agreementを締結。出典のSEC提出書類では個別注文額・契約継続状況は確認できない。",
+    "direction": "directed",
+    "event_date": "2026-03-02",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:11:16+00:00",
+    "lifecycle_status": "unknown",
+    "relationship_id": "rel-0059e0ff4920520f611891ba",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-coreweave",
+    "status_as_of": "2026-03-02",
+    "target_company_id": "co-msft",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

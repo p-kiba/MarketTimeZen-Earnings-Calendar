@@ -1,0 +1,226 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-59abf875a9c4da7fcb3b21b6",
+          "amount_kind": "purchase_price",
+          "conditions": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$135.11 per share in cash, for a total equity value of approximately $10.9 billion",
+          "payee_company_ids": [
+            "co-apogee-therapeutics-inc"
+          ],
+          "payer_company_ids": [
+            "co-abbvie"
+          ],
+          "qualifier": "approximately",
+          "scope": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+          "value": "10900000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-09-03",
+      "conditions": "",
+      "deal_id": "deal-215028fed2e5371d28f489ab",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-215028fed2e5371d28f489ab",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-215028fed2e5371d28f489ab"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-215028fed2e5371d28f489ab"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6f45970090fc73603fe406f7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
+        },
+        "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r85",
+        "rule_version": "4047958645530ef3ffe85cb22740d437c82b6474b496da5d1754c386f10d2481",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-215028fed2e5371d28f489ab",
+      "excerpt": "AbbVie (NYSE: ABBV) today announced that it has completed its acquisition of Apogee Therapeutics, Inc.",
+      "locator": "p:8",
+      "normalized_text_hash": "1233c18262feedaf0c4eb2ee70ca627abf01671b3fca917f9c9a14d452dfd9da",
+      "section": "Official company disclosure",
+      "source_id": "source-5782affe1de3df5b4609a5c9",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-215028fed2e5371d28f489ab"
+    ],
+    "description": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-215028fed2e5371d28f489ab"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-215028fed2e5371d28f489ab"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6f45970090fc73603fe406f7",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2026-09-03",
+    "target_company_id": "co-apogee-therapeutics-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5782affe1de3df5b4609a5c9": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44"
+      },
+      "reason": "Primary-source review of merged research record r85; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r85",
+      "rule_version": "4047958645530ef3ffe85cb22740d437c82b6474b496da5d1754c386f10d2481",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://news.abbvie.com/2026-09-03-AbbVie-Completes-Acquisition-of-Apogee-Therapeutics",
+      "content_hash": "d152edcf304a39b84c1dc82d0fb65de29877d281f56b8dcb305f302d7254bf44",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-09-03",
+      "publisher": "AbbVie",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-5782affe1de3df5b4609a5c9",
+      "source_type": "official_newsroom",
+      "title": "AbbVie Completes Acquisition of Apogee Therapeutics - Sep 3, 2026"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-59abf875a9c4da7fcb3b21b6",
+        "amount_kind": "purchase_price",
+        "conditions": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-215028fed2e5371d28f489ab"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$135.11 per share in cash, for a total equity value of approximately $10.9 billion",
+        "payee_company_ids": [
+          "co-apogee-therapeutics-inc"
+        ],
+        "payer_company_ids": [
+          "co-abbvie"
+        ],
+        "qualifier": "approximately",
+        "scope": "Apogee株主への現金対価を基礎とする総株式価値。1株当たり$135.11。原文通貨コード不明。",
+        "value": "10900000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。",
+    "direction": "directed",
+    "event_date": "2026-09-03",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-6f45970090fc73603fe406f7",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-abbvie",
+    "status_as_of": "2026-09-03",
+    "target_company_id": "co-apogee-therapeutics-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown"
+    ]
+  }
+}

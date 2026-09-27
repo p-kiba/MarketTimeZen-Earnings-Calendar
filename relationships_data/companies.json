@@ -402,12 +402,12 @@
     "cik": null,
     "company_id": "co-xai",
     "country": "US",
-    "display_name": "SpaceX",
+    "display_name": "xAI",
     "entity_status": "resolved",
-    "legal_name": null,
-    "listing_status": "unknown",
-    "listing_status_as_of": null,
-    "listing_status_source": null,
+    "legal_name": "X.AI Holdings Corp.",
+    "listing_status": "unlisted",
+    "listing_status_as_of": "2026-08-04",
+    "listing_status_source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
     "listings": [],
     "merged_into": null,
     "universe_memberships": []
@@ -3964,5 +3964,35 @@
         "universe": "custom"
       }
     ]
+  },
+  {
+    "aliases": [
+      {
+        "name": "Space Exploration Technologies Corp.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "cik": "0001181412",
+    "company_id": "co-spacex",
+    "country": "US",
+    "display_name": "SpaceX",
+    "entity_status": "resolved",
+    "legal_name": "Space Exploration Technologies Corp.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-08-04",
+    "listing_status_source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+        "symbol": "SPCX",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "universe_memberships": []
   }
 ]

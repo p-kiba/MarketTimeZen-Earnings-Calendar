@@ -1,0 +1,253 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000019617",
+      "company_id": "co-jpm",
+      "country": null,
+      "display_name": "JPMORGAN CHASE & CO",
+      "entity_status": "resolved",
+      "legal_name": "JPMORGAN CHASE & CO",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PC",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "AMJB",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PD",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PJ",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PK",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "VYLD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "financial_services"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-paypal",
+      "country": null,
+      "display_name": "PayPal Holdings, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-02-25",
+      "listing_status_source": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+          "symbol": "PYPL",
+          "valid_from": "2025-02-25",
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "financial_services"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-uber",
+      "country": null,
+      "display_name": "Uber Technologies, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-16",
+      "listing_status_source": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+          "symbol": "UBER",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-paypal",
+    "country": null,
+    "display_name": "PayPal Holdings, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-02-25",
+    "listing_status_source": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://newsroom.paypal-corp.com/2025-02-25-PayPal-and-JP-Morgan-Payments-Broaden-their-Strategic-Relationship-to-Launch-Fastlane-and-Expand-Merchant-Acquiring-in-the-UK-and-European-Markets",
+        "symbol": "PYPL",
+        "valid_from": "2025-02-25",
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "financial_services"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-699ed041cd3824e9238ced53",
+          "evidence-eb0542967b4248f7944b342e"
+        ],
+        "geography": "英国・欧州",
+        "headline": "Fastlane・加盟店決済の欧州展開",
+        "products": [
+          "Fastlane",
+          "Commerce Platform"
+        ],
+        "scale": "",
+        "source_role": "決済技術・ネットワーク提供",
+        "target_role": "Payments事業での加盟店・送金サービス"
+      },
+      "description": "PayPalとJPMorganChaseのPayments事業が英国・欧州の加盟店向けにFastlaneとCommerce Platformによる決済受付を展開する計画。提供開始済みとは断定しない。",
+      "direction": "directed",
+      "event_date": "2025-02-25",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-806d975a769fb2b259143ea8",
+      "relationship_type": "partnership",
+      "source_company_id": "co-paypal",
+      "status_as_of": "2025-02-25",
+      "target_company_id": "co-jpm",
+      "themes": [
+        "financial_services"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5cfacd943e7c79f8e9af2285",
+          "evidence-8731877b6cefd9dbcdb66201"
+        ],
+        "geography": "",
+        "headline": "配車決済・送金基盤を提供",
+        "products": [
+          "PayPal Braintree",
+          "PayPal Payouts",
+          "デビット回線ルーティング"
+        ],
+        "scale": "",
+        "source_role": "PayPalが決済処理・送金基盤を提供",
+        "target_role": "Uberが配車等の決済に利用"
+      },
+      "description": "PayPalとUberが複数年契約を拡張。Braintreeでカード処理・国内デビット回線ルーティングを支え、PayPal Payouts等も利用。2023年発表時点のサービス内容で、手数料率・契約総額は資料に記載なし。",
+      "direction": "directed",
+      "event_date": "2023-09-12",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-222d503bdbf468c2f7771935",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-paypal",
+      "status_as_of": "2023-09-12",
+      "target_company_id": "co-uber",
+      "themes": [
+        "financial_services"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-09-12",
+    "2025-02-25"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

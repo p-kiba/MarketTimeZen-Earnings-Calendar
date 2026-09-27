@@ -1,0 +1,158 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-arista-networks-inc",
+      "country": null,
+      "display_name": "Arista Networks, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "networking",
+        "data_center_cloud"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-awake-security-inc",
+      "country": null,
+      "display_name": "Awake Security, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-big-switch-networks-inc",
+      "country": null,
+      "display_name": "Big Switch Networks, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-arista-networks-inc",
+    "country": null,
+    "display_name": "Arista Networks, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "networking",
+      "data_center_cloud"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-31428a388d8e2722ba3430c6",
+          "amount_kind": "purchase_price",
+          "conditions": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-f1d8fd8bf3b6e199757e79a2",
+            "evidence-796330e44e04a73b34383364"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 180.5 million",
+          "payee_company_ids": [
+            "co-awake-security-inc"
+          ],
+          "payer_company_ids": [
+            "co-arista-networks-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "買収完了時の全株式取得に対する現金対価。原文の$通貨定義なし。",
+          "value": "180500000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "AristaがAwake Securityの全株式を取得。ネットワーク検知・対応（NDR）プラットフォームを製品群に加え、AIと人の専門性を組み合わせた脅威検知・対応機能を拡張。",
+      "direction": "directed",
+      "event_date": "2021-02-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T13:07:04+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-933b5dc3808a901ba3c13996",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-arista-networks-inc",
+      "status_as_of": "2021-02-19",
+      "target_company_id": "co-awake-security-inc",
+      "themes": [
+        "networking"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "AristaがBig Switch Networksを取得し、CloudVisionとDANZを通じたデータセンター向けネットワーク監視、SDN、可観測性機能を強化。金額は取得可能な一次資料では確認できなかったため登録しない。",
+      "direction": "directed",
+      "event_date": "2021-02-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:07:05+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-71831ef3a457362caaf267b3",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-arista-networks-inc",
+      "status_as_of": "2021-02-19",
+      "target_company_id": "co-big-switch-networks-inc",
+      "themes": [
+        "data_center_cloud",
+        "networking"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-02-19"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

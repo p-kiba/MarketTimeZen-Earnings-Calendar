@@ -1,0 +1,241 @@
+{
+  "build_id": "a8903f0689a4287a4b144a66",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-05-06",
+      "conditions": "発表上の当事業はJ.P. Morgan Payments。JPMorganChase内のPayments事業との対応を公式決算説明で確認。署名法人と対価・期間は未開示。日次の決済取扱高を契約額にしない。",
+      "deal_id": "deal-fe0620321004c19db8fd3883",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": null,
+      "event_id": "event-fe0620321004c19db8fd3883",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-fe0620321004c19db8fd3883",
+        "evidence-497235c4368645f0c6d84fcc"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-fe0620321004c19db8fd3883",
+            "evidence-497235c4368645f0c6d84fcc"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-4189cd770b095089458f3347"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-07dd39c83f61e6ba78d7195f": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+          "source-ed9c2579fd994a51d1fa06e2": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-visa-co-jpm-partnership",
+        "rule_version": "402e4346663d53205546315f2058a1a144b76799f08895b2c6a1779996c9e898",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-497235c4368645f0c6d84fcc",
+      "excerpt": "J.P. Morgan Payments business",
+      "locator": "aem-text:0",
+      "normalized_text_hash": "6869dfeeed3074d8185972c6b56570c94bb6341edebe7ddb6d4bc0e244c54065",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-07dd39c83f61e6ba78d7195f",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fe0620321004c19db8fd3883",
+      "excerpt": "Visa Direct",
+      "locator": "p:2",
+      "normalized_text_hash": "0a029696f17ac1449b37754ebf3b895e3cddc8e7182c043a5d21346861e1eba4",
+      "section": "Verified contract and business scope",
+      "source_id": "source-ed9c2579fd994a51d1fa06e2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-fe0620321004c19db8fd3883",
+        "evidence-497235c4368645f0c6d84fcc"
+      ],
+      "geography": "米国",
+      "headline": "Visa Directによる米国内送金",
+      "products": [
+        "Visa Direct",
+        "Push to Card"
+      ],
+      "scale": "",
+      "source_role": "決済技術・ネットワーク提供",
+      "target_role": "Payments事業での加盟店・送金サービス"
+    },
+    "deal_ids": [
+      "deal-fe0620321004c19db8fd3883"
+    ],
+    "description": "VisaとJPMorganChaseのPayments事業が、Visa Directによる米国内の送金を加盟店・企業・フィンテック向けに組み込む協業を発表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-fe0620321004c19db8fd3883",
+      "evidence-497235c4368645f0c6d84fcc"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-fe0620321004c19db8fd3883"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-4189cd770b095089458f3347",
+    "relationship_type": "partnership",
+    "source_company_id": "co-visa",
+    "status_as_of": "2024-05-06",
+    "target_company_id": "co-jpm",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-07dd39c83f61e6ba78d7195f": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+        "source-ed9c2579fd994a51d1fa06e2": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-visa-co-jpm-partnership",
+      "rule_version": "402e4346663d53205546315f2058a1a144b76799f08895b2c6a1779996c9e898",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.jpmorgan.com/payments/newsroom/payments-2025-q1-earnings",
+      "content_hash": "ae7b1efadd7b80853ad9b4fec768f20b9f4373ad24dc8b07f769fcd4c822652c",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-04-28",
+      "publisher": "J.P. Morgan",
+      "retrieved_at": "2026-09-26T08:09:29+00:00",
+      "source_id": "source-07dd39c83f61e6ba78d7195f",
+      "source_type": "official_newsroom",
+      "title": "J.P. Morgan Payments Q1 2025 Earnings Highlights | J.P. Morgan"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+      "content_hash": "ebb0eca70ea3b15bf37eab742a9ef7bbc5a26c18a2be0fb9586bf484f8ec6519",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-05-06",
+      "publisher": "usa.visa.com",
+      "retrieved_at": "2026-09-26T08:05:20+00:00",
+      "source_id": "source-ed9c2579fd994a51d1fa06e2",
+      "source_type": "official_newsroom",
+      "title": "Visa Inc. and J.P. Morgan Payments Forge Strategic Collaboration to Revolutionize Faster Money Movement in the US through Visa Direct | Visa"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-fe0620321004c19db8fd3883",
+        "evidence-497235c4368645f0c6d84fcc"
+      ],
+      "geography": "米国",
+      "headline": "Visa Directによる米国内送金",
+      "products": [
+        "Visa Direct",
+        "Push to Card"
+      ],
+      "scale": "",
+      "source_role": "決済技術・ネットワーク提供",
+      "target_role": "Payments事業での加盟店・送金サービス"
+    },
+    "description": "VisaとJPMorganChaseのPayments事業が、Visa Directによる米国内の送金を加盟店・企業・フィンテック向けに組み込む協業を発表。",
+    "direction": "directed",
+    "event_date": "2024-05-06",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-4189cd770b095089458f3347",
+    "relationship_type": "partnership",
+    "source_company_id": "co-visa",
+    "status_as_of": "2024-05-06",
+    "target_company_id": "co-jpm",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}
