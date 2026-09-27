@@ -605,7 +605,7 @@ async function showCompany(cid,backRelationId=null,backRelationCompanyId=null){
   cid=client.canonicalId(cid);
   const seq=++detailGeneration,c=companies.get(cid)||client.companies.find(c=>c.company_id===cid);if(!c)return;
   selected=cid;highlightCompany();openDetail('');
-  const centerButton=$('mtz-detail-center');centerButton.hidden=false;centerButton.textContent='◎';centerButton.title=ux('この企業を中心にする','Center this company');centerButton.setAttribute('aria-label',centerButton.title);centerButton.onclick=()=>{closeDetail();choose(cid);};
+  const centerButton=$('mtz-detail-center');centerButton.hidden=false;centerButton.textContent='⌖';centerButton.title=ux('この企業を中心にする','Center this company');centerButton.setAttribute('aria-label',centerButton.title);centerButton.onclick=()=>{closeDetail();choose(cid);};
   if(backRelationId){$('mtz-close').textContent=ux('戻る','Back');$('mtz-close').classList.add('is-back');$('mtz-close').setAttribute('aria-label',ux('関係詳細へ戻る','Back to relationship details'));$('mtz-close').onclick=()=>showRelation(backRelationId,backRelationCompanyId);}
   const content=$('mtz-detail-content');content.classList.add('mtz-company-detail');content.querySelector('h2')?.remove();
   const hero=el('div',undefined,'mtz-company-hero');

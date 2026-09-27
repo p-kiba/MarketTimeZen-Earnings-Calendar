@@ -116,3 +116,7 @@ button:disabled{cursor:default;opacity:.55}
 /* Normalize every logo tile to a square white canvas. Source image aspect ratios stay contained. */
 .company-logo,.mtz-company-hero .company-logo{background:#fff;object-fit:contain;aspect-ratio:1;border-radius:12px}
 .mtz-relation-party img,.mtz-role-row img,.mtz-connection-company img{background:#fff;object-fit:contain}
+
+/* Keep company-detail actions aligned as a single top row on every viewport. */
+.mtz-detail:has(.mtz-company-detail)>#mtz-detail-center{position:absolute;top:12px;right:68px;margin:0;display:block;font-size:25px;font-weight:500;line-height:44px}
+.mtz-detail:has(.mtz-company-detail)>#mtz-close{position:absolute!important;top:12px;right:16px;margin:0!important}
