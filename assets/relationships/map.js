@@ -1,14 +1,14 @@
-import {renderTimeMap,disposeTimeMap} from './time-map.js?v=44eb8b0e97e5';
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=44eb8b0e97e5';
-import {latestResults,resultRows} from './earnings-results.js?v=44eb8b0e97e5';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=44eb8b0e97e5';
-import {dealRows} from './deals.js?v=44eb8b0e97e5';
-import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=44eb8b0e97e5';
-import {DataClient} from './data-client.js?v=44eb8b0e97e5';
-import {CompanyView} from './company-view.js?v=44eb8b0e97e5';
-import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=44eb8b0e97e5';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=44eb8b0e97e5';
-import {dictionary} from './i18n.js?v=44eb8b0e97e5';
+import {renderTimeMap,disposeTimeMap,selectTimeCompany,inspectTimeRelation} from './time-map.js?v=1eb7f99bc670';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=1eb7f99bc670';
+import {latestResults,resultRows} from './earnings-results.js?v=1eb7f99bc670';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=1eb7f99bc670';
+import {dealRows} from './deals.js?v=1eb7f99bc670';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=1eb7f99bc670';
+import {DataClient} from './data-client.js?v=1eb7f99bc670';
+import {CompanyView} from './company-view.js?v=1eb7f99bc670';
+import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=1eb7f99bc670';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=1eb7f99bc670';
+import {dictionary} from './i18n.js?v=1eb7f99bc670';
 
 let logoPaths={}, companyWebsites={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -123,6 +123,7 @@ function rerouteEdges(){
 }
 // Selection belongs to the company, so rebuilding the graph keeps its emphasis.
 function highlightCompany(){
+  if(state.timeline)selectTimeCompany($('mtz-time-map'),selected);
   if(!cy)return;
   cy.batch(()=>{
     cy.elements().removeClass('company-focus connection-focus connection-emphasis');
@@ -310,7 +311,7 @@ function render(){
   if(!timeMode)disposeTimeMap($('mtz-time-map'));
   $('mtz-time-map').hidden=!timeMode;$('mtz-graph').hidden=timeMode;
   $('mtz-map-tools').hidden=timeMode;document.querySelector('.mtz-map-bottom').hidden=timeMode;
-  if(timeMode)$('mtz-selection').hidden=true;
+  if(timeMode&&!selectionOpen)$('mtz-selection').hidden=true;
   $('mtz-list').replaceChildren();
   if(!rels.length){const empty=t(all.length?'collapsedEmpty':'empty');$('mtz-list').append(el('p',empty));message(empty);}
   rels.slice(0,pageSize).forEach(r=>$('mtz-list').append(relationCard(r)));
@@ -326,7 +327,7 @@ function render(){
   const nextLayoutKey=JSON.stringify([[...shown].sort(),topology]);
   const positions=layoutKey===nextLayoutKey&&shown.every(id=>layoutPositions.has(id))
     ?shown.map(id=>({...layoutPositions.get(id)}))
-    :graphPositions(shown,visibleRows,$('mtz-graph').clientWidth,$('mtz-graph').clientHeight,state.company,layoutPositions);
+    :graphPositions(shown,visibleRows,timeMode?$('mtz-time-map').clientWidth:$('mtz-graph').clientWidth,timeMode?600:$('mtz-graph').clientHeight,state.company,layoutPositions);
   layoutKey=nextLayoutKey;shown.forEach((id,i)=>layoutPositions.set(id,{...positions[i]}));
   zoomBasePositions=new Map(shown.map((id,i)=>[id,{...positions[i]}]));zoomSpread=false;
   const nodes=shown.map((id,i)=>({data:{id,label:name(id),favorite:!!fav(id),logo:logo(companies.get(id)),center:id===state.company},position:positions[i]}));
@@ -336,13 +337,13 @@ function render(){
   const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),sa=nodeSizes.get(r.source_company_id),sb=nodeSizes.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b,sa.width,sb.width,sa.height,sb.height)}};});
   if(timeMode){
     clearTimeout(autoExpansionTimer);
-    renderTimeMap($('mtz-time-map'),{rows:visibleRows,events:client.events.timeline||[],positions:positionById,center:state.company,year:state.timeYear,lang:state.lang,name,logo:id=>logo(companies.get(id)),color:connectionColor,eventLabel:key=>key==='newly_indexed'?ux('資料の発表','Source announcement'):t(key),
-      onYear:year=>{state.timeYear=year;closeDetail();updateURL(state);},onCompany:showCompany,onEvent:entry=>{
+    renderTimeMap($('mtz-time-map'),{rows:visibleRows,events:client.events.timeline||[],positions:positionById,center:state.company,year:state.timeYear,lang:state.lang,name,logo:id=>logo(companies.get(id)),color:connectionColor,label:connectionLabel,selected,eventLabel:key=>key==='newly_indexed'?ux('資料の発表','Source announcement'):t(key),
+      onYear:year=>{state.timeYear=year;closeDetail();updateURL(state);},onCompany:selectCompany,onEvent:entry=>{
         openDetail(ux('発表の記録','Announcement record'));const content=$('mtz-detail-content');content.classList.remove('mtz-company-detail','mtz-relation-detail');
         content.append(el('p',name(entry.row.source_company_id)+' → '+name(entry.row.target_company_id)));
         for(const event of entry.events){paragraph(content,event.announced_date,event.event_type==='newly_indexed'?ux('資料の発表','Source announcement'):t(event.event_type));if(event.conditions)paragraph(content,ux('発表内容・条件','Details / conditions'),event.conditions);for(const amount of event.amounts||[])paragraph(content,ux('発表金額','Announced amount'),amountText(amount,state.lang));}
         content.append(button(ux('関係の詳細を見る（現在の収録情報）','View relationship details (current records)'),()=>showRelation(entry.row.relationship_id)));
-      }});return;
+      }});if(selectionOpen)renderSelection();return;
   }
   cy?.destroy();
   cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#fff','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147','z-index':20}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#fff'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':16,'target-distance-from-node':16,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'.zoom-hidden',style:{'display':'none'}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
@@ -538,6 +539,7 @@ function markSelectionRows(ids,active){
   $('mtz-selection').querySelectorAll('[data-relation-id]').forEach(row=>{if(ids.includes(row.dataset.relationId))row.classList.toggle('is-inspected',active);});
 }
 function inspectRelation(id,active){
+  if(state.timeline)inspectTimeRelation($('mtz-time-map'),id,active);
   cy?.edges().filter(edge=>edge.data('relations').includes(id)).toggleClass('inspect',active);
 }
 async function renderSelection(){
