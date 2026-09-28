@@ -5,7 +5,8 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 const root=new URL('../../../',import.meta.url);
 const moduleFile=async name=>import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL('assets/relationships/'+name,root),'utf8')).toString('base64'));
-globalThis.location={href:'https://site.example/app/map.html',search:''};globalThis.history={pushState(){},replaceState(){}};globalThis.crypto=webcrypto;
+globalThis.location={href:'https://site.example/app/map.html',search:''};globalThis.history={pushState(){},replaceState(){}};
+if(!globalThis.crypto)Object.defineProperty(globalThis,'crypto',{value:webcrypto,configurable:true});
 const {nodePositions}=await moduleFile('layout.js');
 const n=await moduleFile('navigation.js'),f=await moduleFile('formatters.js');
 let count=0;async function test(name,fn){await fn();count++;console.log('PASS '+name);}
