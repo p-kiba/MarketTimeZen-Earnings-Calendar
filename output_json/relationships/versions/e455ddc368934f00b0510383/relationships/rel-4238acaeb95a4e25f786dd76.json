@@ -1,0 +1,468 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-c255aafba1199fa3983fab39",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "前払金40億。うち10億は一部返還可能。契約総額ではない。",
+          "value": "4000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-f54765e328504da0725a899c",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "12か月後・24か月後の継続支払各7.5億。離脱権あり。",
+          "value": "1500000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-55d9c7903c1398e99a168bfd",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": "16500000000",
+          "min_value": null,
+          "original_text": "$16.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "3プログラムの販売マイルストーン上限。確約額ではない。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2023-10-19",
+      "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+      "deal_id": "deal-1239e730fe659070a90ee8e0",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-1239e730fe659070a90ee8e0",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1239e730fe659070a90ee8e0",
+        "evidence-e12a439ce6d41f6b7aae6fce",
+        "evidence-ccccd26c32a8ddce40ae0bf9",
+        "evidence-f033b43407e24a81852c14bd",
+        "evidence-5e71484b71a7b529353b8846"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-4238acaeb95a4e25f786dd76"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-merck-daiichi",
+        "rule_version": "4362259e0d912c8fa5f5981ee29eb43913d695b8e6699c6510feab389cea0ab0",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1239e730fe659070a90ee8e0",
+      "excerpt": "BASKING RIDGE, N.J. ",
+      "locator": "p:5",
+      "normalized_text_hash": "d170c2183657911d1f2aaceeb4a16afa00c27152e2adecc178192648a68e0218",
+      "section": "Primary disclosure: p:5",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-5e71484b71a7b529353b8846",
+      "excerpt": "As referen",
+      "locator": "p:14",
+      "normalized_text_hash": "00c10926be0896d3c3ff2a33f6b0f180d172cea20624c97334300ee055243dcd",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ccccd26c32a8ddce40ae0bf9",
+      "excerpt": "Under the ",
+      "locator": "p:12",
+      "normalized_text_hash": "7d8a09cb47a39abe681545548f45240b0bd2a9345d37ce1f0bfaddaf0cf5f45c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e12a439ce6d41f6b7aae6fce",
+      "excerpt": "Merck to p",
+      "locator": "p:4",
+      "normalized_text_hash": "731e79527e73ef77237183d91ac6cd0f619638da1e22a15d62dd2f7c2f4c99dc",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f033b43407e24a81852c14bd",
+      "excerpt": "Merck may ",
+      "locator": "p:13",
+      "normalized_text_hash": "b7afb1fc6137a64a5a138f29228f9375c79c94170e7ef6db666747bac86a549b",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-1239e730fe659070a90ee8e0",
+        "evidence-e12a439ce6d41f6b7aae6fce",
+        "evidence-ccccd26c32a8ddce40ae0bf9",
+        "evidence-f033b43407e24a81852c14bd",
+        "evidence-5e71484b71a7b529353b8846"
+      ],
+      "geography": "",
+      "headline": "抗体薬物複合体3品を共同開発",
+      "products": [
+        "patritumab deruxtecan",
+        "ifinatamab deruxtecan",
+        "raludotatug deruxtecan"
+      ],
+      "scale": "",
+      "source_role": "Merckが共同開発・商業化と支払いを担当",
+      "target_role": "第一三共がADC技術・製造供給を担当"
+    },
+    "deal_ids": [
+      "deal-1239e730fe659070a90ee8e0"
+    ],
+    "description": "Merckと第一三共がHER3-DXd・I-DXd・R-DXdを日本以外で共同開発・商業化する契約。第一三共が製造・供給を担い、日本では独占権を保持。2023年契約時点の条件であり、現在の承認・開発状況ではない。前払40億、継続支払15億、条件付き販売マイルストーン最大165億（いずれも原文$）を分けて記録する。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-1239e730fe659070a90ee8e0",
+      "evidence-e12a439ce6d41f6b7aae6fce",
+      "evidence-ccccd26c32a8ddce40ae0bf9",
+      "evidence-f033b43407e24a81852c14bd",
+      "evidence-5e71484b71a7b529353b8846"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-1239e730fe659070a90ee8e0"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-4238acaeb95a4e25f786dd76",
+    "relationship_type": "partnership",
+    "source_company_id": "co-merck",
+    "status_as_of": "2023-10-19",
+    "target_company_id": "co-daiichi-sankyo",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-merck-daiichi",
+      "rule_version": "4362259e0d912c8fa5f5981ee29eb43913d695b8e6699c6510feab389cea0ab0",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/daiichi-sankyo-and-merck-announce-global-development-and-commercialization-collaboration-for-three-daiichi-sankyo-dxd-adcs/",
+      "content_hash": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-10-19",
+      "publisher": "www.merck.com",
+      "retrieved_at": "2026-09-26T16:02:18+00:00",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "source_type": "official_newsroom",
+      "title": "Daiichi Sankyo and Merck Announce Global Development and Commercialization Collaboration for Three Daiichi Sankyo DXd ADCs - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-c255aafba1199fa3983fab39",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$4 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "exact",
+        "scope": "前払金40億。うち10億は一部返還可能。契約総額ではない。",
+        "value": "4000000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-f54765e328504da0725a899c",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$1.5 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "exact",
+        "scope": "12か月後・24か月後の継続支払各7.5億。離脱権あり。",
+        "value": "1500000000",
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-55d9c7903c1398e99a168bfd",
+        "amount_kind": "other",
+        "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "max_value": "16500000000",
+        "min_value": null,
+        "original_text": "$16.5 billion",
+        "payee_company_ids": [
+          "co-daiichi-sankyo"
+        ],
+        "payer_company_ids": [
+          "co-merck"
+        ],
+        "qualifier": "up_to",
+        "scope": "3プログラムの販売マイルストーン上限。確約額ではない。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-1239e730fe659070a90ee8e0",
+        "evidence-e12a439ce6d41f6b7aae6fce",
+        "evidence-ccccd26c32a8ddce40ae0bf9",
+        "evidence-f033b43407e24a81852c14bd",
+        "evidence-5e71484b71a7b529353b8846"
+      ],
+      "geography": "",
+      "headline": "抗体薬物複合体3品を共同開発",
+      "products": [
+        "patritumab deruxtecan",
+        "ifinatamab deruxtecan",
+        "raludotatug deruxtecan"
+      ],
+      "scale": "",
+      "source_role": "Merckが共同開発・商業化と支払いを担当",
+      "target_role": "第一三共がADC技術・製造供給を担当"
+    },
+    "description": "Merckと第一三共がHER3-DXd・I-DXd・R-DXdを日本以外で共同開発・商業化する契約。第一三共が製造・供給を担い、日本では独占権を保持。2023年契約時点の条件であり、現在の承認・開発状況ではない。前払40億、継続支払15億、条件付き販売マイルストーン最大165億（いずれも原文$）を分けて記録する。",
+    "direction": "undirected",
+    "event_date": "2023-10-19",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-4238acaeb95a4e25f786dd76",
+    "relationship_type": "partnership",
+    "source_company_id": "co-merck",
+    "status_as_of": "2023-10-19",
+    "target_company_id": "co-daiichi-sankyo",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "conditional",
+      "not_total",
+      "unsupported_kind",
+      "bounded_or_unspecified"
+    ]
+  }
+}

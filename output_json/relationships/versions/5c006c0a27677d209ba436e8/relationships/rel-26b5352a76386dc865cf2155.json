@@ -1,0 +1,203 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-06-07",
+      "conditions": "",
+      "deal_id": "deal-c9d72cde7c7dfdd2c41e5b18",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-c9d72cde7c7dfdd2c41e5b18",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-c9d72cde7c7dfdd2c41e5b18"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-c9d72cde7c7dfdd2c41e5b18"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-26b5352a76386dc865cf2155"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-aacf651e97f209530b922922": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-palantir-panasonic",
+        "rule_version": "e0c010cc86aa72bf8582be2dba6be0fff8e98380265280d7b34ef7c132dd8f0a",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-c9d72cde7c7dfdd2c41e5b18",
+      "excerpt": "DENVER — Palantir",
+      "locator": "p:1",
+      "normalized_text_hash": "fc6b4bf1ab927e2562455ca573b3c4748db0750ac2ee3f80cbc96121f4fd27a7",
+      "section": "Primary disclosure: p:1",
+      "source_id": "source-aacf651e97f209530b922922",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-c9d72cde7c7dfdd2c41e5b18"
+      ],
+      "geography": "米国Nevada州Sparks",
+      "headline": "電池工場へFoundryを提供",
+      "products": [
+        "Palantir Foundry",
+        "工場センサーデータ統合"
+      ],
+      "scale": "",
+      "source_role": "製造データ統合・AI基盤を提供",
+      "target_role": "Panasonic Energyが電池工場で利用"
+    },
+    "deal_ids": [
+      "deal-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "description": "Panasonic Energyが北米Nevada州Sparksの電池工場のSmart Factory化にPalantir Foundryを採用する複数年契約。製造ラインのセンサーデータ統合と業務自動化に活用する。Panasonicグループとして表示し、資料上の当事者はPanasonic Energy。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-c9d72cde7c7dfdd2c41e5b18"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-26b5352a76386dc865cf2155",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2023-06-07",
+    "target_company_id": "co-panasonic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-aacf651e97f209530b922922": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-palantir-panasonic",
+      "rule_version": "e0c010cc86aa72bf8582be2dba6be0fff8e98380265280d7b34ef7c132dd8f0a",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://na.panasonic.com/news/palantir-and-panasonic-energy-of-north-america-sign-multi-year-agreement",
+      "content_hash": "b27f80808802a81ad0a90d4ba98588c9e16e2582c0a3b7325c1114e686d2f51f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-06-07",
+      "publisher": "na.panasonic.com",
+      "retrieved_at": "2026-09-26T15:00:29+00:00",
+      "source_id": "source-aacf651e97f209530b922922",
+      "source_type": "official_newsroom",
+      "title": "Palantir and Panasonic Energy of North America sign multi-year agreement | Panasonic North America - United States"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-c9d72cde7c7dfdd2c41e5b18"
+      ],
+      "geography": "米国Nevada州Sparks",
+      "headline": "電池工場へFoundryを提供",
+      "products": [
+        "Palantir Foundry",
+        "工場センサーデータ統合"
+      ],
+      "scale": "",
+      "source_role": "製造データ統合・AI基盤を提供",
+      "target_role": "Panasonic Energyが電池工場で利用"
+    },
+    "description": "Panasonic Energyが北米Nevada州Sparksの電池工場のSmart Factory化にPalantir Foundryを採用する複数年契約。製造ラインのセンサーデータ統合と業務自動化に活用する。Panasonicグループとして表示し、資料上の当事者はPanasonic Energy。",
+    "direction": "directed",
+    "event_date": "2023-06-07",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-26b5352a76386dc865cf2155",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-palantir",
+    "status_as_of": "2023-06-07",
+    "target_company_id": "co-panasonic",
+    "themes": [
+      "semiconductor_manufacturing"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

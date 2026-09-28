@@ -1,0 +1,208 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-astellas",
+      "country": null,
+      "display_name": "Astellas",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pfe",
+      "country": null,
+      "display_name": "Pfizer Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-12-14",
+      "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+          "symbol": "PFE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-astellas",
+    "country": null,
+    "display_name": "Astellas",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "pharma_biotech"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "geography": "",
+        "headline": "PADCEV・KEYTRUDA併用を共同試験",
+        "products": [
+          "PADCEV",
+          "KEYTRUDA"
+        ],
+        "scale": "",
+        "source_role": "共同開発・評価を担当",
+        "target_role": "共同開発・評価を担当"
+      },
+      "description": "Pfizer・Astellas・MerckがPADCEVとKEYTRUDAの併用を評価する臨床協業契約。未治療の転移性尿路上皮がんが対象。薬剤の供給購入契約や売上分配契約とは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-430d56d813fe91ec66b8a82a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-merck",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "geography": "",
+        "headline": "米国でXTANDIを共同販売",
+        "products": [
+          "XTANDI / enzalutamide"
+        ],
+        "scale": "",
+        "source_role": "共同開発・評価を担当",
+        "target_role": "共同開発・評価を担当"
+      },
+      "description": "PfizerとAstellasが米国でXTANDIを共同開発・商業化。米国外の権利を同じと推測しない。2025年4月の資料時点の関係。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-5064bbfb7389efd99cb01480",
+      "relationship_type": "partnership",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-astellas",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "geography": "",
+        "headline": "PADCEV・KEYTRUDA併用を共同試験",
+        "products": [
+          "PADCEV",
+          "KEYTRUDA"
+        ],
+        "scale": "",
+        "source_role": "Astellasが共同臨床評価を担当",
+        "target_role": "Merckが共同臨床評価を担当"
+      },
+      "description": "Pfizer・Astellas・Merckによる同一の三者臨床協業契約のAstellas–Merck側の関係。未治療の転移性尿路上皮がんでPADCEVとKEYTRUDAの併用を評価。独立した追加契約金額は計上しない。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-7129a77477fc5518d980f684",
+      "relationship_type": "partnership",
+      "source_company_id": "co-astellas",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-merck",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-04-23"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 1,
+  "total_relationships": 2
+}

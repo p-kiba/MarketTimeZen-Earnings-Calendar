@@ -1,0 +1,91 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lam-research",
+      "country": null,
+      "display_name": "Lam Research Corp.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-sk-hynix",
+      "country": null,
+      "display_name": "SK hynix Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "memory",
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-sk-hynix",
+    "country": null,
+    "display_name": "SK hynix Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "memory",
+      "semiconductor_manufacturing"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。",
+      "direction": "directed",
+      "event_date": "2022-06-14",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:26:56+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-2e9c5666585943783841c695",
+      "relationship_type": "supplier",
+      "source_company_id": "co-lam-research",
+      "status_as_of": "2022-06-14",
+      "target_company_id": "co-sk-hynix",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2022-06-14"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

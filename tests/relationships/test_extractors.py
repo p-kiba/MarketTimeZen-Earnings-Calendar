@@ -33,7 +33,7 @@ def test_increment_and_revised_total_not_added():
 def companies():
     return [dict(company_id='fixture-'+k,entity_status='resolved',legal_name=n,display_name=n,aliases=[]) for k,n in [('a','Example Compute'),('b','Example Research')]]
 
-def source():return {'source_id':'fixture-src','published_date':'2026-09-20','filed_date':None}
+def source():return {'source_id':'fixture-src','canonical_url':'https://example.com/announcement','published_date':'2026-09-20','filed_date':None}
 
 @pytest.mark.parametrize('text',['Example Compute did not provide services to Example Research.','Example Compute competes with Example Research.','Example Compute provides services to Customer A.'])
 def test_negation_competitor_and_anonymous_do_not_create_relationship(text):

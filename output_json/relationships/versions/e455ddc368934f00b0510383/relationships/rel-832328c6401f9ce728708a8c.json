@@ -1,0 +1,174 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "explicitly_undisclosed",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2022-11-15",
+      "conditions": "買収対価は公式発表で非開示。",
+      "deal_id": "deal-3dc68c7a1114fdd7b71b4a84",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-3dc68c7a1114fdd7b71b4a84",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-3dc68c7a1114fdd7b71b4a84"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-3dc68c7a1114fdd7b71b4a84"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-832328c6401f9ce728708a8c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+        },
+        "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r5",
+        "rule_version": "8addb7f69157e1a189a4dde43bfcfa32927eef97964552d2f1ca6ef4c3bf0d34",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-3dc68c7a1114fdd7b71b4a84",
+      "excerpt": "completed the acquisition of SEMSYSCO GmbH",
+      "locator": "p:7",
+      "normalized_text_hash": "b06fc996d86de58a876f136dff78dd49d7ce57795fbafec9ea150ff77478f8b1",
+      "section": "Official company disclosure",
+      "source_id": "source-eab067a18e0e1794661ea682",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "first_observed_at": "2026-09-26T12:38:30+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-3dc68c7a1114fdd7b71b4a84"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-832328c6401f9ce728708a8c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-11-15",
+    "target_company_id": "co-semsysco",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-eab067a18e0e1794661ea682": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d"
+      },
+      "reason": "Primary-source review of merged ChatGPT research record r5; parties, relationship, description, disclosed status and amount disclosure checked against exact official paragraph. No ticker or undisclosed amount inferred.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r5",
+      "rule_version": "8addb7f69157e1a189a4dde43bfcfa32927eef97964552d2f1ca6ef4c3bf0d34",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.lamresearch.com/2022-11-15-Lam-Research-Acquires-SEMSYSCO-to-Advance-Chip-Packaging",
+      "content_hash": "122d7ef98f97e6444425533e74df9100a259fd2e06cfc0508e5604e80d7cc16d",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-11-15",
+      "publisher": "Lam Research Corporation",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-eab067a18e0e1794661ea682",
+      "source_type": "official_newsroom",
+      "title": "Lam Research Acquires SEMSYSCO to Advance Chip Packaging - Nov 15, 2022"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。",
+    "direction": "directed",
+    "event_date": "2022-11-15",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-832328c6401f9ce728708a8c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lam-research",
+    "status_as_of": "2022-11-15",
+    "target_company_id": "co-semsysco",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "explicitly_undisclosed"
+    ]
+  }
+}

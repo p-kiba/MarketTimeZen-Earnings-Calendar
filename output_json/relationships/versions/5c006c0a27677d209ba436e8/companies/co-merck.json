@@ -1,0 +1,690 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-astellas",
+      "country": null,
+      "display_name": "Astellas",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-daiichi-sankyo",
+      "country": null,
+      "display_name": "Daiichi Sankyo",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-eyebiotech-limited",
+      "country": null,
+      "display_name": "Eyebiotech Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lanova-medicines-ltd",
+      "country": null,
+      "display_name": "LaNova Medicines Ltd.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-pfe",
+      "country": null,
+      "display_name": "Pfizer Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-12-14",
+      "listing_status_source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+          "symbol": "PFE",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-prometheus-biosciences-inc",
+      "country": null,
+      "display_name": "Prometheus Biosciences, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-verona-pharma-plc",
+      "country": null,
+      "display_name": "Verona Pharma plc",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000310158",
+    "company_id": "co-merck",
+    "country": null,
+    "display_name": "Merck",
+    "entity_status": "resolved",
+    "legal_name": "Merck & Co., Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+        "symbol": "MRK",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "pharma_biotech"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-a52891cd19d1709ab27aa485"
+        ],
+        "geography": "",
+        "headline": "米国でXTANDIを共同販売",
+        "products": [
+          "XTANDI / enzalutamide"
+        ],
+        "scale": "",
+        "source_role": "共同開発・評価を担当",
+        "target_role": "共同開発・評価を担当"
+      },
+      "description": "PfizerとAstellasが米国でXTANDIを共同開発・商業化。米国外の権利を同じと推測しない。2025年4月の資料時点の関係。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-5064bbfb7389efd99cb01480",
+      "relationship_type": "partnership",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-astellas",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-7b44edbaf41e88bf12d93009",
+          "amount_kind": "purchase_price",
+          "conditions": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-71ac406683dfb20643bf74b0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10 billion",
+          "payee_company_ids": [
+            "co-verona-pharma-plc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "完了時の総取引価値として公表。1 ADSあたり$107。原文に通貨コード・定義なし。",
+          "value": "10000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。",
+      "direction": "directed",
+      "event_date": "2025-10-07",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-04561989f8326dfcb62a17df",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2025-10-07",
+      "target_company_id": "co-verona-pharma-plc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-819edaa726a8fef0a52800d6",
+          "amount_kind": "purchase_price",
+          "conditions": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.3 billion in cash",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "取得契約に記載された前払現金対価。将来マイルストーンとは別。原文通貨コード不明。",
+          "value": "1300000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-e4f82e68e66b7b0d1ad8159b",
+          "amount_kind": "purchase_price",
+          "conditions": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cfbb1b159a8d2bd27dc918ba",
+            "evidence-97efe889cdbca59c5cf8f05b",
+            "evidence-74ba42d17e9f4ffa4f96f9fe"
+          ],
+          "max_value": "1700000000",
+          "min_value": null,
+          "original_text": "$1.7 billion in developmental, regulatory and commercial milestone payments",
+          "payee_company_ids": [
+            "co-eyebiotech-limited"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "開発・規制・商業マイルストーンの将来上限。前払額へ加算せず、条件付き部分として分離。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがEyeBioを買収し、網膜疾患候補Restoretと前臨床パイプラインを取得。金額は契約発表の前払額と条件付きマイルストーン上限を分けて記録。",
+      "direction": "directed",
+      "event_date": "2024-07-12",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-109eedff1fe3a68f30242cb5",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2024-07-12",
+      "target_company_id": "co-eyebiotech-limited",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-8dd1f01bf97ad2df83b40d66",
+          "amount_kind": "purchase_price",
+          "conditions": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-cf267ead108fd5587515982e"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$10.8 billion",
+          "payee_company_ids": [
+            "co-prometheus-biosciences-inc"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "approximately",
+          "scope": "1株$200の現金対価による総株式価値。原文通貨コード不明。",
+          "value": "10800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "MerckがPrometheus Biosciencesを買収し、TL1A標的抗体MK-7240など免疫疾患領域の臨床パイプラインを取得。",
+      "direction": "directed",
+      "event_date": "2023-06-16",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-38baf7d825d6361508b872f0",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-merck",
+      "status_as_of": "2023-06-16",
+      "target_company_id": "co-prometheus-biosciences-inc",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-d4aabb15bc7b343063098f88",
+          "amount_kind": "contract_value",
+          "conditions": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$588 million",
+          "payee_company_ids": [
+            "co-merck"
+          ],
+          "payer_company_ids": [
+            "co-lanova-medicines-ltd"
+          ],
+          "qualifier": "exact",
+          "scope": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+          "value": "588000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-b1c6b217ba75c3d170b141a7",
+          "amount_kind": "contract_value",
+          "conditions": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "max_value": "2700000000",
+          "min_value": null,
+          "original_text": "$2.7 billion",
+          "payee_company_ids": [
+            "co-merck"
+          ],
+          "payer_company_ids": [
+            "co-lanova-medicines-ltd"
+          ],
+          "qualifier": "up_to",
+          "scope": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "LaNova MedicinesがMerckへLM-299（抗PD-1/VEGF二重特異性抗体）の独占的グローバルライセンスを供与。Merckが開発・製造・商業化を担う。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:51:16+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-7df618e8bec48d57dc27cbc5",
+      "relationship_type": "partnership",
+      "source_company_id": "co-lanova-medicines-ltd",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-merck",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-c255aafba1199fa3983fab39",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "前払金40億。うち10億は一部返還可能。契約総額ではない。",
+          "value": "4000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-f54765e328504da0725a899c",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "12か月後・24か月後の継続支払各7.5億。離脱権あり。",
+          "value": "1500000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-55d9c7903c1398e99a168bfd",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": "16500000000",
+          "min_value": null,
+          "original_text": "$16.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "3プログラムの販売マイルストーン上限。確約額ではない。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "geography": "",
+        "headline": "抗体薬物複合体3品を共同開発",
+        "products": [
+          "patritumab deruxtecan",
+          "ifinatamab deruxtecan",
+          "raludotatug deruxtecan"
+        ],
+        "scale": "",
+        "source_role": "Merckが共同開発・商業化と支払いを担当",
+        "target_role": "第一三共がADC技術・製造供給を担当"
+      },
+      "description": "Merckと第一三共がHER3-DXd・I-DXd・R-DXdを日本以外で共同開発・商業化する契約。第一三共が製造・供給を担い、日本では独占権を保持。2023年契約時点の条件であり、現在の承認・開発状況ではない。前払40億、継続支払15億、条件付き販売マイルストーン最大165億（いずれも原文$）を分けて記録する。",
+      "direction": "undirected",
+      "event_date": "2023-10-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-4238acaeb95a4e25f786dd76",
+      "relationship_type": "partnership",
+      "source_company_id": "co-merck",
+      "status_as_of": "2023-10-19",
+      "target_company_id": "co-daiichi-sankyo",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "conditional",
+        "not_total",
+        "unsupported_kind",
+        "bounded_or_unspecified"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-8a36f4ec2325b5ddcd4eeedf"
+        ],
+        "geography": "",
+        "headline": "PADCEV・KEYTRUDA併用を共同試験",
+        "products": [
+          "PADCEV",
+          "KEYTRUDA"
+        ],
+        "scale": "",
+        "source_role": "共同開発・評価を担当",
+        "target_role": "共同開発・評価を担当"
+      },
+      "description": "Pfizer・Astellas・MerckがPADCEVとKEYTRUDAの併用を評価する臨床協業契約。未治療の転移性尿路上皮がんが対象。薬剤の供給購入契約や売上分配契約とは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-430d56d813fe91ec66b8a82a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-pfe",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-merck",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5b1c05111c92afe138bf6f3c"
+        ],
+        "geography": "",
+        "headline": "PADCEV・KEYTRUDA併用を共同試験",
+        "products": [
+          "PADCEV",
+          "KEYTRUDA"
+        ],
+        "scale": "",
+        "source_role": "Astellasが共同臨床評価を担当",
+        "target_role": "Merckが共同臨床評価を担当"
+      },
+      "description": "Pfizer・Astellas・Merckによる同一の三者臨床協業契約のAstellas–Merck側の関係。未治療の転移性尿路上皮がんでPADCEVとKEYTRUDAの併用を評価。独立した追加契約金額は計上しない。",
+      "direction": "undirected",
+      "event_date": "2025-04-23",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-7129a77477fc5518d980f684",
+      "relationship_type": "partnership",
+      "source_company_id": "co-astellas",
+      "status_as_of": "2025-04-23",
+      "target_company_id": "co-merck",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-06-16",
+    "2023-10-19",
+    "2024-07-12",
+    "2024-12-20",
+    "2025-04-23",
+    "2025-10-07"
+  ],
+  "total_counterparties": 7,
+  "total_peer_relationships": 1,
+  "total_relationships": 7
+}

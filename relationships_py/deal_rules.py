@@ -48,6 +48,39 @@ def verify(root=ROOT):
     # Exact primary-source names only. Ticker mappings need their own proof.
     known = {c['company_id']: c for c in master['companies']}
     sec_identities = read(root/'relationships_data/state/sec_identities.json', {})
+    identity_enrichments = read(root/'relationships_config/identity_enrichments.json', {})
+    def verified_enrichment(cid, original, current):
+        receipt = identity_enrichments.get(cid, {})
+        if receipt.get('company_hash') != digest(current):
+            return False
+        immutable = ('company_id', 'display_name', 'aliases', 'entity_status', 'merged_into', 'universe_memberships')
+        if any(current.get(key) != original.get(key) for key in immutable):
+            return False
+        proofs = receipt.get('proofs')
+        if not isinstance(proofs, list) or not proofs:
+            return False
+        proof_texts = []
+        for proof in proofs:
+            sid = proof.get('source_id')
+            source = sources.get(sid)
+            if not source or source['canonical_url'] != proof.get('url') or source['content_hash'] != proof.get('content_hash'):
+                return False
+            evidence_text, _ = document(sid)
+            anchors = proof.get('anchors')
+            if not anchors or any(anchor not in evidence_text for anchor in anchors):
+                return False
+            proof_texts.append((proof['url'], evidence_text))
+        if current.get('listing_status_source') and current['listing_status_source'] not in {url for url, _ in proof_texts}:
+            return False
+        if current.get('legal_name') and not any(current['legal_name'] in evidence_text for _, evidence_text in proof_texts):
+            return False
+        for listing in current.get('listings', []):
+            if not any(listing['source_url'] == url and listing['symbol'] in evidence_text for url, evidence_text in proof_texts):
+                return False
+        if current.get('country') != original.get('country'):
+            if not receipt.get('supporting_url', '').startswith('https://www.sec.gov/Archives/') or not receipt.get('supporting_claim'):
+                return False
+        return True
     for entry in config['companies']:
         company = entry['company']; text = check_proof(entry['identity_proof'])
         if company['display_name'] not in text or company['entity_status'] != 'resolved':
@@ -65,9 +98,10 @@ def verify(root=ROOT):
             # invalidating a newsroom's already-verified name or relationships.
             receipt=sec_identities.get(cid,{})
             current=known[cid]
-            if (receipt.get('company') != current or not current.get('cik') or
-                receipt.get('url') != 'https://data.sec.gov/submissions/CIK'+current['cik']+'.json' or
-                any(current[k]!=company[k] for k in ('company_id','display_name','aliases','country','entity_status','merged_into'))):
+            sec_verified = (receipt.get('company') == current and current.get('cik') and
+                receipt.get('url') == 'https://data.sec.gov/submissions/CIK'+current['cik']+'.json' and
+                all(current[k] == company[k] for k in ('company_id','display_name','aliases','country','entity_status','merged_into')))
+            if not sec_verified and not verified_enrichment(cid, company, current):
                 raise ValueError('Company already exists with different identity; resolve explicitly')
         if cid not in known:
             master['companies'].append(deepcopy(company)); known[cid] = company
@@ -105,6 +139,10 @@ def verify(root=ROOT):
                 continue
             old = next((r for r in master['relationships'] if r['relationship_id'] == rid), None)
             revision=claim.get('revises_relationship_id') is not None
+            # A later entity correction may withdraw an earlier source-bound
+            # assertion. Replaying the original rule must not revive it.
+            if old and old['verification'] == 'withdrawn':
+                continue
             eid=stable_id('event',rid,rule['rule_id'],rule['assertions_hash']) if revision else stable_id('event',rid)
             if revision:
                 if not old or any(old[k]!=claim[k] for k in ('source_company_id','target_company_id','relationship_type','direction')):

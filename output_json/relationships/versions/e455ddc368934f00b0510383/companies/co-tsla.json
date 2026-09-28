@@ -1,0 +1,312 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-catl",
+      "country": null,
+      "display_name": "Contemporary Amperex Technology Co. Limited",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gm",
+      "country": null,
+      "display_name": "GM",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "gpu_compute",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-panasonic",
+      "country": null,
+      "display_name": "Panasonic",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries",
+        "memory"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001318605",
+      "company_id": "co-tsla",
+      "country": null,
+      "display_name": "Tesla",
+      "entity_status": "resolved",
+      "legal_name": "Tesla, Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001318605.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+          "symbol": "TSLA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries",
+        "energy_power"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001318605",
+    "company_id": "co-tsla",
+    "country": null,
+    "display_name": "Tesla",
+    "entity_status": "resolved",
+    "legal_name": "Tesla, Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001318605.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+        "symbol": "TSLA",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "automotive_batteries",
+      "energy_power"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-d6174fedaf3020a6eeaab7c7",
+          "evidence-6f0ed657e3e8f05f4001a551"
+        ],
+        "geography": "",
+        "headline": "Blackwell採用予定企業として公表",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "NVIDIAがBlackwellの採用予定企業としてTeslaを公表。契約額や発注・納入完了の証拠ではない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-851cad8630a0f3dc53b35e67",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-tsla",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-181eb4e4961d048111348010",
+          "evidence-6ea027e5fd1f1dee64dcfae2"
+        ],
+        "geography": "",
+        "headline": "GM製EVへのSupercharger利用開放",
+        "products": [
+          "Supercharger",
+          "NACS充電"
+        ],
+        "scale": "17,800基超の接続対象（発表時点）",
+        "source_role": "充電網の提供",
+        "target_role": "車両・アダプター・アプリ連携"
+      },
+      "description": "GMが認定NACSアダプターによるTesla Supercharger利用を開始すると発表。2024年9月時点では米国から開始しカナダは年内の予定。アダプターの小売価格を二社間契約金額にしない。",
+      "direction": "undirected",
+      "event_date": "2024-09-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-309097bdb57d9db40da6abee",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsla",
+      "status_as_of": "2024-09-18",
+      "target_company_id": "co-gm",
+      "themes": [
+        "food_retail"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-ba06ba099e70a8b28b71ad1c",
+          "evidence-d036c99a4ba24d631675af0a"
+        ],
+        "geography": "",
+        "headline": "Panasonicによるリチウムイオン電池セル供給",
+        "products": [
+          "リチウムイオン電池セル"
+        ],
+        "scale": "",
+        "source_role": "電池セル供給",
+        "target_role": "車両・蓄電製品への組込み"
+      },
+      "description": "Teslaの2024年10-KはPanasonicを車両・蓄電製品向けリチウムイオン電池セル供給者として明記。企業グループ名での開示で、個別契約子会社・最新購入額・現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-01-30",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-f6b6987e9cdc0f35fabbd9ee",
+      "relationship_type": "supplier",
+      "source_company_id": "co-panasonic",
+      "status_as_of": "2024-12-31",
+      "target_company_id": "co-tsla",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-65dfb6e6fd176e1a9236d479",
+          "evidence-70d7c8d07f25fac7cc6772a2"
+        ],
+        "geography": "",
+        "headline": "CATLによるリチウムイオン電池セル供給",
+        "products": [
+          "リチウムイオン電池セル"
+        ],
+        "scale": "",
+        "source_role": "電池セル供給",
+        "target_role": "車両・蓄電製品への組込み"
+      },
+      "description": "Teslaの2024年10-KはContemporary Amperex Technology Co. Limitedを車両・蓄電製品向けリチウムイオン電池セル供給者として明記。企業グループ名での開示で、個別契約子会社・最新購入額・現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-01-30",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-b14a64fdabf6b0b449b1b74f",
+      "relationship_type": "supplier",
+      "source_company_id": "co-catl",
+      "status_as_of": "2024-12-31",
+      "target_company_id": "co-tsla",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2024-09-18",
+    "2024-12-31"
+  ],
+  "total_counterparties": 4,
+  "total_peer_relationships": 0,
+  "total_relationships": 4
+}

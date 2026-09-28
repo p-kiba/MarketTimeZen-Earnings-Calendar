@@ -1,0 +1,226 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-04-27",
+      "conditions": "",
+      "deal_id": "deal-0e135197ce399fea79eb8bd3",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-0e135197ce399fea79eb8bd3",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-0e135197ce399fea79eb8bd3",
+        "evidence-6bc3d06df185d3a9b14a84cc"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-0e135197ce399fea79eb8bd3",
+            "evidence-6bc3d06df185d3a9b14a84cc"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-3a50b72c8c38171d4f70d7b7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-01b550a68d3c35e05650834a": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-dell-ericsson",
+        "rule_version": "efa6cd08cbfe8686b052acdd0c871649308fcff673b542d5a4339a46e5d7d85e",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0e135197ce399fea79eb8bd3",
+      "excerpt": "Expanding the ecosys",
+      "locator": "p:4",
+      "normalized_text_hash": "51a0b4f6a92b013f9939df025988a7b5ac9e11bddafb8c32e50d7a6e41afb6c2",
+      "section": "Primary disclosure: p:4",
+      "source_id": "source-01b550a68d3c35e05650834a",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6bc3d06df185d3a9b14a84cc",
+      "excerpt": "The Ericss",
+      "locator": "p:5",
+      "normalized_text_hash": "7c46f87b141ce444083c9e87fbecf9e04087b4a720abd496e45a94a6e7d35ce7",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-01b550a68d3c35e05650834a",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-0e135197ce399fea79eb8bd3",
+        "evidence-6bc3d06df185d3a9b14a84cc"
+      ],
+      "geography": "",
+      "headline": "Cloud RAN向けサーバーを提供",
+      "products": [
+        "Dell PowerEdge XR8000",
+        "Dell PowerEdge XR5610",
+        "Ericsson Cloud RAN"
+      ],
+      "scale": "",
+      "source_role": "Dellが通信向けサーバーを提供",
+      "target_role": "EricssonがCloud RANソリューションに統合"
+    },
+    "deal_ids": [
+      "deal-0e135197ce399fea79eb8bd3"
+    ],
+    "description": "EricssonのCloud RAN向けにDell PowerEdgeサーバーを採用する協業。通信向けXR8000・XR5610を組み込み、基地局ネットワークのクラウド化を支援する2023年発表。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-0e135197ce399fea79eb8bd3",
+      "evidence-6bc3d06df185d3a9b14a84cc"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-0e135197ce399fea79eb8bd3"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3a50b72c8c38171d4f70d7b7",
+    "relationship_type": "supplier",
+    "source_company_id": "co-dell",
+    "status_as_of": "2023-04-27",
+    "target_company_id": "co-ericsson",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-01b550a68d3c35e05650834a": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-dell-ericsson",
+      "rule_version": "efa6cd08cbfe8686b052acdd0c871649308fcff673b542d5a4339a46e5d7d85e",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+      "content_hash": "c993c22c1df2ef830e97986fc8ca874c5cabbe8072dac03b2ae14434a6ae23dd",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-04-27",
+      "publisher": "www.ericsson.com",
+      "retrieved_at": "2026-09-26T15:55:36+00:00",
+      "source_id": "source-01b550a68d3c35e05650834a",
+      "source_type": "official_newsroom",
+      "title": "Ericsson collaborates with Dell Technologies on Cloud RAN"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-0e135197ce399fea79eb8bd3",
+        "evidence-6bc3d06df185d3a9b14a84cc"
+      ],
+      "geography": "",
+      "headline": "Cloud RAN向けサーバーを提供",
+      "products": [
+        "Dell PowerEdge XR8000",
+        "Dell PowerEdge XR5610",
+        "Ericsson Cloud RAN"
+      ],
+      "scale": "",
+      "source_role": "Dellが通信向けサーバーを提供",
+      "target_role": "EricssonがCloud RANソリューションに統合"
+    },
+    "description": "EricssonのCloud RAN向けにDell PowerEdgeサーバーを採用する協業。通信向けXR8000・XR5610を組み込み、基地局ネットワークのクラウド化を支援する2023年発表。",
+    "direction": "directed",
+    "event_date": "2023-04-27",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-3a50b72c8c38171d4f70d7b7",
+    "relationship_type": "supplier",
+    "source_company_id": "co-dell",
+    "status_as_of": "2023-04-27",
+    "target_company_id": "co-ericsson",
+    "themes": [
+      "networking"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

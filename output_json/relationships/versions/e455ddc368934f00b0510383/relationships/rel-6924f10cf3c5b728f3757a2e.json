@@ -1,0 +1,169 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2026-09-18",
+      "conditions": "AnthropicとAccentureは各社が5年間で少なくとも10億ドルを投資する見込みと発表。金額は期待値であり、確定した契約額ではない。運用方法の詳細は未確定。",
+      "deal_id": "deal-b535a8138d3c444443bc0e93",
+      "detected_at": "2026-09-26T08:10:48+00:00",
+      "effective_date": null,
+      "event_id": "event-aa6e56dbe1b09a9bdc48eba2",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-ec4f44804ca3312632e5c7ce"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "needs_review"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ec4f44804ca3312632e5c7ce"
+          ],
+          "verification": "needs_review"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-6924f10cf3c5b728f3757a2e"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-d1f1b3701797859e9b091da3": "215732301def58d59d402fb35f6d75535191a312067bfb77878b105cccb6f862"
+        },
+        "reason": "Anthropic primary announcement dated September 18, 2026 describes the Faculty-led evaluation work and its scope.",
+        "reviewer": null,
+        "rule_id": "anthropic_accenture_embedded_evaluation",
+        "rule_version": "1",
+        "verified_at": "2026-09-26T19:23:40+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ec4f44804ca3312632e5c7ce",
+      "excerpt": "The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards.",
+      "locator": "p:8",
+      "normalized_text_hash": "e612368a0619305659d19acd6f1a5f31f3301edb2d616bfa399cb071dc68ad7e",
+      "section": "paragraph",
+      "source_id": "source-d1f1b3701797859e9b091da3",
+      "supports_fields": [
+        "relationship"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-b535a8138d3c444443bc0e93"
+    ],
+    "description": "AnthropicとAccentureのFacultyがフロンティアAIモデルを共同評価。レッドチーム、アラインメント評価、安全策テストを実施予定。両社は5年間で各10億ドル以上を投じる見込みだが、確定コミットメント額ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-ec4f44804ca3312632e5c7ce"
+    ],
+    "first_observed_at": "2026-09-26T08:10:48+00:00",
+    "last_observed_at": "2026-09-26T08:10:48+00:00",
+    "latest_event_ids": [
+      "event-aa6e56dbe1b09a9bdc48eba2"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-6924f10cf3c5b728f3757a2e",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": "2026-09-18",
+    "target_company_id": "co-acn",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-d1f1b3701797859e9b091da3": "215732301def58d59d402fb35f6d75535191a312067bfb77878b105cccb6f862"
+      },
+      "reason": "Anthropic primary announcement dated September 18, 2026 describes the Faculty-led evaluation work and its scope.",
+      "reviewer": null,
+      "rule_id": "anthropic_accenture_embedded_evaluation",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "content_hash": "215732301def58d59d402fb35f6d75535191a312067bfb77878b105cccb6f862",
+      "date_precision": "unknown",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-anthropic",
+      "retrieved_at": "2026-09-26T04:40:30+00:00",
+      "source_id": "source-d1f1b3701797859e9b091da3",
+      "source_type": "official_newsroom",
+      "title": "Partnering with Accenture on embedded evaluation \\ Anthropic"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "AnthropicとAccentureのFacultyがフロンティアAIモデルを共同評価。レッドチーム、アラインメント評価、安全策テストを実施予定。両社は5年間で各10億ドル以上を投じる見込みだが、確定コミットメント額ではない。",
+    "direction": "undirected",
+    "event_date": "2026-09-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:10:48+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-6924f10cf3c5b728f3757a2e",
+    "relationship_type": "partnership",
+    "source_company_id": "co-anthropic",
+    "status_as_of": "2026-09-18",
+    "target_company_id": "co-acn",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

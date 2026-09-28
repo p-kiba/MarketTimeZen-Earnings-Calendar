@@ -1,0 +1,345 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-461902e5eccc806099f41d64",
+          "amount_kind": "purchase_price",
+          "conditions": "2024-07-01の契約発表時の株式価値。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "equity value of approximately $4.7 billion, or $37.25 per share",
+          "payee_company_ids": [
+            "co-spirit-aerosystems"
+          ],
+          "payer_company_ids": [
+            "co-boeing"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "4700000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-ddcade4a471d445cd5d37dd9",
+          "amount_kind": "other",
+          "conditions": "Spiritの直近報告純有利子負債を含む総取引価値。47億ドルに加算しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$8.3 billion",
+          "payee_company_ids": [
+            "co-spirit-aerosystems"
+          ],
+          "payer_company_ids": [
+            "co-boeing"
+          ],
+          "qualifier": "approximately",
+          "scope": "bilateral",
+          "value": "8300000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-12-08",
+      "conditions": "2025-12-08に買収完了。 契約発表時はBoeing株との交換比率が0.18～0.25の範囲でBoeing株価に連動する方式。",
+      "deal_id": "deal-753caeabc234af0e3595e4f0",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-753caeabc234af0e3595e4f0",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-753caeabc234af0e3595e4f0",
+        "evidence-4897721038ecd9873468c6e1",
+        "evidence-40f79f94566b434570e27912"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-753caeabc234af0e3595e4f0",
+            "evidence-4897721038ecd9873468c6e1",
+            "evidence-40f79f94566b434570e27912"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bf21d9ab114700d0ea7387c2"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-2d60d79199eb20761916c838": "8e8fa7810ab488d12a6f1a124bdd6f20b21b62e991de3de13a045f93313f74ca",
+          "source-70404ee337cf3a2f1030f709": "8acdc04d1a12abcb99c18955b93b2de510a78d7309f8598f9b90a633ba832d93"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r9",
+        "rule_version": "0c7630438d4027334ef015bb2f096c20cc307ec772a3a31c5d040873f6231e93",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-40f79f94566b434570e27912",
+      "excerpt": "$8.3 billion",
+      "locator": "p:18",
+      "normalized_text_hash": "0133838482f3e29c9c3ac755cb5209e95b688bfec323bd43b48c317d1fdac01f",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2d60d79199eb20761916c838",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-4897721038ecd9873468c6e1",
+      "excerpt": "equity value of approximately $4.7 billion, or $37.25 per share",
+      "locator": "p:18",
+      "normalized_text_hash": "b48fe93564b009202a6ed917dac12abac8cf0fc6c8d2bef9b425038bbe5f25a9",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-2d60d79199eb20761916c838",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-753caeabc234af0e3595e4f0",
+      "excerpt": "ARLINGTON, Va. ,",
+      "locator": "p:20",
+      "normalized_text_hash": "dcdc8b6eb2e2d14d5c3d8b97f58f68e8ddcf15539fe26c42a55086d0fe5883ec",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-70404ee337cf3a2f1030f709",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-753caeabc234af0e3595e4f0"
+    ],
+    "description": "BoeingはSpirit AeroSystemsを全株式取引で買収し、主要な航空機構造部品の製造をBoeingへ再統合した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-753caeabc234af0e3595e4f0",
+      "evidence-4897721038ecd9873468c6e1",
+      "evidence-40f79f94566b434570e27912"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-753caeabc234af0e3595e4f0"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bf21d9ab114700d0ea7387c2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-boeing",
+    "status_as_of": "2025-12-08",
+    "target_company_id": "co-spirit-aerosystems",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-2d60d79199eb20761916c838": "8e8fa7810ab488d12a6f1a124bdd6f20b21b62e991de3de13a045f93313f74ca",
+        "source-70404ee337cf3a2f1030f709": "8acdc04d1a12abcb99c18955b93b2de510a78d7309f8598f9b90a633ba832d93"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r9; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r9",
+      "rule_version": "0c7630438d4027334ef015bb2f096c20cc307ec772a3a31c5d040873f6231e93",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.boeing.com/investors/news/press-release-details/2024/Boeing-to-Acquire-Spirit-AeroSystems/",
+      "content_hash": "8e8fa7810ab488d12a6f1a124bdd6f20b21b62e991de3de13a045f93313f74ca",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2024-07-01",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "Boeing",
+      "retrieved_at": "2026-09-26T13:46:48+00:00",
+      "source_id": "source-2d60d79199eb20761916c838",
+      "source_type": "official_newsroom",
+      "title": "Boeing Company - Boeing to Acquire Spirit AeroSystems"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Completes-Acquisition-of-Spirit-AeroSystems/default.aspx",
+      "content_hash": "8acdc04d1a12abcb99c18955b93b2de510a78d7309f8598f9b90a633ba832d93",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-12-08",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-12-08",
+      "publisher": "Boeing",
+      "retrieved_at": "2026-09-26T13:46:51+00:00",
+      "source_id": "source-70404ee337cf3a2f1030f709",
+      "source_type": "official_newsroom",
+      "title": "Boeing Company - Boeing Completes Acquisition of Spirit AeroSystems"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-461902e5eccc806099f41d64",
+        "amount_kind": "purchase_price",
+        "conditions": "2024-07-01の契約発表時の株式価値。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "equity value of approximately $4.7 billion, or $37.25 per share",
+        "payee_company_ids": [
+          "co-spirit-aerosystems"
+        ],
+        "payer_company_ids": [
+          "co-boeing"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "4700000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-ddcade4a471d445cd5d37dd9",
+        "amount_kind": "other",
+        "conditions": "Spiritの直近報告純有利子負債を含む総取引価値。47億ドルに加算しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-753caeabc234af0e3595e4f0",
+          "evidence-4897721038ecd9873468c6e1",
+          "evidence-40f79f94566b434570e27912"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$8.3 billion",
+        "payee_company_ids": [
+          "co-spirit-aerosystems"
+        ],
+        "payer_company_ids": [
+          "co-boeing"
+        ],
+        "qualifier": "approximately",
+        "scope": "bilateral",
+        "value": "8300000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "BoeingはSpirit AeroSystemsを全株式取引で買収し、主要な航空機構造部品の製造をBoeingへ再統合した。",
+    "direction": "directed",
+    "event_date": "2025-12-08",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-bf21d9ab114700d0ea7387c2",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-boeing",
+    "status_as_of": "2025-12-08",
+    "target_company_id": "co-spirit-aerosystems",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "contingency_unknown",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

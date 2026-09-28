@@ -1,0 +1,201 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-06-05",
+      "conditions": "",
+      "deal_id": "deal-7f4a0a67d4a30434fecbc7dd",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-7f4a0a67d4a30434fecbc7dd",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-7f4a0a67d4a30434fecbc7dd"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-7f4a0a67d4a30434fecbc7dd"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-90be8f403b1ef23fff83a3f4"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-570dcb225843c080dd117ed5": "434ce6662acac73ad2038b10c2610bf01c6cc8e1e175ab1c3734df1cffa793a3"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-ge-uniper",
+        "rule_version": "d5dca788740ab85570c15811776b13fc69c01a910a7e03159275afa1bc25ac39",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-7f4a0a67d4a30434fecbc7dd",
+      "excerpt": "GE Vernova and Unipe",
+      "locator": "pdf-page:1",
+      "normalized_text_hash": "045129c8f4a16098abbbc7a8db4ed7e4a1f46f278874e2750555591f998dac5b",
+      "section": "Primary disclosure: pdf-page:1",
+      "source_id": "source-570dcb225843c080dd117ed5",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-7f4a0a67d4a30434fecbc7dd"
+      ],
+      "geography": "",
+      "headline": "発電所のガスタービン3基を更新",
+      "products": [
+        "GT26 High Efficiency upgrade"
+      ],
+      "scale": "",
+      "source_role": "GE Vernovaがタービン更新サービスを提供",
+      "target_role": "UniperがGrain発電所向けに発注"
+    },
+    "deal_ids": [
+      "deal-7f4a0a67d4a30434fecbc7dd"
+    ],
+    "description": "GE Vernovaが英国Grain発電所のGT26ガスタービン3基を高効率化するサービス契約をUniperと締結。2026年から更新予定。資料の燃料節約見込額は契約金額に含めない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-7f4a0a67d4a30434fecbc7dd"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-7f4a0a67d4a30434fecbc7dd"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-90be8f403b1ef23fff83a3f4",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-06-05",
+    "target_company_id": "co-uniper",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-570dcb225843c080dd117ed5": "434ce6662acac73ad2038b10c2610bf01c6cc8e1e175ab1c3734df1cffa793a3"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-ge-uniper",
+      "rule_version": "d5dca788740ab85570c15811776b13fc69c01a910a7e03159275afa1bc25ac39",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gevernova.com/news/print/pdf/node/143845",
+      "content_hash": "434ce6662acac73ad2038b10c2610bf01c6cc8e1e175ab1c3734df1cffa793a3",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-06-05",
+      "publisher": "www.gevernova.com",
+      "retrieved_at": "2026-09-26T16:03:10+00:00",
+      "source_id": "source-570dcb225843c080dd117ed5",
+      "source_type": "official_newsroom",
+      "title": "GE Vernova and Uniper announce turbine upgrade at Grain power station in Kent, UK"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-7f4a0a67d4a30434fecbc7dd"
+      ],
+      "geography": "",
+      "headline": "発電所のガスタービン3基を更新",
+      "products": [
+        "GT26 High Efficiency upgrade"
+      ],
+      "scale": "",
+      "source_role": "GE Vernovaがタービン更新サービスを提供",
+      "target_role": "UniperがGrain発電所向けに発注"
+    },
+    "description": "GE Vernovaが英国Grain発電所のGT26ガスタービン3基を高効率化するサービス契約をUniperと締結。2026年から更新予定。資料の燃料節約見込額は契約金額に含めない。",
+    "direction": "directed",
+    "event_date": "2025-06-05",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-90be8f403b1ef23fff83a3f4",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-06-05",
+    "target_company_id": "co-uniper",
+    "themes": [
+      "energy_power"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

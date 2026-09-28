@@ -1,153 +1,154 @@
 {
-  "schema_version": "1.0",
   "classification": "Curated, overlapping investor-research themes. These labels organize exploration and are not official industry classifications or claims about a specific relationship.",
-  "themes": [
-    {
-      "id": "ai_models",
-      "name": {
-        "ja": "AIモデル・基盤",
-        "en": "AI models & platforms"
-      }
-    },
-    {
-      "id": "enterprise_ai",
-      "name": {
-        "ja": "企業向けAI・ソフトウェア",
-        "en": "Enterprise AI & software"
-      }
-    },
-    {
-      "id": "gpu_compute",
-      "name": {
-        "ja": "GPU・計算アクセラレータ",
-        "en": "GPU & compute accelerators"
-      }
-    },
-    {
-      "id": "custom_silicon",
-      "name": {
-        "ja": "カスタム半導体",
-        "en": "Custom silicon"
-      }
-    },
-    {
-      "id": "memory",
-      "name": {
-        "ja": "メモリ・ストレージ",
-        "en": "Memory & storage"
-      }
-    },
-    {
-      "id": "semiconductor_manufacturing",
-      "name": {
-        "ja": "半導体製造・装置",
-        "en": "Semiconductor manufacturing & equipment"
-      }
-    },
-    {
-      "id": "data_center_cloud",
-      "name": {
-        "ja": "クラウド・データセンター",
-        "en": "Cloud & data centers"
-      }
-    },
-    {
-      "id": "networking",
-      "name": {
-        "ja": "ネットワーク・通信",
-        "en": "Networking & telecom"
-      }
-    },
-    {
-      "id": "pharma_biotech",
-      "name": {
-        "ja": "医薬品・バイオ",
-        "en": "Pharma & biotech"
-      }
-    },
-    {
-      "id": "healthcare",
-      "name": {
-        "ja": "医療・ヘルスケア",
-        "en": "Healthcare"
-      }
-    },
-    {
-      "id": "food_retail",
-      "name": {
-        "ja": "食品・小売",
-        "en": "Food & retail"
-      }
-    },
-    {
-      "id": "financial_services",
-      "name": {
-        "ja": "金融・決済",
-        "en": "Financial services & payments"
-      }
-    },
-    {
-      "id": "energy_power",
-      "name": {
-        "ja": "エネルギー・電力",
-        "en": "Energy & power"
-      }
-    },
-    {
-      "id": "automotive_batteries",
-      "name": {
-        "ja": "自動車・電池",
-        "en": "Automotive & batteries"
-      }
-    },
-    {
-      "id": "industrial_aerospace",
-      "name": {
-        "ja": "産業・航空宇宙・防衛",
-        "en": "Industrials, aerospace & defense"
-      }
-    },
-    {
-      "id": "consumer_media",
-      "name": {
-        "ja": "消費者向け・メディア",
-        "en": "Consumer & media"
-      }
-    }
-  ],
   "company_themes": {
-    "co-openai": [
+    "co-aapl": [
+      "consumer_media",
       "ai_models"
     ],
-    "co-openai-opco": [
-      "ai_models"
+    "co-abbvie": [
+      "pharma_biotech"
     ],
-    "co-anthropic": [
-      "ai_models"
-    ],
-    "co-xai": [
-      "ai_models"
-    ],
-    "co-mistral": [
-      "ai_models"
+    "co-abt": [
+      "healthcare"
     ],
     "co-ai21": [
       "ai_models"
     ],
-    "co-essential-ai": [
-      "ai_models"
-    ],
-    "co-contextual-ai": [
-      "ai_models"
-    ],
-    "co-nvda": [
-      "ai_models",
-      "gpu_compute",
-      "data_center_cloud"
+    "co-amat": [
+      "semiconductor_manufacturing"
     ],
     "co-amd": [
       "gpu_compute",
       "custom_silicon"
+    ],
+    "co-amgen": [
+      "pharma_biotech"
+    ],
+    "co-amkor": [
+      "semiconductor_manufacturing"
+    ],
+    "co-amzn": [
+      "ai_models",
+      "data_center_cloud",
+      "food_retail"
+    ],
+    "co-anthropic": [
+      "ai_models"
+    ],
+    "co-apld": [
+      "data_center_cloud"
+    ],
+    "co-arista-networks-inc": [
+      "networking",
+      "data_center_cloud"
+    ],
+    "co-arvinas": [
+      "pharma_biotech"
+    ],
+    "co-ase": [
+      "semiconductor_manufacturing"
+    ],
+    "co-astellas": [
+      "pharma_biotech"
+    ],
+    "co-astrazeneca": [
+      "pharma_biotech"
+    ],
+    "co-att": [
+      "networking"
+    ],
+    "co-avgo": [
+      "custom_silicon",
+      "networking"
+    ],
+    "co-aws": [
+      "ai_models",
+      "data_center_cloud"
+    ],
+    "co-bmw": [
+      "automotive_batteries"
+    ],
+    "co-boeing": [
+      "industrial_aerospace"
+    ],
+    "co-brk-b": [
+      "financial_services",
+      "industrial_aerospace",
+      "energy_power",
+      "food_retail"
+    ],
+    "co-catl": [
+      "automotive_batteries"
+    ],
+    "co-ceg": [
+      "energy_power"
+    ],
+    "co-cirrus": [
+      "custom_silicon"
+    ],
+    "co-citi": [
+      "financial_services"
+    ],
+    "co-coinbase": [
+      "financial_services"
+    ],
+    "co-collins-aerospace": [
+      "industrial_aerospace"
+    ],
+    "co-contextual-ai": [
+      "ai_models"
+    ],
+    "co-coreweave": [
+      "data_center_cloud",
+      "gpu_compute"
+    ],
+    "co-cost": [
+      "food_retail"
+    ],
+    "co-crm": [
+      "enterprise_ai"
+    ],
+    "co-crusoe": [
+      "data_center_cloud",
+      "energy_power"
+    ],
+    "co-csco": [
+      "networking",
+      "data_center_cloud"
+    ],
+    "co-cvx": [
+      "energy_power"
+    ],
+    "co-daiichi-sankyo": [
+      "pharma_biotech"
+    ],
+    "co-deere": [
+      "industrial_aerospace"
+    ],
+    "co-dell": [
+      "data_center_cloud"
+    ],
+    "co-dhr": [
+      "healthcare"
+    ],
+    "co-ericsson": [
+      "networking"
+    ],
+    "co-essential-ai": [
+      "ai_models"
+    ],
+    "co-ge-vernova": [
+      "energy_power",
+      "industrial_aerospace"
+    ],
+    "co-gfs": [
+      "semiconductor_manufacturing"
+    ],
+    "co-gilead-sciences-inc": [
+      "pharma_biotech"
+    ],
+    "co-gm": [
+      "automotive_batteries"
     ],
     "co-googl": [
       "ai_models",
@@ -159,94 +160,69 @@
       "data_center_cloud",
       "consumer_media"
     ],
-    "co-msft": [
-      "ai_models",
-      "enterprise_ai",
+    "co-gwa": [
+      "semiconductor_manufacturing"
+    ],
+    "co-hpe": [
       "data_center_cloud"
-    ],
-    "co-amzn": [
-      "ai_models",
-      "data_center_cloud",
-      "food_retail"
-    ],
-    "co-aws": [
-      "ai_models",
-      "data_center_cloud"
-    ],
-    "co-meta": [
-      "ai_models",
-      "consumer_media"
-    ],
-    "co-palantir": [
-      "enterprise_ai"
-    ],
-    "co-crm": [
-      "enterprise_ai"
     ],
     "co-ibm": [
       "enterprise_ai",
       "data_center_cloud"
     ],
-    "co-redhat": [
+    "co-instacart": [
+      "food_retail"
+    ],
+    "co-jpm": [
+      "financial_services"
+    ],
+    "co-l3harris": [
+      "industrial_aerospace"
+    ],
+    "co-lam-research": [
+      "semiconductor_manufacturing"
+    ],
+    "co-lambda": [
+      "data_center_cloud",
+      "gpu_compute"
+    ],
+    "co-lg-chem": [
+      "automotive_batteries"
+    ],
+    "co-lly": [
+      "pharma_biotech"
+    ],
+    "co-lockheed-martin": [
+      "industrial_aerospace"
+    ],
+    "co-marvell-technology-inc": [
+      "custom_silicon",
+      "networking"
+    ],
+    "co-mastercard": [
+      "financial_services"
+    ],
+    "co-merck": [
+      "pharma_biotech"
+    ],
+    "co-meta": [
+      "ai_models",
+      "consumer_media"
+    ],
+    "co-mistral": [
+      "ai_models"
+    ],
+    "co-morgan-stanley": [
+      "financial_services"
+    ],
+    "co-msft": [
+      "ai_models",
       "enterprise_ai",
       "data_center_cloud"
     ],
     "co-mu": [
       "memory",
       "semiconductor_manufacturing"
-    ],
-    "co-samsung": [
-      "memory",
-      "semiconductor_manufacturing",
-      "consumer_media"
-    ],
-    "co-sk-hynix": [
-      "memory",
-      "semiconductor_manufacturing"
-    ],
-    "co-tsmc": [
-      "semiconductor_manufacturing",
-      "custom_silicon"
-    ],
-    "co-gfs": [
-      "semiconductor_manufacturing"
-    ],
-    "co-gwa": [
-      "semiconductor_manufacturing"
-    ],
-    "co-amat": [
-      "semiconductor_manufacturing"
-    ],
-    "co-lam-research": [
-      "semiconductor_manufacturing"
-    ],
-    "co-amkor": [
-      "semiconductor_manufacturing"
-    ],
-    "co-ase": [
-      "semiconductor_manufacturing"
-    ],
-    "co-cirrus": [
-      "custom_silicon"
-    ],
-    "co-txn": [
-      "custom_silicon"
-    ],
-    "co-qualcomm-tech": [
-      "custom_silicon",
-      "networking"
-    ],
-    "co-avgo": [
-      "custom_silicon",
-      "networking"
-    ],
-    "co-marvell-technology-inc": [
-      "custom_silicon",
-      "networking"
-    ],
-    "co-coreweave": [
-      "data_center_cloud",
-      "gpu_compute"
     ],
     "co-nebius": [
       "data_center_cloud",
@@ -256,231 +232,255 @@
       "data_center_cloud",
       "gpu_compute"
     ],
-    "co-apld": [
-      "data_center_cloud"
-    ],
-    "co-crusoe": [
-      "data_center_cloud",
+    "co-nextera-energy": [
       "energy_power"
     ],
-    "co-lambda": [
-      "data_center_cloud",
-      "gpu_compute"
+    "co-nflx": [
+      "consumer_media"
+    ],
+    "co-nokia": [
+      "networking"
+    ],
+    "co-nvda": [
+      "ai_models",
+      "gpu_compute",
+      "data_center_cloud"
+    ],
+    "co-oklo": [
+      "energy_power"
+    ],
+    "co-openai": [
+      "ai_models"
+    ],
+    "co-openai-opco": [
+      "ai_models"
     ],
     "co-orcl": [
       "data_center_cloud",
       "enterprise_ai"
     ],
-    "co-dell": [
-      "data_center_cloud"
-    ],
-    "co-hpe": [
-      "data_center_cloud"
-    ],
-    "co-smci": [
-      "data_center_cloud"
-    ],
-    "co-zt-systems": [
-      "data_center_cloud"
-    ],
-    "co-csco": [
-      "networking",
-      "data_center_cloud"
-    ],
-    "co-arista-networks-inc": [
-      "networking",
-      "data_center_cloud"
-    ],
-    "co-att": [
-      "networking"
-    ],
-    "co-ericsson": [
-      "networking"
-    ],
-    "co-nokia": [
-      "networking"
-    ],
-    "co-lly": [
-      "pharma_biotech"
-    ],
-    "co-merck": [
-      "pharma_biotech"
-    ],
-    "co-astrazeneca": [
-      "pharma_biotech"
-    ],
-    "co-daiichi-sankyo": [
-      "pharma_biotech"
-    ],
-    "co-astellas": [
-      "pharma_biotech"
-    ],
-    "co-pfe": [
-      "pharma_biotech"
-    ],
-    "co-abbvie": [
-      "pharma_biotech"
-    ],
-    "co-amgen": [
-      "pharma_biotech"
-    ],
-    "co-gilead-sciences-inc": [
-      "pharma_biotech"
-    ],
-    "co-arvinas": [
-      "pharma_biotech"
-    ],
-    "co-abt": [
-      "healthcare"
-    ],
-    "co-unh": [
-      "healthcare"
-    ],
-    "co-dhr": [
-      "healthcare"
-    ],
-    "co-tndm": [
-      "healthcare"
-    ],
-    "co-wmt": [
-      "food_retail"
-    ],
-    "co-cost": [
-      "food_retail"
-    ],
-    "co-instacart": [
-      "food_retail"
-    ],
-    "co-brk-b": [
-      "financial_services",
-      "industrial_aerospace",
-      "energy_power",
-      "food_retail"
-    ],
-    "co-jpm": [
-      "financial_services"
-    ],
-    "co-mastercard": [
-      "financial_services"
-    ],
-    "co-paypal": [
-      "financial_services"
-    ],
-    "co-citi": [
-      "financial_services"
-    ],
-    "co-coinbase": [
-      "financial_services"
-    ],
-    "co-morgan-stanley": [
-      "financial_services"
-    ],
-    "co-cvx": [
-      "energy_power"
-    ],
-    "co-xom": [
-      "energy_power"
-    ],
-    "co-ge-vernova": [
-      "energy_power",
-      "industrial_aerospace"
-    ],
-    "co-vst": [
-      "energy_power"
-    ],
-    "co-ceg": [
-      "energy_power"
-    ],
-    "co-sb-energy": [
-      "energy_power",
-      "data_center_cloud"
-    ],
-    "co-terrapower": [
-      "energy_power"
-    ],
-    "co-oklo": [
-      "energy_power"
-    ],
-    "co-uniper": [
-      "energy_power"
-    ],
-    "co-tsla": [
-      "automotive_batteries",
-      "energy_power"
-    ],
-    "co-rivian": [
-      "automotive_batteries"
-    ],
-    "co-gm": [
-      "automotive_batteries"
-    ],
-    "co-bmw": [
-      "automotive_batteries"
+    "co-palantir": [
+      "enterprise_ai"
     ],
     "co-panasonic": [
       "automotive_batteries",
       "memory"
     ],
-    "co-catl": [
-      "automotive_batteries"
+    "co-paypal": [
+      "financial_services"
     ],
-    "co-lg-chem": [
-      "automotive_batteries"
+    "co-pfe": [
+      "pharma_biotech"
     ],
-    "co-boeing": [
-      "industrial_aerospace"
+    "co-pinterest": [
+      "consumer_media"
+    ],
+    "co-qualcomm-tech": [
+      "custom_silicon",
+      "networking"
+    ],
+    "co-redhat": [
+      "enterprise_ai",
+      "data_center_cloud"
+    ],
+    "co-rivian": [
+      "automotive_batteries"
     ],
     "co-rtx": [
-      "industrial_aerospace"
-    ],
-    "co-l3harris": [
-      "industrial_aerospace"
-    ],
-    "co-lockheed-martin": [
       "industrial_aerospace"
     ],
     "co-safran": [
       "industrial_aerospace"
     ],
-    "co-collins-aerospace": [
-      "industrial_aerospace"
-    ],
-    "co-deere": [
-      "industrial_aerospace"
-    ],
-    "co-aapl": [
-      "consumer_media",
-      "ai_models"
-    ],
-    "co-nflx": [
+    "co-samsung": [
+      "memory",
+      "semiconductor_manufacturing",
       "consumer_media"
     ],
-    "co-pinterest": [
-      "consumer_media"
+    "co-sb-energy": [
+      "energy_power",
+      "data_center_cloud"
     ],
-    "co-vizio": [
-      "consumer_media"
+    "co-sk-hynix": [
+      "memory",
+      "semiconductor_manufacturing"
+    ],
+    "co-smci": [
+      "data_center_cloud"
     ],
     "co-sony-pictures": [
       "consumer_media"
-    ],
-    "co-tko": [
-      "consumer_media"
-    ],
-    "co-nextera-energy": [
-      "energy_power"
-    ],
-    "co-visa": [
-      "financial_services"
-    ],
-    "co-the-goldman-sachs-group-inc": [
-      "financial_services"
     ],
     "co-spacex": [
       "industrial_aerospace",
       "networking",
       "data_center_cloud",
       "ai_models"
+    ],
+    "co-terrapower": [
+      "energy_power"
+    ],
+    "co-the-goldman-sachs-group-inc": [
+      "financial_services"
+    ],
+    "co-tko": [
+      "consumer_media"
+    ],
+    "co-tndm": [
+      "healthcare"
+    ],
+    "co-tsla": [
+      "automotive_batteries",
+      "energy_power"
+    ],
+    "co-tsmc": [
+      "semiconductor_manufacturing",
+      "custom_silicon"
+    ],
+    "co-txn": [
+      "custom_silicon"
+    ],
+    "co-unh": [
+      "healthcare"
+    ],
+    "co-uniper": [
+      "energy_power"
+    ],
+    "co-visa": [
+      "financial_services"
+    ],
+    "co-vizio": [
+      "consumer_media"
+    ],
+    "co-vst": [
+      "energy_power"
+    ],
+    "co-wmt": [
+      "food_retail"
+    ],
+    "co-xai": [
+      "ai_models"
+    ],
+    "co-xom": [
+      "energy_power"
+    ],
+    "co-zt-systems": [
+      "data_center_cloud"
     ]
-  }
+  },
+  "schema_version": "1.0",
+  "themes": [
+    {
+      "id": "ai_models",
+      "name": {
+        "en": "AI models & platforms",
+        "ja": "AIモデル・基盤"
+      }
+    },
+    {
+      "id": "enterprise_ai",
+      "name": {
+        "en": "Enterprise AI & software",
+        "ja": "企業向けAI・ソフトウェア"
+      }
+    },
+    {
+      "id": "gpu_compute",
+      "name": {
+        "en": "GPU & compute accelerators",
+        "ja": "GPU・計算アクセラレータ"
+      }
+    },
+    {
+      "id": "custom_silicon",
+      "name": {
+        "en": "Custom silicon",
+        "ja": "カスタム半導体"
+      }
+    },
+    {
+      "id": "memory",
+      "name": {
+        "en": "Memory & storage",
+        "ja": "メモリ・ストレージ"
+      }
+    },
+    {
+      "id": "semiconductor_manufacturing",
+      "name": {
+        "en": "Semiconductor manufacturing & equipment",
+        "ja": "半導体製造・装置"
+      }
+    },
+    {
+      "id": "data_center_cloud",
+      "name": {
+        "en": "Cloud & data centers",
+        "ja": "クラウド・データセンター"
+      }
+    },
+    {
+      "id": "networking",
+      "name": {
+        "en": "Networking & telecom",
+        "ja": "ネットワーク・通信"
+      }
+    },
+    {
+      "id": "pharma_biotech",
+      "name": {
+        "en": "Pharma & biotech",
+        "ja": "医薬品・バイオ"
+      }
+    },
+    {
+      "id": "healthcare",
+      "name": {
+        "en": "Healthcare",
+        "ja": "医療・ヘルスケア"
+      }
+    },
+    {
+      "id": "food_retail",
+      "name": {
+        "en": "Food & retail",
+        "ja": "食品・小売"
+      }
+    },
+    {
+      "id": "financial_services",
+      "name": {
+        "en": "Financial services & payments",
+        "ja": "金融・決済"
+      }
+    },
+    {
+      "id": "energy_power",
+      "name": {
+        "en": "Energy & power",
+        "ja": "エネルギー・電力"
+      }
+    },
+    {
+      "id": "automotive_batteries",
+      "name": {
+        "en": "Automotive & batteries",
+        "ja": "自動車・電池"
+      }
+    },
+    {
+      "id": "industrial_aerospace",
+      "name": {
+        "en": "Industrials, aerospace & defense",
+        "ja": "産業・航空宇宙・防衛"
+      }
+    },
+    {
+      "id": "consumer_media",
+      "name": {
+        "en": "Consumer & media",
+        "ja": "消費者向け・メディア"
+      }
+    }
+  ]
 }

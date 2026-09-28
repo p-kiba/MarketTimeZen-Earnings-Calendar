@@ -1,0 +1,222 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2022-07-13",
+      "conditions": "",
+      "deal_id": "deal-19ff5b95eacf40f17dad84c1",
+      "detected_at": "2026-09-26T15:07:58+00:00",
+      "effective_date": null,
+      "event_id": "event-19ff5b95eacf40f17dad84c1",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-19ff5b95eacf40f17dad84c1",
+        "evidence-15ed78f74d9add30ffe212c0"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-19ff5b95eacf40f17dad84c1",
+            "evidence-15ed78f74d9add30ffe212c0"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bfda5a99d83ecf25669cbefc"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e4350f6c0007df7dc249f8ba": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886"
+        },
+        "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+        "reviewer": null,
+        "rule_id": "focus-20260927-netflix-msft",
+        "rule_version": "b7dec85da8ae9cda6c5ea505f41e5a68cbc0d8f680625ec5e8bf9c7c79aff4d8",
+        "verified_at": "2026-09-26T15:07:58+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-15ed78f74d9add30ffe212c0",
+      "excerpt": "We’re thri",
+      "locator": "p:0",
+      "normalized_text_hash": "953de29717f4483f774bed92b48f5f5b1f82b08c6a1596fafb739f7f526cf749",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-e4350f6c0007df7dc249f8ba",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-19ff5b95eacf40f17dad84c1",
+      "excerpt": "At launch, consumers",
+      "locator": "p:1",
+      "normalized_text_hash": "c5e866a8308d4fc4cd97968e03e84fbf36982b2250d4dabe838e73bfe9ed4929",
+      "section": "Primary disclosure: p:1",
+      "source_id": "source-e4350f6c0007df7dc249f8ba",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-19ff5b95eacf40f17dad84c1",
+        "evidence-15ed78f74d9add30ffe212c0"
+      ],
+      "geography": "",
+      "headline": "広告配信技術・広告販売を提供",
+      "products": [
+        "広告配信基盤",
+        "広告販売"
+      ],
+      "scale": "",
+      "source_role": "Microsoftが広告技術と販売を担当",
+      "target_role": "Netflixが広告付き動画配信に採用"
+    },
+    "deal_ids": [
+      "deal-19ff5b95eacf40f17dad84c1"
+    ],
+    "description": "2022年の広告付きプラン立ち上げに向け、NetflixがMicrosoftを広告技術・販売パートナーに選定。当時の発表では広告をMicrosoft基盤経由で提供すると説明。現在も独占関係が続くことを示す記録ではない。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-19ff5b95eacf40f17dad84c1",
+      "evidence-15ed78f74d9add30ffe212c0"
+    ],
+    "first_observed_at": "2026-09-26T15:07:58+00:00",
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "latest_event_ids": [
+      "event-19ff5b95eacf40f17dad84c1"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-bfda5a99d83ecf25669cbefc",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-07-13",
+    "target_company_id": "co-nflx",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e4350f6c0007df7dc249f8ba": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886"
+      },
+      "reason": "Reviewed primary disclosure for user-priority NFLX/PLTR/CSCO/AVGO coverage. Names, products, roles, geography and source-date status checked against pinned paragraphs. Parent group attribution is explicit in description; no contract amount or present-day continuity inferred.",
+      "reviewer": null,
+      "rule_id": "focus-20260927-netflix-msft",
+      "rule_version": "b7dec85da8ae9cda6c5ea505f41e5a68cbc0d8f680625ec5e8bf9c7c79aff4d8",
+      "verified_at": "2026-09-26T15:07:58+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://blogs.microsoft.com/blog/2022/07/13/netflix-names-microsoft-as-partner-for-new-consumer-subscription-plan/",
+      "content_hash": "38fc8c978fe5c10e9599499a497cbd8eb58fe5ecb019b07a40a4c6955ce28886",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2022-07-13",
+      "publisher": "blogs.microsoft.com",
+      "retrieved_at": "2026-09-26T15:00:19+00:00",
+      "source_id": "source-e4350f6c0007df7dc249f8ba",
+      "source_type": "official_newsroom",
+      "title": "Netflix names Microsoft as partner for new consumer subscription plan - The Official Microsoft Blog"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-19ff5b95eacf40f17dad84c1",
+        "evidence-15ed78f74d9add30ffe212c0"
+      ],
+      "geography": "",
+      "headline": "広告配信技術・広告販売を提供",
+      "products": [
+        "広告配信基盤",
+        "広告販売"
+      ],
+      "scale": "",
+      "source_role": "Microsoftが広告技術と販売を担当",
+      "target_role": "Netflixが広告付き動画配信に採用"
+    },
+    "description": "2022年の広告付きプラン立ち上げに向け、NetflixがMicrosoftを広告技術・販売パートナーに選定。当時の発表では広告をMicrosoft基盤経由で提供すると説明。現在も独占関係が続くことを示す記録ではない。",
+    "direction": "directed",
+    "event_date": "2022-07-13",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:07:58+00:00",
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-bfda5a99d83ecf25669cbefc",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-msft",
+    "status_as_of": "2022-07-13",
+    "target_company_id": "co-nflx",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

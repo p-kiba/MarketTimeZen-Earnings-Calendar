@@ -1,0 +1,222 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2024-03-18",
+      "conditions": "",
+      "deal_id": "deal-e24d00d18d237ca02188db21",
+      "detected_at": "2026-09-26T04:10:01+00:00",
+      "effective_date": null,
+      "event_id": "event-e24d00d18d237ca02188db21",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-e24d00d18d237ca02188db21",
+        "evidence-1251443e9f89e3f655afabf5"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-e24d00d18d237ca02188db21",
+            "evidence-1251443e9f89e3f655afabf5"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-718f174a712617473d9d79cb"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+        "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+        "verified_at": "2026-09-26T04:10:01+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1251443e9f89e3f655afabf5",
+      "excerpt": "NVIDIA",
+      "locator": "p:4",
+      "normalized_text_hash": "e53e5dd4053ad47b88e77c7fa0789e892da4ec6d3c1da857f490b68a5357daa3",
+      "section": "Issuer context",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e24d00d18d237ca02188db21",
+      "excerpt": "Blackwell",
+      "locator": "p:34",
+      "normalized_text_hash": "4fc6af84c037d1fb666240c7cf3db0b743ea175ea90e1adf5c54e7709cf1d2e6",
+      "section": "Official disclosure: business context",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-e24d00d18d237ca02188db21",
+        "evidence-1251443e9f89e3f655afabf5"
+      ],
+      "geography": "",
+      "headline": "設計ソフトウェアのBlackwell対応",
+      "products": [
+        "Blackwell",
+        "設計・シミュレーションソフトウェア"
+      ],
+      "scale": "",
+      "source_role": "GPUプラットフォーム",
+      "target_role": "ソフトウェアへの対応予定"
+    },
+    "deal_ids": [
+      "deal-e24d00d18d237ca02188db21"
+    ],
+    "description": "Synopsysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-e24d00d18d237ca02188db21",
+      "evidence-1251443e9f89e3f655afabf5"
+    ],
+    "first_observed_at": "2026-09-26T04:10:01+00:00",
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "latest_event_ids": [
+      "event-e24d00d18d237ca02188db21"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-718f174a712617473d9d79cb",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-snps",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-e97b9cecec1fb660d74d12ae": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-e97b9cecec1fb660d74d12ae",
+      "rule_version": "0dc3b2904e528053850cfcb5f2c4122a73925f7d9357e977e194b4f2b7f64c2a",
+      "verified_at": "2026-09-26T04:10:01+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "content_hash": "7f0bb59452309261dd08cd19305ebb70267a1a0e30ced15bcbcb92c1287c984a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-03-18",
+      "publisher": "co-nvda",
+      "retrieved_at": "2026-09-26T03:57:45+00:00",
+      "source_id": "source-e97b9cecec1fb660d74d12ae",
+      "source_type": "official_newsroom",
+      "title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing | NVIDIA Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-e24d00d18d237ca02188db21",
+        "evidence-1251443e9f89e3f655afabf5"
+      ],
+      "geography": "",
+      "headline": "設計ソフトウェアのBlackwell対応",
+      "products": [
+        "Blackwell",
+        "設計・シミュレーションソフトウェア"
+      ],
+      "scale": "",
+      "source_role": "GPUプラットフォーム",
+      "target_role": "ソフトウェアへの対応予定"
+    },
+    "description": "Synopsysは設計・シミュレーション用ソフトウェアをBlackwellで高速化する計画として公表された。実施完了を示す記録ではない。",
+    "direction": "undirected",
+    "event_date": "2024-03-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:10:01+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-718f174a712617473d9d79cb",
+    "relationship_type": "partnership",
+    "source_company_id": "co-nvda",
+    "status_as_of": "2024-03-18",
+    "target_company_id": "co-snps",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

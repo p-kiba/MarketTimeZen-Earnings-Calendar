@@ -1,0 +1,83 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-the-charles-schwab-corporation",
+      "country": null,
+      "display_name": "The Charles Schwab Corporation",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-usaa-investment-management-company",
+      "country": null,
+      "display_name": "USAA-IMCO",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-usaa-investment-management-company",
+    "country": null,
+    "display_name": "USAA-IMCO",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Charles SchwabがUSAA-IMCOの資産取得を完了し、USAA会員向けウェルスマネジメント・投資ブローカレッジの独占提供者となる長期紹介契約も結んだ。",
+      "direction": "directed",
+      "event_date": null,
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T13:29:17+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-dd81fd2f32b715d353d46e12",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-the-charles-schwab-corporation",
+      "status_as_of": "2020-05-26",
+      "target_company_id": "co-usaa-investment-management-company",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2020-05-26"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

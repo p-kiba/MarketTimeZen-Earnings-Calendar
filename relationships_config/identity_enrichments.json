@@ -1,0 +1,36 @@
+{
+  "co-marvell-technology-inc": {
+    "company_hash": "d8400cb2a8ba0d16d4de82963603da05a442c8c050d8b1e74cf5e36f261bcc6e",
+    "proofs": [
+      {
+        "anchors": [
+          "MARVELL TECHNOLOGY, INC.",
+          "MRVL",
+          "The Nasdaq Stock Market, LLC"
+        ],
+        "content_hash": "b5b7873b01c34058d24edb3bf863ac5f66bce28df336e9c082b992f0b43539fd",
+        "source_id": "source-073f44b15c4d347b095ff5a4",
+        "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001628280-26-045564/mrvl-20260625.htm"
+      }
+    ],
+    "reviewed_at": "2026-09-28",
+    "supporting_claim": "The official 8-K identifies Marvell Technology, Inc. and lists MRVL common stock on Nasdaq."
+  },
+  "co-xai": {
+    "company_hash": "576bd3bbacc2497522ac63be081a64338414ebe2c1a5970ed5c3b5f05f69c71c",
+    "proofs": [
+      {
+        "anchors": [
+          "X.AI Holdings Corp.",
+          "wholly-owned subsidiary"
+        ],
+        "content_hash": "5afd20fd915ad601e7472fc4b8d6af9d95c3ab27840fb3b1d0d36d43edf7727b",
+        "source_id": "source-5d57f54d3dec4f5799594c12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"
+      }
+    ],
+    "reviewed_at": "2026-09-28",
+    "supporting_claim": "X.AI Holdings Corp. is described as a Nevada corporation in the merger agreement; the 10-Q reports its completed acquisition by SpaceX.",
+    "supporting_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit21-sx1.htm"
+  }
+}

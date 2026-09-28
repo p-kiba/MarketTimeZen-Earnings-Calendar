@@ -1,14 +1,14 @@
-import {renderTimeMap,disposeTimeMap,selectTimeCompany,inspectTimeRelation} from './time-map.js?v=0298603883d1';
-import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=0298603883d1';
-import {latestResults,resultRows} from './earnings-results.js?v=0298603883d1';
-import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=0298603883d1';
-import {dealRows} from './deals.js?v=0298603883d1';
-import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement} from './layout.js?v=0298603883d1';
-import {DataClient} from './data-client.js?v=0298603883d1';
-import {CompanyView} from './company-view.js?v=0298603883d1';
-import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=0298603883d1';
-import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=0298603883d1';
-import {dictionary} from './i18n.js?v=0298603883d1';
+import {renderTimeMap,disposeTimeMap,selectTimeCompany,inspectTimeRelation} from './time-map.js?v=3dfda278b8d8';
+import {disclosureDepth,neighborhoodDepths} from './zoom-disclosure.js?v=3dfda278b8d8';
+import {latestResults,resultRows} from './earnings-results.js?v=3dfda278b8d8';
+import {category,connectionGroups,mergeNeighborhoods,counterparties} from './network.js?v=3dfda278b8d8';
+import {dealRows} from './deals.js?v=3dfda278b8d8';
+import {graphPositions,overviewHorizontalPositions,edgeBend,edgeLabelPlacement,edgeEndpointDistances} from './layout.js?v=3dfda278b8d8';
+import {DataClient} from './data-client.js?v=3dfda278b8d8';
+import {CompanyView} from './company-view.js?v=3dfda278b8d8';
+import {queryState,calendarURL,connectionsURL,updateURL,safeSourceURL} from './navigation.js?v=3dfda278b8d8';
+import {rankCompanies,amountText,dateKey,nextEarnings,amountBands,termText} from './formatters.js?v=3dfda278b8d8';
+import {dictionary} from './i18n.js?v=3dfda278b8d8';
 
 let logoPaths={}, companyWebsites={}, detailGeneration=0;
 let state=queryState(), client, cy, generation=0, request, selected=null, lastFocus=null, pageSize=30;
@@ -55,7 +55,7 @@ function shell(){
     <section class="mtz-controls" aria-label="Search and filters"><div class="mtz-search"><label id="mtz-search-label" for="mtz-search"></label><input id="mtz-search" type="search" autocomplete="off" maxlength="120" aria-controls="mtz-results"><div id="mtz-results"></div></div><label><span id="mtz-theme-label"></span><select id="mtz-theme"></select></label><label><span id="mtz-type-label"></span><select id="mtz-type"></select></label><label><span id="mtz-status-label"></span><select id="mtz-status"></select></label><label><span id="mtz-date-label"></span><select id="mtz-days"></select></label><label class="check"><input id="mtz-amount" type="checkbox"><span id="mtz-amount-label"></span></label></section>
     <p id="mtz-message" class="notice" role="status" aria-live="polite"></p>
     <section id="mtz-intro" class="mtz-intro"><p id="mtz-pilot" class="eyebrow"></p><h1 id="mtz-heading"></h1><p id="mtz-start"></p><p id="mtz-discovery" class="muted"></p><div id="mtz-quick-start" class="mtz-quick-start"></div><div id="mtz-favorites"></div><div id="mtz-updates"></div></section>
-    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-company-themes" class="mtz-theme-tags"></span><span id="mtz-source-period" class="muted"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><section id="mtz-time-map" class="mtz-time-map" hidden></section><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
+    <section id="mtz-workspace" class="mtz-workspace" hidden><div class="mtz-toolbar"><div class="mtz-company-heading"><h1 id="mtz-company-name"></h1><span id="mtz-company-themes" class="mtz-theme-tags"></span></div><div class="mtz-view"><button id="mtz-map-view" type="button"></button><button id="mtz-list-view" type="button"></button></div><button id="mtz-map-mode" type="button" aria-pressed="false" aria-controls="mtz-workspace"></button><button id="mtz-expand" type="button"></button><button id="mtz-cancel" type="button" hidden></button><details id="mtz-display-settings" class="mtz-display-settings"><summary id="mtz-display-settings-title"></summary><div class="mtz-settings-panel"><label id="mtz-peer-control" class="check mtz-peer-control"><input id="mtz-peer-labels" type="checkbox"><span id="mtz-peer-labels-text"></span></label><nav id="mtz-groups" class="mtz-groups" aria-label="Connection groups"></nav></div></details></div><div class="mtz-graph-wrap"><nav id="mtz-map-tools" class="mtz-map-tools" aria-label="Map filters"></nav><aside id="mtz-selection" class="mtz-selection" aria-label="Selected company" hidden></aside><section id="mtz-time-map" class="mtz-time-map" hidden></section><div id="mtz-graph" role="img" aria-label="Company connections graph; equivalent information is available in List"></div><button id="mtz-exit-map-mode" class="mtz-exit-map-mode" type="button" hidden></button><div class="mtz-map-bottom"><div id="mtz-legend" aria-label="Relationship colors" tabindex="0"></div><div id="mtz-zoom" class="mtz-zoom"><button id="mtz-minus" type="button">−</button><button id="mtz-plus" type="button">+</button><button id="mtz-reset" type="button"></button></div></div></div><div id="mtz-list" hidden></div></section>
     <footer class="mtz-footer"><button id="mtz-coverage" type="button"></button><span id="mtz-version" class="muted"></span></footer>
     <aside id="mtz-detail" class="mtz-detail" role="dialog" aria-labelledby="mtz-detail-title" tabindex="-1" hidden><button id="mtz-detail-center" class="mtz-detail-center" type="button" hidden aria-label=""></button><button id="mtz-close" type="button"></button><div id="mtz-detail-content"></div></aside>`;
   $('mtz-lang').onclick=()=>{state.lang=state.lang==='en'?'ja':'en';updateURL(state);translate();if(client){renderIntro();render();}closeDetail();};
@@ -116,8 +116,10 @@ function rerouteEdges(){
   const positions=cy.nodes().map(n=>n.position()),byId=new Map(cy.nodes().map((n,i)=>[n.id(),positions[i]]));
   cy.batch(()=>cy.edges().forEach(edge=>{
     const a=byId.get(edge.source().id()),b=byId.get(edge.target().id());
-    edge.data({bend:edgeBend(a,b,positions),...edgeLabelPlacement(a,b,edge.source().width(),edge.target().width(),edge.source().height(),edge.target().height())});
+    const bend=edgeBend(a,b,positions);
+    edge.data({bend,...edgeLabelPlacement(a,b,edge.source().width(),edge.target().width(),edge.source().height(),edge.target().height()),...edgeEndpointDistances(a,b,bend,!!edge.source().data('logo'),!!edge.target().data('logo'))});
   }));
+  updateZoomSizes();
 }
 // Selection belongs to the company, so rebuilding the graph keeps its emphasis.
 function highlightCompany(){
@@ -190,56 +192,11 @@ function collapseCompany(cid){
 }
 function ratingText(r){return r?.tier ? bands()[r.tier.level-1] : (r?.tier_reasons||['unrated']).map(k=>t('reason_'+k)===('reason_'+k)?t(k):t('reason_'+k)).join(' / ');}
 // A connection line needs a business description, not just its taxonomy label.
-const specificEdgeLabels={ja:{
-  'rel-05c6587da4c523af5144b983':'Appleの米国製造プログラムに参加',
-  'rel-0861e56024d9a66f3441f259':'Red Hatを買収',
-  'rel-0b750bf7554cd2d1815b7904':'OpenAIへ出資',
-  'rel-0e337fd63bd6d4f505d87843':'Appleの米国製造プログラムに参加',
-  'rel-13a995805e1bac42cbeedcee':'AI技術・モデル最適化で協業',
-  'rel-1f2e6eb551148eaeb1566cf1':'希土類磁石を供給・リサイクル',
-  'rel-3184bf461ce38af0e098a4cb':'Apple向け半導体を製造',
-  'rel-33284e76c221eecfec8e07a':'Apple製品用ICの製造で協業',
-  'rel-3fc8d84d62525ec9ac1cff88':'Appleの米国製造プログラムに参加',
-  'rel-52db33727c36dae4a1c9db96':'Appleの米国製造プログラムに参加',
-  'rel-6c91d437575935bb6dd80400':'PinterestがAWSクラウドを利用',
-  'rel-6d961c24ce89eaf990cbc1ce':'既存の提携を拡大',
-  'rel-74cf17dc8e20aa93c0b1891d':'OpenAIへ追加出資',
-  'rel-7893e3b8d0047339117cae8a':'カスタムASIC等を開発・供給',
-  'rel-7a6a372adb37f5efe5570d73':'Appleの米国製造プログラムに参加',
-  'rel-8f428b09a0e367a1851af394':'Appleの米国製造プログラムに参加',
-  'rel-9be2cf84ad4c9c15185a1e63':'AIアクセラレーターを共同開発',
-  'rel-ad97c4534214e19743408c3b':'半導体プロセス・混合信号技術で協業',
-  'rel-d3082b9214c6b6945d6fadca':'OpenAI向けAI計算基盤を提供',
-  'rel-e2898651f9dce1b13e467dc0':'Appleの米国製造プログラムに参加',
-  'rel-f4780b88ad8c09b931cf235a':'Appleの米国製造プログラムに参加',
-},en:{
-  'rel-05c6587da4c523af5144b983':'Participates in Apple’s U.S. manufacturing program',
-  'rel-0861e56024d9a66f3441f259':'IBM acquired Red Hat',
-  'rel-0b750bf7554cd2d1815b7904':'Investment in OpenAI',
-  'rel-0e337fd63bd6d4f505d87843':'Participates in Apple’s U.S. manufacturing program',
-  'rel-13a995805e1bac42cbeedcee':'AI engineering and model optimization',
-  'rel-1f2e6eb551148eaeb1566cf1':'Rare-earth magnet supply and recycling',
-  'rel-3184bf461ce38af0e098a4cb':'Manufactures semiconductors for Apple',
-  'rel-33284e76c221eecfec8e07a':'Develops ICs for Apple product sensors',
-  'rel-3fc8d84d62525ec9ac1cff88':'Participates in Apple’s U.S. manufacturing program',
-  'rel-52db33727c36dae4a1c9db96':'Participates in Apple’s U.S. manufacturing program',
-  'rel-6c91d437575935bb6dd80400':'Pinterest uses AWS cloud services',
-  'rel-6d961c24ce89eaf990cbc1ce':'Expands existing partnership',
-  'rel-74cf17dc8e20aa93c0b1891d':'Additional investment in OpenAI',
-  'rel-7893e3b8d0047339117cae8a':'Develops and supplies custom ASICs',
-  'rel-7a6a372adb37f5efe5570d73':'Participates in Apple’s U.S. manufacturing program',
-  'rel-8f428b09a0e367a1851af394':'Participates in Apple’s U.S. manufacturing program',
-  'rel-9be2cf84ad4c9c15185a1e63':'Jointly develops AI accelerators',
-  'rel-ad97c4534214e19743408c3b':'Semiconductor process and mixed-signal collaboration',
-  'rel-d3082b9214c6b6945d6fadca':'Provides AI compute infrastructure to OpenAI',
-  'rel-e2898651f9dce1b13e467dc0':'Participates in Apple’s U.S. manufacturing program',
-  'rel-f4780b88ad9c09b931cf235a':'Participates in Apple’s U.S. manufacturing program',
-}};
+function localizedSummary(row){return client?.relationshipSummaries?.[row.relationship_id]?.[state.lang]?.trim()||'';}
 function connectionLabel(row){
+  const localized=localizedSummary(row);if(localized)return localized;
   const headline=row.business?.headline?.trim();
   if(headline&&headline!==t(row.relationship_type))return headline;
-  const curated=specificEdgeLabels[state.lang]?.[row.relationship_id];
-  if(curated)return curated;
   const description=(row.description||'').replace(/\s+/g,' ').trim();
   if(description)return description.split(/(?<=[。.!?])\s*/u,1)[0];
   return t(row.relationship_type)+' · '+name(row.source_company_id)+' / '+name(row.target_company_id);
@@ -248,8 +205,7 @@ function relationCard(r){
   const row=button('',()=>showRelation(r.relationship_id),'mtz-relation-row');
   row.style.setProperty('--edge-color',connectionColor([r]));
   row.append(el('strong',name(r.source_company_id)+(r.direction==='directed'?' → ':' — ')+name(r.target_company_id)));
-  if(r.business?.headline)row.append(el('span',r.business.headline,'mtz-relation-headline'));
-  if(r.description)row.append(el('span',r.description,'mtz-relation-description'));
+  const summary=localizedSummary(r)||r.business?.headline||r.description;if(summary)row.append(el('span',summary,'mtz-relation-description'));
   if(r.themes?.length){const tags=el('span',undefined,'mtz-theme-tags');for(const id of r.themes)tags.append(el('span',themeName(id),'mtz-theme-chip'));row.append(tags);}
   row.append(el('span',t(r.relationship_type)+' · '+t(r.lifecycle_status)+' · '+(r.status_as_of||'—'),'muted'));
   row.append(el('span',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)+' · '+t(a.value_semantics)).join(' / '):t('unknownAmount')));
@@ -297,13 +253,17 @@ function render(){
     (overviewPriority?0:Number(direct.has(b))-Number(direct.has(a)))||
     (overviewPriority?(counts.get(b)||0)-(counts.get(a)||0):0)||
     Number(fav(b))-Number(fav(a))||updated(b).localeCompare(updated(a))||name(a).localeCompare(name(b)))];
-  const cap=state.timeline||expanded.size>1?client.manifest.expanded_nodes:client.manifest.initial_nodes;const shown=ordered.slice(0,cap), visible=new Set(shown);
+  const stage=autoConnections?Math.max(zoomExpansionStage(),keepExpandedOnZoomIn?autoAttemptStage:0):0;
+  const initial=client.manifest.initial_nodes,expandedLimit=client.manifest.expanded_nodes;
+  const manuallyExpanded=expansionHistory.some(entry=>!entry.automatic);
+  const area=$('mtz-graph').clientWidth*Math.max(1,$('mtz-graph').clientHeight-220);
+  const screenCapacity=Math.max(initial,Math.floor(area/7600*.62));
+  const cap=state.timeline||manuallyExpanded||(!autoConnections&&expanded.size>1)?expandedLimit:Math.min(expandedLimit,screenCapacity,initial+Math.ceil((expandedLimit-initial)*stage/5));
+  const shown=ordered.slice(0,cap), visible=new Set(shown);
   const visibleRows=rels.filter(r=>visible.has(r.source_company_id)&&visible.has(r.target_company_id));
-  const dates=visibleRows.map(r=>r.status_as_of).filter(Boolean).sort();
   const peerCount=visibleRows.filter(r=>category(r,state.company)==='extended').length;
-  $('mtz-source-period').textContent=dates.length?t('sourcePeriod')+': '+dates[0]+' — '+dates.at(-1):'';
   $('mtz-peer-control').hidden=state.view!=='map';
-  $('mtz-map-view').textContent=state.timeline&&state.view==='map'?ux('通常マップ','Normal map'):ux('時間軸モード','Timeline mode');$('mtz-map-view').setAttribute('aria-pressed',String(state.view==='map'));$('mtz-list-view').setAttribute('aria-pressed',String(state.view==='list'));
+  $('mtz-map-view').textContent=state.timeline&&state.view==='map'?ux('通常マップ','Normal map'):ux('時間軸モード','Timeline mode');$('mtz-map-view').dataset.mode=state.timeline&&state.view==='map'?'normal':'timeline';$('mtz-map-view').setAttribute('aria-pressed',String(state.view==='map'));$('mtz-list-view').setAttribute('aria-pressed',String(state.view==='list'));
   document.querySelector('.mtz-graph-wrap').hidden=state.view==='list';$('mtz-list').hidden=state.view!=='list';
   const timeMode=state.timeline&&state.view==='map';
   if(!timeMode)disposeTimeMap($('mtz-time-map'));
@@ -330,9 +290,9 @@ function render(){
   zoomBasePositions=new Map(shown.map((id,i)=>[id,{...positions[i]}]));zoomSpread=false;
   const nodes=shown.map((id,i)=>({data:{id,label:name(id),favorite:!!fav(id),logo:logo(companies.get(id)),center:id===state.company},position:positions[i]}));
   const positionById=new Map(shown.map((id,i)=>[id,positions[i]]));
-  const nodeSizes=new Map(nodes.map(node=>[node.data.id,{width:node.data.logo?58:92,height:node.data.logo?58:48}]));
+  const nodeSizes=new Map(nodes.map(node=>[node.data.id,{width:node.data.logo?58:92,height:node.data.logo?58:48,logo:!!node.data.logo}]));
   const groups=new Map();for(const r of rels){if(!visible.has(r.source_company_id)||!visible.has(r.target_company_id))continue;const pair=[r.source_company_id,r.target_company_id].sort().join('|');if(!groups.has(pair))groups.set(pair,[]);groups.get(pair).push(r);}
-  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),sa=nodeSizes.get(r.source_company_id),sb=nodeSizes.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b,sa.width,sb.width,sa.height,sb.height)}};});
+  const edges=[...groups.values()].map((rows,i)=>{const r=rows[0],multi=rows.length>1;const directed=rows.filter(row=>row.direction==='directed');const forward=directed.some(row=>row.source_company_id===r.source_company_id),reverse=directed.some(row=>row.source_company_id===r.target_company_id);const a=positionById.get(r.source_company_id),b=positionById.get(r.target_company_id),sa=nodeSizes.get(r.source_company_id),sb=nodeSizes.get(r.target_company_id);return {data:{id:'edge-'+i,source:r.source_company_id,target:r.target_company_id,relations:rows.map(r=>r.relationship_id),color:connectionColor(rows),bend:edgeBend(a,b,positions),line:multi?'dashed':({partnership:'dashed',equity_right:'dotted',investment:'dashed',group_member:'dotted'}[r.relationship_type]||'solid'),arrow:forward?'triangle':'none',sourceArrow:reverse?'triangle':'none',label:(multi?`${rows.length} ${t('relations')} · ${[...new Set(rows.map(connectionLabel))].join(' / ')}`:connectionLabel(r)).replace(/\s+/g,' ').trim(),rated:!multi&&!!r.tier,multiple:multi,peer:category(r,state.company)==='extended',...edgeLabelPlacement(a,b,sa.width,sb.width,sa.height,sb.height),...edgeEndpointDistances(a,b,edgeBend(a,b,positions),sa.logo,sb.logo)}};});
   if(timeMode){
     clearTimeout(autoExpansionTimer);
     renderTimeMap($('mtz-time-map'),{rows:visibleRows,events:client.events.timeline||[],positions:positionById,center:state.company,year:state.timeYear,lang:state.lang,name,logo:id=>logo(companies.get(id)),color:connectionColor,label:connectionLabel,selected,eventLabel:key=>key==='newly_indexed'?ux('資料の発表','Source announcement'):t(key),
@@ -344,7 +304,7 @@ function render(){
       }});if(selectionOpen)renderSelection();return;
   }
   cy?.destroy();
-  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#fff','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147','z-index':20}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#fff'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':16,'target-distance-from-node':16,'text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'.zoom-hidden',style:{'display':'none'}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
+  cy=window.cytoscape({container:$('mtz-graph'),elements:[...nodes,...edges],...(viewport||{}),layout:{name:'preset',fit:!viewport,padding:50},minZoom:.15,maxZoom:3,motionBlur:false,style:[{selector:'node',style:{'shape':'round-rectangle','width':58,'height':58,'background-color':'#fff','border-width':1,'border-color':'#cad5e4','label':'data(label)','font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif','font-size':14,'text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':9,'color':'#243147','z-index':20}},{selector:'node[logo != ""]',style:{'background-image':'data(logo)','background-fit':'contain','background-width':'100%','background-height':'100%'}},{selector:'node[logo = ""]',style:{'width':92,'height':48,'text-valign':'center','text-margin-y':0,'text-max-width':86,'background-color':'#f8fafc'}},{selector:'node[?center]',style:{'background-color':'#fff'}},{selector:'node[?favorite]',style:{'border-width':3,'border-color':'#c49a24'}},{selector:'edge',style:{'width':1.8,'curve-style':'unbundled-bezier','control-point-distances':'data(bend)','control-point-weights':.5,'line-color':'data(color)','target-arrow-color':'data(color)','target-arrow-shape':'data(arrow)','source-arrow-color':'data(color)','source-arrow-shape':'data(sourceArrow)','line-style':'data(line)','arrow-scale':1.4,'source-distance-from-node':'data(sourceDistance)','target-distance-from-node':'data(targetDistance)','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','opacity':1}},{selector:'edge[?peer]',style:{'width':1.4}},{selector:'edge[?multiple]',style:{'label':'','text-margin-x':'data(labelX)','text-margin-y':'data(labelY)','font-size':10,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'3px'}},{selector:'edge:selected, edge.inspect, edge.connection-focus, edge.peer-info',style:{'label':'data(label)','text-wrap':'ellipsis','text-max-width':'data(labelWidth)','font-size':12,'text-background-color':'white','text-background-opacity':1,'text-background-padding':'4px','color':'#243147','opacity':1}},{selector:'edge.peer-info-hidden',style:{'label':''}},{selector:'edge.peer-info-hidden.inspect, edge.peer-info-hidden.connection-focus',style:{'label':'data(label)'}},{selector:'node.company-focus',style:{'border-width':0,'underlay-color':'#68cfff','underlay-opacity':.24,'underlay-padding':10,'underlay-shape':'round-rectangle','underlay-corner-radius':16,'font-weight':700}},{selector:'edge.connection-focus',style:{'opacity':1,'z-index':10}},{selector:'.zoom-hidden',style:{'display':'none'}},{selector:'edge.connection-emphasis',style:{'line-color':'#edacc4','target-arrow-color':'#edacc4','source-arrow-color':'#edacc4'}}]});
   if(!viewport&&cy.zoom()>1.25){cy.zoom(1.25);cy.center();}
   cy.on('mouseover','edge',e=>{e.target.addClass('inspect');markSelectionRows(e.target.data('relations'),true);});cy.on('mouseout','edge',e=>{e.target.removeClass('inspect');markSelectionRows(e.target.data('relations'),false);});
   cy.on('tap','node',e=>selectCompany(e.target.id()));
@@ -395,14 +355,14 @@ function scheduleNeighborExpansion(){
   const center=state.company,seq=generation;
   autoExpansionTimer=setTimeout(async()=>{
     if(state.timeline||!autoConnections||autoExpansionBusy||center!==state.company||seq!==generation)return;
-    const stage=zoomExpansionStage();if(stage<=autoAttemptStage)return;
+    const stage=Math.min(zoomExpansionStage(),autoAttemptStage+1);if(stage<=autoAttemptStage)return;
     autoAttemptStage=stage;
     // Bound each batch and the total visible graph; advance only on further zoom-out.
     const counts=connectionCounts(filtered());
     const ids=[...zoomDepths.keys()].filter(id=>id!==center&&!expanded.has(id))
       .sort((a,b)=>Number(b===selected)-Number(a===selected)||(counts.get(b)||0)-(counts.get(a)||0)||
-        (zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,[0,12,16,20,24,28][stage]);
-    if(!ids.length||companies.size>=client.manifest.expanded_nodes)return;
+        (zoomDepths.get(a)-zoomDepths.get(b))||a.localeCompare(b)).slice(0,[0,16,20,24,28,32][stage]);
+    if(!ids.length||companies.size>=client.manifest.expanded_nodes){scheduleNeighborExpansion();return;}
     autoExpansionBusy=true;
     try{
       const added=await expandCompany(ids[0],ids);
@@ -416,12 +376,15 @@ function scheduleNeighborExpansion(){
 function updateZoomSizes(){
   if(!cy)return;
   const zoom=cy.zoom();
-  // A bounded screen-size floor keeps the overview legible without moving nodes.
-  const scale=Math.min(3,Math.max(1,Math.sqrt(.85/zoom),26/(58*zoom)));
+  // Keep logos and names legible at overview zoom, even as more companies appear.
+  const scale=Math.min(4,Math.max(1,Math.sqrt(.85/zoom),34/(58*zoom)));
   cy.batch(()=>{
     cy.nodes().forEach(node=>{
       const logo=!!node.data('logo');
-      node.style({'width':(logo?58:92)*scale,'height':(logo?58:48)*scale,'underlay-padding':10*scale,'text-margin-y':logo?9*scale:0});
+      node.style({'width':(logo?58:92)*scale,'height':(logo?58:48)*scale,
+        'font-size':Math.min(90,Math.max(16,12/zoom)),
+        'text-max-width':logo?Math.max(105,90/zoom):86,
+        'underlay-padding':10*scale,'text-margin-y':logo?9*scale:0});
     });
     cy.edges().forEach(edge=>{
       const source=edge.source(),target=edge.target();
@@ -429,7 +392,7 @@ function updateZoomSizes(){
       const base=edge.data('peer')?1.4:1.8;
       edge.style({'width':Math.min(7,Math.max(base,1/zoom)),
         'arrow-scale':1.4*Math.min(1.8,Math.sqrt(scale)),
-        'source-distance-from-node':16*scale,'target-distance-from-node':16*scale});
+        'source-distance-from-node':edge.data('sourceDistance')*scale,'target-distance-from-node':edge.data('targetDistance')*scale});
     });
   });
 }
@@ -449,15 +412,20 @@ function spreadCrowdedLogos(){
   const visibleBase=new Map(nodes.map(node=>[node.id(),zoomBasePositions.get(node.id())||node.position()]));
   const overviewBase=overviewHorizontalPositions(visibleBase,cy.width(),zoom,cy.pan().x);
   const placed=[],next=new Map(),angle=Math.PI*(3-Math.sqrt(5));
+  const pan=cy.pan();
   for(const node of nodes){
     const base=overviewBase.get(node.id());
-    const width=node.width()*zoom,height=node.height()*zoom;
-    let point={...base};
+    const width=Math.max(node.width()*zoom,90),height=node.height()*zoom+(node.data('logo')?34:0);
+    const bound=point=>({
+      x:(Math.max(width/2+12,Math.min(cy.width()-width/2-12,point.x*zoom+pan.x))-pan.x)/zoom,
+      y:(Math.max(height/2+130,Math.min(cy.height()-height/2-90,point.y*zoom+pan.y))-pan.y)/zoom
+    });
+    let point=bound(base);
     const overlaps=other=>Math.abs((point.x-other.point.x)*zoom)<(width+other.width)/2+8&&
       Math.abs((point.y-other.point.y)*zoom)<(height+other.height)/2+8;
     for(let attempt=1;placed.some(overlaps)&&attempt<1000;attempt++){
       const radius=18*Math.sqrt(attempt)/zoom,theta=attempt*angle;
-      point={x:base.x+Math.cos(theta)*radius,y:base.y+Math.sin(theta)*radius};
+      point=bound({x:base.x+Math.cos(theta)*radius,y:base.y+Math.sin(theta)*radius});
     }
     next.set(node.id(),point);placed.push({point,width,height});
   }
@@ -634,7 +602,7 @@ function detailConnectionCard(r,cid){
   const identity=el('span',undefined,'mtz-connection-company');
   if(logo(partner)){const img=el('img');img.src=logo(partner);img.alt='';identity.append(img);}
   const names=el('span');names.append(el('strong',name(partnerId)),el('small',companySymbol(partner)));identity.append(names);
-  const summary=el('span',undefined,'mtz-connection-summary');summary.append(el('strong',connectionLabel(r)),el('small',(r.business?.products||[]).slice(0,2).join(' · ')||connectionTypeLabel(connectionKind(r))));
+  const summary=el('span',undefined,'mtz-connection-summary');summary.append(el('strong',connectionLabel(r)),el('small',connectionTypeLabel(connectionKind(r))));
   const value=el('span',undefined,'mtz-connection-value');value.append(el('strong',r.amounts?.length?r.amounts.map(a=>amountText(a,state.lang)).join(' / '):connectionTypeLabel(connectionKind(r))),el('small',r.amounts?.length?r.amounts.map(a=>t(a.value_semantics)).join(' / '):(r.event_date||t(r.lifecycle_status))));
   row.append(identity,summary,value,el('span',ux('詳細','Details'),'mtz-connection-chevron'));return row;
 }
@@ -685,14 +653,14 @@ async function showRelation(rid,backCompanyId=null){
       const canonical=client.canonicalId(id),company=companies.get(canonical)||client.companies.find(c=>c.company_id===canonical),party=el('button',undefined,'mtz-relation-party');party.type='button';party.onclick=()=>showCompany(canonical,rid,backCompanyId);if(logo(company)){const img=el('img');img.src=logo(company);img.alt='';party.append(img);}party.append(el('strong',name(id)));parties.append(party);
     }
     content.append(parties,el('h2',connectionLabel(r),'mtz-relation-title'));
-    const tags=el('div',undefined,'mtz-relation-tags'),kind=connectionKind(r),kindTag=el('span',connectionTypeLabel(kind));kindTag.style.setProperty('--connection-color',connectionColors[kind]);tags.append(kindTag);for(const label of [...(r.business?.products||[]),...(r.business?.geography?[r.business.geography]:[])].slice(0,3))tags.append(el('span',label));content.append(tags);
+    const tags=el('div',undefined,'mtz-relation-tags'),kind=connectionKind(r),kindTag=el('span',connectionTypeLabel(kind));kindTag.style.setProperty('--connection-color',connectionColors[kind]);tags.append(kindTag);for(const theme of (r.themes||[]).slice(0,3))tags.append(el('span',themeName(theme)));content.append(tags);
     const latest=[...d.events].sort((a,b)=>(b.announced_date||b.filed_date||'').localeCompare(a.announced_date||a.filed_date||''))[0];
     const amount=latest?.amounts?.length?latest.amounts.map(a=>amountText(a,state.lang)).join(' / '):ux('非公表・記載なし','Not disclosed');
     const facts=el('section',undefined,'mtz-relation-facts');facts.append(el('h3',ux('取引の基本情報','Relationship facts')));const grid=el('dl');
     for(const [label,value] of [[ux('公表日','Published'),latest?.announced_date||latest?.filed_date||'—'],[ux('金額','Amount'),amount],[ux('状態','Status'),t(r.lifecycle_status)],[ux('期間','Term'),(latest&&termText(latest.term,state.lang))||ux('記載なし','Not stated')]]){grid.append(el('dt',label),el('dd',value));}facts.append(grid);content.append(facts);
     if(r.status_as_of&&r.status_as_of<new Date(Date.now()-365*86400000).toISOString().slice(0,10))content.append(el('p',ux('資料時点の情報です。その後の数量や状態は確認できていません。','Information reflects the source date; later volume and status are unconfirmed.'),'mtz-relation-caution'));
     if(r.business?.source_role||r.business?.target_role){const roles=el('section',undefined,'mtz-relation-section');roles.append(el('h3',ux('企業の役割','Company roles')));for(const [id,role] of [[r.source_company_id,r.business?.source_role],[r.target_company_id,r.business?.target_role]])if(role){const company=companies.get(client.canonicalId(id))||client.companies.find(c=>c.company_id===client.canonicalId(id)),row=el('div',undefined,'mtz-role-row');if(logo(company)){const img=el('img');img.src=logo(company);img.alt='';row.append(img);}row.append(el('strong',name(id)),el('p',role));roles.append(row);}content.append(roles);}
-    const confirmed=el('section',undefined,'mtz-relation-section');confirmed.append(el('h3',ux('確認できる内容','Confirmed information')),el('p',r.description||r.business?.headline||connectionLabel(r)));content.append(confirmed);
+    const confirmed=el('section',undefined,'mtz-relation-section');confirmed.append(el('h3',ux('確認できる内容','Confirmed information')),el('p',localizedSummary(r)||r.description||r.business?.headline||connectionLabel(r)));content.append(confirmed);
     const sources=el('section',undefined,'mtz-relation-sources');sources.append(el('h3',ux('一次資料','Primary sources')));const used=new Set();for(const evidence of d.evidence){const source=d.sources.find(s=>s.source_id===evidence.source_id);if(!source||used.has(source.source_id))continue;used.add(source.source_id);const card=el('article',undefined,'mtz-source-card');card.append(el('strong',source.title||ux('公式資料','Official source')));const publisher=/^co-[a-z0-9-]+$/.test(source.publisher||'')?name(source.publisher):source.publisher;const meta=[publisher,source.published_date||source.filed_date||latest?.announced_date||latest?.filed_date].filter(Boolean).join(' · ');if(meta)card.append(el('p',meta,'muted'));const url=safeSourceURL(source.canonical_url);if(url){const sourceLink=link(t('source'),url);sourceLink.target='_blank';sourceLink.rel='noopener noreferrer';sourceLink.className='primary';card.append(sourceLink);}sources.append(card);}if(!used.size)sources.append(el('p',t('not_stated_in_source')));content.append(sources);
     const history=el('details',undefined,'mtz-relation-history');history.append(el('summary',ux('更新履歴','Update history')));for(const event of [...d.events].sort((a,b)=>(b.announced_date||'').localeCompare(a.announced_date||''))){const row=el('div');row.append(el('strong',(event.announced_date||event.filed_date||t('undated'))+' · '+t(event.event_type)));if(event.conditions)row.append(el('p',event.conditions));history.append(row);}content.append(history);
     const related=el('div',undefined,'mtz-related-companies');for(const id of [r.source_company_id,r.target_company_id])related.append(button(ux(`${name(id)}の企業詳細`,`${name(id)} company details`),()=>showCompany(id,rid,backCompanyId)));content.append(related);
@@ -720,7 +688,8 @@ function renderIntro(){
     card.append(el('h3',(e.company_ids||[]).map(name).join(' — ')));
     if(e.amounts?.length){for(const a of e.amounts){card.append(el('strong',amountText(a,state.lang),'mtz-deal-value'),el('p',t(a.amount_kind)+' · '+t(a.value_semantics),'muted'));if(a.contingent===true)card.append(el('span',t('contingent'),'mtz-deal-condition'));}}
     else card.append(el('p',t(e.amount_disclosure||'not_stated_in_source'),'muted'));
-    if(e.description)card.append(el('p',e.description,'mtz-deal-description'));
+    const eventSummary=(e.relationship_ids||[]).map(id=>client.relationshipSummaries?.[id]?.[state.lang]).find(Boolean)||e.description;
+    if(eventSummary)card.append(el('p',eventSummary,'mtz-deal-description'));
     const term=e.term?termText(e.term,state.lang):'';if(term)card.append(el('p',term,'muted'));
     card.append(el('p',(e.statuses||[]).map(t).join(' / ')+(e.source_count?' · '+e.source_count+' '+t('sourcesCount'):''),'muted'));
     const actions=el('div',undefined,'mtz-deal-actions');actions.append(button(t('dealDetails'),()=>showRelation(e.relationship_ids[0]),'primary'),button(t('viewOnMap'),()=>choose(e.company_ids.find(id=>id==='co-openai')||e.company_ids[0])));card.append(actions);grid.append(card);

@@ -1,0 +1,279 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000901832",
+      "company_id": "co-astrazeneca",
+      "country": null,
+      "display_name": "AstraZeneca",
+      "entity_status": "resolved",
+      "legal_name": "ASTRAZENECA PLC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000901832.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000901832.json",
+          "symbol": "AZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-daiichi-sankyo",
+      "country": null,
+      "display_name": "Daiichi Sankyo",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000310158",
+      "company_id": "co-merck",
+      "country": null,
+      "display_name": "Merck",
+      "entity_status": "resolved",
+      "legal_name": "Merck & Co., Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000310158.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000310158.json",
+          "symbol": "MRK",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-daiichi-sankyo",
+    "country": null,
+    "display_name": "Daiichi Sankyo",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "pharma_biotech"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-c255aafba1199fa3983fab39",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$4 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "前払金40億。うち10億は一部返還可能。契約総額ではない。",
+          "value": "4000000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-f54765e328504da0725a899c",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$1.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "exact",
+          "scope": "12か月後・24か月後の継続支払各7.5億。離脱権あり。",
+          "value": "1500000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-55d9c7903c1398e99a168bfd",
+          "amount_kind": "other",
+          "conditions": "前払金のうち10億は早期開発終了時に一部返還可能。12/24か月後の継続支払は離脱権あり。販売マイルストーンは条件付き。研究費の分担は別。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-1239e730fe659070a90ee8e0",
+            "evidence-e12a439ce6d41f6b7aae6fce",
+            "evidence-ccccd26c32a8ddce40ae0bf9",
+            "evidence-f033b43407e24a81852c14bd",
+            "evidence-5e71484b71a7b529353b8846"
+          ],
+          "max_value": "16500000000",
+          "min_value": null,
+          "original_text": "$16.5 billion",
+          "payee_company_ids": [
+            "co-daiichi-sankyo"
+          ],
+          "payer_company_ids": [
+            "co-merck"
+          ],
+          "qualifier": "up_to",
+          "scope": "3プログラムの販売マイルストーン上限。確約額ではない。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-1239e730fe659070a90ee8e0",
+          "evidence-e12a439ce6d41f6b7aae6fce",
+          "evidence-ccccd26c32a8ddce40ae0bf9",
+          "evidence-f033b43407e24a81852c14bd",
+          "evidence-5e71484b71a7b529353b8846"
+        ],
+        "geography": "",
+        "headline": "抗体薬物複合体3品を共同開発",
+        "products": [
+          "patritumab deruxtecan",
+          "ifinatamab deruxtecan",
+          "raludotatug deruxtecan"
+        ],
+        "scale": "",
+        "source_role": "Merckが共同開発・商業化と支払いを担当",
+        "target_role": "第一三共がADC技術・製造供給を担当"
+      },
+      "description": "Merckと第一三共がHER3-DXd・I-DXd・R-DXdを日本以外で共同開発・商業化する契約。第一三共が製造・供給を担い、日本では独占権を保持。2023年契約時点の条件であり、現在の承認・開発状況ではない。前払40億、継続支払15億、条件付き販売マイルストーン最大165億（いずれも原文$）を分けて記録する。",
+      "direction": "undirected",
+      "event_date": "2023-10-19",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-4238acaeb95a4e25f786dd76",
+      "relationship_type": "partnership",
+      "source_company_id": "co-merck",
+      "status_as_of": "2023-10-19",
+      "target_company_id": "co-daiichi-sankyo",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "currency_unknown",
+        "conditional",
+        "not_total",
+        "unsupported_kind",
+        "bounded_or_unspecified"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-46684e058ed789ff62b835dc"
+        ],
+        "geography": "",
+        "headline": "ENHERTU・Dato-DXdを共同開発",
+        "products": [
+          "ENHERTU",
+          "datopotamab deruxtecan"
+        ],
+        "scale": "",
+        "source_role": "第一三共がDXd ADC技術と共同開発を担当",
+        "target_role": "AstraZenecaが共同開発・商業化を担当"
+      },
+      "description": "第一三共とAstraZenecaがENHERTUおよびdatopotamab deruxtecanを世界で共同開発・商業化していることを2023年発表で確認。Merck向け3製品の契約金額はこの協業に転用しない。",
+      "direction": "undirected",
+      "event_date": "2023-10-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "historical",
+      "relationship_id": "rel-bee78c918bf368c41490d508",
+      "relationship_type": "partnership",
+      "source_company_id": "co-daiichi-sankyo",
+      "status_as_of": "2023-10-19",
+      "target_company_id": "co-astrazeneca",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-10-19"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

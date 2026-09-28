@@ -1,0 +1,268 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-418fd5c9ef1390d0e76c45db",
+          "amount_kind": "purchase_price",
+          "conditions": "取得現金控除後の総現金購入価格。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "The total cash purchase price, net of cash acquired, was $276 million",
+          "payee_company_ids": [
+            "co-kreisel-electric"
+          ],
+          "payer_company_ids": [
+            "co-deere"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "276000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "取得日は2022-02-07。 残余持分について2027年にDeereのコールオプションと少数株主側のプットオプションがある。",
+      "deal_id": "deal-52767d897b4eacb8da334ba2",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-52767d897b4eacb8da334ba2",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-52767d897b4eacb8da334ba2",
+        "evidence-c4c96c77cfc0e576d7ab4d38"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-52767d897b4eacb8da334ba2",
+            "evidence-c4c96c77cfc0e576d7ab4d38"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2022-05-20",
+      "relationship_ids": [
+        "rel-a310372f9f34e67c96742c4c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+          "source-9acfe6480245b1779eff2336": "be48f9e2a635c2da32b8046a475d77cac8c953662285a9e611253a20ff5ecea5"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r6; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r6",
+        "rule_version": "41bffc2f0e0da6f7a1fef2c5e646c59989d824e1359ff63f88e263e17346eef2",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-52767d897b4eacb8da334ba2",
+      "excerpt": "On February 7,",
+      "locator": "p:1657",
+      "normalized_text_hash": "7dd8e4f497d0e5f78f098ec27511da5c8b715153ec35a93a69749d9187210500",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-9acfe6480245b1779eff2336",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-c4c96c77cfc0e576d7ab4d38",
+      "excerpt": "the Company",
+      "locator": "p:1790",
+      "normalized_text_hash": "62eceed7bc91a0852890f0f2459b303d60a140a5729e13a42c68550c6bc19fda",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-8a02acad15a49b6fed167030",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-52767d897b4eacb8da334ba2"
+    ],
+    "description": "Deere & Companyは高密度バッテリー技術を開発するKreisel Electricの過半持分を取得し、残余持分について2027年のコール・プットオプションを設定した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-52767d897b4eacb8da334ba2",
+      "evidence-c4c96c77cfc0e576d7ab4d38"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-52767d897b4eacb8da334ba2"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-a310372f9f34e67c96742c4c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2022-05-20",
+    "target_company_id": "co-kreisel-electric",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8a02acad15a49b6fed167030": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+        "source-9acfe6480245b1779eff2336": "be48f9e2a635c2da32b8046a475d77cac8c953662285a9e611253a20ff5ecea5"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r6; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r6",
+      "rule_version": "41bffc2f0e0da6f7a1fef2c5e646c59989d824e1359ff63f88e263e17346eef2",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "000155837021012088",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837021012088/de-20210801x10q.htm",
+      "content_hash": "c2840e4bc6bf249a3850158b2438fb3b199882f109ecdc8c62f228167fdb509a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2021-08-26",
+      "filing_cik": "0000315189",
+      "form": "10-Q",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T13:46:37+00:00",
+      "source_id": "source-8a02acad15a49b6fed167030",
+      "source_type": "sec_filing",
+      "title": ""
+    },
+    {
+      "accession_number": "000155837022009205",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837022009205/de-20220520xex99d1.htm",
+      "content_hash": "be48f9e2a635c2da32b8046a475d77cac8c953662285a9e611253a20ff5ecea5",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2022-05-20",
+      "filing_cik": "0000315189",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T13:46:39+00:00",
+      "source_id": "source-9acfe6480245b1779eff2336",
+      "source_type": "sec_filing",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-418fd5c9ef1390d0e76c45db",
+        "amount_kind": "purchase_price",
+        "conditions": "取得現金控除後の総現金購入価格。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-52767d897b4eacb8da334ba2",
+          "evidence-c4c96c77cfc0e576d7ab4d38"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "The total cash purchase price, net of cash acquired, was $276 million",
+        "payee_company_ids": [
+          "co-kreisel-electric"
+        ],
+        "payer_company_ids": [
+          "co-deere"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "276000000",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Deere & Companyは高密度バッテリー技術を開発するKreisel Electricの過半持分を取得し、残余持分について2027年のコール・プットオプションを設定した。",
+    "direction": "directed",
+    "event_date": "2022-05-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-a310372f9f34e67c96742c4c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-deere",
+    "status_as_of": "2022-05-20",
+    "target_company_id": "co-kreisel-electric",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown",
+      "not_total"
+    ]
+  }
+}

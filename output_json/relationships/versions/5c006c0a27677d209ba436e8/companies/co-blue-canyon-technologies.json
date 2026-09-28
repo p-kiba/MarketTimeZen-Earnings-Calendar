@@ -1,0 +1,114 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-blue-canyon-technologies",
+      "country": null,
+      "display_name": "Blue Canyon Technologies",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-rtx",
+      "country": null,
+      "display_name": "Raytheon Technologies",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "industrial_aerospace"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-blue-canyon-technologies",
+    "country": null,
+    "display_name": "Blue Canyon Technologies",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-b2c390a3d8f88407299d1c95",
+          "amount_kind": "purchase_price",
+          "conditions": "取得現金控除後の買収額として2020年10-Kに記載。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0bf1720d802248ca5071454c",
+            "evidence-726054801e588b25a2f9a8b1"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$426 million, net of cash received",
+          "payee_company_ids": [
+            "co-blue-canyon-technologies"
+          ],
+          "payer_company_ids": [
+            "co-rtx"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "426000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Raytheon Technologiesは小型衛星・宇宙機システムを手掛けるBlue Canyon Technologiesを買収し、Raytheon Intelligence & Space部門へ組み込んだ。",
+      "direction": "directed",
+      "event_date": "2021-02-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-af59954a1c35c9beb8bb51a6",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-rtx",
+      "status_as_of": "2021-02-08",
+      "target_company_id": "co-blue-canyon-technologies",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown",
+        "not_total"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2021-02-08"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

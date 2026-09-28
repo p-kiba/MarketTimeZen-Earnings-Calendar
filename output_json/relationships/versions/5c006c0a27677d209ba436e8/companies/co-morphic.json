@@ -1,0 +1,114 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000059478",
+      "company_id": "co-lly",
+      "country": null,
+      "display_name": "ELI LILLY & Co",
+      "entity_status": "resolved",
+      "legal_name": "ELI LILLY & Co",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000059478.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000059478.json",
+          "symbol": "LLY",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "pharma_biotech"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-morphic",
+      "country": null,
+      "display_name": "Morphic Holding, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-morphic",
+    "country": null,
+    "display_name": "Morphic Holding, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-68091e82e6df22eaab904300",
+          "evidence-b135ea1b271d9a7dcd73c2a3",
+          "evidence-b51ab0e2a55de88832882b2b"
+        ],
+        "geography": "",
+        "headline": "Morphicの経口IBD治療薬事業取得",
+        "products": [
+          "MORF-057",
+          "経口インテグリン治療薬"
+        ],
+        "scale": "",
+        "source_role": "買収者",
+        "target_role": "開発資産・事業の取得対象"
+      },
+      "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+      "direction": "directed",
+      "event_date": "2024-08-16",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:16:14+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-lly",
+      "status_as_of": "2024-08-16",
+      "target_company_id": "co-morphic",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-08-16"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

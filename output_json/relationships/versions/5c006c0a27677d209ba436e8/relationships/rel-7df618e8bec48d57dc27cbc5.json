@@ -1,0 +1,326 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d4aabb15bc7b343063098f88",
+          "amount_kind": "contract_value",
+          "conditions": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$588 million",
+          "payee_company_ids": [
+            "co-merck"
+          ],
+          "payer_company_ids": [
+            "co-lanova-medicines-ltd"
+          ],
+          "qualifier": "exact",
+          "scope": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+          "value": "588000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-b1c6b217ba75c3d170b141a7",
+          "amount_kind": "contract_value",
+          "conditions": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "max_value": "2700000000",
+          "min_value": null,
+          "original_text": "$2.7 billion",
+          "payee_company_ids": [
+            "co-merck"
+          ],
+          "payer_company_ids": [
+            "co-lanova-medicines-ltd"
+          ],
+          "qualifier": "up_to",
+          "scope": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2024-12-20",
+      "conditions": "LaNova MedicinesがMerckへLM-299（抗PD-1/VEGF二重特異性抗体）の独占的グローバルライセンスを供与。Merckが開発・製造・商業化を担う。",
+      "deal_id": "deal-921d86bcb398ab1b9fe1c876",
+      "detected_at": "2026-09-26T12:51:16+00:00",
+      "effective_date": null,
+      "event_id": "event-921d86bcb398ab1b9fe1c876",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-921d86bcb398ab1b9fe1c876",
+        "evidence-ac05c176e9ad9c2cad617e7f",
+        "evidence-2ee056892cecfd9cb1d7fe50"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-921d86bcb398ab1b9fe1c876",
+            "evidence-ac05c176e9ad9c2cad617e7f",
+            "evidence-2ee056892cecfd9cb1d7fe50"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-7df618e8bec48d57dc27cbc5"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-8e88b06e8ba265d4400c92ce": "116335f8d5315bc58706999ea9178b6c467aab952a57daeb9ff0266e9bfaba03"
+        },
+        "reason": "Primary-source review of merged research record r92; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r92",
+        "rule_version": "8a63ec197b19459881f88b9de729e76537466de9e22c106c3846587143273b32",
+        "verified_at": "2026-09-26T12:51:16+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2ee056892cecfd9cb1d7fe50",
+      "excerpt": "$2.7 billion",
+      "locator": "p:3",
+      "normalized_text_hash": "8d25cbba0a2924dcd41730d75cb8018a852fd14681bf3cd6695779814e07d447",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-8e88b06e8ba265d4400c92ce",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-921d86bcb398ab1b9fe1c876",
+      "excerpt": "closing of the exclusive global license agreement for LM-299, a novel investigational PD-1/VEGF bispecific antibody, from LaNova Medicines Ltd.",
+      "locator": "p:2",
+      "normalized_text_hash": "ebc47163616821dddf2c298e6588a293e8487a9d2d7515f00a341def306a8238",
+      "section": "Official company disclosure",
+      "source_id": "source-8e88b06e8ba265d4400c92ce",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-ac05c176e9ad9c2cad617e7f",
+      "excerpt": "$588 million",
+      "locator": "p:3",
+      "normalized_text_hash": "5205c554ad156017e24f192e01eea1f703fa70942b61ef077ad6e8b5e86c97c2",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-8e88b06e8ba265d4400c92ce",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-921d86bcb398ab1b9fe1c876"
+    ],
+    "description": "LaNova MedicinesがMerckへLM-299（抗PD-1/VEGF二重特異性抗体）の独占的グローバルライセンスを供与。Merckが開発・製造・商業化を担う。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-921d86bcb398ab1b9fe1c876",
+      "evidence-ac05c176e9ad9c2cad617e7f",
+      "evidence-2ee056892cecfd9cb1d7fe50"
+    ],
+    "first_observed_at": "2026-09-26T12:51:16+00:00",
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "latest_event_ids": [
+      "event-921d86bcb398ab1b9fe1c876"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-7df618e8bec48d57dc27cbc5",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lanova-medicines-ltd",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-merck",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-8e88b06e8ba265d4400c92ce": "116335f8d5315bc58706999ea9178b6c467aab952a57daeb9ff0266e9bfaba03"
+      },
+      "reason": "Primary-source review of merged research record r92; completion/agreement, counterparties and amount wording checked against issuer disclosures. Amount qualifiers and unknown currency retained.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r92",
+      "rule_version": "8a63ec197b19459881f88b9de729e76537466de9e22c106c3846587143273b32",
+      "verified_at": "2026-09-26T12:51:16+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/merck-closes-exclusive-global-license-agreement-for-lm-299-an-investigational-anti-pd-1-vegf-bispecific-antibody/",
+      "content_hash": "116335f8d5315bc58706999ea9178b6c467aab952a57daeb9ff0266e9bfaba03",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2024-12-20",
+      "publisher": "Merck",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-8e88b06e8ba265d4400c92ce",
+      "source_type": "official_newsroom",
+      "title": "Merck Closes Exclusive Global License Agreement for LM-299, An Investigational Anti-PD-1/VEGF Bispecific Antibody - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-d4aabb15bc7b343063098f88",
+        "amount_kind": "contract_value",
+        "conditions": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-921d86bcb398ab1b9fe1c876",
+          "evidence-ac05c176e9ad9c2cad617e7f",
+          "evidence-2ee056892cecfd9cb1d7fe50"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$588 million",
+        "payee_company_ids": [
+          "co-merck"
+        ],
+        "payer_company_ids": [
+          "co-lanova-medicines-ltd"
+        ],
+        "qualifier": "exact",
+        "scope": "LM-299独占的グローバルライセンス契約の前払金。原文通貨コード不明。",
+        "value": "588000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-b1c6b217ba75c3d170b141a7",
+        "amount_kind": "contract_value",
+        "conditions": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-921d86bcb398ab1b9fe1c876",
+          "evidence-ac05c176e9ad9c2cad617e7f",
+          "evidence-2ee056892cecfd9cb1d7fe50"
+        ],
+        "max_value": "2700000000",
+        "min_value": null,
+        "original_text": "$2.7 billion",
+        "payee_company_ids": [
+          "co-merck"
+        ],
+        "payer_company_ids": [
+          "co-lanova-medicines-ltd"
+        ],
+        "qualifier": "up_to",
+        "scope": "技術移転、開発、規制承認、商業化マイルストーンの上限。$300m技術移転支払を含み、追加加算しない。原文通貨コード不明。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "LaNova MedicinesがMerckへLM-299（抗PD-1/VEGF二重特異性抗体）の独占的グローバルライセンスを供与。Merckが開発・製造・商業化を担う。",
+    "direction": "directed",
+    "event_date": "2024-12-20",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:51:16+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-7df618e8bec48d57dc27cbc5",
+    "relationship_type": "partnership",
+    "source_company_id": "co-lanova-medicines-ltd",
+    "status_as_of": "2024-12-20",
+    "target_company_id": "co-merck",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "currency_unknown",
+      "bounded_or_unspecified",
+      "conditional",
+      "not_total"
+    ]
+  }
+}

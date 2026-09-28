@@ -1,0 +1,247 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-12-23",
+      "conditions": "",
+      "deal_id": "deal-da50c34b0787d253bad717b6",
+      "detected_at": "2026-09-26T15:58:22+00:00",
+      "effective_date": null,
+      "event_id": "event-da50c34b0787d253bad717b6",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-da50c34b0787d253bad717b6",
+        "evidence-66cb7e3e31206da4926f752b",
+        "evidence-4df3726a71bfac2824725a3c"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-da50c34b0787d253bad717b6",
+            "evidence-66cb7e3e31206da4926f752b",
+            "evidence-4df3726a71bfac2824725a3c"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-dec3a9c50b1d05615f6a17b4"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-300e572aa30feaef868bcc34": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "focus-orcl-dell-20260927-visa-aws",
+        "rule_version": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
+        "verified_at": "2026-09-26T15:58:22+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-4df3726a71bfac2824725a3c",
+      "excerpt": "Visa Intel",
+      "locator": "p:8",
+      "normalized_text_hash": "20efd86b65ba8cd1e26dc6cd02733d3305d345add7c1e58caa78fb865b323ec4",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-300e572aa30feaef868bcc34",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-66cb7e3e31206da4926f752b",
+      "excerpt": "As part of",
+      "locator": "p:5",
+      "normalized_text_hash": "45f71cba2514f613d3f1641f99d02a3b2200033568e446dd8a2163602e769fd8",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-300e572aa30feaef868bcc34",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-da50c34b0787d253bad717b6",
+      "excerpt": "To support this shif",
+      "locator": "p:4",
+      "normalized_text_hash": "00dfc8575d203e341e59aa260ff94ab7c6f7f1983a14268494e58089bd03c3ef",
+      "section": "Primary disclosure: p:4",
+      "source_id": "source-300e572aa30feaef868bcc34",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-da50c34b0787d253bad717b6",
+        "evidence-66cb7e3e31206da4926f752b",
+        "evidence-4df3726a71bfac2824725a3c"
+      ],
+      "geography": "",
+      "headline": "AIエージェント決済を共同開発",
+      "products": [
+        "Visa Intelligent Commerce",
+        "Amazon Bedrock AgentCore",
+        "決済API"
+      ],
+      "scale": "",
+      "source_role": "Visaが認証・トークン化等の決済機能を提供",
+      "target_role": "AWSがエージェント実行基盤を提供"
+    },
+    "deal_ids": [
+      "deal-da50c34b0787d253bad717b6"
+    ],
+    "description": "Visa Intelligent CommerceとAWSのAmazon Bedrock AgentCoreでAIエージェントの決済処理を支援する協業。VisaはMCPツールのホストにAgentCoreを利用する計画で、公開サンプルと商用取引量・契約金額は区別する。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-da50c34b0787d253bad717b6",
+      "evidence-66cb7e3e31206da4926f752b",
+      "evidence-4df3726a71bfac2824725a3c"
+    ],
+    "first_observed_at": "2026-09-26T15:58:22+00:00",
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "latest_event_ids": [
+      "event-da50c34b0787d253bad717b6"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-dec3a9c50b1d05615f6a17b4",
+    "relationship_type": "partnership",
+    "source_company_id": "co-visa",
+    "status_as_of": "2025-12-23",
+    "target_company_id": "co-aws",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-300e572aa30feaef868bcc34": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "focus-orcl-dell-20260927-visa-aws",
+      "rule_version": "df40a3f1755d445df7f64289b850fca9afd0df1fe25250af74440c1d0f1d42fc",
+      "verified_at": "2026-09-26T15:58:22+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/",
+      "content_hash": "b0d5e8a5c7269da5f6ce5d11c6e7349b54ddf69544e5cccb12f682ae5546680a",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-12-23",
+      "publisher": "aws.amazon.com",
+      "retrieved_at": "2026-09-26T15:55:02+00:00",
+      "source_id": "source-300e572aa30feaef868bcc34",
+      "source_type": "official_newsroom",
+      "title": "Introducing Visa Intelligent Commerce on AWS: Enabling agentic commerce with Amazon Bedrock AgentCore | Artificial Intelligence"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-da50c34b0787d253bad717b6",
+        "evidence-66cb7e3e31206da4926f752b",
+        "evidence-4df3726a71bfac2824725a3c"
+      ],
+      "geography": "",
+      "headline": "AIエージェント決済を共同開発",
+      "products": [
+        "Visa Intelligent Commerce",
+        "Amazon Bedrock AgentCore",
+        "決済API"
+      ],
+      "scale": "",
+      "source_role": "Visaが認証・トークン化等の決済機能を提供",
+      "target_role": "AWSがエージェント実行基盤を提供"
+    },
+    "description": "Visa Intelligent CommerceとAWSのAmazon Bedrock AgentCoreでAIエージェントの決済処理を支援する協業。VisaはMCPツールのホストにAgentCoreを利用する計画で、公開サンプルと商用取引量・契約金額は区別する。",
+    "direction": "undirected",
+    "event_date": "2025-12-23",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T15:58:22+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-dec3a9c50b1d05615f6a17b4",
+    "relationship_type": "partnership",
+    "source_company_id": "co-visa",
+    "status_as_of": "2025-12-23",
+    "target_company_id": "co-aws",
+    "themes": [
+      "financial_services"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

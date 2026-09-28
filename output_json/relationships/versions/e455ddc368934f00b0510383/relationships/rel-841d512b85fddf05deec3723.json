@@ -1,0 +1,172 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-03-18",
+      "conditions": "",
+      "deal_id": "deal-445d9840b976600dd3be2517",
+      "detected_at": "2026-09-26T08:10:47+00:00",
+      "effective_date": null,
+      "event_id": "event-4f8169db85a40a9598ff420c",
+      "event_type": "new_agreement",
+      "evidence_ids": [
+        "evidence-5620d162c16fb8c4e49f62ea"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "needs_review"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "needs_review"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-5620d162c16fb8c4e49f62ea"
+          ],
+          "verification": "needs_review"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-841d512b85fddf05deec3723"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+        },
+        "reason": "Micron official release identifies LPDDR5X integration on NVIDIA DRIVE AGX Orin; announcement date and primary URL are recorded.",
+        "reviewer": null,
+        "rule_id": "micron_nvidia_product_integration",
+        "rule_version": "1",
+        "verified_at": "2026-09-26T19:23:40+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-5620d162c16fb8c4e49f62ea",
+      "excerpt": "One example of this type of ecosystem collaboration is the integration of Micron LPDDR5X on the NVIDIA DRIVE AGX Orin platform.",
+      "locator": "li:23",
+      "normalized_text_hash": "319ce0832195f0e7959a4cad24a3914e76a99aa3a0275d0c7a656aa3c770d0e2",
+      "section": "paragraph",
+      "source_id": "source-6b1498de2bb1640d71b431f2",
+      "supports_fields": [
+        "relationship"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-445d9840b976600dd3be2517"
+    ],
+    "description": "MicronのLPDDR5XメモリをNVIDIA DRIVE AGX Orinへ統合。自動車向けプラットフォームのエコシステム協業として発表。金額は非公表。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-5620d162c16fb8c4e49f62ea"
+    ],
+    "first_observed_at": "2026-09-26T04:21:33+00:00",
+    "last_observed_at": "2026-09-26T08:10:47+00:00",
+    "latest_event_ids": [
+      "event-4f8169db85a40a9598ff420c"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-841d512b85fddf05deec3723",
+    "relationship_type": "partnership",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-03-18",
+    "target_company_id": "co-nvda",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-6b1498de2bb1640d71b431f2": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80"
+      },
+      "reason": "Micron official release identifies LPDDR5X integration on NVIDIA DRIVE AGX Orin; announcement date and primary URL are recorded.",
+      "reviewer": null,
+      "rule_id": "micron_nvidia_product_integration",
+      "rule_version": "1",
+      "verified_at": "2026-09-26T19:23:40+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://investors.micron.com/news/press-release/2025/Micron-Innovates-From-the-Data-Center-to-the-Edge-With-NVIDIA-03-18-2025/default.aspx",
+      "content_hash": "e2efc12b72257e8586bb7295c331941f57a0a836110a2effc64815481e0f6c80",
+      "date_precision": "day",
+      "extraction_version": "rules-1.3",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-03-18",
+      "publisher": "co-mu",
+      "retrieved_at": "2026-09-26T04:03:06+00:00",
+      "source_id": "source-6b1498de2bb1640d71b431f2",
+      "source_type": "official_newsroom",
+      "title": "Micron Technology, Inc. - Micron Innovates From the Data Center to the Edge With NVIDIA"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "MicronのLPDDR5XメモリをNVIDIA DRIVE AGX Orinへ統合。自動車向けプラットフォームのエコシステム協業として発表。金額は非公表。",
+    "direction": "undirected",
+    "event_date": "2025-03-18",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:10:47+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-841d512b85fddf05deec3723",
+    "relationship_type": "partnership",
+    "source_company_id": "co-mu",
+    "status_as_of": "2025-03-18",
+    "target_company_id": "co-nvda",
+    "themes": [
+      "memory",
+      "automotive_batteries"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

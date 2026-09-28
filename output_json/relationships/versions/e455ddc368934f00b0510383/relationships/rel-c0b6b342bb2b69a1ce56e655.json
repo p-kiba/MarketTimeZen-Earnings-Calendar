@@ -1,0 +1,227 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-c172c77d5870b5929a525ffc",
+          "amount_kind": "purchase_price",
+          "conditions": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$750 million",
+          "payee_company_ids": [
+            "co-united-capital-financial-partners-inc"
+          ],
+          "payer_company_ids": [
+            "co-the-goldman-sachs-group-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+          "value": "750000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2019-05-16",
+      "conditions": "",
+      "deal_id": "deal-02e378b89e8719a63c639458",
+      "detected_at": "2026-09-26T13:07:05+00:00",
+      "effective_date": null,
+      "event_id": "event-02e378b89e8719a63c639458",
+      "event_type": "acquisition_announced",
+      "evidence_ids": [
+        "evidence-02e378b89e8719a63c639458"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-02e378b89e8719a63c639458"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-c0b6b342bb2b69a1ce56e655"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-54cfa33be698227e021507ca": "03ed04ae51dbc3bf148192eeef2984c36a137238d218c17ec9f8c8a91edcf724"
+        },
+        "reason": "Primary-source review of merged research record r51; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r51",
+        "rule_version": "b2b8be6b7cbe469a74eeae6dde2286285017808c639654c480de3fc8a084e6f8",
+        "verified_at": "2026-09-26T13:07:05+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-02e378b89e8719a63c639458",
+      "excerpt": "The Goldman Sachs Group, Inc. (NYSE: GS) today announced it has entered into an agreement to acquire",
+      "locator": "p:62",
+      "normalized_text_hash": "b9d3c5764d99e5f241a2718a9cc95735d1bd69ff9de07d38c953fdadf87c9908",
+      "section": "Official issuer disclosure",
+      "source_id": "source-54cfa33be698227e021507ca",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-02e378b89e8719a63c639458"
+    ],
+    "description": "Goldman Sachsが独立系RIA向けウェルスマネジメント会社United Capitalを現金で取得する契約を締結。顧客向け助言とオープンアーキテクチャの運用ソリューションを追加する計画。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-02e378b89e8719a63c639458"
+    ],
+    "first_observed_at": "2026-09-26T13:07:05+00:00",
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "latest_event_ids": [
+      "event-02e378b89e8719a63c639458"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-c0b6b342bb2b69a1ce56e655",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2019-05-16",
+    "target_company_id": "co-united-capital-financial-partners-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-54cfa33be698227e021507ca": "03ed04ae51dbc3bf148192eeef2984c36a137238d218c17ec9f8c8a91edcf724"
+      },
+      "reason": "Primary-source review of merged research record r51; parties, status, business scope and any amount details matched to official issuer/SEC disclosure. Dollar currency remains unresolved where the source uses only a dollar sign.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r51",
+      "rule_version": "b2b8be6b7cbe469a74eeae6dde2286285017808c639654c480de3fc8a084e6f8",
+      "verified_at": "2026-09-26T13:07:05+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.goldmansachs.com/pressroom/press-releases/2019/announcement-16-may-2019",
+      "content_hash": "03ed04ae51dbc3bf148192eeef2984c36a137238d218c17ec9f8c8a91edcf724",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2019-05-16",
+      "publisher": "Goldman Sachs",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-54cfa33be698227e021507ca",
+      "source_type": "official_newsroom",
+      "title": "Goldman Sachs Announces Acquisition of United Capital | Goldman Sachs"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-c172c77d5870b5929a525ffc",
+        "amount_kind": "purchase_price",
+        "conditions": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-02e378b89e8719a63c639458"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$750 million",
+        "payee_company_ids": [
+          "co-united-capital-financial-partners-inc"
+        ],
+        "payer_company_ids": [
+          "co-the-goldman-sachs-group-inc"
+        ],
+        "qualifier": "exact",
+        "scope": "United Capitalの現金取得契約で公表された対価。原文通貨コード不明。",
+        "value": "750000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Goldman Sachsが独立系RIA向けウェルスマネジメント会社United Capitalを現金で取得する契約を締結。顧客向け助言とオープンアーキテクチャの運用ソリューションを追加する計画。",
+    "direction": "directed",
+    "event_date": "2019-05-16",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:07:05+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-c0b6b342bb2b69a1ce56e655",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-the-goldman-sachs-group-inc",
+    "status_as_of": "2019-05-16",
+    "target_company_id": "co-united-capital-financial-partners-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown"
+    ]
+  }
+}

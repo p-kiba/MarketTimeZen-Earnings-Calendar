@@ -1,0 +1,974 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "schema_version": "1.0",
+  "summaries": {
+    "rel-000d3c41901845cdf7e525d5": {
+      "en": "Joint development integrating glucose monitoring and insulin delivery",
+      "ja": "血糖測定とインスリン送達の統合開発"
+    },
+    "rel-001b2b64cdceb319303838a7": {
+      "en": "Ten-year cloud agreement for financial data infrastructure",
+      "ja": "金融データ基盤の10年クラウド契約"
+    },
+    "rel-0059e0ff4920520f611891ba": {
+      "en": "CoreWeave and Microsoft entered a Master Services Agreement dated February 22, 2023; order value and current status unconfirmed",
+      "ja": "CoreWeaveとMicrosoftが2023年2月22日付のMaster Services Agreementを締結。出典のSEC提出書類では個別注文額・契約継続状況は確認できない。"
+    },
+    "rel-04262cbf72168254eb6aa408": {
+      "en": "Broadcom co-develops Meta’s MTIA custom AI chips; rollout planned from over 1 GW to multiple gigawatts",
+      "ja": "MTIAカスタムAI半導体の共同開発"
+    },
+    "rel-04561989f8326dfcb62a17df": {
+      "en": "Merck acquired Verona Pharma and its COPD maintenance treatment Ohtuvayre",
+      "ja": "MerckがVerona Pharmaを買収し、COPD維持療法Ohtuvayre（ensifentrine）を心肺疾患ポートフォリオに追加。"
+    },
+    "rel-05c6587da4c523af5144b983": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-0861e56024d9a66f3441f259": {
+      "en": "IBM acquired Red Hat",
+      "ja": "Red Hatを買収"
+    },
+    "rel-09fe3d64df0a89c5aed36d13": {
+      "en": "Broadcom identifies Amkor as an outsourced semiconductor assembly and test provider in FY2024",
+      "ja": "半導体の組立・テストを受託"
+    },
+    "rel-0a038d06b3d5e568824b197b": {
+      "en": "Corning to supply optical connectivity products for Amazon U.S. data centers; specific contract amount not disclosed",
+      "ja": "米国データセンター向け光接続製品の供給"
+    },
+    "rel-0b750bf7554cd2d1815b7904": {
+      "en": "Investment in OpenAI",
+      "ja": "OpenAIへ出資"
+    },
+    "rel-0b99c4bd4306e9cc75d7f265": {
+      "en": "Acquisition of a migraine treatment and CGRP business",
+      "ja": "片頭痛治療薬・CGRP事業の買収"
+    },
+    "rel-0ba31ccfbb0674a3df5100b6": {
+      "en": "Meta signs a 20-year power purchase from two existing Vistra nuclear plants, with additional planned capacity",
+      "ja": "原子力発電の20年購入契約"
+    },
+    "rel-0d5d597a4abac2e05df15699": {
+      "en": "Lockheed Martin and GlobalFoundries collaborate on U.S. semiconductor production and supply chain resilience for national security systems",
+      "ja": "Lockheed MartinとGlobalFoundriesは、国家安全保障システム向け半導体の米国内製造・技術革新と、供給網の安全性・信頼性・レジリエンスを高める戦略的協業を発表した。"
+    },
+    "rel-0dd6dfcd6216ee5ccccbd531": {
+      "en": "Gilead acquired full control of Arcells’ BCMA CAR-T candidate anito-cel; disclosed equity value includes cash and contingent CVRs",
+      "ja": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。"
+    },
+    "rel-0e1d24542f198848ff377a77": {
+      "en": "Mistral AI uses Google Cloud AI infrastructure for model training and delivery; products and contract value unspecified (as of Apr 2024)",
+      "ja": "AIモデルの学習・提供用クラウド基盤"
+    },
+    "rel-0e337fd63bd6d4f505d87843": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-0f38047954349ad568bf0366": {
+      "en": "CF Industries contracted with ExxonMobil to transport and permanently store captured CO2 from its Louisiana facility",
+      "ja": "CF IndustriesはExxonMobilと商業契約を締結し、ルイジアナ州Donaldsonville施設から回収されるCO2をExxonMobilが輸送・永久貯留する計画を進めた。"
+    },
+    "rel-109eedff1fe3a68f30242cb5": {
+      "en": "Merck acquired EyeBio, including retinal candidate Restoret and preclinical programs; upfront and contingent milestone payments are distinct",
+      "ja": "MerckがEyeBioを買収し、網膜疾患候補Restoretと前臨床パイプラインを取得。金額は契約発表の前払額と条件付きマイルストーン上限を分けて記録。"
+    },
+    "rel-10f75830f2d48d7285779605": {
+      "en": "Meta supports development of an Ohio nuclear campus, planned for up to 1.2 GW and operation as early as 2030",
+      "ja": "Ohio原子力キャンパスの開発支援"
+    },
+    "rel-12d60157c40214b0abb04a3c": {
+      "en": "ExxonMobil and LG Chem signed a non-binding MOU for multi-year lithium offtake for LG Chem’s Tennessee cathode plant",
+      "ja": "ExxonMobilとLG Chemは、ExxonMobilの米国リチウム事業からLG Chemのテネシー州正極材工場へリチウムを供給する複数年のオフテイクに向け、拘束力のないMOUを締結した。"
+    },
+    "rel-131011a38d187270d2e6b82c": {
+      "en": "Acquisition of Amedisys",
+      "ja": "Amedisysの買収"
+    },
+    "rel-13a995805e1bac42cbeedcee": {
+      "en": "AI engineering and model optimization",
+      "ja": "AI技術・モデル最適化で協業"
+    },
+    "rel-156ce4bb86e7492c5d95a571": {
+      "en": "Long-term power purchase agreement for the Dresden nuclear plant",
+      "ja": "Dresden原発の長期電力購入契約"
+    },
+    "rel-16ba49d45c91f5a2fb8d3fc9": {
+      "en": "xAI named as a planned Blackwell adopter; no order or delivery confirmed",
+      "ja": "Blackwell採用予定企業として公表"
+    },
+    "rel-194394469e921764e37c4d4f": {
+      "en": "Nebius named as a planned Blackwell cloud partner; deployment unconfirmed",
+      "ja": "Blackwellクラウドの提供計画"
+    },
+    "rel-1a28cde258751e065731477b": {
+      "en": "Cisco Board Pro certified for Microsoft Teams Rooms, with Webex Contact Center also integrated with Teams",
+      "ja": "会議端末をTeamsと連携"
+    },
+    "rel-1a53556688a192ec472a5060": {
+      "en": "Wells Fargo agreed to acquire Wachovia in a stock-for-stock merger, pending shareholder and regulatory approval at announcement",
+      "ja": "Wells FargoがWachoviaの全株式・全事業・債務・預金を株式交換で取得する合併契約を締結した。取引は発表時点で株主・規制当局の承認待ちだった。"
+    },
+    "rel-1ca0875248128b2b14fd2ee7": {
+      "en": "Long-term collaboration to deploy NVIDIA technology in Meta AI data centers; no contract value stated",
+      "ja": "AIデータセンター基盤の長期協業"
+    },
+    "rel-1ce3b86d6e78f4e9d4f5cc31": {
+      "en": "Joint launch of an AI drug discovery research lab",
+      "ja": "AI創薬研究所の共同設立"
+    },
+    "rel-1f2e6eb551148eaeb1566cf1": {
+      "en": "Rare-earth magnet supply and recycling",
+      "ja": "希土類磁石を供給・リサイクル"
+    },
+    "rel-1fbf668edf6e2c3d522a473a": {
+      "en": "Deere unwound its construction equipment JV with Hitachi, acquired Hitachi’s plant stake, and entered new licensing and supply arrangements",
+      "ja": "DeereとHitachi Construction Machineryは既存の建機合弁を解消し、Deereが合弁工場のHitachi持分を取得するとともに、Hitachiブランドの油圧ショベル等に関する新たなライセンス・供給関係へ移行する契約を締結した。"
+    },
+    "rel-20d426fdc941021d2f69db80": {
+      "en": "AWS and OpenAI extend their cloud commitment by $100 billion over eight years, including an AWS chip performance obligation",
+      "ja": "AWS計算基盤契約の追加コミットメント"
+    },
+    "rel-21a0a1809ad47b1309030f4f": {
+      "en": "Collaboration on AI and analytics infrastructure using Blackwell",
+      "ja": "Blackwellを利用するAI基盤で協力"
+    },
+    "rel-222d503bdbf468c2f7771935": {
+      "en": "PayPal expanded multi-year services for Uber, including Braintree card processing and PayPal Payouts",
+      "ja": "配車決済・送金基盤を提供"
+    },
+    "rel-22af952a5d6e3f831640ff44": {
+      "en": "Visa card payment processing for Costco",
+      "ja": "CostcoのVisaカード決済"
+    },
+    "rel-248a901c4333ee7ad29f78fb": {
+      "en": "Amazon’s Series G and H investments in Anthropic, plus a separate conditional funding facility",
+      "ja": "Series G・H出資と条件付き資金枠"
+    },
+    "rel-267801dcd55b1249461af1dd": {
+      "en": "Acquisition of an antibody-drug conjugate and oncology business",
+      "ja": "抗体薬物複合体・がん治療薬事業の買収"
+    },
+    "rel-2697be0f32dab02420688325": {
+      "en": "Acquisition of a sickle cell disease treatment business",
+      "ja": "鎌状赤血球症治療薬事業の買収"
+    },
+    "rel-26b5352a76386dc865cf2155": {
+      "en": "Panasonic Energy adopted Palantir Foundry for smart factory operations at its Nevada battery plant under a multi-year deal",
+      "ja": "電池工場へFoundryを提供"
+    },
+    "rel-27a5c829c2e1d629226b2991": {
+      "en": "Crypto services integration across accounts, rewards, and cards",
+      "ja": "口座・ポイント・カードの暗号資産サービス連携"
+    },
+    "rel-28afffd26328a48e9fe9f4d1": {
+      "en": "ConocoPhillips acquired Shell’s Delaware Basin assets for cash, expanding its Permian operations",
+      "ja": "ConocoPhillipsはShell Enterprises LLCからDelaware BasinのPermian資産を現金で取得し、ConocoPhillipsのPermian事業を拡大した。"
+    },
+    "rel-2cd4a3dd0d81f31b595717c4": {
+      "en": "PORTS partnership to develop AI data centers",
+      "ja": "PORTSのAIデータセンター開発提携"
+    },
+    "rel-2e0d983d5da17c8a1c3844e2": {
+      "en": "AMD completed its ZT Systems acquisition for $4.4 billion, including cash, stock, and contingent consideration",
+      "ja": "ZT Systems買収の取得対価"
+    },
+    "rel-2e9c5666585943783841c695": {
+      "en": "SK hynix selected Lam Research’s dry-resist technology as a development tool of record for two advanced DRAM process steps",
+      "ja": "Lamのdry resist製造技術が、SK hynixの先端DRAM製造における2工程のdevelopment tool of recordに選定された。"
+    },
+    "rel-2f45c4fa57583800e90111e8": {
+      "en": "Same-day delivery and e-commerce platform services",
+      "ja": "当日配送とECサイト基盤の提供"
+    },
+    "rel-309097bdb57d9db40da6abee": {
+      "en": "GM EV drivers gain access to Tesla Superchargers",
+      "ja": "GM製EVへのSupercharger利用開放"
+    },
+    "rel-30eede1b51614c353ecb82fb": {
+      "en": "Capital One acquired Velocity Black’s technology-enabled digital concierge for travel, entertainment, shopping, and dining; price undisclosed",
+      "ja": "Capital OneがVelocity Blackのデジタルコンシェルジュ事業を取得。旅行・エンターテインメント・買物・飲食の予約提案と手配を独自技術と人によるサービスで提供する。買収金額は発表資料にない。"
+    },
+    "rel-3184bf461ce38af0e098a4cb": {
+      "en": "Manufactures semiconductors for Apple",
+      "ja": "Apple向け半導体を製造"
+    },
+    "rel-33284e76c221eecfec8e07a0": {
+      "en": "Cooperation on ICs for sensing features in Apple products",
+      "ja": "Apple製品のセンシング機能に使うICの製造に関する協業。"
+    },
+    "rel-34a89eb06119182584fa1596": {
+      "en": "Google signed a 25-year power purchase agreement for the planned restart of Duane Arnold, plus a separate nuclear development agreement with NextEra",
+      "ja": "NextEra EnergyとGoogleは、再稼働を計画するDuane Arnold Energy Centerの電力をGoogleが購入する25年間のPPAと、米国内での新規原子力開発を検討する別契約を締結した。"
+    },
+    "rel-35b485fef080503c4fa1186c": {
+      "en": "Google is a subsidiary within the Alphabet group",
+      "ja": "Alphabetグループに所属"
+    },
+    "rel-36e061784f167174dc8a2ad1": {
+      "en": "Supermicro plans Blackwell-powered servers; no individual order or delivery recorded",
+      "ja": "Blackwell搭載サーバーの製品展開"
+    },
+    "rel-378baa1871f5bdb9869a34e3": {
+      "en": "Long-term agreement for NextEra Energy Resources to continue supplying power from the Point Beach nuclear plant to WPPI Energy",
+      "ja": "NextEra Energy ResourcesはWPPI EnergyへのPoint Beach原子力発電所からの電力供給を継続する長期契約を締結した。"
+    },
+    "rel-378f42715112dd6fb7536cde": {
+      "en": "Amazon’s AWS operating segment",
+      "ja": "AmazonのAWS事業セグメント"
+    },
+    "rel-382dd2ec6cd155c9a673af4c": {
+      "en": "AbbVie acquired all outstanding Cerevel shares and its neuroscience pipeline, including emraclidine and tavapadon; closing release gave no final total",
+      "ja": "AbbVieがCerevel Therapeuticsの全発行済株式を取得。emraclidine、tavapadon等の神経・精神疾患向け臨床パイプラインを神経科学事業に加えた。完了発表では最終総額を示していない。"
+    },
+    "rel-3855da368526c286527580ee": {
+      "en": "Automation systems for store pickup and delivery",
+      "ja": "店舗受取・配送向け自動化システム"
+    },
+    "rel-38baf7d825d6361508b872f0": {
+      "en": "Merck acquired Prometheus Biosciences and its TL1A antibody and immunology pipeline",
+      "ja": "MerckがPrometheus Biosciencesを買収し、TL1A標的抗体MK-7240など免疫疾患領域の臨床パイプラインを取得。"
+    },
+    "rel-3a50b72c8c38171d4f70d7b7": {
+      "en": "Dell PowerEdge servers selected for Ericsson Cloud RAN, including XR8000 and XR5610 systems",
+      "ja": "Cloud RAN向けサーバーを提供"
+    },
+    "rel-3d1097f90640e48dbad9e2ba": {
+      "en": "Micron HBM3E for Blackwell and co-developed SOCAMM for GB300 data center systems",
+      "ja": "Blackwell向けHBM3E・SOCAMM"
+    },
+    "rel-3e80df78456488098af03512": {
+      "en": "Nebius Group becomes a wholly owned subsidiary",
+      "ja": "Nebius Groupの完全子会社"
+    },
+    "rel-3fc8d84d62525ec9ac1cff88": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-4189cd770b095089458f3347": {
+      "en": "Domestic U.S. transfers through Visa Direct",
+      "ja": "Visa Directによる米国内送金"
+    },
+    "rel-41b0f944338f12494eb9ca43": {
+      "en": "AWS selected as the preferred cloud platform for BMW’s next-generation ADAS development",
+      "ja": "次世代ADASのクラウド開発基盤"
+    },
+    "rel-4238acaeb95a4e25f786dd76": {
+      "en": "Merck and Daiichi Sankyo co-develop and commercialize three antibody-drug conjugates outside Japan; Daiichi Sankyo retains exclusive Japan rights",
+      "ja": "抗体薬物複合体3品を共同開発"
+    },
+    "rel-430d56d813fe91ec66b8a82a": {
+      "en": "Pfizer, Astellas, and Merck evaluate PADCEV plus KEYTRUDA in a clinical collaboration for untreated metastatic urothelial cancer",
+      "ja": "PADCEV・KEYTRUDA併用を共同試験"
+    },
+    "rel-4330bb60569e930aab9db1bd": {
+      "en": "Microsoft holds IP rights to OpenAI models and infrastructure, integrates them into products, and receives revenue share",
+      "ja": "モデル・基盤のIP利用と収益分配"
+    },
+    "rel-46bfe6dbbdf03321ba861614": {
+      "en": "Five-year agreement for NextEra Energy Resources and Entergy to co-develop up to 4.5 GW of solar and storage in the U.S. South",
+      "ja": "NextEra Energy ResourcesとEntergyは、米国南部で最大4.5GWの新規太陽光・蓄電プロジェクトを共同開発する5年間の契約を締結した。"
+    },
+    "rel-48f52fdef6b07ac816a6bb49": {
+      "en": "Expanded collaboration to support enterprise AI adoption",
+      "ja": "企業向けAI導入支援の協業拡張"
+    },
+    "rel-4a336e7623b5deed03fe6cba": {
+      "en": "Microsoft provides Azure AI supercomputing for Mistral model training and inference",
+      "ja": "AzureによるAIモデル学習・推論支援"
+    },
+    "rel-4d60feaca70e1d8e740ca847": {
+      "en": "Broadcom identifies Foxconn as an outsourced semiconductor assembly and test provider in FY2024",
+      "ja": "半導体の組立・テストを受託"
+    },
+    "rel-4edf069805a15451ed827374": {
+      "en": "United Airlines ordered 100 Boeing 787s, with an option for 100 more, plus 100 Boeing 737 MAX aircraft",
+      "ja": "BoeingとUnited Airlinesは787 Dreamliner 100機の確定注文と追加100機のオプション、737 MAX 100機の購入を含む大型機材契約を確定した。"
+    },
+    "rel-4f221fd5b39d8e4295f4eced": {
+      "en": "Sony Pictures grants Netflix exclusive global Pay-1 streaming rights to films after theatrical and home release, rolling out from 2026",
+      "ja": "映画の独占配信権を提供"
+    },
+    "rel-4fde9dea8cb482bc638355d4": {
+      "en": "SpaceX acquired X.AI Holdings Corp. (xAI) on February 2, 2026, in a stock transaction and made it a wholly owned subsidiary; total price not stated",
+      "ja": "xAIを買収・完全子会社化"
+    },
+    "rel-5064bbfb7389efd99cb01480": {
+      "en": "Pfizer and Astellas jointly develop and commercialize XTANDI in the United States",
+      "ja": "米国でXTANDIを共同販売"
+    },
+    "rel-52343867befb2bf35148931a": {
+      "en": "Financial advisory for the Morphic acquisition",
+      "ja": "Morphic買収の財務助言"
+    },
+    "rel-52db33727c36dae4a1c9db96": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-56154fbd6458d555ea4e1269": {
+      "en": "Multi-year Coherent agreement to make VCSEL lasers for Apple Face ID in Texas; value and end date undisclosed",
+      "ja": "Face ID向けVCSELレーザーの複数年契約"
+    },
+    "rel-56ffce1e9b11e149c3ed50c0": {
+      "en": "Air India ordered up to 290 Boeing 737 MAX, 787 Dreamliner, and 777X aircraft, plus related services",
+      "ja": "BoeingとAir Indiaは737 MAX、787 Dreamliner、777Xを合わせ最大290機と関連サービスの注文を確定した。"
+    },
+    "rel-57699a141d5ba23298393759": {
+      "en": "Progress on SoftBank’s committed investment in OpenAI",
+      "ja": "OpenAI出資の払込進捗"
+    },
+    "rel-57c534919bc466d49187f9eb": {
+      "en": "Lambda named as a planned Blackwell cloud partner; deployment unconfirmed",
+      "ja": "Blackwellクラウドの提供計画"
+    },
+    "rel-5ea60087d05c5b7b8049e178": {
+      "en": "Chevron’s planned power project with Engine No. 1 reserved production capacity for seven GE Vernova 7HA gas turbines; not confirmed delivery or operation",
+      "ja": "発電計画に7HAタービンを採用"
+    },
+    "rel-5ef4aef406c9a0e22fe5f077": {
+      "en": "ConocoPhillips acquired Concho Resources in an all-stock deal, expanding its Permian Basin assets and production base",
+      "ja": "ConocoPhillipsはConcho Resourcesを全株式取引で買収し、Permian Basinの資産規模と生産基盤を拡大した。"
+    },
+    "rel-5f77a3fa11f3bb4966c83cfd": {
+      "en": "Acquisition of VIZIO and its SmartCast platform",
+      "ja": "VIZIO・SmartCastの買収"
+    },
+    "rel-611a74a80ca6b2ecc6ff4ef2": {
+      "en": "Acquisition of POINT’s radiopharmaceutical business",
+      "ja": "POINTの放射性医薬品事業取得"
+    },
+    "rel-61eb2f777a638e2260b45d55": {
+      "en": "Acquisition of pulse oximetry and patient monitoring businesses",
+      "ja": "パルスオキシメトリ・患者監視事業の買収"
+    },
+    "rel-636f3e4f689a9bd51f5ee8aa": {
+      "en": "Acquisition of plasmid DNA and mRNA manufacturing businesses",
+      "ja": "プラスミドDNA・mRNA製造事業の買収"
+    },
+    "rel-6571d077c9e99ba45086b515": {
+      "en": "Acquisition of atherectomy technology for vascular treatment",
+      "ja": "血管治療用アテレクトミー技術の買収"
+    },
+    "rel-6575e2a22fa91487946a85f8": {
+      "en": "Investment commitment to Anthropic",
+      "ja": "Anthropicへの出資コミットメント"
+    },
+    "rel-65ffd6a857ff57460494f24b": {
+      "en": "Anthropic uses Google Cloud AI infrastructure for model training and delivery; products and contract value unspecified (as of Apr 2024)",
+      "ja": "AIモデルの学習・提供用クラウド基盤"
+    },
+    "rel-668c3757f1fe4e2e2651e365": {
+      "en": "Broadcom identifies TSMC as an outsourced semiconductor wafer fabrication, assembly, and test provider in FY2024",
+      "ja": "半導体ウエハ・組立試験を受託"
+    },
+    "rel-69052e6c7857fac2b37012e2": {
+      "en": "Uber moved parts of its app, AI, operational data, and streaming infrastructure to Oracle Cloud Infrastructure",
+      "ja": "配車・AI基盤へOCIを提供"
+    },
+    "rel-6924f10cf3c5b728f3757a2e": {
+      "en": "Anthropic and Accenture’s Faculty plan joint frontier-model evaluations, red teaming, alignment reviews, and safety tests; each expects to invest over $1 billion across five years, not a firm commitment",
+      "ja": "AnthropicとAccentureのFacultyがフロンティアAIモデルを共同評価。レッドチーム、アラインメント評価、安全策テストを実施予定。両社は5年間で各10億ドル以上を投じる見込みだが、確定コミットメント額ではない。"
+    },
+    "rel-69de96fb84bed19d38e90fc4": {
+      "en": "NextEra Energy agreed to acquire Gulf Power, Florida City Gas, and interests in the Oleander and Stanton plants from Southern Company",
+      "ja": "NextEra EnergyはSouthern CompanyからGulf Power、Florida City Gas、Oleander発電所持分、Stanton発電所持分などを取得する最終契約を締結した。"
+    },
+    "rel-6aa244aa5bfec0e00e0e243e": {
+      "en": "Analog Devices completed its acquisition of Maxim Integrated; Maxim shareholders received 0.6300 ADI shares per share",
+      "ja": "Analog DevicesがMaxim Integrated Productsの買収を完了。Maximのアナログ・ミックスドシグナル半導体と技術を取得し、株主にはMaxim株1株につきADI株0.6300株を交付。"
+    },
+    "rel-6c91d437575935bb6dd80400": {
+      "en": "Pinterest uses AWS cloud services",
+      "ja": "PinterestがAWSクラウドを利用"
+    },
+    "rel-6d961c24ce89eaf990cbc1ce": {
+      "en": "Expands existing partnership",
+      "ja": "既存の提携を拡大"
+    },
+    "rel-6e29a334c9b72cf785de62a8": {
+      "en": "Amgen acquired ChemoCentryx, including ANCA vasculitis treatment TAVNEOS",
+      "ja": "AmgenがChemoCentryxを買収し、ANCA関連血管炎治療薬TAVNEOSなどを取得。"
+    },
+    "rel-6f45970090fc73603fe406f7": {
+      "en": "AbbVie acquired Apogee Therapeutics and its antibody pipeline for inflammatory diseases",
+      "ja": "AbbVieがApogee Therapeuticsを買収し、炎症性疾患を対象とする抗体医薬パイプラインを取得。"
+    },
+    "rel-709b1676999b7884cf9448c2": {
+      "en": "Micron investment in Anthropic’s Series H round; amount undisclosed",
+      "ja": "Anthropic Series Hへの出資"
+    },
+    "rel-7129a77477fc5518d980f684": {
+      "en": "Astellas and Merck participate in the same three-party clinical collaboration evaluating PADCEV plus KEYTRUDA",
+      "ja": "PADCEV・KEYTRUDA併用を共同試験"
+    },
+    "rel-71831ef3a457362caaf267b3": {
+      "en": "Arista acquired Big Switch Networks, adding data center monitoring, SDN, and observability tools; price not confirmed in available primary sources",
+      "ja": "AristaがBig Switch Networksを取得し、CloudVisionとDANZを通じたデータセンター向けネットワーク監視、SDN、可観測性機能を強化。金額は取得可能な一次資料では確認できなかったため登録しない。"
+    },
+    "rel-718f174a712617473d9d79cb": {
+      "en": "Synopsys plans to accelerate design and simulation software on Blackwell",
+      "ja": "設計ソフトウェアのBlackwell対応"
+    },
+    "rel-71f8ac871fc7215fa0a1e901": {
+      "en": "AI21 Labs uses Google Cloud AI infrastructure for model training and delivery; products and contract value unspecified (as of Apr 2024)",
+      "ja": "AIモデルの学習・提供用クラウド基盤"
+    },
+    "rel-729343557b3c5f5e431b4854": {
+      "en": "Apple and Broadcom extend custom ASIC development and supply through 2031; separate wireless component amounts not combined",
+      "ja": "2031年までのカスタムASIC開発・供給"
+    },
+    "rel-74cf17dc8e20aa93c0b1891d": {
+      "en": "Additional investment in OpenAI",
+      "ja": "OpenAIへ追加出資"
+    },
+    "rel-77297d28f404b41d4407efaf": {
+      "en": "AMD, Cisco, and HUMAIN plan a Saudi AI infrastructure venture combining data centers, AMD GPUs, and Cisco technology",
+      "ja": "GPU・ネットワークでAI基盤を共同構築"
+    },
+    "rel-77c8b0b821bdc0dd7d9c057d": {
+      "en": "OpenAI to deploy 6 GW of AMD Instinct GPUs under a supply agreement",
+      "ja": "OpenAI向けInstinct GPUの6GW導入契約"
+    },
+    "rel-77e795db35c98a2e7dcc8958": {
+      "en": "Multi-year Corning fiber supply for Meta data centers, valued at up to $6 billion",
+      "ja": "データセンター向け光ファイバー供給"
+    },
+    "rel-7865b5bc09c12dd89d9f9a0e": {
+      "en": "BMW and Qualcomm co-develop next-generation driver assistance using Snapdragon Ride",
+      "ja": "Snapdragon RideによるADAS共同開発"
+    },
+    "rel-7893e3b8d0047339117cae8a": {
+      "en": "Develops and supplies custom ASICs",
+      "ja": "カスタムASIC等を開発・供給"
+    },
+    "rel-791735b1a60a1c6130a00dcf": {
+      "en": "Lenovo plans Blackwell-powered servers; no individual order or delivery recorded",
+      "ja": "Blackwell搭載サーバーの製品展開"
+    },
+    "rel-7a6a372adb37f5efe5570d73": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-7b1c4e0b90dc4db4823f0b17": {
+      "en": "Co-branded Costco member credit card partnership",
+      "ja": "Costco会員向け提携カード"
+    },
+    "rel-7c27f4067c93433644fbeaa5": {
+      "en": "TSMC’s custom 4NP process manufactures Blackwell GPUs; individual manufacturing fees not disclosed",
+      "ja": "Blackwell GPUの4NP製造プロセス"
+    },
+    "rel-7c6284727b5dd1a390fd1431": {
+      "en": "Claude Platform available through AWS accounts, using existing AWS authentication, billing, and monitoring",
+      "ja": "Claude PlatformのAWS経由提供"
+    },
+    "rel-7df618e8bec48d57dc27cbc5": {
+      "en": "LaNova licensed LM-299, a PD-1/VEGF bispecific antibody, to Merck worldwide; Merck leads development, manufacturing, and commercialization",
+      "ja": "LaNova MedicinesがMerckへLM-299（抗PD-1/VEGF二重特異性抗体）の独占的グローバルライセンスを供与。Merckが開発・製造・商業化を担う。"
+    },
+    "rel-805c5f4e1aaba90d4ce03fc3": {
+      "en": "OpenAI models and managed agents offered on Amazon Bedrock; individual fees and revenue share undisclosed",
+      "ja": "Bedrock上でのモデル・エージェント提供"
+    },
+    "rel-806d975a769fb2b259143ea8": {
+      "en": "European rollout of Fastlane and merchant payment services",
+      "ja": "Fastlane・加盟店決済の欧州展開"
+    },
+    "rel-81a9bee3a46160664ddcd39a": {
+      "en": "Ten-year Gilead–Arcus oncology collaboration: joint U.S. development and profit sharing, with Gilead commercialization abroad; upfront cash, equity, and contingent caps are separate",
+      "ja": "GileadとArcusが10年間のがん免疫療法共同開発・商業化契約を締結。Arcusは前払金と株式投資を受け、Gileadは臨床候補のオプトイン権を得る。米国では共同開発・利益折半、米国外ではGileadが独占商業化しロイヤルティを支払う。前払金、株式投資、マイルストーン上限、研究開発支援上限は別項目として保持。"
+    },
+    "rel-830d6527bd1fb588988f5343": {
+      "en": "Acquisition of a peripheral thrombectomy system business",
+      "ja": "末梢血栓除去システムの買収"
+    },
+    "rel-832328c6401f9ce728708a8c": {
+      "en": "Lam Research completed its acquisition of SEMSYSCO’s cleaning and plating tools for advanced packaging; terms undisclosed",
+      "ja": "先端パッケージ向け洗浄・めっき能力を持つSEMSYSCOの買収。Lam Researchは買収完了を発表し、財務条件は非開示と明記。"
+    },
+    "rel-834a22411368a7cb4e68d27c": {
+      "en": "Gilead acquired Immunomedics and its cancer portfolio, including antibody-drug conjugate Trodelvy",
+      "ja": "Gilead SciencesがImmunomedicsを買収し、抗体薬物複合体Trodelvyを含むがん領域の事業を取得。"
+    },
+    "rel-83616632f553874f56bf7d3f": {
+      "en": "Ansys plans to accelerate design and simulation software on Blackwell",
+      "ja": "設計ソフトウェアのBlackwell対応"
+    },
+    "rel-841d512b85fddf05deec3723": {
+      "en": "Micron LPDDR5X memory integrated into NVIDIA DRIVE AGX Orin for automotive platforms; amount undisclosed",
+      "ja": "MicronのLPDDR5XメモリをNVIDIA DRIVE AGX Orinへ統合。自動車向けプラットフォームのエコシステム協業として発表。金額は非公表。"
+    },
+    "rel-851cad8630a0f3dc53b35e67": {
+      "en": "Tesla named as a planned Blackwell adopter; no order or delivery confirmed",
+      "ja": "Blackwell採用予定企業として公表"
+    },
+    "rel-88d638e4dc7e8339261329e4": {
+      "en": "Goldman Sachs agreed to acquire GreenSky’s point-of-sale home improvement lending platform for Marcus",
+      "ja": "Goldman SachsがGreenSkyの買収契約を締結。住宅改修向けPOS融資プラットフォームと加盟店・消費者向け融資機能をMarcusの消費者金融事業へ加える計画。"
+    },
+    "rel-893537b62c6fcbb12218e592": {
+      "en": "Joint development of NVIDIA’s Project Ceiba AI research system",
+      "ja": "Project Ceibaの共同開発"
+    },
+    "rel-89bb4437a2dce822962b1af9": {
+      "en": "Johnson & Johnson acquired Halda Therapeutics’ RIPTAC platform and clinical-stage programs, including an oral prostate cancer candidate",
+      "ja": "Johnson & JohnsonがHalda TherapeuticsのRIPTAC標的薬プラットフォームを買収。発表は前立腺がん向け経口治療候補を含む臨床段階の事業と説明。"
+    },
+    "rel-89e323e26e5b0b508ed85229": {
+      "en": "Broadcom identifies ASE as an outsourced semiconductor assembly and test provider in FY2024",
+      "ja": "半導体の組立・テストを受託"
+    },
+    "rel-89f149adac793294bb2ce7b0": {
+      "en": "Broadcom identifies Siliconware as an outsourced semiconductor assembly and test provider in FY2024",
+      "ja": "半導体の組立・テストを受託"
+    },
+    "rel-89f5fa49dfb8d882c9692dae": {
+      "en": "Acquisition of Morphic’s oral IBD drug business",
+      "ja": "Morphicの経口IBD治療薬事業取得"
+    },
+    "rel-8a7de7110945b35cf39866dc": {
+      "en": "Dell adopted Nokia Digital Automation Cloud for private wireless and plans integration with Dell NativeEdge",
+      "ja": "プライベート5GをNativeEdgeと統合"
+    },
+    "rel-8b214788326480d747629f53": {
+      "en": "HBM3E selected for AMD Instinct MI350 accelerators",
+      "ja": "Instinct MI350向けHBM3Eの採用"
+    },
+    "rel-8c6740437dd02f1b4370a05e": {
+      "en": "Deutsche Bank is moving core databases to Oracle Exadata Cloud@Customer under a multi-year collaboration",
+      "ja": "銀行の基幹DBをクラウド化"
+    },
+    "rel-8cc6e4312d83af08b0b39611": {
+      "en": "Sovereign AI selected Palantir and Accenture for planned EMEA AI data centers; Palantir software is intended to manage critical infrastructure",
+      "ja": "AIデータセンター運用ソフトを提供"
+    },
+    "rel-8f428b09a0e367a1851af394": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-90386165092f7ec23315b2a0": {
+      "en": "Chevron U.S.A. and Engine No. 1 plan a joint venture to develop up to 4 GW of natural gas power for U.S. data centers",
+      "ja": "データセンター併設発電を共同開発"
+    },
+    "rel-904040c303f1daf93003c990": {
+      "en": "Acquisition of OxyChem’s chemicals business completed",
+      "ja": "OxyChem化学品事業の取得完了"
+    },
+    "rel-90be8f403b1ef23fff83a3f4": {
+      "en": "GE Vernova contracted to upgrade three GT26 gas turbines at Uniper’s Grain power station, with work planned from 2026",
+      "ja": "発電所のガスタービン3基を更新"
+    },
+    "rel-91f0a3e2eaf94ec9c9d636b7": {
+      "en": "Five-year GPU infrastructure agreement with phased delivery",
+      "ja": "GPU基盤の5年契約・段階的引渡し"
+    },
+    "rel-92109d86b7f144a48593e708": {
+      "en": "AbbVie acquired Capstan’s in-vivo CAR-T candidate and RNA delivery platform; announced cash consideration was up to $2.1 billion, subject to customary adjustments",
+      "ja": "AbbVieがCapstan Therapeuticsを買収し、自己免疫疾患向けin vivo抗CD19 CAR-T候補とRNA送達用tLNPプラットフォームを取得。発表時に示された最大21億ドルの現金対価は慣例的調整付きで、完了時の最終支払額は確認できていない。"
+    },
+    "rel-933b5dc3808a901ba3c13996": {
+      "en": "Arista acquired Awake Security and added its network detection and response platform",
+      "ja": "AristaがAwake Securityの全株式を取得。ネットワーク検知・対応（NDR）プラットフォームを製品群に加え、AIと人の専門性を組み合わせた脅威検知・対応機能を拡張。"
+    },
+    "rel-934d1c78a49763b55077c9b5": {
+      "en": "Lockheed Martin acquired Sikorsky from United Technologies and integrated its military and commercial helicopter business",
+      "ja": "Lockheed MartinはUnited TechnologiesからSikorsky Aircraftを買収し、軍用・民間ヘリコプター事業をLockheed Martinへ統合した。"
+    },
+    "rel-94dfb74b26088351048d83f6": {
+      "en": "Advance investment in the SB Energy business",
+      "ja": "SB Energy事業への前払出資"
+    },
+    "rel-96244cb894231a8327a29d15": {
+      "en": "Cisco plans Blackwell-powered servers; no individual order or delivery recorded",
+      "ja": "Blackwell搭載サーバーの製品展開"
+    },
+    "rel-96fcddfc115dc25b9cc754cf": {
+      "en": "Samsung plans new semiconductor manufacturing technology at its Austin plant for Apple products",
+      "ja": "Austin工場で新しい半導体製造技術を導入"
+    },
+    "rel-979519b461ccef0644a11927": {
+      "en": "Morgan Stanley agreed to acquire Solium Capital’s software for stock plans and employee share programs, subject to approvals",
+      "ja": "Morgan StanleyがSolium Capitalの買収契約を締結。株式報酬・従業員持株制度の記録管理SaaSを取得する計画で、株主承認等を条件としていた。"
+    },
+    "rel-97df4097d9e031d99b91203b": {
+      "en": "Planned GB200 deployment across Microsoft Azure data centers",
+      "ja": "Azure基盤へのGB200導入計画"
+    },
+    "rel-981a4b02d05f0f2abac80aef": {
+      "en": "Marvell acquired all shares of Innovium, adding cloud and edge data center switch products",
+      "ja": "MarvellがInnoviumを全株取得し、cloud/edgeデータセンター向けネットワークスイッチ製品を取り込んだ。全株式取引。"
+    },
+    "rel-99e370033be8aedbfaecc8a1": {
+      "en": "ConocoPhillips acquired Marathon Oil in an all-stock transaction, adding U.S. low-cost resources and LNG-related assets",
+      "ja": "ConocoPhillipsはMarathon Oilを全株式取引で買収し、米国内の低コスト供給資源とLNG事業に関係する資産を拡充した。"
+    },
+    "rel-9b3dcc0632852bcbbf3fcd8e": {
+      "en": "GE Vernova acquired Xignux’s remaining 50% stake in Prolec GE and integrated it into its Electrification business",
+      "ja": "GE VernovaはXignuxとの旧合弁会社Prolec GEの残余50%持分を取得し、Prolec GEをGE VernovaのElectrification事業へ統合した。"
+    },
+    "rel-9b4a35fa0134b4c8b4045815": {
+      "en": "HPE plans Blackwell-powered servers; no individual order or delivery recorded",
+      "ja": "Blackwell搭載サーバーの製品展開"
+    },
+    "rel-9b4c87d4c090edb714aada7d": {
+      "en": "Pfizer and Arvinas jointly develop and commercialize breast cancer candidate vepdegestrant worldwide",
+      "ja": "乳がん候補薬を共同開発"
+    },
+    "rel-9be2cf84ad4c9c15185a1e63": {
+      "en": "Jointly develops AI accelerators",
+      "ja": "AIアクセラレーターを共同開発"
+    },
+    "rel-9c76e24118116ba56eecb571": {
+      "en": "Contingent warrant tied to GPU purchases and other conditions",
+      "ja": "GPU購入等に連動する条件付きワラント"
+    },
+    "rel-9dbdfa83d85f04c8aaccc508": {
+      "en": "SB Energy to build and operate a data center leased to OpenAI for 20 years; planned capacity is 8 IT GW, with value undisclosed",
+      "ja": "SB Energyがデータセンターを建設・保有・運営し、OpenAIへ20年リース。OpenAIは当該施設の顧客となり、発表上の計画容量は8 IT-GW。金額は非公表。"
+    },
+    "rel-9f3036af0186bf949a3d348a": {
+      "en": "Joint rollout of AI smart glasses",
+      "ja": "AIスマートグラスの共同展開"
+    },
+    "rel-a0258e6142d7449b1b17183b": {
+      "en": "Crusoe named as a planned Blackwell cloud partner; deployment unconfirmed",
+      "ja": "Blackwellクラウドの提供計画"
+    },
+    "rel-a310372f9f34e67c96742c4c": {
+      "en": "Deere acquired a majority stake in Kreisel Electric, with call and put options for the remaining stake in 2027",
+      "ja": "Deere & Companyは高密度バッテリー技術を開発するKreisel Electricの過半持分を取得し、残余持分について2027年のコール・プットオプションを設定した。"
+    },
+    "rel-a51950fcf48ba60caacb000c": {
+      "en": "Cisco Room Series and Samsung Smart Signage combined for Microsoft Teams Rooms Front Row meeting spaces",
+      "ja": "会議端末と大型ディスプレイを統合"
+    },
+    "rel-a54e7c7f287bb4436f3b3443": {
+      "en": "Apple and GlobalFoundries expand U.S. chipmaking for wireless connectivity and power management",
+      "ja": "無線接続・電力管理用半導体の製造拡大"
+    },
+    "rel-a73c10631f38b2b8932d8f76": {
+      "en": "ExxonMobil acquired Pioneer Natural Resources in a stock transaction, adding Permian Basin upstream assets",
+      "ja": "ExxonMobilはPioneer Natural Resourcesを株式交換で買収し、Permian Basinを中心とするPioneerの上流資産をExxonMobilの事業へ統合した。"
+    },
+    "rel-a8dda407caa0922f32977214": {
+      "en": "Computershare acquired Wells Fargo’s corporate trust assets and about 2,000 employees; Wells Fargo as a whole was not acquired",
+      "ja": "ComputershareがWells Fargo Corporate Trust Servicesの資産を取得し、米国のコーポレートトラスト事業と約2,000人の従業員を引き継いだ。取得対象はWells Fargo全社ではない。"
+    },
+    "rel-aa12ab044b579fd788746c7e": {
+      "en": "Acquisition of healthcare workflow and payment technology businesses",
+      "ja": "医療業務・決済技術事業の買収"
+    },
+    "rel-aa47d9d867a4733fe6fae8ee": {
+      "en": "Amgen acquired Dark Blue Therapeutics and its MLLT1/3-targeting protein degrader program for acute myeloid leukemia",
+      "ja": "AmgenがDark Blue Therapeuticsを買収し、MLLT1/3を標的とする急性骨髄性白血病向けタンパク質分解薬プログラムを取得。"
+    },
+    "rel-ab32a7a1b166a5d00b26c14c": {
+      "en": "AWS and Anthropic extend their cloud commitment by over $100 billion over ten years, including an AWS chip performance obligation",
+      "ja": "AWS計算基盤契約の追加コミットメント"
+    },
+    "rel-acf561f7e5d4d36320850559": {
+      "en": "Collins Aerospace will supply wheels and brakes and 15 years of lifecycle support for 103 new Avianca A320neo aircraft",
+      "ja": "Collins AerospaceはAviancaの新規A320neo 103機向けに車輪・ブレーキを供給し、15年間のライフサイクルサポートを提供する契約を獲得した。"
+    },
+    "rel-ad5f7ebbe6c9af85db9f00a0": {
+      "en": "Palo Alto Networks completed its acquisition of Talon Cyber Security and added enterprise browser technology to Prisma SASE",
+      "ja": "Palo Alto NetworksがTalon Cyber Securityの買収を完了し、enterprise browser技術を取得。個人端末・非管理端末から企業アプリへ安全にアクセスする機能をPrisma SASEへ加える。"
+    },
+    "rel-ad97c4534214e19743408c3b": {
+      "en": "Semiconductor process and mixed-signal collaboration",
+      "ja": "半導体プロセス・混合信号技術で協業"
+    },
+    "rel-af59954a1c35c9beb8bb51a6": {
+      "en": "Raytheon acquired Blue Canyon Technologies and integrated its small spacecraft systems into Raytheon Intelligence & Space",
+      "ja": "Raytheon Technologiesは小型衛星・宇宙機システムを手掛けるBlue Canyon Technologiesを買収し、Raytheon Intelligence & Space部門へ組み込んだ。"
+    },
+    "rel-af80fad8b38e828b72c66b74": {
+      "en": "Ryanair agreed to buy up to 300 Boeing 737-10s: 150 firm orders and 150 options",
+      "ja": "BoeingとRyanairは737-10を最大300機購入する契約を発表し、確定150機とオプション150機で構成した。"
+    },
+    "rel-afd379cf3bc32a8b61ff2b59": {
+      "en": "Uber Eats delivery expanded to 47 U.S. states",
+      "ja": "Uber Eats配送を米国47州へ拡大"
+    },
+    "rel-b1155ffed44e7bba2bffc27b": {
+      "en": "Additional convertible note investment in 2024",
+      "ja": "2024年追加転換債投資"
+    },
+    "rel-b14a64fdabf6b0b449b1b74f": {
+      "en": "CATL to supply lithium-ion battery cells",
+      "ja": "CATLによるリチウムイオン電池セル供給"
+    },
+    "rel-b3fc1326d50f92faeb8a28c8": {
+      "en": "Amgen acquired Horizon Therapeutics and its rare disease and inflammation medicines",
+      "ja": "AmgenがHorizon Therapeuticsを買収し、希少疾患・炎症領域の医薬品事業を取得。"
+    },
+    "rel-b4481f1fa976d8bd5c68acf0": {
+      "en": "Red Hat OpenShift AI supports AMD Instinct GPUs; the companies validated AI inference on Azure ND MI300X",
+      "ja": "OpenShift AIのInstinct対応・AI推論検証"
+    },
+    "rel-b86e96914ddac53a8f3b4b42": {
+      "en": "Acquisition of LHC Group",
+      "ja": "LHC Groupの買収"
+    },
+    "rel-b9e3ccbd9119e84b9daac2e9": {
+      "en": "AbbVie acquired ImmunoGen, adding ovarian cancer drug ELAHERE and next-generation antibody-drug conjugates",
+      "ja": "AbbVieがImmunoGenを買収し、卵巣がん治療薬ELAHEREと次世代抗体薬物複合体パイプラインを取得。完了発表は買収総額を再提示していない。"
+    },
+    "rel-ba6df60fb97bfab90fe9ea1c": {
+      "en": "Applied Digital named as a planned Blackwell cloud partner; deployment unconfirmed",
+      "ja": "Blackwellクラウドの提供計画"
+    },
+    "rel-bb3b2db574214c2911e0b475": {
+      "en": "GE Vernova acquired all assets of Woodward’s large gas turbine combustion parts business at its Greenville site",
+      "ja": "GE VernovaはWoodwardのサウスカロライナ州Greenville拠点に関連する大型ガスタービン燃焼部品事業の全資産を取得した。"
+    },
+    "rel-bb67dda3496d8e5ff52b017f": {
+      "en": "Amgen acquired Teneobio’s multispecific antibody technology and pipeline, including TNB-585",
+      "ja": "AmgenがTeneobioの全発行済株式を取得。二重・多重特異性抗体技術とTNB-585を含む医薬品パイプラインを取得。"
+    },
+    "rel-bcbf7c43661d2a75469ae4d4": {
+      "en": "Acquisition of GE’s biopharma business, later named Cytiva",
+      "ja": "GEのBiopharma事業買収（Cytiva）"
+    },
+    "rel-bee78c918bf368c41490d508": {
+      "en": "Daiichi Sankyo and AstraZeneca co-develop and commercialize ENHERTU and datopotamab deruxtecan worldwide",
+      "ja": "ENHERTU・Dato-DXdを共同開発"
+    },
+    "rel-bf21d9ab114700d0ea7387c2": {
+      "en": "Boeing acquired Spirit AeroSystems in an all-stock deal, bringing major aircraft structures manufacturing back in-house",
+      "ja": "BoeingはSpirit AeroSystemsを全株式取引で買収し、主要な航空機構造部品の製造をBoeingへ再統合した。"
+    },
+    "rel-bfa33e2997da0509842ae255": {
+      "en": "Nokia selected Dell as a preferred infrastructure partner to help AirFrame customers migrate to PowerEdge servers",
+      "ja": "通信クラウド向けサーバーへ移行"
+    },
+    "rel-bfda5a99d83ecf25669cbefc": {
+      "en": "Netflix selected Microsoft for ad technology and sales when launching its ad-supported plan in 2022; current exclusivity is not established",
+      "ja": "広告配信技術・広告販売を提供"
+    },
+    "rel-c0b6b342bb2b69a1ce56e655": {
+      "en": "Goldman Sachs agreed to acquire United Capital, adding wealth advice and open-architecture investment solutions",
+      "ja": "Goldman Sachsが独立系RIA向けウェルスマネジメント会社United Capitalを現金で取得する契約を締結。顧客向け助言とオープンアーキテクチャの運用ソリューションを追加する計画。"
+    },
+    "rel-c22cd889ab03f2667df2868e": {
+      "en": "Safran acquired Collins Aerospace’s flight control and actuation business from RTX and integrated it into Safran Electronics & Defense",
+      "ja": "SafranはRTX傘下Collins Aerospaceのフライトコントロール・アクチュエーション事業を買収し、Safran Electronics & Defenseへ統合した。"
+    },
+    "rel-c5717ff3279ebb3a208bb65c": {
+      "en": "GE Vernova supports AWS data center expansion; AWS supports GE Vernova’s cloud migration and digital and generative AI work",
+      "ja": "GE VernovaとAmazon Web Servicesは、AWSのデータセンター拡張をGE Vernovaの発電・電化・コンサルティングで支援し、AWSがGE Vernovaのクラウド移行とデジタル・生成AI活用を支援する戦略的枠組み契約を締結した。"
+    },
+    "rel-c580f43a1827099e62dc4a51": {
+      "en": "Mastercard acquired Finicity’s real-time financial data and API business; its filing separates cash consideration from contingent additional payments",
+      "ja": "Mastercardがオープンバンキング事業者Finicityを買収し、銀行・融資・資産管理向けのリアルタイム金融データ接続とAPI機能を取得。年次報告書は現金対価と売上目標達成後の追加対価を分けて記載。"
+    },
+    "rel-c5d8ea2b37f4b95db9a53a4c": {
+      "en": "Acquisition of a smart insulin management business",
+      "ja": "スマートインスリン管理事業の買収"
+    },
+    "rel-c716a112ddca6d34cb9e4a09": {
+      "en": "Microsoft’s $13 billion OpenAI investment commitment, $11.9 billion paid by June-end, and approximately 25% converted stake",
+      "ja": "OpenAIへの資金コミットメントと払込状況"
+    },
+    "rel-cf2b671b40e7fac0fe9b21ea": {
+      "en": "Goldman Sachs acquired NN Investment Partners, adding over 900 employees and European asset management and ESG capabilities",
+      "ja": "Goldman SachsがNN GroupからNN Investment Partnersを取得し、900人超の社員と欧州の資産運用事業・ESG投資能力をGoldman Sachs Asset Managementへ統合。"
+    },
+    "rel-cf4bf93cd68aa208cc0b177d": {
+      "en": "CoreWeave named as a planned Blackwell cloud partner; deployment unconfirmed",
+      "ja": "Blackwellクラウドの提供計画"
+    },
+    "rel-d1709d5433048767799bb043": {
+      "en": "Contextual AI uses Google Cloud AI infrastructure for model training and delivery; products and contract value unspecified (as of Apr 2024)",
+      "ja": "AIモデルの学習・提供用クラウド基盤"
+    },
+    "rel-d1ecb4a01b2a344bfcf674fb": {
+      "en": "Acquisition of antibody, reagent, and research consumables businesses",
+      "ja": "抗体・試薬・研究用消耗品事業の買収"
+    },
+    "rel-d280a1e9a8109e320fa8c1ef": {
+      "en": "Contingent warrant tied to GPU purchases and other conditions",
+      "ja": "GPU購入等に連動する条件付きワラント"
+    },
+    "rel-d2b2e96a1270019799251912": {
+      "en": "Google completed its Wiz acquisition for adjusted consideration of $29.5 billion, excluding post-acquisition compensation",
+      "ja": "Wiz買収の調整後取得対価"
+    },
+    "rel-d3082b9214c6b6945d6fadca": {
+      "en": "Provides AI compute infrastructure to OpenAI",
+      "ja": "OpenAI向けAI計算基盤を提供"
+    },
+    "rel-d3e4d64cb3e206074b6b4dae": {
+      "en": "Acquisition of DaVita Medical Group",
+      "ja": "DaVita Medical Group事業の買収"
+    },
+    "rel-d4a0a3f5715c51a8d104be79": {
+      "en": "Multi-year AMD Instinct GPU deployment for Meta AI; 6 GW is capacity, not contract value",
+      "ja": "AMD Instinct GPUの複数年導入"
+    },
+    "rel-d55d4e59970fa5d441457458": {
+      "en": "Morgan Stanley and Citi planned to combine wealth businesses in a joint venture owned 51% by Morgan Stanley and 49% by Citi",
+      "ja": "Morgan StanleyとCitiはGlobal Wealth ManagementとSmith Barney等をMorgan Stanley Smith Barney合弁会社に統合する契約を締結。Morgan Stanleyは51%、Citiは49%を保有する設計だった。"
+    },
+    "rel-d5fc92e82f48fd3deaeb77b0": {
+      "en": "Marvell acquired Inphi for cash and stock, adding high-speed data movement and optical interconnect technology",
+      "ja": "MarvellがInphiを現金と株式で買収し、高速データ移動・光インターコネクト技術を取得。"
+    },
+    "rel-d6862887c33e0533897cf789": {
+      "en": "Palantir AIP supports L3Harris digital transformation and U.S. Army TITAN work, combining both companies’ sensors, radio, and AI technologies",
+      "ja": "Palantir AIPをL3Harris社内のデジタル変革に活用し、米陸軍TITAN等で協業。両社のセンサー・無線技術とAIを統合して開発・実証する。"
+    },
+    "rel-d9e09b6257a63988131211be": {
+      "en": "Pratt & Whitney and Delta expanded GTF engine overhaul capacity at Delta TechOps in Atlanta",
+      "ja": "Pratt & WhitneyとDelta Air Linesは、Delta TechOpsのAtlanta拠点でGTFエンジンのオーバーホール能力を拡大する契約を締結した。"
+    },
+    "rel-db4aca7911ae681f297a394c": {
+      "en": "Deere acquired autonomous tractor developer Bear Flag Robotics and integrated it into its precision agriculture business",
+      "ja": "Deere & Companyは自律走行トラクター技術を開発するBear Flag Roboticsを買収し、Production and Precision Agriculture部門へ組み込んだ。"
+    },
+    "rel-dd794e17a1bb66e5a3d22e3c": {
+      "en": "Investment commitment to Anthropic",
+      "ja": "Anthropicへの出資コミットメント"
+    },
+    "rel-dd81fd2f32b715d353d46e12": {
+      "en": "Charles Schwab completed its acquisition of USAA-IMCO assets and became the exclusive long-term wealth and brokerage provider for USAA members",
+      "ja": "Charles SchwabがUSAA-IMCOの資産取得を完了し、USAA会員向けウェルスマネジメント・投資ブローカレッジの独占提供者となる長期紹介契約も結んだ。"
+    },
+    "rel-ddf8bf47de5ba37f9e7c0c8b": {
+      "en": "Acquisition of homebuilder Taylor Morrison completed",
+      "ja": "住宅建設会社Taylor Morrisonの買収完了"
+    },
+    "rel-de7d4d313ec9c3b76d65f5f0": {
+      "en": "Deere acquired Blue River Technology, a developer of computer vision and machine learning for agriculture",
+      "ja": "Deere & Companyはコンピュータビジョンと機械学習を農業へ応用するBlue River Technologyを買収した。"
+    },
+    "rel-dec3a9c50b1d05615f6a17b4": {
+      "en": "Visa and AWS collaborate on agentic payments using Visa Intelligent Commerce and Amazon Bedrock AgentCore",
+      "ja": "AIエージェント決済を共同開発"
+    },
+    "rel-df7df426425d2e51bfa4ec0e": {
+      "en": "Planned Blackwell deployment on Google Cloud",
+      "ja": "Google CloudへのBlackwell導入計画"
+    },
+    "rel-e034040a21765633a2b51199": {
+      "en": "Deployment of Azure and Microsoft 365",
+      "ja": "Azure・Microsoft 365導入"
+    },
+    "rel-e1a79bc20a2ca2dd7f2b3d5d": {
+      "en": "Apple and Corning expand cover-glass manufacturing and joint research for iPhone and Apple Watch",
+      "ja": "iPhone・Watch向けガラス製造と共同研究"
+    },
+    "rel-e2898651f9dce1b13e467dc0": {
+      "en": "Participates in Apple’s U.S. manufacturing program",
+      "ja": "Appleの米国製造プログラムに参加"
+    },
+    "rel-e3a926dc98539d5a85d9b0d7": {
+      "en": "AT&T IoT connectivity and network APIs integrated into Oracle’s Enterprise Communications Platform",
+      "ja": "IoT回線・ネットワークAPIを提供"
+    },
+    "rel-e4aeb3770a0ec947e2269328": {
+      "en": "Mistral models distributed through Azure AI Studio and Azure Machine Learning catalogs",
+      "ja": "Azure経由のMistralモデル販売・提供"
+    },
+    "rel-e4fdc47f33ba7052a08f89c9": {
+      "en": "Micron adopts Claude for development, manufacturing, and internal work; service fees undisclosed",
+      "ja": "Claudeの社内業務導入"
+    },
+    "rel-e61dc127ed9040a1862a634c": {
+      "en": "ExxonMobil acquired Denbury, adding its U.S. CO2 pipeline network and carbon capture and storage assets",
+      "ja": "ExxonMobilはDenburyを全株式取引で買収し、米国最大級のCO2パイプライン網とCCS向け資産を取り込んだ。"
+    },
+    "rel-e6632315ef3dbe91b18569ac": {
+      "en": "Joint development of electric vehicles for last-mile delivery",
+      "ja": "ラストマイル配送用EVの共同開発"
+    },
+    "rel-e78d90a429de9941f5836acc": {
+      "en": "Cadence plans to accelerate design and simulation software on Blackwell",
+      "ja": "設計ソフトウェアのBlackwell対応"
+    },
+    "rel-e905ff98be4f8d27fbda2b10": {
+      "en": "Essential AI uses Google Cloud AI infrastructure for model training and delivery; products and contract value unspecified (as of Apr 2024)",
+      "ja": "AIモデルの学習・提供用クラウド基盤"
+    },
+    "rel-eaa18edef9572085f2c69006": {
+      "en": "Joint development of CXL memory expansion modules",
+      "ja": "CXLメモリー拡張モジュールの共同開発"
+    },
+    "rel-ed5ba08383370100dec2a0e7": {
+      "en": "WWE, a TKO subsidiary, licensed Raw and other WWE programming to Netflix; the 10-year deal includes an exit option after five years",
+      "ja": "WWE Rawの独占配信権を提供"
+    },
+    "rel-ed5dab3bf425194454424137": {
+      "en": "AMD, Cisco, and HUMAIN plan a Saudi AI infrastructure venture combining data centers, AMD GPUs, and Cisco technology",
+      "ja": "GPU・ネットワークでAI基盤を共同構築"
+    },
+    "rel-ed7fb2b7baf1285017f182e8": {
+      "en": "Cash consideration and contingent additional payments for the Verve acquisition",
+      "ja": "Verve買収の現金対価と条件付き追加対価"
+    },
+    "rel-f0227fe08b108fbea5840b67": {
+      "en": "Employee AI certification and training program",
+      "ja": "従業員向けAI認定・研修プログラム"
+    },
+    "rel-f1531c1c768cb62ef861572b": {
+      "en": "Meta funds two planned Natrium reactors and receives rights to power from up to six more; not yet supplying power",
+      "ja": "Natrium原子炉の開発支援・電力権利"
+    },
+    "rel-f195c0a88113d682d625afa9": {
+      "en": "Dell plans Blackwell-powered servers; no individual order or delivery recorded",
+      "ja": "Blackwell搭載サーバーの製品展開"
+    },
+    "rel-f1bdec1292b3ac4904bc9e90": {
+      "en": "Gemini and Agentforce integration with cloud infrastructure",
+      "ja": "Gemini・Agentforceとクラウド基盤の連携"
+    },
+    "rel-f1d9241d2753001d0046d304": {
+      "en": "Transfer of the Apple Card issuing business",
+      "ja": "Apple Cardの発行事業移行"
+    },
+    "rel-f328d2228cc9b431091f393f": {
+      "en": "Micron to supply memory and storage for Anthropic AI data centers; price and committed volume undisclosed",
+      "ja": "AIメモリー・ストレージ供給契約"
+    },
+    "rel-f348beaac7b09852594df48b": {
+      "en": "ChatGPT integration into Siri and Apple Writing Tools",
+      "ja": "Siri・Writing ToolsへのChatGPT統合"
+    },
+    "rel-f3934e147c2adcd7657378fc": {
+      "en": "ConocoPhillips acquired TotalEnergies’ remaining 50% stake in Surmont, taking full ownership of the oil sands operation",
+      "ja": "ConocoPhillipsはTotalEnergies EP CanadaからSurmontオイルサンド事業の残余50%持分を取得し、同事業を100%保有する体制に移行した。"
+    },
+    "rel-f4780b88ad8c09b931cf235a": {
+      "en": "Texas Instruments named as an initial participant in Apple’s U.S. manufacturing program; individual contract value not stated",
+      "ja": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。"
+    },
+    "rel-f6b6987e9cdc0f35fabbd9ee": {
+      "en": "Panasonic to supply lithium-ion battery cells",
+      "ja": "Panasonicによるリチウムイオン電池セル供給"
+    },
+    "rel-f949eed96d030bad576f4532": {
+      "en": "Framework for Duke Energy to procure up to 11 GE Vernova 7HA gas turbines and related equipment",
+      "ja": "GE VernovaとDuke Energyは、Dukeが最大11基のGE Vernova製7HAガスタービンと関連機器を調達できる枠組みを発表した。"
+    },
+    "rel-f965278a9701b5e9fb0dd9fa": {
+      "en": "Acquisition of an investigational drug for immune and inflammatory diseases",
+      "ja": "免疫炎症疾患向け開発薬の買収"
+    },
+    "rel-fc67e361c4fbb132ed98cd83": {
+      "en": "VMware acquisition completed",
+      "ja": "VMware買収の完了"
+    },
+    "rel-fcf208fb782c7b7c3136fe14": {
+      "en": "Ten-year LSEG–Microsoft partnership for data, analytics, and cloud infrastructure, with a Microsoft equity investment",
+      "ja": "LSEGとMicrosoftがデータ・分析・クラウド基盤で10年間の戦略提携を開始。Microsoftは株式取得を通じてLSEGに出資。"
+    },
+    "rel-fe2fd87b5d0755df1471feb9": {
+      "en": "Morgan Stanley agreed to acquire E*TRADE’s online brokerage, self-directed investing, and stock plan businesses",
+      "ja": "Morgan StanleyがE*TRADEの買収契約を締結し、オンライン証券、セルフディレクテッド投資、株式報酬プランをウェルスマネジメントへ統合する計画を発表。"
+    },
+    "rel-ff599da661651ecd7e43fa0f": {
+      "en": "Palantir and Accenture formed a business group to help enterprises integrate data and transform operations using Foundry and AIP",
+      "ja": "企業向けAI導入を共同支援"
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "enterprise_ai",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nebius",
+      "country": null,
+      "display_name": "Nebius",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-08",
+      "listing_status_source": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+          "symbol": "NBIS",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "data_center_cloud",
+        "gpu_compute"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-nebius-inc",
+      "country": null,
+      "display_name": "Nebius, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "data_center_cloud",
+        "gpu_compute"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-nebius-inc",
+    "country": null,
+    "display_name": "Nebius, Inc.",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "data_center_cloud",
+      "gpu_compute"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-79446d6a3466c15936c93b93"
+        ],
+        "geography": "",
+        "headline": "Nebius Groupの完全子会社",
+        "products": [
+          "GPUサービス事業"
+        ],
+        "scale": "",
+        "source_role": "子会社・契約主体",
+        "target_role": "上場親会社"
+      },
+      "description": "MicrosoftとのGPUサービス契約の締結主体Nebius, Inc.は、上場親会社Nebius Groupの完全子会社。親会社と契約当事者を分けて表示。",
+      "direction": "directed",
+      "event_date": "2025-09-08",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:11+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3e80df78456488098af03512",
+      "relationship_type": "group_member",
+      "source_company_id": "co-nebius-inc",
+      "status_as_of": "2025-09-08",
+      "target_company_id": "co-nebius",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-ad58ef493510cc0c261f6672",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$17.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "GPUの展開・利用可能性の条件を満たした場合の基本契約額",
+          "value": "17400000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-dafa60489935a399dfe66656",
+          "amount_kind": "potential_expansion",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$19.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "追加サービス・容量を購入した場合の総額。基本額と足し合わせない。",
+          "value": "19400000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-f49bee8d697f19fbb063aa5b",
+          "evidence-6ca9b4b38d8a795ae1316c39",
+          "evidence-f54260078c8a9d4bf2d1ef82",
+          "evidence-fde4f68b3658649eb858d4a2",
+          "evidence-565eb49bcd3091e4475154e6",
+          "evidence-0d9bb5ccd1fc65bf3b25e412",
+          "evidence-a6e0f1e34a6be7b21ad27b24",
+          "evidence-49ec40f48cdc9a70ee2094d0",
+          "evidence-d4643519e744b27c41500f6f",
+          "evidence-dec80a373decd2246692fb57"
+        ],
+        "geography": "米国・New Jersey",
+        "headline": "GPU基盤の5年契約・段階的引渡し",
+        "products": [
+          "専用GPU基盤"
+        ],
+        "scale": "",
+        "source_role": "GPUサービス提供",
+        "target_role": "計算能力購入"
+      },
+      "description": "Nebius, Inc.がMicrosoft向けGPU基盤をNew Jerseyで提供する5年契約。基本約174億米ドル、追加容量を購入した場合は総額約194億米ドル。2031年までの提供予定で、引渡し・利用可能性などの条件付き。",
+      "direction": "directed",
+      "event_date": "2025-09-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T06:22:28+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-91f0a3e2eaf94ec9c9d636b7",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-nebius-inc",
+      "status_as_of": "2025-09-08",
+      "target_company_id": "co-msft",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "conditional",
+        "not_total",
+        "unsupported_kind"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-09-08"
+  ],
+  "total_counterparties": 2,
+  "total_peer_relationships": 0,
+  "total_relationships": 2
+}

@@ -8,7 +8,7 @@ from .config import settings, universe
 from .validation import validate_master, ID
 from .tiers import APPROVED, rating
 
-EXPORT_VERSION='1.5.1'
+EXPORT_VERSION='1.5.2'
 
 THEME_SIGNALS={
     'ai_models':r'\b(?:AI models?|artificial intelligence|generative AI|LLM|Claude|GPT)\b|生成AI|人工知能',
@@ -82,7 +82,6 @@ def export(root=ROOT, allow_removal=False):
         assigned=theme_catalog.get('company_themes',{}).get(company['company_id'],[])
         if any(theme not in theme_names for theme in assigned):raise ValueError('Unknown company theme: '+company['company_id'])
         company['themes']=assigned
-    cov=coverage(root,cfg,master,data)
     dest=root/'output_json/relationships'; previous=read(dest/'latest.json',{})
     pending=sum(r['verification'] in ('candidate','needs_review') for r in master['relationships'])
     if pending>cfg['max_candidates_per_run']:raise ValueError('Review queue exceeds configured ceiling; publication held')
@@ -91,7 +90,19 @@ def export(root=ROOT, allow_removal=False):
         old_count=old['relationship_count']
         if old_count and len(data['relationships'])<old_count*(1-cfg['max_removal_fraction']) and not allow_removal:
             raise ValueError('Abnormal relationship removal; keep previous build. Review and use --allow-removal explicitly.')
-    build=digest({'export_version':EXPORT_VERSION,'data':data,'coverage':cov,'tiers':cfg['tiers'],'limits':[cfg['initial_nodes'],cfg['expanded_nodes']]})[:24]
+    relationship_ids={r['relationship_id'] for r in data['relationships']}
+    localized_summaries={}
+    for lang in ('ja','en'):
+        locale=read(root/f'relationships_config/locales/relationships.{lang}.json',{'language':lang,'summaries':{}})
+        if locale.get('language')!=lang or not isinstance(locale.get('summaries'),dict):
+            raise ValueError(f'Invalid relationship locale file: {lang}')
+        unknown=set(locale['summaries'])-relationship_ids
+        if unknown:raise ValueError(f'Localized summary references unknown or unpublished relationship: {sorted(unknown)[0]}')
+        for rid,summary_text in locale['summaries'].items():
+            if not isinstance(summary_text,str) or not summary_text.strip():raise ValueError(f'Empty localized summary: {rid}/{lang}')
+            localized_summaries.setdefault(rid,{})[lang]=summary_text.strip()
+    cov=coverage(root,cfg,master,data)
+    build=digest({'export_version':EXPORT_VERSION,'data':data,'relationship_summaries':localized_summaries,'coverage':cov,'tiers':cfg['tiers'],'limits':[cfg['initial_nodes'],cfg['expanded_nodes']]})[:24]
     directory=dest/'versions'/build
     if previous.get('build_id')==build:
         validate_public(root); return previous
@@ -107,6 +118,7 @@ def export(root=ROOT, allow_removal=False):
         return {k:r[k] for k in ('relationship_id','source_company_id','target_company_id','relationship_type','direction','description','lifecycle_status','status_as_of','last_observed_at')} | classification | {'has_amount':bool(amounts),'event_date':(events[0]['announced_date'] or events[0]['filed_date']) if events else None,'amounts':amounts,'business':r.get('business'),'themes':relationship_themes(r)}
     summaries=[summary(r) for r in data['relationships']]
     put('companies.json',{'companies':data['companies'],'themes':theme_catalog['themes']})
+    put('relationship_summaries.json',{'summaries':localized_summaries})
     for company in data['companies']:
         cid=company['company_id'];rels=[r for r in summaries if cid in (r['source_company_id'],r['target_company_id'])]
         neighbors={r[k] for r in rels for k in ('source_company_id','target_company_id')}
@@ -153,7 +165,7 @@ def validate_public(root=ROOT,pointer=None):
     if manifest.get('schema_version')!='1.0':raise ValueError('Unsupported schema version')
     for key in ('company_ids','relationship_ids'):
         if len(set(manifest[key]))!=len(manifest[key]) or any(not ID.fullmatch(i) for i in manifest[key]):raise ValueError('Invalid manifest IDs')
-    required={'companies.json','recent_events.json','coverage.json'}|{f'companies/{i}.json' for i in manifest['company_ids']}|{f'relationships/{i}.json' for i in manifest['relationship_ids']}
+    required={'companies.json','recent_events.json','coverage.json','relationship_summaries.json'}|{f'companies/{i}.json' for i in manifest['company_ids']}|{f'relationships/{i}.json' for i in manifest['relationship_ids']}
     if set(manifest['files'])!=required or manifest['relationship_count']!=len(manifest['relationship_ids']):raise ValueError('Incomplete manifest file list')
     for name,h in manifest['files'].items():
         if not re_path(name):raise ValueError('Unsafe public path')
@@ -161,6 +173,8 @@ def validate_public(root=ROOT,pointer=None):
         if digest(path.read_bytes())!=h or read(path).get('build_id')!=p['build_id'] or read(path).get('schema_version')!='1.0':raise ValueError('Corrupt or mixed build')
     companies=read(directory/'companies.json')['companies']; cids={c['company_id'] for c in companies}
     if cids!=set(manifest['company_ids']):raise ValueError('Company index mismatch')
+    localized=read(directory/'relationship_summaries.json').get('summaries',{})
+    if set(localized)-set(manifest['relationship_ids']) or any(set(translations)-{'ja','en'} or any(not isinstance(text,str) or not text.strip() for text in translations.values()) for translations in localized.values()):raise ValueError('Invalid localized relationship summaries')
     # Theme tags are an optional presentation extension, not part of the
     # evidence-backed legal-company master schema.
     master={'companies':[{k:v for k,v in company.items() if k!='themes'} for company in companies],'relationships':[],'events':[],'sources':[],'evidence':[]}

@@ -1,0 +1,136 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001571996",
+      "company_id": "co-dell",
+      "country": null,
+      "display_name": "Dell Technologies",
+      "entity_status": "resolved",
+      "legal_name": "Dell Technologies Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001571996.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001571996.json",
+          "symbol": "DELL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-ericsson",
+      "country": null,
+      "display_name": "Ericsson",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2023-04-27",
+      "listing_status_source": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+          "symbol": "ERIC",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "networking"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-ericsson",
+    "country": null,
+    "display_name": "Ericsson",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2023-04-27",
+    "listing_status_source": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://www.ericsson.com/en/press-releases/2023/4/ericsson-and-dell-partner-on-cloud-ran",
+        "symbol": "ERIC",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "networking"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0e135197ce399fea79eb8bd3",
+          "evidence-6bc3d06df185d3a9b14a84cc"
+        ],
+        "geography": "",
+        "headline": "Cloud RAN向けサーバーを提供",
+        "products": [
+          "Dell PowerEdge XR8000",
+          "Dell PowerEdge XR5610",
+          "Ericsson Cloud RAN"
+        ],
+        "scale": "",
+        "source_role": "Dellが通信向けサーバーを提供",
+        "target_role": "EricssonがCloud RANソリューションに統合"
+      },
+      "description": "EricssonのCloud RAN向けにDell PowerEdgeサーバーを採用する協業。通信向けXR8000・XR5610を組み込み、基地局ネットワークのクラウド化を支援する2023年発表。",
+      "direction": "directed",
+      "event_date": "2023-04-27",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:58:22+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3a50b72c8c38171d4f70d7b7",
+      "relationship_type": "supplier",
+      "source_company_id": "co-dell",
+      "status_as_of": "2023-04-27",
+      "target_company_id": "co-ericsson",
+      "themes": [
+        "networking"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-04-27"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

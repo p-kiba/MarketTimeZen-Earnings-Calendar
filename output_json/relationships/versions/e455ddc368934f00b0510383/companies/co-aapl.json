@@ -1,0 +1,1135 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000320193",
+      "company_id": "co-aapl",
+      "country": null,
+      "display_name": "Apple",
+      "entity_status": "resolved",
+      "legal_name": "Apple Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+          "symbol": "AAPL",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "consumer_media",
+        "ai_models"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amat",
+      "country": null,
+      "display_name": "Applied Materials",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-amkor",
+      "country": null,
+      "display_name": "Amkor",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001730168",
+      "company_id": "co-avgo",
+      "country": null,
+      "display_name": "Broadcom",
+      "entity_status": "resolved",
+      "legal_name": "Broadcom Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "symbol": "AVGO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "custom_silicon",
+        "networking"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        },
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-bosch",
+      "country": null,
+      "display_name": "Bosch",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-cirrus",
+      "country": null,
+      "display_name": "Cirrus Logic",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "custom_silicon"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coherent",
+      "country": null,
+      "display_name": "Coherent",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gfs",
+      "country": null,
+      "display_name": "GlobalFoundries",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-glw",
+      "country": null,
+      "display_name": "Corning",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-gwa",
+      "country": null,
+      "display_name": "GlobalWafers America",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000019617",
+      "company_id": "co-jpm",
+      "country": null,
+      "display_name": "JPMORGAN CHASE & CO",
+      "entity_status": "resolved",
+      "legal_name": "JPMORGAN CHASE & CO",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PC",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "AMJB",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PD",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PJ",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PK",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PL",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "JPM-PM",
+          "valid_from": null,
+          "valid_to": null
+        },
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+          "symbol": "VYLD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "financial_services"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-mp",
+      "country": null,
+      "display_name": "MP Materials",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "ai_models"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-qnity",
+      "country": null,
+      "display_name": "Qnity Electronics",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-samsung",
+      "country": null,
+      "display_name": "Samsung",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "memory",
+        "semiconductor_manufacturing",
+        "consumer_media"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tdk",
+      "country": null,
+      "display_name": "TDK",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-tsmc",
+      "country": null,
+      "display_name": "TSMC",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "semiconductor_manufacturing",
+        "custom_silicon"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-txn",
+      "country": null,
+      "display_name": "Texas Instruments",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "custom_silicon"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000320193",
+    "company_id": "co-aapl",
+    "country": null,
+    "display_name": "Apple",
+    "entity_status": "resolved",
+    "legal_name": "Apple Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-26",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+        "symbol": "AAPL",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "consumer_media",
+      "ai_models"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-26",
+        "source_url": "https://stockanalysis.com/list/biggest-companies/",
+        "universe": "large_cap_focus"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Apple製品のセンシング機能に使うICの製造に関する協業。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-33284e76c221eecfec8e07a0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Apple向け技術に用いる半導体プロセス・混合信号ソリューションの協業。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-ad97c4534214e19743408c3b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-gfs",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-cirrus",
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+      "direction": "undirected",
+      "event_date": "2025-10-13",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2025-10-13",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-6595ddd2ec91c4721598100a",
+          "evidence-063458c215fa39cad916eb6a"
+        ],
+        "geography": "",
+        "headline": "半導体ウエハ・組立試験を受託",
+        "products": [
+          "半導体ウエハ",
+          "組立・テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてTSMCを明記。前工程のウエハ製造先にも明記されている。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-668c3757f1fe4e2e2651e365",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-368700d772062daf71aa62e3",
+          "evidence-a5839ab085bd2dfa9460e563"
+        ],
+        "geography": "",
+        "headline": "半導体の組立・テストを受託",
+        "products": [
+          "半導体組立",
+          "半導体テスト"
+        ],
+        "scale": "",
+        "source_role": "外部委託先として半導体製造工程を担当",
+        "target_role": "Broadcomが半導体の製造工程を委託"
+      },
+      "description": "Broadcomの2024年度10-Kは、外部委託する半導体の組立・テスト先としてAmkorを明記。2024年度の供給網の開示で、個社別の取引金額と契約期間は記載なし。",
+      "direction": "directed",
+      "event_date": "2024-12-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-09fe3d64df0a89c5aed36d13",
+      "relationship_type": "supplier",
+      "source_company_id": "co-amkor",
+      "status_as_of": "2024-12-20",
+      "target_company_id": "co-avgo",
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-52db33727c36dae4a1c9db96",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-bosch",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-3fc8d84d62525ec9ac1cff88",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-cirrus",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7a6a372adb37f5efe5570d73",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-tdk",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "米国製造プログラムへの追加参加を公表。4社合計の支出計画を各社との契約額に割り当てない。",
+      "direction": "undirected",
+      "event_date": "2026-03-26",
+      "has_amount": false,
+      "last_observed_at": "2026-09-25T16:17:13+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-05c6587da4c523af5144b983",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2026-03-26",
+      "target_company_id": "co-qnity",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-011fe94ce375f7f524e50e52"
+        ],
+        "geography": "米国・Kentucky",
+        "headline": "iPhone・Watch向けガラス製造と共同研究",
+        "products": [
+          "カバーガラス",
+          "Apple-Corning Innovation Center"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "Corningとの提携を拡張し、Kentuckyの工場にスマートフォン用カバーガラスの製造ラインと共同イノベーションセンターを設ける計画。iPhone・Apple Watch向け。個社契約額は非掲載。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e1a79bc20a2ca2dd7f2b3d5d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-glw",
+      "themes": [
+        "consumer_media"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-da9a6c5b30924d0e2e27b01b"
+        ],
+        "geography": "米国・Texas",
+        "headline": "Face ID向けVCSELレーザーの複数年契約",
+        "products": [
+          "VCSELレーザー",
+          "Face ID"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "Coherentと複数年契約を締結。Texasの工場で、iPhone・iPadのFace IDなどに使うVCSELレーザーを製造。個社の契約額や正確な満了日は非掲載。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-56154fbd6458d555ea4e1269",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-coherent",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-8f428b09a0e367a1851af394",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-gwa",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0e337fd63bd6d4f505d87843",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-amat",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f4780b88ad8c09b931cf235a",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-txn",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-627aa4d715a1f61e4a09b158"
+        ],
+        "geography": "米国・Texas",
+        "headline": "Austin工場で新しい半導体製造技術を導入",
+        "products": [
+          "半導体製造技術"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "SamsungのAustin工場で新たな半導体製造技術を導入し、iPhoneを含むApple製品の電力効率・性能を支えるチップを供給する計画。計画と納入完了を区別。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-96fcddfc115dc25b9cc754cf",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-samsung",
+      "themes": [
+        "semiconductor_manufacturing",
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-2afeeef7c9de3e5d12f5d913"
+        ],
+        "geography": "米国・New York",
+        "headline": "無線接続・電力管理用半導体の製造拡大",
+        "products": [
+          "無線接続半導体",
+          "電力管理半導体"
+        ],
+        "scale": "",
+        "source_role": "技術の共同開発・調達",
+        "target_role": "製造・技術提供"
+      },
+      "description": "AppleとGlobalFoundriesが米国内の半導体製造を拡大する契約。無線接続技術と電力管理技術を対象とし、New YorkのMalta工場に新たな能力を導入する。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-a54e7c7f287bb4436f3b3443",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-gfs",
+      "themes": [
+        "semiconductor_manufacturing",
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "Appleの米国製造プログラムの初期パートナーとして公表。個社別の契約額はこの資料では確認できない。",
+      "direction": "undirected",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-e2898651f9dce1b13e467dc0",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-amkor",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "TSMCのアリゾナ工場がApple向け半導体を製造。資料時点の供給関係であり現在の数量は未確認。",
+      "direction": "directed",
+      "event_date": "2025-08-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:01+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-3184bf461ce38af0e098a4cb",
+      "relationship_type": "supplier",
+      "source_company_id": "co-tsmc",
+      "status_as_of": "2025-08-06",
+      "target_company_id": "co-aapl",
+      "themes": [
+        "semiconductor_manufacturing"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e70fb1abda4ee3eb0021abe4"
+        ],
+        "geography": "",
+        "headline": "2031年までのカスタムASIC開発・供給",
+        "products": [
+          "カスタムASIC"
+        ],
+        "scale": "2031年まで（具体的な満了日なし）",
+        "source_role": "設計・供給",
+        "target_role": "製品への採用"
+      },
+      "description": "BroadcomとAppleは、2031年までの協業拡張に合意。複数世代のApple製品向けカスタムASICの開発・供給を行う複数年契約。7月8日発表の無線部品を含む金額と同一契約か未確認のため、金額は結合しない。",
+      "direction": "undirected",
+      "event_date": "2026-07-06",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:02+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-729343557b3c5f5e431b4854",
+      "relationship_type": "partnership",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-06",
+      "target_company_id": "co-aapl",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-63894b170823b8d91d923f9b",
+          "evidence-bfeec1a0474e9e0ef2c73173",
+          "evidence-b2f8b7974e801b9d2d70bc37",
+          "evidence-735ed19d0886075fb2a165a0",
+          "evidence-9fa3cc38b21bb70a94f197a0"
+        ],
+        "geography": "",
+        "headline": "Siri・Writing ToolsへのChatGPT統合",
+        "products": [
+          "ChatGPT",
+          "Siri",
+          "Writing Tools"
+        ],
+        "scale": "",
+        "source_role": "OS・アプリへの統合",
+        "target_role": "AIモデル提供"
+      },
+      "description": "AppleがiOS 18・iPadOS 18・macOS SequoiaへのChatGPT統合を発表。SiriとWriting Toolsから利用できる計画で、2024年後半の提供予定。契約金額・収益分配率はこの発表では未確認。",
+      "direction": "undirected",
+      "event_date": "2024-06-10",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-f348beaac7b09852594df48b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-aapl",
+      "status_as_of": "2024-06-10",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-5ea640d287aedc568584853d",
+          "evidence-d907c1d8316e33933e336d76",
+          "evidence-92b55f09a4a7c87daf09e08c"
+        ],
+        "geography": "",
+        "headline": "Apple Cardの発行事業移行",
+        "products": [
+          "Apple Card"
+        ],
+        "scale": "",
+        "source_role": "Chaseブランドのカード発行事業",
+        "target_role": "カード・Walletの利用体験"
+      },
+      "description": "AppleとChaseがApple Card発行事業の移行を発表。約24か月での移行を想定し規制承認等が条件。Chaseブランドの事業提携として記録し、具体的な発行銀行法人名を推定しない。",
+      "direction": "undirected",
+      "event_date": "2026-01-07",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T06:22:26+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-f1d9241d2753001d0046d304",
+      "relationship_type": "partnership",
+      "source_company_id": "co-jpm",
+      "status_as_of": "2026-01-07",
+      "target_company_id": "co-aapl",
+      "themes": [
+        "financial_services"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-e45799e38b4915054a64a417",
+          "amount_kind": "contract_value",
+          "conditions": "見込み額。原文の$の通貨種類はこの記録では未確認。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-0e646c04da6288aface08d55",
+            "evidence-a57cd14114379f5c7c6aa66d"
+          ],
+          "max_value": null,
+          "min_value": "30000000000",
+          "original_text": "expected to exceed $30 billion",
+          "payee_company_ids": [
+            "co-avgo"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "more_than",
+          "scope": "Apple向け部品の新たな複数年契約の見込み額。確定した最低購入額ではない。",
+          "value": null,
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Apple製品の複数世代に向けBroadcomがカスタムASIC等を開発・供給する複数年契約。SEC開示では協業を2031年まで拡大。Apple発表の見込み額は原文$300億超で、通貨と確定最低購入額は未確認。",
+      "direction": "directed",
+      "event_date": "2026-07-08",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:30:23+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-7893e3b8d0047339117cae8a",
+      "relationship_type": "supplier",
+      "source_company_id": "co-avgo",
+      "status_as_of": "2026-07-08",
+      "target_company_id": "co-aapl",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-da1d843ca71fa9c6f642de0a",
+          "amount_kind": "committed_total",
+          "conditions": "Apple公式供給網レポート2026簡体字版11ページで契約総額5億米ドルを確認。前払金・受領額・請求権を総額へ加算しない。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "美元",
+          "evidence_ids": [
+            "evidence-5680da31c2062f377b5556db",
+            "evidence-d14e0e18610927c2573696f8",
+            "evidence-cbccdd2ff07ec34ac7a25b5c",
+            "evidence-9217b0146660203287706d0d",
+            "evidence-82270006a3eee6951dca52d0"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$500 million",
+          "payee_company_ids": [
+            "co-mp"
+          ],
+          "payer_company_ids": [
+            "co-aapl"
+          ],
+          "qualifier": "exact",
+          "scope": "MP Materialsとの磁石調達・リサイクル協業のコミットメント",
+          "value": "500000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Appleによる希土類磁石の購入とリサイクル事業に関する5億米ドルの複数年コミットメント。Apple公式2026年供給網レポート11ページの美元表記を元の英語発表と照合。全社投資計画とは区別。",
+      "direction": "directed",
+      "event_date": "2025-07-15",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:31:24+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-1f2e6eb551148eaeb1566cf1",
+      "relationship_type": "supplier",
+      "source_company_id": "co-mp",
+      "status_as_of": "2025-07-15",
+      "target_company_id": "co-aapl",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-06-10",
+    "2025-07-15",
+    "2025-08-06",
+    "2026-01-07",
+    "2026-03-26",
+    "2026-07-06",
+    "2026-07-08"
+  ],
+  "total_counterparties": 17,
+  "total_peer_relationships": 5,
+  "total_relationships": 18
+}

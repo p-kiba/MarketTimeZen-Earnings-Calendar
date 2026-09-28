@@ -1,0 +1,268 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-6268f99ddbbeb88390f71670",
+          "amount_kind": "other",
+          "conditions": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+          "contingent": false,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$170.00",
+          "payee_company_ids": [],
+          "payer_company_ids": [
+            "co-unh"
+          ],
+          "qualifier": "exact",
+          "scope": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+          "value": "170.00",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "合併効力発生時に対象普通株式は1株170ドルの現金受領権へ転換された。",
+      "deal_id": "deal-3a3dafd60ace22fab0c3976c",
+      "detected_at": "2026-09-26T12:07:29+00:00",
+      "effective_date": "2023-02-22",
+      "event_id": "event-3a3dafd60ace22fab0c3976c",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-3a3dafd60ace22fab0c3976c",
+        "evidence-2452d3fd8366be8f5b76ff19"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-3a3dafd60ace22fab0c3976c",
+            "evidence-2452d3fd8366be8f5b76ff19"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2023-02-22",
+      "relationship_ids": [
+        "rel-b86e96914ddac53a8f3b4b42"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-736ee4eff3f0cdf493c72123": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13"
+        },
+        "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+        "reviewer": null,
+        "rule_id": "healthcare-02-20260926-r10",
+        "rule_version": "4b6171e05f9b68217bdb8eeb3b1dc71f3dd0787b8511d790ce609225f6d69855",
+        "verified_at": "2026-09-26T12:07:29+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-2452d3fd8366be8f5b76ff19",
+      "excerpt": "$170.00",
+      "locator": "p:50",
+      "normalized_text_hash": "3a91c67735436c90a5d1d6f301d10a91638de0244abde3fc21f9c519240f6429",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-736ee4eff3f0cdf493c72123",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-3a3dafd60ace22fab0c3976c",
+      "excerpt": "Merger",
+      "locator": "p:38",
+      "normalized_text_hash": "d807fbd917e1f0414c1f3eb81bd2ecd05dd99c0aa08ab4cdcd0c9986bcb02e29",
+      "section": "Source-verified historical transaction",
+      "source_id": "source-736ee4eff3f0cdf493c72123",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-3a3dafd60ace22fab0c3976c",
+        "evidence-2452d3fd8366be8f5b76ff19"
+      ],
+      "geography": "",
+      "headline": "LHC Groupの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "deal_ids": [
+      "deal-3a3dafd60ace22fab0c3976c"
+    ],
+    "description": "UnitedHealth GroupはLHC Groupを買収。2023年2月22日の合併完了後、LHC GroupはUnitedHealth Groupの完全子会社となった。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-3a3dafd60ace22fab0c3976c",
+      "evidence-2452d3fd8366be8f5b76ff19"
+    ],
+    "first_observed_at": "2026-09-26T12:07:29+00:00",
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "latest_event_ids": [
+      "event-3a3dafd60ace22fab0c3976c"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b86e96914ddac53a8f3b4b42",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2023-02-22",
+    "target_company_id": "co-lhc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-736ee4eff3f0cdf493c72123": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13"
+      },
+      "reason": "Codex evaluated primary sources against the submitted research. Historical disclosure, legal parties, price scope and completion distinguished. Not human reviewed. Unknown currency retained; per-share and net/enterprise values are not inferred gross cash totals.",
+      "reviewer": null,
+      "rule_id": "healthcare-02-20260926-r10",
+      "rule_version": "4b6171e05f9b68217bdb8eeb3b1dc71f3dd0787b8511d790ce609225f6d69855",
+      "verified_at": "2026-09-26T12:07:29+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000950170-23-003585",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1303313/000095017023003585/lhcg-20230222.htm",
+      "content_hash": "9961355ab117bf7abf0ea38a9ff6c323524b3634becbafde5ce2e5298a410a13",
+      "date_precision": "day",
+      "extraction_version": "rules-1.8",
+      "filed_date": "2023-02-22",
+      "filing_cik": "0001303313",
+      "form": "8-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "U.S. Securities and Exchange Commission",
+      "retrieved_at": "2026-09-26T12:06:58+00:00",
+      "source_id": "source-736ee4eff3f0cdf493c72123",
+      "source_type": "sec_filing",
+      "title": "8-K"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-6268f99ddbbeb88390f71670",
+        "amount_kind": "other",
+        "conditions": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+        "contingent": false,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-3a3dafd60ace22fab0c3976c",
+          "evidence-2452d3fd8366be8f5b76ff19"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$170.00",
+        "payee_company_ids": [],
+        "payer_company_ids": [
+          "co-unh"
+        ],
+        "qualifier": "exact",
+        "scope": "1株当たりの合併対価。取引総額ではないためpurchase_price総額として扱わない。",
+        "value": "170.00",
+        "value_semantics": "unknown",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-3a3dafd60ace22fab0c3976c",
+        "evidence-2452d3fd8366be8f5b76ff19"
+      ],
+      "geography": "",
+      "headline": "LHC Groupの買収",
+      "products": [],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "買収対象"
+    },
+    "description": "UnitedHealth GroupはLHC Groupを買収。2023年2月22日の合併完了後、LHC GroupはUnitedHealth Groupの完全子会社となった。",
+    "direction": "directed",
+    "event_date": "2023-02-22",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T12:07:29+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-b86e96914ddac53a8f3b4b42",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-unh",
+    "status_as_of": "2023-02-22",
+    "target_company_id": "co-lhc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}

@@ -28,6 +28,8 @@ bash scripts/collect-relationships-local.sh
 
 テーマ定義と企業への割当は `relationships_config/company_themes.json` で管理します。これは投資調査のための編集可能な分類であり、会社の公式業種分類や、個々の契約内容を証明するものではありません。新しい会社を収集対象へ追加するときは、銘柄・会社IDを確認してから必要なテーマを割り当てます。公開JSONは `export` 時に生成され、会社・関係データと一緒に内容hash検証されます。
 
+関係の表示用要約は `relationships_config/locales/relationships.ja.json` と `relationships_config/locales/relationships.en.json` に関係IDごとに記録します。出典本文・金額・期間はマスターの共通データで保持し、翻訳を出典本文として扱いません。未翻訳の言語では元の説明を表示します。追加・修正後は `export` が公開bundleとmanifest hashに反映します。
+
 時価総額重視の既存収集対象は `relationships_config/universe.json` の `large_cap_focus` です。NFLX、PLTR、CSCO、AVGO、ORCL、DELLを含む24社を対象にしています。OpenAIとAnthropicは非上場企業として時価総額リストと分け、公式ニュース収集先 `relationships_config/official_sources.json` に登録済みです。
 
 SECのみなら `bash scripts/collect-relationships-local.sh --sec-only`。過去分の追加取得は `--mode backfill --months 3` のように指定します。403などの制限を迂回せず、原文が得られない項目は確認待ちにします。

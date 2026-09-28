@@ -10,14 +10,12 @@
     "scope": "Company brand icon from its website; does not modify relationships or legal entities."
   },
   "co-anthropic": {
-    "path": "assets/logos/us/CO-ANTHROPIC.png",
+    "path": "assets/logos/us/CO-ANTHROPIC-SUPPLIED.png",
     "website": "https://www.anthropic.com/",
-    "page_title": "Home \\ Anthropic",
-    "source_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/681d52619fec35886a7f1a70_favicon.png",
-    "sha256": "47718065aeeb968b381b070c66c90d9c3ae95b09a0ee24e78b9e12ae5c4f11c7",
-    "retrieved_at": "2026-09-26",
-    "asset_kind": "official_site_icon",
-    "scope": "Company brand icon from its website; does not modify relationships or legal entities."
+    "sha256": "389105af72687ae02e5dfbbafe24ed99a84a77a6cf6ea339c13993615b64b37e",
+    "asset_kind": "user_supplied_logo",
+    "scope": "User-supplied original logo; does not modify relationships or legal entities.",
+    "source_file": "anthropic.png"
   },
   "co-samsung": {
     "path": "assets/logos/us/CO-SAMSUNG.png",
@@ -304,5 +302,40 @@
     "retrieved_at": "2026-09-26",
     "asset_kind": "official_site_icon",
     "scope": "Shared OpenAI brand icon for OpenAI OpCo; legal entities and relationships remain separate."
+  },
+  "co-sony-pictures": {
+    "path": "assets/logos/us/CO-SONY-PICTURES.png",
+    "sha256": "5f1ae206a9f85c2215f21cf0dd6b50d88647aa48bf98a005fe3052baa0d4a667",
+    "asset_kind": "user_supplied_logo",
+    "source_file": "Sony_Pictures_Inc.svg",
+    "scope": "User-supplied logo normalized to a square white tile; does not modify relationships or legal entities."
+  },
+  "co-gwa": {
+    "path": "assets/logos/us/CO-GWA.png",
+    "sha256": "29b039b603b07fae9c80ae4d2735bbd6edab028ff3473b28cef666e3a059674c",
+    "asset_kind": "user_supplied_logo",
+    "source_file": "GlobalWafersAmerica.png",
+    "scope": "User-supplied logo normalized to a square white tile; does not modify relationships or legal entities."
+  },
+  "co-siliconware": {
+    "path": "assets/logos/us/CO-SILICONWARE.png",
+    "sha256": "47802c31066be7d92a091eac80cba589c14f02125d08d39e2ecc70ccca7536c8",
+    "asset_kind": "user_supplied_logo",
+    "source_file": "SPIL.jpg",
+    "scope": "User-supplied logo normalized to a square white tile; does not modify relationships or legal entities."
+  },
+  "co-sk-hynix": {
+    "path": "assets/logos/us/CO-SK-HYNIX.png",
+    "sha256": "03d96ff4dcd9c83ec777c4b32e7624b5238d66216bfa9e12c7ca8a72b0e1df80",
+    "asset_kind": "user_supplied_logo",
+    "source_file": "000660.KS_BIG.png",
+    "scope": "User-supplied logo normalized to a square white tile; does not modify relationships or legal entities."
+  },
+  "co-xai": {
+    "path": "assets/logos/us/CO-XAI-SUPPLIED.png",
+    "sha256": "7a46606c5cebf67a9d1f22683208d09020e0e12e3dbf4ffc345fb1fc3985bf62",
+    "asset_kind": "user_supplied_logo",
+    "source_file": "xai.svg",
+    "scope": "User-supplied xAI/Grok mark normalized to a square white tile; does not modify relationships or legal entities."
   }
 }

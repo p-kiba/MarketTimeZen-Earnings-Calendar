@@ -1,0 +1,473 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-coreweave",
+      "country": null,
+      "display_name": "CoreWeave",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "listed",
+      "listing_status_as_of": "2025-09-25",
+      "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+      "listings": [
+        {
+          "exchange": "NASDAQ",
+          "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+          "symbol": "CRWV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "data_center_cloud",
+        "gpu_compute"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "enterprise_ai",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "gpu_compute",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-openai",
+      "country": null,
+      "display_name": "OpenAI",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "ai_models"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-coreweave",
+    "country": null,
+    "display_name": "CoreWeave",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "listed",
+    "listing_status_as_of": "2025-09-25",
+    "listing_status_source": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+    "listings": [
+      {
+        "exchange": "NASDAQ",
+        "source_url": "https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b",
+        "symbol": "CRWV",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "data_center_cloud",
+      "gpu_compute"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3c668aa2b4b224ef43c84c8b"
+        ],
+        "geography": "",
+        "headline": "Azure基盤へのGB200導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-97df4097d9e031d99b91203b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-msft",
+      "themes": [
+        "data_center_cloud"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-eaf97ec5ec79ccf17af189f6"
+        ],
+        "geography": "",
+        "headline": "モデル・基盤のIP利用と収益分配",
+        "products": [
+          "モデル・基盤の知的財産",
+          "収益分配"
+        ],
+        "scale": "",
+        "source_role": "IP利用・製品統合",
+        "target_role": "モデル・基盤技術提供"
+      },
+      "description": "2019年に開始し2025年10月・2026年4月に拡張した提携。Microsoftはモデル・基盤の知的財産利用権を持ち、自社製品へ統合し、収益分配を受ける。期間の正確な満了日と料率はこの注記にない。",
+      "direction": "undirected",
+      "event_date": "2026-07-29",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-4330bb60569e930aab9db1bd",
+      "relationship_type": "partnership",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-07-29",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4bd84d0619902fd319fffe9f",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a8fb47a-6fbe-4336-9a3c-c952489d3025 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 13.0 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "出資に関する累計資金コミットメント。契約対価・年度売上とは異なる。",
+          "value": "13000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-481e37c169a589476d924a43",
+          "amount_kind": "investment_amount",
+          "conditions": "",
+          "contingent": false,
+          "currency": "USD",
+          "currency_basis": "SEC inline XBRL F_3a19381b-b0bb-404e-aa8f-8a1f44d4dd41 / iso4217:USD",
+          "evidence_ids": [
+            "evidence-e995fc47cf71b1312937019c",
+            "evidence-145ce7fed53a37d180b7ef97"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 11.9 billion",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "exact",
+          "scope": "2026年6月30日までの累計払込額。130億米ドルの内数であり加算しない。",
+          "value": "11900000000",
+          "value_semantics": "unknown",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": {
+        "evidence_ids": [
+          "evidence-e995fc47cf71b1312937019c",
+          "evidence-145ce7fed53a37d180b7ef97"
+        ],
+        "geography": "",
+        "headline": "OpenAIへの資金コミットメントと払込状況",
+        "products": [
+          "持分法投資"
+        ],
+        "scale": "",
+        "source_role": "投資者",
+        "target_role": "投資先"
+      },
+      "description": "Microsoftの出資コミットメントは130億米ドル、6月末までの払込は119億米ドル。転換後換算の持分は約25%。当期売上241億米ドル・売掛金60億米ドルは投資額に含めない。",
+      "direction": "directed",
+      "event_date": "2026-07-29",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T05:23:05+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-c716a112ddca6d34cb9e4a09",
+      "relationship_type": "investment",
+      "source_company_id": "co-msft",
+      "status_as_of": "2026-06-30",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "multiple_amounts",
+        "contingency_unknown",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-4dcf8603d928941962613340",
+          "amount_kind": "investment_amount",
+          "conditions": "発表額。払込完了・実行条件は未確認。通貨は同じ公式発表の各言語版を照合。",
+          "contingent": null,
+          "currency": "USD",
+          "currency_basis": "US$",
+          "evidence_ids": [
+            "evidence-49d5c61b81bdcf05afeefccf",
+            "evidence-97592c134fd373087c0d5137",
+            "evidence-5e3852f06e426c50ca7dab7b"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$30B",
+          "payee_company_ids": [
+            "co-openai"
+          ],
+          "payer_company_ids": [
+            "co-nvda"
+          ],
+          "qualifier": "exact",
+          "scope": "今回のラウンドにおけるNVIDIAからの出資発表額。払込完了はこの記録では未確認。",
+          "value": "30000000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "NVIDIAがOpenAIの今回資金調達ラウンドに300億米ドルを出資すると発表。OpenAI公式の英語発表とポルトガル語版のUS$表記を照合。払込完了・実行条件はこの記録では未確認。",
+      "direction": "directed",
+      "event_date": "2026-02-27",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:04:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-0b750bf7554cd2d1815b7904",
+      "relationship_type": "investment",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2026-02-27",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-27cf0f6b32d0dd5a1ce3d970"
+        ],
+        "geography": "",
+        "headline": "Blackwellクラウドの提供計画",
+        "products": [
+          "Blackwellクラウド"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "クラウドサービスの提供予定"
+      },
+      "description": "CoreWeaveをBlackwellクラウドの提供予定パートナーとして資料が列挙。取得時のページに基づく。個別契約額や現在の稼働状況は確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-cf4bf93cd68aa208cc0b177d",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-coreweave",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-40c71f658491ea626158bcbd",
+          "amount_kind": "contract_value",
+          "conditions": "提供・利用可能性の要件充足および解除条項に従う追加注文の上限。概算であり確定総額ではない。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-6c72fb24192cdddbe390bbc3",
+            "evidence-7cce7f20b408a039ad136e8b"
+          ],
+          "max_value": "6500000000",
+          "min_value": null,
+          "original_text": "up to $6.5 billion",
+          "payee_company_ids": [
+            "co-coreweave"
+          ],
+          "payer_company_ids": [
+            "co-openai"
+          ],
+          "qualifier": "up_to",
+          "scope": "2025年9月に発表された追加契約の上限額。既存契約を除く。",
+          "value": null,
+          "value_semantics": "increment",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "CoreWeaveはOpenAI向けAI計算基盤の追加契約を発表。今回分は最大$65億。過去契約を含む合計最大約$224億を今回分に足さない。",
+      "direction": "directed",
+      "event_date": "2025-09-25",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T07:05:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-d3082b9214c6b6945d6fadca",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-coreweave",
+      "status_as_of": "2025-09-25",
+      "target_company_id": "co-openai",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "bounded_or_unspecified",
+        "conditional",
+        "not_total"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "CoreWeaveとMicrosoftが2023年2月22日付のMaster Services Agreementを締結。出典のSEC提出書類では個別注文額・契約継続状況は確認できない。",
+      "direction": "directed",
+      "event_date": "2026-03-02",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T08:11:16+00:00",
+      "lifecycle_status": "unknown",
+      "relationship_id": "rel-0059e0ff4920520f611891ba",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-coreweave",
+      "status_as_of": "2026-03-02",
+      "target_company_id": "co-msft",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-03-18",
+    "2025-09-25",
+    "2026-03-02"
+  ],
+  "total_counterparties": 3,
+  "total_peer_relationships": 4,
+  "total_relationships": 3
+}

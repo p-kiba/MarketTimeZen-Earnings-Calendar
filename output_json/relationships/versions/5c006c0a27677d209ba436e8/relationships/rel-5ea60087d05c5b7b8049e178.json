@@ -1,0 +1,203 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-01-28",
+      "conditions": "",
+      "deal_id": "deal-b2694ecabe731cac94ba57fd",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-b2694ecabe731cac94ba57fd",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-b2694ecabe731cac94ba57fd"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b2694ecabe731cac94ba57fd"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-5ea60087d05c5b7b8049e178"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-ge-chevron",
+        "rule_version": "43df92af5135019aa607bea199816a7536693b49e67a156d6bb1d3e7d7d3ab73",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-b2694ecabe731cac94ba57fd",
+      "excerpt": "Engine No. 1, Chevro",
+      "locator": "pdf-page:1",
+      "normalized_text_hash": "4e299d708f17e3c0ba6edd95296f9fbb0f656d432215356d1b131eb752dfdb77",
+      "section": "Primary disclosure: pdf-page:1",
+      "source_id": "source-a11edca58dbeb05eed0cb2b2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-b2694ecabe731cac94ba57fd"
+      ],
+      "geography": "",
+      "headline": "発電計画に7HAタービンを採用",
+      "products": [
+        "GE Vernova 7HA",
+        "タービン生産枠予約"
+      ],
+      "scale": "",
+      "source_role": "GE Vernovaがタービン生産枠を確保",
+      "target_role": "Chevron U.S.A.等が共同発電計画に採用"
+    },
+    "deal_ids": [
+      "deal-b2694ecabe731cac94ba57fd"
+    ],
+    "description": "Chevron U.S.A.とEngine No.1の共同発電計画はGE Vernovaと協業し、7HAガスタービン7基の生産枠を予約。確定納入・稼働済みやChevron本体への直接販売額とは扱わない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-b2694ecabe731cac94ba57fd"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-b2694ecabe731cac94ba57fd"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-5ea60087d05c5b7b8049e178",
+    "relationship_type": "partnership",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-01-28",
+    "target_company_id": "co-cvx",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-ge-chevron",
+      "rule_version": "43df92af5135019aa607bea199816a7536693b49e67a156d6bb1d3e7d7d3ab73",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://engine1.com/wp-content/uploads/2025/01/2025-0127_FINAL-PRESS-RELEASE_EN1_CVX_GE_.pdf",
+      "content_hash": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-01-28",
+      "publisher": "engine1.com",
+      "retrieved_at": "2026-09-26T16:03:40+00:00",
+      "source_id": "source-a11edca58dbeb05eed0cb2b2",
+      "source_type": "official_newsroom",
+      "title": "Official PDF disclosure"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-b2694ecabe731cac94ba57fd"
+      ],
+      "geography": "",
+      "headline": "発電計画に7HAタービンを採用",
+      "products": [
+        "GE Vernova 7HA",
+        "タービン生産枠予約"
+      ],
+      "scale": "",
+      "source_role": "GE Vernovaがタービン生産枠を確保",
+      "target_role": "Chevron U.S.A.等が共同発電計画に採用"
+    },
+    "description": "Chevron U.S.A.とEngine No.1の共同発電計画はGE Vernovaと協業し、7HAガスタービン7基の生産枠を予約。確定納入・稼働済みやChevron本体への直接販売額とは扱わない。",
+    "direction": "undirected",
+    "event_date": "2025-01-28",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-5ea60087d05c5b7b8049e178",
+    "relationship_type": "partnership",
+    "source_company_id": "co-ge-vernova",
+    "status_as_of": "2025-01-28",
+    "target_company_id": "co-cvx",
+    "themes": [
+      "energy_power"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

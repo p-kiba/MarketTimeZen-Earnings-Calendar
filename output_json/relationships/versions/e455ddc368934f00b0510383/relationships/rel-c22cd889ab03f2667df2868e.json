@@ -1,0 +1,289 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-d9a37a96a25764a0fc03262b",
+          "amount_kind": "other",
+          "conditions": "取得事業の企業価値。現金支払額と同義とは断定しない。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "enterprise value of the acquired business amounts to $1.8 billion",
+          "payee_company_ids": [
+            "co-collins-aerospace-flight-control-actuation-business"
+          ],
+          "payer_company_ids": [
+            "co-safran"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "1800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2025-07-21",
+      "conditions": "2025-07-21に買収完了。 取得事業は2025-08-01からSafran Electronics & Defenseに連結予定と発表。",
+      "deal_id": "deal-a79820ced4f22c43fbd30869",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-a79820ced4f22c43fbd30869",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-a79820ced4f22c43fbd30869",
+        "evidence-751a7ebbb946bc8b7cf0aabd",
+        "evidence-e6fb5a7e4702810f6d57c5bd"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-a79820ced4f22c43fbd30869",
+            "evidence-751a7ebbb946bc8b7cf0aabd",
+            "evidence-e6fb5a7e4702810f6d57c5bd"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-c22cd889ab03f2667df2868e"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-1e0a6ee1ef0b69620dbbf350": "2c8eace006eac75d3176082096ab17b2eb69a61b523f106db5be38b11a6d0122",
+          "source-9ca7830fe8ffde389fdaf632": "85e1656c68d11b61baa3c47cc78eb9a812c1e0f73d4828773602b574080222e0"
+        },
+        "reason": "Primary-source review of user-supplied research batch 08, record r14; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-08-r14",
+        "rule_version": "80f16c3ce7e44265b520d96fbc4a8782baa3b27da1d4e1664e10cd35c5fef027",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-751a7ebbb946bc8b7cf0aabd",
+      "excerpt": "Collins Aerospace's actuation and flight control business",
+      "locator": "h1:0",
+      "normalized_text_hash": "926714e81bb5197464e1a9119125368c5ebc94470501cafecc99e45fc924541b",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-1e0a6ee1ef0b69620dbbf350",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a79820ced4f22c43fbd30869",
+      "excerpt": "Safran announces the",
+      "locator": "h1:0",
+      "normalized_text_hash": "0d99c5e2e8ebf5600565b1e7d5907450563ef7b7d35dab2ff18c470a3e2726b6",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-9ca7830fe8ffde389fdaf632",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-e6fb5a7e4702810f6d57c5bd",
+      "excerpt": "enterprise value of the acquired business amounts to $1.8 billion",
+      "locator": "p:11",
+      "normalized_text_hash": "00f4458b7d2ff6dc172fe8b6998a281afc3791f6ab2003b0a78ebf008773e21d",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9ca7830fe8ffde389fdaf632",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-a79820ced4f22c43fbd30869"
+    ],
+    "description": "SafranはRTX傘下Collins Aerospaceのフライトコントロール・アクチュエーション事業を買収し、Safran Electronics & Defenseへ統合した。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-a79820ced4f22c43fbd30869",
+      "evidence-751a7ebbb946bc8b7cf0aabd",
+      "evidence-e6fb5a7e4702810f6d57c5bd"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-a79820ced4f22c43fbd30869"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-c22cd889ab03f2667df2868e",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-safran",
+    "status_as_of": "2025-07-21",
+    "target_company_id": "co-collins-aerospace-flight-control-actuation-business",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-1e0a6ee1ef0b69620dbbf350": "2c8eace006eac75d3176082096ab17b2eb69a61b523f106db5be38b11a6d0122",
+        "source-9ca7830fe8ffde389fdaf632": "85e1656c68d11b61baa3c47cc78eb9a812c1e0f73d4828773602b574080222e0"
+      },
+      "reason": "Primary-source review of user-supplied research batch 08, record r14; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-08-r14",
+      "rule_version": "80f16c3ce7e44265b520d96fbc4a8782baa3b27da1d4e1664e10cd35c5fef027",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.safran-group.com/pressroom/safran-acquire-collins-aerospace-s-actuation-and-flight-control-business-2023-07-21",
+      "content_hash": "2c8eace006eac75d3176082096ab17b2eb69a61b523f106db5be38b11a6d0122",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2023-07-21",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-07-21",
+      "publisher": "Safran",
+      "retrieved_at": "2026-09-26T13:47:15+00:00",
+      "source_id": "source-1e0a6ee1ef0b69620dbbf350",
+      "source_type": "official_newsroom",
+      "title": "Safran to acquire Collins Aerospace's actuation and flight control business | Safran"
+    },
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.safran-group.com/pressroom/safran-announces-acquisition-flight-control-and-actuation-activities-collins-aerospace-2025-07-21",
+      "content_hash": "85e1656c68d11b61baa3c47cc78eb9a812c1e0f73d4828773602b574080222e0",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2025-07-21",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-07-21",
+      "publisher": "Safran",
+      "retrieved_at": "2026-09-26T13:47:11+00:00",
+      "source_id": "source-9ca7830fe8ffde389fdaf632",
+      "source_type": "official_newsroom",
+      "title": "Safran announces the acquisition of flight control and actuation activities from Collins Aerospace | Safran"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-d9a37a96a25764a0fc03262b",
+        "amount_kind": "other",
+        "conditions": "取得事業の企業価値。現金支払額と同義とは断定しない。",
+        "contingent": null,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-a79820ced4f22c43fbd30869",
+          "evidence-751a7ebbb946bc8b7cf0aabd",
+          "evidence-e6fb5a7e4702810f6d57c5bd"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "enterprise value of the acquired business amounts to $1.8 billion",
+        "payee_company_ids": [
+          "co-collins-aerospace-flight-control-actuation-business"
+        ],
+        "payer_company_ids": [
+          "co-safran"
+        ],
+        "qualifier": "exact",
+        "scope": "bilateral",
+        "value": "1800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "SafranはRTX傘下Collins Aerospaceのフライトコントロール・アクチュエーション事業を買収し、Safran Electronics & Defenseへ統合した。",
+    "direction": "directed",
+    "event_date": "2025-07-21",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-c22cd889ab03f2667df2868e",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-safran",
+    "status_as_of": "2025-07-21",
+    "target_company_id": "co-collins-aerospace-flight-control-actuation-business",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "contingency_unknown",
+      "unsupported_kind"
+    ]
+  }
+}

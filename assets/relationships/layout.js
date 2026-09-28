@@ -123,15 +123,25 @@ export function edgeBend(a,b,positions) {
   return best;
 }
 
+// Give arrows approaching a logo from below a small extra clearance.
+export function edgeEndpointDistances(a,b,bend=0,sourceLogo=false,targetLogo=false) {
+  const dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1;
+  const control={x:(a.x+b.x)/2-dy/len*bend,y:(a.y+b.y)/2+dx/len*bend};
+  const entersName=p=>control.y-p.y>Math.abs(control.x-p.x)*.35;
+  return {
+    sourceDistance:sourceLogo&&entersName(a)?18:16,
+    targetDistance:targetLogo&&entersName(b)?18:16
+  };
+}
+
 // Reserve the actual endpoint card sizes, including enlarged logos at low zoom.
-// Short horizontal edges put their label above the cards instead of squeezing
-// text into a gap that no longer exists.
+// Keep labels anchored to the rendered edge midpoint. In particular, moving a
+// vertical label by half its text width places it beside a different edge.
+// Short horizontal edges still put their label above the cards.
 export function edgeLabelPlacement(a,b,sourceWidth=58,targetWidth=58,sourceHeight=58,targetHeight=58) {
   const dx=Math.abs(b.x-a.x),dy=Math.abs(b.y-a.y),vertical=dy>dx;
   if(vertical){
-    const labelWidth=220;
-    const labelX=dx/2+Math.max(sourceWidth,targetWidth)/2+labelWidth/2+20;
-    return {labelWidth,labelX,labelY:0};
+    return {labelWidth:Math.min(220,Math.max(140,Math.hypot(dx,dy)-40)),labelX:0,labelY:-18};
   }
   const gap=dx-(sourceWidth+targetWidth)/2-36;
   if(gap<72){

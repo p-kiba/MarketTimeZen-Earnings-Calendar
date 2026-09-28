@@ -1,0 +1,204 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-01-28",
+      "conditions": "",
+      "deal_id": "deal-ab66457303838069aeefe099",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-ab66457303838069aeefe099",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-ab66457303838069aeefe099"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-ab66457303838069aeefe099"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-90386165092f7ec23315b2a0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-chevron-engine",
+        "rule_version": "0eef5f18d37924bcf78a049de6a72147cd21194e2840d234172ece031ca4caba",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-ab66457303838069aeefe099",
+      "excerpt": "Engine No. 1, Chevro",
+      "locator": "pdf-page:1",
+      "normalized_text_hash": "4e299d708f17e3c0ba6edd95296f9fbb0f656d432215356d1b131eb752dfdb77",
+      "section": "Primary disclosure: pdf-page:1",
+      "source_id": "source-a11edca58dbeb05eed0cb2b2",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-ab66457303838069aeefe099"
+      ],
+      "geography": "",
+      "headline": "データセンター併設発電を共同開発",
+      "products": [
+        "天然ガス発電",
+        "データセンター併設電源"
+      ],
+      "scale": "",
+      "source_role": "Chevron U.S.A.が発電事業の共同開発を担当",
+      "target_role": "Engine No.1が共同開発を担当"
+    },
+    "deal_ids": [
+      "deal-ab66457303838069aeefe099"
+    ],
+    "description": "Chevron傘下Chevron U.S.A.とEngine No.1が米国内データセンター向け天然ガス発電の新会社を共同開発する計画。最大4GW、初期稼働は2027年末を目標。容量を契約額や稼働実績としない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-ab66457303838069aeefe099"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-ab66457303838069aeefe099"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-90386165092f7ec23315b2a0",
+    "relationship_type": "partnership",
+    "source_company_id": "co-cvx",
+    "status_as_of": "2025-01-28",
+    "target_company_id": "co-engine-no-1",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-a11edca58dbeb05eed0cb2b2": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-chevron-engine",
+      "rule_version": "0eef5f18d37924bcf78a049de6a72147cd21194e2840d234172ece031ca4caba",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://engine1.com/wp-content/uploads/2025/01/2025-0127_FINAL-PRESS-RELEASE_EN1_CVX_GE_.pdf",
+      "content_hash": "713c4f268c8b42e1fda9e3cf090119f2271a2a6d1255d7d1d600a242d090a1ba",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-01-28",
+      "publisher": "engine1.com",
+      "retrieved_at": "2026-09-26T16:03:40+00:00",
+      "source_id": "source-a11edca58dbeb05eed0cb2b2",
+      "source_type": "official_newsroom",
+      "title": "Official PDF disclosure"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-ab66457303838069aeefe099"
+      ],
+      "geography": "",
+      "headline": "データセンター併設発電を共同開発",
+      "products": [
+        "天然ガス発電",
+        "データセンター併設電源"
+      ],
+      "scale": "",
+      "source_role": "Chevron U.S.A.が発電事業の共同開発を担当",
+      "target_role": "Engine No.1が共同開発を担当"
+    },
+    "description": "Chevron傘下Chevron U.S.A.とEngine No.1が米国内データセンター向け天然ガス発電の新会社を共同開発する計画。最大4GW、初期稼働は2027年末を目標。容量を契約額や稼働実績としない。",
+    "direction": "undirected",
+    "event_date": "2025-01-28",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-90386165092f7ec23315b2a0",
+    "relationship_type": "partnership",
+    "source_company_id": "co-cvx",
+    "status_as_of": "2025-01-28",
+    "target_company_id": "co-engine-no-1",
+    "themes": [
+      "data_center_cloud",
+      "energy_power"
+    ],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -25,8 +25,10 @@ export class DataClient {
       if(m.schema_version!=='1.0'||m.build_id!==p.build_id||!Array.isArray(m.company_ids)||!Array.isArray(m.relationship_ids))throw new Error('Unsupported release');
       const old=this.manifest;this.manifest=m;this.cache=new Map();
       try{
-        const [companies,events,coverage]=await Promise.all(['companies.json','recent_events.json','coverage.json'].map(name=>this.file(name,signal)));
-        this.companies=companies.companies;this.themes=companies.themes||[];this.events=events;this.coverage=coverage.coverage;
+        const names=['companies.json','recent_events.json','coverage.json'];
+        const hasSummaries=Object.prototype.hasOwnProperty.call(m.files,'relationship_summaries.json');
+        const [companies,events,coverage,summaries]=await Promise.all([...names.map(name=>this.file(name,signal)),hasSummaries?this.file('relationship_summaries.json',signal):Promise.resolve({summaries:{}})]);
+        this.companies=companies.companies;this.themes=companies.themes||[];this.events=events;this.coverage=coverage.coverage;this.relationshipSummaries=summaries.summaries||{};
         if(index>0)this.offline=true;save('last-pointer',JSON.stringify(p));return this;
       }catch(e){this.manifest=old;throw e;}
     }catch(e){if(e.name==='AbortError')throw e;failure=e;}

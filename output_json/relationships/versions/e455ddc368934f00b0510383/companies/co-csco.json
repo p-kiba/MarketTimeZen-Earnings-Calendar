@@ -1,0 +1,448 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0000002488",
+      "company_id": "co-amd",
+      "country": null,
+      "display_name": "AMD",
+      "entity_status": "resolved",
+      "legal_name": "ADVANCED MICRO DEVICES INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000002488.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000002488.json",
+          "symbol": "AMD",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "gpu_compute",
+        "custom_silicon"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000858877",
+      "company_id": "co-csco",
+      "country": null,
+      "display_name": "Cisco",
+      "entity_status": "resolved",
+      "legal_name": "CISCO SYSTEMS, INC.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+          "symbol": "CSCO",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "networking",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-humain",
+      "country": null,
+      "display_name": "HUMAIN",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0000789019",
+      "company_id": "co-msft",
+      "country": null,
+      "display_name": "Microsoft",
+      "entity_status": "resolved",
+      "legal_name": "MICROSOFT CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "symbol": "MSFT",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "enterprise_ai",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0001045810",
+      "company_id": "co-nvda",
+      "country": null,
+      "display_name": "NVIDIA",
+      "entity_status": "resolved",
+      "legal_name": "NVIDIA CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "symbol": "NVDA",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "gpu_compute",
+        "data_center_cloud"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-samsung",
+      "country": null,
+      "display_name": "Samsung",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "memory",
+        "semiconductor_manufacturing",
+        "consumer_media"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0000858877",
+    "company_id": "co-csco",
+    "country": null,
+    "display_name": "Cisco",
+    "entity_status": "resolved",
+    "legal_name": "CISCO SYSTEMS, INC.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0000858877.json",
+    "listings": [
+      {
+        "exchange": "Nasdaq",
+        "source_url": "https://data.sec.gov/submissions/CIK0000858877.json",
+        "symbol": "CSCO",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "networking",
+      "data_center_cloud"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-3c668aa2b4b224ef43c84c8b"
+        ],
+        "geography": "",
+        "headline": "Azure基盤へのGB200導入計画",
+        "products": [
+          "Blackwell"
+        ],
+        "scale": "",
+        "source_role": "GPU・AI基盤技術",
+        "target_role": "導入・共同開発側"
+      },
+      "description": "Microsoftは、世界のデータセンターへのGB200 Grace Blackwell導入方針を表明。導入完了や契約額はこの記録では確認していない。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-97df4097d9e031d99b91203b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-msft",
+      "themes": [
+        "data_center_cloud"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-f5848e4e0d76ef001072e534",
+          "evidence-9e28ae2ecf7bcbee0ccb61ce"
+        ],
+        "geography": "",
+        "headline": "Blackwell搭載サーバーの製品展開",
+        "products": [
+          "Blackwellサーバー"
+        ],
+        "scale": "",
+        "source_role": "GPUプラットフォーム",
+        "target_role": "サーバー製品の提供予定"
+      },
+      "description": "CiscoをBlackwell搭載サーバーの提供予定企業として公表。2024年発表時点の製品展開計画で、個別の購入額や納入実績は未収録。",
+      "direction": "undirected",
+      "event_date": "2024-03-18",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T04:10:01+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-96244cb894231a8327a29d15",
+      "relationship_type": "partnership",
+      "source_company_id": "co-nvda",
+      "status_as_of": "2024-03-18",
+      "target_company_id": "co-csco",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-c284b1ad356d5b80f43d2cf1"
+        ],
+        "geography": "",
+        "headline": "会議端末をTeamsと連携",
+        "products": [
+          "Cisco Board Pro",
+          "Microsoft Teams Rooms",
+          "Webex Contact Center"
+        ],
+        "scale": "",
+        "source_role": "Ciscoが会議端末・コンタクトセンターを提供",
+        "target_role": "Microsoft Teamsとの接続・認証を提供"
+      },
+      "description": "Cisco Board ProがMicrosoft Teams Roomsの認証を取得し、Webex Contact CenterもTeamsと統合。企業の会議機器とコンタクトセンターの相互運用を実現した2023年の公表内容。",
+      "direction": "undirected",
+      "event_date": "2023-03-27",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-1a28cde258751e065731477b",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2023-03-27",
+      "target_company_id": "co-msft",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-bc1323a2159758dcb3d7afd2",
+          "evidence-7f5284303361b0d116a2df94"
+        ],
+        "geography": "",
+        "headline": "会議端末と大型ディスプレイを統合",
+        "products": [
+          "Cisco Room Series",
+          "Samsung Smart Signage",
+          "Microsoft Teams Rooms"
+        ],
+        "scale": "",
+        "source_role": "Ciscoが会議端末を提供",
+        "target_role": "Samsungが大型ディスプレイを提供"
+      },
+      "description": "CiscoのRoom SeriesとSamsungのSmart Signageを組み合わせ、Microsoft Teams RoomsのFront Row表示に対応する会議室ソリューションを共同提供。2024年1月発表時点では21:9表示対応は同年3月を予定。",
+      "direction": "undirected",
+      "event_date": "2024-01-30",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "active",
+      "relationship_id": "rel-a51950fcf48ba60caacb000c",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2024-01-30",
+      "target_company_id": "co-samsung",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-0633fe2096c35540c26d5e37",
+          "evidence-c637a51b5fe0e48e701e7d55",
+          "evidence-5d8c610ba3673eb7b0e5c546"
+        ],
+        "geography": "Saudi Arabia",
+        "headline": "GPU・ネットワークでAI基盤を共同構築",
+        "products": [
+          "AMD Instinct MI450",
+          "Cisco critical infrastructure",
+          "AIデータセンター"
+        ],
+        "scale": "初期100MW、2030年まで最大1GWの計画",
+        "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+        "target_role": "AMDがGPUを担当"
+      },
+      "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-11-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-ed5dab3bf425194454424137",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2025-11-19",
+      "target_company_id": "co-amd",
+      "themes": [
+        "gpu_compute",
+        "data_center_cloud",
+        "networking"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-e072b0ca840594b6099ef13a",
+          "evidence-6d6f63212131f7bb534b27cd",
+          "evidence-d3e9b37aa3a18f1e3ddaba75"
+        ],
+        "geography": "Saudi Arabia",
+        "headline": "GPU・ネットワークでAI基盤を共同構築",
+        "products": [
+          "AMD Instinct MI450",
+          "Cisco critical infrastructure",
+          "AIデータセンター"
+        ],
+        "scale": "初期100MW、2030年まで最大1GWの計画",
+        "source_role": "Ciscoがネットワーク等の基盤技術を担当",
+        "target_role": "HUMAINがデータセンターを担当"
+      },
+      "description": "AMD・Cisco・HUMAINがSaudi ArabiaのAI基盤向け合弁設立計画を発表。HUMAINのデータセンター、AMD GPU、Ciscoの基盤技術を組み合わせる。2026年の事業開始、初期100MW、2030年まで最大1GWを計画。容量は契約金額ではなく、稼働済みとは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-11-19",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T15:07:58+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-77297d28f404b41d4407efaf",
+      "relationship_type": "partnership",
+      "source_company_id": "co-csco",
+      "status_as_of": "2025-11-19",
+      "target_company_id": "co-humain",
+      "themes": [
+        "gpu_compute",
+        "data_center_cloud",
+        "networking"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-03-27",
+    "2024-01-30",
+    "2024-03-18",
+    "2025-11-19"
+  ],
+  "total_counterparties": 5,
+  "total_peer_relationships": 1,
+  "total_relationships": 5
+}

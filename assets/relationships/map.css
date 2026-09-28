@@ -141,3 +141,30 @@ button:disabled{cursor:default;opacity:.55}
 .mtz-time-orbit{position:absolute;bottom:8px;right:0;display:flex;gap:6px}.mtz-time-orbit button{background:#142e43;color:#d5f3ff;border:1px solid #39576d}.mtz-time-events summary{cursor:pointer;padding:12px 0;color:#c9e6f3}.mtz-time-map .mtz-time-inspector{margin-top:0}.mtz-time-map{min-height:0}.mtz-time-toolbar strong{font-size:28px}.mtz-time-map .mtz-time-events{max-height:250px}
 @media(max-width:760px){.mtz-time-volume{height:480px}.mtz-time-rail{left:-8px;padding-left:3px}.mtz-time-rail button{font-size:10px;padding:5px}.mtz-time-orbit button{padding:8px;font-size:12px}}
 .map-mode .mtz-time-toolbar{padding-top:48px}
+
+/* The timeline entry point is distinct; the return-to-map state stays plain. */
+#mtz-map-view[data-mode="timeline"]{color:#f7fcff;border:1px solid #67cfe8;background:linear-gradient(115deg,#102b4a 0%,#155278 55%,#68469d 100%);box-shadow:inset 0 0 0 1px #b3efff33,0 4px 16px #13527d35;font-weight:650;letter-spacing:.02em}
+#mtz-map-view[data-mode="timeline"]:hover{background:linear-gradient(115deg,#16406a 0%,#16658c 55%,#7955ad 100%);box-shadow:inset 0 0 0 1px #b3efff55,0 5px 20px #13527d55}
+#mtz-map-view[data-mode="normal"],#mtz-map-view[data-mode="normal"]:hover{color:#263248;border:1px solid var(--border);background:#fff;box-shadow:none}
+
+/* Let both canvases continue behind the sparse company/action row. */
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])){position:relative;--map-top-controls:62px}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-toolbar{position:absolute;top:0;left:0;right:0;z-index:6;min-height:54px;padding:0 4px;pointer-events:none}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-toolbar>*{pointer-events:auto}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-company-heading{flex:0 1 auto;max-width:min(55%,680px);padding:6px 10px;border-radius:10px;background:#fffffff0;box-shadow:0 2px 12px #24314710}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-view{margin-left:auto}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-map-tools{top:var(--map-top-controls)}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-selection{top:calc(var(--map-top-controls) + 58px)}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-time-map{position:relative;padding-top:0}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-time-toolbar{position:absolute;top:var(--map-top-controls);left:24px;right:24px;z-index:5;pointer-events:none}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-time-toolbar>*{pointer-events:auto}
+.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-time-rail{top:145px}
+.map-mode .mtz-workspace:has(.mtz-graph-wrap:not([hidden])){--map-top-controls:10px}
+.map-mode .mtz-workspace:has(#mtz-time-map:not([hidden])) .mtz-time-toolbar{top:48px;padding-top:0}
+@media(max-width:1100px){.mtz-workspace:has(.mtz-graph-wrap:not([hidden])){--map-top-controls:108px}.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-company-heading{max-width:100%}}
+@media(max-width:760px){.mtz-workspace:has(.mtz-graph-wrap:not([hidden])){--map-top-controls:145px}.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-toolbar{flex-wrap:wrap}.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-time-toolbar{left:12px;right:12px}.mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-selection{top:auto}}
+
+/* Keep the search controls and a taller normal map together while scrolling;
+   the coverage footer follows after the map instead of sharing that view. */
+body:not(.map-mode) #mtz-graph{height:calc(100dvh - 120px);min-height:620px;max-height:none}
+@media(max-width:760px){body:not(.map-mode) #mtz-graph{height:calc(100dvh - 180px);min-height:480px}}

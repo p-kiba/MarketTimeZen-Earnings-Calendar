@@ -1,0 +1,272 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "1株57ドルを株数と掛けて独自の総額にしない。SEC注記の研究開発費25.49億は取得対価そのものではない。",
+      "deal_id": "deal-68091e82e6df22eaab904300",
+      "detected_at": "2026-09-26T08:16:14+00:00",
+      "effective_date": "2024-08-16",
+      "event_id": "event-68091e82e6df22eaab904300",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-68091e82e6df22eaab904300",
+        "evidence-b135ea1b271d9a7dcd73c2a3",
+        "evidence-b51ab0e2a55de88832882b2b"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-68091e82e6df22eaab904300",
+            "evidence-b135ea1b271d9a7dcd73c2a3",
+            "evidence-b51ab0e2a55de88832882b2b"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2024-08-16",
+      "relationship_ids": [
+        "rel-89f5fa49dfb8d882c9692dae"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-7ef82b328009ca1f95a8f29d": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+          "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+        },
+        "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+        "reviewer": null,
+        "rule_id": "largecap-20260926-co-lly-co-morphic-acquisition",
+        "rule_version": "3b3f60fc048c5d9a565232e4733e7eb67813fe92e4be6211930ed0577adf16d7",
+        "verified_at": "2026-09-26T08:16:14+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-68091e82e6df22eaab904300",
+      "excerpt": "completion of its acquisition",
+      "locator": "p:10",
+      "normalized_text_hash": "2db2a8f5680d0b6cab430789cf06e1d96dd197af44ce711bd57c13eea4845091",
+      "section": "Verified contract and business scope",
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b135ea1b271d9a7dcd73c2a3",
+      "excerpt": "Morphic",
+      "locator": "tr:443",
+      "normalized_text_hash": "3a3c23ab76b8e2e6b91f282a054df025a9678acf2cc6f9f57306a32d189cc5ae",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-7ef82b328009ca1f95a8f29d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    },
+    {
+      "evidence_id": "evidence-b51ab0e2a55de88832882b2b",
+      "excerpt": "Acquired IPR&D Charge",
+      "locator": "tr:440",
+      "normalized_text_hash": "013a9e68dbf335d7b1d8727a8b33ddf6e9c8d804a5cb821aa75d3021dfc08340",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-7ef82b328009ca1f95a8f29d",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "amounts",
+        "term",
+        "conditions",
+        "status"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-68091e82e6df22eaab904300",
+        "evidence-b135ea1b271d9a7dcd73c2a3",
+        "evidence-b51ab0e2a55de88832882b2b"
+      ],
+      "geography": "",
+      "headline": "Morphicの経口IBD治療薬事業取得",
+      "products": [
+        "MORF-057",
+        "経口インテグリン治療薬"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "開発資産・事業の取得対象"
+    },
+    "deal_ids": [
+      "deal-68091e82e6df22eaab904300"
+    ],
+    "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-68091e82e6df22eaab904300",
+      "evidence-b135ea1b271d9a7dcd73c2a3",
+      "evidence-b51ab0e2a55de88832882b2b"
+    ],
+    "first_observed_at": "2026-09-26T08:16:14+00:00",
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "latest_event_ids": [
+      "event-68091e82e6df22eaab904300"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-morphic",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-7ef82b328009ca1f95a8f29d": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+        "source-9eae3e3d0f1f172ef05d66d6": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab"
+      },
+      "reason": "Codex primary-source review. Exact document and paragraph hashes pinned; transaction scope, reporting dates, legal parties and payment conditions reviewed. No human or independent-agent approval claimed. No FX, inferred prices or automatic publication.",
+      "reviewer": null,
+      "rule_id": "largecap-20260926-co-lly-co-morphic-acquisition",
+      "rule_version": "3b3f60fc048c5d9a565232e4733e7eb67813fe92e4be6211930ed0577adf16d7",
+      "verified_at": "2026-09-26T08:16:14+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0000059478-26-000013",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "content_hash": "7a6248398f5327f0fd524772f6b8907711b6b2d6b2fc9be4b7935f52ffdfcee9",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2026-02-12",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:04:01+00:00",
+      "source_id": "source-7ef82b328009ca1f95a8f29d",
+      "source_type": "sec_filing",
+      "title": "lly-20251231"
+    },
+    {
+      "accession_number": "0001193125-24-201684",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/59478/000119312524201684/d873721dex99a5b.htm",
+      "content_hash": "8867d037ad7ff70d2880cccb24d609fa41f000e524f2e0eb4f6cd37a651c1fab",
+      "date_precision": "day",
+      "extraction_version": "rules-1.7",
+      "filed_date": "2024-08-16",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": null,
+      "publisher": "SEC EDGAR issuer disclosure",
+      "retrieved_at": "2026-09-26T08:05:16+00:00",
+      "source_id": "source-9eae3e3d0f1f172ef05d66d6",
+      "source_type": "sec_filing",
+      "title": "EX-99.(a)(5)(B)"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-68091e82e6df22eaab904300",
+        "evidence-b135ea1b271d9a7dcd73c2a3",
+        "evidence-b51ab0e2a55de88832882b2b"
+      ],
+      "geography": "",
+      "headline": "Morphicの経口IBD治療薬事業取得",
+      "products": [
+        "MORF-057",
+        "経口インテグリン治療薬"
+      ],
+      "scale": "",
+      "source_role": "買収者",
+      "target_role": "開発資産・事業の取得対象"
+    },
+    "description": "LillyがMorphicを2024年8月16日に買収完了。炎症性腸疾患向けの経口α4β7インテグリン阻害薬MORF-057等を取得。",
+    "direction": "directed",
+    "event_date": "2024-08-16",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T08:16:14+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-89f5fa49dfb8d882c9692dae",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-lly",
+    "status_as_of": "2024-08-16",
+    "target_company_id": "co-morphic",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

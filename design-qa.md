@@ -137,3 +137,7 @@ Product Design案2を、TSMC→Appleの公開済み関係で実装し、683×863
 - Company detail opened from a relationship now keeps the relationship id, so the second-level company page shows `戻る` and returns to the relationship detail.
 - Company detail has a compact center-this-company icon beside the close control.
 - Official sites can be previewed in an optional in-panel browser; the external official-site link remains available when a site blocks framing.
+
+## 2026-09-28 表示言語
+
+ナビゲーションの「Connections Map」は「Map」に変更。関係ごとの表示要約は `relationships_config/locales/relationships.ja.json` と `relationships.en.json` に関係IDごとに記録し、エクスポート成果物とmanifest hashに含める。マップの線・一覧・関係詳細では選択中の言語を優先する。現在の公開対象242件すべてに日英要約を用意した。出典の原文と金額・期間・条件は共通データのまま保持し、表示要約だけを言語別に管理する。新たに承認済み関係が増えたら両方のlocaleファイルを更新する。

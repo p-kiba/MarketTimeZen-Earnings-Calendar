@@ -37,6 +37,7 @@ export class CompanyView {
   constructor(raw) {
     this.raw=raw;
     this.themes=raw.themes||[];
+    this.relationshipSummaries=raw.relationshipSummaries||{};
     this.rawCompanies=new Map(raw.companies.map(c=>[c.company_id,c]));
     this.memberToGroup=new Map();
     this.groups=new Map();

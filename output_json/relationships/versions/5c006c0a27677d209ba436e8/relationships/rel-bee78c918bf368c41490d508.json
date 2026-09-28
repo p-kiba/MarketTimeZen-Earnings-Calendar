@@ -1,0 +1,201 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-10-19",
+      "conditions": "",
+      "deal_id": "deal-46684e058ed789ff62b835dc",
+      "detected_at": "2026-09-26T16:06:54+00:00",
+      "effective_date": null,
+      "event_id": "event-46684e058ed789ff62b835dc",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-46684e058ed789ff62b835dc"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-46684e058ed789ff62b835dc"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-bee78c918bf368c41490d508"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+        },
+        "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+        "reviewer": null,
+        "rule_id": "sector-20260927-daiichi-astrazeneca",
+        "rule_version": "43a8703d7d8bdf26483eb970ebb5dfb2783ad68ef1a4d91fa17970ba2ea7b73b",
+        "verified_at": "2026-09-26T16:06:54+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-46684e058ed789ff62b835dc",
+      "excerpt": "DXd ADC portfolio of",
+      "locator": "p:19",
+      "normalized_text_hash": "686b3f6215f83b2de3c04e5d9c21953a55204cb128134afaf7c90250e512b3cf",
+      "section": "Primary disclosure: p:19",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-46684e058ed789ff62b835dc"
+      ],
+      "geography": "",
+      "headline": "ENHERTU・Dato-DXdを共同開発",
+      "products": [
+        "ENHERTU",
+        "datopotamab deruxtecan"
+      ],
+      "scale": "",
+      "source_role": "第一三共がDXd ADC技術と共同開発を担当",
+      "target_role": "AstraZenecaが共同開発・商業化を担当"
+    },
+    "deal_ids": [
+      "deal-46684e058ed789ff62b835dc"
+    ],
+    "description": "第一三共とAstraZenecaがENHERTUおよびdatopotamab deruxtecanを世界で共同開発・商業化していることを2023年発表で確認。Merck向け3製品の契約金額はこの協業に転用しない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-46684e058ed789ff62b835dc"
+    ],
+    "first_observed_at": "2026-09-26T16:06:54+00:00",
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "latest_event_ids": [
+      "event-46684e058ed789ff62b835dc"
+    ],
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-bee78c918bf368c41490d508",
+    "relationship_type": "partnership",
+    "source_company_id": "co-daiichi-sankyo",
+    "status_as_of": "2023-10-19",
+    "target_company_id": "co-astrazeneca",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-3f9c90d52ee230dc65e479f8": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab"
+      },
+      "reason": "Primary disclosure read and checked for concrete products, direction and counterparties. Status is as of publication; no current continuity, exclusive sourcing, contract amount or undisclosed duration inferred.",
+      "reviewer": null,
+      "rule_id": "sector-20260927-daiichi-astrazeneca",
+      "rule_version": "43a8703d7d8bdf26483eb970ebb5dfb2783ad68ef1a4d91fa17970ba2ea7b73b",
+      "verified_at": "2026-09-26T16:06:54+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.merck.com/news/daiichi-sankyo-and-merck-announce-global-development-and-commercialization-collaboration-for-three-daiichi-sankyo-dxd-adcs/",
+      "content_hash": "b19a406cd61137b2a09eb5cadb6d7f3f4dddc1c2ab980d7f5633b534845fb9ab",
+      "date_precision": "day",
+      "extraction_version": "rules-1.10",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-10-19",
+      "publisher": "www.merck.com",
+      "retrieved_at": "2026-09-26T16:02:18+00:00",
+      "source_id": "source-3f9c90d52ee230dc65e479f8",
+      "source_type": "official_newsroom",
+      "title": "Daiichi Sankyo and Merck Announce Global Development and Commercialization Collaboration for Three Daiichi Sankyo DXd ADCs - Merck.com"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-46684e058ed789ff62b835dc"
+      ],
+      "geography": "",
+      "headline": "ENHERTU・Dato-DXdを共同開発",
+      "products": [
+        "ENHERTU",
+        "datopotamab deruxtecan"
+      ],
+      "scale": "",
+      "source_role": "第一三共がDXd ADC技術と共同開発を担当",
+      "target_role": "AstraZenecaが共同開発・商業化を担当"
+    },
+    "description": "第一三共とAstraZenecaがENHERTUおよびdatopotamab deruxtecanを世界で共同開発・商業化していることを2023年発表で確認。Merck向け3製品の契約金額はこの協業に転用しない。",
+    "direction": "undirected",
+    "event_date": "2023-10-19",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T16:06:54+00:00",
+    "lifecycle_status": "historical",
+    "relationship_id": "rel-bee78c918bf368c41490d508",
+    "relationship_type": "partnership",
+    "source_company_id": "co-daiichi-sankyo",
+    "status_as_of": "2023-10-19",
+    "target_company_id": "co-astrazeneca",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-017aeef28f780ccf03bfef32",
+          "amount_kind": "purchase_price",
+          "conditions": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "representing a total implied equity value of approximately $7.8 billion at the time of closing",
+          "payee_company_ids": [
+            "co-arcellx-inc"
+          ],
+          "payer_company_ids": [
+            "co-gilead-sciences-inc"
+          ],
+          "qualifier": "approximately",
+          "scope": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+          "value": "7800000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-04-28",
+      "conditions": "現金$115／株に加え、非譲渡の条件付きCVR $5／株を含む。",
+      "deal_id": "deal-278ff07b6fb8849f31cf08af",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-278ff07b6fb8849f31cf08af",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-278ff07b6fb8849f31cf08af"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-278ff07b6fb8849f31cf08af"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-0dd6dfcd6216ee5ccccbd531"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
+        },
+        "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r97",
+        "rule_version": "359693c3abfea26ad89d6b15abcefa7607a5ea5e9b86b076d375c838a7d7e02f",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-278ff07b6fb8849f31cf08af",
+      "excerpt": "Gilead Sciences, Inc. (Nasdaq: GILD) today announced the successful completion of its previously announced acquisition of Arcellx, Inc.",
+      "locator": "p:3",
+      "normalized_text_hash": "47cb19c0797f3d28315e06dc32fc672a9a7a8d326de4a68acbe60bc336c3d3c7",
+      "section": "Official company disclosure",
+      "source_id": "source-650005e676c605561f1ff5b8",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-278ff07b6fb8849f31cf08af"
+    ],
+    "description": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-278ff07b6fb8849f31cf08af"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-278ff07b6fb8849f31cf08af"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0dd6dfcd6216ee5ccccbd531",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2026-04-28",
+    "target_company_id": "co-arcellx-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-650005e676c605561f1ff5b8": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639"
+      },
+      "reason": "Primary-source review of merged research record r97; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r97",
+      "rule_version": "359693c3abfea26ad89d6b15abcefa7607a5ea5e9b86b076d375c838a7d7e02f",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://www.gilead.com/news/news-details/2026/gilead-sciences-completes-acquisition-of-arcellx-ahead-of-potential-commercial-launch-of-anito-cel",
+      "content_hash": "30f51280436a92af5716edeb0afda48192c4c3dad19109a6ac6cbe34926f6639",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-04-28",
+      "publisher": "Gilead Sciences",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-650005e676c605561f1ff5b8",
+      "source_type": "official_newsroom",
+      "title": "Gilead Sciences Completes Acquisition of Arcellx Ahead of Potential Commercial Launch of Anito cel"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-017aeef28f780ccf03bfef32",
+        "amount_kind": "purchase_price",
+        "conditions": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-278ff07b6fb8849f31cf08af"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "representing a total implied equity value of approximately $7.8 billion at the time of closing",
+        "payee_company_ids": [
+          "co-arcellx-inc"
+        ],
+        "payer_company_ids": [
+          "co-gilead-sciences-inc"
+        ],
+        "qualifier": "approximately",
+        "scope": "現金$115／株と、条件付きCVR最大$5／株を含む完了時の総株式価値。CVR部分を含むため条件付き。原文通貨コード不明。",
+        "value": "7800000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "Gilead SciencesがArcellxを買収し、BCMA標的CAR-T候補anito-celの完全な支配権を取得。開示された総株式価値には現金対価と条件付きCVRが含まれる。",
+    "direction": "directed",
+    "event_date": "2026-04-28",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-0dd6dfcd6216ee5ccccbd531",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-gilead-sciences-inc",
+    "status_as_of": "2026-04-28",
+    "target_company_id": "co-arcellx-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "conditional"
+    ]
+  }
+}

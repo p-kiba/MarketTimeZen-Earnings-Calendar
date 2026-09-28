@@ -1,0 +1,174 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-10-13",
+      "conditions": "",
+      "deal_id": "deal-be50fd18b8c831fc26ed3b75",
+      "detected_at": "2026-09-25T16:17:13+00:00",
+      "effective_date": null,
+      "event_id": "event-be50fd18b8c831fc26ed3b75",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-be50fd18b8c831fc26ed3b75"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-be50fd18b8c831fc26ed3b75"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-9be2cf84ad4c9c15185a1e63"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+        },
+        "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-c552bea1179de1caca57afec",
+        "rule_version": "420380573b5151d0349c7ca7d96425aaec97a345b353eac73f4ec12c5c8d0112",
+        "verified_at": "2026-09-25T16:17:13+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-be50fd18b8c831fc26ed3b75",
+      "excerpt": "collaboration for 10 gigawatts of custom AI accelerators",
+      "locator": "p:6",
+      "normalized_text_hash": "8b71eb8efecec543a49ddf5761e2f3e6e2835bd25ba84fc114c1e6e4766b356b",
+      "section": "Official deal announcement",
+      "source_id": "source-c552bea1179de1caca57afec",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-be50fd18b8c831fc26ed3b75"
+    ],
+    "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-be50fd18b8c831fc26ed3b75"
+    ],
+    "first_observed_at": "2026-09-25T16:14:29+00:00",
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "latest_event_ids": [
+      "event-be50fd18b8c831fc26ed3b75"
+    ],
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2025-10-13",
+    "target_company_id": "co-openai",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-c552bea1179de1caca57afec": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1"
+      },
+      "reason": "Codex-curated source-bound assertions checked against exact official disclosure and paragraph hashes. Reported organisations are not silently mapped to a different parent/legal entity. No claim of human review or general extraction accuracy. Amounts, dates, issuer-wide totals and conditional terms evaluated separately.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-c552bea1179de1caca57afec",
+      "rule_version": "420380573b5151d0349c7ca7d96425aaec97a345b353eac73f4ec12c5c8d0112",
+      "verified_at": "2026-09-25T16:17:13+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/",
+      "content_hash": "c4066b3f11cd58746d0c91f38f922e2a0bb9bcf50398386c7a79e4df3cafacc1",
+      "date_precision": "day",
+      "extraction_version": "rules-1.1",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-10-13",
+      "publisher": "co-openai",
+      "retrieved_at": "2026-09-25T16:11:11+00:00",
+      "source_id": "source-c552bea1179de1caca57afec",
+      "source_type": "official_newsroom",
+      "title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators | OpenAI"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "OpenAIとBroadcomが10GWのカスタムAIアクセラレーターを共同開発・展開する協業。GWは設備規模であり契約金額ではない。",
+    "direction": "undirected",
+    "event_date": "2025-10-13",
+    "has_amount": false,
+    "last_observed_at": "2026-09-25T16:17:13+00:00",
+    "lifecycle_status": "announced",
+    "relationship_id": "rel-9be2cf84ad4c9c15185a1e63",
+    "relationship_type": "partnership",
+    "source_company_id": "co-avgo",
+    "status_as_of": "2025-10-13",
+    "target_company_id": "co-openai",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

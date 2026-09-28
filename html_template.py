@@ -467,7 +467,7 @@ def build_controls(active_market: str, search_placeholder: str) -> str:
   <nav class="mtz-feature-nav" aria-label="Features">
     <a class="mtz-feature-link" aria-current="page" href="{'index.html' if active_market == 'us' else 'japan.html'}">Earnings Calendar</a>
     <a class="mtz-feature-link" href="map.html?tab=news" onclick="event.preventDefault(); goToConnections('news');">News</a>
-    <a class="mtz-feature-link" href="map.html?tab=map&amp;company=co-aapl&amp;view=map" onclick="event.preventDefault(); goToConnections('map');">Connections Map</a>
+    <a class="mtz-feature-link" href="map.html?tab=map&amp;company=co-aapl&amp;view=map" onclick="event.preventDefault(); goToConnections('map');">Map</a>
   </nav>
   <div class="top-controls-row">
     <div class="mode-toggle">

@@ -1,0 +1,111 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-palo-alto-networks-inc",
+      "country": null,
+      "display_name": "Palo Alto Networks, Inc.",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-talon-cyber-security-ltd",
+      "country": null,
+      "display_name": "Talon Cyber Security",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-talon-cyber-security-ltd",
+    "country": null,
+    "display_name": "Talon Cyber Security",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-fc0cb1d4e5285d6f1a90afd6",
+          "amount_kind": "purchase_price",
+          "conditions": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b841f352570a0a5d077cff6c",
+            "evidence-a0c8b7e46a320e5f2c234b4c"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$ 458.6 million",
+          "payee_company_ids": [
+            "co-talon-cyber-security-ltd"
+          ],
+          "payer_company_ids": [
+            "co-palo-alto-networks-inc"
+          ],
+          "qualifier": "exact",
+          "scope": "買収の総購入対価。内訳として現金439.0百万ドル相当と株式報酬19.6百万ドル相当を注記。原文通貨定義なし。",
+          "value": "458600000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "Palo Alto NetworksがTalon Cyber Securityの買収を完了し、enterprise browser技術を取得。個人端末・非管理端末から企業アプリへ安全にアクセスする機能をPrisma SASEへ加える。",
+      "direction": "directed",
+      "event_date": "2023-12-28",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T12:59:55+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-ad5f7ebbe6c9af85db9f00a0",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-palo-alto-networks-inc",
+      "status_as_of": "2023-12-28",
+      "target_company_id": "co-talon-cyber-security-ltd",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2023-12-28"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

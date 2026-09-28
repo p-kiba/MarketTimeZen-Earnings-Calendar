@@ -1,0 +1,229 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-815c5da9bca85f400fd86ee0",
+          "amount_kind": "purchase_price",
+          "conditions": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+          "contingent": true,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "max_value": "840000000",
+          "min_value": null,
+          "original_text": "in a transaction valued at up to $840 million",
+          "payee_company_ids": [
+            "co-dark-blue-therapeutics-ltd"
+          ],
+          "payer_company_ids": [
+            "co-amgen"
+          ],
+          "qualifier": "up_to",
+          "scope": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+          "value": null,
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": "2026-01-06",
+      "conditions": "",
+      "deal_id": "deal-b99f5e60222d633a0f0cf558",
+      "detected_at": "2026-09-26T13:26:56+00:00",
+      "effective_date": null,
+      "event_id": "event-b99f5e60222d633a0f0cf558",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-b99f5e60222d633a0f0cf558"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-b99f5e60222d633a0f0cf558"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-aa47d9d867a4733fe6fae8ee"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
+        },
+        "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+        "reviewer": null,
+        "rule_id": "merged-20260926-r93",
+        "rule_version": "44c0e1f3d79c6a1f88e5e727fb1bfbd47ae59776ce1fe673c292474eaaabe6b7",
+        "verified_at": "2026-09-26T13:26:56+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-b99f5e60222d633a0f0cf558",
+      "excerpt": "Amgen (NASDAQ: AMGN) today announced its acquisition of Dark Blue Therapeutics Ltd.",
+      "locator": "p:3",
+      "normalized_text_hash": "745a8bc973e29ee8b6493e03cc69b143d32dc39ba96328f4835c2cd6064c33a0",
+      "section": "Official company disclosure",
+      "source_id": "source-c052e91a4cf3ccd6d8f9b5e3",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-b99f5e60222d633a0f0cf558"
+    ],
+    "description": "AmgenがDark Blue Therapeuticsを買収し、MLLT1/3を標的とする急性骨髄性白血病向けタンパク質分解薬プログラムを取得。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-b99f5e60222d633a0f0cf558"
+    ],
+    "first_observed_at": "2026-09-26T12:44:59+00:00",
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "latest_event_ids": [
+      "event-b99f5e60222d633a0f0cf558"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-aa47d9d867a4733fe6fae8ee",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2026-01-06",
+    "target_company_id": "co-dark-blue-therapeutics-ltd",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-c052e91a4cf3ccd6d8f9b5e3": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae"
+      },
+      "reason": "Primary-source review of merged research record r93; parties, completed status, scope of acquisition and disclosed amount qualifiers checked against official issuer paragraph. Dollar currency is left unresolved where source does not define it.",
+      "reviewer": null,
+      "rule_id": "merged-20260926-r93",
+      "rule_version": "44c0e1f3d79c6a1f88e5e727fb1bfbd47ae59776ce1fe673c292474eaaabe6b7",
+      "verified_at": "2026-09-26T13:26:56+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://wwwext.amgen.com/newsroom/press-releases/2026/01/amgen-acquires-dark-blue-therapeutics-bolstering-oncology-pipeline",
+      "content_hash": "2cd61cc8b30b0fea1617ff1ae6132ed00ccc1fdc0263b00f24053ad744a39cae",
+      "date_precision": "day",
+      "extraction_version": "rules-1.0",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2026-01-06",
+      "publisher": "Amgen",
+      "retrieved_at": "2026-09-26T00:00:00+00:00",
+      "source_id": "source-c052e91a4cf3ccd6d8f9b5e3",
+      "source_type": "official_newsroom",
+      "title": "AMGEN ACQUIRES DARK BLUE THERAPEUTICS, BOLSTERING ONCOLOGY PIPELINE| Amgen"
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-815c5da9bca85f400fd86ee0",
+        "amount_kind": "purchase_price",
+        "conditions": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+        "contingent": true,
+        "currency": null,
+        "currency_basis": null,
+        "evidence_ids": [
+          "evidence-b99f5e60222d633a0f0cf558"
+        ],
+        "max_value": "840000000",
+        "min_value": null,
+        "original_text": "in a transaction valued at up to $840 million",
+        "payee_company_ids": [
+          "co-dark-blue-therapeutics-ltd"
+        ],
+        "payer_company_ids": [
+          "co-amgen"
+        ],
+        "qualifier": "up_to",
+        "scope": "最大取引価値。条件付き上限として公表。原文通貨コード不明。",
+        "value": null,
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": null,
+    "description": "AmgenがDark Blue Therapeuticsを買収し、MLLT1/3を標的とする急性骨髄性白血病向けタンパク質分解薬プログラムを取得。",
+    "direction": "directed",
+    "event_date": "2026-01-06",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T13:26:56+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-aa47d9d867a4733fe6fae8ee",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-amgen",
+    "status_as_of": "2026-01-06",
+    "target_company_id": "co-dark-blue-therapeutics-ltd",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "currency_unknown",
+      "bounded_or_unspecified",
+      "conditional",
+      "not_total"
+    ]
+  }
+}

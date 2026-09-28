@@ -1,0 +1,203 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2025-05-20",
+      "conditions": "",
+      "deal_id": "deal-1bf847ba1504be2d08acc3c3",
+      "detected_at": "2026-09-26T04:47:24+00:00",
+      "effective_date": null,
+      "event_id": "event-1bf847ba1504be2d08acc3c3",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-1bf847ba1504be2d08acc3c3"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-1bf847ba1504be2d08acc3c3"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-b4481f1fa976d8bd5c68acf0"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-5f65a471bafc823d593d0381": "f05b099d3cb92ec481162390489a8ff2f22b304e3c377df2d055bbcfd8f3e14b"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-5f65a471bafc823d593d0381",
+        "rule_version": "3fbfcd48898a023c4cbcbda6fc80578ecb088bf1e8511b27a61717e92617d1ec",
+        "verified_at": "2026-09-26T04:47:24+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-1bf847ba1504be2d08acc3c3",
+      "excerpt": "Red Hat OpenShift AI",
+      "locator": "p:16",
+      "normalized_text_hash": "5622060a1003963107eb5e5b3bbade3c40ccb808cc97dde06541a2e6a1ea4e25",
+      "section": "Official disclosure: business context",
+      "source_id": "source-5f65a471bafc823d593d0381",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-1bf847ba1504be2d08acc3c3"
+      ],
+      "geography": "",
+      "headline": "OpenShift AIのInstinct対応・AI推論検証",
+      "products": [
+        "AMD Instinct MI300X",
+        "Red Hat OpenShift AI",
+        "Red Hat Enterprise Linux AI"
+      ],
+      "scale": "",
+      "source_role": "GPUプラットフォーム",
+      "target_role": "AIソフトウェア・仮想化基盤"
+    },
+    "deal_ids": [
+      "deal-1bf847ba1504be2d08acc3c3"
+    ],
+    "description": "Red Hat OpenShift AIがAMD Instinct GPUに対応。両社はAzure ND MI300X v5上でRed Hat Enterprise Linux AIとInstinct MI300Xを使ったAI推論を検証したと公表。",
+    "direction": "undirected",
+    "evidence_ids": [
+      "evidence-1bf847ba1504be2d08acc3c3"
+    ],
+    "first_observed_at": "2026-09-26T04:47:24+00:00",
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "latest_event_ids": [
+      "event-1bf847ba1504be2d08acc3c3"
+    ],
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b4481f1fa976d8bd5c68acf0",
+    "relationship_type": "partnership",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-05-20",
+    "target_company_id": "co-redhat",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-5f65a471bafc823d593d0381": "f05b099d3cb92ec481162390489a8ff2f22b304e3c377df2d055bbcfd8f3e14b"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "disclosure-source-5f65a471bafc823d593d0381",
+      "rule_version": "3fbfcd48898a023c4cbcbda6fc80578ecb088bf1e8511b27a61717e92617d1ec",
+      "verified_at": "2026-09-26T04:47:24+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://newsroom.amd.com/news/red-hat-and-amd-strengthen-strategic-collaboration/",
+      "content_hash": "f05b099d3cb92ec481162390489a8ff2f22b304e3c377df2d055bbcfd8f3e14b",
+      "date_precision": "day",
+      "extraction_version": "rules-1.4",
+      "filed_date": null,
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2025-05-20",
+      "publisher": "co-amd",
+      "retrieved_at": "2026-09-26T04:45:34+00:00",
+      "source_id": "source-5f65a471bafc823d593d0381",
+      "source_type": "official_newsroom",
+      "title": "Red Hat and AMD Strengthen Collaboration, Expand Customer Choice - AMD Newsroom"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": {
+      "evidence_ids": [
+        "evidence-1bf847ba1504be2d08acc3c3"
+      ],
+      "geography": "",
+      "headline": "OpenShift AIのInstinct対応・AI推論検証",
+      "products": [
+        "AMD Instinct MI300X",
+        "Red Hat OpenShift AI",
+        "Red Hat Enterprise Linux AI"
+      ],
+      "scale": "",
+      "source_role": "GPUプラットフォーム",
+      "target_role": "AIソフトウェア・仮想化基盤"
+    },
+    "description": "Red Hat OpenShift AIがAMD Instinct GPUに対応。両社はAzure ND MI300X v5上でRed Hat Enterprise Linux AIとInstinct MI300Xを使ったAI推論を検証したと公表。",
+    "direction": "undirected",
+    "event_date": "2025-05-20",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T04:47:24+00:00",
+    "lifecycle_status": "active",
+    "relationship_id": "rel-b4481f1fa976d8bd5c68acf0",
+    "relationship_type": "partnership",
+    "source_company_id": "co-amd",
+    "status_as_of": "2025-05-20",
+    "target_company_id": "co-redhat",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

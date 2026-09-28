@@ -1,0 +1,89 @@
+{
+  "build_id": "5c006c0a27677d209ba436e8",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-lg-chem",
+      "country": null,
+      "display_name": "LG Chem",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "automotive_batteries"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-xom",
+      "country": null,
+      "display_name": "ExxonMobil",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "energy_power"
+      ],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": null,
+    "company_id": "co-lg-chem",
+    "country": null,
+    "display_name": "LG Chem",
+    "entity_status": "resolved",
+    "legal_name": null,
+    "listing_status": "unknown",
+    "listing_status_as_of": null,
+    "listing_status_source": null,
+    "listings": [],
+    "merged_into": null,
+    "themes": [
+      "automotive_batteries"
+    ],
+    "universe_memberships": []
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [],
+      "business": null,
+      "description": "ExxonMobilとLG Chemは、ExxonMobilの米国リチウム事業からLG Chemのテネシー州正極材工場へリチウムを供給する複数年のオフテイクに向け、拘束力のないMOUを締結した。",
+      "direction": "directed",
+      "event_date": "2024-11-20",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-12d60157c40214b0abb04a3c",
+      "relationship_type": "supplier",
+      "source_company_id": "co-xom",
+      "status_as_of": "2024-11-20",
+      "target_company_id": "co-lg-chem",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2024-11-20"
+  ],
+  "total_counterparties": 1,
+  "total_peer_relationships": 0,
+  "total_relationships": 1
+}

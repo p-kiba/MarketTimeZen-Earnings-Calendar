@@ -1,5 +1,5 @@
 {
-  "deferred_statements": 9998,
+  "deferred_statements": 15455,
   "publication_eligible": false,
   "statements": [
     {
@@ -3662,7 +3662,8 @@
       "content_hash": "4e9438057370992a9aa052e2b107f0b5781b401a8ac10ae99237c12089e0e3ad",
       "locator": "p:10",
       "mentioned_company_ids": [
-        "co-citi"
+        "co-citi",
+        "co-morgan-stanley"
       ],
       "publisher_company_id": "co-openai",
       "reason": "unresolved_mentions",
@@ -3676,7 +3677,6 @@
         "HSBC",
         "JPMorgan Chase",
         "Mizuho",
-        "Morgan Stanley",
         "Royal Bank",
         "SMBC",
         "Santander. The",
@@ -3776,10 +3776,10 @@
       "mentioned_company_ids": [
         "co-coreweave",
         "co-google",
-        "co-orcl",
         "co-nvda",
         "co-msft",
-        "co-avgo"
+        "co-avgo",
+        "co-orcl"
       ],
       "publisher_company_id": "co-openai",
       "reason": "multi_party",
@@ -5732,8 +5732,8 @@
       "content_hash": "361a79f2b5e39edee7177cdc61554dbbcf7b40726107c4ff54e949c136ac088a",
       "locator": "tr:539",
       "mentioned_company_ids": [
-        "co-avgo",
-        "co-vmware"
+        "co-vmware",
+        "co-avgo"
       ],
       "publisher_company_id": "co-avgo",
       "reason": "unresolved_mentions",

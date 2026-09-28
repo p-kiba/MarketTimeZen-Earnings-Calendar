@@ -1,0 +1,174 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": null,
+      "amount_disclosure": "not_stated_in_source",
+      "amounts": [],
+      "announced_at": null,
+      "announced_date": "2023-11-02",
+      "conditions": "2023-11-02に買収完了。 全株式取引でDenbury株1株につきExxonMobil株0.84株。",
+      "deal_id": "deal-513c4a5b49916a2e5e453808",
+      "detected_at": "2026-09-26T14:26:46+00:00",
+      "effective_date": null,
+      "event_id": "event-513c4a5b49916a2e5e453808",
+      "event_type": "acquisition_closed",
+      "evidence_ids": [
+        "evidence-513c4a5b49916a2e5e453808"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-513c4a5b49916a2e5e453808"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": null,
+      "relationship_ids": [
+        "rel-e61dc127ed9040a1862a634c"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": null,
+        "duration_value": null,
+        "end_date": null,
+        "evidence_ids": [],
+        "renewal": null,
+        "start_basis": null,
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-023c2b32af19b500000895de": "82983b559c8024f80f0b16d0bcff440ea2aa2c8f0cff58f71235d054186da53f"
+        },
+        "reason": "Primary-source review of user-supplied research batch 07, record r2; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+        "reviewer": null,
+        "rule_id": "research-batch-07-r2",
+        "rule_version": "6fe4af79e9dd99fc6f5a2a75d21a91f5f3e5998f3ad92f6c1d56d9cb6d72c0e1",
+        "verified_at": "2026-09-26T14:26:46+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-513c4a5b49916a2e5e453808",
+      "excerpt": "ExxonMobil completes acquisition",
+      "locator": "h1:2",
+      "normalized_text_hash": "cbd0b1f59c263bb60d91d549df0f9a1508fe54fce7fe8fa8fa9a4b972bb43fb4",
+      "section": "Official primary-source disclosure",
+      "source_id": "source-023c2b32af19b500000895de",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    }
+  ],
+  "relationship": {
+    "deal_ids": [
+      "deal-513c4a5b49916a2e5e453808"
+    ],
+    "description": "ExxonMobilはDenburyを全株式取引で買収し、米国最大級のCO2パイプライン網とCCS向け資産を取り込んだ。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-513c4a5b49916a2e5e453808"
+    ],
+    "first_observed_at": "2026-09-26T14:26:46+00:00",
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "latest_event_ids": [
+      "event-513c4a5b49916a2e5e453808"
+    ],
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-e61dc127ed9040a1862a634c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-xom",
+    "status_as_of": "2023-11-02",
+    "target_company_id": "co-denbury-inc",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-023c2b32af19b500000895de": "82983b559c8024f80f0b16d0bcff440ea2aa2c8f0cff58f71235d054186da53f"
+      },
+      "reason": "Primary-source review of user-supplied research batch 07, record r2; counterparty scope, disclosed activity and status checked. Amount fields are retained only where exact original wording was located in the cited primary disclosures; dollar signs without an explicit currency code remain unclassified.",
+      "reviewer": null,
+      "rule_id": "research-batch-07-r2",
+      "rule_version": "6fe4af79e9dd99fc6f5a2a75d21a91f5f3e5998f3ad92f6c1d56d9cb6d72c0e1",
+      "verified_at": "2026-09-26T14:26:46+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": null,
+      "canonical_url": "https://corporate.exxonmobil.com/news/news-releases/2023/1102_exxonmobil-completes-acquisition-of-denbury",
+      "content_hash": "82983b559c8024f80f0b16d0bcff440ea2aa2c8f0cff58f71235d054186da53f",
+      "date_precision": "day",
+      "extraction_version": "rules-1.9",
+      "filed_date": "2023-11-02",
+      "filing_cik": null,
+      "form": null,
+      "published_at": null,
+      "published_date": "2023-11-02",
+      "publisher": "ExxonMobil",
+      "retrieved_at": "2026-09-26T13:43:51+00:00",
+      "source_id": "source-023c2b32af19b500000895de",
+      "source_type": "official_newsroom",
+      "title": "ExxonMobil completes acquisition of Denbury | ExxonMobil"
+    }
+  ],
+  "summary": {
+    "amounts": [],
+    "business": null,
+    "description": "ExxonMobilはDenburyを全株式取引で買収し、米国最大級のCO2パイプライン網とCCS向け資産を取り込んだ。",
+    "direction": "directed",
+    "event_date": "2023-11-02",
+    "has_amount": false,
+    "last_observed_at": "2026-09-26T14:26:46+00:00",
+    "lifecycle_status": "completed",
+    "relationship_id": "rel-e61dc127ed9040a1862a634c",
+    "relationship_type": "acquisition",
+    "source_company_id": "co-xom",
+    "status_as_of": "2023-11-02",
+    "target_company_id": "co-denbury-inc",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "not_stated_in_source"
+    ]
+  }
+}

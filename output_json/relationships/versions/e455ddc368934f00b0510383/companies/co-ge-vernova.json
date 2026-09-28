@@ -1,0 +1,403 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "companies": [
+    {
+      "aliases": [],
+      "cik": "0001018724",
+      "company_id": "co-amzn",
+      "country": null,
+      "display_name": "Amazon",
+      "entity_status": "resolved",
+      "legal_name": "AMAZON COM INC",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-26",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "listings": [
+        {
+          "exchange": "Nasdaq",
+          "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "symbol": "AMZN",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "ai_models",
+        "data_center_cloud",
+        "food_retail"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-25",
+          "source_url": "https://github.com/p-kiba/MarketTimeZen-Earnings-Calendar",
+          "universe": "pilot"
+        },
+        {
+          "as_of": "2026-09-26",
+          "source_url": "https://stockanalysis.com/list/biggest-companies/",
+          "universe": "large_cap_focus"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": "0000093410",
+      "company_id": "co-cvx",
+      "country": null,
+      "display_name": "Chevron",
+      "entity_status": "resolved",
+      "legal_name": "CHEVRON CORP",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0000093410.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0000093410.json",
+          "symbol": "CVX",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "energy_power"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-duke-energy",
+      "country": null,
+      "display_name": "Duke Energy",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": "0001996810",
+      "company_id": "co-ge-vernova",
+      "country": null,
+      "display_name": "GE Vernova",
+      "entity_status": "resolved",
+      "legal_name": "GE Vernova Inc.",
+      "listing_status": "listed",
+      "listing_status_as_of": "2026-09-27",
+      "listing_status_source": "https://data.sec.gov/submissions/CIK0001996810.json",
+      "listings": [
+        {
+          "exchange": "NYSE",
+          "source_url": "https://data.sec.gov/submissions/CIK0001996810.json",
+          "symbol": "GEV",
+          "valid_from": null,
+          "valid_to": null
+        }
+      ],
+      "merged_into": null,
+      "themes": [
+        "energy_power",
+        "industrial_aerospace"
+      ],
+      "universe_memberships": [
+        {
+          "as_of": "2026-09-27",
+          "source_url": "https://www.sec.gov/edgar/search/",
+          "universe": "custom"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-prolec-ge",
+      "country": null,
+      "display_name": "Prolec GE",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-uniper",
+      "country": null,
+      "display_name": "Uniper",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [
+        "energy_power"
+      ],
+      "universe_memberships": []
+    },
+    {
+      "aliases": [],
+      "cik": null,
+      "company_id": "co-woodward-gas-turbine-combustion-parts",
+      "country": null,
+      "display_name": "Woodward, Inc.’s heavy duty gas turbine combustion parts business",
+      "entity_status": "resolved",
+      "legal_name": null,
+      "listing_status": "unknown",
+      "listing_status_as_of": null,
+      "listing_status_source": null,
+      "listings": [],
+      "merged_into": null,
+      "themes": [],
+      "universe_memberships": []
+    }
+  ],
+  "company": {
+    "aliases": [],
+    "cik": "0001996810",
+    "company_id": "co-ge-vernova",
+    "country": null,
+    "display_name": "GE Vernova",
+    "entity_status": "resolved",
+    "legal_name": "GE Vernova Inc.",
+    "listing_status": "listed",
+    "listing_status_as_of": "2026-09-27",
+    "listing_status_source": "https://data.sec.gov/submissions/CIK0001996810.json",
+    "listings": [
+      {
+        "exchange": "NYSE",
+        "source_url": "https://data.sec.gov/submissions/CIK0001996810.json",
+        "symbol": "GEV",
+        "valid_from": null,
+        "valid_to": null
+      }
+    ],
+    "merged_into": null,
+    "themes": [
+      "energy_power",
+      "industrial_aerospace"
+    ],
+    "universe_memberships": [
+      {
+        "as_of": "2026-09-27",
+        "source_url": "https://www.sec.gov/edgar/search/",
+        "universe": "custom"
+      }
+    ]
+  },
+  "peer_relationships": [],
+  "relationships": [
+    {
+      "amounts": [
+        {
+          "amount_id": "amount-ebcbc6c35597b05bfb9e3ad1",
+          "amount_kind": "purchase_price",
+          "conditions": "残余50%持分の購入価格。GE Vernovaは現金と負債を同額ずつ組み合わせて資金調達したと公表。",
+          "contingent": null,
+          "currency": null,
+          "currency_basis": null,
+          "evidence_ids": [
+            "evidence-30bc5b72d500959bb1d5ead3"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "purchase price of $5.275 billion",
+          "payee_company_ids": [
+            "co-prolec-ge"
+          ],
+          "payer_company_ids": [
+            "co-ge-vernova"
+          ],
+          "qualifier": "exact",
+          "scope": "bilateral",
+          "value": "5275000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        }
+      ],
+      "business": null,
+      "description": "GE VernovaはXignuxとの旧合弁会社Prolec GEの残余50%持分を取得し、Prolec GEをGE VernovaのElectrification事業へ統合した。",
+      "direction": "directed",
+      "event_date": "2026-02-02",
+      "has_amount": true,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-9b3dcc0632852bcbbf3fcd8e",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2026-02-02",
+      "target_company_id": "co-prolec-ge",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "currency_unknown",
+        "contingency_unknown"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "GE VernovaはWoodwardのサウスカロライナ州Greenville拠点に関連する大型ガスタービン燃焼部品事業の全資産を取得した。",
+      "direction": "directed",
+      "event_date": "2025-03-03",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "completed",
+      "relationship_id": "rel-bb3b2db574214c2911e0b475",
+      "relationship_type": "acquisition",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-03-03",
+      "target_company_id": "co-woodward-gas-turbine-combustion-parts",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "GE VernovaとAmazon Web Servicesは、AWSのデータセンター拡張をGE Vernovaの発電・電化・コンサルティングで支援し、AWSがGE Vernovaのクラウド移行とデジタル・生成AI活用を支援する戦略的枠組み契約を締結した。",
+      "direction": "undirected",
+      "event_date": "2025-03-04",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-c5717ff3279ebb3a208bb65c",
+      "relationship_type": "partnership",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-03-04",
+      "target_company_id": "co-amzn",
+      "themes": [
+        "ai_models",
+        "data_center_cloud",
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": null,
+      "description": "GE VernovaとDuke Energyは、Dukeが最大11基のGE Vernova製7HAガスタービンと関連機器を調達できる枠組みを発表した。",
+      "direction": "directed",
+      "event_date": "2025-04-24",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T14:26:46+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-f949eed96d030bad576f4532",
+      "relationship_type": "supplier",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-04-24",
+      "target_company_id": "co-duke-energy",
+      "themes": [],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-7f4a0a67d4a30434fecbc7dd"
+        ],
+        "geography": "",
+        "headline": "発電所のガスタービン3基を更新",
+        "products": [
+          "GT26 High Efficiency upgrade"
+        ],
+        "scale": "",
+        "source_role": "GE Vernovaがタービン更新サービスを提供",
+        "target_role": "UniperがGrain発電所向けに発注"
+      },
+      "description": "GE Vernovaが英国Grain発電所のGT26ガスタービン3基を高効率化するサービス契約をUniperと締結。2026年から更新予定。資料の燃料節約見込額は契約金額に含めない。",
+      "direction": "directed",
+      "event_date": "2025-06-05",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "signed",
+      "relationship_id": "rel-90be8f403b1ef23fff83a3f4",
+      "relationship_type": "service_provider",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-06-05",
+      "target_company_id": "co-uniper",
+      "themes": [
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    },
+    {
+      "amounts": [],
+      "business": {
+        "evidence_ids": [
+          "evidence-b2694ecabe731cac94ba57fd"
+        ],
+        "geography": "",
+        "headline": "発電計画に7HAタービンを採用",
+        "products": [
+          "GE Vernova 7HA",
+          "タービン生産枠予約"
+        ],
+        "scale": "",
+        "source_role": "GE Vernovaがタービン生産枠を確保",
+        "target_role": "Chevron U.S.A.等が共同発電計画に採用"
+      },
+      "description": "Chevron U.S.A.とEngine No.1の共同発電計画はGE Vernovaと協業し、7HAガスタービン7基の生産枠を予約。確定納入・稼働済みやChevron本体への直接販売額とは扱わない。",
+      "direction": "undirected",
+      "event_date": "2025-01-28",
+      "has_amount": false,
+      "last_observed_at": "2026-09-26T16:06:54+00:00",
+      "lifecycle_status": "announced",
+      "relationship_id": "rel-5ea60087d05c5b7b8049e178",
+      "relationship_type": "partnership",
+      "source_company_id": "co-ge-vernova",
+      "status_as_of": "2025-01-28",
+      "target_company_id": "co-cvx",
+      "themes": [
+        "energy_power"
+      ],
+      "tier": null,
+      "tier_reasons": [
+        "not_stated_in_source"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_dates": [
+    "2025-01-28",
+    "2025-03-03",
+    "2025-03-04",
+    "2025-04-24",
+    "2025-06-05",
+    "2026-02-02"
+  ],
+  "total_counterparties": 6,
+  "total_peer_relationships": 0,
+  "total_relationships": 6
+}

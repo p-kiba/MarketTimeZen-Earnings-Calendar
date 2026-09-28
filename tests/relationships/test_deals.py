@@ -31,9 +31,14 @@ def test_source_bound_deal_rules_are_idempotent_with_cached_sources(project):
     cache=ROOT/'.cache/relationships/documents'
     cfg=read(project/'relationships_config/deal_rules.json')
     ids={r['proof']['source_id'] for r in cfg['rules']}
+    for rule in cfg['rules']:
+        for claim in rule['claims']:
+            ids.update(item['source_id'] for item in claim.get('context', []))
     for c in cfg['companies']:
         ids.add(c['identity_proof']['source_id'])
         if c.get('listing_proof'):ids.add(c['listing_proof']['source_id'])
+    for receipt in read(project/'relationships_config/identity_enrichments.json', {}).values():
+        ids.update(proof['source_id'] for proof in receipt['proofs'])
     if any(not (cache/f'{sid}.html').exists() for sid in ids):pytest.skip('Live source cache is intentionally not committed')
     target=project/'.cache/relationships/documents';target.mkdir(parents=True)
     for sid in ids:shutil.copy2(cache/f'{sid}.html',target/f'{sid}.html')
@@ -53,11 +58,11 @@ def test_timeline_only_contains_approved_amounts_and_preserves_meaning(project):
     events=read(folder/'recent_events.json')['timeline']
     assert len(events)==len({e['event_id'] for e in events})
     assert all(a['verification'].startswith('approved') for e in events for a in e['amounts'])
-    aws=next(e for e in events if e['description'].startswith('AWSとOpenAI'))
+    aws=next(e for e in events if 'AWSとOpenAIの既存クラウド契約を8年間で' in e['description'] and e['announced_date']=='2026-02-27')
     assert aws['announced_date']=='2026-02-27' and aws['amounts'][0]['value']=='100000000000'
     assert aws['amounts'][0]['value_semantics']=='increment' and aws['term']['duration_value']==8
     assert not any(a.get('value')=='138000000000' for e in events for a in e['amounts'])
-    broadcom=next(e for e in events if e['description'].startswith('Apple製品向け'))
+    broadcom=next(e for e in events if e['description'].startswith('Apple製品の複数世代に向けBroadcom'))
     assert broadcom['amounts'][0]['qualifier']=='more_than' and broadcom['amounts'][0]['value'] is None
     assert validate_public(project)['valid']
     companies=read(folder/'companies.json')['companies']

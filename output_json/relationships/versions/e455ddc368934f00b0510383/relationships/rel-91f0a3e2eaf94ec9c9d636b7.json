@@ -1,0 +1,817 @@
+{
+  "build_id": "e455ddc368934f00b0510383",
+  "events": [
+    {
+      "agreement_date": "2025-09-08",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-1b447c6ce697a1378da6f6b3",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$17.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "GPUの展開・利用可能性の条件を満たした場合の基本契約額",
+          "value": "17400000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-327ce878675311a616d6c44d",
+          "amount_kind": "potential_expansion",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$19.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "追加サービス・容量を購入した場合の総額。基本額と足し合わせない。",
+          "value": "19400000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "資金調達または自己資金充当の条件と段階的なGPU受入を要する。受入後は実使用量にかかわらず期間全体の料金を支払う。引渡し遅延・重大違反等の解除条項あり。単価・数量・具体的な満了日等は契約書で伏せられている。",
+      "deal_id": "deal-769f7e15def0f74869ecff90",
+      "detected_at": "2026-09-26T05:23:12+00:00",
+      "effective_date": null,
+      "event_id": "event-769f7e15def0f74869ecff90",
+      "event_type": "newly_indexed",
+      "evidence_ids": [
+        "evidence-769f7e15def0f74869ecff90",
+        "evidence-f69997278f23ee93e7a9df7a",
+        "evidence-3b80a9f1075089e0ffac0121",
+        "evidence-507025c22527cd508383b8ce",
+        "evidence-fce2ebc637632b660a11c619",
+        "evidence-1f892248df9a5f59d7701a16"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-769f7e15def0f74869ecff90",
+            "evidence-f69997278f23ee93e7a9df7a",
+            "evidence-3b80a9f1075089e0ffac0121",
+            "evidence-507025c22527cd508383b8ce",
+            "evidence-fce2ebc637632b660a11c619",
+            "evidence-1f892248df9a5f59d7701a16"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-09-08",
+      "relationship_ids": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "supersedes_event_id": null,
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 5,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-769f7e15def0f74869ecff90",
+          "evidence-f69997278f23ee93e7a9df7a",
+          "evidence-3b80a9f1075089e0ffac0121",
+          "evidence-507025c22527cd508383b8ce",
+          "evidence-fce2ebc637632b660a11c619",
+          "evidence-1f892248df9a5f59d7701a16"
+        ],
+        "renewal": null,
+        "start_basis": "各GPUサービスのMicrosoftによる受入。満了日は契約書で非開示",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-94f508577c8bd15a6526574e": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
+          "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "disclosure-source-94f508577c8bd15a6526574e",
+        "rule_version": "f678b38f7c1d9ca82fc46b584e9909d62f3848fbd8f1581e2321136f238c6069",
+        "verified_at": "2026-09-26T05:23:12+00:00"
+      }
+    },
+    {
+      "agreement_date": "2025-09-08",
+      "amount_disclosure": "disclosed",
+      "amounts": [
+        {
+          "amount_id": "amount-ad58ef493510cc0c261f6672",
+          "amount_kind": "contract_value",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$17.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "GPUの展開・利用可能性の条件を満たした場合の基本契約額",
+          "value": "17400000000",
+          "value_semantics": "original_total",
+          "verification": "approved_rule"
+        },
+        {
+          "amount_id": "amount-dafa60489935a399dfe66656",
+          "amount_kind": "potential_expansion",
+          "conditions": "",
+          "contingent": true,
+          "currency": "USD",
+          "currency_basis": "USD",
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "max_value": null,
+          "min_value": null,
+          "original_text": "$19.4 billion",
+          "payee_company_ids": [
+            "co-nebius-inc"
+          ],
+          "payer_company_ids": [
+            "co-msft"
+          ],
+          "qualifier": "approximately",
+          "scope": "追加サービス・容量を購入した場合の総額。基本額と足し合わせない。",
+          "value": "19400000000",
+          "value_semantics": "contingent",
+          "verification": "approved_rule"
+        }
+      ],
+      "announced_at": null,
+      "announced_date": null,
+      "conditions": "資金調達または自己資金充当の条件と段階的なGPU受入を要する。受入後は実使用量にかかわらず期間全体の料金を支払う。引渡し遅延・重大違反等の解除条項あり。単価・数量・具体的な満了日等は契約書で伏せられている。 SOWの発効日は2025年9月7日で、署名完了日9月8日とは区別。GPUサービス料金は月次後払い。対象サービス解除時には前払金から既払損害金を控除して返金。伏せ字の期限・単価は補完しない。",
+      "deal_id": "deal-769f7e15def0f74869ecff90",
+      "detected_at": "2026-09-26T06:22:28+00:00",
+      "effective_date": "2025-09-07",
+      "event_id": "event-183f422f3334215b0a89839f",
+      "event_type": "correction",
+      "evidence_ids": [
+        "evidence-f49bee8d697f19fbb063aa5b",
+        "evidence-6ca9b4b38d8a795ae1316c39",
+        "evidence-f54260078c8a9d4bf2d1ef82",
+        "evidence-fde4f68b3658649eb858d4a2",
+        "evidence-565eb49bcd3091e4475154e6",
+        "evidence-0d9bb5ccd1fc65bf3b25e412",
+        "evidence-a6e0f1e34a6be7b21ad27b24",
+        "evidence-49ec40f48cdc9a70ee2094d0",
+        "evidence-d4643519e744b27c41500f6f",
+        "evidence-dec80a373decd2246692fb57"
+      ],
+      "field_verification": {
+        "amounts": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        },
+        "conditions": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        },
+        "parties": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        },
+        "relationship": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        },
+        "status": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        },
+        "term": {
+          "evidence_ids": [
+            "evidence-f49bee8d697f19fbb063aa5b",
+            "evidence-6ca9b4b38d8a795ae1316c39",
+            "evidence-f54260078c8a9d4bf2d1ef82",
+            "evidence-fde4f68b3658649eb858d4a2",
+            "evidence-565eb49bcd3091e4475154e6",
+            "evidence-0d9bb5ccd1fc65bf3b25e412",
+            "evidence-a6e0f1e34a6be7b21ad27b24",
+            "evidence-49ec40f48cdc9a70ee2094d0",
+            "evidence-d4643519e744b27c41500f6f",
+            "evidence-dec80a373decd2246692fb57"
+          ],
+          "verification": "approved_rule"
+        }
+      },
+      "filed_date": "2025-09-08",
+      "relationship_ids": [
+        "rel-91f0a3e2eaf94ec9c9d636b7"
+      ],
+      "supersedes_event_id": "event-769f7e15def0f74869ecff90",
+      "term": {
+        "duration_unit": "year",
+        "duration_value": 5,
+        "end_date": null,
+        "evidence_ids": [
+          "evidence-f49bee8d697f19fbb063aa5b",
+          "evidence-6ca9b4b38d8a795ae1316c39",
+          "evidence-f54260078c8a9d4bf2d1ef82",
+          "evidence-fde4f68b3658649eb858d4a2",
+          "evidence-565eb49bcd3091e4475154e6",
+          "evidence-0d9bb5ccd1fc65bf3b25e412",
+          "evidence-a6e0f1e34a6be7b21ad27b24",
+          "evidence-49ec40f48cdc9a70ee2094d0",
+          "evidence-d4643519e744b27c41500f6f",
+          "evidence-dec80a373decd2246692fb57"
+        ],
+        "renewal": null,
+        "start_basis": "各GPUサービスのMicrosoftによる受入。満了日は契約書で非開示",
+        "start_date": null
+      },
+      "verification": "approved_rule",
+      "verification_metadata": {
+        "evidence_hashes": {
+          "source-94f508577c8bd15a6526574e": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
+          "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+        },
+        "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+        "reviewer": null,
+        "rule_id": "review-expansion-20260926-nebius-sow",
+        "rule_version": "7f70a3d0fd9dd72b3163c8c910b7e15cca0da4392c0ddf46bf86c0e0943ef197",
+        "verified_at": "2026-09-26T06:22:28+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-0d9bb5ccd1fc65bf3b25e412",
+      "excerpt": "terminate",
+      "locator": "p:19",
+      "normalized_text_hash": "69af7910652c11d2eadd273a15f62578f70aa1e61e44afb415b4268a2bf1e03c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-1f892248df9a5f59d7701a16",
+      "excerpt": "terminate",
+      "locator": "p:19",
+      "normalized_text_hash": "69af7910652c11d2eadd273a15f62578f70aa1e61e44afb415b4268a2bf1e03c",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-3b80a9f1075089e0ffac0121",
+      "excerpt": "USD",
+      "locator": "p:225",
+      "normalized_text_hash": "82bb059ec10744f31e0406b8ef7a7a0f3c30c9b18435120fa859b2c0b9627888",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-49ec40f48cdc9a70ee2094d0",
+      "excerpt": "SOW Effective Date",
+      "locator": "p:65",
+      "normalized_text_hash": "b33dfc6a0d74d21523408b63ccbef78fe4cbab921eb7c9932ee4599ac5931506",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-507025c22527cd508383b8ce",
+      "excerpt": "Service Term",
+      "locator": "p:82",
+      "normalized_text_hash": "59af8edb431ca13b68ed45340c08291df1ce628b4d13c0931b9d40a81db13f5e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-565eb49bcd3091e4475154e6",
+      "excerpt": "Completion Scenarios",
+      "locator": "p:112",
+      "normalized_text_hash": "574ea15c8cff67888ddaf778c45aba01f004edfea0c7496f11f7ab6836cb883b",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-6ca9b4b38d8a795ae1316c39",
+      "excerpt": "Nebius",
+      "locator": "p:17",
+      "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-769f7e15def0f74869ecff90",
+      "excerpt": "Microsoft",
+      "locator": "p:18",
+      "normalized_text_hash": "9a638d930e8e64ec91311c812361c4a2a313a44a81bbeace36606af776a2a8da",
+      "section": "Official disclosure: business context",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-a6e0f1e34a6be7b21ad27b24",
+      "excerpt": "7 September 2025",
+      "locator": "tr:38",
+      "normalized_text_hash": "54607c68b5d17302bd51c8b0f4d2e226db376e108e739fc8dc415607f77bf221",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-d4643519e744b27c41500f6f",
+      "excerpt": "in arrears",
+      "locator": "p:276",
+      "normalized_text_hash": "123bf411bae191194b5b0d05937285c57ed64c2a32077f9daf2e7451c0e10091",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-dec80a373decd2246692fb57",
+      "excerpt": "refund",
+      "locator": "p:307",
+      "normalized_text_hash": "3a54b8a8a6a22923e99058058fb4421377deb633300292f4ea2a55b1c044573d",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f49bee8d697f19fbb063aa5b",
+      "excerpt": "Microsoft",
+      "locator": "p:18",
+      "normalized_text_hash": "9a638d930e8e64ec91311c812361c4a2a313a44a81bbeace36606af776a2a8da",
+      "section": "Official disclosure: business context",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties",
+        "relationship",
+        "status",
+        "amounts",
+        "term",
+        "conditions"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f54260078c8a9d4bf2d1ef82",
+      "excerpt": "USD",
+      "locator": "p:225",
+      "normalized_text_hash": "82bb059ec10744f31e0406b8ef7a7a0f3c30c9b18435120fa859b2c0b9627888",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "amounts"
+      ]
+    },
+    {
+      "evidence_id": "evidence-f69997278f23ee93e7a9df7a",
+      "excerpt": "Nebius",
+      "locator": "p:17",
+      "normalized_text_hash": "9dc4a22e8da2e59f5f0a9b3d1948199e71a80384f2e2ea9a8ef976e8e7619dbc",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fce2ebc637632b660a11c619",
+      "excerpt": "Completion Scenarios",
+      "locator": "p:112",
+      "normalized_text_hash": "574ea15c8cff67888ddaf778c45aba01f004edfea0c7496f11f7ab6836cb883b",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "parties"
+      ]
+    },
+    {
+      "evidence_id": "evidence-fde4f68b3658649eb858d4a2",
+      "excerpt": "Service Term",
+      "locator": "p:82",
+      "normalized_text_hash": "59af8edb431ca13b68ed45340c08291df1ce628b4d13c0931b9d40a81db13f5e",
+      "section": "Corroborating primary disclosure",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "supports_fields": [
+        "parties"
+      ]
+    }
+  ],
+  "relationship": {
+    "business": {
+      "evidence_ids": [
+        "evidence-f49bee8d697f19fbb063aa5b",
+        "evidence-6ca9b4b38d8a795ae1316c39",
+        "evidence-f54260078c8a9d4bf2d1ef82",
+        "evidence-fde4f68b3658649eb858d4a2",
+        "evidence-565eb49bcd3091e4475154e6",
+        "evidence-0d9bb5ccd1fc65bf3b25e412",
+        "evidence-a6e0f1e34a6be7b21ad27b24",
+        "evidence-49ec40f48cdc9a70ee2094d0",
+        "evidence-d4643519e744b27c41500f6f",
+        "evidence-dec80a373decd2246692fb57"
+      ],
+      "geography": "米国・New Jersey",
+      "headline": "GPU基盤の5年契約・段階的引渡し",
+      "products": [
+        "専用GPU基盤"
+      ],
+      "scale": "",
+      "source_role": "GPUサービス提供",
+      "target_role": "計算能力購入"
+    },
+    "deal_ids": [
+      "deal-769f7e15def0f74869ecff90"
+    ],
+    "description": "Nebius, Inc.がMicrosoft向けGPU基盤をNew Jerseyで提供する5年契約。基本約174億米ドル、追加容量を購入した場合は総額約194億米ドル。2031年までの提供予定で、引渡し・利用可能性などの条件付き。",
+    "direction": "directed",
+    "evidence_ids": [
+      "evidence-f49bee8d697f19fbb063aa5b",
+      "evidence-6ca9b4b38d8a795ae1316c39",
+      "evidence-f54260078c8a9d4bf2d1ef82",
+      "evidence-fde4f68b3658649eb858d4a2",
+      "evidence-565eb49bcd3091e4475154e6",
+      "evidence-0d9bb5ccd1fc65bf3b25e412",
+      "evidence-a6e0f1e34a6be7b21ad27b24",
+      "evidence-49ec40f48cdc9a70ee2094d0",
+      "evidence-d4643519e744b27c41500f6f",
+      "evidence-dec80a373decd2246692fb57"
+    ],
+    "first_observed_at": "2026-09-26T05:23:12+00:00",
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "latest_event_ids": [
+      "event-183f422f3334215b0a89839f"
+    ],
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-91f0a3e2eaf94ec9c9d636b7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-nebius-inc",
+    "status_as_of": "2025-09-08",
+    "target_company_id": "co-msft",
+    "verification": "approved_rule",
+    "verification_metadata": {
+      "evidence_hashes": {
+        "source-94f508577c8bd15a6526574e": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
+        "source-9fea911a654adcb1007a7839": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41"
+      },
+      "reason": "Codex-curated assertions evaluated against exact official disclosure and block hashes. No human review claimed. Planned adoption is not a completed purchase; corporate parents, aggregate capacity and dollar currency are not inferred.",
+      "reviewer": null,
+      "rule_id": "review-expansion-20260926-nebius-sow",
+      "rule_version": "7f70a3d0fd9dd72b3163c8c910b7e15cca0da4392c0ddf46bf86c0e0943ef197",
+      "verified_at": "2026-09-26T06:22:28+00:00"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "accession_number": "0001104659-25-088312",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm",
+      "content_hash": "863e33f3b19f4f5663471a657c0c0ba65587345986625c0912428f98265b1a69",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2025-09-08",
+      "filing_cik": "0001513845",
+      "form": "6-K",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-nebius",
+      "retrieved_at": "2026-09-26T05:18:14+00:00",
+      "source_id": "source-94f508577c8bd15a6526574e",
+      "source_type": "sec_filing",
+      "title": ""
+    },
+    {
+      "accession_number": "0001104659-26-052948",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231xex4d4.htm",
+      "content_hash": "53db49e509de1dff5585b88ea2022e008e7dfec3e012706ecdb0ebfaf1562d41",
+      "date_precision": "day",
+      "extraction_version": "rules-1.5",
+      "filed_date": "2026-04-30",
+      "filing_cik": "0001513845",
+      "form": "EX-4.4",
+      "published_at": null,
+      "published_date": null,
+      "publisher": "co-nebius",
+      "retrieved_at": "2026-09-26T05:18:15+00:00",
+      "source_id": "source-9fea911a654adcb1007a7839",
+      "source_type": "sec_exhibit",
+      "title": ""
+    }
+  ],
+  "summary": {
+    "amounts": [
+      {
+        "amount_id": "amount-ad58ef493510cc0c261f6672",
+        "amount_kind": "contract_value",
+        "conditions": "",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "USD",
+        "evidence_ids": [
+          "evidence-f49bee8d697f19fbb063aa5b",
+          "evidence-6ca9b4b38d8a795ae1316c39",
+          "evidence-f54260078c8a9d4bf2d1ef82",
+          "evidence-fde4f68b3658649eb858d4a2",
+          "evidence-565eb49bcd3091e4475154e6",
+          "evidence-0d9bb5ccd1fc65bf3b25e412",
+          "evidence-a6e0f1e34a6be7b21ad27b24",
+          "evidence-49ec40f48cdc9a70ee2094d0",
+          "evidence-d4643519e744b27c41500f6f",
+          "evidence-dec80a373decd2246692fb57"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$17.4 billion",
+        "payee_company_ids": [
+          "co-nebius-inc"
+        ],
+        "payer_company_ids": [
+          "co-msft"
+        ],
+        "qualifier": "approximately",
+        "scope": "GPUの展開・利用可能性の条件を満たした場合の基本契約額",
+        "value": "17400000000",
+        "value_semantics": "original_total",
+        "verification": "approved_rule"
+      },
+      {
+        "amount_id": "amount-dafa60489935a399dfe66656",
+        "amount_kind": "potential_expansion",
+        "conditions": "",
+        "contingent": true,
+        "currency": "USD",
+        "currency_basis": "USD",
+        "evidence_ids": [
+          "evidence-f49bee8d697f19fbb063aa5b",
+          "evidence-6ca9b4b38d8a795ae1316c39",
+          "evidence-f54260078c8a9d4bf2d1ef82",
+          "evidence-fde4f68b3658649eb858d4a2",
+          "evidence-565eb49bcd3091e4475154e6",
+          "evidence-0d9bb5ccd1fc65bf3b25e412",
+          "evidence-a6e0f1e34a6be7b21ad27b24",
+          "evidence-49ec40f48cdc9a70ee2094d0",
+          "evidence-d4643519e744b27c41500f6f",
+          "evidence-dec80a373decd2246692fb57"
+        ],
+        "max_value": null,
+        "min_value": null,
+        "original_text": "$19.4 billion",
+        "payee_company_ids": [
+          "co-nebius-inc"
+        ],
+        "payer_company_ids": [
+          "co-msft"
+        ],
+        "qualifier": "approximately",
+        "scope": "追加サービス・容量を購入した場合の総額。基本額と足し合わせない。",
+        "value": "19400000000",
+        "value_semantics": "contingent",
+        "verification": "approved_rule"
+      }
+    ],
+    "business": {
+      "evidence_ids": [
+        "evidence-f49bee8d697f19fbb063aa5b",
+        "evidence-6ca9b4b38d8a795ae1316c39",
+        "evidence-f54260078c8a9d4bf2d1ef82",
+        "evidence-fde4f68b3658649eb858d4a2",
+        "evidence-565eb49bcd3091e4475154e6",
+        "evidence-0d9bb5ccd1fc65bf3b25e412",
+        "evidence-a6e0f1e34a6be7b21ad27b24",
+        "evidence-49ec40f48cdc9a70ee2094d0",
+        "evidence-d4643519e744b27c41500f6f",
+        "evidence-dec80a373decd2246692fb57"
+      ],
+      "geography": "米国・New Jersey",
+      "headline": "GPU基盤の5年契約・段階的引渡し",
+      "products": [
+        "専用GPU基盤"
+      ],
+      "scale": "",
+      "source_role": "GPUサービス提供",
+      "target_role": "計算能力購入"
+    },
+    "description": "Nebius, Inc.がMicrosoft向けGPU基盤をNew Jerseyで提供する5年契約。基本約174億米ドル、追加容量を購入した場合は総額約194億米ドル。2031年までの提供予定で、引渡し・利用可能性などの条件付き。",
+    "direction": "directed",
+    "event_date": "2025-09-08",
+    "has_amount": true,
+    "last_observed_at": "2026-09-26T06:22:28+00:00",
+    "lifecycle_status": "signed",
+    "relationship_id": "rel-91f0a3e2eaf94ec9c9d636b7",
+    "relationship_type": "service_provider",
+    "source_company_id": "co-nebius-inc",
+    "status_as_of": "2025-09-08",
+    "target_company_id": "co-msft",
+    "themes": [],
+    "tier": null,
+    "tier_reasons": [
+      "multiple_amounts",
+      "conditional",
+      "not_total",
+      "unsupported_kind"
+    ]
+  }
+}
