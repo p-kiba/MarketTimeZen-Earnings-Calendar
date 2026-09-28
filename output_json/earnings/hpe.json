@@ -1,5 +1,20 @@
 {
   "companyName": "Hewlett Packard Enterprise Co",
+  "FY2026Q3": {
+    "revenue": 12213000000,
+    "netIncome": 1540000000,
+    "epsDiluted": 1.06,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1641000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-05-01",
+    "endDate": "2026-07-31",
+    "filedDate": "2026-09-03",
+    "accessionNumber": "0001645590-26-000080"
+  },
   "FY2026Q2": {
     "revenue": 10678000000,
     "netIncome": 624000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-10-31",
     "filedDate": "2016-12-15",
     "accessionNumber": "0001628280-16-022051"
-  },
-  "FY2016Q3": {
-    "revenue": 12210000000,
-    "netIncome": 2272000000,
-    "epsDiluted": 1.32,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-05-01",
-    "endDate": "2016-07-31",
-    "filedDate": "2016-09-08",
-    "accessionNumber": "0001628280-16-019456"
   }
 }

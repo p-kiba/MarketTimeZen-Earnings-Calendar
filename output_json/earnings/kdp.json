@@ -1,5 +1,20 @@
 {
   "companyName": "Keurig Dr Pepper Inc.",
+  "FY2026Q2": {
+    "revenue": 7309000000,
+    "netIncome": 142000000,
+    "epsDiluted": 0.04,
+    "grossProfit": 3066000000,
+    "grossMargin": 0.4195,
+    "operatingCashFlow": 895000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-08-10",
+    "accessionNumber": "0001418135-26-000051"
+  },
   "FY2026Q1": {
     "revenue": 3976000000,
     "netIncome": 270000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-06-30",
     "filedDate": "2016-07-27",
     "accessionNumber": "0001418135-16-000065"
-  },
-  "FY2016Q1": {
-    "revenue": 1487000000,
-    "netIncome": 182000000,
-    "epsDiluted": 0.96,
-    "grossProfit": 885000000,
-    "grossMargin": 0.5952,
-    "operatingCashFlow": 177000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-01-01",
-    "endDate": "2016-03-31",
-    "filedDate": "2016-04-27",
-    "accessionNumber": "0001418135-16-000058"
   }
 }

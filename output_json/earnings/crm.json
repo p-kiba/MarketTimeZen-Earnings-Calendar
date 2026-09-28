@@ -1,5 +1,20 @@
 {
   "companyName": "Salesforce, Inc.",
+  "FY2027Q2": {
+    "revenue": 11345000000,
+    "netIncome": 3526000000,
+    "epsDiluted": 4.29,
+    "grossProfit": 8696000000,
+    "grossMargin": 0.7665,
+    "operatingCashFlow": 1269000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-05-01",
+    "endDate": "2026-07-31",
+    "filedDate": "2026-08-27",
+    "accessionNumber": "0001108524-26-000190"
+  },
   "FY2027Q1": {
     "revenue": 11133000000,
     "netIncome": 2107000000,
@@ -584,20 +599,5 @@
     "endDate": "2013-04-30",
     "filedDate": "2013-05-24",
     "accessionNumber": "0001193125-13-235664"
-  },
-  "FY2012Q4": {
-    "revenue": 834681000,
-    "netIncome": -20844000,
-    "epsDiluted": -0.16,
-    "grossProfit": 651319000,
-    "grossMargin": 0.7803,
-    "operatingCashFlow": 281573000,
-    "fiscalYear": 2012,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2012-10-31",
-    "endDate": "2013-01-31",
-    "filedDate": "2013-03-08",
-    "accessionNumber": "0001193125-13-098852"
   }
 }
