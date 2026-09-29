@@ -168,3 +168,16 @@ button:disabled{cursor:default;opacity:.55}
    the coverage footer follows after the map instead of sharing that view. */
 body:not(.map-mode) #mtz-graph{height:calc(100dvh - 120px);min-height:620px;max-height:none}
 @media(max-width:760px){body:not(.map-mode) #mtz-graph{height:calc(100dvh - 180px);min-height:480px}}
+
+/* Touch layouts keep the graph clear until the user opens its control panel. */
+.mtz-mobile-controls{display:none}
+@media (pointer:coarse) and (max-width:1200px), (max-width:760px){
+  .mtz-mobile-controls{display:inline-flex;position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));z-index:8;align-items:center;justify-content:center;min-height:44px;padding:9px 15px;border:1px solid var(--theme);border-radius:999px;background:var(--theme);color:#fff;font-weight:650;box-shadow:0 3px 14px #24314725}
+  .mtz-workspace.mobile-controls-collapsed .mtz-toolbar>:not(.mtz-company-heading),
+  .mtz-workspace.mobile-controls-collapsed .mtz-map-tools,
+  .mtz-workspace.mobile-controls-collapsed .mtz-map-bottom .mtz-zoom{visibility:hidden;pointer-events:none}
+  .mtz-workspace.mobile-controls-expanded .mtz-mobile-controls{background:#fff;color:var(--theme)}
+  .mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-toolbar{padding-right:104px}
+  .map-mode .mtz-workspace:has(.mtz-graph-wrap:not([hidden])) .mtz-toolbar{padding-right:0}
+  .map-mode .mtz-mobile-controls{right:76px}
+}
