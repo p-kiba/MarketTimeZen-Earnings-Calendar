@@ -1,5 +1,20 @@
 {
   "companyName": "Carnival Corp Ltd.",
+  "FY2026Q3": {
+    "revenue": 8435000000,
+    "netIncome": 1920000000,
+    "epsDiluted": 1.4,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1410000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-06-01",
+    "endDate": "2026-08-31",
+    "filedDate": "2026-09-29",
+    "accessionNumber": "0000815097-26-000107"
+  },
   "FY2026Q2": {
     "revenue": 6663000000,
     "netIncome": 537000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-08-31",
     "filedDate": "2016-09-30",
     "accessionNumber": "0000815097-16-000045"
-  },
-  "FY2010Q2": {
-    "revenue": 3195000000,
-    "netIncome": 252000000,
-    "epsDiluted": 0.32,
-    "grossProfit": 1102000000,
-    "grossMargin": 0.3449,
-    "operatingCashFlow": 1398000000,
-    "fiscalYear": 2010,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2010-03-01",
-    "endDate": "2010-05-31",
-    "filedDate": "2010-07-01",
-    "accessionNumber": "0001193125-10-152337"
   }
 }
