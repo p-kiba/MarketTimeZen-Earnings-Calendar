@@ -4773,7 +4773,7 @@
     "epsActual": 0,
     "revenueEstimate": 20624018018,
     "revenueActual": 0,
-    "status": "unconfirmed"
+    "status": "changed"
   },
   {
     "symbol": "MANH",
@@ -6072,6 +6072,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "LMT",
+    "date": "2026-10-22",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 7.5222,
+    "epsActual": 0,
+    "revenueEstimate": 20624018018,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "LUV",
     "date": "2026-10-22",
     "hour": "",
@@ -7233,7 +7245,7 @@
     "epsActual": 0,
     "revenueEstimate": 20624018018,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MANH",
