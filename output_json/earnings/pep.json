@@ -1,5 +1,20 @@
 {
   "companyName": "PEPSICO INC",
+  "FY2026Q3": {
+    "revenue": 25274000000,
+    "netIncome": 3048000000,
+    "epsDiluted": 2.23,
+    "grossProfit": 13754000000,
+    "grossMargin": 0.5442,
+    "operatingCashFlow": 5585000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-06-14",
+    "endDate": "2026-09-05",
+    "filedDate": "2026-10-08",
+    "accessionNumber": "0000077476-26-000048"
+  },
   "FY2026Q2": {
     "revenue": 24181000000,
     "netIncome": 2981000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-15",
     "accessionNumber": "0000077476-17-000010"
-  },
-  "FY2016Q3": {
-    "revenue": 16027000000,
-    "netIncome": 1992000000,
-    "epsDiluted": 1.37,
-    "grossProfit": 8743000000,
-    "grossMargin": 0.5455,
-    "operatingCashFlow": 3674000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-06-12",
-    "endDate": "2016-09-03",
-    "filedDate": "2016-09-29",
-    "accessionNumber": "0000077476-16-000107"
   }
 }
