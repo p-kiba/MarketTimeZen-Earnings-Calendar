@@ -4242,9 +4242,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 1.1619,
-    "epsActual": 0,
+    "epsActual": 1.08,
     "revenueEstimate": 31315190571,
-    "revenueActual": 0,
+    "revenueActual": 29958000000,
     "status": "confirmed"
   },
   {
@@ -4254,9 +4254,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 14.3954,
-    "epsActual": 0,
+    "epsActual": 15.93,
     "revenueEstimate": 7629624436,
-    "revenueActual": 0,
+    "revenueActual": 7752000000,
     "status": "confirmed"
   },
   {
@@ -4278,9 +4278,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 0.3443,
-    "epsActual": 0,
+    "epsActual": 0.35,
     "revenueEstimate": 2485148553,
-    "revenueActual": 0,
+    "revenueActual": 2463300000,
     "status": "confirmed"
   },
   {
@@ -4302,9 +4302,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 3.1669,
-    "epsActual": 0,
+    "epsActual": 3.03,
     "revenueEstimate": 20872373838,
-    "revenueActual": 0,
+    "revenueActual": 20338000000,
     "status": "confirmed"
   },
   {
@@ -4326,9 +4326,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 3.6838,
-    "epsActual": 0,
+    "epsActual": 3.69,
     "revenueEstimate": 4059147277,
-    "revenueActual": 0,
+    "revenueActual": 4004000000,
     "status": "confirmed"
   },
   {
@@ -5426,7 +5426,7 @@
   {
     "symbol": "CSX",
     "date": "2026-10-21",
-    "hour": "",
+    "hour": "amc",
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 0.5416,
@@ -5570,7 +5570,7 @@
   {
     "symbol": "LRCX",
     "date": "2026-10-21",
-    "hour": "",
+    "hour": "amc",
     "quarter": 1,
     "year": 2027,
     "epsEstimate": 2.2199,
@@ -5582,7 +5582,7 @@
   {
     "symbol": "LUV",
     "date": "2026-10-21",
-    "hour": "",
+    "hour": "amc",
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 0.6078,
@@ -5612,6 +5612,18 @@
     "epsEstimate": 4.2947,
     "epsActual": 0,
     "revenueEstimate": 2092917111,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "META",
+    "date": "2026-10-21",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 6.6125,
+    "epsActual": 0,
+    "revenueEstimate": 64538879444,
     "revenueActual": 0,
     "status": "confirmed"
   },
@@ -5666,7 +5678,7 @@
   {
     "symbol": "PKG",
     "date": "2026-10-21",
-    "hour": "",
+    "hour": "amc",
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 2.9479,
@@ -5726,7 +5738,7 @@
   {
     "symbol": "T",
     "date": "2026-10-21",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 0.6111,
@@ -7704,6 +7716,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "STX",
+    "date": "2026-10-27",
+    "hour": "",
+    "quarter": 1,
+    "year": 2027,
+    "epsEstimate": 7.4374,
+    "epsActual": 0,
+    "revenueEstimate": 4159155760,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "TDOC",
     "date": "2026-10-27",
     "hour": "amc",
@@ -8349,7 +8373,7 @@
     "epsActual": 0,
     "revenueEstimate": 64538879444,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MGM",
@@ -8625,7 +8649,7 @@
     "epsActual": 0,
     "revenueEstimate": 4159155760,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "SYK",
@@ -9105,7 +9129,7 @@
     "epsActual": 0,
     "revenueEstimate": 235683500,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "FSLR",
@@ -9369,7 +9393,7 @@
     "epsActual": 0,
     "revenueEstimate": 904526310,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MSTR",
@@ -9780,6 +9804,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "FET",
+    "date": "2026-10-30",
+    "hour": "",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 1.2272,
+    "epsActual": 0,
+    "revenueEstimate": 235683500,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "LYB",
     "date": "2026-10-30",
     "hour": "bmo",
@@ -9945,7 +9981,7 @@
     "epsActual": 0,
     "revenueEstimate": 1895878241,
     "revenueActual": 0,
-    "status": "changed"
+    "status": "confirmed"
   },
   {
     "symbol": "DDOG",
@@ -11133,7 +11169,7 @@
     "epsActual": 0,
     "revenueEstimate": 1895878241,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "COP",
@@ -11760,6 +11796,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "CLNE",
+    "date": "2026-11-05",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": -0.0294,
+    "epsActual": 0,
+    "revenueEstimate": 113280516,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "COP",
     "date": "2026-11-05",
     "hour": "bmo",
@@ -12012,6 +12060,30 @@
     "status": "confirmed"
   },
   {
+    "symbol": "MRNA",
+    "date": "2026-11-06",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": -1.3032,
+    "epsActual": 0,
+    "revenueEstimate": 904526310,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "STWD",
+    "date": "2026-11-06",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.3545,
+    "epsActual": 0,
+    "revenueEstimate": 542810003,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "VST",
     "date": "2026-11-06",
     "hour": "",
@@ -12117,7 +12189,7 @@
     "epsActual": 0,
     "revenueEstimate": 113280516,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "CSCO",
@@ -12345,7 +12417,7 @@
     "epsActual": 0,
     "revenueEstimate": 542810003,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "TTWO",
@@ -12357,7 +12429,7 @@
     "epsActual": 0,
     "revenueEstimate": 1589708862,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "unconfirmed"
   },
   {
     "symbol": "U",
