@@ -4566,9 +4566,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 1.4007,
-    "epsActual": 0,
+    "epsActual": 1.41,
     "revenueEstimate": 2359245152,
-    "revenueActual": 0,
+    "revenueActual": 2322000000,
     "status": "confirmed"
   },
   {
@@ -4578,9 +4578,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 5.0071,
-    "epsActual": 0,
+    "epsActual": 5.08,
     "revenueEstimate": 2558032383,
-    "revenueActual": 0,
+    "revenueActual": 2548000000,
     "status": "confirmed"
   },
   {
@@ -4590,9 +4590,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 0.6833,
-    "epsActual": 0,
+    "epsActual": 0.73,
     "revenueEstimate": 2045974551,
-    "revenueActual": 0,
+    "revenueActual": 1973000000,
     "status": "confirmed"
   },
   {
@@ -4614,9 +4614,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 1.1183,
-    "epsActual": 0,
+    "epsActual": 1.16,
     "revenueEstimate": 5407923042,
-    "revenueActual": 0,
+    "revenueActual": 5194000000,
     "status": "confirmed"
   },
   {
@@ -4626,9 +4626,9 @@
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 7.4909,
-    "epsActual": 0,
+    "epsActual": 9.18,
     "revenueEstimate": 11490115186,
-    "revenueActual": 0,
+    "revenueActual": 12446000000,
     "status": "confirmed"
   },
   {
@@ -6518,7 +6518,7 @@
   {
     "symbol": "ALV",
     "date": "2026-10-23",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 3,
     "year": 2026,
     "epsEstimate": 2.3419,
@@ -7449,7 +7449,7 @@
     "epsActual": 0,
     "revenueEstimate": 4144325364,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "KO",
@@ -8110,6 +8110,18 @@
     "revenueEstimate": 1826441640,
     "revenueActual": 0,
     "status": "changed"
+  },
+  {
+    "symbol": "ETSY",
+    "date": "2026-10-28",
+    "hour": "",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.8082,
+    "epsActual": 0,
+    "revenueEstimate": 680572968,
+    "revenueActual": 0,
+    "status": "confirmed"
   },
   {
     "symbol": "EW",
@@ -8865,7 +8877,7 @@
     "epsActual": 0,
     "revenueEstimate": 153204000,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "XEL",
@@ -9008,6 +9020,18 @@
     "epsEstimate": 0.782,
     "epsActual": 0,
     "revenueEstimate": 6186607132,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "CAT",
+    "date": "2026-10-29",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 7.1459,
+    "epsActual": 0,
+    "revenueEstimate": 20964040143,
     "revenueActual": 0,
     "status": "confirmed"
   },
@@ -9370,6 +9394,18 @@
     "revenueEstimate": 6986450376,
     "revenueActual": 0,
     "status": "changed"
+  },
+  {
+    "symbol": "MDLZ",
+    "date": "2026-10-29",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.7286,
+    "epsActual": 0,
+    "revenueEstimate": 10180187265,
+    "revenueActual": 0,
+    "status": "confirmed"
   },
   {
     "symbol": "MNST",
@@ -10773,7 +10809,7 @@
     "epsActual": 0,
     "revenueEstimate": 10180187265,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "MET",
@@ -10793,11 +10829,11 @@
     "hour": "amc",
     "quarter": 3,
     "year": 2026,
-    "epsEstimate": 0.05,
+    "epsEstimate": 0.0353,
     "epsActual": 0,
-    "revenueEstimate": 3169391817,
+    "revenueEstimate": 3129798746,
     "revenueActual": 0,
-    "status": "changed"
+    "status": "confirmed"
   },
   {
     "symbol": "MPC",
@@ -10833,7 +10869,7 @@
     "epsActual": 0,
     "revenueEstimate": 545769462,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "PFE",
@@ -11169,7 +11205,7 @@
     "epsActual": 0,
     "revenueEstimate": 20964040143,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "CDW",
@@ -11256,6 +11292,18 @@
     "status": "changed"
   },
   {
+    "symbol": "COHR",
+    "date": "2026-11-04",
+    "hour": "",
+    "quarter": 1,
+    "year": 2027,
+    "epsEstimate": 2.0049,
+    "epsActual": 0,
+    "revenueEstimate": 2349599182,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "COP",
     "date": "2026-11-04",
     "hour": "bmo",
@@ -11304,6 +11352,18 @@
     "status": "changed"
   },
   {
+    "symbol": "DDOG",
+    "date": "2026-11-04",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.6649,
+    "epsActual": 0,
+    "revenueEstimate": 1167546498,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "DKNG",
     "date": "2026-11-04",
     "hour": "amc",
@@ -11349,7 +11409,7 @@
     "epsActual": 0,
     "revenueEstimate": 680572968,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "EW",
@@ -11384,6 +11444,18 @@
     "epsEstimate": 9.0437,
     "epsActual": 0,
     "revenueEstimate": 4825353973,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "FIG",
+    "date": "2026-11-04",
+    "hour": "",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.0556,
+    "epsActual": 0,
+    "revenueEstimate": 379732901,
     "revenueActual": 0,
     "status": "confirmed"
   },
@@ -11604,6 +11676,18 @@
     "status": "changed"
   },
   {
+    "symbol": "PAYC",
+    "date": "2026-11-04",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 2.8635,
+    "epsActual": 0,
+    "revenueEstimate": 545769462,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "PGNY",
     "date": "2026-11-04",
     "hour": "",
@@ -11712,6 +11796,18 @@
     "status": "confirmed"
   },
   {
+    "symbol": "SEDG",
+    "date": "2026-11-04",
+    "hour": "amc",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.0431,
+    "epsActual": 0,
+    "revenueEstimate": 333080581,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "SIGA",
     "date": "2026-11-04",
     "hour": "",
@@ -11792,6 +11888,18 @@
     "epsEstimate": 0.77,
     "epsActual": 0,
     "revenueEstimate": 3438646970,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "WOLF",
+    "date": "2026-11-04",
+    "hour": "",
+    "quarter": 1,
+    "year": 2027,
+    "epsEstimate": -2.0247,
+    "epsActual": 0,
+    "revenueEstimate": 153204000,
     "revenueActual": 0,
     "status": "confirmed"
   },
@@ -11949,7 +12057,7 @@
     "epsActual": 0,
     "revenueEstimate": 1167546498,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "DUK",
@@ -11984,6 +12092,18 @@
     "epsEstimate": 4.4418,
     "epsActual": 0,
     "revenueEstimate": 7416946948,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "KMB",
+    "date": "2026-11-05",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 1.6137,
+    "epsActual": 0,
+    "revenueEstimate": 4144325364,
     "revenueActual": 0,
     "status": "confirmed"
   },
@@ -12317,11 +12437,11 @@
     "hour": "bmo",
     "quarter": 3,
     "year": 2026,
-    "epsEstimate": -0.0639,
+    "epsEstimate": -0.0651,
     "epsActual": 0,
-    "revenueEstimate": 198812412,
+    "revenueEstimate": 200905962,
     "revenueActual": 0,
-    "status": "changed"
+    "status": "confirmed"
   },
   {
     "symbol": "STWD",
@@ -12334,6 +12454,30 @@
     "revenueEstimate": 542810003,
     "revenueActual": 0,
     "status": "changed"
+  },
+  {
+    "symbol": "TTWO",
+    "date": "2026-11-09",
+    "hour": "",
+    "quarter": 2,
+    "year": 2027,
+    "epsEstimate": 0.9604,
+    "epsActual": 0,
+    "revenueEstimate": 1604054152,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
+    "symbol": "VIA",
+    "date": "2026-11-09",
+    "hour": "",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": -0.0202,
+    "epsActual": 0,
+    "revenueEstimate": 139316117,
+    "revenueActual": 0,
+    "status": "confirmed"
   },
   {
     "symbol": "CLNE",
@@ -12393,7 +12537,7 @@
     "epsActual": 0,
     "revenueEstimate": 3129798746,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "PLUG",
@@ -12405,7 +12549,7 @@
     "epsActual": 0,
     "revenueEstimate": 200905962,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "RIOT",
@@ -12465,7 +12609,7 @@
     "epsActual": 0,
     "revenueEstimate": 2349599182,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "DIS",
@@ -12501,7 +12645,7 @@
     "epsActual": 0,
     "revenueEstimate": 379732901,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "HUBS",
@@ -12561,7 +12705,7 @@
     "epsActual": 0,
     "revenueEstimate": 333080581,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "STWD",
@@ -12585,7 +12729,7 @@
     "epsActual": 0,
     "revenueEstimate": 1589708862,
     "revenueActual": 0,
-    "status": "unconfirmed"
+    "status": "changed"
   },
   {
     "symbol": "U",
@@ -12609,7 +12753,7 @@
     "epsActual": 0,
     "revenueEstimate": 139265617,
     "revenueActual": 0,
-    "status": "unconfirmed"
+    "status": "changed"
   },
   {
     "symbol": "AMAT",
