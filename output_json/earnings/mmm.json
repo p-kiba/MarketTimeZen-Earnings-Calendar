@@ -1,5 +1,20 @@
 {
   "companyName": "3M CO",
+  "FY2026Q3": {
+    "revenue": 6584000000,
+    "netIncome": 1373000000,
+    "epsDiluted": 2.63,
+    "grossProfit": 2783000000,
+    "grossMargin": 0.4227,
+    "operatingCashFlow": 486000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-20",
+    "accessionNumber": "0000066740-26-000311"
+  },
   "FY2026Q2": {
     "revenue": 6500000000,
     "netIncome": 933000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-09",
     "accessionNumber": "0001558370-17-000479"
-  },
-  "FY2016Q3": {
-    "revenue": 7709000000,
-    "netIncome": 1329000000,
-    "epsDiluted": 2.15,
-    "grossProfit": 3862000000,
-    "grossMargin": 0.501,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-01",
-    "accessionNumber": "0001558370-16-008937"
   }
 }

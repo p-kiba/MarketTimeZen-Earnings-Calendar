@@ -1,5 +1,20 @@
 {
   "companyName": "NORTHROP GRUMMAN CORP /DE/",
+  "FY2026Q3": {
+    "revenue": 11122000000,
+    "netIncome": 1124000000,
+    "epsDiluted": 7.89,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1745000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-20",
+    "accessionNumber": "0001133421-26-000038"
+  },
   "FY2026Q2": {
     "revenue": 10876000000,
     "netIncome": 1094000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-01-30",
     "accessionNumber": "0001133421-17-000008"
-  },
-  "FY2016Q3": {
-    "revenue": 6155000000,
-    "netIncome": 602000000,
-    "epsDiluted": 3.35,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 738000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-26",
-    "accessionNumber": "0001133421-16-000109"
   }
 }

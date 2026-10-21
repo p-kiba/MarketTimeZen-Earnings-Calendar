@@ -1,5 +1,20 @@
 {
   "companyName": "General Motors Co",
+  "FY2026Q3": {
+    "revenue": 50015000000,
+    "netIncome": 3335000000,
+    "epsDiluted": 3.73,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 7316000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-20",
+    "accessionNumber": "0001467858-26-000059"
+  },
   "FY2026Q2": {
     "revenue": 48026000000,
     "netIncome": 1305000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-07",
     "accessionNumber": "0001467858-17-000028"
-  },
-  "FY2016Q3": {
-    "revenue": 42825000000,
-    "netIncome": 2712000000,
-    "epsDiluted": 1.76,
-    "grossProfit": 8047000000,
-    "grossMargin": 0.1879,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-25",
-    "accessionNumber": "0001467858-16-000363"
   }
 }

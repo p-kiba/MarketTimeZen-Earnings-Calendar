@@ -1,5 +1,20 @@
 {
   "companyName": "GENERAL ELECTRIC CO",
+  "FY2026Q3": {
+    "revenue": 14118000000,
+    "netIncome": 2288000000,
+    "epsDiluted": 2.2,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2152000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-20",
+    "accessionNumber": "0000040545-26-000064"
+  },
   "FY2026Q2": {
     "revenue": 13349000000,
     "netIncome": 2370000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-06-30",
     "filedDate": "2016-08-01",
     "accessionNumber": "0000040545-16-000174"
-  },
-  "FY2016Q1": {
-    "revenue": 27845000000,
-    "netIncome": 191000000,
-    "epsDiluted": -0.01,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 599000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-01-01",
-    "endDate": "2016-03-31",
-    "filedDate": "2016-05-04",
-    "accessionNumber": "0000040545-16-000152"
   }
 }
