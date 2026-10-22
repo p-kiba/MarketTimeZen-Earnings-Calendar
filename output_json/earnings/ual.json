@@ -1,5 +1,20 @@
 {
   "companyName": "United Airlines Holdings, Inc.",
+  "FY2026Q3": {
+    "revenue": 17875000000,
+    "netIncome": 1029000000,
+    "epsDiluted": 3.14,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 465000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-21",
+    "accessionNumber": "0000100517-26-000186"
+  },
   "FY2026Q2": {
     "revenue": 17672000000,
     "netIncome": 805000000,
@@ -584,20 +599,5 @@
     "endDate": "2014-12-31",
     "filedDate": "2015-02-20",
     "accessionNumber": "0001193125-15-056493"
-  },
-  "FY2014Q3": {
-    "revenue": 10563000000,
-    "netIncome": 924000000,
-    "epsDiluted": 2.37,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2014,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2014-07-01",
-    "endDate": "2014-09-30",
-    "filedDate": "2014-10-23",
-    "accessionNumber": "0001193125-14-380216"
   }
 }

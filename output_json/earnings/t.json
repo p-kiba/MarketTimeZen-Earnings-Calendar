@@ -1,5 +1,20 @@
 {
   "companyName": "AT&T INC.",
+  "FY2026Q3": {
+    "revenue": 32322000000,
+    "netIncome": 891000000,
+    "epsDiluted": 0.12,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-21",
+    "accessionNumber": "0000732717-26-000372"
+  },
   "FY2026Q2": {
     "revenue": 31558000000,
     "netIncome": 4627000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-05-05",
     "accessionNumber": "0000732717-16-000160"
-  },
-  "FY2015Q4": {
-    "revenue": 42119000000,
-    "netIncome": 4107000000,
-    "epsDiluted": 0.68,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 9185000000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2015-09-30",
-    "endDate": "2015-12-31",
-    "filedDate": "2016-02-18",
-    "accessionNumber": "0000732717-16-000147"
   }
 }
