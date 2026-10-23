@@ -1,5 +1,20 @@
 {
   "companyName": "PROCTER & GAMBLE Co",
+  "FY2027Q1": {
+    "revenue": 23276000000,
+    "netIncome": 4731000000,
+    "epsDiluted": 1.97,
+    "grossProfit": 11598000000,
+    "grossMargin": 0.4983,
+    "operatingCashFlow": 5767000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-22",
+    "accessionNumber": "0000080424-26-000256"
+  },
   "FY2026Q4": {
     "revenue": 21203000000,
     "netIncome": 3045000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-01-20",
     "accessionNumber": "0000080424-17-000011"
-  },
-  "FY2017Q1": {
-    "revenue": 16518000000,
-    "netIncome": 2714000000,
-    "epsDiluted": 0.96,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 3025000000,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-25",
-    "accessionNumber": "0000080424-16-000244"
   }
 }

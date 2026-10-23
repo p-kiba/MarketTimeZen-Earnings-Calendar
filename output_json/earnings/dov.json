@@ -1,5 +1,20 @@
 {
   "companyName": "DOVER Corp",
+  "FY2026Q3": {
+    "revenue": 2233839000,
+    "netIncome": 333331000,
+    "epsDiluted": 2.47,
+    "grossProfit": 903426000,
+    "grossMargin": 0.4044,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-22",
+    "accessionNumber": "0000029905-26-000033"
+  },
   "FY2026Q2": {
     "revenue": 2190021000,
     "netIncome": 312246000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-04-21",
     "accessionNumber": "0000029905-16-000074"
-  },
-  "FY2015Q4": {
-    "revenue": 1694600000,
-    "netIncome": 141825000,
-    "epsDiluted": 0.92,
-    "grossProfit": 613809000,
-    "grossMargin": 0.3622,
-    "operatingCashFlow": null,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2015-09-30",
-    "endDate": "2015-12-31",
-    "filedDate": "2016-02-12",
-    "accessionNumber": "0000029905-16-000064"
   }
 }

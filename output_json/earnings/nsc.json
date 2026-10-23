@@ -1,5 +1,20 @@
 {
   "companyName": "NORFOLK SOUTHERN CORP",
+  "FY2026Q3": {
+    "revenue": 3526000000,
+    "netIncome": 759000000,
+    "epsDiluted": 3.37,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1322000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-22",
+    "accessionNumber": "0001628280-26-066836"
+  },
   "FY2026Q2": {
     "revenue": 3465000000,
     "netIncome": 734000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-06",
     "accessionNumber": "0000702165-17-000018"
-  },
-  "FY2016Q3": {
-    "revenue": 2524000000,
-    "netIncome": 460000000,
-    "epsDiluted": 1.55,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-26",
-    "accessionNumber": "0000702165-16-000307"
   }
 }

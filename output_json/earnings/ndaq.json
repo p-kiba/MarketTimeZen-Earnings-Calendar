@@ -1,5 +1,20 @@
 {
   "companyName": "NASDAQ, INC.",
+  "FY2026Q3": {
+    "revenue": 2393000000,
+    "netIncome": 540000000,
+    "epsDiluted": 0.96,
+    "grossProfit": 1481000000,
+    "grossMargin": 0.6189,
+    "operatingCashFlow": 521000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-22",
+    "accessionNumber": "0001120193-26-000020"
+  },
   "FY2026Q2": {
     "revenue": 2532000000,
     "netIncome": 507000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-03-01",
     "accessionNumber": "0001120193-17-000003"
-  },
-  "FY2016Q3": {
-    "revenue": 929000000,
-    "netIncome": 131000000,
-    "epsDiluted": 0.77,
-    "grossProfit": 585000000,
-    "grossMargin": 0.6297,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-08",
-    "accessionNumber": "0001120193-16-000027"
   }
 }
