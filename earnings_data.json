@@ -3975,8 +3975,8 @@
     "symbol": "NKE",
     "date": "2026-10-01",
     "hour": "amc",
-    "quarter": 1,
-    "year": 2027,
+    "quarter": 3,
+    "year": 2026,
     "epsEstimate": 0.4364,
     "epsActual": 0.48,
     "revenueEstimate": 11428678300,
@@ -9864,6 +9864,18 @@
     "status": "changed"
   },
   {
+    "symbol": "WEC",
+    "date": "2026-10-29",
+    "hour": "bmo",
+    "quarter": 3,
+    "year": 2026,
+    "epsEstimate": 0.9756,
+    "epsActual": 0,
+    "revenueEstimate": 2285160925,
+    "revenueActual": 0,
+    "status": "confirmed"
+  },
+  {
     "symbol": "WST",
     "date": "2026-10-29",
     "hour": "bmo",
@@ -10581,7 +10593,7 @@
     "epsActual": 0,
     "revenueEstimate": 2922083772,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "unconfirmed"
   },
   {
     "symbol": "YUM",
@@ -11205,7 +11217,7 @@
     "epsActual": 0,
     "revenueEstimate": 2285160925,
     "revenueActual": 0,
-    "status": "confirmed"
+    "status": "changed"
   },
   {
     "symbol": "YUM",
@@ -13214,9 +13226,9 @@
   {
     "symbol": "HD",
     "date": "2026-11-17",
-    "hour": "",
+    "hour": "bmo",
     "quarter": 3,
-    "year": 2027,
+    "year": 2026,
     "epsEstimate": 3.9538,
     "epsActual": 0,
     "revenueEstimate": 44041604334,
@@ -13288,7 +13300,7 @@
     "date": "2026-11-18",
     "hour": "bmo",
     "quarter": 3,
-    "year": 2027,
+    "year": 2026,
     "epsEstimate": 2.8961,
     "epsActual": 0,
     "revenueEstimate": 22632192029,

@@ -1,5 +1,20 @@
 {
   "companyName": "Philip Morris International Inc.",
+  "FY2026Q3": {
+    "revenue": 11438000000,
+    "netIncome": 3313000000,
+    "epsDiluted": 2.12,
+    "grossProfit": 7854000000,
+    "grossMargin": 0.6867,
+    "operatingCashFlow": 5352000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-23",
+    "accessionNumber": "0001628280-26-066976"
+  },
   "FY2026Q2": {
     "revenue": 11192000000,
     "netIncome": 2817000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-14",
     "accessionNumber": "0001413329-17-000014"
-  },
-  "FY2016Q3": {
-    "revenue": 19935000000,
-    "netIncome": 1938000000,
-    "epsDiluted": 1.25,
-    "grossProfit": 4550000000,
-    "grossMargin": 0.2282,
-    "operatingCashFlow": 3092000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-25",
-    "accessionNumber": "0001413329-16-000105"
   }
 }
