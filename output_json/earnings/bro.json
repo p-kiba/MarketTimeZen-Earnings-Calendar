@@ -1,5 +1,20 @@
 {
   "companyName": "BROWN & BROWN, INC.",
+  "FY2026Q3": {
+    "revenue": 1725000000,
+    "netIncome": 240000000,
+    "epsDiluted": 0.67,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 532000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-26",
+    "accessionNumber": "0001193125-26-432146"
+  },
   "FY2026Q2": {
     "revenue": 1676000000,
     "netIncome": 288000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-24",
     "accessionNumber": "0000079282-17-000006"
-  },
-  "FY2016Q3": {
-    "revenue": 462274000,
-    "netIncome": 71545000,
-    "epsDiluted": 0.5,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-09",
-    "accessionNumber": "0000079282-16-000066"
   }
 }

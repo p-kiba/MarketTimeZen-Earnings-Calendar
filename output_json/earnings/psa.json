@@ -1,5 +1,20 @@
 {
   "companyName": "Public Storage",
+  "FY2026Q3": {
+    "revenue": 1366190000,
+    "netIncome": 366926000,
+    "epsDiluted": 1.69,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 708853000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-26",
+    "accessionNumber": "0001628280-26-067286"
+  },
   "FY2026Q2": {
     "revenue": 1232881000,
     "netIncome": 499960000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-03-01",
     "accessionNumber": "0001393311-17-000008"
-  },
-  "FY2016Q3": {
-    "revenue": 663148000,
-    "netIncome": 367305000,
-    "epsDiluted": 1.78,
-    "grossProfit": 484521000,
-    "grossMargin": 0.7306,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0001393311-16-000065"
   }
 }
