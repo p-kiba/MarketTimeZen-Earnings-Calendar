@@ -1,5 +1,20 @@
 {
   "companyName": "SHERWIN WILLIAMS CO",
+  "FY2026Q3": {
+    "revenue": 6860000000,
+    "netIncome": 821000000,
+    "epsDiluted": 3.38,
+    "grossProfit": 3277200000,
+    "grossMargin": 0.4777,
+    "operatingCashFlow": 1104500000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-27",
+    "accessionNumber": "0000089800-26-000056"
+  },
   "FY2026Q2": {
     "revenue": 6789300000,
     "netIncome": 843600000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-22",
     "accessionNumber": "0000089800-17-000005"
-  },
-  "FY2016Q3": {
-    "revenue": 3279462000,
-    "netIncome": 386733000,
-    "epsDiluted": 4.08,
-    "grossProfit": 1636289000,
-    "grossMargin": 0.499,
-    "operatingCashFlow": 456551000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-26",
-    "accessionNumber": "0000089800-16-000039"
   }
 }

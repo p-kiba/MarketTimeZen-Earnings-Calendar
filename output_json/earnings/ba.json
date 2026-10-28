@@ -1,5 +1,20 @@
 {
   "companyName": "BOEING CO",
+  "FY2026Q3": {
+    "revenue": 24188000000,
+    "netIncome": -116000000,
+    "epsDiluted": -0.26,
+    "grossProfit": 2167000000,
+    "grossMargin": 0.0896,
+    "operatingCashFlow": 1496000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-27",
+    "accessionNumber": "0001628280-26-067508"
+  },
   "FY2026Q2": {
     "revenue": 24560000000,
     "netIncome": -444000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-08",
     "accessionNumber": "0000012927-17-000006"
-  },
-  "FY2016Q3": {
-    "revenue": 23898000000,
-    "netIncome": 2279000000,
-    "epsDiluted": 3.6,
-    "grossProfit": 3994000000,
-    "grossMargin": 0.1671,
-    "operatingCashFlow": 3202000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-26",
-    "accessionNumber": "0000012927-16-000153"
   }
 }

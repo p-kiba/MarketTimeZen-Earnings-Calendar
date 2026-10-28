@@ -1,5 +1,20 @@
 {
   "companyName": "Xylem Inc.",
+  "FY2026Q3": {
+    "revenue": 2201000000,
+    "netIncome": 291000000,
+    "epsDiluted": 1.25,
+    "grossProfit": 907000000,
+    "grossMargin": 0.4121,
+    "operatingCashFlow": 331000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-27",
+    "accessionNumber": "0001524472-26-000148"
+  },
   "FY2026Q2": {
     "revenue": 2336000000,
     "netIncome": 263000000,
@@ -584,20 +599,5 @@
     "endDate": "2015-09-30",
     "filedDate": "2015-10-29",
     "accessionNumber": "0001524472-15-000023"
-  },
-  "FY2015Q2": {
-    "revenue": 920000000,
-    "netIncome": 74000000,
-    "epsDiluted": 0.41,
-    "grossProfit": 348000000,
-    "grossMargin": 0.3783,
-    "operatingCashFlow": 84000000,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2015-04-01",
-    "endDate": "2015-06-30",
-    "filedDate": "2015-07-30",
-    "accessionNumber": "0001524472-15-000015"
   }
 }

@@ -1,5 +1,35 @@
 {
   "companyName": "IQVIA HOLDINGS INC.",
+  "FY2026Q3": {
+    "revenue": 4428000000,
+    "netIncome": 350000000,
+    "epsDiluted": 2.1,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 825000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-27",
+    "accessionNumber": "0001628280-26-067646"
+  },
+  "FY2026Q2": {
+    "revenue": 4368000000,
+    "netIncome": 256000000,
+    "epsDiluted": 1.53,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 558000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-28",
+    "accessionNumber": "0001628280-26-050211"
+  },
   "FY2026Q1": {
     "revenue": 4151000000,
     "netIncome": 274000000,
@@ -569,35 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-16",
     "accessionNumber": "0001193125-17-046709"
-  },
-  "FY2016Q3": {
-    "revenue": 1497173000,
-    "netIncome": 99167000,
-    "epsDiluted": 0.82,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0001564590-16-027145"
-  },
-  "FY2016Q2": {
-    "revenue": 1552673000,
-    "netIncome": 86759000,
-    "epsDiluted": 0.71,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-27",
-    "accessionNumber": "0000950123-16-018554"
   }
 }
