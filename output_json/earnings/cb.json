@@ -1,5 +1,35 @@
 {
   "companyName": "Chubb Ltd",
+  "FY2026Q3": {
+    "revenue": 16195000000,
+    "netIncome": 2844000000,
+    "epsDiluted": 7.3,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 6071000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-28",
+    "accessionNumber": "0000896159-26-000021"
+  },
+  "FY2026Q2": {
+    "revenue": 15816000000,
+    "netIncome": 2854000000,
+    "epsDiluted": 7.3,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 3730000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-28",
+    "accessionNumber": "0000896159-26-000017"
+  },
   "FY2026Q1": {
     "revenue": 14773000000,
     "netIncome": 2320000000,
@@ -569,35 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-28",
     "accessionNumber": "0000896159-17-000004"
-  },
-  "FY2016Q3": {
-    "revenue": 8527000000,
-    "netIncome": 1360000000,
-    "epsDiluted": 2.88,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0000896159-16-000038"
-  },
-  "FY2016Q2": {
-    "revenue": 7897000000,
-    "netIncome": 726000000,
-    "epsDiluted": 1.54,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-05",
-    "accessionNumber": "0000896159-16-000036"
   }
 }

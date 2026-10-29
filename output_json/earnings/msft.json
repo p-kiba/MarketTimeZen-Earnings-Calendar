@@ -1,5 +1,20 @@
 {
   "companyName": "MICROSOFT CORP",
+  "FY2027Q1": {
+    "revenue": 92279000000,
+    "netIncome": 36629000000,
+    "epsDiluted": 4.92,
+    "grossProfit": 62559000000,
+    "grossMargin": 0.6779,
+    "operatingCashFlow": 58000000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-28",
+    "accessionNumber": "0001193125-26-436133"
+  },
   "FY2026Q4": {
     "revenue": 90007000000,
     "netIncome": 35766000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-01-26",
     "accessionNumber": "0001564590-17-000654"
-  },
-  "FY2017Q1": {
-    "revenue": 20453000000,
-    "netIncome": 4690000000,
-    "epsDiluted": 0.6,
-    "grossProfit": 12609000000,
-    "grossMargin": 0.6165,
-    "operatingCashFlow": null,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-20",
-    "accessionNumber": "0001193125-16-742796"
   }
 }

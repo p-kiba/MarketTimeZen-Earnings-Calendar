@@ -1,5 +1,35 @@
 {
   "companyName": "S&P Global Inc.",
+  "FY2026Q3": {
+    "revenue": 3678000000,
+    "netIncome": 1240000000,
+    "epsDiluted": 4.25,
+    "grossProfit": 2644000000,
+    "grossMargin": 0.7189,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-28",
+    "accessionNumber": "0000064040-26-000058"
+  },
+  "FY2026Q2": {
+    "revenue": 4146000000,
+    "netIncome": 1217000000,
+    "epsDiluted": 4.12,
+    "grossProfit": 2981000000,
+    "grossMargin": 0.719,
+    "operatingCashFlow": 1439000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-28",
+    "accessionNumber": "0000064040-26-000045"
+  },
   "FY2026Q1": {
     "revenue": 4171000000,
     "netIncome": 1395000000,
@@ -569,35 +599,5 @@
     "endDate": "2016-09-30",
     "filedDate": "2016-11-03",
     "accessionNumber": "0000064040-16-000109"
-  },
-  "FY2016Q2": {
-    "revenue": 1482000000,
-    "netIncome": 383000000,
-    "epsDiluted": 1.44,
-    "grossProfit": 1013000000,
-    "grossMargin": 0.6835,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-07-28",
-    "accessionNumber": "0000064040-16-000090"
-  },
-  "FY2016Q1": {
-    "revenue": 1341000000,
-    "netIncome": 294000000,
-    "epsDiluted": 1.1,
-    "grossProfit": 884000000,
-    "grossMargin": 0.6592,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-01-01",
-    "endDate": "2016-03-31",
-    "filedDate": "2016-04-26",
-    "accessionNumber": "0000064040-16-000059"
   }
 }

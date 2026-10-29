@@ -1,5 +1,20 @@
 {
   "companyName": "Aon plc",
+  "FY2026Q3": {
+    "revenue": 4101000000,
+    "netIncome": 476000000,
+    "epsDiluted": 2.23,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1191000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-28",
+    "accessionNumber": "0001628280-26-067879"
+  },
   "FY2026Q2": {
     "revenue": 4246000000,
     "netIncome": 551000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-23",
     "accessionNumber": "0001628280-17-001652"
-  },
-  "FY2016Q3": {
-    "revenue": 2746000000,
-    "netIncome": 314000000,
-    "epsDiluted": 1.14,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 711000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-28",
-    "accessionNumber": "0001628280-16-020443"
   }
 }

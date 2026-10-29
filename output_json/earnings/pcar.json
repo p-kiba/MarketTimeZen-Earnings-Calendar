@@ -1,5 +1,20 @@
 {
   "companyName": "PACCAR INC",
+  "FY2026Q3": {
+    "revenue": 7936500000,
+    "netIncome": 847500000,
+    "epsDiluted": 1.61,
+    "grossProfit": 1625500000,
+    "grossMargin": 0.2048,
+    "operatingCashFlow": 847700000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-28",
+    "accessionNumber": "0001193125-26-436124"
+  },
   "FY2026Q2": {
     "revenue": 7546700000,
     "netIncome": 752000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-21",
     "accessionNumber": "0001193125-17-050405"
-  },
-  "FY2016Q3": {
-    "revenue": 4249400000,
-    "netIncome": 346200000,
-    "epsDiluted": 0.98,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-04",
-    "accessionNumber": "0001193125-16-760179"
   }
 }
