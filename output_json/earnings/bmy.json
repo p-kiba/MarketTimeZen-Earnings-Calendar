@@ -1,5 +1,20 @@
 {
   "companyName": "BRISTOL MYERS SQUIBB CO",
+  "FY2026Q3": {
+    "revenue": 13069000000,
+    "netIncome": 2162000000,
+    "epsDiluted": 1.05,
+    "grossProfit": 8923000000,
+    "grossMargin": 0.6828,
+    "operatingCashFlow": 4181000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-29",
+    "accessionNumber": "0000014272-26-000024"
+  },
   "FY2026Q2": {
     "revenue": 12973000000,
     "netIncome": 3317000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-21",
     "accessionNumber": "0000014272-17-000047"
-  },
-  "FY2016Q3": {
-    "revenue": 4922000000,
-    "netIncome": 1202000000,
-    "epsDiluted": 0.72,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1397000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-27",
-    "accessionNumber": "0000014272-16-000491"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "TEXTRON INC",
+  "FY2026Q3": {
+    "revenue": 3751000000,
+    "netIncome": 270000000,
+    "epsDiluted": 1.56,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 425000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-05",
+    "endDate": "2026-10-03",
+    "filedDate": "2026-10-29",
+    "accessionNumber": "0000217346-26-000044"
+  },
   "FY2026Q2": {
     "revenue": 3827000000,
     "netIncome": 248000000,
@@ -584,20 +599,5 @@
     "endDate": "2012-12-29",
     "filedDate": "2013-02-15",
     "accessionNumber": "0001104659-13-011048"
-  },
-  "FY2012Q3": {
-    "revenue": 3000000000,
-    "netIncome": 151000000,
-    "epsDiluted": 0.51,
-    "grossProfit": 525000000,
-    "grossMargin": 0.175,
-    "operatingCashFlow": 372000000,
-    "fiscalYear": 2012,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2012-07-01",
-    "endDate": "2012-09-29",
-    "filedDate": "2012-10-25",
-    "accessionNumber": "0001104659-12-071046"
   }
 }
