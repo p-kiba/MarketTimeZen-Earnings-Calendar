@@ -1,5 +1,20 @@
 {
   "companyName": "GILEAD SCIENCES, INC.",
+  "FY2026Q3": {
+    "revenue": 8300000000,
+    "netIncome": 2429000000,
+    "epsDiluted": 1.94,
+    "grossProfit": 6729000000,
+    "grossMargin": 0.8107,
+    "operatingCashFlow": 5035000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-30",
+    "accessionNumber": "0000882095-26-000039"
+  },
   "FY2026Q2": {
     "revenue": 7803000000,
     "netIncome": -10496000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-27",
     "accessionNumber": "0000882095-17-000006"
-  },
-  "FY2016Q3": {
-    "revenue": 7500000000,
-    "netIncome": 3330000000,
-    "epsDiluted": 2.49,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 4330000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-07",
-    "accessionNumber": "0000882095-16-000060"
   }
 }

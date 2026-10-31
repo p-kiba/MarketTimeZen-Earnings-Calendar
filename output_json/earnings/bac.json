@@ -1,5 +1,20 @@
 {
   "companyName": "BANK OF AMERICA CORP /DE/",
+  "FY2026Q3": {
+    "revenue": 29958000000,
+    "netIncome": 6933000000,
+    "epsDiluted": 0.91,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": -6499000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-30",
+    "accessionNumber": "0000070858-26-000548"
+  },
   "FY2026Q2": {
     "revenue": 31558000000,
     "netIncome": 9074000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-23",
     "accessionNumber": "0000070858-17-000013"
-  },
-  "FY2016Q3": {
-    "revenue": 21635000000,
-    "netIncome": 4955000000,
-    "epsDiluted": 0.41,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-01",
-    "accessionNumber": "0000070858-16-000222"
   }
 }

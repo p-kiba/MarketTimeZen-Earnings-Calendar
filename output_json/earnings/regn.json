@@ -1,5 +1,20 @@
 {
   "companyName": "REGENERON PHARMACEUTICALS, INC.",
+  "FY2026Q3": {
+    "revenue": 5115800000,
+    "netIncome": 1948700000,
+    "epsDiluted": 18.45,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1783400000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-10-30",
+    "accessionNumber": "0000872589-26-000034"
+  },
   "FY2026Q2": {
     "revenue": 4290700000,
     "netIncome": 1296900000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-09",
     "accessionNumber": "0001532176-17-000008"
-  },
-  "FY2016Q3": {
-    "revenue": 1220122000,
-    "netIncome": 264804000,
-    "epsDiluted": 2.27,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 651029000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-04",
-    "accessionNumber": "0001532176-16-000082"
   }
 }
