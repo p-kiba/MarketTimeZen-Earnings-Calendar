@@ -1,5 +1,20 @@
 {
   "companyName": "ESTEE LAUDER COMPANIES INC",
+  "FY2027Q1": {
+    "revenue": 3715000000,
+    "netIncome": 233000000,
+    "epsDiluted": 0.64,
+    "grossProfit": 2813000000,
+    "grossMargin": 0.7572,
+    "operatingCashFlow": -166000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-02",
+    "accessionNumber": "0001001250-26-000060"
+  },
   "FY2026Q4": {
     "revenue": 3627000000,
     "netIncome": -116000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-02",
     "accessionNumber": "0001104659-17-006054"
-  },
-  "FY2017Q1": {
-    "revenue": 2865000000,
-    "netIncome": 296000000,
-    "epsDiluted": 0.79,
-    "grossProfit": 2269000000,
-    "grossMargin": 0.792,
-    "operatingCashFlow": null,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-02",
-    "accessionNumber": "0001104659-16-154197"
   }
 }

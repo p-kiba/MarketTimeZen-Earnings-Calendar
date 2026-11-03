@@ -1,5 +1,20 @@
 {
   "companyName": "Ally Financial Inc.",
+  "FY2026Q3": {
+    "revenue": 2332000000,
+    "netIncome": 433000000,
+    "epsDiluted": 1.3,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1595000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-02",
+    "accessionNumber": "0000040729-26-000023"
+  },
   "FY2026Q2": {
     "revenue": 2286000000,
     "netIncome": 410000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-27",
     "accessionNumber": "0000040729-17-000067"
-  },
-  "FY2016Q3": {
-    "revenue": 1384000000,
-    "netIncome": 209000000,
-    "epsDiluted": 0.43,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1167000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-02",
-    "accessionNumber": "0000040729-16-000780"
   }
 }
