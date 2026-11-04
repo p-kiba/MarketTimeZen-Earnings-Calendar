@@ -1,5 +1,20 @@
 {
   "companyName": "Eaton Corp plc",
+  "FY2026Q3": {
+    "revenue": 8947000000,
+    "netIncome": 1078000000,
+    "epsDiluted": 2.77,
+    "grossProfit": 3105000000,
+    "grossMargin": 0.347,
+    "operatingCashFlow": 1309000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-03",
+    "accessionNumber": "0001551182-26-000040"
+  },
   "FY2026Q2": {
     "revenue": 8531000000,
     "netIncome": 821000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-22",
     "accessionNumber": "0001551182-17-000014"
-  },
-  "FY2016Q3": {
-    "revenue": 4987000000,
-    "netIncome": 523000000,
-    "epsDiluted": 1.15,
-    "grossProfit": 1616000000,
-    "grossMargin": 0.324,
-    "operatingCashFlow": 798000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-01",
-    "accessionNumber": "0001551182-16-000106"
   }
 }

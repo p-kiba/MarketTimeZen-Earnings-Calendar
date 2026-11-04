@@ -1,5 +1,20 @@
 {
   "companyName": "Apple Inc.",
+  "FY2026Q4": {
+    "revenue": 114477000000,
+    "netIncome": 30711000000,
+    "epsDiluted": 2.11,
+    "grossProfit": 54820000000,
+    "grossMargin": 0.4789,
+    "operatingCashFlow": 28101000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 4,
+    "form": "10-K",
+    "startDate": "2026-06-27",
+    "endDate": "2026-09-26",
+    "filedDate": "2026-11-03",
+    "accessionNumber": "0000320193-26-000026"
+  },
   "FY2026Q3": {
     "revenue": 109417000000,
     "netIncome": 29789000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-01",
     "accessionNumber": "0001628280-17-000717"
-  },
-  "FY2016Q4": {
-    "revenue": 46852000000,
-    "netIncome": 9014000000,
-    "epsDiluted": 1.71,
-    "grossProfit": 17813000000,
-    "grossMargin": 0.3802,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2016-06-25",
-    "endDate": "2016-09-24",
-    "filedDate": "2016-10-26",
-    "accessionNumber": "0001628280-16-020309"
   }
 }

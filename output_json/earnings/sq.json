@@ -1,5 +1,20 @@
 {
   "companyName": "Block, Inc.",
+  "FY2026Q3": {
+    "revenue": 6719359000,
+    "netIncome": 565551000,
+    "epsDiluted": 0.92,
+    "grossProfit": 3235273000,
+    "grossMargin": 0.4815,
+    "operatingCashFlow": 1016165000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-03",
+    "accessionNumber": "0001628280-26-069524"
+  },
   "FY2026Q2": {
     "revenue": 6617687000,
     "netIncome": 88517000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-27",
     "accessionNumber": "0001628280-17-001754"
-  },
-  "FY2016Q3": {
-    "revenue": 439002000,
-    "netIncome": -32323000,
-    "epsDiluted": -0.09,
-    "grossProfit": 150314000,
-    "grossMargin": 0.3424,
-    "operatingCashFlow": 78006000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-02",
-    "accessionNumber": "0001628280-16-020645"
   }
 }
