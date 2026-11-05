@@ -1,5 +1,20 @@
 {
   "companyName": "Sunrun Inc.",
+  "FY2026Q3": {
+    "revenue": 1099498000,
+    "netIncome": 153246000,
+    "epsDiluted": 0.56,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 301380000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-04",
+    "accessionNumber": "0001628280-26-070158"
+  },
   "FY2026Q2": {
     "revenue": 869988000,
     "netIncome": 115152000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-03-08",
     "accessionNumber": "0001564590-17-003704"
-  },
-  "FY2016Q3": {
-    "revenue": 112033000,
-    "netIncome": 16878000,
-    "epsDiluted": 0.16,
-    "grossProfit": 54769000,
-    "grossMargin": 0.4889,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-10",
-    "accessionNumber": "0001564590-16-028935"
   }
 }

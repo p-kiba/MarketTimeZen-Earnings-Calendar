@@ -1,5 +1,20 @@
 {
   "companyName": "ARCH CAPITAL GROUP LTD.",
+  "FY2026Q3": {
+    "revenue": 4655000000,
+    "netIncome": 1035000000,
+    "epsDiluted": 3,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1759000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-04",
+    "accessionNumber": "0000947484-26-000152"
+  },
   "FY2026Q2": {
     "revenue": 4668000000,
     "netIncome": 1057000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-03-31",
     "filedDate": "2016-05-06",
     "accessionNumber": "0000947484-16-000054"
-  },
-  "FY2015Q4": {
-    "revenue": 902004000,
-    "netIncome": 58579000,
-    "epsDiluted": 0.45,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2015-09-30",
-    "endDate": "2015-12-31",
-    "filedDate": "2016-02-26",
-    "accessionNumber": "0000947484-16-000043"
   }
 }

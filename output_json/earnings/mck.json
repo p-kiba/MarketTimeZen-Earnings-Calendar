@@ -1,5 +1,20 @@
 {
   "companyName": "MCKESSON CORP",
+  "FY2027Q2": {
+    "revenue": 110957000000,
+    "netIncome": 1218000000,
+    "epsDiluted": 10.44,
+    "grossProfit": 3956000000,
+    "grossMargin": 0.0357,
+    "operatingCashFlow": 3070000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-04",
+    "accessionNumber": "0000927653-26-000281"
+  },
   "FY2027Q1": {
     "revenue": 105380000000,
     "netIncome": 614000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-01-26",
     "accessionNumber": "0000927653-17-000003"
-  },
-  "FY2017Q2": {
-    "revenue": 49957000000,
-    "netIncome": 307000000,
-    "epsDiluted": 1.34,
-    "grossProfit": 2756000000,
-    "grossMargin": 0.0552,
-    "operatingCashFlow": 1069000000,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-27",
-    "accessionNumber": "0000927653-16-000031"
   }
 }

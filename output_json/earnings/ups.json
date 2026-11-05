@@ -1,5 +1,20 @@
 {
   "companyName": "UNITED PARCEL SERVICE INC",
+  "FY2026Q3": {
+    "revenue": 22853000000,
+    "netIncome": 1163000000,
+    "epsDiluted": 1.37,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2903000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-04",
+    "accessionNumber": "0001628280-26-070246"
+  },
   "FY2026Q2": {
     "revenue": 22834000000,
     "netIncome": 604000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-21",
     "accessionNumber": "0001090727-17-000011"
-  },
-  "FY2016Q3": {
-    "revenue": 14928000000,
-    "netIncome": 1270000000,
-    "epsDiluted": 1.44,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 670000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0001090727-16-000086"
   }
 }
