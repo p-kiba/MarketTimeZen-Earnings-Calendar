@@ -1,5 +1,20 @@
 {
   "companyName": "Interactive Brokers Group, Inc.",
+  "FY2026Q3": {
+    "revenue": 690000000,
+    "netIncome": 1348000000,
+    "epsDiluted": 0.69,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 858000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0001381197-26-000163"
+  },
   "FY2026Q2": {
     "revenue": 760000000,
     "netIncome": 1338000000,
@@ -584,20 +599,5 @@
     "endDate": "2015-12-31",
     "filedDate": "2016-02-29",
     "accessionNumber": "0001047469-16-010549"
-  },
-  "FY2015Q3": {
-    "revenue": 375000000,
-    "netIncome": 182000000,
-    "epsDiluted": 0.35,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2015-07-01",
-    "endDate": "2015-09-30",
-    "filedDate": "2015-11-09",
-    "accessionNumber": "0001381197-15-000040"
   }
 }

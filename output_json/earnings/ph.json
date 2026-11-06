@@ -1,5 +1,20 @@
 {
   "companyName": "Parker-Hannifin Corp",
+  "FY2027Q1": {
+    "revenue": 5992000000,
+    "netIncome": 884000000,
+    "epsDiluted": 6.92,
+    "grossProfit": 2261000000,
+    "grossMargin": 0.3773,
+    "operatingCashFlow": 752000000,
+    "fiscalYear": 2027,
+    "fiscalQuarter": 1,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0000076334-26-000172"
+  },
   "FY2026Q4": {
     "revenue": 5755000000,
     "netIncome": 1092000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-07",
     "accessionNumber": "0000076334-17-000012"
-  },
-  "FY2017Q1": {
-    "revenue": 2743131000,
-    "netIncome": 210129000,
-    "epsDiluted": 1.55,
-    "grossProfit": 637125000,
-    "grossMargin": 0.2323,
-    "operatingCashFlow": 113932000,
-    "fiscalYear": 2017,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-01",
-    "accessionNumber": "0000076334-16-000220"
   }
 }

@@ -1,5 +1,20 @@
 {
   "companyName": "CHEVRON CORP",
+  "FY2026Q3": {
+    "revenue": 67798000000,
+    "netIncome": 9924000000,
+    "epsDiluted": 5.06,
+    "grossProfit": 31264000000,
+    "grossMargin": 0.4611,
+    "operatingCashFlow": 16014000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0000093410-26-000200"
+  },
   "FY2026Q2": {
     "revenue": 70055000000,
     "netIncome": 12072000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-23",
     "accessionNumber": "0000093410-17-000013"
-  },
-  "FY2016Q3": {
-    "revenue": 30140000000,
-    "netIncome": 1283000000,
-    "epsDiluted": 0.68,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 5311000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0000093410-16-000083"
   }
 }

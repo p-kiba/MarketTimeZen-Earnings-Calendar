@@ -1,5 +1,20 @@
 {
   "companyName": "Arthur J. Gallagher & Co.",
+  "FY2026Q3": {
+    "revenue": 3976000000,
+    "netIncome": 403000000,
+    "epsDiluted": 1.55,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1343000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0001628280-26-070650"
+  },
   "FY2026Q2": {
     "revenue": 4003000000,
     "netIncome": 324000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-13",
     "accessionNumber": "0001193125-17-038619"
-  },
-  "FY2016Q3": {
-    "revenue": 1482300000,
-    "netIncome": 122800000,
-    "epsDiluted": 0.69,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-28",
-    "accessionNumber": "0001193125-16-751281"
   }
 }

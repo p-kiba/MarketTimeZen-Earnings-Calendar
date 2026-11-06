@@ -1,5 +1,20 @@
 {
   "companyName": "KIMBERLY CLARK CORP",
+  "FY2026Q3": {
+    "revenue": 4134000000,
+    "netIncome": 1793000000,
+    "epsDiluted": 5.37,
+    "grossProfit": 1441000000,
+    "grossMargin": 0.3486,
+    "operatingCashFlow": 755000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0001628280-26-070754"
+  },
   "FY2026Q2": {
     "revenue": 4189000000,
     "netIncome": 345000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-08",
     "accessionNumber": "0000055785-17-000017"
-  },
-  "FY2016Q3": {
-    "revenue": 4594000000,
-    "netIncome": 550000000,
-    "epsDiluted": 1.52,
-    "grossProfit": 1670000000,
-    "grossMargin": 0.3635,
-    "operatingCashFlow": 948000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-10-24",
-    "accessionNumber": "0000055785-16-000194"
   }
 }

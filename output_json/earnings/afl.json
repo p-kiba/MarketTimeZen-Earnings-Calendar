@@ -1,5 +1,20 @@
 {
   "companyName": "AFLAC INC",
+  "FY2026Q3": {
+    "revenue": 3271000000,
+    "netIncome": 303000000,
+    "epsDiluted": 0.61,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1197000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0001628280-26-070776"
+  },
   "FY2026Q2": {
     "revenue": 4117000000,
     "netIncome": 825000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-24",
     "accessionNumber": "0000004977-17-000064"
-  },
-  "FY2016Q3": {
-    "revenue": 5716000000,
-    "netIncome": 629000000,
-    "epsDiluted": 1.53,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 1266000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-04",
-    "accessionNumber": "0000004977-16-000373"
   }
 }

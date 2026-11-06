@@ -1,5 +1,20 @@
 {
   "companyName": "Zoetis Inc.",
+  "FY2026Q3": {
+    "revenue": 2391000000,
+    "netIncome": 591000000,
+    "epsDiluted": 1.44,
+    "grossProfit": 1693000000,
+    "grossMargin": 0.7081,
+    "operatingCashFlow": 824000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-05",
+    "accessionNumber": "0001555280-26-000050"
+  },
   "FY2026Q2": {
     "revenue": 2468000000,
     "netIncome": 691000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-16",
     "accessionNumber": "0001555280-17-000044"
-  },
-  "FY2016Q3": {
-    "revenue": 1241000000,
-    "netIncome": 239000000,
-    "epsDiluted": 0.48,
-    "grossProfit": 831000000,
-    "grossMargin": 0.6696,
-    "operatingCashFlow": 239000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-04",
-    "endDate": "2016-10-02",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0001555280-16-000488"
   }
 }
