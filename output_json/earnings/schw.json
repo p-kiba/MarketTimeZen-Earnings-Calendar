@@ -1,5 +1,20 @@
 {
   "companyName": "SCHWAB CHARLES CORP",
+  "FY2026Q3": {
+    "revenue": 7171000000,
+    "netIncome": 2906000000,
+    "epsDiluted": 1.62,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1614000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-06",
+    "accessionNumber": "0000316709-26-000038"
+  },
   "FY2026Q2": {
     "revenue": 7072000000,
     "netIncome": 2800000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-23",
     "accessionNumber": "0000316709-17-000010"
-  },
-  "FY2016Q3": {
-    "revenue": 1914000000,
-    "netIncome": 503000000,
-    "epsDiluted": 0.35,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-07",
-    "accessionNumber": "0000316709-16-000101"
   }
 }

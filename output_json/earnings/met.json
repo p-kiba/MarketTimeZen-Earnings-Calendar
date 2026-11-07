@@ -1,5 +1,20 @@
 {
   "companyName": "METLIFE INC",
+  "FY2026Q3": {
+    "revenue": 20522000000,
+    "netIncome": 2397000000,
+    "epsDiluted": 3.67,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2000000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-06",
+    "accessionNumber": "0001099219-26-000062"
+  },
   "FY2026Q2": {
     "revenue": 19154000000,
     "netIncome": 736000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-03-01",
     "accessionNumber": "0000937834-17-000003"
-  },
-  "FY2016Q3": {
-    "revenue": 17723000000,
-    "netIncome": 577000000,
-    "epsDiluted": 0.51,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 2928000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-03",
-    "accessionNumber": "0000937834-16-000140"
   }
 }

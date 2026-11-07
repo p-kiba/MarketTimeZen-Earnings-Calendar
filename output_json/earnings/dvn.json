@@ -1,5 +1,20 @@
 {
   "companyName": "DEVON ENERGY CORP/DE",
+  "FY2026Q3": {
+    "revenue": 6860000000,
+    "netIncome": 1008000000,
+    "epsDiluted": 0.88,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2808000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-06",
+    "accessionNumber": "0001193125-26-451216"
+  },
   "FY2026Q2": {
     "revenue": 7417000000,
     "netIncome": 1911000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-15",
     "accessionNumber": "0001564590-17-001607"
-  },
-  "FY2016Q3": {
-    "revenue": 4233000000,
-    "netIncome": 993000000,
-    "epsDiluted": 1.89,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-02",
-    "accessionNumber": "0001564590-16-026889"
   }
 }

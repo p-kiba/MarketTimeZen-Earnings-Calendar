@@ -1,5 +1,35 @@
 {
   "companyName": "HUMANA INC",
+  "FY2026Q3": {
+    "revenue": 41155000000,
+    "netIncome": 162000000,
+    "epsDiluted": 1.33,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 2163000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-06",
+    "accessionNumber": "0000049071-26-000066"
+  },
+  "FY2026Q2": {
+    "revenue": 40867000000,
+    "netIncome": 694000000,
+    "epsDiluted": 5.73,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 1966000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 2,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-29",
+    "accessionNumber": "0000049071-26-000050"
+  },
   "FY2026Q1": {
     "revenue": 39648000000,
     "netIncome": 1186000000,
@@ -569,35 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-17",
     "accessionNumber": "0000049071-17-000019"
-  },
-  "FY2016Q3": {
-    "revenue": 13694000000,
-    "netIncome": 450000000,
-    "epsDiluted": 2.98,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 4503000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-04",
-    "accessionNumber": "0000049071-16-000184"
-  },
-  "FY2016Q2": {
-    "revenue": 14007000000,
-    "netIncome": 311000000,
-    "epsDiluted": 2.06,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": -276000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 2,
-    "form": "10-Q",
-    "startDate": "2016-04-01",
-    "endDate": "2016-06-30",
-    "filedDate": "2016-08-03",
-    "accessionNumber": "0000049071-16-000169"
   }
 }
