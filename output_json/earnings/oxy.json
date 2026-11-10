@@ -1,5 +1,20 @@
 {
   "companyName": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "FY2026Q3": {
+    "revenue": 6567000000,
+    "netIncome": 1821000000,
+    "epsDiluted": 1.61,
+    "grossProfit": null,
+    "grossMargin": null,
+    "operatingCashFlow": 3672000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-09",
+    "accessionNumber": "0001628280-26-072198"
+  },
   "FY2026Q2": {
     "revenue": 8065000000,
     "netIncome": 2996000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-23",
     "accessionNumber": "0000797468-17-000003"
-  },
-  "FY2016Q3": {
-    "revenue": 2733000000,
-    "netIncome": -241000000,
-    "epsDiluted": -0.32,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": 650000000,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-07-01",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-01",
-    "accessionNumber": "0000797468-16-000039"
   }
 }
