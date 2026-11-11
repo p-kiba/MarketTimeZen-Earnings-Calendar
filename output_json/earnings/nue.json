@@ -1,5 +1,20 @@
 {
   "companyName": "NUCOR CORP",
+  "FY2026Q3": {
+    "revenue": 11249000000,
+    "netIncome": 1319000000,
+    "epsDiluted": 5.8,
+    "grossProfit": 2326000000,
+    "grossMargin": 0.2068,
+    "operatingCashFlow": 2236000000,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-07-05",
+    "endDate": "2026-10-03",
+    "filedDate": "2026-11-10",
+    "accessionNumber": "0001193125-26-454565"
+  },
   "FY2026Q2": {
     "revenue": 10397000000,
     "netIncome": 1156000000,
@@ -584,20 +599,5 @@
     "endDate": "2016-07-02",
     "filedDate": "2016-08-10",
     "accessionNumber": "0001193125-16-677912"
-  },
-  "FY2016Q1": {
-    "revenue": 3715576000,
-    "netIncome": 70754000,
-    "epsDiluted": 0.22,
-    "grossProfit": null,
-    "grossMargin": null,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2016-01-01",
-    "endDate": "2016-04-02",
-    "filedDate": "2016-05-11",
-    "accessionNumber": "0001193125-16-586874"
   }
 }
