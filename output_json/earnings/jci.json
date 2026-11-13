@@ -1,5 +1,35 @@
 {
   "companyName": "Johnson Controls International plc",
+  "FY2026Q4": {
+    "revenue": 7113000000,
+    "netIncome": 967000000,
+    "epsDiluted": 1.6,
+    "grossProfit": 2705000000,
+    "grossMargin": 0.3803,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 4,
+    "form": "10-K",
+    "startDate": "2026-06-30",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-12",
+    "accessionNumber": "0000833444-26-000108"
+  },
+  "FY2026Q3": {
+    "revenue": 6614000000,
+    "netIncome": 749000000,
+    "epsDiluted": 1.23,
+    "grossProfit": 2474000000,
+    "grossMargin": 0.3741,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 3,
+    "form": "10-Q",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "filedDate": "2026-07-29",
+    "accessionNumber": "0000833444-26-000087"
+  },
   "FY2026Q2": {
     "revenue": 6142000000,
     "netIncome": 613000000,
@@ -569,35 +599,5 @@
     "endDate": "2016-12-31",
     "filedDate": "2017-02-08",
     "accessionNumber": "0000833444-17-000007"
-  },
-  "FY2016Q4": {
-    "revenue": 30518000000,
-    "netIncome": -1329000000,
-    "epsDiluted": -2.38,
-    "grossProfit": 3114000000,
-    "grossMargin": 0.102,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 4,
-    "form": "10-K",
-    "startDate": "2016-06-24",
-    "endDate": "2016-09-30",
-    "filedDate": "2016-11-23",
-    "accessionNumber": "0000833444-16-000216"
-  },
-  "FY2016Q3": {
-    "revenue": 2449000000,
-    "netIncome": 239000000,
-    "epsDiluted": 0.56,
-    "grossProfit": 1423000000,
-    "grossMargin": 0.5811,
-    "operatingCashFlow": null,
-    "fiscalYear": 2016,
-    "fiscalQuarter": 3,
-    "form": "10-Q",
-    "startDate": "2016-03-26",
-    "endDate": "2016-06-24",
-    "filedDate": "2016-07-29",
-    "accessionNumber": "0000833444-16-000197"
   }
 }
