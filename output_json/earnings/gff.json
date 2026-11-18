@@ -1,5 +1,20 @@
 {
   "companyName": "GRIFFON CORP",
+  "FY2026Q4": {
+    "revenue": 296060000,
+    "netIncome": 185902000,
+    "epsDiluted": 4.11,
+    "grossProfit": 172170000,
+    "grossMargin": 0.5815,
+    "operatingCashFlow": null,
+    "fiscalYear": 2026,
+    "fiscalQuarter": 4,
+    "form": "10-K",
+    "startDate": "2026-06-30",
+    "endDate": "2026-09-30",
+    "filedDate": "2026-11-17",
+    "accessionNumber": "0001628280-26-074580"
+  },
   "FY2026Q3": {
     "revenue": 481370000,
     "netIncome": 51632000,
@@ -584,20 +599,5 @@
     "endDate": "2015-03-31",
     "filedDate": "2015-04-30",
     "accessionNumber": "0000050725-15-000042"
-  },
-  "FY2015Q1": {
-    "revenue": 502160000,
-    "netIncome": 7471000,
-    "epsDiluted": 0.16,
-    "grossProfit": 117989000,
-    "grossMargin": 0.235,
-    "operatingCashFlow": null,
-    "fiscalYear": 2015,
-    "fiscalQuarter": 1,
-    "form": "10-Q",
-    "startDate": "2014-10-01",
-    "endDate": "2014-12-31",
-    "filedDate": "2015-01-29",
-    "accessionNumber": "0000050725-15-000006"
   }
 }
